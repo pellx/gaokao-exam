@@ -149,6 +149,6 @@ math-2026-mock3-xicheng-school-beishidaerfuzhong.pdf
 
 ## 清单与维护
 
-`pipeline/manifests/files.csv` 记录当前原卷实际路径；题目 JSON、任务清单中的原卷引用应随文件移动同步更新。旧下载、目录重组和网页索引脚本仅作为历史档案保存在 `backup/scripts/`，不属于当前处理入口。后续 2026 年任务生成器会将结果写入 `parsed/` 目录结构。
+`pipeline/manifests/files.csv` 记录当前原卷实际路径，1099 条记录全部指向实际存在的文件；其中 81 条来源网页记录指向本地归档 `backup/data/original_downloads/source_pages/`，该目录不入库。题目 JSON、任务清单中的原卷引用应随文件移动同步更新。旧下载、目录重组和网页索引脚本仅作为历史档案保存在 `backup/scripts/`，不属于当前处理入口。后续 2026 年任务生成器会将结果写入 `parsed/` 目录结构。
 
 控制器参数、断点续跑和故障策略见 [pipeline/README.md](pipeline/README.md)；原生调度器见 [pipeline/native/README.md](pipeline/native/README.md)。
