@@ -1,0 +1,1055 @@
+{
+  "format": "chinese-ancient-recitation/v1",
+  "generated_at": "2026-11-11T19:42:04.512451+00:00",
+  "description": "2022—2026 年北京高考语文真题中的古诗文、名篇名句默写题及公开转载参考答案；不包含诗歌鉴赏、文言文阅读、翻译、《红楼梦》或一般名著阅读。",
+  "scope": {
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "regions": [
+      "北京"
+    ],
+    "paper_type": "普通高等学校招生全国统一考试（北京卷）语文真题",
+    "source_root": "data/gaokao_beijing_recitation/work",
+    "official_gaokao_papers_in_source": true,
+    "source_provenance": "公开转载的试题与参考答案资料；不将第三方网页标注的‘官方版’视为官方来源证明。",
+    "mixed_with_mock_exams": false,
+    "page_number_note": "question_pages、answer_pages 使用来源文件内印刷页码；纯网页来源无固定页码，以空数组表示，不虚构页码。"
+  },
+  "extraction": {
+    "model": "opencode-go/deepseek-v4.1-flash#high",
+    "method": "逐年独立子代理提取；图片页直接识图，PDF 同时保留分页文本；答案只来自所收集参考答案，不由模型补写；2025、2026 年另用公开文字来源交叉核对。",
+    "independent_review": {
+      "completed": true,
+      "accepted_paper_count": 5,
+      "status_counts": {
+        "accept": 5
+      },
+      "per_paper_reports": "每份 paper.review 保留独立复核范围、结论、问题和说明。"
+    }
+  },
+  "coverage": {
+    "expected_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "covered_years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "unique_paper_count": 5,
+    "processed_paper_count": 5,
+    "needs_review_papers": [],
+    "not_found_papers": [],
+    "source_file_count": 15,
+    "source_files": [
+      {
+        "paper_id": "G2022",
+        "path": "data/gaokao_beijing_recitation/work/documents/2022/questions.docx",
+        "bytes": 46867,
+        "sha256": "211491fecdb9bf9b578b6907ac5b094062d172ceaf4d5190731cc1b2dba57627"
+      },
+      {
+        "paper_id": "G2022",
+        "path": "data/gaokao_beijing_recitation/work/images/2022/page_05.png",
+        "bytes": 634835,
+        "sha256": "3f53cb4e90701f23f361434d2b7e824065c7fe807ecbf694241feef40b9a9bdb"
+      },
+      {
+        "paper_id": "G2022",
+        "path": "data/gaokao_beijing_recitation/work/pages/2022/source.html",
+        "bytes": 130006,
+        "sha256": "dab22376a50bafa0fb671dbe6d64fbf2f252e2787cb3a49c21a6cf4c0f2f2dfa"
+      },
+      {
+        "paper_id": "G2023",
+        "path": "data/gaokao_beijing_recitation/work/images/2023/yw06.png",
+        "bytes": 577229,
+        "sha256": "47e7a89c48e0debfeb88c88d8374fbd44056dba8400f9378ca8c3fd75dd6af29"
+      },
+      {
+        "paper_id": "G2023",
+        "path": "data/gaokao_beijing_recitation/work/images/2023/yw10.png",
+        "bytes": 406022,
+        "sha256": "8166d6f381c8106661e7e59197af4570011fea6c31318fcdb9c88d44ea99a672"
+      },
+      {
+        "paper_id": "G2023",
+        "path": "data/gaokao_beijing_recitation/work/pages/2023/source.html",
+        "bytes": 169133,
+        "sha256": "3ba6e6be7c4a50de44be1ba5e6f2c86abbbac5fe329ce2f27dad66e8e5fb3479"
+      },
+      {
+        "paper_id": "G2024",
+        "path": "data/gaokao_beijing_recitation/work/images/2024/yw05.png",
+        "bytes": 516533,
+        "sha256": "0589e5e4772b854cf0a581375f8fdc797758a0b2eb7ac46a50f9a1291f026274"
+      },
+      {
+        "paper_id": "G2024",
+        "path": "data/gaokao_beijing_recitation/work/images/2024/yw06.png",
+        "bytes": 608779,
+        "sha256": "a8a2b7e1691050abaa8b1daa738f89f7283433a811ad751649651b50068000da"
+      },
+      {
+        "paper_id": "G2024",
+        "path": "data/gaokao_beijing_recitation/work/images/2024/yw11.png",
+        "bytes": 681793,
+        "sha256": "ddd2ad229dfa10eac9624618d3db9ae2c099602eb1d69488344bc7d0fc5d38bc"
+      },
+      {
+        "paper_id": "G2024",
+        "path": "data/gaokao_beijing_recitation/work/pages/2024/source.html",
+        "bytes": 168880,
+        "sha256": "c6889eb3e0cb785f1986f6016c27b1be4c40c91fa3d80a46035204c5e1fb5d9c"
+      },
+      {
+        "paper_id": "G2025",
+        "path": "data/gaokao_beijing_recitation/work/pdfs/2025/questions.pdf",
+        "bytes": 827293,
+        "sha256": "044f37e768cf6df9aa429a19ef04c479ced30a60e62b854b0b800bd0ca5cdf80"
+      },
+      {
+        "paper_id": "G2025",
+        "path": "data/gaokao_beijing_recitation/work/pdfs/2025/answers.pdf",
+        "bytes": 1600758,
+        "sha256": "1a9e38c6b14bec343270da3d03519b22d02c76a8ce3496d06d71829933dba244"
+      },
+      {
+        "paper_id": "G2025",
+        "path": "data/gaokao_beijing_recitation/work/pages/2025_sohu/source.html",
+        "bytes": 93842,
+        "sha256": "beaa6e1b36e2f1eaac41ce3d87f2571a156014216f8c46973a125e4245aef724"
+      },
+      {
+        "paper_id": "G2026",
+        "path": "data/gaokao_beijing_recitation/work/pages/2026_sohu/source.html",
+        "bytes": 43571,
+        "sha256": "720eb3a7efb3c040d30099373b8a85b8262f475baa14b2f7f94b808997d39884"
+      },
+      {
+        "paper_id": "G2026",
+        "path": "data/gaokao_beijing_recitation/work/pages/2026_sohu_analysis/source.html",
+        "bytes": 90162,
+        "sha256": "f8e4c7463c3bdd3b493f80e55d4794b50640d101129b00a07aa241f8cac3a587"
+      }
+    ]
+  },
+  "statistics": {
+    "paper_count": 5,
+    "papers_with_recitation": 5,
+    "question_count": 5,
+    "item_count": 20,
+    "blank_count": 40,
+    "answer_slot_count": 40,
+    "answer_count": 40,
+    "alternate_answer_count": 4,
+    "missing_answer_items": 0,
+    "uncertain_answer_items": 0
+  },
+  "papers": [
+    {
+      "paper_id": "G2022",
+      "title": "2022年普通高等学校招生全国统一考试（北京卷）语文",
+      "year": 2022,
+      "kind": "高考真题",
+      "district": "北京",
+      "school": null,
+      "variant": "北京卷",
+      "source_files": [
+        "data/gaokao_beijing_recitation/work/documents/2022/questions.docx",
+        "data/gaokao_beijing_recitation/work/images/2022/page_05.png",
+        "data/gaokao_beijing_recitation/work/pages/2022/source.html"
+      ],
+      "source_urls": [
+        {
+          "role": "question_page_images",
+          "url": "https://gaokao.eol.cn/shiti/yw/202303/t20230314_2324023.shtml"
+        },
+        {
+          "role": "question_docx",
+          "url": "https://gaokao.eol.cn/shiti/yw/202303/W020230314407715432528.docx"
+        },
+        {
+          "role": "question_and_answer_text",
+          "url": "https://www.e-chinaedu.cn/html/kaoshi/2023/gaokao_0512/102743.shtml"
+        }
+      ],
+      "duplicate_files": [],
+      "status": "ok",
+      "questions": [
+        {
+          "number": "14",
+          "instruction": "在横线处填写作品原句。（共8分）",
+          "question_pages": [
+            5
+          ],
+          "items": [
+            {
+              "label": "（1）",
+              "context": "诗歌之妙在言有尽而意无穷。李商隐就善于表现含蓄蕴藉之美，如《锦瑟》中间两联：“庄生晓梦迷蝴蝶，望帝春心托杜鹃。__________，__________。”",
+              "works": [
+                {
+                  "title": "锦瑟",
+                  "author": "李商隐"
+                }
+              ],
+              "answers": [
+                {
+                  "text": "沧海月明珠有泪",
+                  "work_title": "锦瑟",
+                  "author": "李商隐"
+                },
+                {
+                  "text": "蓝田日暖玉生烟",
+                  "work_title": "锦瑟",
+                  "author": "李商隐"
+                }
+              ],
+              "alternate_answers": [],
+              "answer_status": "provided",
+              "answer_pages": []
+            },
+            {
+              "label": "（2）",
+              "context": "姜夔在《扬州慢》中描写了兵乱后扬州的沧桑变化：“__________，__________。自胡马窥江去后，废池乔木，犹厌言兵。”",
+              "works": [
+                {
+                  "title": "扬州慢",
+                  "author": "姜夔"
+                }
+              ],
+              "answers": [
+                {
+                  "text": "过春风十里",
+                  "work_title": "扬州慢",
+                  "author": "姜夔"
+                },
+                {
+                  "text": "尽荠麦青青",
+                  "work_title": "扬州慢",
+                  "author": "姜夔"
+                }
+              ],
+              "alternate_answers": [],
+              "answer_status": "provided",
+              "answer_pages": []
+            },
+            {
+              "label": "（3）",
+              "context": "近代以来，中华民族饱受列强欺凌，因此绝不会将自己曾经遭受的苦难强加给其他国家与民族，正如《论语》所谓：“__________，__________。”",
+              "works": [
+                {
+                  "title": "论语",
+                  "author": null
+                }
+              ],
+              "answers": [
+                {
+                  "text": "己所不欲",
+                  "work_title": "论语",
+                  "author": null
+                },
+                {
+                  "text": "勿施于人",
+                  "work_title": "论语",
+                  "author": null
+                }
+              ],
+              "alternate_answers": [
+                {
+                  "label": "或",
+                  "answers": [
+                    {
+                      "text": "我不欲人之加诸我也",
+                      "work_title": "论语",
+                      "author": null
+                    },
+                    {
+                      "text": "吾亦欲无加诸人",
+                      "work_title": "论语",
+                      "author": null
+                    }
+                  ]
+                }
+              ],
+              "answer_status": "provided",
+              "answer_pages": []
+            },
+            {
+              "label": "（4）",
+              "context": "每个人都难免有自己的知识盲区，遇到不懂的领域，应该虚心听取专业人士的意见，正如《师说》所谓：“__________，__________。”",
+              "works": [
+                {
+                  "title": "师说",
+                  "author": "韩愈"
+                }
+              ],
+              "answers": [
+                {
+                  "text": "道之所存",
+                  "work_title": "师说",
+                  "author": "韩愈"
+                },
+                {
+                  "text": "师之所存也",
+                  "work_title": "师说",
+                  "author": "韩愈"
+                }
+              ],
+              "alternate_answers": [
+                {
+                  "label": "或",
+                  "answers": [
+                    {
+                      "text": "闻道有先后",
+                      "work_title": "师说",
+                      "author": "韩愈"
+                    },
+                    {
+                      "text": "术业有专攻",
+                      "work_title": "师说",
+                      "author": "韩愈"
+                    }
+                  ]
+                }
+              ],
+              "answer_status": "provided",
+              "answer_pages": []
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "题干据 question_image（images/2022/page_05.png，印刷页码第5页）：第14题及各小问完整位于该页，无跨页小问，故 question_pages 为 [5]。",
+        "答案据 answer_text（pages/2022/article.txt）；该网页无固定页码，故 answer_pages 均为 []，未虚构页码。",
+        "supplementary_question_text（documents/2022/questions.txt）与试题图片文字一致，仅标点形式（如“．”与“.”）及空白横线长度不同；空白线按 schema 统一记作 __________，未改动题干文字。",
+        "参考答案对第（3）（4）小问以“或：”列出备选：《论语》另作“我不欲人之加诸我也／吾亦欲无加诸人”，《师说》另作“闻道有先后／术业有专攻”；基本 answers 只取首选，备选整组置于 alternate_answers。",
+        "《论语》为语录体汇编，题干未标作者，编纂者不能由题干或基本文献常识唯一确定，故 works 与 answers 的 author 记为 null。",
+        "转载差异：网页文字与试题图片在引号、括号全半角及个别标点（如括号、分号）上存在排版差异，文字内容一致，未作静默统一。"
+      ],
+      "review": {
+        "paper_id": "G2022",
+        "verdict": "accept",
+        "checked_question_pages": [
+          5
+        ],
+        "checked_answer_pages": [],
+        "issues": [],
+        "notes": [
+          "已实际 Read work/images/2022/page_05.png 核对第14题：总题干“在横线处填写作品原句。（共8分）”及（1）—（4）四个小问完整位于该页，无跨页小问；该页为印刷第5页，question_pages 记为 [5] 准确。",
+          "逐句对照 page_05.png 与 documents/2022/questions.txt：四个小问的语境、引号、标点、篇名及横线位置一致；每个小问均为两条横线，共8空，未发现漏空、多空或自行补加横线。",
+          "已对照 pages/2022/article.txt 参考答案第14题：8个基本答案“沧海月明珠有泪／蓝田日暖玉生烟”“过春风十里／尽荠麦青青”“己所不欲／勿施于人”“道之所存／师之所存也”逐字一致，顺序与横线对应。",
+          "第（3）（4）小问的“或”备选已按原文分组保留在 alternate_answers：分别为“我不欲人之加诸我也／吾亦欲无加诸人”和“闻道有先后／术业有专攻”，未把备选混入基本答案。",
+          "works 与答案作者信息核对无误：锦瑟／李商隐、扬州慢／姜夔、师说／韩愈；《论语》为语录体汇编，题干未标作者，author 记为 null 符合信息不足时不臆定的要求。",
+          "answer_pages 为 [] 属实：答案来源为无固定页码的网页文本 article.txt，未虚构页码；answer_status 均为 provided，与参考答案确实给出答案相符。",
+          "全卷排查：第11—13题为诗歌鉴赏，第15题为《红楼梦》名著阅读，第16—19题为现代文阅读，第20—22题为语言运用、微写作、作文，均非默写题；第14题为全卷唯一默写题，未发现漏题或误收。",
+          "原卷与网页文本存在“（共 8 分）”空格、全半角标点及空白线长度差异，属排版形式差异，题干文字与答案内容未受影响；试题图片已直接查看，未依赖 OCR。"
+        ]
+      }
+    },
+    {
+      "paper_id": "G2023",
+      "title": "2023年普通高等学校招生全国统一考试（北京卷）语文",
+      "year": 2023,
+      "kind": "高考真题",
+      "district": "北京",
+      "school": null,
+      "variant": "北京卷",
+      "source_files": [
+        "data/gaokao_beijing_recitation/work/images/2023/yw06.png",
+        "data/gaokao_beijing_recitation/work/images/2023/yw10.png",
+        "data/gaokao_beijing_recitation/work/pages/2023/source.html"
+      ],
+      "source_urls": [
+        {
+          "role": "question_and_answer_images",
+          "url": "https://gaokao.eol.cn/shiti/yw/202309/t20230907_2459971.shtml"
+        }
+      ],
+      "duplicate_files": [],
+      "status": "ok",
+      "questions": [
+        {
+          "number": "15",
+          "instruction": "在横线处填写作品原句。",
+          "question_pages": [
+            6
+          ],
+          "items": [
+            {
+              "label": "（1）",
+              "context": "宋代爱国名将宗泽因朝廷掣肘，没有机会北渡黄河与金兵作战。相传他在临终之际慨叹壮志未酬，仍在吟咏杜甫《蜀相》中的名句“__________，__________”。",
+              "works": [
+                {
+                  "title": "蜀相",
+                  "author": "杜甫"
+                }
+              ],
+              "answers": [
+                {
+                  "text": "出师未捷身先死",
+                  "work_title": "蜀相",
+                  "author": "杜甫"
+                },
+                {
+                  "text": "长使英雄泪满襟",
+                  "work_title": "蜀相",
+                  "author": "杜甫"
+                }
+              ],
+              "alternate_answers": [],
+              "answer_status": "provided",
+              "answer_pages": [
+                10
+              ]
+            },
+            {
+              "label": "（2）",
+              "context": "绍兴很多桥的命名都有典故。“题扇桥”相传是王羲之为卖扇老妪题扇的地方，“杏卖桥”则得名于陆游《临安春雨初霁》的诗句“__________，__________”。",
+              "works": [
+                {
+                  "title": "临安春雨初霁",
+                  "author": "陆游"
+                }
+              ],
+              "answers": [
+                {
+                  "text": "小楼一夜听春雨",
+                  "work_title": "临安春雨初霁",
+                  "author": "陆游"
+                },
+                {
+                  "text": "深巷明朝卖杏花",
+                  "work_title": "临安春雨初霁",
+                  "author": "陆游"
+                }
+              ],
+              "alternate_answers": [],
+              "answer_status": "provided",
+              "answer_pages": [
+                10
+              ]
+            },
+            {
+              "label": "（3）",
+              "context": "古人对道德修养的追求可以达到高度审美化的境界。《论语》中“莫春者，春服既成，冠者五六人，童子六七人，浴乎沂，__________，__________”的场景便是生动的例子。",
+              "works": [
+                {
+                  "title": "论语",
+                  "author": null
+                }
+              ],
+              "answers": [
+                {
+                  "text": "风乎舞雩",
+                  "work_title": "论语",
+                  "author": null
+                },
+                {
+                  "text": "咏而归",
+                  "work_title": "论语",
+                  "author": null
+                }
+              ],
+              "alternate_answers": [],
+              "answer_status": "provided",
+              "answer_pages": [
+                10
+              ]
+            },
+            {
+              "label": "（4）",
+              "context": "苏洵在《六国论》中将六国灭亡的原因归结为“弊在赂秦”，进而阐释说：“然则诸侯之地有限，暴秦之欲无厌，__________，__________”。",
+              "works": [
+                {
+                  "title": "六国论",
+                  "author": "苏洵"
+                }
+              ],
+              "answers": [
+                {
+                  "text": "奉之弥繁",
+                  "work_title": "六国论",
+                  "author": "苏洵"
+                },
+                {
+                  "text": "侵之愈急",
+                  "work_title": "六国论",
+                  "author": "苏洵"
+                }
+              ],
+              "alternate_answers": [],
+              "answer_status": "provided",
+              "answer_pages": [
+                10
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "题干据 question_image（images/2023/yw06.png，印刷页码第6页）：第15题及四个小问完整位于该页，第15题后即进入第四大题，无跨页小问，故 question_pages 为 [6]。已核对续页 yw07.png，未见第15题或其他默写小题续接内容。",
+        "答案据 answer_image（images/2023/yw10.png，印刷页码第10页）：【15题答案】以①至⑧依次列出八个空，与题干四个小问、每问两空的顺序一一对应，故 answer_pages 为 [10]。",
+        "题干文字照录试题图片：第（3）小问作“莫春者”（非“暮春者”），第（2）小问桥名作“杏卖桥”，均未按通行版本改动。",
+        "参考答案未列出“或”类备选答案，故各小问 alternate_answers 均为 []。",
+        "《论语》为语录体汇编，题干未标作者，编纂者不能由题干或基本文献常识唯一确定，故 works 与 answers 的 author 记为 null。",
+        "来源为中国教育在线（gaokao.eol.cn）公开转载，并非官方发布；本次未见题目与答案文字存在转载异文或缺字，页码采用图片内印刷页码。"
+      ],
+      "review": {
+        "paper_id": "G2023",
+        "verdict": "accept",
+        "checked_question_pages": [
+          6
+        ],
+        "checked_answer_pages": [
+          10
+        ],
+        "issues": [],
+        "notes": [
+          "复核范围：逐字对照 images/2023/yw06.png（印刷第6页）第15题及 images/2023/yw10.png（印刷第10页）【15题答案】，并对关键异文处放大裁切核实。另查看 yw11.png（印刷第11页）答案区，确认第16~19题为现代文阅读、第20~23题为语言运用/微写作/作文，均非默写。",
+          "全卷第15题是唯一“在横线处填写作品原句”的默写题，四个小问、每问两空共八空，与答案页①至⑧按小问及横线顺序一一对应；未发现漏题、漏空、漏答案或答案顺序错误。第12~14题为诗歌鉴赏，未被误收。",
+          "题干文字照录原卷，包括“莫春者”（《论语》原文用字，非“暮春者”）与桥名“杏卖桥”；各小问标号、语境、引号与句末标点、每问两处横线的位置均与原卷一致，未自行增补横线。question_pages 为 [6]，该题四个小问完整位于该页，页末即进入第四大题，无跨页。",
+          "答案文字与答案页完全一致：“出师未捷身先死/长使英雄泪满襟”“小楼一夜听春雨/深巷明朝卖杏花”“风乎舞雩/咏而归”“奉之弥繁/侵之愈急”；答案页未给“或”类备选，故 alternate_answers 均为空，answer_status 为 provided，answer_pages 为 [10]，均准确。",
+          "works 标注与题干所引文献一致：杜甫《蜀相》、陆游《临安春雨初霁》、苏洵《六国论》；《论语》题干未署作者，author 记 null 并已在首轮 notes 说明，处理可接受。",
+          "G2023 在 inventory 中没有 low_text_pages 文档项，仅有原卷/答案图片，本次复核直接依据原页图片，不存在仅凭 OCR 判断的问题。原卷“莫春者”“杏卖桥”等并非提取错误，故不影响 accept。"
+        ]
+      }
+    },
+    {
+      "paper_id": "G2024",
+      "title": "2024年普通高等学校招生全国统一考试（北京卷）语文",
+      "year": 2024,
+      "kind": "高考真题",
+      "district": "北京",
+      "school": null,
+      "variant": "北京卷",
+      "source_files": [
+        "data/gaokao_beijing_recitation/work/images/2024/yw05.png",
+        "data/gaokao_beijing_recitation/work/images/2024/yw06.png",
+        "data/gaokao_beijing_recitation/work/images/2024/yw11.png",
+        "data/gaokao_beijing_recitation/work/pages/2024/source.html"
+      ],
+      "source_urls": [
+        {
+          "role": "question_and_answer_images",
+          "url": "https://gaokao.eol.cn/shiti/yw/202407/t20240705_2621911.shtml"
+        }
+      ],
+      "duplicate_files": [],
+      "status": "ok",
+      "questions": [
+        {
+          "number": "14",
+          "instruction": "在横线处填写作品原句。要求：字迹清晰。",
+          "question_pages": [
+            5,
+            6
+          ],
+          "items": [
+            {
+              "label": "（1）",
+              "context": "春光旖旎，佳客临门，杜甫诗兴盎然：“舍南舍北皆春水，但见群鸥日日来。__________，__________。”",
+              "works": [
+                {
+                  "title": "客至",
+                  "author": "杜甫"
+                }
+              ],
+              "answers": [
+                {
+                  "text": "花径不曾缘客扫",
+                  "work_title": "客至",
+                  "author": "杜甫"
+                },
+                {
+                  "text": "蓬门今始为君开",
+                  "work_title": "客至",
+                  "author": "杜甫"
+                }
+              ],
+              "alternate_answers": [],
+              "answer_status": "provided",
+              "answer_pages": [
+                11
+              ]
+            },
+            {
+              "label": "（2）",
+              "context": "优美的神话传说常成为诗人灵感的来源，如秦观《鹊桥仙》：“柔情似水，__________，__________！”",
+              "works": [
+                {
+                  "title": "鹊桥仙",
+                  "author": "秦观"
+                }
+              ],
+              "answers": [
+                {
+                  "text": "佳期如梦",
+                  "work_title": "鹊桥仙",
+                  "author": "秦观"
+                },
+                {
+                  "text": "忍顾鹊桥归路",
+                  "work_title": "鹊桥仙",
+                  "author": "秦观"
+                }
+              ],
+              "alternate_answers": [],
+              "answer_status": "provided",
+              "answer_pages": [
+                11
+              ]
+            },
+            {
+              "label": "（3）",
+              "context": "孔子重视从心理角度阐说君子人格。《论语》曰：“知者不惑，__________，__________。”",
+              "works": [
+                {
+                  "title": "论语",
+                  "author": null
+                }
+              ],
+              "answers": [
+                {
+                  "text": "仁者不忧",
+                  "work_title": "论语",
+                  "author": null
+                },
+                {
+                  "text": "勇者不惧",
+                  "work_title": "论语",
+                  "author": null
+                }
+              ],
+              "alternate_answers": [],
+              "answer_status": "provided",
+              "answer_pages": [
+                11
+              ]
+            },
+            {
+              "label": "（4）",
+              "context": "《史记·屈原贾生列传》认为，《离骚》兼具《国风》和《小雅》的情感特点，其中《国风》是“__________”，《小雅》是“__________”。",
+              "works": [
+                {
+                  "title": "史记·屈原贾生列传",
+                  "author": "司马迁"
+                },
+                {
+                  "title": "离骚",
+                  "author": "屈原"
+                }
+              ],
+              "answers": [
+                {
+                  "text": "好色而不淫",
+                  "work_title": "史记·屈原贾生列传",
+                  "author": "司马迁"
+                },
+                {
+                  "text": "怨诽而不乱",
+                  "work_title": "史记·屈原贾生列传",
+                  "author": "司马迁"
+                }
+              ],
+              "alternate_answers": [],
+              "answer_status": "provided",
+              "answer_pages": [
+                11
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "题目据 question_image（images/2024/yw05.png，印刷页码第5页）与 question_image_continuation（images/2024/yw06.png，印刷页码第6页）；第（2）小问自第5页末行起、至第6页首行止，为跨页小问，已合并照录，故 question_pages 记为 [5, 6]。",
+        "答案据 answer_image（images/2024/yw11.png，印刷页码第11页）“【14题答案】”块，按 ①—⑧ 顺序照录；未列“或”备选答案，故各小问 alternate_answers 均为 []。答案页无题号页码冲突，answer_pages 记为 [11]。",
+        "第（1）小问题干仅称“杜甫诗”，未标篇名；题干所引“舍南舍北皆春水，但见群鸥日日来”为杜甫《客至》诗句，篇名“客至”据基本文献常识补记，题干文字未作改动。",
+        "第（2）小问在第二处横线后使用感叹号，后接引号，按图片照录，未改为句号。",
+        "第（4）小问答案为《史记·屈原贾生列传》评《离骚》语；works 另记该小问同时涉及的《离骚》，答案对象归属《史记·屈原贾生列传》。",
+        "《论语》为语录体汇编，题干未标撰者，无法由题干或基本文献常识唯一确定，故 works 与 answers 的 author 记为 null。",
+        "来源为公开转载网页（中国教育在线 https://gaokao.eol.cn/shiti/yw/202407/t20240705_2621911.shtml）所附图片，非官方发布；该页 article.txt 仅含栏目导语，无试题文字可供比对，本题文字全部据图片识读。",
+        "图片空白横线长度不一，按 schema 统一记作 __________，题干文字、标点未作改动。"
+      ],
+      "review": {
+        "paper_id": "G2024",
+        "verdict": "accept",
+        "checked_question_pages": [
+          5,
+          6
+        ],
+        "checked_answer_pages": [
+          11
+        ],
+        "issues": [],
+        "notes": [
+          "复核范围：逐字对照 images/2024/yw05.png（印刷第5页）、images/2024/yw06.png（印刷第6页）第14题及 images/2024/yw11.png（印刷第11页）【14题答案】，并对题干关键文字与八个答案逐项放大核对；另浏览 yw01—yw09 试题页及 yw10—yw15 答案页，确认全卷无其他默写题。G2024 在 inventory 中没有 low_text_pages 文档项，仅有原卷/答案图片，本次全部依据原页图片判断。",
+          "第14题为全卷唯一“在横线处填写作品原句”的题，含（1）—（4）四个小问、每问两空共八空；第11—13题为诗歌鉴赏，第15题为《红楼梦》问答，第16—19题为现代文阅读，第20题（2）为语言运用补句，第21—25题为微写作/作文，均未误收，亦未发现漏题。",
+          "总题干、四个小问标记、语境文字、引号书名号及每问两处横线的位置均与原卷一致；第（2）小问自第5页末行起、至第6页首行止，首轮已合并照录，question_pages [5, 6] 忠实。原卷横线长度不一，首轮统一记作 __________ 并已在 notes 说明，未自行增补横线。",
+          "答案页按 ①—⑧ 顺序给出“花径不曾缘客扫／蓬门今始为君开／佳期如梦／忍顾鹊桥归路／仁者不忧／勇者不惧／好色而不淫／怨诽而不乱”，首轮八空文字、顺序及各空归属小问均与之一致；答案页无“或”类备选，alternate_answers 均为 [] 正确；answer_status 均为 provided，answer_pages 均为 [11]，准确。",
+          "works：第（1）问原卷仅称“杜甫诗”，首轮据引文补记《客至》并在 notes 说明，题干文字未改，属基本文献常识补记；第（2）问《鹊桥仙》/秦观、第（3）问《论语》/null、第（4）问《史记·屈原贾生列传》/司马迁并及《离骚》/屈原，均与题干及文献常识相符。",
+          "首轮 notes 第4条“后接“””中的空引号为一处笔误（多出一个左引号），仅属说明文字，不影响题干、答案数据；原卷本身未发现需按提取错误处理的排印问题。"
+        ]
+      }
+    },
+    {
+      "paper_id": "G2025",
+      "title": "2025年普通高等学校招生全国统一考试（北京卷）语文",
+      "year": 2025,
+      "kind": "高考真题",
+      "district": "北京",
+      "school": null,
+      "variant": "北京卷",
+      "source_files": [
+        "data/gaokao_beijing_recitation/work/pdfs/2025/questions.pdf",
+        "data/gaokao_beijing_recitation/work/pdfs/2025/answers.pdf",
+        "data/gaokao_beijing_recitation/work/pages/2025_sohu/source.html"
+      ],
+      "source_urls": [
+        {
+          "role": "question_pdf",
+          "url": "https://www.jhgk.cn/upload/file/20250708/1751941949359096440.pdf"
+        },
+        {
+          "role": "answer_pdf",
+          "url": "https://www.jhgk.cn/upload/file/20250708/1751941961501043401.pdf"
+        },
+        {
+          "role": "cross_check_text",
+          "url": "https://www.sohu.com/a/907809759_120886047"
+        }
+      ],
+      "duplicate_files": [],
+      "status": "ok",
+      "questions": [
+        {
+          "number": "14",
+          "instruction": "在横线处填写作品原句。要求：字迹清晰。",
+          "question_pages": [
+            5,
+            6
+          ],
+          "items": [
+            {
+              "label": "（1）",
+              "context": "孔子认为，君子应该“文质彬彬”，如果处理不好文质关系，就会产生两种结果：“__________，__________。”",
+              "works": [
+                {
+                  "title": "论语",
+                  "author": "孔子"
+                }
+              ],
+              "answers": [
+                {
+                  "text": "质胜文则野",
+                  "work_title": "论语",
+                  "author": "孔子"
+                },
+                {
+                  "text": "文胜质则史",
+                  "work_title": "论语",
+                  "author": "孔子"
+                }
+              ],
+              "alternate_answers": [],
+              "answer_status": "provided",
+              "answer_pages": [
+                12
+              ]
+            },
+            {
+              "label": "（2）",
+              "context": "很多成语出自先秦典籍和唐宋诗文。《荀子·劝学》云：“__________，功在不舍。”《赤壁赋》云：“__________，不绝如缕。”",
+              "works": [
+                {
+                  "title": "劝学",
+                  "author": "荀子"
+                },
+                {
+                  "title": "赤壁赋",
+                  "author": "苏轼"
+                }
+              ],
+              "answers": [
+                {
+                  "text": "驽马十驾",
+                  "work_title": "劝学",
+                  "author": "荀子"
+                },
+                {
+                  "text": "余音袅袅",
+                  "work_title": "赤壁赋",
+                  "author": "苏轼"
+                }
+              ],
+              "alternate_answers": [],
+              "answer_status": "provided",
+              "answer_pages": [
+                12
+              ]
+            },
+            {
+              "label": "（3）",
+              "context": "曹操求贤若渴，其《短歌行》云：“山不厌高，海不厌深。__________，__________。”",
+              "works": [
+                {
+                  "title": "短歌行",
+                  "author": "曹操"
+                }
+              ],
+              "answers": [
+                {
+                  "text": "周公吐哺",
+                  "work_title": "短歌行",
+                  "author": "曹操"
+                },
+                {
+                  "text": "天下归心",
+                  "work_title": "短歌行",
+                  "author": "曹操"
+                }
+              ],
+              "alternate_answers": [],
+              "answer_status": "provided",
+              "answer_pages": [
+                12
+              ]
+            },
+            {
+              "label": "（4）",
+              "context": "张孝祥笔下的洞庭月色，气象宏大：“__________，__________，表里俱澄澈。”",
+              "works": [
+                {
+                  "title": "念奴娇·过洞庭",
+                  "author": "张孝祥"
+                }
+              ],
+              "answers": [
+                {
+                  "text": "素月分辉",
+                  "work_title": "念奴娇·过洞庭",
+                  "author": "张孝祥"
+                },
+                {
+                  "text": "明河共影",
+                  "work_title": "念奴娇·过洞庭",
+                  "author": "张孝祥"
+                }
+              ],
+              "alternate_answers": [],
+              "answer_status": "provided",
+              "answer_pages": [
+                12
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "题干据 question_image（images/2025/questions_page_05.png，印刷页码第5页）与 question_image_continuation（images/2025/questions_page_06.png，印刷页码第6页）：第14题总题干及第（1）（2）小问与第（3）小问前半在第5页，第（3）小问末句及第（4）小问在第6页，属跨页小问，已合并照录，故 question_pages 为 [5, 6]。",
+        "答案据 answer_image（images/2025/answers_page_12.png，印刷页码第12页，该册标注“第12页 共25页”），并与 answer_text（texts/2025/answers.json）核对一致；answer_pages 均为 [12]。",
+        "答案页按①②③④⑤⑥⑦⑧顺序列出八个基本空，未给出“或”类备选答案，故各小问 alternate_answers 均为 []。",
+        "第（1）小问题干只称“孔子认为”，未标篇名；据基本文献常识补记作品为论语、作者为孔子。第（4）小问题干只称“张孝祥笔下的洞庭月色”，未标篇名；据基本文献常识补记作品为念奴娇·过洞庭。第（2）小问《荀子·劝学》篇名记为劝学，作者记为荀子。",
+        "转载差异：问题文本层（texts/2025/questions.json）第（3）小问作“山不厌高，海不厌深。__________，”，试题图片于“深”后有句号；cross_check_text（pages/2025_sohu/article.txt）作“山不厌高，海不厌深__________，__________。”，脱漏“深”后的句号，属网页转载排版差异，未据以改动原题。",
+        "各来源在引号、书名号全半角、空白横线长度及选项间空格上存在排版差异（如 images 中选项分行、文本层合并为一行），文字内容一致；空白线按 schema 统一记作 __________，未改动题干文字。",
+        "cross_check_text 为公开转载网页，无固定页码，未用于页码字段，也未虚构页码。",
+        "仅收录第14题（直接在横线处填写作品原句）；第15题《红楼梦》问答、诗歌鉴赏、文言文阅读及语言基础运用等均未收录。"
+      ],
+      "review": {
+        "paper_id": "G2025",
+        "verdict": "accept",
+        "checked_question_pages": [
+          5,
+          6
+        ],
+        "checked_answer_pages": [
+          12
+        ],
+        "issues": [],
+        "notes": [
+          "复核范围：以 PyMuPDF 从 pdfs/2025/questions.pdf 渲染第 5、6 页，从 pdfs/2025/answers.pdf 渲染第 12 页，逐页 Read 看图，并与 images/2025/questions_page_05.png、questions_page_06.png、answers_page_12.png 及 texts/2025/questions.json、answers.json 对照；另读取 pages/2025_sohu/article.txt 交叉核对。两 PDF 页数与卷面印刷页码一致（试题 9 页、答案 25 页），故 question_pages [5,6]、answer_pages [12] 均指卷面印刷页码，无误。",
+          "通卷核查：第 14 题为唯一要求在横线处填写作品原句的题目；第 15 题《红楼梦》问答、第 20 题（2）语言基础运用补句及诗歌鉴赏、文言文阅读、现代文阅读、写作均不属于古诗文默写，首轮未误收。第 14 题共（1）—（4）四个小问、八个基本空，均已收录，无漏题、漏空。",
+          "逐项核对：第 14 题总题干、四个小问标记、语境文字、引号书名号及横线数量位置均与原卷试题页一致；（3）跨第 5、6 页，已合并为完整小问，question_pages [5,6] 忠实；各小问原卷确为每问两空，未自行增补横线。",
+          "答案核对：答案页按 ①—⑧ 顺序给出“质胜文则野／文胜质则史／驽马十驾／余音袅袅／周公吐哺／天下归心／素月分辉／明河共影”，首轮八空顺序、文字及 work_title、author 均与之一致，无自行作答，无“或”类备选答案，alternate_answers 为 [] 正确；answer_status 均为 provided，answer_pages 均为 [12]，准确。",
+          "原卷异文与排印问题（非提取错误）：试题页第 5 页（3）“海不厌深”后有句号，答案页第 12 页同处无句号；网页转载亦脱漏该句号。首轮 context 依试题页保留句号，并在 notes 中说明网页转载差异，处理正确。另答案页第 12 页（3）横线前同样脱漏句号，建议人工知悉，但不影响答案文字与空序。",
+          "works 字段：第（1）问据题干“孔子”及文献常识记论语／孔子，第（2）问记劝学／荀子、赤壁赋／苏轼，第（3）问记短歌行／曹操，第（4）问据题干“张孝祥”及文献常识记念奴娇·过洞庭／张孝祥，均符合 schema 与基本文献常识，无错误。",
+          "首轮 notes 关于页面分布、答案顺序、作品补记、转载差异及未收其他题型的说明与实见原卷相符；未发现需修正项。"
+        ]
+      }
+    },
+    {
+      "paper_id": "G2026",
+      "title": "2026年普通高等学校招生全国统一考试（北京卷）语文",
+      "year": 2026,
+      "kind": "高考真题",
+      "district": "北京",
+      "school": null,
+      "variant": "北京卷",
+      "source_files": [
+        "data/gaokao_beijing_recitation/work/pages/2026_sohu/source.html",
+        "data/gaokao_beijing_recitation/work/pages/2026_sohu_analysis/source.html"
+      ],
+      "source_urls": [
+        {
+          "role": "question_and_answer_text",
+          "url": "https://m.sohu.com/a/1062842127_120886047"
+        },
+        {
+          "role": "cross_check_text",
+          "url": "https://m.sohu.com/a/1070279492_125993/"
+        }
+      ],
+      "duplicate_files": [],
+      "status": "ok",
+      "questions": [
+        {
+          "number": "14",
+          "instruction": "在横线处填写作品原句。要求：字迹清晰。(共8分)",
+          "question_pages": [],
+          "items": [
+            {
+              "label": "（1）",
+              "context": "魏征《谏太宗十思疏》以自然之理喻治国之道：“欲流之远者，必浚其泉源；__________，__________。”",
+              "works": [
+                {
+                  "title": "谏太宗十思疏",
+                  "author": "魏征"
+                }
+              ],
+              "answers": [
+                {
+                  "text": "思国之安者",
+                  "work_title": "谏太宗十思疏",
+                  "author": "魏征"
+                },
+                {
+                  "text": "必积其德义",
+                  "work_title": "谏太宗十思疏",
+                  "author": "魏征"
+                }
+              ],
+              "alternate_answers": [],
+              "answer_status": "provided",
+              "answer_pages": []
+            },
+            {
+              "label": "（2）",
+              "context": "苏洵《六国论》开篇亮出观点：“六国破灭，非兵不利，__________，__________。”",
+              "works": [
+                {
+                  "title": "六国论",
+                  "author": "苏洵"
+                }
+              ],
+              "answers": [
+                {
+                  "text": "战不善",
+                  "work_title": "六国论",
+                  "author": "苏洵"
+                },
+                {
+                  "text": "弊在赂秦",
+                  "work_title": "六国论",
+                  "author": "苏洵"
+                }
+              ],
+              "alternate_answers": [],
+              "answer_status": "provided",
+              "answer_pages": []
+            },
+            {
+              "label": "（3）",
+              "context": "陶渊明回到田园，就是回归本心，所谓“__________，__________。久在樊笼里，复得返自然”。",
+              "works": [
+                {
+                  "title": "归园田居（其一）",
+                  "author": "陶渊明"
+                }
+              ],
+              "answers": [
+                {
+                  "text": "户庭无尘杂",
+                  "work_title": "归园田居（其一）",
+                  "author": "陶渊明"
+                },
+                {
+                  "text": "虚室有余闲",
+                  "work_title": "归园田居（其一）",
+                  "author": "陶渊明"
+                }
+              ],
+              "alternate_answers": [],
+              "answer_status": "provided",
+              "answer_pages": []
+            },
+            {
+              "label": "（4）",
+              "context": "陆游《临安春雨初霁》颔联从声音角度描写杭州之美：“__________，__________。”",
+              "works": [
+                {
+                  "title": "临安春雨初霁",
+                  "author": "陆游"
+                }
+              ],
+              "answers": [
+                {
+                  "text": "小楼一夜听春雨",
+                  "work_title": "临安春雨初霁",
+                  "author": "陆游"
+                },
+                {
+                  "text": "深巷明朝卖杏花",
+                  "work_title": "临安春雨初霁",
+                  "author": "陆游"
+                }
+              ],
+              "alternate_answers": [],
+              "answer_status": "provided",
+              "answer_pages": []
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "题干与答案据 question_and_answer_text（data/gaokao_beijing_recitation/work/pages/2026_sohu/article.txt）第14题及参考答案，并与 cross_check_text（data/gaokao_beijing_recitation/work/pages/2026_sohu_analysis/article.txt）第14题交叉核对；两来源所载题干文字与八个答案基本一致，第（4）小问横线数量存在转载差异，见下条。",
+        "两个来源均为公开转载网页，无固定页码；resources.json 为空数组，未提供 question_image、question_image_continuation 或 answer_image 图片文件，故无图片可读，question_pages 与 answer_pages 均记为 []，未虚构页码。",
+        "第（1）小问网页文本层横线作“__ _”，第（2）（3）小问横线长短亦不一致；均按 schema 统一记作 __________，未改动题干文字。",
+        "第（4）小问在 question_and_answer_text 及其 source.html 中只显示一处横线，且标点为“，。”；cross_check_text 显示两处横线“____________，___________。”，参考答案亦为两句（第7、8空）。context 据 cross_check_text 的完整题干记录两处横线，并非自行补写；primary 转载缺线及标点疑点在此保留说明。",
+        "四个小问中连接横线的逗号在 question_and_answer_text 中多作半角“,”，cross_check_text 作全角“，”；context 按 cross_check_text 的完整排版记为全角标点，文字内容未改。",
+        "参考答案以①至⑧顺序列出八个基本空，与四个小问每问两空一一对应；两来源均未列出“或”类备选答案，故各小问 alternate_answers 均为 []。",
+        "第（3）小问题干未标篇名，仅称“陶渊明回到田园”；所引“户庭无尘杂，虚室有余闲。久在樊笼里，复得返自然”出自陶渊明《归园田居（其一）》，据基本文献常识记作品名与作者。",
+        "2026年北京卷来源为搜狐公开转载，并非官方发布；本次未见题目或答案存在其他异文。",
+        "仅收录第14题直接默写；第13题诗歌鉴赏、第15题《红楼梦》问答、文言文阅读及第20题语言基础运用等均未收录。"
+      ],
+      "review": {
+        "paper_id": "G2026",
+        "verdict": "accept",
+        "checked_question_pages": [],
+        "checked_answer_pages": [],
+        "issues": [],
+        "notes": [
+          "复核范围：逐项比对 results/G2026.json 与 question_and_answer_text（2026_sohu/article.txt 第117-121行题干、第213-216行答案）、cross_check_text（2026_sohu_analysis/article.txt 第207-213行题干与答案），并核对两份 source.html 第332-336、420-423行及第411-416行。",
+          "全卷仅第14题为“在横线处填写作品原句”的古诗文直接默写题（4小问，共8分）；第13题诗歌鉴赏、第15题《红楼梦》问答、第20题语言基础运用（含第(2)问补写）均非古诗文默写，未误收，也未发现其他漏收的默写小题。",
+          "第14题题号、题干“在横线处填写作品原句。要求：字迹清晰。(共8分)”、四个小问标记及完整语境均与原卷一致；各小问横线按 schema 统一记作 __________，仅为版式规范化，未改动题干文字。",
+          "第（4）小问：question_and_answer_text 及其 source.html 只显示一处横线且标点作“，。”，但 cross_check_text 明载两处横线，参考答案亦为第7、8空；首轮 context 据 cross_check_text 记录两处横线，属于恢复原卷完整版式，并非自行补写，且 notes 已保留 primary 缺线说明。",
+          "答案①至⑧与原卷参考答案逐字一致，顺序对应四个小问每问两空：思国之安者/必积其德义、战不善/弊在赂秦、户庭无尘杂/虚室有余闲、小楼一夜听春雨/深巷明朝卖杏花；两来源均未给出“或”类备选答案，alternate_answers 为 [] 正确，answer_status 均为 provided 正确。",
+          "works 的篇名、作者与题干及基本文献常识相符：谏太宗十思疏/魏征、六国论/苏洵、归园田居（其一）/陶渊明、临安春雨初霁/陆游；第（3）小问题干未标篇名，首轮据引文定为《归园田居（其一）》并在 notes 说明，属正确的作品归属，不是自行作答。",
+          "question_pages 与 answer_pages 均为 []：本题来源为无固定页码的公开转载网页，两份 resources.json 均为空数组，未提供题目/答案图片或带页码的 PDF/文本层，故无图片可用 PyMuPDF 渲染，未虚构页码。",
+          "原卷自身/转载问题：primary 第（4）小问缺一横线且标点作“，。”，各小问横线长短及半角、全角标点也不统一；首轮已作规范化并在 notes 中说明，不属于提取错误。",
+          "未发现漏题、漏空、漏答案、答案顺序错误、文字不符或自行作答；来源为搜狐公开转载而非官方发布，仍建议以官方原卷作最终核对。"
+        ]
+      }
+    }
+  ]
+}

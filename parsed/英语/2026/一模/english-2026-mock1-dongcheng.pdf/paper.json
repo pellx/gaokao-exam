@@ -1,0 +1,1551 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|一模|东城|英语|",
+    "title": "2026北京东城区高三一模英语试题及答案",
+    "year": 2026,
+    "kind": "一模",
+    "subject": "英语",
+    "district": "东城",
+    "academic_year": "2025-2026",
+    "exam_date": "2026-04"
+  },
+  "source": {
+    "file": "../../../../../raw/英语/2026/一模/english-2026-mock1-dongcheng.pdf",
+    "sha256": "7288715213549fff118f56fb518a09c48bafc556ba746dbd131dfb40dd2a5207",
+    "page_count": 15
+  },
+  "extraction": {
+    "status": "verified",
+    "tool": "PyMuPDF 2× 页面渲染 + 逐页视觉识别 + jsonschema Draft 2020-12 校验",
+    "notes": [
+      "原 PDF 共 15 页：第 1 页为封面，第 2–12 页为试卷正文（卷内页码 1–11），第 13–14 页为同一 PDF 内的标准答案，第 15 页为无关平台介绍页，未作为题目内容。",
+      "全卷为扫描页，正文覆盖多处半透明“北京高考在线”水印；已逐页渲染并实际查看，被水印叠压的文字按清晰字形和上下文判读。",
+      "卷面从第一部分“知识运用”的完形填空开始，未印听力部分；卷面标注共 100 分、考试时长 90 分钟。",
+      "第 12 页（卷内第 11 页）作文题末尾提示语被水印遮挡，仅录入可辨部分，已在 q044 标记 needs_review。"
+    ]
+  },
+  "materials": {
+    "m001": {
+      "kind": "instructions",
+      "content": [
+        "第一部分 知识运用（共两节，30分）",
+        "第一节（共10小题；每小题1.5分，共15分）",
+        "阅读下面短文，掌握其大意，从每题所给的 A、B、C、D 四个选项中，选出最佳选项，并在答题卡上将该项涂黑。"
+      ],
+      "pages": [
+        2
+      ]
+    },
+    "m002": {
+      "kind": "passage",
+      "content": [
+        "Having braved a Chicago snowstorm and rush-hour traffic, I dragged my large suitcase through the __1__. There were people, bags, packages, babies, and sour faces.",
+        "Three hours. That’s how long my flight was delayed. The only seats near my gate were next to other people, and I was __2__ other people. I sat on the floor, folded my arms across my chest and __3__ a look of quiet anger.",
+        "Nearby a lady with a shopping bag took a seat next to another lady with a shopping bag from the same store.",
+        "The first one introduced herself, opened her bag and rooted through tissue paper. “25% off!” she said, taking out a bowl.",
+        "“33% off!” said the other, __4__ a plate.",
+        "They laughed and started chattering away. The sound of such insincere company was deeply __5__.",
+        "A passenger looking like a businessman sat behind them and said something. The ladies erupted in laughter. Soon a purple-haired young man pulled off his earphones and started listening in. This happy group had a __6__ conversation going.",
+        "Must be nice, I allowed. If you like that shallow __7__.",
+        "After an hour my back hurt. I got up and took the seat next to the young man, who was telling a funny joke. The businessman caught my eye and said, “Don’t I know you from somewhere?” We __8__ travel notes and found no intersections. He invited me in anyway. I had to exchange stories with them: Forgotten luggage. Epic delays. Missed connections. __9__, something warm was taking place; we were stuck but having a really great time.",
+        "It was three hours more before our plane arrived. When it came time to board, we walked slowly behind our fellow travelers. The young man carried the two ladies’ bags. We were quiet now, having no idea what to say. One of the ladies broke the silence: “Do you think we should have a __10__ sometime?”"
+      ],
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "m003": {
+      "kind": "instructions",
+      "content": [
+        "第二节（共10小题；每小题1.5分，共15分）",
+        "阅读下列短文，根据短文内容填空。在未给提示词的空白处仅填写 1 个恰当的单词，在给出提示词的空白处用括号内所给词的正确形式填空。请在答题卡指定区域作答。"
+      ],
+      "pages": [
+        3
+      ]
+    },
+    "m004": {
+      "kind": "passage",
+      "title": "A",
+      "content": "One day when a group of bees __11__ (land) on a primary school, not surprisingly, there was panic among the teachers. Though, most of the children watched excited as a bee catcher rounded up the uninvited visitors. This unexpected event led to the school integrating beekeeping into the course, __12__ has resulted in notable benefits. The children study the dance of the bees to decide __13__ money source is. They use honey in cooking lessons. They have even opened a school shop that __14__ (feature) honey. Most of all, the children have become more responsible to others.",
+      "pages": [
+        3
+      ]
+    },
+    "m005": {
+      "kind": "passage",
+      "title": "B",
+      "content": "Spacesuits are important if you leave Earth’s protective atmosphere. Spacesuits should allow excellent __15__ (free) of movement for the wearers, who may often go on spacewalks outside their ship to perform delicate equipment repairs all by __16__ (they). It also helps that the spacesuit is quick to put on in case of an emergency. And it should provide a full life-support system to maintain internal air and temperature as well as attend to the needs of food, water and other bodily functions. Over the years, various spacesuits __17__ (design) to meet these criteria.",
+      "pages": [
+        3
+      ]
+    },
+    "m006": {
+      "kind": "passage",
+      "title": "C",
+      "content": "__18__ (lead) a satisfying life, it’s not necessary for me to pursue grand experiences; instead, the small, everyday joys hold the most value. Whether it’s enjoying a cup of tea or sharing a laugh with friends, these moments contribute to my sense of well-being. Through __19__ (appreciate) these small pleasures I feel more connected to the world and enhance my sense of happiness. These simple pleasures can be found in our daily routines, from the sights and sounds of nature to the warmth of human connection. If we integrate these small joys into our life, we will develop greater enthusiasm __20__ the present.",
+      "pages": [
+        4
+      ]
+    },
+    "m007": {
+      "kind": "instructions",
+      "content": [
+        "第二部分 阅读理解（共两节，38分）",
+        "第一节（共14小题；每小题2分，共28分）",
+        "阅读下列短文，从每题所给的 A、B、C、D 四个选项中，选出最佳选项，并在答题卡上将该项涂黑。"
+      ],
+      "pages": [
+        4
+      ]
+    },
+    "m008": {
+      "kind": "passage",
+      "title": "A",
+      "content": [
+        "We are looking for 15 international and 15 Chinese young participants for the upcoming edition of the course Managing World Heritage: People, Nature, and Culture.",
+        "This course specifically targets young individuals working at a specific cultural or natural World Heritage property, or institutions with responsibilities related to managing World Heritage properties. Applications are open to all regions.",
+        "**What is the content of the course?**",
+        "The course provides a general overview of what constitutes a world heritage management system, enabling participants to assess its effectiveness in a rapidly changing world. During the course, participants will be introduced to key tools and resources to improve management, planning, and decision-making processes at World Heritage properties and other heritage places. Participants will also share their professional experience and learn from each other.",
+        "**Where will the course take place?**",
+        "The course will take place in Suzhou, China, from 15 to 21 September 2026. Participants will have the chance to visit and learn more about the management of the World Heritage property and gain insight into the Chinese World Heritage management system.",
+        "**What are the costs of participation?**",
+        "There is no course fee. Participants will be responsible for their round-trip travel costs to and from Suzhou, China and any visa costs. Accommodations, meals and transportation will be provided by local organizers.",
+        "**How to apply for this course?**",
+        "Please submit your application by 31 July 2026.",
+        "The application process is as follows:",
+        "• complete the online application form in English\n• upload a personal photo\n• upload your profile which highlights your most relevant experience (in English; maximum two pages)",
+        "If you have any questions, please email us at whl@PNC26.org."
+      ],
+      "pages": [
+        4,
+        5
+      ]
+    },
+    "m009": {
+      "kind": "passage",
+      "title": "B",
+      "content": [
+        "Glancing at the author’s copy of the book on the desk, I am reminded of how long it has taken to get to this point as I am confirming the arrangements for one of the promotional events scheduled for my fourth non-fiction work on art.",
+        "I actually started professional writing fairly late in life, after working for the local council for many years. Although I was into literature, it was for personal enjoyment. During my teenage years I sometimes wrote for the school magazine, just for fun. Later, this interest developed into a stronger desire for recognition, and, I’d spend months typing texts and sending them off to magazines and publishers, anxiously awaiting a response that often never came.",
+        "I have also had a passion for art. Wandering around galleries is an absolute pleasure for me, although I don’t have an artistic bone in my body, unlike my twin sister, Louisa, who is remarkably gifted and has launched a career as an artist.",
+        "One evening she called to say she was struggling with the text for an upcoming exhibition brochure and asked if I could give her a hand. I warned her that I’d give it a try. Later that evening I managed to produce something that I thought might be acceptable and emailed it to her.",
+        "It was a real success and set the wheels in motion to turn my dream into a reality. One of the guests at the opening night was an editor working for an online arts magazine. Having been impressed by my piece describing the exhibition in the brochure, she managed to track me down, first by contacting the gallery and then my sister. Well, to be honest, I didn’t know what to think and the prospect of meeting with her filled me with fear. Questions came flooding through my mind and I immediately messaged my sister, who strongly urged me to seize the opportunity. So I fired off an acceptance email before I had the opportunity to change my mind again.",
+        "Over the following months I devoted every spare moment of my time to attending exhibitions and crafting commentary articles on the region’s artists. I have to admit that the whole thing was exciting. My brain was constantly filled with ideas, and I enjoyed watching them take shape as I typed into the night on my laptop.",
+        "After that first summer, I was hooked on writing about art, which was so enjoyable and satisfying. Definitely, it was what I should be doing."
+      ],
+      "pages": [
+        5,
+        6
+      ]
+    },
+    "m010": {
+      "kind": "passage",
+      "title": "C",
+      "content": [
+        "Whom would you trust more: an expert who seems to have all of the answers or one who admits what he doesn’t know? We have spent the past five years studying that question.",
+        "Our research was sparked by a tension we both noticed early in our academic careers. Our graduate studies made us deeply aware of how little we knew about our respective research areas, even as we developed specialized knowledge in these fields. Scholars call this particular variety of self-awareness “intellectual humility”, and it’s something we suspect many experts encounter as they transition into a new role.",
+        "On the other hand, barely anyone seemed to expect us to be intellectually humble in our then new positions. People seemed to engage with us as know-it-all, capital-E experts who could confidently answer any questions that were even remotely related to our specialties. The scariest part was that we could have easily exploited these opportunities to share our opinions on topics well beyond our expertise.",
+        "These experiences got us thinking about intellectual humility among experts, which is linked with many desirable behaviors, including considering others’ perspectives, and being better at conflict resolution. Conversely, when experts claim to know more than they actually do, this is not only the abandonment of trust but also potentially disastrous in terms of promoting public conversation.",
+        "Given these high stakes, we designed a series of studies to understand how people think about expertise. We asked 100 participants to freely describe their understanding of expertise, analyzed about 200 related posts on the Internet, and asked 700 online participants to tackle a word sorting task in which they identified and grouped different terms such as “knowledge” or “qualifications” into broader perspectives on expertise. The results suggested that most people assume that exceptional knowledge is a defining feature of expertise. The thought that expertise is defined by solving problems and getting results was also a repeated tendency.",
+        "At first glance, there’s nothing wrong with using qualifications and a demonstrated record of overcoming problems to examine someone’s position as an expert. On second thought, these understandings of expertise may leave some people defenseless to perceiving expertise in those who only appear to know their stuff. These people are expected to move from simplistic understandings of what makes an expert to more thoughtful ones.",
+        "In future research, we want to see if it’s possible to create more substantial changes in how people understand expertise—changes that last for weeks, months and potentially years. It remains to be confirmed whether helping people prize intellectual humility in experts might make them better at detecting when someone is overstepping beyond the boundaries of their expertise, and accordingly ensure that humble experts, who are aware of and admit the limits of their expertise, are there to help humanity address our world’s most pressing challenges."
+      ],
+      "pages": [
+        7,
+        8
+      ]
+    },
+    "m011": {
+      "kind": "passage",
+      "title": "D",
+      "content": [
+        "Rewilding is a simple concept: areas of wilderness are identified for restoration, native animals and plants are reintroduced, and natural processes take over. The term was coined in the 1990s. Much like nature, language undergoes continuous transformation. To some, rewilding now incorporates the idea of building “corridors” so that species can cross from one area of wilderness to another, as they would have done in pre-human times. To others, it is about letting “natural chaos” take over, meaning any human interference is prohibited.",
+        "Why might the average person be drawn to the idea of rewilding? Many hold that nostalgia is behind it. The fact is that most of us can’t say, “Where did all those Red Admiral butterflies go, that were once so common in my back garden?” We cannot recall things that are beyond living memory, let alone a time when wild pigs and deer ran through forests. Indeed, we need not be remotely sentimental(多愁善感) to see why biodiversity is desirable.",
+        "There are numerous benefits to rewilding, such as restoring natural biodiversity and improving the ecological resilience of damaged landscapes. Actually, at the most pragmatic level, without healthy ecosystems, our crops will fail and obviously we will not survive. A workable food chain must start with pollinators, such as bees and hoverflies. Intensive farming, however, has largely removed the wildflowers they feed on and turned much of our landscape into lifeless soil. Only by reintroducing missing insects, plants and animals can we reverse this trend.",
+        "The idea of rewilding has certainly caught the public eye, and journalists have played their part in this. Some have warned about the potential terrible consequences. Others have showered praise on the plan of releasing beavers back into streams. Devoting attention to efforts like these is no bad thing, yet rewilding is something different altogether: an entire ecosystem becoming self-regulatory and self-sustaining. Furthermore, if the public are to be persuaded of the benefits of rewilding, they must be confident that journalists are providing the full picture. In Spain’s Guadarrama hills, for example, wolves’ return brings conservation joy but raises local concerns over lost sheep and cattle. Honest discussion about this kind of issue is required.",
+        "Rewilding projects, it has to be said, do not always go as planned. The idea that we should allow nature to reclaim parts of our landscape is far more divisive than say, any proposal for reducing plastic waste or tackling the illegal wildlife trade. Few people would be blind to the advantages of limiting plastic consumption or argue against protecting elephants. Yet not so long ago, no-one gave a second thought to these things. It took the incredible efforts of a few passionate, principled individuals to educate the majority of us through long campaigning and evidence-based argument. Hopefully, fifty years from now, with ecosystems flourishing again, people will question why our generation ever saw rewilding as debated."
+      ],
+      "pages": [
+        8,
+        9
+      ]
+    },
+    "m012": {
+      "kind": "instructions",
+      "content": [
+        "第二节（共5小题；每小题2分，共10分）",
+        "根据短文内容，从短文后的七个选项中选出能填入空白处的最佳选项，并在答题卡上将该项涂黑。选项中有两项为多余选项。"
+      ],
+      "pages": [
+        10
+      ]
+    },
+    "m013": {
+      "kind": "passage",
+      "content": [
+        "Human history could be told as the story of seeing. Each invention that sharpened our vision extended the reach of perception and redrew the borders of the known. When a Dutch craftsman fitted two lenses (镜片) into a tube in 1608, he did not simply enlarge distant objects; he expanded the human mind. From that moment, observation stopped to be passive. __35__",
+        "As centuries unfolded, the instruments of observation multiplied: microscopes, cameras, telescopes, sensors, and finally, algorithms. Each revealed a new layer of reality—the infinitesimal cell, the atom, the DNA helix, the universe. __36__ To see was to know; To measure was to exist. Observation drew the outlines of science, yet it also defined our sense of self, for every discovery beyond the human scale reminded us how small we are.",
+        "__37__ The internet made observers of everyone, yet it also made us observable. The gaze (注视) turned inward and outward at once: we became data points, recording and being recorded in the same instant. __38__ The system extends from the depths of space to the finest details of a face.",
+        "And now, machines have begun to see for us. Satellites watch the weather; neural networks watch the world. They identify patterns invisible to human eyes—the movements of universe, the signatures of disease, the habits of a city. __39__",
+        "The universe may be infinite, but so too is the human desire to understand what it means to look."
+      ],
+      "pages": [
+        10
+      ]
+    },
+    "m014": {
+      "kind": "instructions",
+      "content": [
+        "第三部分 书面表达（共两节，32分）",
+        "第一节（共4小题；第40、41题各2分，第42题3分，第43题5分，共12分）",
+        "阅读下面短文，根据题目要求用英文回答问题。请在答题卡指定区域作答。"
+      ],
+      "pages": [
+        11
+      ]
+    },
+    "m015": {
+      "kind": "passage",
+      "content": [
+        "“My name is...” The words stick in my throat, refusing to come out. The silence stretches on as I shake a stranger’s hand. Trying to relax my jaw, I breathe in and manage to release my name, “Pppeeeetttter.”",
+        "I’ve stuttered since around age 7, with no obvious cause. As a little boy, my go-to strategy was to avoid speaking or replace words with synonyms (同义词) when I felt a block coming. Then I fell in love with science—my hunger for knowledge made me unwilling to stay silent. So I learned speech treatment and finally regained the courage to express myself. I thought I had my stutter under control. Later, after many job interviews, I became an assistant professor.",
+        "However, the decline was gradual, and I didn’t notice it until one day a few months ago, I was teaching my thermodynamics class and found myself unable to say “equilibrium”. Later that day I struggled to tell a colleague the name of my newborn daughter. Both the students and my colleague seemed to ignore my difficulty. Still, I came to a realization: I will probably never be free of my stutter, and my self-image as a capable scientist may take a hit.",
+        "The thought was both depressing and exhausting. Then I began to wonder: can I gain any good from this burden? If radiation can be used to cure cancer, why can’t my stutter make me better, too?",
+        "I have decided to accept my limitations and welcome the new perspectives they provide. When my voice sticks and refuses to cooperate, I can’t force it. I simply let my stutter go. And I can’t control how others perceive me. But with proper effort, I’m sure that I can participate in any conversation."
+      ],
+      "pages": [
+        11
+      ]
+    }
+  },
+  "option_sets": {
+    "o001": [
+      {
+        "key": "A",
+        "content": "Seeing is no longer believing."
+      },
+      {
+        "key": "B",
+        "content": "We no longer merely looked—we searched."
+      },
+      {
+        "key": "C",
+        "content": "The act of looking became both a discipline and a philosophy."
+      },
+      {
+        "key": "D",
+        "content": "The ultimate horizon of observation is out there among the stars."
+      },
+      {
+        "key": "E",
+        "content": "The 20th century transformed the act of looking into a networked activity."
+      },
+      {
+        "key": "F",
+        "content": "Observation, once an act of curiosity, has become continuous, all-around, and autonomous."
+      },
+      {
+        "key": "G",
+        "content": "The telescope’s lens and the smartphone’s camera are now part of the same global system of seeing."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "1",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "city"
+        },
+        {
+          "key": "B",
+          "content": "airport"
+        },
+        {
+          "key": "C",
+          "content": "shops"
+        },
+        {
+          "key": "D",
+          "content": "streets"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "q002",
+      "label": "2",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "out of touch with"
+        },
+        {
+          "key": "B",
+          "content": "in doubt about"
+        },
+        {
+          "key": "C",
+          "content": "on poor terms with"
+        },
+        {
+          "key": "D",
+          "content": "in no mood for"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "q003",
+      "label": "3",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "changed"
+        },
+        {
+          "key": "B",
+          "content": "adopted"
+        },
+        {
+          "key": "C",
+          "content": "caught"
+        },
+        {
+          "key": "D",
+          "content": "expected"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "q004",
+      "label": "4",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "cleaning out"
+        },
+        {
+          "key": "B",
+          "content": "digging out"
+        },
+        {
+          "key": "C",
+          "content": "giving out"
+        },
+        {
+          "key": "D",
+          "content": "cutting out"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "q005",
+      "label": "5",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "annoying"
+        },
+        {
+          "key": "B",
+          "content": "heartbreaking"
+        },
+        {
+          "key": "C",
+          "content": "harmful"
+        },
+        {
+          "key": "D",
+          "content": "disappointing"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "q006",
+      "label": "6",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "meaningful"
+        },
+        {
+          "key": "B",
+          "content": "refreshing"
+        },
+        {
+          "key": "C",
+          "content": "serious"
+        },
+        {
+          "key": "D",
+          "content": "regular"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "q007",
+      "label": "7",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "opinion"
+        },
+        {
+          "key": "B",
+          "content": "trust"
+        },
+        {
+          "key": "C",
+          "content": "friendship"
+        },
+        {
+          "key": "D",
+          "content": "understanding"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "q008",
+      "label": "8",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "compared"
+        },
+        {
+          "key": "B",
+          "content": "collected"
+        },
+        {
+          "key": "C",
+          "content": "consulted"
+        },
+        {
+          "key": "D",
+          "content": "updated"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "q009",
+      "label": "9",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "Similarly"
+        },
+        {
+          "key": "B",
+          "content": "Predictably"
+        },
+        {
+          "key": "C",
+          "content": "Interestingly"
+        },
+        {
+          "key": "D",
+          "content": "Logically"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "q010",
+      "label": "10",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "conversation"
+        },
+        {
+          "key": "B",
+          "content": "flight"
+        },
+        {
+          "key": "C",
+          "content": "reunion"
+        },
+        {
+          "key": "D",
+          "content": "wish"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q011",
+      "label": "11",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "landed"
+      },
+      "score": 1.5,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q012",
+      "label": "12",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "which"
+      },
+      "score": 1.5,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q013",
+      "label": "13",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "where"
+      },
+      "score": 1.5,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q014",
+      "label": "14",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "features"
+      },
+      "score": 1.5,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q015",
+      "label": "15",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m005"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "freedom"
+      },
+      "score": 1.5,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q016",
+      "label": "16",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m005"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "themselves"
+      },
+      "score": 1.5,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "17",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m005"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "have been designed"
+      },
+      "score": 1.5,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "18",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m006"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "To lead"
+      },
+      "score": 1.5,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "19",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m006"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "appreciating"
+      },
+      "score": 1.5,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q020",
+      "label": "20",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m006"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "for"
+      },
+      "score": 1.5,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q021",
+      "label": "21",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m008"
+      ],
+      "stem": "Who is the course intended for?",
+      "options": [
+        {
+          "key": "A",
+          "content": "International students."
+        },
+        {
+          "key": "B",
+          "content": "Heritage professionals."
+        },
+        {
+          "key": "C",
+          "content": "Cultural product designers."
+        },
+        {
+          "key": "D",
+          "content": "Management column editors."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q022",
+      "label": "22",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m008"
+      ],
+      "stem": "What will the participants do during the course?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Learn about professional tools."
+        },
+        {
+          "key": "B",
+          "content": "Share occupational resources."
+        },
+        {
+          "key": "C",
+          "content": "Assess the world heritage sites."
+        },
+        {
+          "key": "D",
+          "content": "Carry out management practices."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q023",
+      "label": "23",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m008"
+      ],
+      "stem": "To apply for the course, one is required to ______.",
+      "options": [
+        {
+          "key": "A",
+          "content": "submit a profile with a photo"
+        },
+        {
+          "key": "B",
+          "content": "introduce related experience"
+        },
+        {
+          "key": "C",
+          "content": "write an application letter online"
+        },
+        {
+          "key": "D",
+          "content": "send an email to whl@PNC26.org"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q024",
+      "label": "24",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m009"
+      ],
+      "stem": "When the author was young, she ______.",
+      "options": [
+        {
+          "key": "A",
+          "content": "had a talent for art"
+        },
+        {
+          "key": "B",
+          "content": "ran a school magazine"
+        },
+        {
+          "key": "C",
+          "content": "found writing interesting"
+        },
+        {
+          "key": "D",
+          "content": "won recognition from publishers"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "q025",
+      "label": "25",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m009"
+      ],
+      "stem": "Receiving her sister’s request for help, the author was ______.",
+      "options": [
+        {
+          "key": "A",
+          "content": "cautious"
+        },
+        {
+          "key": "B",
+          "content": "touched"
+        },
+        {
+          "key": "C",
+          "content": "relieved"
+        },
+        {
+          "key": "D",
+          "content": "uninterested"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "q026",
+      "label": "26",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m009"
+      ],
+      "stem": "What finally encouraged the author to accept the editor’s offer?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Her passion for art."
+        },
+        {
+          "key": "B",
+          "content": "Confidence from success."
+        },
+        {
+          "key": "C",
+          "content": "The editor’s enthusiasm."
+        },
+        {
+          "key": "D",
+          "content": "The push from her sister."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "q027",
+      "label": "27",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m009"
+      ],
+      "stem": "What can we learn from the passage?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Every end is a fresh beginning."
+        },
+        {
+          "key": "B",
+          "content": "Talent is born from consistent effort."
+        },
+        {
+          "key": "C",
+          "content": "Unexpected turns in life may bring gifts."
+        },
+        {
+          "key": "D",
+          "content": "Lifelong learning leads to personal growth."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "q028",
+      "label": "28",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m010"
+      ],
+      "stem": "As for people’s perception of experts, the author is ______.",
+      "options": [
+        {
+          "key": "A",
+          "content": "supportive"
+        },
+        {
+          "key": "B",
+          "content": "puzzled"
+        },
+        {
+          "key": "C",
+          "content": "tolerant"
+        },
+        {
+          "key": "D",
+          "content": "sceptical"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q029",
+      "label": "29",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m010"
+      ],
+      "stem": "What can be inferred about the results of present studies?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Expertise encourages a know-it-all mindset."
+        },
+        {
+          "key": "B",
+          "content": "Experts fail to live up to people’s expectation."
+        },
+        {
+          "key": "C",
+          "content": "Intellectual humility springs from public belief."
+        },
+        {
+          "key": "D",
+          "content": "Problem-solving ability ranks high in expertise."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q030",
+      "label": "30",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m010"
+      ],
+      "stem": "What can we learn from the last paragraph?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Humility among experts should be promoted."
+        },
+        {
+          "key": "B",
+          "content": "A better model to assess humility is expected."
+        },
+        {
+          "key": "C",
+          "content": "Refining judgment on experts needs continued exploration."
+        },
+        {
+          "key": "D",
+          "content": "Tackling urgent issues relies on humble experts’ joint efforts."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q031",
+      "label": "31",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m011"
+      ],
+      "stem": "Why does the author mention Red Admiral butterflies?",
+      "options": [
+        {
+          "key": "A",
+          "content": "To contradict a claim."
+        },
+        {
+          "key": "B",
+          "content": "To justify a comparison."
+        },
+        {
+          "key": "C",
+          "content": "To challenge a convention."
+        },
+        {
+          "key": "D",
+          "content": "To illustrate an assumption."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "q032",
+      "label": "32",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m011"
+      ],
+      "stem": "What does the word “pragmatic” underlined in Paragraph 3 most probably mean?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Complex."
+        },
+        {
+          "key": "B",
+          "content": "Precise."
+        },
+        {
+          "key": "C",
+          "content": "Advanced."
+        },
+        {
+          "key": "D",
+          "content": "Practical."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "q033",
+      "label": "33",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m011"
+      ],
+      "stem": "As for rewilding, which would the author agree with?",
+      "options": [
+        {
+          "key": "A",
+          "content": "The media play a major role in its progress."
+        },
+        {
+          "key": "B",
+          "content": "Objective reporting facilitates its promotion."
+        },
+        {
+          "key": "C",
+          "content": "Public concern about it shapes media coverage."
+        },
+        {
+          "key": "D",
+          "content": "Disagreement among journalists outweighs agreement."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "q034",
+      "label": "34",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m011"
+      ],
+      "stem": "Which would be the best title for the passage?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Rewilding: One Step at a Time"
+        },
+        {
+          "key": "B",
+          "content": "Rewilding: Back to the Unknown"
+        },
+        {
+          "key": "C",
+          "content": "Rewilding: A Race against Limits"
+        },
+        {
+          "key": "D",
+          "content": "Rewilding: The Recall of the Wild"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "q035",
+      "label": "35",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        10
+      ]
+    },
+    {
+      "id": "q036",
+      "label": "36",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        10
+      ]
+    },
+    {
+      "id": "q037",
+      "label": "37",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "E"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        10
+      ]
+    },
+    {
+      "id": "q038",
+      "label": "38",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "G"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        10
+      ]
+    },
+    {
+      "id": "q039",
+      "label": "39",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "F"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        10
+      ]
+    },
+    {
+      "id": "q040",
+      "label": "40",
+      "type": "short_answer",
+      "materials": [
+        "m014",
+        "m015"
+      ],
+      "stem": "What did the author do to avoid stuttering when he was a little boy?",
+      "answer": {
+        "source": "question_document",
+        "content": "He avoided speaking or replaced words with synonyms."
+      },
+      "score": 2,
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "q041",
+      "label": "41",
+      "type": "short_answer",
+      "materials": [
+        "m014",
+        "m015"
+      ],
+      "stem": "How did the author feel the moment he realized his stutter had returned?",
+      "answer": {
+        "source": "question_document",
+        "content": "He felt depressed and exhausted."
+      },
+      "score": 2,
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "q042",
+      "label": "42",
+      "type": "short_answer",
+      "materials": [
+        "m014",
+        "m015"
+      ],
+      "stem": [
+        "Please decide which part is false in the following statement, then underline it and explain why.",
+        "➤ The author has decided to master better speech techniques and finally lets go of his stutter."
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": [
+          "错误部分：master better speech techniques",
+          "原因：The author decided to accept his limitations instead of mastering better speech techniques."
+        ]
+      },
+      "score": 3,
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "q043",
+      "label": "43",
+      "type": "short_answer",
+      "materials": [
+        "m014",
+        "m015"
+      ],
+      "stem": "What do you think of the way the author deals with his limitations? (In about 40 words)",
+      "answer": {
+        "source": "question_document",
+        "content": "参考示例：I think it’s positive and wise. He accepts his limitation calmly and tries to find new perspectives. He faces it bravely rather than escapes, which sets a good example for us."
+      },
+      "score": 5,
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "q044",
+      "label": "第二节",
+      "type": "essay",
+      "stem": [
+        "假设你是红星中学高三学生李华。你的外国好友 Jim 得知你参加了主题为“智绘中华”的科技赋能原创作品征集活动，来信就此询问。请你用英文给他回信，内容包括：",
+        "1. 介绍你的作品；",
+        "2. 分享你的感受。",
+        "注意：1. 词数 100 左右；",
+        "2. 开头和结尾已给出，不计入总词数。",
+        "Dear Jim,",
+        "Yours,",
+        "Li Hua",
+        "（请务必将作文写在答题卡指……"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": [
+          "Dear Jim,",
+          "I’m glad you’re interested in the activity “Wisdom Paints China”. My work is a digital painting combining traditional Chinese painting with AI technology. It shows beautiful mountains and rivers with special effects.",
+          "I feel proud to spread Chinese culture through high-tech. It’s creative and meaningful. I hope you can enjoy it.",
+          "Yours,",
+          "Li Hua"
+        ]
+      },
+      "score": 20,
+      "pages": [
+        12
+      ],
+      "needs_review": true,
+      "notes": [
+        "原卷作文题栏末尾“（请务必将作文写在答题卡指……”被半透明水印遮挡，仅录入可辨文字并以省略号表示截断；该提示位于“Li Hua”之后，位置与原卷一致。"
+      ]
+    }
+  ]
+}

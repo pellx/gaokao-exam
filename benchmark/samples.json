@@ -1,0 +1,14 @@
+[
+  {"id":"cn01","paper":"parsed/2026/一模/门头沟/语文/paper.json","page":1,"tags":["scan","prose","cross-page"]},
+  {"id":"cn02","paper":"parsed/2026/一模/门头沟/语文/paper.json","page":2,"tags":["scan","prose","cross-page"]},
+  {"id":"cn03","paper":"parsed/2026/一模/门头沟/语文/paper.json","page":3,"tags":["scan","prose","classical-chinese"]},
+  {"id":"cn11","paper":"parsed/2026/一模/门头沟/语文/paper.json","page":11,"tags":["text-layer","answers"]},
+  {"id":"ma01","paper":"parsed/2026/零模/西城/北师大实验中学/数学/paper.json","page":1,"tags":["scan","math","no-answers"]},
+  {"id":"ma02","paper":"parsed/2026/零模/西城/北师大实验中学/数学/paper.json","page":2,"tags":["scan","math","figures","no-answers"]},
+  {"id":"ma03","paper":"parsed/2026/零模/西城/北师大实验中学/数学/paper.json","page":3,"tags":["scan","math","figures","no-answers"]},
+  {"id":"ph01","paper":"parsed/2026/零模/朝阳/八十中/物理/paper.json","page":1,"tags":["text-layer","physics","figures"]},
+  {"id":"ph05","paper":"parsed/2026/零模/朝阳/八十中/物理/paper.json","page":5,"tags":["text-layer","physics","figures"]},
+  {"id":"ph06","paper":"parsed/2026/零模/朝阳/八十中/物理/paper.json","page":6,"tags":["text-layer","physics","figures"]},
+  {"id":"ph12","paper":"parsed/2026/零模/朝阳/八十中/物理/paper.json","page":12,"tags":["text-layer","physics","answers"]},
+  {"id":"ch07","paper":"parsed/2026/一模/朝阳/化学/paper.json","page":7,"tags":["chemistry","table"]}
+]

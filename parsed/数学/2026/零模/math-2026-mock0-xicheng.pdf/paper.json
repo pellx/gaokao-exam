@@ -1,0 +1,620 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|零模|北师大实验中学|数学|",
+    "title": "2026北师大实验中学高三零模数学试题",
+    "year": 2026,
+    "kind": "零模",
+    "subject": "数学",
+    "district": "西城",
+    "school": "北师大实验中学",
+    "exam_date": "2026-03"
+  },
+  "source": {
+    "file": "../../../../../raw/数学/2026/零模/math-2026-mock0-xicheng.pdf",
+    "sha256": "8bc1e25b4c9b2b8c37777069edd7d893be55e57687cfe1645701c6ac2c9004e3",
+    "page_count": 5
+  },
+  "extraction": {
+    "status": "verified",
+    "tool": "PyMuPDF 2.1 渲染扫描页（400 dpi）、Pillow 裁剪配图；逐页人工对照原图识别",
+    "notes": [
+      "原卷为扫描件，第 1—4 页无文本层，按 400 dpi 渲染后逐页识别；第 5 页为平台宣传页，不属于试卷正文。",
+      "原卷明确标注“无答案”，未提供答案、解析或各小问分值；未填写 answer、analysis，也未自行解答。",
+      "第 10 题题干中“AB”处原卷字形模糊，详见该题 notes。"
+    ]
+  },
+  "assets": {
+    "a001": {
+      "path": "assets/a001.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        487.8,
+        232.2,
+        603.9,
+        360.9
+      ],
+      "sha256": "a65e7f7503b229e72b6236620557cb04b4e1130594f84c32e0f306c89cd1673f"
+    },
+    "a002": {
+      "path": "assets/a002.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        449.1,
+        374.4,
+        603.0,
+        529.2
+      ],
+      "sha256": "9ef4e55c3d39e6a75253ef29be566f7c7f244a0fa7515e6f817fed5b9d104575"
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "1",
+      "type": "single_choice",
+      "stem": "已知集合 $A=\\{x\\mid -1\\le x<2\\}$，$B=\\{x\\mid x>0\\}$，则集合 $A\\cup B=$",
+      "options": [
+        {
+          "key": "A",
+          "content": "$(0,2)$"
+        },
+        {
+          "key": "B",
+          "content": "$[-1,2)$"
+        },
+        {
+          "key": "C",
+          "content": "$(0,+\\infty)$"
+        },
+        {
+          "key": "D",
+          "content": "$[-1,+\\infty)$"
+        }
+      ],
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q002",
+      "label": "2",
+      "type": "single_choice",
+      "stem": "下列函数中，在区间 $(1,+\\infty)$ 上单调递增的是",
+      "options": [
+        {
+          "key": "A",
+          "content": "$y=|x-2|$"
+        },
+        {
+          "key": "B",
+          "content": "$y=2^{-x}$"
+        },
+        {
+          "key": "C",
+          "content": "$y=-\\ln x$"
+        },
+        {
+          "key": "D",
+          "content": "$y=\\dfrac{1}{1-x}$"
+        }
+      ],
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q003",
+      "label": "3",
+      "type": "single_choice",
+      "stem": "在 $(\\sqrt{x}-2)^5$ 的展开式中，$x^2$ 的系数为",
+      "options": [
+        {
+          "key": "A",
+          "content": "$-5$"
+        },
+        {
+          "key": "B",
+          "content": "$5$"
+        },
+        {
+          "key": "C",
+          "content": "$-10$"
+        },
+        {
+          "key": "D",
+          "content": "$10$"
+        }
+      ],
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q004",
+      "label": "4",
+      "type": "single_choice",
+      "stem": "在等比数列 $\\{a_n\\}$ 中，$a_1+a_2=-16$，$a_2+a_3=\\dfrac{16}{3}$，则 $a_1=$",
+      "options": [
+        {
+          "key": "A",
+          "content": "$-24$"
+        },
+        {
+          "key": "B",
+          "content": "$-8$"
+        },
+        {
+          "key": "C",
+          "content": "$8$"
+        },
+        {
+          "key": "D",
+          "content": "$24$"
+        }
+      ],
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q005",
+      "label": "5",
+      "type": "single_choice",
+      "stem": "设 $F_1,F_2$ 是双曲线 $C:x^2-\\dfrac{y^2}{3}=1$ 的两个焦点，$O$ 为坐标原点，点 $P$ 在 $C$ 上且 $|OP|=2$，则 $\\triangle PF_1F_2$ 的面积为",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\dfrac{7}{2}$"
+        },
+        {
+          "key": "B",
+          "content": "$3$"
+        },
+        {
+          "key": "C",
+          "content": "$\\dfrac{5}{2}$"
+        },
+        {
+          "key": "D",
+          "content": "$2$"
+        }
+      ],
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q006",
+      "label": "6",
+      "type": "single_choice",
+      "stem": "已知 $\\boldsymbol{a},\\boldsymbol{b}$ 是平面内两个非零向量，$\\lambda\\ne 0$，那么“$\\boldsymbol{a}=\\lambda\\boldsymbol{b}$”是“$|\\boldsymbol{a}+\\lambda\\boldsymbol{b}|=|\\boldsymbol{a}|+|\\lambda\\boldsymbol{b}|$”的",
+      "options": [
+        {
+          "key": "A",
+          "content": "充分而不必要条件"
+        },
+        {
+          "key": "B",
+          "content": "必要而不充分条件"
+        },
+        {
+          "key": "C",
+          "content": "充分必要条件"
+        },
+        {
+          "key": "D",
+          "content": "既不充分也不必要条件"
+        }
+      ],
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q007",
+      "label": "7",
+      "type": "single_choice",
+      "stem": "已知各项均不为零的数列 $\\{a_n\\}$，其前 $n$ 项和是 $S_n$．若 $S_n=a_na_{n+1}$（$n=1,2,\\cdots$），则",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\{a_n\\}$ 不可能是等差数列"
+        },
+        {
+          "key": "B",
+          "content": "$\\{a_n\\}$ 可能是等比数列"
+        },
+        {
+          "key": "C",
+          "content": "$\\{a_n\\}$ 不可能是递减数列"
+        },
+        {
+          "key": "D",
+          "content": "$\\{a_n\\}$ 可能是周期数列"
+        }
+      ],
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q008",
+      "label": "8",
+      "type": "single_choice",
+      "stem": [
+        "奶茶温度衰减满足函数关系 $T=k\\cdot b^t+M$，其中 $T$（单位：$^\\circ\\mathrm{C}$）为 $t$（单位：分钟）时的温度，$M$（单位：$^\\circ\\mathrm{C}$）为室温，$k,b$ 为常数，$b>0$．已知某奶茶店的室温为 $20^\\circ\\mathrm{C}$，奶茶制作完成时温度为 $100^\\circ\\mathrm{C}$，10 分钟后温度为 $80^\\circ\\mathrm{C}$，该奶茶适宜饮用温度为 $50^\\circ\\mathrm{C}$，则制作完成后适宜饮用的时间约为",
+        "（参考数据：$\\lg 2\\approx 0.30$，$\\lg 3\\approx 0.48$，结果保留整数）"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "25 分钟"
+        },
+        {
+          "key": "B",
+          "content": "30 分钟"
+        },
+        {
+          "key": "C",
+          "content": "35 分钟"
+        },
+        {
+          "key": "D",
+          "content": "40 分钟"
+        }
+      ],
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q009",
+      "label": "9",
+      "type": "single_choice",
+      "stem": "已知函数 $f(x)=2\\sin\\left(\\omega x-\\dfrac{\\pi}{3}\\right)$（$\\omega>0$），若 $f(x)$ 在区间 $\\left(-\\dfrac{\\pi}{4},\\dfrac{\\pi}{2}\\right)$ 上没有最值，则 $\\omega$ 的最大值为",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\dfrac{2}{3}$"
+        },
+        {
+          "key": "B",
+          "content": "$\\dfrac{4}{3}$"
+        },
+        {
+          "key": "C",
+          "content": "$\\dfrac{5}{3}$"
+        },
+        {
+          "key": "D",
+          "content": "$2$"
+        }
+      ],
+      "score": 4,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q010",
+      "label": "10",
+      "type": "single_choice",
+      "stem": [
+        "如图，正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 4，$M,N$ 分别为棱 $AB,C_1D_1$ 的中点，已知平面 $\\alpha$ 与平面 $BB_1D_1D$ 垂直，且点 $M,N$ 到平面 $\\alpha$ 的距离均为 $\\sqrt{6}$，则满足条件的平面 $\\alpha$ 的个数为",
+        {
+          "asset": "a001"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "$1$"
+        },
+        {
+          "key": "B",
+          "content": "$2$"
+        },
+        {
+          "key": "C",
+          "content": "$3$"
+        },
+        {
+          "key": "D",
+          "content": "$4$"
+        }
+      ],
+      "score": 4,
+      "pages": [
+        2
+      ],
+      "needs_review": true,
+      "notes": [
+        "原卷该处扫描字形近似“A3”，但配图中 $M$ 位于棱 $AB$ 上，故按“$AB$”转录，原文用字需人工复核。"
+      ]
+    },
+    {
+      "id": "q011",
+      "label": "11",
+      "type": "fill_blank",
+      "stem": "已知复数 $z$ 满足 $z\\cdot \\mathrm{i}=1+\\mathrm{i}$，则在复平面内 $z$ 对应点的坐标为 ______．",
+      "score": 5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q012",
+      "label": "12",
+      "type": "fill_blank",
+      "stem": [
+        "若对任意实数 $x$，$\\cos\\left(x+\\dfrac{\\pi}{6}\\right)=A\\sin(x+\\varphi)$（$A>0$）恒成立，则满足条件的一组 $A,\\varphi$ 的值为",
+        "$A=$______，$\\varphi=$______．"
+      ],
+      "score": 5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q013",
+      "label": "13",
+      "type": "fill_blank",
+      "stem": "直线 $ax+by+c=0$ 与圆 $x^2+y^2+2x-10=0$ 交于 $A,B$ 两点，若 $a$ 是 $b,c$ 的等差中项，则 $|AB|$ 的最小值为 ______．",
+      "score": 5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q014",
+      "label": "14",
+      "type": "fill_blank",
+      "stem": [
+        "已知 $F$ 是抛物线 $C:x^2=12y$ 的焦点，则 $F$ 的坐标为 ______，设 $A$ 是直线 $y=-3$ 上一点，直线 $AF$ 与抛物线 $C$ 的一个交点为 $B$，若 $\\overrightarrow{AB}=2\\overrightarrow{BF}$，则点 $B$ 到 $x$ 轴的距离为",
+        "______．"
+      ],
+      "score": 5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q015",
+      "label": "15",
+      "type": "fill_blank",
+      "stem": [
+        "对于函数 $f(x)=x\\cdot(2-|x|)$ 与非零实数 $a$，定义函数",
+        "$$f_a(x)=\\begin{cases}f(x), & x<a,\\\\ \\dfrac{f(a)}{a}\\cdot x, & x\\ge a.\\end{cases}$$",
+        "给出下列四个结论：",
+        "① 函数 $f_1(x)$ 的最小值为 $-1$；",
+        "② 若 $f_a(x)$ 为 $\\mathbf{R}$ 上的单调函数，则 $a<-2$；",
+        "③ 存在非零实数 $a$，使得函数 $y=f_a(x)-a$ 有四个不同零点；",
+        "④ 存在不相等的实数 $a,b$，使得函数 $y=f_a(x)-f_b(x)$ 为奇函数．",
+        "其中所有正确结论的序号为 ______．"
+      ],
+      "score": 5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q016",
+      "label": "16",
+      "type": "composite",
+      "stem": "在 $\\triangle ABC$ 中，角 $A,B,C$ 所对的边分别 $a,b,c$，$f(x)=2\\sin(x-A)\\cos x+\\sin(B+C)$（$x\\in\\mathbf{R}$），函数 $f(x)$ 的图象关于点 $\\left(\\dfrac{\\pi}{6},0\\right)$ 对称．",
+      "score": 13,
+      "pages": [
+        3
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "(I)",
+          "type": "calculation",
+          "stem": "当 $x\\in\\left(0,\\dfrac{\\pi}{2}\\right)$ 时，求 $f(x)$ 的值域；"
+        },
+        {
+          "id": "p2",
+          "label": "(II)",
+          "type": "calculation",
+          "stem": "若 $a=6$，求 $\\triangle ABC$ 的面积最大值．"
+        }
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "17",
+      "type": "composite",
+      "stem": [
+        "在四棱锥 $B-ACC_1A_1$ 中，四边形 $ACC_1A_1$ 为边长为 4 的正方形，平面 $ABC\\perp$ 平面 $ACC_1A_1$，$AB=3$．",
+        {
+          "asset": "a002"
+        }
+      ],
+      "score": 14,
+      "pages": [
+        3
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "(I)",
+          "type": "proof",
+          "stem": "求证：$AA_1\\perp BC$；"
+        },
+        {
+          "id": "p2",
+          "label": "(II)",
+          "type": "calculation",
+          "stem": [
+            "从条件①，条件②，条件③这三个条件中选择一个作为已知，使得四棱锥 $B-ACC_1A_1$ 存在且唯一确定，求平面 $A_1BC_1$ 与平面 $CBC_1$ 所成角的余弦值．",
+            "条件①：$BC=5$；",
+            "条件②：$\\angle BCC_1=\\angle BC_1C$；",
+            "条件③：$BA_1=BC$．",
+            "注：如果选择的条件不符合要求，第（II）问得 0 分；如果选择多个符合要求的条件分别解答，按第一个解答计分．"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "18",
+      "type": "composite",
+      "stem": [
+        "为研究某地区 2025 届大学毕业生毕业三个月后的毕业去向，某调查公司从该地区 2025 届大学毕业生中随机选取了 1000 人作为样本进行调查，结果如下：",
+        {
+          "table": {
+            "header": [
+              "毕业去向",
+              "继续学习深造",
+              "单位就业",
+              "自主创业",
+              "自由职业",
+              "慢就业"
+            ],
+            "rows": [
+              [
+                "人数",
+                "200",
+                "560",
+                "14",
+                "128",
+                "98"
+              ]
+            ]
+          }
+        },
+        "假设该地区 2025 届大学毕业生选择的毕业去向相互独立．"
+      ],
+      "score": 13,
+      "pages": [
+        3
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "(I)",
+          "type": "calculation",
+          "stem": "若该地区一所高校 2025 届大学毕业生的人数为 2500，试根据样本估计该校 2025 届大学毕业生选择“单位就业”的人数；"
+        },
+        {
+          "id": "p2",
+          "label": "(II)",
+          "type": "calculation",
+          "stem": "从该地区 2025 届大学毕业生中随机选取 3 人，记随机变量 $X$ 为这 3 人中选择“继续学习深造”的人数，以样本的频率估计概率，求 $X$ 的分布列和数学期望 $E(X)$；"
+        },
+        {
+          "id": "p3",
+          "label": "(III)",
+          "type": "short_answer",
+          "stem": "该公司在半年后对样本中的毕业生进行再调查，发现仅有选择“慢就业”的毕业生中的 $a$（$0<a<98$）人选择了上表中其他的毕业去向，记此时表中五种毕业去向对应人数的方差为 $s^2$．当 $a$ 为何值时，$s^2$ 最小．（结论不要求证明）"
+        }
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "19",
+      "type": "composite",
+      "stem": "已知椭圆 $C:\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$）的离心率为 $\\dfrac{\\sqrt{6}}{3}$，长轴长为 $2\\sqrt{3}$．",
+      "score": 15,
+      "pages": [
+        4
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "(I)",
+          "type": "calculation",
+          "stem": "求椭圆 $C$ 的方程；"
+        },
+        {
+          "id": "p2",
+          "label": "(II)",
+          "type": "calculation",
+          "stem": "设直线 $l$ 过点 $(2,0)$，且被椭圆 $C$ 截得的弦长为 $\\dfrac{2\\sqrt{6}}{3}$，求直线 $l$ 的方程；"
+        },
+        {
+          "id": "p3",
+          "label": "(III)",
+          "type": "calculation",
+          "stem": "设 $O$ 为坐标原点，若 $P,Q,M$ 为椭圆上的点，且圆 $M$ 与直线 $OP,OQ$ 相切，当直线 $OP,OQ$ 的斜率 $k_{OP},k_{OQ}$ 存在且 $k_{OP}\\cdot k_{OQ}=-\\dfrac{1}{3}$，求圆 $M$ 的半径．"
+        }
+      ]
+    },
+    {
+      "id": "q020",
+      "label": "20",
+      "type": "composite",
+      "stem": "已知函数 $f(x)=ax-\\mathrm{e}^x+1$．",
+      "score": 15,
+      "pages": [
+        4
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "(I)",
+          "type": "calculation",
+          "stem": "当 $a=1$ 时，求 $f(x)$ 在点 $(0,f(0))$ 处的切线方程；"
+        },
+        {
+          "id": "p2",
+          "label": "(II)",
+          "type": "calculation",
+          "stem": "讨论 $f(x)$ 的极值；"
+        },
+        {
+          "id": "p3",
+          "label": "(III)",
+          "type": "calculation",
+          "stem": "已知 $a>1$，函数 $f(x)$ 有两个不同的零点 $x_1,x_2$（$x_1<x_2$）和一个极值点 $x_0$，记 $A(x_1,f(x_1))$，$B(x_2,f(x_2))$，$C(x_0,f(x_0))$，试判断 $|AC|$ 与 $|BC|$ 的大小关系，并说明理由．"
+        }
+      ]
+    },
+    {
+      "id": "q021",
+      "label": "21",
+      "type": "composite",
+      "stem": [
+        "设数列 $A:x_1,x_2,\\cdots,x_n$（$n\\ge 3$），定义集合",
+        "$$S(A,k)=\\left\\{s\\ \\middle|\\ s=\\dfrac{x_{i_1}+x_{i_2}+\\cdots+x_{i_k}}{k},\\ 1\\le i_1<i_2<\\cdots<i_k\\le n\\right\\},$$",
+        "其中 $k$（$2\\le k\\le n$）为给定的正整数．"
+      ],
+      "score": 15,
+      "pages": [
+        4
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "(I)",
+          "type": "calculation",
+          "stem": "若 $A:0,2,4$，求 $S(A,2)$；"
+        },
+        {
+          "id": "p2",
+          "label": "(II)",
+          "type": "proof",
+          "stem": "若 $A$ 中的项 $x_i\\in S(A,n-1)$（$i=1,2,\\cdots,n$），求证：$A$ 为常数列；"
+        },
+        {
+          "id": "p3",
+          "label": "(III)",
+          "type": "proof",
+          "stem": "记集合 $S(A,k)$ 的最大元素为 $s_k$，求证：$s_{k+1}\\le s_k$（$2\\le k\\le n-1$）．"
+        }
+      ]
+    }
+  ]
+}

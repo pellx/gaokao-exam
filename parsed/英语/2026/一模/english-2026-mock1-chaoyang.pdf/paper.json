@@ -1,0 +1,1588 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|一模|朝阳|英语|",
+    "title": "2026北京朝阳高三一模英语试题及答案",
+    "year": 2026,
+    "kind": "一模",
+    "subject": "英语",
+    "district": "朝阳"
+  },
+  "source": {
+    "file": "../../../../../raw/英语/2026/一模/english-2026-mock1-chaoyang.pdf",
+    "sha256": "52dbddf8940689adb1199ab8ff74be7f4d6890d2554231b3919eb588d925af3e",
+    "page_count": 9
+  },
+  "extraction": {
+    "status": "verified",
+    "tool": "PyMuPDF 文本层提取 + 140 dpi 逐页渲染视觉核对",
+    "notes": [
+      "原卷9页同属一个PDF：第1—8页为试题，第9页为参考答案，答案与试题同属一份文件，故答案来源统一标为 question_document，未另设 answer_files。",
+      "已逐页渲染并实际查看第1—9页，核对题号1—43、书面表达第二节、各题选项、材料归属、答案与解析。",
+      "各页页眉、页脚、页码及“北京高考在线 www.gaokzx.com”水印未写入 JSON；填空线以 ___1___ 形式保留原空号，未回填答案。",
+      "第35—39题为七选五，A—G 七个选项原卷只印一次，存于 option_sets.o001，由五题共用。",
+      "原卷封面印“本试卷共10页”，本PDF实际为9页（第9页为参考答案），未见缺页内容。",
+      "全卷无配图：PDF 每页只含1张与文字层重合的整页扫描底图（带网站水印），不是题目插图，故未提取 assets；第3页 Weekly Assignments 为表格，已按 table 结构录入。"
+    ]
+  },
+  "materials": {
+    "m001": {
+      "kind": "instructions",
+      "content": [
+        "（考试时间 90 分钟 满分 100 分）",
+        "本试卷共 10 页。考生务必在答题卡指定区域作答，在试卷上作答无效。",
+        "第一部分 知识运用（共两节，30 分）",
+        "第一节（共 10 小题；每小题 1.5 分，共 15 分）",
+        "阅读下面短文，掌握其大意，从每题所给的 A、B、C、D 四个选项中，选出最佳选项，并在答题卡上将该项涂黑。"
+      ],
+      "pages": [
+        1
+      ]
+    },
+    "m002": {
+      "kind": "passage",
+      "content": [
+        "Not knowing how to ride a bike as an adult became a joke about me. It affected my self-esteem. Hannah, my best friend, noticed and offered to teach me. We walked a bike to the park. I won’t lie: the ___1___ self-talk was coming in hot. “I’ll never be able to do this and I am not ready.”",
+        "In the park, the lesson began exactly as I suspected. Worse still, the pedal had cut my ankle. “This is not working,” I wailed (哀号). “I was stupid for ___2___! I shouldn’t have bothered!”",
+        "“Wait here,” Hannah said before riding off. I shouldn’t have been ___3___ at all. “Who would want to be around someone who couldn’t even gather up the resilience (韧性) for an hour?” But another thought popped in. “Who says you’re not resilient?” I ___4___ it, exploring all the times I had been resilient, when I had ___5___ hard things, and how proud I had been. The longer I thought, the stronger my ___6___ grew.",
+        "When Hannah headed back, I was determined to take the lesson and try my best. She pulled up with two things that made everything even ___7___: my favourite coffee and a tool to remove the pedals so that I could practice rolling and learn balance.",
+        "Around mid-morning, I was rolling down the hill. That afternoon, with great pride, I was riding, which was a great big “___8___” to my self-doubt. Months later, I fully accepted this ___9___ of thinking when riding again. Yes, I had shaky moments, but instead of ___10___ my abilities, I reminded myself, “You’ve done this before, and you can do it again.” With kindness from a loving friend, I have become someone who loves myself-and knows how to ride a bike."
+      ],
+      "pages": [
+        1
+      ]
+    },
+    "m003": {
+      "kind": "instructions",
+      "content": [
+        "第二节（共 10 小题；每小题 1.5 分，共 15 分）",
+        "阅读下列短文，根据短文内容填空。在未给提示词的空白处仅填写 1 个恰当的单词，在给出提示词的空白处用括号内所给词的正确形式填空。请在答题卡指定区域作答。"
+      ],
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "m004": {
+      "kind": "passage",
+      "content": [
+        "Tourism is one of the world’s ___11___ (big) industries, and a highly polluting one. Now the “Rewilding Portugal” project, ___12___ tourists help restore degraded farmland by planting native trees, turns tourists into active participants in repairing the planet. In return, the tourists stay in renewable-powered accommodations. Critics argue that the project is just a marketing trick. But supporters believe it offers a way ___13___ (make) travel meaningful, by turning it into an opportunity to learn, connect, and contribute."
+      ],
+      "pages": [
+        2
+      ]
+    },
+    "m005": {
+      "kind": "passage",
+      "content": [
+        "According to international standards, China is now considered a moderately aging society. Population is one of the key variables affecting economic growth. ___14___ the doubts and concerns over the country’s ability to maintain its economic growth momentum (势头), a major one is ___15___ China’s economy has peaked or not due to a decrease in labor supply. In response, China is taking a comprehensive approach that ___16___ (combine) technological progress with investment in human capital, which can ultimately boost labor productivity."
+      ],
+      "pages": [
+        2
+      ]
+    },
+    "m006": {
+      "kind": "passage",
+      "content": [
+        "To Benjamin and Loic, two Frenchmen, China was a distant yet fascinating place, a name more often ___17___ (find) in headlines. In September 2023, the two friends decided to walk all the way to China, ___18___ (choose) to keep their journey low-carbon. They quit their jobs, packed only essentials and accepted that the road ahead ___19___ (last) over a year. China, which they entered after a yearlong journey, marked a milestone, not just in geographical terms, but emotionally. By the time they arrived in Lanzhou, they ___20___ (be) on the road for about 450 days."
+      ],
+      "pages": [
+        2
+      ]
+    },
+    "m007": {
+      "kind": "instructions",
+      "content": [
+        "第二部分 阅读理解（共两节，38 分）",
+        "第一节（共 14 小题；每小题 2 分，共 28 分）",
+        "阅读下列短文，从每题所给的 A、B、C、D 四个选项中，选出最佳选项，并在答题卡上将该项涂黑。"
+      ],
+      "pages": [
+        2
+      ]
+    },
+    "m008": {
+      "kind": "passage",
+      "content": [
+        "Are you curious about how health connects with the world around us? Want to tackle real global challenges and discover how you can make a difference? “Global Health” explores how medicine, public health, international relations, economics and other disciplines must be integrated to save lives worldwide. In this course, students will learn about current approaches to promoting health, preventing disease and delivering health services to communities in need around the world. You’ll explore the science of public health, the strategies used to predict and stop epidemics, and the power of communication in keeping communities safe.",
+        "**Learning Highlights**",
+        "· Describe the processes by which infectious diseases spread",
+        "· Identify and explain the core public health methods and tools for detecting, controlling and preventing infectious disease outbreaks",
+        "· Analyze historical and contemporary case studies of infectious disease outbreaks and evaluate how different response strategies succeeded or failed",
+        "· Use health research methods to gather and interpret data relevant to global health issues",
+        "· Describe the major health behavior theories used in public health",
+        "**Weekly Assignments**",
+        {
+          "table": {
+            "rows": [
+              [
+                "Week 1",
+                [
+                  "Group presentations on Sustainable Development Goals (SDGs).",
+                  "Report health indicators for a chosen country."
+                ]
+              ],
+              [
+                "Week 2",
+                [
+                  "Hear from guest speakers from the Department of Public Health.",
+                  "Become disease detectives for a mock (模拟的) outbreak on campus."
+                ]
+              ],
+              [
+                "Week 3",
+                [
+                  "Serve food at a homeless shelter.",
+                  "Design and carry out a mini health study."
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "m009": {
+      "kind": "passage",
+      "content": [
+        "I had been considering giving up. For the past eight years, I’ve met with prospective first-year students as a volunteer interviewer for my alma mater (母校). The reports I submit after the interviews become part of their admissions file. But acceptance rate of my university is low and each time I see the word “Denied” next to one of my interviewees’ names at the end of an admissions cycle, I feel a little more heartbroken.",
+        "Don’t get me wrong. I’ve gotten to know loads of inspiring kids, and a handful of them were offered a spot. After a cycle in which none of my interviewees was green-lighted, though, I started to wonder: In expressing my enthusiasm for my university in interviews, was I doing them a favor or setting them up for disappointment? Was it fair of me to share an inside look into my university when most won’t have access to it?",
+        "Then, out of the blue, I received a text from one of “my” admits, Layla. She thanked me for getting her into my university. I was touched, but I mentally dismissed the validity (合理性) of what seemed to be a misguided assumption of how the admissions process works.",
+        "We met for coffee a few months later, and she delighted me with a detailed discussion of her classes, her professors, her research, and her friends. Her eyes were bright, her excitement visible. She told me she had submitted a request to spend 20 minutes with her admissions file. I couldn’t understand why she wanted to take the time to look. Couldn’t she just enjoy her time as an admitted student without being distracted by disturbing questions of whether she belonged?",
+        "As it turns out, Layla learned that the admissions officer who first read her file was on the fence about her but then decided to put her application through for another read because of what I’d written in my interview report. My voice had made a difference.",
+        "Layla found the relief she’d been looking for: Why was she here? Did she really matter to this incredible community? Seeing her put her worries to rest helped me do the same with my own. Maybe sometimes we all need to hear that we matter."
+      ],
+      "pages": [
+        3,
+        4
+      ]
+    },
+    "m010": {
+      "kind": "passage",
+      "content": [
+        "Arif Pujianto couldn’t sleep. When dawn broke, the area where he lives on the low-lying Pari Island in Indonesia was damaged. Eventually, he decided to do something about it. He filed a lawsuit (诉讼) against cement manufacturer Holcim. At first sight, this might seem unreasonable. After all, the company has no operations in Indonesia and is headquartered 12,000 kilometres from Pari, in Switzerland. Yet Pujianto’s case is on top of a wave of lawsuits supported by innovative climate attribution models.",
+        "Computer simulations (模拟) have been the backbone of climate science since the 1960s. Scientists run them to predict how the planet will warm as the amount of greenhouse gases in our atmosphere increases. But climate models can be put to another use if they are run in a slightly different way. The idea is to simulate counterfactual scenarios (情景) and compare them with how things really turned out. How would the world look if we had left fossil fuels which we consumed in the ground, for example? Climate scientists have spent decades using this technique to figure out the consequences of carbon emissions, in a field that is broadly called attribution science.",
+        "Climate models can be extremely complex and often require supercomputers to run. But two advances have started to change that. One is the development of “reduced complexity” climate models. Instead of modelling Earth’s precise physical, chemical and biological processes, these simpler models simulate them on average, which reduces processing power. The second advance boils down to innovations in the way we account for emissions and join the links in the causal chain between emissions and harms. That includes, for example, smarter ways of differentiating between historical emissions. A gigatonne of carbon emitted today, when oceans are more acidic, has different consequences to a gigatonne of carbon emitted in 1850.",
+        "In 2022, climate scientists Christopher Callahan at Indiana University and Justin Mankin at Dartmouth College put these two advances together to create an end-to-end climate attribution model, one that stretches from the individual packets of emissions, perhaps from a single company, all the way to the effects of climate change on a community. Mankin is aware that the research may be used in court and pursuing climate action through climate lawsuits may be necessary.",
+        "A proper test of how attribution science holds up in court in these “polluter-pays” cases hasn’t yet taken place, then. But such a test may not be too far off, says Noah Walker-Crawford, a legal advisor, especially given how many fresh cases are starting to come before judges. If a precedent is set by even a single successful polluter-pays case, it could open the floodgates to a huge number of similar claims. In each case, the individual damages demanded may be relatively small, but it could, nonetheless, be significant."
+      ],
+      "pages": [
+        4,
+        5
+      ]
+    },
+    "m011": {
+      "kind": "passage",
+      "content": [
+        "Whether artists or scientists, investigators strike out from what is known to brave the unknown in acts of creative discovery. Think of artists and scientists as users of three modes of discovery: knowing, seeing, and telling. We are all seeking knowledge — epistemologists who question what we think we know, how we come to know it, and whether we can prove what we think we know. Meanwhile, we are all seers — aestheticists who confront what we perceive in natural and created appearances. Finally, we are all tellers and listeners — narrativists who tell about what we have found and listen to the findings of others.",
+        "The epistemologist’s attention to knowing resonated (引起共鸣) in physicist Andrea Califano’s precision-medicine discoveries in cancer biology. His philosopher-physicist mind is the creative ground to discover new treatments for cancer. “A lot of ideas end up being very, very simple-minded in hindsight. But it’s very difficult to foresee whether simple-minded ideas will work in the end. There’s nothing magical about what we do. It’s just that nobody had kind of thought of cancer in this way,” said Califano.",
+        "The aestheticists want to face the material world with all the capacities of the human to see and imagine. Tissue engineer Gordana Vunjak-Novakovic exposed the creative powers of aesthetics in the practice of a scientist. It was the novel *Alexandria Quartet* that gave her the idea of her work as “sliding planes”: “Each of the sliding planes is a body of knowledge. Then they travel past each other, and somehow connect with each other. There were three sliding planes that are three different characters’ perspectives. And then the fourth plane was the time. That is how the book was constructed, I believe, and this is how we do science.”",
+        "Knowing and seeing require connections between the internal world of the seer or knower, the external world of the seeable and knowable, and the world of witnesses who receive what becomes seen or known. These connections, what I call “telling”, are achieved through narrative acts like speech. It creates a network, bridging from person to person. Nabila El-Bassel, an international leader in studying the most hard-to-deal-with global health problems, confirmed the necessity of listening to all “telling” voices. El-Bassel and her teams are listeners of their subjects’ lived experiences, making sure that suffering individuals are heard and valued.",
+        "Recognising the fundamental roles of epistemology, aesthetics, and narrative studies in medical research avoids costly oppositions between arts and sciences. With all three discovery modes engaged, scientists gradually recognise why suffering matters, how delicate the balance between sickness and health is, and how urgent medicine’s mission is. Health care’s response to disease could then embrace the pursuit to comprehend phenomena deep within the cell and to face up to social issues vast across the Earth."
+      ],
+      "pages": [
+        5,
+        6
+      ]
+    },
+    "m012": {
+      "kind": "instructions",
+      "content": [
+        "第二节（共 5 小题；每小题 2 分，共 10 分）",
+        "根据短文内容，从短文后的七个选项中选出能填入空白处的最佳选项，并在答题卡上将该项涂黑。选项中有两项为多余选项。"
+      ],
+      "pages": [
+        6
+      ]
+    },
+    "m013": {
+      "kind": "passage",
+      "content": [
+        "Tolerance is often praised as a virtue. ___35___ It’s like holding your breath through an unwanted conversation with someone you’d rather not talk to. Still, you do anyway because you’re trying to be “tolerant.”",
+        "Tolerance, at its core, is about bearing something such as a noise or discomfort. Something you’d prefer to be rid of but can’t, so you learn to live with it. That’s not exactly a warm foundation for human connection. You can “tolerate” someone while still secretly disliking everything about them. You can go years thinking you’re being a good person because you’ve managed not to explode, not to get angry, not to say the quiet part out loud. ___36___",
+        "To bridge the distance implied in tolerance, researchers suggest a shift to curiosity — the willingness to be changed by what we learn about others. ___37___ Ask people what they care about. What they fear. What keeps them up at night. Please don’t ask because it’s the “right” thing to do. Ask because you might find yourself in their answer.",
+        "Furthermore, researchers advocate civility for a more connected society. Different from tolerance as mere endurance, civility is a social value based on mutual respect. It involves active moral engagement, a willingness to treat others with dignity even in disagreement. ___38___ In that sense, civility becomes the connective tissue that holds communities together when tolerance alone would let them drift apart.",
+        "We cannot survive as a functioning society if we escape into a polite mask. A culture that avoids discomfort is a culture that stops growing. ___39___ So ask the question that feels too personal. Stay in the room when it gets uncomfortable. Because without this inconvenient curiosity, we would lose control over what it means to be human."
+      ],
+      "pages": [
+        6,
+        7
+      ]
+    },
+    "m014": {
+      "kind": "instructions",
+      "content": [
+        "第三部分 书面表达（共两节，32 分）",
+        "第一节（共 4 小题；第 40、41 题各 2 分，第 42 题 3 分，第 43 题 5 分，共 12 分）",
+        "阅读下面短文，根据题目要求用英文回答问题。请在答题卡指定区域作答。"
+      ],
+      "pages": [
+        7
+      ]
+    },
+    "m015": {
+      "kind": "passage",
+      "content": [
+        "Every Mother’s Day, I am reminded how important food is in my relationship with Mom. Every dish is a source of memories. A bowl of soup, a cup of tea, a simple fried fish — each becomes a precious moment between us.",
+        "Long before we speak, we are fed. Through food, we receive our first experiences of safety, care, and attention. A warm bowl of rice. A delicious chicken soup simmering (炖) in a kitchen filled with laughter. These are more than meals. They are messages: You are loved. You belong. I often think about the quiet care my mother puts into everything she cooks. There is no recipe that can express that feeling, no machine that can replicate (复制) her hands, her style, and her reasons. Each dish holds the power to create memories or to call them back.",
+        "Today, as the world rushes toward automation and optimization (最优化), I increasingly find myself looking to food for moments of calm. At the same time, I worry what will happen to the human heart of food when machines prepare, deliver, and even plan our meals for us.",
+        "Let’s be clear: Technology can help us in many ways. It can make cooking safer, more accessible, and less wasteful. But we must draw a line between assistance and replacement. Because once food is reduced to pure functional value, we will lose what it means to feed — and to be fed — as human beings. We don’t need smarter kitchens. We need longer tables, spaces where people of different backgrounds, generations, and experiences can gather and break bread together.",
+        "The future will always offer faster, more efficient ways of eating. But it will always be the human touch in the act of cooking that gives food its deepest meaning."
+      ],
+      "pages": [
+        7
+      ]
+    },
+    "m016": {
+      "kind": "instructions",
+      "content": [
+        "第二节（20 分）"
+      ],
+      "pages": [
+        8
+      ]
+    }
+  },
+  "option_sets": {
+    "o001": [
+      {
+        "key": "A",
+        "content": "But inside, you keep people at arm’s length."
+      },
+      {
+        "key": "B",
+        "content": "It’s about opening the self to someone else’s world."
+      },
+      {
+        "key": "C",
+        "content": "Yet, it feels more like a forced smile than a handshake."
+      },
+      {
+        "key": "D",
+        "content": "If we can’t risk a little awkwardness, we end up strangers."
+      },
+      {
+        "key": "E",
+        "content": "Listening with curiosity doesn’t mean you have to like everyone."
+      },
+      {
+        "key": "F",
+        "content": "It maintains shared life despite difference, not avoiding discomfort."
+      },
+      {
+        "key": "G",
+        "content": "However, we need more human moments, the kind you have to work at."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "1",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "I won’t lie: the ___1___ self-talk was coming in hot.",
+      "options": [
+        {
+          "key": "A",
+          "content": "gentle"
+        },
+        {
+          "key": "B",
+          "content": "negative"
+        },
+        {
+          "key": "C",
+          "content": "calming"
+        },
+        {
+          "key": "D",
+          "content": "greedy"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q002",
+      "label": "2",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "I was stupid for ___2___! I shouldn’t have bothered!",
+      "options": [
+        {
+          "key": "A",
+          "content": "arguing"
+        },
+        {
+          "key": "B",
+          "content": "crying"
+        },
+        {
+          "key": "C",
+          "content": "moving"
+        },
+        {
+          "key": "D",
+          "content": "trying"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q003",
+      "label": "3",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "I shouldn’t have been ___3___ at all.",
+      "options": [
+        {
+          "key": "A",
+          "content": "happy"
+        },
+        {
+          "key": "B",
+          "content": "patient"
+        },
+        {
+          "key": "C",
+          "content": "surprised"
+        },
+        {
+          "key": "D",
+          "content": "worried"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q004",
+      "label": "4",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "“Who says you’re not resilient?” I ___4___ it, exploring all the times I had been resilient, when I had ___5___ hard things, and how proud I had been.",
+      "options": [
+        {
+          "key": "A",
+          "content": "followed"
+        },
+        {
+          "key": "B",
+          "content": "interrupted"
+        },
+        {
+          "key": "C",
+          "content": "produced"
+        },
+        {
+          "key": "D",
+          "content": "shared"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q005",
+      "label": "5",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "“Who says you’re not resilient?” I ___4___ it, exploring all the times I had been resilient, when I had ___5___ hard things, and how proud I had been.",
+      "options": [
+        {
+          "key": "A",
+          "content": "forgotten"
+        },
+        {
+          "key": "B",
+          "content": "overcome"
+        },
+        {
+          "key": "C",
+          "content": "considered"
+        },
+        {
+          "key": "D",
+          "content": "abandoned"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q006",
+      "label": "6",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "The longer I thought, the stronger my ___6___ grew.",
+      "options": [
+        {
+          "key": "A",
+          "content": "duty"
+        },
+        {
+          "key": "B",
+          "content": "control"
+        },
+        {
+          "key": "C",
+          "content": "resolve"
+        },
+        {
+          "key": "D",
+          "content": "tension"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q007",
+      "label": "7",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "She pulled up with two things that made everything even ___7___: my favourite coffee and a tool to remove the pedals so that I could practice rolling and learn balance.",
+      "options": [
+        {
+          "key": "A",
+          "content": "easier"
+        },
+        {
+          "key": "B",
+          "content": "richer"
+        },
+        {
+          "key": "C",
+          "content": "safer"
+        },
+        {
+          "key": "D",
+          "content": "fairer"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q008",
+      "label": "8",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "That afternoon, with great pride, I was riding, which was a great big “___8___” to my self-doubt.",
+      "options": [
+        {
+          "key": "A",
+          "content": "shut up"
+        },
+        {
+          "key": "B",
+          "content": "move on"
+        },
+        {
+          "key": "C",
+          "content": "stand by"
+        },
+        {
+          "key": "D",
+          "content": "wake up"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q009",
+      "label": "9",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "Months later, I fully accepted this ___9___ of thinking when riding again.",
+      "options": [
+        {
+          "key": "A",
+          "content": "cost"
+        },
+        {
+          "key": "B",
+          "content": "role"
+        },
+        {
+          "key": "C",
+          "content": "root"
+        },
+        {
+          "key": "D",
+          "content": "change"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q010",
+      "label": "10",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "Yes, I had shaky moments, but instead of ___10___ my abilities, I reminded myself, “You’ve done this before, and you can do it again.”",
+      "options": [
+        {
+          "key": "A",
+          "content": "using"
+        },
+        {
+          "key": "B",
+          "content": "testing"
+        },
+        {
+          "key": "C",
+          "content": "improving"
+        },
+        {
+          "key": "D",
+          "content": "questioning"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q011",
+      "label": "11",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "stem": "Tourism is one of the world’s ___11___ (big) industries, and a highly polluting one.",
+      "answer": {
+        "source": "question_document",
+        "content": "biggest"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q012",
+      "label": "12",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "stem": "Now the “Rewilding Portugal” project, ___12___ tourists help restore degraded farmland by planting native trees, turns tourists into active participants in repairing the planet.",
+      "answer": {
+        "source": "question_document",
+        "content": "where"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q013",
+      "label": "13",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "stem": "But supporters believe it offers a way ___13___ (make) travel meaningful, by turning it into an opportunity to learn, connect, and contribute.",
+      "answer": {
+        "source": "question_document",
+        "content": "to make"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q014",
+      "label": "14",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m005"
+      ],
+      "stem": "___14___ the doubts and concerns over the country’s ability to maintain its economic growth momentum (势头), a major one is ___15___ China’s economy has peaked or not due to a decrease in labor supply.",
+      "answer": {
+        "source": "question_document",
+        "content": "Among"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q015",
+      "label": "15",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m005"
+      ],
+      "stem": "___14___ the doubts and concerns over the country’s ability to maintain its economic growth momentum (势头), a major one is ___15___ China’s economy has peaked or not due to a decrease in labor supply.",
+      "answer": {
+        "source": "question_document",
+        "content": "whether"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q016",
+      "label": "16",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m005"
+      ],
+      "stem": "In response, China is taking a comprehensive approach that ___16___ (combine) technological progress with investment in human capital, which can ultimately boost labor productivity.",
+      "answer": {
+        "source": "question_document",
+        "content": "combines"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "17",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m006"
+      ],
+      "stem": "To Benjamin and Loic, two Frenchmen, China was a distant yet fascinating place, a name more often ___17___ (find) in headlines.",
+      "answer": {
+        "source": "question_document",
+        "content": "found"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "18",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m006"
+      ],
+      "stem": "In September 2023, the two friends decided to walk all the way to China, ___18___ (choose) to keep their journey low-carbon.",
+      "answer": {
+        "source": "question_document",
+        "content": "choosing"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "19",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m006"
+      ],
+      "stem": "They quit their jobs, packed only essentials and accepted that the road ahead ___19___ (last) over a year.",
+      "answer": {
+        "source": "question_document",
+        "content": "would last"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q020",
+      "label": "20",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m006"
+      ],
+      "stem": "By the time they arrived in Lanzhou, they ___20___ (be) on the road for about 450 days.",
+      "answer": {
+        "source": "question_document",
+        "content": "had been"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q021",
+      "label": "21",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m008"
+      ],
+      "stem": "In Global Health, students can ________.",
+      "options": [
+        {
+          "key": "A",
+          "content": "forecast the public health challenges"
+        },
+        {
+          "key": "B",
+          "content": "provide communities with health services"
+        },
+        {
+          "key": "C",
+          "content": "address the problems on community safety"
+        },
+        {
+          "key": "D",
+          "content": "explore health issues in a multidisciplinary way"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q022",
+      "label": "22",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m008"
+      ],
+      "stem": "The course highlights ________.",
+      "options": [
+        {
+          "key": "A",
+          "content": "designing public health tools"
+        },
+        {
+          "key": "B",
+          "content": "proposing health behavior theories"
+        },
+        {
+          "key": "C",
+          "content": "assessing response strategies for epidemics"
+        },
+        {
+          "key": "D",
+          "content": "monitoring the spread of infectious diseases"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q023",
+      "label": "23",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m008"
+      ],
+      "stem": "What are students assigned to do in the course?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Report to guest speakers."
+        },
+        {
+          "key": "B",
+          "content": "Conduct mini health research."
+        },
+        {
+          "key": "C",
+          "content": "Give talks on SDGs individually."
+        },
+        {
+          "key": "D",
+          "content": "Detect real campus outbreaks."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q024",
+      "label": "24",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m009"
+      ],
+      "stem": "What made the author consider giving up the volunteer work?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Getting tired of writing interview reports."
+        },
+        {
+          "key": "B",
+          "content": "Failing to help some of the promising kids."
+        },
+        {
+          "key": "C",
+          "content": "Disappointment with interviewees’ abilities."
+        },
+        {
+          "key": "D",
+          "content": "Inability to stimulate interviewees’ enthusiasm."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q025",
+      "label": "25",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m009"
+      ],
+      "stem": "Initially, the author viewed Layla’s thank-you text as ________.",
+      "options": [
+        {
+          "key": "A",
+          "content": "a relief"
+        },
+        {
+          "key": "B",
+          "content": "a distraction"
+        },
+        {
+          "key": "C",
+          "content": "a reward"
+        },
+        {
+          "key": "D",
+          "content": "a misunderstanding"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q026",
+      "label": "26",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m009"
+      ],
+      "stem": "Why did Layla request to review her admissions file?",
+      "options": [
+        {
+          "key": "A",
+          "content": "To ease her worries about future."
+        },
+        {
+          "key": "B",
+          "content": "To clarify the author’s confusion."
+        },
+        {
+          "key": "C",
+          "content": "To confirm she deserved the admission."
+        },
+        {
+          "key": "D",
+          "content": "To prove the author’s report played a role."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q027",
+      "label": "27",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m009"
+      ],
+      "stem": "What can we learn from this passage?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Each soul needs a witness."
+        },
+        {
+          "key": "B",
+          "content": "Every cloud has a silver lining."
+        },
+        {
+          "key": "C",
+          "content": "What goes around comes around."
+        },
+        {
+          "key": "D",
+          "content": "What matters always voices itself."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q028",
+      "label": "28",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m010"
+      ],
+      "stem": "What can be inferred about the climate attribution model?",
+      "options": [
+        {
+          "key": "A",
+          "content": "It can simulate a world without carbon emissions."
+        },
+        {
+          "key": "B",
+          "content": "It predicts the timeline of future extreme weather."
+        },
+        {
+          "key": "C",
+          "content": "It is more accurate in modelling climate processes."
+        },
+        {
+          "key": "D",
+          "content": "It has shifted its aim to backing climate legal cases."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q029",
+      "label": "29",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m010"
+      ],
+      "stem": "Regarding the future of “polluter-pays” cases, the author is _______",
+      "options": [
+        {
+          "key": "A",
+          "content": "worried"
+        },
+        {
+          "key": "B",
+          "content": "optimistic"
+        },
+        {
+          "key": "C",
+          "content": "doubtful"
+        },
+        {
+          "key": "D",
+          "content": "disapproving"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q030",
+      "label": "30",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m010"
+      ],
+      "stem": "What does the author mainly do in this passage?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Anticipate a novel trend in court."
+        },
+        {
+          "key": "B",
+          "content": "Illustrate how climate models work."
+        },
+        {
+          "key": "C",
+          "content": "Introduce the history of climate models."
+        },
+        {
+          "key": "D",
+          "content": "Show a model expected to force climate action."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q031",
+      "label": "31",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m011"
+      ],
+      "stem": "What does the word “hindsight” underlined in Paragraph 2 most probably mean?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Innovative mindset."
+        },
+        {
+          "key": "B",
+          "content": "Blind-minded thinking."
+        },
+        {
+          "key": "C",
+          "content": "Long-term perspective."
+        },
+        {
+          "key": "D",
+          "content": "Reflective understanding."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "q032",
+      "label": "32",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m011"
+      ],
+      "stem": "What can we learn from this passage?",
+      "options": [
+        {
+          "key": "A",
+          "content": "The author has a preference for narrative studies."
+        },
+        {
+          "key": "B",
+          "content": "El-Bassel focuses on seeable external phenomena."
+        },
+        {
+          "key": "C",
+          "content": "Gordana values tackling problems from diverse angles."
+        },
+        {
+          "key": "D",
+          "content": "Califano’s breakthrough sets ground for cancer biology."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "q033",
+      "label": "33",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m011"
+      ],
+      "stem": "What can be inferred from the last paragraph?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Integration of art and science is hard to achieve."
+        },
+        {
+          "key": "B",
+          "content": "Three discovery modes can balance sickness and health."
+        },
+        {
+          "key": "C",
+          "content": "Meeting social needs is as vital as doing biological studies."
+        },
+        {
+          "key": "D",
+          "content": "Medical research helps realise the role of three discovery modes."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "q034",
+      "label": "34",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m011"
+      ],
+      "stem": "Which would be the best title for the passage?",
+      "options": [
+        {
+          "key": "A",
+          "content": "The Art of Science: Knowing, Seeing, and Telling"
+        },
+        {
+          "key": "B",
+          "content": "Three Modes of Discovery: Can Artists Be Scientists?"
+        },
+        {
+          "key": "C",
+          "content": "A Costly Conflict: The Battle Between Art and Science"
+        },
+        {
+          "key": "D",
+          "content": "The Medicine’s Mission: Are Scientists Brave to Complete?"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "q035",
+      "label": "35",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "option_set": "o001",
+      "stem": "Tolerance is often praised as a virtue. ___35___ It’s like holding your breath through an unwanted conversation with someone you’d rather not talk to.",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "q036",
+      "label": "36",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "option_set": "o001",
+      "stem": "You can go years thinking you’re being a good person because you’ve managed not to explode, not to get angry, not to say the quiet part out loud. ___36___",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "q037",
+      "label": "37",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "option_set": "o001",
+      "stem": "To bridge the distance implied in tolerance, researchers suggest a shift to curiosity — the willingness to be changed by what we learn about others. ___37___ Ask people what they care about.",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "q038",
+      "label": "38",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "option_set": "o001",
+      "stem": "It involves active moral engagement, a willingness to treat others with dignity even in disagreement. ___38___ In that sense, civility becomes the connective tissue that holds communities together when tolerance alone would let them drift apart.",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "F"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "q039",
+      "label": "39",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "option_set": "o001",
+      "stem": "A culture that avoids discomfort is a culture that stops growing. ___39___ So ask the question that feels too personal.",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "q040",
+      "label": "40",
+      "type": "short_answer",
+      "materials": [
+        "m014",
+        "m015"
+      ],
+      "stem": "Why is food important in the author’s relationship with Mom?",
+      "answer": {
+        "source": "question_document",
+        "content": "Because every dish carries precious memories and conveys Mom's quiet, irreplaceable love and care for her."
+      },
+      "analysis": "该题考查细节理解，需从原文中定位核心原因：家常菜承载的不仅是味道，更是母亲的爱与回忆，是情感的载体。",
+      "score": 2,
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q041",
+      "label": "41",
+      "type": "short_answer",
+      "materials": [
+        "m014",
+        "m015"
+      ],
+      "stem": "What will happen once food is reduced to pure functional value?",
+      "answer": {
+        "source": "question_document",
+        "content": "We will lose the true meaning of feeding and being fed as human beings, and food will lose its warm human touch and emotional value."
+      },
+      "analysis": "该题考查推理判断，核心逻辑是：烹饪的本质是人与人的情感联结，若失去手工烹饪的温度，食物就失去了情感价值，人类也会失去“投喂与被投喂”的人文意义。",
+      "score": 2,
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q042",
+      "label": "42",
+      "type": "short_answer",
+      "materials": [
+        "m014",
+        "m015"
+      ],
+      "stem": [
+        "Please decide which part is false in the following statement, then underline it and explain why.",
+        "▶ **In the act of cooking, it will always be technology that gives food its deepest meaning.**"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": [
+          "错误部分：technology",
+          "The passage clearly states that it is the human touch in cooking, not technology, that gives food its deepest meaning. Technology can only assist cooking, but cannot replicate the love and connection embedded in homemade food."
+        ]
+      },
+      "analysis": "该题考查主旨理解，文章核心观点是：赋予食物深层意义的是人的情感与手工温度，而非技术，技术仅能辅助烹饪，无法替代爱与联结。",
+      "score": 3,
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q043",
+      "label": "43",
+      "type": "short_answer",
+      "materials": [
+        "m014",
+        "m015"
+      ],
+      "stem": "Besides what is mentioned in the passage, what role(s) does food play in your daily life? Why? (In about 40 words)",
+      "answer": {
+        "source": "question_document",
+        "content": "示例：For me, food is a comfort that heals my stress. After a long tiring day, a warm home-cooked meal can instantly calm me down and recharge me for the next day."
+      },
+      "analysis": "开放题需结合自身经历，围绕“食物的情感价值”展开，可从治愈、陪伴、回忆等角度作答，言之有理即可。",
+      "score": 5,
+      "pages": [
+        8
+      ],
+      "notes": [
+        "原答案以“开放题示例”形式给出，answer.content 保留原卷“示例：”字样。"
+      ]
+    },
+    {
+      "id": "q044",
+      "label": "第二节",
+      "type": "essay",
+      "materials": [
+        "m016"
+      ],
+      "stem": [
+        "假设你是红星中学高三学生李华。你的外国好友 Jim 即将参加主题为“Skills Needed for a Sustainable Future”的联合国青年论坛（UN Youth Forum），为此发来邮件，就发言内容询问你的想法。请你用英文给他回复，内容包括：",
+        "1．你认为重要的技能；",
+        "2．说明理由。",
+        "注意：1．词数 100 左右；",
+        "2．开头和结尾已给出，不计入总词数。",
+        "Dear Jim,",
+        "Yours,",
+        "Li Hua",
+        "（请务必将作文写在答题卡指定区域内）"
+      ],
+      "score": 20,
+      "pages": [
+        8
+      ]
+    }
+  ]
+}

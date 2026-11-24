@@ -1,0 +1,558 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|一模|昌平|数学|",
+    "title": "2026北京昌平高三一模数学试题及答案",
+    "year": 2026,
+    "kind": "一模",
+    "subject": "数学",
+    "district": "昌平",
+    "exam_date": "2026-04"
+  },
+  "source": {
+    "file": "../../../../../raw/数学/2026/一模/math-2026-mock1-changping.pdf",
+    "sha256": "350b53b881bdaae490f7093fad6a16a85235cbdbd91e631514561387457adc66",
+    "page_count": 13
+  },
+  "extraction": {
+    "status": "needs_review",
+    "tool": "pymupdf 文本层提取 + 逐页渲染视觉核对",
+    "notes": [
+      "PDF 共 13 页：第 1—5 页为试题，第 6—12 页为参考答案，第 13 页为机构宣传页，未纳入题目。",
+      "原卷评分说明：第 13 题、第 14 题第一空 3 分、第二空 2 分；第 15 题答对一个给 3 分，答对二个给 5 分，错答得零分。",
+      "第 16 题（Ⅱ）原答案仅给出选择条件②、条件③的解答；条件①按原卷注记属于不符合要求的选择。"
+    ]
+  },
+  "assets": {
+    "a001": {
+      "path": "assets/a001.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [422.45, 465.33, 541.45, 548.88],
+      "sha256": "36102fd448308619d9cf72f16c63d2ecc560b98a09ce6b7cb7e04059c731189c"
+    },
+    "a002": {
+      "path": "assets/a002.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [350.35, 250.37, 520.85, 339.87],
+      "sha256": "b4572ca7f78144ac2aae8a14c6a118b5f63192b2bd94f7db261643edd7bf77e2"
+    },
+    "a003": {
+      "path": "assets/a003.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [389.95, 486.08, 541.10, 630.18],
+      "sha256": "4879ccbc387f073251545b95b60a5be3f6aec3473a2077698c26785d49f0114b"
+    },
+    "a004": {
+      "path": "assets/a004.png",
+      "kind": "image",
+      "page": 9,
+      "bbox": [349.40, 616.95, 515.40, 755.95],
+      "sha256": "0719582e1d23f26d5ad04cf3734ec17a224e3e7a7ee7bb140a3cc0f252591cfc"
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "（1）",
+      "type": "single_choice",
+      "stem": "已知集合 $A=\\{x\\mid -1\\le x<1\\}$，$B=\\{x\\mid 0\\le x<2\\}$，则集合 $A\\cup B=$",
+      "options": [
+        {"key": "A", "content": "$\\{x\\mid -1<x<2\\}$"},
+        {"key": "B", "content": "$\\{x\\mid -1\\le x<2\\}$"},
+        {"key": "C", "content": "$\\{x\\mid 0<x<1\\}$"},
+        {"key": "D", "content": "$\\{x\\mid 0\\le x\\le 1\\}$"}
+      ],
+      "answer": {"source": "question_document", "choices": ["B"]},
+      "score": 4,
+      "pages": [1]
+    },
+    {
+      "id": "q002",
+      "label": "（2）",
+      "type": "single_choice",
+      "stem": "如果复数 $\\frac{a+2\\mathrm{i}}{\\mathrm{i}}(a\\in\\mathbf{R})$ 的实部与虚部相等，那么 $a=$",
+      "options": [
+        {"key": "A", "content": "$-2$"},
+        {"key": "B", "content": "$1$"},
+        {"key": "C", "content": "$2$"},
+        {"key": "D", "content": "$4$"}
+      ],
+      "answer": {"source": "question_document", "choices": ["A"]},
+      "score": 4,
+      "pages": [1]
+    },
+    {
+      "id": "q003",
+      "label": "（3）",
+      "type": "single_choice",
+      "stem": "下列函数中，在区间 $(-\\infty,0)$ 上单调递减的是",
+      "options": [
+        {"key": "A", "content": "$f(x)=-\\frac{1}{x}$"},
+        {"key": "B", "content": "$f(x)=x^2+x$"},
+        {"key": "C", "content": "$f(x)=\\log_2(-x)$"},
+        {"key": "D", "content": "$f(x)=3^{|x+1|}$"}
+      ],
+      "answer": {"source": "question_document", "choices": ["C"]},
+      "score": 4,
+      "pages": [1]
+    },
+    {
+      "id": "q004",
+      "label": "（4）",
+      "type": "single_choice",
+      "stem": "在 $(2x-\\frac{1}{\\sqrt{x}})^4$ 的展开式中，$x$ 的系数为",
+      "options": [
+        {"key": "A", "content": "$-24$"},
+        {"key": "B", "content": "$-16$"},
+        {"key": "C", "content": "$16$"},
+        {"key": "D", "content": "$24$"}
+      ],
+      "answer": {"source": "question_document", "choices": ["D"]},
+      "score": 4,
+      "pages": [1]
+    },
+    {
+      "id": "q005",
+      "label": "（5）",
+      "type": "single_choice",
+      "stem": [
+        "已知向量 $\\mathbf{a},\\mathbf{b},\\mathbf{c}$ 在正方形网格中的位置如图所示. 若网格纸上小正方形的边长为 1，则 $\\mathbf{a}\\cdot\\mathbf{b}+\\mathbf{b}\\cdot\\mathbf{c}=$",
+        {"asset": "a001"}
+      ],
+      "options": [
+        {"key": "A", "content": "$-1$"},
+        {"key": "B", "content": "$0$"},
+        {"key": "C", "content": "$2$"},
+        {"key": "D", "content": "$4$"}
+      ],
+      "answer": {"source": "question_document", "choices": ["B"]},
+      "score": 4,
+      "pages": [1]
+    },
+    {
+      "id": "q006",
+      "label": "（6）",
+      "type": "single_choice",
+      "stem": "将函数 $y=\\sin x$ 图象上的所有点的纵坐标不变，横坐标变为原来的 $\\frac{1}{2}$，再向右平移 $\\frac{\\pi}{6}$ 个单位，得到函数 $f(x)$ 的图象. 则下列说法正确的是",
+      "options": [
+        {"key": "A", "content": "$x=\\frac{4\\pi}{3}$ 是函数 $f(x)$ 的图象的一条对称轴"},
+        {"key": "B", "content": "$(\\frac{\\pi}{12},0)$ 是函数 $f(x)$ 的图象的一个对称中心"},
+        {"key": "C", "content": "$f(x)$ 在 $[-\\frac{\\pi}{6},\\frac{\\pi}{2}]$ 上是增函数"},
+        {"key": "D", "content": "$f(x)$ 在 $[\\frac{\\pi}{2},\\frac{5\\pi}{6}]$ 上是减函数"}
+      ],
+      "answer": {"source": "question_document", "choices": ["D"]},
+      "score": 4,
+      "pages": [1, 2]
+    },
+    {
+      "id": "q007",
+      "label": "（7）",
+      "type": "single_choice",
+      "stem": "已知双曲线 $C:mx^2+y^2=1$ 的离心率为 $\\sqrt{3}$，则 $m$ 的值为",
+      "options": [
+        {"key": "A", "content": "$-2$"},
+        {"key": "B", "content": "$-\\frac{1}{2}$"},
+        {"key": "C", "content": "$\\frac{1}{2}$"},
+        {"key": "D", "content": "$2$"}
+      ],
+      "answer": {"source": "question_document", "choices": ["B"]},
+      "score": 4,
+      "pages": [2]
+    },
+    {
+      "id": "q008",
+      "label": "（8）",
+      "type": "single_choice",
+      "stem": "在平面直角坐标系 $xOy$ 中，角 $\\alpha$ 与角 $\\beta$ 均以 $Ox$ 为始边，则“$\\sin\\alpha+\\sin\\beta=0$”是“$\\beta=k\\pi+(-1)^{k+1}\\alpha\\ (k\\in\\mathbf{Z})$”的",
+      "options": [
+        {"key": "A", "content": "充分不必要条件"},
+        {"key": "B", "content": "必要不充分条件"},
+        {"key": "C", "content": "充分必要条件"},
+        {"key": "D", "content": "既不充分也不必要条件"}
+      ],
+      "answer": {"source": "question_document", "choices": ["C"]},
+      "score": 4,
+      "pages": [2]
+    },
+    {
+      "id": "q009",
+      "label": "（9）",
+      "type": "single_choice",
+      "stem": [
+        "如图，在四棱锥 $P-ABCD$ 中，底面 $ABCD$ 是矩形，$AB=2$，$BC=3$，$PC=PD=\\sqrt{3}$，平面 $PCD$ 与平面 $ABCD$ 的夹角为 $\\frac{\\pi}{4}$，则该四棱锥的侧面积为",
+        {"asset": "a002"}
+      ],
+      "options": [
+        {"key": "A", "content": "$4\\sqrt{2}+\\sqrt{5}$"},
+        {"key": "B", "content": "$7\\sqrt{2}+\\sqrt{5}$"},
+        {"key": "C", "content": "$\\sqrt{2}+\\sqrt{5}+6$"},
+        {"key": "D", "content": "$\\sqrt{2}+\\sqrt{5}+6\\sqrt{6}$"}
+      ],
+      "answer": {"source": "question_document", "choices": ["A"]},
+      "score": 4,
+      "pages": [2]
+    },
+    {
+      "id": "q010",
+      "label": "（10）",
+      "type": "single_choice",
+      "stem": "设函数 $f(x)=\\frac{\\sin x}{\\mathrm{e}^{|x|}-a}$，则下列结论中正确的是",
+      "options": [
+        {"key": "A", "content": "当 $1<a<4$ 时，$f(x)$ 在 $(0,\\frac{\\pi}{2})$ 上单调递减"},
+        {"key": "B", "content": "当 $a=2$ 时，$f(x)$ 在 $(0,\\ln 2)$ 上存在极值点"},
+        {"key": "C", "content": "当 $a<1$ 时，$f(x)$ 有最大值，无最小值"},
+        {"key": "D", "content": "存在 $a\\in(1,\\mathrm{e})$，使得方程 $f(x)=\\frac{1}{2}$ 在 $(-1,\\mathrm{e})$ 上有且仅有两个不同实根"}
+      ],
+      "answer": {"source": "question_document", "choices": ["D"]},
+      "score": 4,
+      "pages": [2]
+    },
+    {
+      "id": "q011",
+      "label": "（11）",
+      "type": "fill_blank",
+      "stem": "当 $x>0$ 时，函数 $y=\\frac{x^2+1}{x}$ 的最小值为______.",
+      "answer": {"source": "question_document", "content": "$2$"},
+      "score": 5,
+      "pages": [2]
+    },
+    {
+      "id": "q012",
+      "label": "（12）",
+      "type": "fill_blank",
+      "stem": "已知 $\\{a_n\\}$ 为等差数列，$S_n$ 为其前 $n$ 项和．若 $a_1+a_2+a_3=8$，$a_7+a_8+a_9=14$，则 $S_n=$____.",
+      "answer": {"source": "question_document", "content": "$\\frac{n^2+13n}{6}$"},
+      "score": 5,
+      "pages": [2]
+    },
+    {
+      "id": "q013",
+      "label": "（13）",
+      "type": "fill_blank",
+      "stem": "已知圆 $x^2+y^2=5$ 与抛物线 $C:y^2=2px(p>0)$ 的准线的一个交点为 $A$，点 $A$ 关于 $y$ 轴的对称点 $B$ 在抛物线 $C$ 上，则 $p=$______；若直线 $x-y+m=0$ 上存在点 $M$，使得 $MA\\perp MB$，则 $m$ 的取值范围为______.",
+      "answer": {
+        "source": "question_document",
+        "content": ["$p=2$", "$m\\in[2-\\sqrt{2},2+\\sqrt{2}]$"]
+      },
+      "score": 5,
+      "notes": ["原卷评分说明：第一空 3 分，第二空 2 分。"],
+      "pages": [2]
+    },
+    {
+      "id": "q014",
+      "label": "（14）",
+      "type": "fill_blank",
+      "stem": "设函数 $f(x)=\\begin{cases}-ax+1,&x>a,\\\\(x+2)^2,&x\\le a.\\end{cases}$ 若 $f(x)$ 存在最小值，则 $a$ 的一个取值为______，$a$ 的最小值为______.",
+      "answer": {
+        "source": "question_document",
+        "content": ["$0$（$[-1,0]$ 范围内任一值即可）", "$-1$"]
+      },
+      "score": 5,
+      "notes": ["原卷评分说明：第一空 3 分，第二空 2 分。"],
+      "pages": [2]
+    },
+    {
+      "id": "q015",
+      "label": "（15）",
+      "type": "fill_blank",
+      "stem": [
+        "在棱长为 2 的正方体 $ABCD-A_1B_1C_1D_1$ 中，点 $P$ 满足 $\\overrightarrow{CP}=\\lambda\\overrightarrow{CD}+\\mu\\overrightarrow{CC_1}$，其中 $\\lambda\\in[0,1],\\mu\\in[0,1]$.",
+        "给出下列四个结论：",
+        "①当 $\\lambda=1$ 时，$\\forall \\mu\\in[0,1]$，$\\triangle BC_1P$ 的面积为定值；",
+        "②当 $\\mu=1$ 时，$\\forall \\lambda\\in[0,1]$，三棱锥 $P-A_1CD$ 的体积为定值；",
+        "③当 $\\lambda=\\frac{1}{2}$ 时，存在唯一的 $\\mu\\in[0,1]$，使得 $BA_1=BP$；",
+        "④当 $\\mu=\\frac{1}{2}$ 时，存在唯一的 $\\lambda\\in[0,1]$，使得 $B_1C\\perp$ 平面 $BC_1P$.",
+        "其中所有正确结论的序号是_________________."
+      ],
+      "answer": {"source": "question_document", "content": "②③"},
+      "score": 5,
+      "notes": ["原卷评分说明：答对一个给 3 分，答对二个给 5 分，错答得零分。"],
+      "pages": [2, 3]
+    },
+    {
+      "id": "q016",
+      "label": "（16）",
+      "type": "composite",
+      "stem": "在 $\\triangle ABC$ 中，$2b\\sin C=\\sqrt{6}$，$\\cos B=-\\frac{1}{2}$，$\\angle A$ 的平分线与 $BC$ 交于点 $D$.",
+      "score": 13,
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "求 $c$ 的值；",
+          "answer": {"source": "question_document", "content": "$\\sqrt{2}$"},
+          "analysis": "在 $\\triangle ABC$ 中，因为 $\\cos B=-\\frac{1}{2}$，$0<\\angle B<\\pi$，所以 $\\angle B=\\frac{2\\pi}{3}$. 由正弦定理 $\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$ 及 $2b\\sin C=\\sqrt{6}$ 得 $c\\sin\\frac{2\\pi}{3}=\\frac{\\sqrt{6}}{2}$. 所以 $c=\\sqrt{2}$."
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": [
+            "再从条件①、条件②、条件③这三个条件中选择一个作为已知，使 $\\triangle ABC$ 存在且唯一确定，求 $AD$ 的长.",
+            "条件①：$BC$ 边上的高为 $\\sqrt{3}$；",
+            "条件②：$\\triangle ABC$ 的面积为 $\\frac{\\sqrt{3}}{2}$；",
+            "条件③：$\\triangle ABC$ 的周长为 $\\sqrt{6}+2\\sqrt{2}$.",
+            "注：如果选择的条件不符合要求，第（Ⅱ）得 0 分；如果选择多个符合要求的条件分别解答，按第一个解答计分."
+          ],
+          "answer": {"source": "question_document", "content": "$\\sqrt{3}$"},
+          "analysis": [
+            "选择条件②：$\\triangle ABC$ 的面积为 $\\frac{\\sqrt{3}}{2}$.",
+            "由（Ⅰ）知 $c=\\sqrt{2}$，$\\frac{1}{2}ac\\sin B=\\frac{\\sqrt{3}}{2}$，解得 $a=\\sqrt{2}$. 所以 $\\triangle ABC$ 为等腰三角形. 所以 $\\angle A=\\frac{\\pi}{6}$.",
+            "因为 $AD$ 为 $\\angle A$ 的平分线，所以 $\\angle ADB=\\frac{\\pi}{4}$. 由正弦定理 $\\frac{AD}{\\sin B}=\\frac{AB}{\\sin\\angle ADB}$，得 $AD=\\frac{\\sqrt{2}\\times\\frac{\\sqrt{3}}{2}}{\\frac{\\sqrt{2}}{2}}=\\sqrt{3}$.",
+            "选择条件③：$\\triangle ABC$ 的周长为 $\\sqrt{6}+2\\sqrt{2}$.",
+            "因为 $\\triangle ABC$ 的周长为 $\\sqrt{6}+2\\sqrt{2}$，由（Ⅰ）知 $c=\\sqrt{2}$，所以 $a+b=\\sqrt{6}+\\sqrt{2}$.",
+            "由余弦定理 $b^2=a^2+c^2-2ac\\cos B$ 得 $(\\sqrt{6}+\\sqrt{2}-a)^2=a^2+2-2\\sqrt{2}a\\times(-\\frac{1}{2})$. 解得 $a=\\sqrt{2}$. 所以 $\\triangle ABC$ 为等腰三角形. 所以 $\\angle A=\\frac{\\pi}{6}$.",
+            "因为 $AD$ 为 $\\angle A$ 的平分线，所以 $\\angle ADB=\\frac{\\pi}{4}$. 由正弦定理 $\\frac{AD}{\\sin B}=\\frac{AB}{\\sin\\angle ADB}$，得 $AD=\\frac{\\sqrt{2}\\times\\frac{\\sqrt{3}}{2}}{\\frac{\\sqrt{2}}{2}}=\\sqrt{3}$."
+          ]
+        }
+      ],
+      "pages": [3]
+    },
+    {
+      "id": "q017",
+      "label": "（17）",
+      "type": "composite",
+      "stem": [
+        "如图，在直三棱柱 $ABC-A_1B_1C_1$ 中，$AB\\perp AC$，$AA_1=AC=2$，$AB=1$.",
+        {"asset": "a003"}
+      ],
+      "score": 13,
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "proof",
+          "stem": "求证：$A_1C\\perp BC_1$；",
+          "analysis": [
+            "法一：在直三棱柱 $ABC-A_1B_1C_1$ 中，连接 $AC_1$.",
+            "因为 $A_1A\\perp$ 平面 $ABC$，所以 $A_1A\\perp AC$，$A_1A\\perp AB$，$A_1A=AC=2$，所以四边形 $A_1ACC_1$ 是正方形. 所以 $A_1C\\perp AC_1$.",
+            "因为 $AB\\perp AC$，$AB\\perp AA_1$，$AC\\cap AA_1=A$，所以 $AB\\perp$ 平面 $A_1ACC_1$. 所以 $AB\\perp A_1C$.",
+            "因为 $AB\\cap AC_1=A$，所以 $A_1C\\perp$ 平面 $ABC_1$. 因为 $BC_1\\subset$ 平面 $ABC_1$，所以 $A_1C\\perp BC_1$.",
+            "法二：因为 $AA_1\\perp AB$，$AA_1\\perp AC$，$AB\\perp AC$，如图建立空间直角坐标系 $A-xyz$. 则 $A(0,0,0),B(1,0,0),C(0,2,0),A_1(0,0,2),C_1(0,2,2)$.",
+            "所以 $\\overrightarrow{A_1C}=(0,2,-2)$，$\\overrightarrow{BC_1}=(-1,2,2)$. 因为 $\\overrightarrow{A_1C}\\cdot\\overrightarrow{BC_1}=(0,2,-2)\\cdot(-1,2,2)=4-4=0$，所以 $A_1C\\perp BC_1$."
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": "求直线 $BC_1$ 与平面 $A_1BC$ 所成角的正弦值；",
+          "answer": {"source": "question_document", "content": "$\\frac{\\sqrt{6}}{9}$"},
+          "analysis": [
+            "$\\overrightarrow{BA_1}=(-1,0,2),\\overrightarrow{BC}=(-1,2,0),\\overrightarrow{BC_1}=(-1,2,2)$. 设平面 $A_1BC$ 的法向量为 $\\mathbf{n}=(x,y,z)$，则 $\\begin{cases}\\mathbf{n}\\cdot\\overrightarrow{BA_1}=0,\\\\\\mathbf{n}\\cdot\\overrightarrow{BC}=0,\\end{cases}$ 即 $\\begin{cases}-x+2z=0,\\\\-x+2y=0.\\end{cases}$ 令 $x=2$，则 $y=z=1$. 所以 $\\mathbf{n}=(2,1,1)$.",
+            "设直线 $BC_1$ 与平面 $A_1BC$ 所成角为 $\\theta$，则 $\\sin\\theta=|\\cos\\langle\\mathbf{n},\\overrightarrow{BC_1}\\rangle|=\\frac{|\\mathbf{n}\\cdot\\overrightarrow{BC_1}|}{|\\mathbf{n}||\\overrightarrow{BC_1}|}=\\frac{|2\\times(-1)+1\\times2+1\\times2|}{\\sqrt{6}\\times\\sqrt{9}}=\\frac{2}{3\\sqrt{6}}=\\frac{\\sqrt{6}}{9}$."
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（Ⅲ）",
+          "type": "short_answer",
+          "stem": "在线段 $BC_1$ 上是否存在点 $D$，使 $A_1B\\perp$ 平面 $ACD$？若存在，求出 $\\frac{BD}{BC_1}$ 的值；若不存在，请说明理由.",
+          "answer": {"source": "question_document", "content": "存在，$\\frac{BD}{BC_1}=\\frac{1}{5}$"},
+          "analysis": [
+            "因为 $CA\\perp AB$，$CA\\perp AA_1$，$AB\\cap AA_1=A$，所以 $CA\\perp$ 平面 $ABB_1A_1$. 所以 $CA\\perp A_1B$.",
+            "所以要在线段 $BC_1$ 上存在点 $D$，使得 $A_1B\\perp$ 平面 $ACD$，只需 $A_1B\\perp AD$.",
+            "设 $\\overrightarrow{BD}=\\lambda\\overrightarrow{BC_1}(0\\le\\lambda\\le1)$. 则 $\\overrightarrow{BD}=\\lambda\\overrightarrow{BC_1}=\\lambda(-1,2,2)=(-\\lambda,2\\lambda,2\\lambda)$. 所以 $\\overrightarrow{AD}=\\overrightarrow{AB}+\\overrightarrow{BD}=(1-\\lambda,2\\lambda,2\\lambda)$.",
+            "因为 $\\overrightarrow{A_1B}=(1,0,-2)$，当 $\\overrightarrow{A_1B}\\cdot\\overrightarrow{AD}=0$，即 $1-\\lambda-4\\lambda=0$ 时，$\\lambda=\\frac{1}{5}$.",
+            "所以在线段 $BC_1$ 上存在点 $D$，当 $\\frac{BD}{BC_1}=\\frac{1}{5}$ 时，使得 $A_1B\\perp$ 平面 $ACD$."
+          ]
+        }
+      ],
+      "pages": [3]
+    },
+    {
+      "id": "q018",
+      "label": "（18）",
+      "type": "composite",
+      "stem": [
+        "教育部最新文件指出，要确保中小学生每天校内校外综合体育活动时间不少于 2 小时. 为了提升学生体质，养成运动习惯，某中学对学生进行了周末两天运动时长的问卷调查. 将运动时长不少于 4 小时的学生视为“运动达标”，运动时长不足 4 小时的学生视为“运动不达标”. 现随机抽取 200 名学生的问卷，获得数据如下表：",
+        {
+          "table": {
+            "header": [" ", "男生（人）", "女生（人）", "合计（人）"],
+            "rows": [
+              ["运动达标", "80", "40", "120"],
+              ["运动不达标", "20", "60", "80"],
+              ["合计", "100", "100", "200"]
+            ]
+          }
+        },
+        "假设每名学生的运动是否达标相互独立，用频率估计概率."
+      ],
+      "score": 14,
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "从该校的男生中任选两人，估计这两人均为“运动不达标”的概率；",
+          "answer": {"source": "question_document", "content": "$\\frac{1}{25}$"},
+          "analysis": "根据题中数据，抽取的 100 名男生中有 20 人的“运动不达标”，所以从该校的男生中任选一人为“运动不达标”的概率可以估计为 $\\frac{20}{100}=\\frac{1}{5}$. 所以从该校的男生中任选两人，这两人均为“运动不达标”的概率估计为 $\\frac{1}{5}\\times\\frac{1}{5}=\\frac{1}{25}$."
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": "从该校男生和女生中各随机抽取一人，设 $X$ 为“运动达标”的人数，估计 $X$ 的分布列和数学期望；",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "分布列为",
+              {
+                "table": {
+                  "header": ["$X$", "0", "1", "2"],
+                  "rows": [["$P$", "$\\frac{3}{25}$", "$\\frac{14}{25}$", "$\\frac{8}{25}$"]]
+                }
+              },
+              "故 $X$ 的数学期望 $E(X)$ 可估计为 $0\\times\\frac{3}{25}+1\\times\\frac{14}{25}+2\\times\\frac{8}{25}=\\frac{6}{5}$."
+            ]
+          },
+          "analysis": [
+            "从该校男生中随机抽取一人为“运动达标”的概率估计为 $\\frac{80}{100}=\\frac{4}{5}$；从该校女生中随机抽取一人为“运动达标”的概率估计为 $\\frac{40}{100}=\\frac{2}{5}$.",
+            "$X$ 的可能取值为 $0,1,2$. 则 $P(X=0)$ 可估计为 $\\frac{1}{5}\\times\\frac{3}{5}=\\frac{3}{25}$；$P(X=1)$ 可估计为 $\\frac{1}{5}\\times\\frac{2}{5}+\\frac{4}{5}\\times\\frac{3}{5}=\\frac{14}{25}$；$P(X=2)$ 可估计为 $\\frac{4}{5}\\times\\frac{2}{5}=\\frac{8}{25}$."
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（Ⅲ）",
+          "type": "short_answer",
+          "stem": "从该校随机抽取 20 名学生，记其中“运动达标”的人数为 $Y$. 求使概率 $P(Y=k)$ 取得最大值时 $k$ 的值.（直接写出结论）",
+          "answer": {"source": "question_document", "content": "$12$"}
+        }
+      ],
+      "pages": [4]
+    },
+    {
+      "id": "q019",
+      "label": "（19）",
+      "type": "composite",
+      "stem": "已知椭圆 $C:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$ 的焦点是长轴的四等分点，点 $A(-2,0)$ 和点 $P(m,n)(n\\ne0)$ 都在椭圆 $C$ 上，直线 $AP$ 与 $y$ 轴交于点 $M$.",
+      "score": 15,
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "求椭圆 $C$ 的方程；",
+          "answer": {"source": "question_document", "content": "$\\frac{x^2}{4}+\\frac{y^2}{3}=1$"},
+          "analysis": "由题意得 $\\begin{cases}a=2,\\\\a=2c,\\\\a^2=b^2+c^2,\\end{cases}$ 解得 $\\begin{cases}c=1,\\\\b=\\sqrt{3}.\\end{cases}$ 所以椭圆 $C$ 的方程为 $\\frac{x^2}{4}+\\frac{y^2}{3}=1$."
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "short_answer",
+          "stem": "设 $O$ 为原点，点 $Q$ 与点 $P$ 关于 $y$ 轴对称，直线 $AQ$ 与 $y$ 轴交于点 $N$. 在 $x$ 轴上是否存在点 $B$，使得 $\\angle OBM=\\angle ONB$？若存在，求点 $B$ 的坐标；若不存在，说明理由.",
+          "answer": {"source": "question_document", "content": "$B(-\\sqrt{3},0)$ 或 $B(\\sqrt{3},0)$"},
+          "analysis": [
+            "因为点 $P(m,n)(n\\ne0)$ 在椭圆 $C$ 上，所以 $\\frac{m^2}{4}+\\frac{n^2}{3}=1$（$-2<m<2$）.",
+            "因为直线 $AP$ 的方程为 $y=\\frac{n}{m+2}(x+2)$，所以 $y_M=\\frac{2n}{m+2}$，即 $M(0,\\frac{2n}{m+2})$.",
+            "因为点 $Q$ 与点 $P$ 关于 $y$ 轴对称，所以 $Q(-m,n)$. 因为直线 $AQ$ 的方程为 $y=\\frac{n}{-m+2}(x+2)$，所以 $y_N=\\frac{2n}{-m+2}$，即 $N(0,\\frac{2n}{-m+2})$.",
+            "“在 $x$ 轴上存在点 $B$，使得 $\\angle OBM=\\angle ONB$”等价于“存在点 $B(x_B,0)$，使得 $\\frac{|OM|}{|OB|}=\\frac{|OB|}{|ON|}$”，即 $x_B$ 满足 $x_B^2=|y_M||y_N|$.",
+            "因为 $y_M=\\frac{2n}{m+2}$，$y_N=\\frac{2n}{-m+2}$，所以 $x_B^2=\\left|\\frac{2n}{m+2}\\right|\\left|\\frac{2n}{-m+2}\\right|=\\frac{4n^2}{4-m^2}=\\frac{12-3m^2}{4-m^2}=3$. 所以 $x_B=\\pm\\sqrt{3}$.",
+            "所以在 $x$ 轴上存在点 $B(-\\sqrt{3},0)$ 或 $B(\\sqrt{3},0)$，使得 $\\angle OBM=\\angle ONB$.",
+            {"asset": "a004"}
+          ]
+        }
+      ],
+      "pages": [4]
+    },
+    {
+      "id": "q020",
+      "label": "（20）",
+      "type": "composite",
+      "stem": "已知函数 $f(x)=(x+1)\\mathrm{e}^x-a$.",
+      "score": 15,
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "当 $a=0$ 时，若曲线 $y=f(x)$ 在点 $P$ 处的切线与 $x$ 轴平行，求点 $P$ 的坐标；",
+          "answer": {"source": "question_document", "content": "$P(-2,-\\mathrm{e}^{-2})$"},
+          "analysis": [
+            "当 $a=0$ 时，$f(x)=(x+1)\\mathrm{e}^x$. 设 $P(x_0,y_0)$，$f'(x)=\\mathrm{e}^x+(x+1)\\mathrm{e}^x=(x+2)\\mathrm{e}^x$. 因为曲线 $y=f(x)$ 在点 $P$ 处的切线与 $x$ 轴平行，所以 $f'(x_0)=0$，即 $(x_0+2)\\mathrm{e}^{x_0}=0$. 所以 $x_0=-2$.",
+            "所以 $f(-2)=(-2+1)\\mathrm{e}^{-2}=-\\mathrm{e}^{-2}$. 因为 $-\\mathrm{e}^{-2}\\ne0$，所以 $P(-2,-\\mathrm{e}^{-2})$."
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "proof",
+          "stem": "求证：对于任意的 $x_1,x_2\\in(0,+\\infty)$，且 $x_1<x_2$，都有 $\\frac{f(x_2)-f(x_1)}{x_2-x_1}>\\frac{1}{\\mathrm{e}}$；",
+          "analysis": [
+            "要证对于任意的 $x_1,x_2\\in(0,+\\infty)$，且 $x_1<x_2$，都有 $\\frac{f(x_2)-f(x_1)}{x_2-x_1}>\\frac{1}{\\mathrm{e}}$，即证 $f(x_2)-f(x_1)>\\frac{1}{\\mathrm{e}}(x_2-x_1)$，即证 $f(x_2)-\\frac{1}{\\mathrm{e}}x_2>f(x_1)-\\frac{1}{\\mathrm{e}}x_1$.",
+            "设 $g(x)=f(x)-\\frac{1}{\\mathrm{e}}x=(x+1)\\mathrm{e}^x-a-\\frac{1}{\\mathrm{e}}x\\ (x\\in(0,+\\infty))$. 只需证 $g(x)$ 在 $(0,+\\infty)$ 上单调递增.",
+            "因为 $g'(x)=(x+2)\\mathrm{e}^x-\\frac{1}{\\mathrm{e}}$，当 $x\\in(0,+\\infty)$ 时，$(x+2)\\mathrm{e}^x>2>\\frac{1}{\\mathrm{e}}$，所以当 $x\\in(0,+\\infty)$ 时，$g'(x)>0$. 所以 $g(x)$ 在 $(0,+\\infty)$ 上单调递增.",
+            "因为 $x_1<x_2$，$x_1,x_2\\in(0,+\\infty)$，所以 $g(x_2)>g(x_1)$. 所以对于任意的 $x_1,x_2\\in(0,+\\infty)$，且 $x_1<x_2$，都有 $\\frac{f(x_2)-f(x_1)}{x_2-x_1}>\\frac{1}{\\mathrm{e}}$."
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（Ⅲ）",
+          "type": "proof",
+          "stem": "当 $a>\\mathrm{e}^3$ 时，求证：$f(x)$ 有且只有一个零点 $x_0$，且 $x_0<-1+\\ln a$.",
+          "analysis": [
+            "因为 $a>\\mathrm{e}^3$，所以当 $x<-1$ 时，$f(x)<0$，所以 $f(x)$ 在 $(-\\infty,-1)$ 上无零点.",
+            "因为 $f'(x)=(x+2)\\mathrm{e}^x$，所以当 $x\\ge-1$ 时，$f'(x)>0$；所以 $f(x)$ 在 $(-1,+\\infty)$ 上单调递增.",
+            "因为 $f(-1)=-a<0$，$f(-1+\\ln a)=(-1+\\ln a+1)\\mathrm{e}^{-1+\\ln a}-a=\\frac{1}{\\mathrm{e}}a\\ln a-a=a(\\frac{\\ln a}{\\mathrm{e}}-1)$，当 $a>\\mathrm{e}^3$ 时，$a(\\frac{\\ln a}{\\mathrm{e}}-1)>a(\\frac{\\ln\\mathrm{e}^3}{\\mathrm{e}}-1)=a(\\frac{3}{\\mathrm{e}}-1)>0$ 成立，即 $f(-1+\\ln a)>0$.",
+            "所以 $f(x)$ 在 $(-1,+\\infty)$ 上有唯一的零点 $x_0$，且 $x_0<-1+\\ln a$.",
+            "综上，当 $a>\\mathrm{e}^3$ 时，$f(x)$ 有且只有一个零点 $x_0$，且 $x_0<-1+\\ln a$."
+          ]
+        }
+      ],
+      "pages": [5]
+    },
+    {
+      "id": "q021",
+      "label": "（21）",
+      "type": "composite",
+      "stem": "设数列 $A_n:a_1,a_2,\\cdots,a_n(n\\ge2)$，若存在公比为 $q$ 的等比数列 $B_{n+1}:b_1,b_2,\\cdots,b_{n+1}$，使得 $b_k<a_k<b_{k+1}$，其中 $k=1,2,\\cdots,n$，则称数列 $B_{n+1}$ 为数列 $A_n$ 的“等比分割数列”.",
+      "score": 15,
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "short_answer",
+          "stem": "写出数列 $A_4:2,4,8,16$ 的一个“等比分割数列”$B_5$；",
+          "answer": {"source": "question_document", "content": "$B_5:\\frac{3}{2},3,6,12,24$（答案不唯一）"}
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": "若数列 $A_9$ 的通项公式为 $a_n=3^n(n=1,2,\\cdots,9)$，其“等比分割数列”$B_{10}$ 的首项为 1，求数列 $B_{10}$ 的公比 $q$ 的取值范围；",
+          "answer": {"source": "question_document", "content": "$(3,3^{\\frac{9}{8}})$"},
+          "analysis": [
+            "由 $b_k<a_k<b_{k+1}$，可得 $q^{k-1}<3^k<q^k$，$k=1,2,\\cdots,9$.",
+            "当 $k=1$ 时，$q>3$. 当 $k>1$ 时，$3<q<3^{\\frac{k}{k-1}}$.",
+            "令 $f(k)=\\frac{k}{k-1}=1+\\frac{1}{k-1}$，$k=2,\\cdots,9$. 则 $f(k)$ 单调递减.",
+            "所以 $3^{\\frac{k}{k-1}}(k=2,\\cdots,9)$ 的最小值为 $3^{\\frac{9}{8}}$. 所以 $3<q<3^{\\frac{9}{8}}$.",
+            "综上数列 $B_{10}$ 的公比 $q$ 的取值范围为 $(3,3^{\\frac{9}{8}})$."
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（Ⅲ）",
+          "type": "proof",
+          "stem": "若数列 $A_n$ 的通项公式为 $a_m=m^2(m=1,2,\\cdots,n)$，且数列 $A_n$ 存在“等比分割数列”，求 $n$ 的最大值.",
+          "answer": {"source": "question_document", "content": "$5$"},
+          "analysis": [
+            "首先证明当 $n\\ge6$ 时，数列 $A_n$ 不存在“等比分割数列”.",
+            "假设当 $n\\ge6$ 时，数列 $A_n$ 存在“等比分割数列”$B_{n+1}$.",
+            "则 $b_1<1<b_2=b_1q<4<b_1q^2<9<b_1q^3<16<b_1q^4<25<\\cdots<n^2<b_1q^n$.",
+            "由题意可知 $b_1>0,q>0$.",
+            "因为 $0<b_1<1$，且 $4<b_1q^2$，所以 $q^2>4$，即 $q>2$.",
+            "又因为 $9<b_1q^3$，所以 $b_6=b_1q^5=b_1q^3\\cdot q^2>36=6^2$. 与 $b_6<a_6=36$ 矛盾.",
+            "所以当 $n\\ge6$ 时，数列 $A_n$ 不存在“等比分割数列”. 所以 $n\\le5$.",
+            "当 $n=5$ 时，数列 $A_5:1,4,9,16,25$，存在首项为 $\\frac{4}{5}$，公比为 $\\frac{9}{4}$ 的等比数列 $B_6$，满足 $\\frac{4}{5}<1<\\frac{9}{5}<4<\\frac{81}{20}<9<\\frac{729}{80}<16<\\frac{6561}{320}<25<\\frac{59049}{1280}$.",
+            "所以当 $n=5$ 时，数列 $A_n$ 存在“等比分割数列”. 所以 $n$ 的最大值为 5."
+          ]
+        }
+      ],
+      "pages": [5]
+    }
+  ]
+}

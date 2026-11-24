@@ -1,0 +1,65 @@
+[
+  {
+    "entry_key": "2026|零模|北京二中|语文|",
+    "sequence": 1,
+    "source_files": [
+      "raw/语文/2026/零模/chinese-2026-mock0-dongcheng.docx"
+    ],
+    "answer_files": [],
+    "auxiliary_files": [],
+    "output_dir": "parsed/语文/2026/零模/chinese-2026-mock0-dongcheng.docx",
+    "paper_metadata": {
+      "id": "2026|零模|北京二中|语文|",
+      "title": "2026北京第二中学高三下零模语文试题及答案",
+      "year": 2026,
+      "kind": "零模",
+      "subject": "语文",
+      "district": "东城",
+      "school": "北京二中"
+    },
+    "complexity": "normal",
+    "selection_reason": "长阅读材料与 DOCX 内答案"
+  },
+  {
+    "entry_key": "2026|零模|北师大实验中学|数学|",
+    "sequence": 10,
+    "source_files": [
+      "raw/数学/2026/零模/math-2026-mock0-xicheng.pdf"
+    ],
+    "answer_files": [],
+    "auxiliary_files": [],
+    "output_dir": "parsed/数学/2026/零模/math-2026-mock0-xicheng.pdf",
+    "paper_metadata": {
+      "id": "2026|零模|北师大实验中学|数学|",
+      "title": "2026北师大实验中学高三零模数学试题",
+      "year": 2026,
+      "kind": "零模",
+      "subject": "数学",
+      "district": "西城",
+      "school": "北师大实验中学"
+    },
+    "complexity": "complex",
+    "selection_reason": "公式、插图和无答案来源"
+  },
+  {
+    "entry_key": "2026|零模|北师大实验中学|化学|",
+    "sequence": 11,
+    "source_files": [
+      "raw/化学/2026/零模/chemistry-2026-mock0-xicheng.pdf"
+    ],
+    "answer_files": [],
+    "auxiliary_files": [],
+    "output_dir": "parsed/化学/2026/零模/chemistry-2026-mock0-xicheng.pdf",
+    "paper_metadata": {
+      "id": "2026|零模|北师大实验中学|化学|",
+      "title": "2026北师大实验中学高三零模化学试题及答案",
+      "year": 2026,
+      "kind": "零模",
+      "subject": "化学",
+      "district": "西城",
+      "school": "北师大实验中学"
+    },
+    "complexity": "complex",
+    "selection_reason": "复杂公式、表格、配图与版面"
+  }
+]

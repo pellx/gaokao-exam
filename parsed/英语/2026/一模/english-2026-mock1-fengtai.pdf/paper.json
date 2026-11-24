@@ -1,0 +1,1540 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|一模|丰台|英语|",
+    "title": "2026北京丰台高三一模英语试题及答案",
+    "year": 2026,
+    "kind": "一模",
+    "subject": "英语",
+    "district": "丰台",
+    "academic_year": "2025-2026"
+  },
+  "source": {
+    "file": "../../../../../raw/英语/2026/一模/english-2026-mock1-fengtai.pdf",
+    "sha256": "f2e183da6671c32cbdcc3390281e76eea9a88a96cf3eba58140ab5cd4211d966",
+    "page_count": 14
+  },
+  "extraction": {
+    "status": "verified",
+    "tool": "PyMuPDF 渲染页面 + 逐页视觉识读 + jsonschema Draft 2020-12 校验",
+    "notes": [
+      "原 PDF 共 14 页：第 1–11 页为试题，第 12–13 页为参考答案，第 14 页为平台介绍页，未作为题目内容。第 1–13 页均为扫描页，无可用文本层。",
+      "第 2 页 C 段末行右端被扫描裁切，仅能辨认“only wa”，无法确认被裁去的字母，正文以省略号保留缺口并标记 needs_review。",
+      "第 2 页第 19 空编号被半透明水印遮挡，依据前后编号及参考答案第 19 题录为 19。",
+      "其余被半透明水印覆盖的个别字母已放大核对；全卷无图表或需裁切的配图。"
+    ]
+  },
+  "materials": {
+    "m001": {
+      "kind": "instructions",
+      "content": [
+        "第一部分  知识运用（共两节，30 分）",
+        "第一节（共 10 小题；每小题 1.5 分，共 15 分）",
+        "阅读下面短文，掌握其大意，从每题所给的 A、B、C、D 四个选项中，选出最佳选项，并在答题卡上将该项涂黑。"
+      ],
+      "pages": [
+        1
+      ]
+    },
+    "m002": {
+      "kind": "passage",
+      "content": [
+        "In our town, I’m the head of the Anti-Poverty Fund. In my free time, I’m a volunteer firefighter. The volunteers here __1__ professional firefighters, so I have to get to the fire scene pretty early to get in on any action.",
+        "I remember my first fire. It was a real __2__ against the other volunteers to get to the captain in charge to find out what our assignments would be.",
+        "When I found the captain, he was having an engaging conversation with the barefoot home owner. The other volunteer who had arrived just five seconds earlier than me was asked to save the home owner’s dog. The dog! I was __3__. For the rest of his life, he’d forever be proud of __4__ a burning building to save a living creature. Well, I was next. The captain waved me over. He said, “I need you to get the home owner a pair of shoes.” It was not exactly what I was hoping for, but off I went—up the stairs, down the hall, past the “real” firefighters, who were pretty much done __5__ the fire at this point, into the bedroom to get a pair of shoes.",
+        "Yes, I’m no __6__.",
+        "When I went back with the shoes, I met my rival and the precious dog by the door where, __7__, his “treasure” received much more attention than mine.",
+        "Weeks later, though, the home owner sent a thank-you letter. The act of kindness she noted __8__ all others: someone had even gotten her a pair of shoes.",
+        "In both my job at the Anti-Poverty Fund and volunteer firefighting, I am witness to acts of generosity and kindness on a monumental scale, but I’m also witness to acts of grace and courage on an individual basis. Here’s what I’ve learned: they all __9__. Not every day is going to offer us a chance to save somebody’s life, but every day offers us an opportunity to __10__ one.",
+        "So get in the game. Save the shoes."
+      ],
+      "pages": [
+        1
+      ]
+    },
+    "m003": {
+      "kind": "instructions",
+      "content": [
+        "第二节（共 10 小题；每小题 1.5 分，共 15 分）",
+        "阅读下列短文，根据短文内容填空。在未给提示词的空白处仅填写 1 个恰当的单词，在给出提示词的空白处用括号内所给词的正确形式填空。请在答题卡指定区域作答。"
+      ],
+      "pages": [
+        2
+      ]
+    },
+    "m004": {
+      "kind": "passage",
+      "title": "A",
+      "content": "China’s world natural heritage sites are all in good condition, with their ecological value contributing economically to local __11__ (community). In recent years, the country __12__ (host) 15 of the world’s 176 natural heritage sites and four of the world’s 25 sites recognised for both cultural and natural features. About 80,000 square kilometers are covered by these sites across 20 provincial regions, __13__ (contain) diverse ecosystems such as mountains, forests, grasslands, lakes, wetlands, deserts, and coastal zones.",
+      "pages": [
+        2
+      ]
+    },
+    "m005": {
+      "kind": "passage",
+      "title": "B",
+      "content": "If you love breaking down big problems and finding meaning in numbers. data-driven careers may be the perfect fit for you. Many people who take on roles like this start with __14__ (far) study, often through a graduate diploma in data science. __15__ this qualification offers are the tools and thinking styles __16__ (design) to help you make sense of complex information. With these skills, you can work across a wide __17__ (vary) of industries, from health, finance and education to retail.",
+      "pages": [
+        2
+      ]
+    },
+    "m006": {
+      "kind": "passage",
+      "title": "C",
+      "content": "When I was seven, my favourite blanket __18__ (fly) out of the car window and was gone during a trip. Heartbroken, we later stopped at a service station __19__ a biker gang had pulled in. “Is that your blue Ford?” A frightening man __20__ a bushy beard asked. Mum nodded nervously. The man pulled my blanket from his jacket pocket and handed it to her. He then returned to his motorcycle. I repaid him the only wa… knew how: I ran up to him and gave him my sandwich.",
+      "pages": [
+        2
+      ],
+      "needs_review": true,
+      "notes": [
+        "原文该行右端被扫描裁切，仅见“only wa…”，无法确认缺少的字母；未按推测补全。"
+      ]
+    },
+    "m007": {
+      "kind": "instructions",
+      "content": [
+        "第二部分  阅读理解（共两节，38 分）",
+        "第一节（共 14 小题；每小题 2 分，共 28 分）",
+        "阅读下列短文，从每题所给的 A、B、C、D 四个选项中，选出最佳选项，并在答题卡上将该项涂黑。"
+      ],
+      "pages": [
+        3
+      ]
+    },
+    "m008": {
+      "kind": "passage",
+      "title": "A",
+      "content": [
+        "The National Theatre, London, has announced an exciting lineup for its 2026 season, bringing a dynamic mix of new productions, timeless classics, and international collaborations.",
+        "The theatre will open the year with Emerald City, originally created by Australian playwright David Williamson in 1987. Director Thomas Cuisse says, “The surface of society might change, but human nature doesn’t. This play offers a deep exploration of an artist’s inner struggle which will touch audiences everywhere.”",
+        "Thunderstorm, written by Cao Yu and one of the most iconic Chinese plays of the 20th century, will be staged in June. It is part of the theatre’s ongoing effort to promote classic Chinese theatrical works.",
+        "The summer will also bring Romeo and Juliet to a small theatre, with a modern twist. The theatre’s young artists reimagine Shakespeare’s classic through a modern lens, adding youthful energy.",
+        "In addition, the year will see the return of Hamlet in August and The Daffodils in September. The latter will be presented in grand poetic style, exploring the intersection of art, poetry and history.",
+        "This year, the theatre continues to increase collaboration with major cultural hubs. “We’re working to build stronger relationships with the international community,” says Rufus Norris, Artistic Director. The first such collaboration will be Farewell My Concubine, co-produced with Shanghai Dramatic Arts Centre, which will be streamed globally online.",
+        "In 2026, the theatre will continue to engage younger audiences and expand its public cultural services through programs like “youth blossoms”, which allows university students to create and stage their own work. Moreover, the theatre is embracing technology to reach a broader audience by adapting several productions into film and digital formats, allowing more people to experience the theatre’s performances online."
+      ],
+      "pages": [
+        3
+      ]
+    },
+    "m009": {
+      "kind": "passage",
+      "title": "B",
+      "content": [
+        "There’s always one nonexistent friend in the group chat, who contributes little to the chat. That friend is me.",
+        "When a new group chat is created, the members will inevitably come to laugh at my inability to respond to a simple question within a matter of hours.",
+        "In fact, I pride myself on my swift response time when it comes to important work emails. “Call me instead,” I tell my friends. “I’m a much better caller.” If it’s urgent, I’ll pick up and always be there. But if I read a message and categorise it as non-urgent, then it’s a different story.",
+        "Say a friend messages me, asking for my thoughts about a new album. I’ll read it, automatically reply in my head—“I love it”—but mentally file it away in the non-urgent cabinet, telling myself that I’ll tend to that non-urgent filing cabinet as soon as possible. Then I will be typing another email—and absolutely forgetting to revisit that non-urgent cabinet. My declaration of love for the album arrives very, very late.",
+        "I want to stress I do love my friends and I am grateful to be included in all of the group chats. I simply find it overwhelming to keep up with the never-ending stream of message notifications. In these moments, the message notifications often fall by the wayside, my friends’ messages go unanswered and I sometimes feel like abandoning my phone and zoning out. Not to be dramatic.",
+        "I recently asked one of my friends how they felt about my bad texting habits. She’s that one friend you can always rely on to give you the non-sugarcoated truth. She said, “The truth is that we knew we had reached a new level of love and companionship when we accepted how terrible you are at replying and chose to embrace it.” “To be fair,” she added, “when we do eventually get an answer out of you—you are always down, you always show up when we need you, you never flake or cancel and you’re usually the one driving 40 minutes across town to see us. We can handle the group chat radio silence in return for that kind of friendship.”",
+        "At this moment, I think about each friend’s role in the group—the prolific messenger, the caller, the nonresponder—and how we all communicate and contribute to the group in different ways. All expressing love in different ways, too."
+      ],
+      "pages": [
+        4,
+        5
+      ]
+    },
+    "m010": {
+      "kind": "passage",
+      "title": "C",
+      "content": [
+        "It’s human nature to feel embarrassed for someone acting cringey—like a friend slipping on a wet floor. It’s a sign of empathy which shapes human cooperation and connection. What happens, though, when the second person in this situation is replaced with a robot?",
+        "Experiencing secondhand embarrassment lights up areas in the human brain associated with pain and the recognition of emotions. Similarly, social anxiety is linked to heightened empathy, but also comes with a reduced capacity to actually understand the other person’s emotions, known as cognitive empathy. And of course, the more socially close and invested a person is in another, the more intensely they’ll feel this bystander discomfort.",
+        "Interestingly, new research from Oakridge University found that humans can have the same sort of secondhand embarrassment when they see a robot display social awkwardness.",
+        "To test this phenomenon, human subjects were immersed in a virtual environment where both human and robot avatars were present. The researchers then put these avatars through awkward situations like stumbling in a crowd or dancing clumsily in public.",
+        "Researchers then measured the electrical activity of the sweat glands (腺体) of the subjects. This correlates to arousal signals like stress, or other states of high emotion. Participants also filled out a questionnaire about their emotional responses to each virtual social situation. The data indicates that humans felt self-embarrassment for both the human and robot avatars when they were in a socially awkward scenario, although they perceived the situation as more “real” for the human avatar compared to the robot.",
+        "Still, the results show that humans can empathize with robots in embarrassing situations, suggesting that humans assume the robots can be aware of being witnessed and have some degree of self-consciousness based on self-reflection and self-evaluation. But it also matters what the robot looks like: “The appearance of the robot may affect the empathetic embarrassment because humans empathize more strongly with more human-looking robots and less with more mechanical-looking robots when they are mistreated by humans.”",
+        "Despite the interesting findings in this recent study, the team from Oakridge University acknowledges that a larger sample size, as well as real world humans and robots, would make the conclusions more convincing.",
+        "“Our study provides valuable insights into the evolving nature of human-robot relationships. As technology continues to integrate into our daily lives, understanding the emotional responses we have towards robots is crucial,” Lisa Green, the lead researcher on the project, said in a press release. “This research opens up new avenues for exploring the boundaries of human empathy and the potential challenges and benefits of human-robot interactions.”"
+      ],
+      "pages": [
+        6,
+        7
+      ]
+    },
+    "m011": {
+      "kind": "passage",
+      "title": "D",
+      "content": [
+        "The singularly most important question we will ever ask is, “Who am I?” Generally speaking, we are not taught how to answer that question. We don’t even ask it. Most commonly, we define ourselves by the mirrors we see from the external world.",
+        "We are being looked at. And we are looking at other people’s observations and perceptions as if they are a mirror image of who we are. But you know how mirrors are. We only get a reversed (相反的) image. We have internalized other people’s ideas and we believe that they define us.",
+        "Even in the case, used here only as an example, of the child who internalizes a rebel identity. We say he’s “out of control.” He’s just trying to embarrass his parents. He’s just a “difficult child.” If none of that is true, then who is he really?",
+        "From the transpersonal therapy perspective, little Johnny has become what his parents needed him to be. What? Nobody in their right mind would want to raise a rebel. Right?",
+        "Perhaps Johnny’s parents have lived an unconsciously restrained life, strictly following the socially acceptable codes of the day. Yet, internally, they are itching (渴望) to be different. They just can’t because this role as the “good guy” has captured them. However, all the itching internal stuff has to go somewhere. The simplest answer is that it is projected onto little Johnny. Then the parent can deal with it externally; they may typically react by trying to get Johnny to take on the identity of another good guy.",
+        "That is how it is for most of us. We <u>introject</u> an idea of who we are, which we have received by looking into the eyes of parents and family members, and we live it out as if it is truly who we are. Often, it is reinforced many times over many years, in this case, by trying to get Johnny to live in the parents’ cage, which only means Johnny will have to rebel yet again.",
+        "Under all that identification, we ask, who are we really? The way to find it is to stop looking into other people’s eyes and start looking within.",
+        "Once that decision is made, it might be a good time to seek a therapist who will help us do that in a safe environment. Within that safe environment, you might also start journaling. Journaling is a dialogue with yourself—a dialogue between identity and self, or someone with whom you have unresolved issues.",
+        "The real journey, the one that will need to be made in a safe space, is made of determination. Determination to go deeper and deeper. This is the true hero’s journey in which you finally meet and retrieve your own self."
+      ],
+      "pages": [
+        7,
+        8
+      ]
+    },
+    "m012": {
+      "kind": "instructions",
+      "content": [
+        "第二节（共 5 小题；每小题 2 分，共 10 分）",
+        "根据短文内容，从短文后的七个选项中选出能填入空白处的最佳选项，并在答题卡上将该项涂黑。选项中有两项为多余选项。"
+      ],
+      "pages": [
+        9
+      ]
+    },
+    "m013": {
+      "kind": "passage",
+      "content": [
+        "Music isn’t just entertainment. It is one of the most accessible and powerful ways to regulate our mental state, yet we continue to underestimate its potential.",
+        "We already know that music can trigger emotions. __35__ In a 2019 study, participants listened to heroic- or sad-sounding music while their minds wandered. The results were striking: uplifting music stirred energising, constructive thoughts, while sad music brought about calmer or more demotivating ones. This influence has consequences for mental health.",
+        "Our minds frequently wander. We daydream for nearly half the time we are awake, and we are less happy when this happens. __36__ Why? Because during these periods, the brain’s default mode network (DMN) takes over. This supports imagination, memory and reflection, but often drifts into negative thought loops.",
+        "In recent brain-imaging studies, we showed that negative daydreams, especially during sad music, engage the brain’s pain system as well as the DMN. Upsetting thoughts, it turns out, are more than metaphorically painful. __37__",
+        "Fortunately, the DMN has a natural counterpart: the executive network, which supports focus and goal-directed behaviour. The two systems are anticorrelated, meaning when one is active, the other quiets down. __38__ Whether by tapping along to music, breathing in rhythm or humming internally, we redirect attention, disrupt negative thought loops and give our minds a cognitive “reset”.",
+        "__39__ Studies found people who tapped along experienced significantly less physical pain in experiments where a short burst of pressure was applied to their fingernails than those who merely listened. The combination of musical immersion and motor synchronisation (同步) boosted pain-reducing effects to a clinically meaningful degree. These findings suggest that musical engagement is a kind of pleasurable meditation.",
+        "If music can do all this, it needs to be recognised as far more than a lifestyle accessory. So the next time your stress begins to bite, put on your favourite song."
+      ],
+      "pages": [
+        9,
+        10
+      ]
+    },
+    "m014": {
+      "kind": "instructions",
+      "content": [
+        "第三部分  书面表达（共两节，32 分）",
+        "第一节（共 4 小题；第 40、41 题各 2 分，第 42 题 3 分，第 43 题 5 分，共 12 分）",
+        "阅读下面短文，根据题目要求用英文回答问题。请在答题卡指定区域作答。"
+      ],
+      "pages": [
+        10
+      ]
+    },
+    "m015": {
+      "kind": "passage",
+      "content": [
+        "Over breakfast, I chatted with Mia, my Spanish study buddy. I reviewed my recent lesson and shared what I’d learned from a podcast. By the end of our 10-minute talk, I felt I had gained more than from another textbook exercise.",
+        "Mia, however, is not a real person. She is an AI I created to make use of the “protege effect.” It is a psychological phenomenon where we learn more effectively when we teach someone else about a topic we’ve just explored—even if that person doesn’t really exist.",
+        "The principle of “learning by teaching” was first introduced in the early 1980s by Jean-Pol Martin, a French teacher, who allowed students to research and present parts of the curriculum to their classmates. The technique boosted their motivation and self-confidence, and it soon spread to many other schools.",
+        "In one study, a US scientist, Caroline Chase tested its effectiveness. Her team asked 62 eighth-graders to use a computer program to learn about the biological changes during a fever. Over two lessons, students read a text and created a flowchart. Half did it as self-study; the others were told their work would help teach a virtual character on the screen.",
+        "It was a small change, but the students in the role of teacher scored significantly better. This increased engagement made a big difference in both the amount they absorbed and the depth of their understanding.",
+        "Chase’s team named this the “protege effect”, and it has since been confirmed by later studies. Knowing that others will learn from us creates a sense of responsibility to provide accurate information. This responsibility drives us to make a greater effort to fill in the gaps in our own understanding and correct any mistaken assumptions before we pass them on. Explaining our knowledge then helps to strengthen what we have learned.",
+        "So why not give it a try? To truly master something, start teaching it—even if your student is only a virtual one."
+      ],
+      "pages": [
+        10,
+        11
+      ]
+    }
+  },
+  "option_sets": {
+    "o001": [
+      {
+        "key": "A",
+        "content": "It lifts our mood and makes us cry."
+      },
+      {
+        "key": "B",
+        "content": "This does more than improve mood."
+      },
+      {
+        "key": "C",
+        "content": "And music can shift us into this more adaptive mode."
+      },
+      {
+        "key": "D",
+        "content": "They activate the same networks as physical discomfort."
+      },
+      {
+        "key": "E",
+        "content": "The DMN also responds to rhythmic physical movement."
+      },
+      {
+        "key": "F",
+        "content": "Even pleasant thoughts don’t improve mood significantly."
+      },
+      {
+        "key": "G",
+        "content": "But research suggests it can change the content of our thoughts."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "1",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "instruct"
+        },
+        {
+          "key": "B",
+          "content": "replace"
+        },
+        {
+          "key": "C",
+          "content": "assist"
+        },
+        {
+          "key": "D",
+          "content": "observe"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q002",
+      "label": "2",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "protest"
+        },
+        {
+          "key": "B",
+          "content": "race"
+        },
+        {
+          "key": "C",
+          "content": "struggle"
+        },
+        {
+          "key": "D",
+          "content": "victory"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q003",
+      "label": "3",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "envious"
+        },
+        {
+          "key": "B",
+          "content": "curious"
+        },
+        {
+          "key": "C",
+          "content": "sympathetic"
+        },
+        {
+          "key": "D",
+          "content": "angry"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q004",
+      "label": "4",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "braving"
+        },
+        {
+          "key": "B",
+          "content": "leaving"
+        },
+        {
+          "key": "C",
+          "content": "circling"
+        },
+        {
+          "key": "D",
+          "content": "clearing"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q005",
+      "label": "5",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "running from"
+        },
+        {
+          "key": "B",
+          "content": "putting out"
+        },
+        {
+          "key": "C",
+          "content": "playing with"
+        },
+        {
+          "key": "D",
+          "content": "getting over"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q006",
+      "label": "6",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "genius"
+        },
+        {
+          "key": "B",
+          "content": "pioneer"
+        },
+        {
+          "key": "C",
+          "content": "expert"
+        },
+        {
+          "key": "D",
+          "content": "hero"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q007",
+      "label": "7",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "suddenly"
+        },
+        {
+          "key": "B",
+          "content": "unsurprisingly"
+        },
+        {
+          "key": "C",
+          "content": "unfortunately"
+        },
+        {
+          "key": "D",
+          "content": "interestingly"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q008",
+      "label": "8",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "from"
+        },
+        {
+          "key": "B",
+          "content": "for"
+        },
+        {
+          "key": "C",
+          "content": "except"
+        },
+        {
+          "key": "D",
+          "content": "above"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q009",
+      "label": "9",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "exist"
+        },
+        {
+          "key": "B",
+          "content": "match"
+        },
+        {
+          "key": "C",
+          "content": "matter"
+        },
+        {
+          "key": "D",
+          "content": "change"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q010",
+      "label": "10",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "inspire"
+        },
+        {
+          "key": "B",
+          "content": "please"
+        },
+        {
+          "key": "C",
+          "content": "admire"
+        },
+        {
+          "key": "D",
+          "content": "affect"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q011",
+      "label": "11",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "communities"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q012",
+      "label": "12",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "has hosted"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q013",
+      "label": "13",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "containing"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q014",
+      "label": "14",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m005"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "further"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q015",
+      "label": "15",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m005"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "What"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q016",
+      "label": "16",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m005"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "designed"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "17",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m005"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "variety"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "18",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m006"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "flew"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "19",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m006"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "where"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q020",
+      "label": "20",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m006"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "with"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q021",
+      "label": "21",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m008"
+      ],
+      "stem": "Which drama displays young artists’ adaptation?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Emerald City."
+        },
+        {
+          "key": "B",
+          "content": "Hamlet."
+        },
+        {
+          "key": "C",
+          "content": "Thunderstorm."
+        },
+        {
+          "key": "D",
+          "content": "Romeo and Juliet."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q022",
+      "label": "22",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m008"
+      ],
+      "stem": "What can we learn about the National Theatre’s plays?",
+      "options": [
+        {
+          "key": "A",
+          "content": "The Daffodils focuses on history of poetry."
+        },
+        {
+          "key": "B",
+          "content": "Farewell My Concubine will be live on TV."
+        },
+        {
+          "key": "C",
+          "content": "Hamlet will be presented again in the theatre."
+        },
+        {
+          "key": "D",
+          "content": "Emerald City explores audiences’ inner struggle."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q023",
+      "label": "23",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m008"
+      ],
+      "stem": "The main purpose of the passage is to ________.",
+      "options": [
+        {
+          "key": "A",
+          "content": "highlight the theatre’s cultural cooperation"
+        },
+        {
+          "key": "B",
+          "content": "help the theatre attract young audiences"
+        },
+        {
+          "key": "C",
+          "content": "introduce the theatre’s classic plays"
+        },
+        {
+          "key": "D",
+          "content": "cover the theatre’s new season"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q024",
+      "label": "24",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m009"
+      ],
+      "stem": "Why does the author often fail to respond to messages timely?",
+      "options": [
+        {
+          "key": "A",
+          "content": "She thinks non-urgent messages not worth replying to."
+        },
+        {
+          "key": "B",
+          "content": "She finds group conversations exhausting and boring."
+        },
+        {
+          "key": "C",
+          "content": "She prioritizes work emails over personal messages."
+        },
+        {
+          "key": "D",
+          "content": "She mentally responds but forgets to actually reply."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q025",
+      "label": "25",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m009"
+      ],
+      "stem": "What can we know about the author’s friends?",
+      "options": [
+        {
+          "key": "A",
+          "content": "They give up on judging each other."
+        },
+        {
+          "key": "B",
+          "content": "They learn to accept her the way she is."
+        },
+        {
+          "key": "C",
+          "content": "They adapt to her preference for phone calls."
+        },
+        {
+          "key": "D",
+          "content": "They complain about her sugarcoated excuses."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q026",
+      "label": "26",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m009"
+      ],
+      "stem": "Which word would best describe the author’s role in her friendship?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Reliable."
+        },
+        {
+          "key": "B",
+          "content": "Independent."
+        },
+        {
+          "key": "C",
+          "content": "Difficult."
+        },
+        {
+          "key": "D",
+          "content": "Insincere."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q027",
+      "label": "27",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m009"
+      ],
+      "stem": "What does the author mainly convey in the passage?",
+      "options": [
+        {
+          "key": "A",
+          "content": "A late reply is better than no response."
+        },
+        {
+          "key": "B",
+          "content": "Love speaks more than one language."
+        },
+        {
+          "key": "C",
+          "content": "Non-responders deserve more love."
+        },
+        {
+          "key": "D",
+          "content": "Actions speak louder than words."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q028",
+      "label": "28",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m010"
+      ],
+      "stem": "What does the author mainly do in Paragraph 2?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Introduce an approach."
+        },
+        {
+          "key": "B",
+          "content": "Explain a core concept."
+        },
+        {
+          "key": "C",
+          "content": "Offer a theoretical basis."
+        },
+        {
+          "key": "D",
+          "content": "Present previous findings."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "q029",
+      "label": "29",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m010"
+      ],
+      "stem": "What can we learn from the study?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Robots’ appearance determines empathetic embarrassment level."
+        },
+        {
+          "key": "B",
+          "content": "Humans think awkward robots may have self-consciousness."
+        },
+        {
+          "key": "C",
+          "content": "States of emotion hold back electrical activities in the brain."
+        },
+        {
+          "key": "D",
+          "content": "Awkward robots stimulate stronger empathy than humans."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "q030",
+      "label": "30",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m010"
+      ],
+      "stem": "Which of the following is the best title for the passage?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Do robots feel awkward like humans?"
+        },
+        {
+          "key": "B",
+          "content": "Can robots truly empathize with humans?"
+        },
+        {
+          "key": "C",
+          "content": "Where is the boundary of human empathy?"
+        },
+        {
+          "key": "D",
+          "content": "Why do humans feel bad for awkward robots?"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "q031",
+      "label": "31",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m011"
+      ],
+      "stem": "What are the first two paragraphs mainly about?",
+      "options": [
+        {
+          "key": "A",
+          "content": "The misconstruction of self-perception."
+        },
+        {
+          "key": "B",
+          "content": "The internalized reflection of self-identity."
+        },
+        {
+          "key": "C",
+          "content": "People’s confusion about their internal world."
+        },
+        {
+          "key": "D",
+          "content": "People’s observation of a reversed mirror image."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q032",
+      "label": "32",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m011"
+      ],
+      "stem": "Why does the author mention the example of a “rebel” child?",
+      "options": [
+        {
+          "key": "A",
+          "content": "To criticize a practice."
+        },
+        {
+          "key": "B",
+          "content": "To challenge an argument."
+        },
+        {
+          "key": "C",
+          "content": "To illustrate an idea."
+        },
+        {
+          "key": "D",
+          "content": "To raise an assumption."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q033",
+      "label": "33",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m011"
+      ],
+      "stem": "What does the underlined word “introject” in Paragraph 6 probably mean?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Absorb."
+        },
+        {
+          "key": "B",
+          "content": "Introduce."
+        },
+        {
+          "key": "C",
+          "content": "Value."
+        },
+        {
+          "key": "D",
+          "content": "Generate."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "q034",
+      "label": "34",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m011"
+      ],
+      "stem": "It is implied in the passage that we should ________.",
+      "options": [
+        {
+          "key": "A",
+          "content": "address unresolved issues with parents"
+        },
+        {
+          "key": "B",
+          "content": "balance given identity and genuine self"
+        },
+        {
+          "key": "C",
+          "content": "reclaim the authority to define who we are"
+        },
+        {
+          "key": "D",
+          "content": "reshape our identity in a safe environment"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "q035",
+      "label": "35",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "G"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "q036",
+      "label": "36",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "F"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "q037",
+      "label": "37",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "q038",
+      "label": "38",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "q039",
+      "label": "39",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "q040",
+      "label": "40",
+      "type": "short_answer",
+      "materials": [
+        "m014",
+        "m015"
+      ],
+      "stem": "What is the “protege effect”?",
+      "answer": {
+        "source": "question_document",
+        "content": "It is a psychological phenomenon where we learn more effectively when we teach someone else about a topic we’ve just explored."
+      },
+      "score": 2,
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "q041",
+      "label": "41",
+      "type": "short_answer",
+      "materials": [
+        "m014",
+        "m015"
+      ],
+      "stem": "Why did students in the role of teacher score better in Chase’s study?",
+      "answer": {
+        "source": "question_document",
+        "content": "Because this increased engagement made a big difference in both the amount they absorbed and the depth of their understanding."
+      },
+      "score": 2,
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "q042",
+      "label": "42",
+      "type": "short_answer",
+      "materials": [
+        "m014",
+        "m015"
+      ],
+      "stem": [
+        "Please decide which part is false in the following statement, then underline it and explain why.",
+        "➤ The responsibility to teach others pushes us to point out their mistaken assumptions."
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": [
+          "The responsibility to teach others pushes us to <u>point out their mistaken assumptions</u>.",
+          "The responsibility to teach others pushes us to correct our mistaken assumptions."
+        ]
+      },
+      "score": 3,
+      "pages": [
+        11
+      ],
+      "needs_review": true,
+      "notes": [
+        "参考答案仅标出错误部分并给出改正句，未提供解释原因的答案文字。"
+      ]
+    },
+    {
+      "id": "q043",
+      "label": "43",
+      "type": "short_answer",
+      "materials": [
+        "m014",
+        "m015"
+      ],
+      "stem": "How can you put the “protege effect” into practice? (In about 40 words)",
+      "answer": {
+        "source": "question_document",
+        "content": "I often have a friend or even an AI act as my student. After learning something new, I explain it in my own words and invite questions. This not only helps me organize my thoughts but also shows me where I need to improve—and that’s how I truly learn. (53w)"
+      },
+      "score": 5,
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "q044",
+      "label": "第二节",
+      "type": "essay",
+      "stem": [
+        "假设你是红星中学高三学生李华。你校英文报正在举办以“Labor Shaped Me”为主题的征文活动。请你写一篇短文投稿，内容包括：",
+        "1. 你的劳动经历；",
+        "2. 该经历对你的影响。",
+        "注意：1. 词数 100 左右；",
+        "2. 标题已给出，不计入总词数。"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": [
+          "My most unforgettable labor experience happened in Gansu. Last summer, I joined a local project to plant trees in the desert.",
+          "Under the burning sun, I worked with volunteers to dig holes in the sandy land, put young trees in them and cover the roots with soil. I felt tired and my hands got sore, but I kept working with everyone till the end. We planted over 2000 small trees together in three days.",
+          "This experience shaped me greatly. I realized that labor is not only about personal growth but also about social responsibility. By helping to stop the sand, I felt a true sense of achievement. In the future, I will devote myself to meaningful work, knowing that when we give our best to society, we also build a better self. (132w)"
+        ]
+      },
+      "score": 20,
+      "pages": [
+        11
+      ]
+    }
+  ]
+}

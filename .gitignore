@@ -1,0 +1,41 @@
+# ---- 体积过大的原始资料与缓存（保留在本地，不入库） ----
+/raw/
+/data/cache/
+/data/models/
+/data/chinese_recitation/
+/data/gaokao_beijing_recitation/
+/data/original_downloads/source_pages/
+
+# ---- 运行过程产物：页面渲染、逐卷工作目录、模型会话记录 ----
+/data/question_extraction/2026/chinese/
+/data/question_extraction/2026/*.jsonl
+/data/question_extraction/2026/*.log
+/_orchestration/runs/
+/_orchestration/paper_locks/
+/_orchestration/targeted_chemistry_3/
+/_orchestration/pilot_chemistry_resume/
+/_orchestration/quarantine/
+/_orchestration/*.jsonl
+/_orchestration/*.log
+/_orchestration/*.lock
+/_orchestration/status_before_full_*.json
+
+# ---- benchmark 虚拟环境与工作区 ----
+/benchmark/.venv-*/
+/benchmark/.venv/
+/benchmark/.work/
+/benchmark/__pycache__/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- 临时文件与系统文件 ----
+*.tmp
+*.reorg.tmp
+nul
+.DS_Store
+Thumbs.db
+desktop.ini

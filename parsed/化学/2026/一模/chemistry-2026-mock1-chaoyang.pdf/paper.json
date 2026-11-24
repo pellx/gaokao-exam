@@ -1,0 +1,1691 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|一模|朝阳|化学|",
+    "title": "2026北京朝阳高三一模化学试题及答案",
+    "year": 2026,
+    "kind": "一模",
+    "subject": "化学",
+    "district": "朝阳"
+  },
+  "source": {
+    "file": "../../../../../raw/化学/2026/一模/chemistry-2026-mock1-chaoyang.pdf",
+    "sha256": "260d0b255baca6f92cac1743d9f11f9776cbe0facd36b2e4a0fbb3544599c897",
+    "page_count": 12
+  },
+  "extraction": {
+    "status": "verified",
+    "tool": "PyMuPDF 200dpi 逐页渲染 + 目视转录；PyMuPDF 提取第11-12页答案文本",
+    "notes": [
+      "原卷第1-10页为整页扫描图像（无文本层），第11-12页为参考答案且有文本层。",
+      "试题与答案根据整页渲染逐页目视转录；化学式、上下标按原卷录入。",
+      "原卷在需强调的词下印有着重号（圆点），文本中未复现。",
+      "部分结构式（第8页合成路线、第12页答案结构）以图片资源保留，未用整页截图代替文字。",
+      "第8页第17（6）题“已知：ⅰ.”按原卷作为文字保存，紧随其后的互变异构结构式存为 a027，图中不含该标记。"
+    ]
+  },
+  "assets": {
+    "a001": {
+      "path": "assets/a001.png",
+      "kind": "image",
+      "page": 1,
+      "sha256": "e0cd33fe61373053d2da270e6a82f2277d4db257fe41cf58acb8b0d712d89f09"
+    },
+    "a002": {
+      "path": "assets/a002.png",
+      "kind": "image",
+      "page": 1,
+      "sha256": "5ee8cd78da3cf3c442fb36e6a1d29a87f1c906bd4140a78d4398b665d888842d"
+    },
+    "a003": {
+      "path": "assets/a003.png",
+      "kind": "image",
+      "page": 1,
+      "sha256": "a71d30a92a4ecf441b4032b4705d1533b04b78b642747bb4e336e13e2f1a1812"
+    },
+    "a004": {
+      "path": "assets/a004.png",
+      "kind": "image",
+      "page": 2,
+      "sha256": "6ac5b870a6fad961ddfecf1c7b29ff4ae3c64a2d3fa8ecf02cf1612ff5c56a51"
+    },
+    "a005": {
+      "path": "assets/a005.png",
+      "kind": "image",
+      "page": 2,
+      "sha256": "01c4122c3a9492fb8ab672ebdfecdaaee56642288896975d48ff80467ab931db"
+    },
+    "a006": {
+      "path": "assets/a006.png",
+      "kind": "image",
+      "page": 2,
+      "sha256": "84b02d486a5554f747f7dc3ece70f182f131b8000b01ee9999a316e531cc6802"
+    },
+    "a007": {
+      "path": "assets/a007.png",
+      "kind": "image",
+      "page": 2,
+      "sha256": "b9ae2f3e54e53b61bdf46f31452b37fa2636feed21a3a1d266f60bde8f696b1c"
+    },
+    "a008": {
+      "path": "assets/a008.png",
+      "kind": "image",
+      "page": 2,
+      "sha256": "420ccdf216c22a8ef2da86703b487b4844f546b0c2cf656e8513dbd2e83dc206"
+    },
+    "a009": {
+      "path": "assets/a009.png",
+      "kind": "image",
+      "page": 2,
+      "sha256": "91ef4d08b0a939eff8369e67e2dbd05a3c922ca26cd039f17336ef4c3d34e15b"
+    },
+    "a010": {
+      "path": "assets/a010.png",
+      "kind": "image",
+      "page": 3,
+      "sha256": "8b48fb9868ac252b0242efba2c59a4c4dc058ccaf879638eddf9fcf1c0496143"
+    },
+    "a011": {
+      "path": "assets/a011.png",
+      "kind": "image",
+      "page": 4,
+      "sha256": "d4347fe9ffbc2cbe127cfe7b7ba918de376199c15aff2c5e5278beae6b2244d0"
+    },
+    "a012": {
+      "path": "assets/a012.png",
+      "kind": "image",
+      "page": 4,
+      "sha256": "a4641434a7b49e5a5709db80dd02820a8a56b7aaca0e4556291ab250eb6b2f4a"
+    },
+    "a026": {
+      "path": "assets/a026.png",
+      "kind": "image",
+      "page": 4,
+      "sha256": "e436013fc50743999f8e28a8964c81baa0574701c4063808e2c0a6aae7d1b1b7"
+    },
+    "a013": {
+      "path": "assets/a013.png",
+      "kind": "image",
+      "page": 5,
+      "sha256": "1d1a93dbbea4853715c8202a8258cf810023bf81e5a0088a9cffdb7a890c6738"
+    },
+    "a014": {
+      "path": "assets/a014.png",
+      "kind": "image",
+      "page": 6,
+      "sha256": "d8e652bc7ee8a93eb915bc06d3c91bf1bebf59d56a1c2043fd864816dcfc7458"
+    },
+    "a015": {
+      "path": "assets/a015.png",
+      "kind": "image",
+      "page": 6,
+      "sha256": "65859da041e2e9cc57d04e7897051a21f47124b7869a6ccb28eb960ca9be353f"
+    },
+    "a016": {
+      "path": "assets/a016.png",
+      "kind": "image",
+      "page": 7,
+      "sha256": "d7b24601f20adca7b726e758b9f7c05d7cdf53d75f099b4acf045aec624a5b80"
+    },
+    "a017": {
+      "path": "assets/a017.png",
+      "kind": "image",
+      "page": 8,
+      "sha256": "2f17f05a5b3fa3dd3889546935de86d163e5a5cd5b87a34f14d1b01e35882a1c"
+    },
+    "a018": {
+      "path": "assets/a018.png",
+      "kind": "image",
+      "page": 8,
+      "sha256": "680c4c500da7766ddf11fbcaf8a535f95f8795006fe24c35380e55f83b6c002a"
+    },
+    "a027": {
+      "path": "assets/a027.png",
+      "kind": "image",
+      "page": 8,
+      "bbox": [
+        139.3,
+        590,
+        276,
+        643
+      ],
+      "sha256": "f75916fc163c7292589f03e6003b1cf70ef218cdb105b9f0018ed17e4103f382"
+    },
+    "a019": {
+      "path": "assets/a019.png",
+      "kind": "image",
+      "page": 9,
+      "sha256": "53c6c4009a1594ec2be13e9a1e94d9f3e2f664ecd754d9608c3fd141015b0f53"
+    },
+    "a020": {
+      "path": "assets/a020.png",
+      "kind": "image",
+      "page": 9,
+      "bbox": [
+        218,
+        600,
+        393,
+        722
+      ],
+      "sha256": "599c52ca7cccf65f802e53da04e9595700705ade6b8df11eac3a19956c47cbd2"
+    },
+    "a021": {
+      "path": "assets/a021.png",
+      "kind": "image",
+      "page": 10,
+      "bbox": [
+        140.5,
+        225,
+        530,
+        372
+      ],
+      "sha256": "f0cf5b43ffcaf4ee8b731e4043e330a73f0c74b38bc701ce61c564507fc1a8f4"
+    },
+    "a022": {
+      "path": "assets/a022.png",
+      "kind": "image",
+      "page": 12,
+      "sha256": "bbb1866c295d6770ac3443d0059bab5ca13be11f83b6d548d391abb82ca6013f"
+    },
+    "a023": {
+      "path": "assets/a023.png",
+      "kind": "image",
+      "page": 12,
+      "sha256": "3ec50fc113e6252377786159e44dbe55304624eaf8b458ac3122a93d52d93a42"
+    },
+    "a024": {
+      "path": "assets/a024.png",
+      "kind": "image",
+      "page": 12,
+      "bbox": [
+        150,
+        207,
+        289,
+        298
+      ],
+      "sha256": "752aa06951e16247e96e7f83324d4923c9ad6f6d4d183f42f91c2dc7f56ecd3a"
+    },
+    "a025": {
+      "path": "assets/a025.png",
+      "kind": "image",
+      "page": 12,
+      "bbox": [
+        175,
+        296,
+        301,
+        370
+      ],
+      "sha256": "c3e7d61ed3d9561950e62817ac3bb12c369e00b83ba8589e9e2421c790331e49"
+    }
+  },
+  "materials": {
+    "m001": {
+      "kind": "instructions",
+      "content": [
+        "（考试时间90分钟  满分100分）",
+        "可能用到的相对原子质量：H 1  C 12  N 14  O 16  F 19  Na 23  Mg 24  Cl 35.5  Fe 56"
+      ],
+      "pages": [
+        1
+      ]
+    },
+    "m002": {
+      "kind": "instructions",
+      "content": [
+        "第一部分",
+        "本部分共14题，每题3分，共42分。在每题列出的四个选项中，选出最符合题目要求的一项。"
+      ],
+      "pages": [
+        1
+      ]
+    },
+    "m003": {
+      "kind": "instructions",
+      "content": [
+        "第二部分",
+        "本部分共5题，共58分。"
+      ],
+      "pages": [
+        6
+      ]
+    },
+    "m004": {
+      "kind": "data",
+      "content": [
+        {
+          "table": {
+            "header": [
+              "润洗滴定管",
+              "验证牺牲阳极法",
+              "检验铜与浓硫酸反应的产物",
+              "证明氨气极易溶于水"
+            ],
+            "rows": [
+              [
+                [
+                  {
+                    "asset": "a005"
+                  }
+                ],
+                [
+                  {
+                    "asset": "a006"
+                  }
+                ],
+                [
+                  {
+                    "asset": "a007"
+                  }
+                ],
+                [
+                  {
+                    "asset": "a008"
+                  }
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "pages": [
+        2
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "1",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "我国科学家首次利用反应 $2\\mathrm{AgN_3}+\\mathrm{Br_2}=2\\mathrm{AgBr}+\\mathrm{N_6}$ 合成了储能材料 $\\mathrm{N_6}$。$\\mathrm{N_6}$ 为链状分子，能分解为更稳定的 $\\mathrm{N_2}$。下列说法不正确的是",
+      "options": [
+        {
+          "key": "A",
+          "content": "基态氮原子的电子排布式为 $1s^22s^22p^3$"
+        },
+        {
+          "key": "B",
+          "content": "$\\mathrm{N_6}$ 与 $\\mathrm{N_2}$ 互为同素异形体"
+        },
+        {
+          "key": "C",
+          "content": "合成 $\\mathrm{N_6}$ 的反应属于置换反应"
+        },
+        {
+          "key": "D",
+          "content": "$\\mathrm{N_6}$ 分解为 $\\mathrm{N_2}$ 是熵减的过程"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q002",
+      "label": "2",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "下列化学用语或图示表达不正确的是",
+      "options": [
+        {
+          "key": "A",
+          "content": [
+            "$\\mathrm{Cl}$ 的原子结构示意图：",
+            {
+              "asset": "a001"
+            }
+          ]
+        },
+        {
+          "key": "B",
+          "content": [
+            "基态 $\\mathrm{C}$ 原子的轨道表示式：",
+            {
+              "asset": "a002"
+            }
+          ]
+        },
+        {
+          "key": "C",
+          "content": [
+            "$\\mathrm{sp^2}$ 杂化轨道示意图：",
+            {
+              "asset": "a003"
+            }
+          ]
+        },
+        {
+          "key": "D",
+          "content": "异丙基的结构简式：$\\mathrm{-CH(CH_3)_2}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        1
+      ],
+      "notes": [
+        "D项原卷以结构简式绘制（—CH—CH3，CH3 位于 CH 下方），此处按等价缩合式转录。"
+      ]
+    },
+    {
+      "id": "q003",
+      "label": "3",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "下列关于ⅡA族元素的氢氧化物的说法不正确的是",
+      "options": [
+        {
+          "key": "A",
+          "content": "碱性：$\\mathrm{Ba(OH)_2>Ca(OH)_2}$"
+        },
+        {
+          "key": "B",
+          "content": "用 $\\mathrm{Ca(OH)_2}$ 除去粗盐中 $\\mathrm{SO_4^{2-}}$ 的效果比用 $\\mathrm{Ba(OH)_2}$ 好"
+        },
+        {
+          "key": "C",
+          "content": "加热 $\\mathrm{Ca(OH)_2}$ 与 $\\mathrm{NH_4Cl}$ 的固体混合物可制取 $\\mathrm{NH_3}$"
+        },
+        {
+          "key": "D",
+          "content": "将 $\\mathrm{Ba(OH)_2\\cdot 8H_2O}$ 晶体与 $\\mathrm{NH_4Cl}$ 晶体混合搅拌，体系从环境吸收热量"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q004",
+      "label": "4",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "下列说法不正确的是",
+      "options": [
+        {
+          "key": "A",
+          "content": "淀粉不能被银氨溶液和氢氧化铜等弱氧化剂氧化"
+        },
+        {
+          "key": "B",
+          "content": "蛋白质可在酶的作用下水解得到氨基酸"
+        },
+        {
+          "key": "C",
+          "content": "通过分馏从石油中获得汽油、柴油利用的是各组分密度的不同"
+        },
+        {
+          "key": "D",
+          "content": "核苷酸的结构可看作是由戊糖分别与磷酸、碱基通过分子间脱水连接而成"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q005",
+      "label": "5",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": [
+        "将分别蘸有浓氨水和浓盐酸的玻璃棒靠近，产生大量白烟。下列说法不正确的是",
+        {
+          "asset": "a004"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\mathrm{NH_3}$、$\\mathrm{HCl}$ 中的共价键分别是 $\\mathrm{s\\text{-}sp^3}$ σ键、$\\mathrm{s\\text{-}p}$ σ键"
+        },
+        {
+          "key": "B",
+          "content": "反应过程涉及配位键的形成"
+        },
+        {
+          "key": "C",
+          "content": "白烟的产生体现了 $\\mathrm{NH_3}$ 的还原性"
+        },
+        {
+          "key": "D",
+          "content": "用浓硝酸代替浓盐酸，也会产生大量白烟"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q006",
+      "label": "6",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "下列方程式与所给事实不相符的是",
+      "options": [
+        {
+          "key": "A",
+          "content": "将 $\\mathrm{NO_2}$ 通入水中制得硝酸：$3\\mathrm{NO_2}+\\mathrm{H_2O}=2\\mathrm{HNO_3}+\\mathrm{NO}$"
+        },
+        {
+          "key": "B",
+          "content": "用 $\\mathrm{NaOH}$ 溶液吸收少量 $\\mathrm{SO_2}$：$\\mathrm{SO_2}+2\\mathrm{OH^-}=\\mathrm{SO_3^{2-}}+\\mathrm{H_2O}$"
+        },
+        {
+          "key": "C",
+          "content": "用催化转化器处理汽车尾气中的 $\\mathrm{CO}$ 和 $\\mathrm{NO}$：$2\\mathrm{CO}+2\\mathrm{NO}\\xrightarrow[{\\Delta}]{\\text{催化剂}}\\mathrm{N_2}+2\\mathrm{CO_2}$"
+        },
+        {
+          "key": "D",
+          "content": "将 $\\mathrm{CO_2}$ 通入苯酚钠溶液中产生浑浊：$2\\mathrm{C_6H_5ONa}+\\mathrm{CO_2}+\\mathrm{H_2O}\\rightarrow 2\\mathrm{C_6H_5OH}+\\mathrm{Na_2CO_3}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        2
+      ],
+      "notes": [
+        "D项原卷以苯环结构式表示苯酚钠和苯酚，此处按等价缩合式转录。"
+      ]
+    },
+    {
+      "id": "q007",
+      "label": "7",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002",
+        "m004"
+      ],
+      "stem": "下列操作中不正确的是",
+      "options": [
+        {
+          "key": "A",
+          "content": "加入少量待盛液，倾斜着转动滴定管，使液体润湿全部滴定管内壁，再从上口倒出"
+        },
+        {
+          "key": "B",
+          "content": "一段时间后，取出少量铁电极附近的溶液，滴加2滴铁氰化钾溶液"
+        },
+        {
+          "key": "C",
+          "content": "冷却后，将①中物质慢慢倒入盛有水的烧杯中"
+        },
+        {
+          "key": "D",
+          "content": "打开弹簧夹，挤压胶头滴管，使水进入烧瓶"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q008",
+      "label": "8",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": [
+        "电解饱和食盐水的原理示意图如下。下列说法不正确的是",
+        {
+          "asset": "a009"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "阴极的电极反应为：$2\\mathrm{H_2O}+2e^-=\\mathrm{H_2}\\uparrow+2\\mathrm{OH^-}$"
+        },
+        {
+          "key": "B",
+          "content": "在阳极 $\\mathrm{Cl^-}$ 比 $\\mathrm{OH^-}$ 容易失去电子，$\\mathrm{Cl^-}$ 被氧化生成 $\\mathrm{Cl_2}$"
+        },
+        {
+          "key": "C",
+          "content": "使用阳离子交换膜可防止发生反应：$\\mathrm{Cl_2}+2\\mathrm{OH^-}=\\mathrm{Cl^-}+\\mathrm{ClO^-}+\\mathrm{H_2O}$"
+        },
+        {
+          "key": "D",
+          "content": "电解初期电路中每通过2 mol电子，阳极室溶液质量减少71 g"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q009",
+      "label": "9",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "下列对事实的解释不正确的是",
+      "options": [
+        {
+          "key": "A",
+          "content": [
+            {
+              "table": {
+                "header": [
+                  "事实",
+                  "解释"
+                ],
+                "rows": [
+                  [
+                    "浓硝酸（$16\\ \\mathrm{mol\\cdot L^{-1}}$）不能溶解金，王水（浓硝酸与 $12\\ \\mathrm{mol\\cdot L^{-1}}$ 浓盐酸按体积比1:3混合）能溶解金生成 $\\mathrm{[AuCl_4]^-}$",
+                    "浓盐酸能增强浓硝酸的氧化性"
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "key": "B",
+          "content": [
+            {
+              "table": {
+                "header": [
+                  "事实",
+                  "解释"
+                ],
+                "rows": [
+                  [
+                    "石墨有类似金属的导电性",
+                    "石墨中未参与杂化的p轨道中的电子可在整个碳原子平面中运动"
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "key": "C",
+          "content": [
+            {
+              "table": {
+                "header": [
+                  "事实",
+                  "解释"
+                ],
+                "rows": [
+                  [
+                    "缺角的NaCl晶体在饱和NaCl溶液中慢慢变为完美的立方体块",
+                    "晶体具有自范性"
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "key": "D",
+          "content": [
+            {
+              "table": {
+                "header": [
+                  "事实",
+                  "解释"
+                ],
+                "rows": [
+                  [
+                    "KSCN溶液遇 $0.1\\ \\mathrm{mol\\cdot L^{-1}}$ $\\mathrm{FeCl_3}$ 溶液显红色，遇 $0.1\\ \\mathrm{mol\\cdot L^{-1}}$ $\\mathrm{K_3[Fe(CN)_6]}$ 溶液不显红色",
+                    "$\\mathrm{K_3[Fe(CN)_6]}$ 溶液中 $c(\\mathrm{Fe^{3+}})$ 较小"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q010",
+      "label": "10",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": [
+        "由乙酸制取丙二酸的流程如下（部分条件略）。下列说法不正确的是",
+        "$\\mathrm{CH_3COOH}\\xrightarrow[{\\text{i}}]{\\mathrm{Cl_2}}\\mathrm{ClCH_2COOH}\\xrightarrow[{\\text{ii}}]{\\mathrm{Na_2CO_3}}\\mathrm{ClCH_2COONa}\\xrightarrow[{\\text{iii}}]{\\mathrm{NaCN}}\\mathrm{NCCH_2COONa}\\xrightarrow[{\\text{iv}}]{\\mathrm{H_2O,\\ H^+}}\\mathrm{HOOCCH_2COOH}$",
+        "已知：25 ℃时，$K_a(\\mathrm{CH_3COOH})=1.7\\times10^{-5}$  $K_a(\\mathrm{HCN})=6.2\\times10^{-10}$；HCN有毒，有挥发性"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "酸性：$\\mathrm{ClCH_2COOH>CH_3COOH}$"
+        },
+        {
+          "key": "B",
+          "content": "ii中若用过量NaOH代替 $\\mathrm{Na_2CO_3}$ 可提高 $\\mathrm{ClCH_2COONa}$ 的产率"
+        },
+        {
+          "key": "C",
+          "content": "iii中氯原子被取代，与 $\\mathrm{ClCH_2COONa}$ 中C—Cl键的极性有关"
+        },
+        {
+          "key": "D",
+          "content": "ii的目的是防止发生 $\\mathrm{ClCH_2COOH+NaCN=ClCH_2COONa+HCN}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        3
+      ],
+      "notes": [
+        "原卷流程图以结构式绘制，此处按等价缩合式转录。"
+      ]
+    },
+    {
+      "id": "q011",
+      "label": "11",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": [
+        "一种对 $\\mathrm{K^+}/\\mathrm{Mg^{2+}}$ 分离具有良好选择性的高分子膜——磺化聚酮（SPK18）的合成方法如下。下列说法不正确的是",
+        {
+          "asset": "a010"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "单体M的核磁共振氢谱有4组峰"
+        },
+        {
+          "key": "B",
+          "content": "合成SPK18的反应为缩聚反应"
+        },
+        {
+          "key": "C",
+          "content": "合成反应中癸二酸、M、N的化学计量比为2:1:1"
+        },
+        {
+          "key": "D",
+          "content": "推测SPK18对 $\\mathrm{K^+}/\\mathrm{Mg^{2+}}$ 分离有良好选择性与冠醚空腔、金属离子的直径有关"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q012",
+      "label": "12",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": [
+        "一种在铜催化剂作用下合成 α-$\\mathrm{CF_3}$ 炔烃的过程示意图如下。",
+        {
+          "asset": "a011"
+        },
+        "已知：C和Br的电负性分别为2.5和2.8；图中“·”表示未成对电子，Ⅰ、Ⅱ表示铜元素的价态。",
+        "下列说法不正确的是"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "—$\\mathrm{CF_3}$ 减弱了 $\\mathrm{R^2{-}CH(CF_3){-}Br}$ 中C—Br键的极性"
+        },
+        {
+          "key": "B",
+          "content": "过程②中得到的M为 $\\cdot\\mathrm{Br}$"
+        },
+        {
+          "key": "C",
+          "content": "反应欲制得1 mol α-$\\mathrm{CF_3}$ 炔烃，投入 $\\mathrm{Cu^IL_nBr}$ 的物质的量无须1 mol"
+        },
+        {
+          "key": "D",
+          "content": [
+            "合成 α-$\\mathrm{CF_3}$ 炔烃的总反应：",
+            {
+              "asset": "a026"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        4
+      ],
+      "notes": [
+        "A项中的取代基结构原卷以结构式绘制，此处按等价缩合式转录。"
+      ]
+    },
+    {
+      "id": "q013",
+      "label": "13",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": [
+        "利用闪锌矿（含ZnS、FeS）制备ZnS的过程如下。",
+        {
+          "asset": "a012"
+        },
+        "已知：$\\mathrm{NH_4Fe_3(SO_4)_2(OH)_6}$ 在pH=0.5~2.5范围内稳定，$\\mathrm{Fe^{3+}}$ 在pH≈2.8时沉淀完全。",
+        "下列说法不正确的是"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "“酸浸”时通入 $\\mathrm{O_2}$ 有利于提高 $\\mathrm{Zn^{2+}}$ 的浸出率"
+        },
+        {
+          "key": "B",
+          "content": "“酸浸”时 $\\mathrm{Zn^{2+}}$ 的浸出速率逐渐增大，可能的原因是生成的 $\\mathrm{Fe^{3+}}$ 参与 $\\mathrm{Zn^{2+}}$ 浸出"
+        },
+        {
+          "key": "C",
+          "content": "“除铁”时发生反应的离子方程式为：$\\mathrm{NH_4^+}+6\\mathrm{HCO_3^-}+3\\mathrm{Fe^{3+}}+2\\mathrm{SO_4^{2-}}=\\mathrm{NH_4Fe_3(SO_4)_2(OH)_6}\\downarrow+6\\mathrm{CO_2}\\uparrow$"
+        },
+        {
+          "key": "D",
+          "content": "“深度除铁”时，若将①与②的顺序互换，不会影响铁的沉淀率"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q014",
+      "label": "14",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": [
+        "向10 mL $0.1\\ \\mathrm{mol\\cdot L^{-1}}$ $\\mathrm{Na_2CO_3}$ 溶液中滴加 $\\mathrm{SO_2}$ 水溶液（以 $\\mathrm{H_2SO_3}$ 计），溶液pH随加入 $\\mathrm{SO_2}$ 水溶液体积（V）的变化如图所示。",
+        {
+          "asset": "a013"
+        },
+        "已知：",
+        {
+          "table": {
+            "header": [
+              "物质",
+              "$\\mathrm{H_2CO_3}$ $K_{a1}$",
+              "$\\mathrm{H_2CO_3}$ $K_{a2}$",
+              "$\\mathrm{H_2SO_3}$ $K_{a1}$",
+              "$\\mathrm{H_2SO_3}$ $K_{a2}$"
+            ],
+            "rows": [
+              [
+                "$K_a$",
+                "$4.5\\times10^{-7}$",
+                "$4.7\\times10^{-11}$",
+                "$1.4\\times10^{-2}$",
+                "$6.0\\times10^{-8}$"
+              ]
+            ]
+          }
+        },
+        "下列说法不正确的是"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\mathrm{NaHSO_3}$ 溶液显酸性，$\\mathrm{NaHCO_3}$ 溶液显碱性"
+        },
+        {
+          "key": "B",
+          "content": "$\\mathrm{SO_2}$ 水溶液的浓度为 $0.1\\ \\mathrm{mol\\cdot L^{-1}}$"
+        },
+        {
+          "key": "C",
+          "content": "a点对应的溶液中：$c(\\mathrm{Na^+})>c(\\mathrm{SO_3^{2-}})>c(\\mathrm{HCO_3^-})$"
+        },
+        {
+          "key": "D",
+          "content": "a→b发生反应：$\\mathrm{SO_3^{2-}}+2\\mathrm{HCO_3^-}+3\\mathrm{H_2SO_3}=2\\mathrm{CO_2}\\uparrow+4\\mathrm{HSO_3^-}+2\\mathrm{H_2O}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q015",
+      "label": "15",
+      "type": "composite",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": "催化剂研究已成为合成氨工业技术改造和更新的关键。",
+      "score": 9,
+      "pages": [
+        6
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "composite",
+          "stem": "目前工业上主要以 $\\mathrm{N_2}$ 和 $\\mathrm{H_2}$ 为原料，使用铁基催化剂合成氨。铁基催化剂是以 $\\mathrm{Fe_3O_4}$ 为活性主体，添加 $\\mathrm{K_2O}$、$\\mathrm{Al_2O_3}$、$\\mathrm{CaO}$ 等助剂制成。",
+          "parts": [
+            {
+              "id": "r1",
+              "label": "①",
+              "type": "fill_blank",
+              "stem": "基态Fe原子未成对电子数为______。",
+              "answer": {
+                "source": "question_document",
+                "content": "4（1分）"
+              },
+              "score": 1
+            },
+            {
+              "id": "r2",
+              "label": "②",
+              "type": "fill_blank",
+              "stem": "$\\mathrm{Fe_3O_4}$、$\\mathrm{K_2O}$、$\\mathrm{Al_2O_3}$、$\\mathrm{CaO}$ 的化学键中离子键成分的百分数最高的是______。",
+              "answer": {
+                "source": "question_document",
+                "content": "K₂O（1分）"
+              },
+              "score": 1
+            },
+            {
+              "id": "r3",
+              "label": "③",
+              "type": "fill_blank",
+              "stem": "CaO作助剂与其熔点高有关。从结构角度解释CaO熔点高于 $\\mathrm{K_2O}$ 的原因：______。",
+              "answer": {
+                "source": "question_document",
+                "content": "两者均为离子晶体，Ca²⁺所带电荷数比K⁺高，半径比K⁺小，CaO中离子键更强（2分）"
+              },
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "composite",
+          "stem": [
+            "α-Fe也可用作 $\\mathrm{N_2}$ 和 $\\mathrm{H_2}$ 合成氨的催化剂，其晶胞是立方体结构，边长为a nm，结构示意图如右。",
+            {
+              "asset": "a014"
+            }
+          ],
+          "parts": [
+            {
+              "id": "r1",
+              "label": "①",
+              "type": "fill_blank",
+              "stem": "每个Fe原子周围与它最近且距离相等的Fe原子有______个。",
+              "answer": {
+                "source": "question_document",
+                "content": "8（1分）"
+              },
+              "score": 1
+            },
+            {
+              "id": "r2",
+              "label": "②",
+              "type": "fill_blank",
+              "stem": "已知催化剂的活性与其表面单位面积含有Fe原子的个数有关。图中阴影所示的平面上每平方纳米（$\\mathrm{nm^2}$）含有的Fe原子个数为______。",
+              "answer": {
+                "source": "question_document",
+                "content": "1/a²（1分）"
+              },
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "composite",
+          "stem": [
+            "当前合成氨工艺的能耗较大，原料之一 $\\mathrm{H_2}$ 需要制备并纯化。我国科学家研制出的 α-$\\mathrm{MoC}_{1-x}$/Au 双催化剂实现了在温和条件下以 $\\mathrm{H_2O}$ 为氢源合成氨，其反应为：",
+            "$\\mathrm{N_2(g)}+3\\mathrm{CO(g)}+3\\mathrm{H_2O(g)}=2\\mathrm{NH_3(g)}+3\\mathrm{CO_2(g)}\\ \\ \\Delta H$"
+          ],
+          "parts": [
+            {
+              "id": "r1",
+              "label": "①",
+              "type": "fill_blank",
+              "stem": [
+                "已知：$2\\mathrm{N_2(g)}+6\\mathrm{H_2O(g)}=4\\mathrm{NH_3(g)}+3\\mathrm{O_2(g)}\\ \\ \\Delta H_1$",
+                "$2\\mathrm{CO(g)}+\\mathrm{O_2(g)}=2\\mathrm{CO_2(g)}\\ \\ \\Delta H_2$",
+                "则 $\\Delta H=$______（用含 $\\Delta H_1$、$\\Delta H_2$ 的代数式表示）。"
+              ],
+              "answer": {
+                "source": "question_document",
+                "content": "$\\frac{1}{2}\\Delta H_1+\\frac{3}{2}\\Delta H_2$（1分）"
+              },
+              "score": 1
+            },
+            {
+              "id": "r2",
+              "label": "②",
+              "type": "fill_blank",
+              "stem": [
+                "主要过程的催化机理示意图如下（部分微粒未表示）。",
+                {
+                  "asset": "a015"
+                },
+                "已知：催化剂表面单位面积活性中心的数量影响催化过程，若活性中心被占据，催化循环会受阻；催化剂 α-$\\mathrm{MoC}_{1-x}$ 很难吸附CO。",
+                "与使用单一催化剂 α-$\\mathrm{MoC}_{1-x}$ 相比，使用 α-$\\mathrm{MoC}_{1-x}$/Au 双催化剂能提高单位时间内 $\\mathrm{NH_3}$ 的产率。说明双催化剂中Au的作用：______。"
+              ],
+              "answer": {
+                "source": "question_document",
+                "content": "催化剂Au能吸附CO，促进CO与O反应，空出催化剂α-MoC₁₋ₓ表面的活性中心B，供继续合成氨使用（2分）"
+              },
+              "score": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q016",
+      "label": "16",
+      "type": "composite",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": "纯碱（$\\mathrm{Na_2CO_3}$）制备方法的发展体现了化学科学与技术的不断进步。",
+      "score": 12,
+      "pages": [
+        7
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": "用离子方程式表示 $\\mathrm{Na_2CO_3}$ 溶液显碱性的原因：______。",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\mathrm{CO_3^{2-}}+\\mathrm{H_2O}\\rightleftharpoons\\mathrm{HCO_3^-}+\\mathrm{OH^-}$（2分）"
+          },
+          "score": 2
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "fill_blank",
+          "stem": "自古我国西北盐湖地区就有“夏天晒盐、冬天捞碱”的传统。“冬天捞碱”体现了 $\\mathrm{Na_2CO_3}$ 的溶解度______的特点。",
+          "answer": {
+            "source": "question_document",
+            "content": "随温度降低显著减小（2分）"
+          },
+          "score": 2
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "fill_blank",
+          "stem": "18世纪，用 $\\mathrm{Na_2SO_4}$、C、$\\mathrm{CaCO_3}$ 混合加热制得 $\\mathrm{Na_2CO_3}$，同时生成CaS和CO。该反应的化学方程式是______。",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\mathrm{Na_2SO_4}+4\\mathrm{C}+\\mathrm{CaCO_3}\\xrightarrow{\\Delta}\\mathrm{CaS}+\\mathrm{Na_2CO_3}+4\\mathrm{CO}\\uparrow$（2分）"
+          },
+          "score": 2
+        },
+        {
+          "id": "p4",
+          "label": "（4）",
+          "type": "composite",
+          "stem": [
+            "20世纪初，我国化学工业科学家侯德榜创造性地提出了侯氏制碱法，流程如下。",
+            {
+              "asset": "a016"
+            },
+            "已知：",
+            {
+              "table": {
+                "header": [
+                  "盐",
+                  "NaCl",
+                  "$\\mathrm{NH_4Cl}$",
+                  "$\\mathrm{NaHCO_3}$"
+                ],
+                "rows": [
+                  [
+                    "溶解度/g（20 ℃，100 g $\\mathrm{H_2O}$）",
+                    "35.9",
+                    "37.2",
+                    "9.6"
+                  ]
+                ]
+              }
+            }
+          ],
+          "parts": [
+            {
+              "id": "r1",
+              "label": "①",
+              "type": "fill_blank",
+              "stem": "“碳酸化”过程中发生主要反应的化学方程式是______。",
+              "answer": {
+                "source": "question_document",
+                "content": "$\\mathrm{NaCl}+\\mathrm{NH_3}+\\mathrm{CO_2}+\\mathrm{H_2O}=\\mathrm{NaHCO_3}\\downarrow+\\mathrm{NH_4Cl}$（2分）"
+              },
+              "score": 2
+            },
+            {
+              "id": "r2",
+              "label": "②",
+              "type": "fill_blank",
+              "stem": "在20 ℃时进行“碳酸化”，结合数据分析优先析出 $\\mathrm{NaHCO_3}$ 的原因：______。",
+              "answer": {
+                "source": "question_document",
+                "content": "随着 $\\mathrm{CO_2}$ 的通入，$c(\\mathrm{HCO_3^-})$ 逐渐增大，$\\mathrm{NaHCO_3}$ 的溶解度最小，先达到饱和（或生成 $\\mathrm{NaHCO_3}$ 与 $\\mathrm{NH_4Cl}$ 的质量比为84/53.5，大于两者溶解度之比9.6/37.2，$\\mathrm{NaHCO_3}$ 先达到饱和析出，2分）"
+              },
+              "score": 2
+            },
+            {
+              "id": "r3",
+              "label": "③",
+              "type": "fill_blank",
+              "stem": "母液Ⅰ“吸氨”有利于“盐析”时NaCl的溶解，结合方程式解释原因：______。",
+              "answer": {
+                "source": "question_document",
+                "content": "通入 $\\mathrm{NH_3}$ 发生：$\\mathrm{NH_3}+\\mathrm{HCO_3^-}=\\mathrm{NH_4^+}+\\mathrm{CO_3^{2-}}$，$c(\\mathrm{NH_4^+})$ 增大，促进“冷析”过程 $\\mathrm{NH_4Cl}$ 析出，$c(\\mathrm{Cl^-})$ 减小，有利于“盐析”时NaCl的溶解（2分）"
+              },
+              "score": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "17",
+      "type": "composite",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": [
+        "一种具有潜在抗菌作用的活性物质L的合成路线如下（部分试剂与条件略去）。",
+        {
+          "asset": "a017"
+        }
+      ],
+      "score": 13,
+      "pages": [
+        8
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": "K分子中的官能团有醚键和______。",
+          "answer": {
+            "source": "question_document",
+            "content": "酰胺基、碳碳双键（2分）"
+          },
+          "score": 2
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "fill_blank",
+          "stem": "A→B的反应类型为______。",
+          "answer": {
+            "source": "question_document",
+            "content": "取代（1分）"
+          },
+          "score": 1
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "fill_blank",
+          "stem": "B→D的化学方程式是______。",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              {
+                "asset": "a022"
+              },
+              "（2分）"
+            ]
+          },
+          "score": 2
+        },
+        {
+          "id": "p4",
+          "label": "（4）",
+          "type": "multiple_choice",
+          "stem": "下列说法正确的是______（填序号）。",
+          "options": [
+            {
+              "key": "a",
+              "content": "A与B互为同系物"
+            },
+            {
+              "key": "b",
+              "content": "B不存在含苯环的羧酸类同分异构体"
+            },
+            {
+              "key": "c",
+              "content": "A→B的作用是引入保护基"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "choices": [
+              "b",
+              "c"
+            ]
+          },
+          "score": 2
+        },
+        {
+          "id": "p5",
+          "label": "（5）",
+          "type": "fill_blank",
+          "stem": "G分子中含有一个七元环。J的结构简式是______。",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              {
+                "asset": "a023"
+              },
+              "（2分）"
+            ]
+          },
+          "score": 2
+        },
+        {
+          "id": "p6",
+          "label": "（6）",
+          "type": "composite",
+          "stem": [
+            "K→L的路线如下。",
+            {
+              "asset": "a018"
+            },
+            "已知：ⅰ.",
+            {
+              "asset": "a027"
+            },
+            "ⅱ. $\\mathrm{RNH_2}+\\mathrm{Cl{-}R'}\\xrightarrow{(\\mathrm{C_2H_5})_3N}\\mathrm{RNH{-}R'}+\\mathrm{HCl}$"
+          ],
+          "parts": [
+            {
+              "id": "r1",
+              "label": "①",
+              "type": "fill_blank",
+              "stem": "Q的结构简式为______。",
+              "answer": {
+                "source": "question_document",
+                "content": [
+                  {
+                    "asset": "a024"
+                  },
+                  "（2分）"
+                ]
+              },
+              "score": 2
+            },
+            {
+              "id": "r2",
+              "label": "②",
+              "type": "fill_blank",
+              "stem": "若K未经上述过程直接依次与 $\\mathrm{C_3H_7ClN_2}$、$\\mathrm{H_2O}$ 反应也能生成L。分析设计K→P的目的：______。",
+              "answer": {
+                "source": "question_document",
+                "content": [
+                  "防止",
+                  {
+                    "asset": "a025"
+                  },
+                  "中*N上的H原子与 $\\mathrm{C_3H_7ClN_2}$ 反应，提高反应的选择性（2分）"
+                ]
+              },
+              "score": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "18",
+      "type": "composite",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": [
+        "白云石的主要化学成分为 $\\mathrm{CaMg(CO_3)_2}$（不考虑其他杂质）。利用白云石制备高纯氧化镁的流程示意图如下。",
+        {
+          "asset": "a019"
+        },
+        "已知：",
+        {
+          "table": {
+            "header": [
+              "物质",
+              "$\\mathrm{Ca(OH)_2}$",
+              "$\\mathrm{Mg(OH)_2}$",
+              "$\\mathrm{CaCO_3}$",
+              "$\\mathrm{MgCO_3}$",
+              "$\\mathrm{CaC_2O_4}$",
+              "$\\mathrm{MgC_2O_4}$"
+            ],
+            "rows": [
+              [
+                "$K_{sp}$",
+                "$5.5\\times10^{-6}$",
+                "$5.6\\times10^{-12}$",
+                "$3.4\\times10^{-9}$",
+                "$6.8\\times10^{-6}$",
+                "$2.3\\times10^{-9}$",
+                "$4.8\\times10^{-6}$"
+              ]
+            ]
+          }
+        },
+        {
+          "table": {
+            "header": [
+              "物质",
+              "$\\mathrm{H_2CO_3}$ $K_{a1}$",
+              "$\\mathrm{H_2CO_3}$ $K_{a2}$",
+              "$\\mathrm{H_2C_2O_4}$ $K_{a1}$",
+              "$\\mathrm{H_2C_2O_4}$ $K_{a2}$"
+            ],
+            "rows": [
+              [
+                "$K_a$",
+                "$4.5\\times10^{-7}$",
+                "$4.7\\times10^{-11}$",
+                "$5.5\\times10^{-2}$",
+                "$1.5\\times10^{-4}$"
+              ]
+            ]
+          }
+        }
+      ],
+      "score": 11,
+      "pages": [
+        9
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": "白云石煅烧前需粉碎，其作用是______。",
+          "answer": {
+            "source": "question_document",
+            "content": "增大矿石的受热面积，提高反应速率，使反应更充分（2分）"
+          },
+          "score": 2
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "fill_blank",
+          "stem": "“煅烧粉”中 $n(\\mathrm{CaO})=n(\\mathrm{MgO})$，“消化”所得的上清液中 $c(\\mathrm{Ca^{2+}})$______$c(\\mathrm{Mg^{2+}})$（填“>”“=”或“<”）。",
+          "answer": {
+            "source": "question_document",
+            "content": ">（1分）"
+          },
+          "score": 1
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "composite",
+          "stem": [
+            "在不同的“碳化”终点pH下，固体A中的主要物质如下表。",
+            {
+              "table": {
+                "header": [
+                  "终点pH",
+                  "固体A中的主要物质"
+                ],
+                "rows": [
+                  [
+                    "12",
+                    "$\\mathrm{CaCO_3}$、$\\mathrm{Mg(OH)_2}$、$\\mathrm{Ca(OH)_2}$"
+                  ],
+                  [
+                    "11",
+                    "$\\mathrm{CaCO_3}$、$\\mathrm{Mg(OH)_2}$"
+                  ],
+                  [
+                    "9",
+                    "$\\mathrm{CaCO_3}$、$\\mathrm{Mg(OH)_2}$（量均比pH=11少）"
+                  ],
+                  [
+                    "8",
+                    "$\\mathrm{CaCO_3}$（量比pH=9少）"
+                  ]
+                ]
+              }
+            },
+            "根据固体A组成的变化，确定pH=8为“碳化”终点。"
+          ],
+          "parts": [
+            {
+              "id": "r1",
+              "label": "①",
+              "type": "fill_blank",
+              "stem": [
+                "“碳化”至pH=8的过程中，固体A的组成发生的原因是：",
+                "$\\mathrm{Ca(OH)_2}+\\mathrm{CO_2}=\\mathrm{CaCO_3}\\downarrow+\\mathrm{H_2O}$、______（填化学方程式）。"
+              ],
+              "answer": {
+                "source": "question_document",
+                "content": "$\\mathrm{Mg(OH)_2}+2\\mathrm{CO_2}=\\mathrm{Mg(HCO_3)_2}$、$\\mathrm{CaCO_3}+\\mathrm{CO_2}+\\mathrm{H_2O}=\\mathrm{Ca(HCO_3)_2}$（2分）"
+              },
+              "score": 2
+            },
+            {
+              "id": "r2",
+              "label": "②",
+              "type": "fill_blank",
+              "stem": "若“碳化”至pH=9时加入适量 $\\mathrm{(NH_4)_2C_2O_4}$ 可提高产品中MgO的纯度，原因是______。",
+              "answer": {
+                "source": "question_document",
+                "content": "将 $\\mathrm{Ca^{2+}}$ 转化为不溶于 $\\mathrm{CO_2}$ 的 $\\mathrm{CaC_2O_4}$，降低滤液A中 $c(\\mathrm{Ca^{2+}})$（2分）"
+              },
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "p4",
+          "label": "（4）",
+          "type": "fill_blank",
+          "stem": "写出“热解”过程的离子方程式：______。",
+          "answer": {
+            "source": "question_document",
+            "content": "$5\\mathrm{Mg^{2+}}+10\\mathrm{HCO_3^-}\\xrightarrow{\\Delta}\\mathrm{Mg_5(OH)_2(CO_3)_4\\cdot 4H_2O}+6\\mathrm{CO_2}\\uparrow$（2分）"
+          },
+          "score": 2
+        },
+        {
+          "id": "p5",
+          "label": "（5）",
+          "type": "fill_blank",
+          "stem": [
+            "煅烧 $\\mathrm{Mg_5(OH)_2(CO_3)_4\\cdot 4H_2O}$，剩余固体质量随温度变化如下。",
+            {
+              "asset": "a020"
+            },
+            "已知相对分子质量：$\\mathrm{Mg_5(OH)_2(CO_3)_4\\cdot 4H_2O}$ 466；MgO 40",
+            "写出M→N的过程中发生反应的化学方程式：______。"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "$\\mathrm{Mg_5(OH)_2(CO_3)_4}\\xrightarrow{260-500\\ ^\\circ\\mathrm{C}}5\\mathrm{MgO}+4\\mathrm{CO_2}\\uparrow+\\mathrm{H_2O}$（2分）"
+          },
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "19",
+      "type": "composite",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": "小组同学探究用间接碘量法测定刻蚀覆铜板废液中 $c(\\mathrm{Cu^{2+}})$ 的原理。",
+      "score": 13,
+      "pages": [
+        10
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": "$\\mathrm{FeCl_3}$ 溶液刻蚀覆铜板的离子方程式为______。",
+          "answer": {
+            "source": "question_document",
+            "content": "$2\\mathrm{Fe^{3+}}+\\mathrm{Cu}=2\\mathrm{Fe^{2+}}+\\mathrm{Cu^{2+}}$（2分）"
+          },
+          "score": 2
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "fill_blank",
+          "stem": [
+            "研究间接碘量法测 $c(\\mathrm{Cu^{2+}})$ 的原理",
+            "查阅资料：$2\\mathrm{Cu^{2+}}+4\\mathrm{I^-}=2\\mathrm{CuI}\\downarrow+\\mathrm{I_2}$、$2\\mathrm{Na_2S_2O_3}+\\mathrm{I_2}=\\mathrm{Na_2S_4O_6}+2\\mathrm{NaI}$（$\\mathrm{Na_2S_2O_3}$ 和 $\\mathrm{Na_2S_4O_6}$ 溶液均为无色）。",
+            "实验1：向 $\\mathrm{CuCl_2}$ 溶液中加入过量KI溶液，得到棕黄色浊液；用淀粉作指示剂，用 $\\mathrm{Na_2S_2O_3}$ 溶液滴定，溶液蓝色褪去。实验1中体现氧化性的微粒有______。"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "$\\mathrm{Cu^{2+}}$、$\\mathrm{I_2}$（或 $\\mathrm{I_3^-}$）（2分）"
+          },
+          "score": 2
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "composite",
+          "stem": [
+            "探究能否用 $\\mathrm{Na_2S_2O_3}$ 溶液直接滴定 $\\mathrm{Cu^{2+}}$",
+            "实验2：",
+            {
+              "asset": "a021"
+            },
+            "查阅资料：$\\mathrm{[Cu(S_2O_3)_2]^{2-}}$ 为绿色；$\\mathrm{[Cu(NH_3)_2]^+}$ 为无色；$\\mathrm{Cu_2S}$ 为黑色固体，难溶于水，可溶于浓氨水；CuS为黑色固体，难溶于水、浓氨水；$\\mathrm{BaS_2O_3}$ 微溶于水。"
+          ],
+          "parts": [
+            {
+              "id": "r1",
+              "label": "①",
+              "type": "fill_blank",
+              "stem": "用离子方程式解释滴加浓氨水后溶液由无色变为蓝色的原因：______。",
+              "answer": {
+                "source": "question_document",
+                "content": "$4\\mathrm{[Cu(NH_3)_2]^+}+\\mathrm{O_2}+8\\mathrm{NH_3}+2\\mathrm{H_2O}=4\\mathrm{[Cu(NH_3)_4]^{2+}}+4\\mathrm{OH^-}$（2分）"
+              },
+              "score": 2
+            },
+            {
+              "id": "r2",
+              "label": "②",
+              "type": "fill_blank",
+              "stem": "实验证明溶液a中含 $\\mathrm{SO_4^{2-}}$。设计检验 $\\mathrm{SO_4^{2-}}$ 的方案：______（填操作和现象）。",
+              "answer": {
+                "source": "question_document",
+                "content": "取溶液a，加入足量盐酸，充分反应后，取上清液，滴加 $\\mathrm{BaCl_2}$ 溶液，产生白色沉淀（2分）"
+              },
+              "score": 2
+            },
+            {
+              "id": "r3",
+              "label": "③",
+              "type": "fill_blank",
+              "stem": "不能用 $\\mathrm{Na_2S_2O_3}$ 溶液直接滴定 $\\mathrm{Cu^{2+}}$ 的原因有______（答出两点）。",
+              "answer": {
+                "source": "question_document",
+                "content": "终点不易观察、反应速率慢、反应不唯一导致物质间计量关系不确定（2分）"
+              },
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "p4",
+          "label": "（4）",
+          "type": "fill_blank",
+          "stem": [
+            "探究能否用间接碘量法测定刻蚀覆铜板废液中的 $c(\\mathrm{Cu^{2+}})$",
+            "由于存在：$2\\mathrm{Fe^{3+}}+2\\mathrm{I^-}=2\\mathrm{Fe^{2+}}+\\mathrm{I_2}$，小组同学认为须解决 $\\mathrm{Fe^{3+}}$ 的干扰问题。",
+            "查阅资料：$\\mathrm{Fe^{3+}}$ 与 $\\mathrm{F^-}$ 能形成无色配合物；$\\mathrm{Fe^{3+}}$ 遇 $\\mathrm{S_2O_3^{2-}}$ 能形成紫色配合物。",
+            "实验3：向 $\\mathrm{FeCl_3}$ 溶液中加入过量 $\\mathrm{NH_4F}$ 溶液，充分反应后滴加淀粉KI溶液，溶液不变蓝；调节溶液pH=4，继续滴加 $\\mathrm{Na_2S_2O_3}$ 溶液，无明显现象。",
+            "实验4：______（填操作和现象）。",
+            "根据实验3、4的现象，得出结论：$\\mathrm{NH_4F}$ 可用于消除 $\\mathrm{Fe^{3+}}$ 对 $c(\\mathrm{Cu^{2+}})$ 测定的干扰。"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "向 $\\mathrm{CuCl_2}$ 溶液中加入 $\\mathrm{NH_4F}$ 溶液，再滴加淀粉KI溶液，溶液变蓝（2分）"
+          },
+          "score": 2
+        },
+        {
+          "id": "p5",
+          "label": "（5）",
+          "type": "fill_blank",
+          "stem": [
+            "测定某刻蚀覆铜板废液中的 $c(\\mathrm{Cu^{2+}})$",
+            "实验5：",
+            "ⅰ. 取 $V_1$ mL某刻蚀废液，加入过量 $\\mathrm{NH_4F}$ 溶液；",
+            "ⅱ. 用氨水调节溶液pH=4，加入过量KI溶液；",
+            "ⅲ. 用 $0.1\\ \\mathrm{mol\\cdot L^{-1}}$ $\\mathrm{Na_2S_2O_3}$ 标准溶液进行滴定，当溶液变为淡黄色时，滴加淀粉溶液，继续滴定至溶液蓝色消失，记录消耗 $\\mathrm{Na_2S_2O_3}$ 溶液的体积。",
+            "分析步骤ⅱ中将溶液pH调到4的原因：______。"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "防止发生：$\\mathrm{S_2O_3^{2-}}+2\\mathrm{H^+}=\\mathrm{S}\\downarrow+\\mathrm{SO_2}\\uparrow+\\mathrm{H_2O}$（合理给分）（1分）"
+          },
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

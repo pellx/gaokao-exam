@@ -1,0 +1,1305 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|一模|朝阳|地理|",
+    "title": "2026北京朝阳高三一模地理试题及答案",
+    "year": 2026,
+    "kind": "一模",
+    "subject": "地理",
+    "district": "朝阳",
+    "exam_date": "2026-04"
+  },
+  "source": {
+    "file": "../../../../../raw/地理/2026/一模/geography-2026-mock1-chaoyang.pdf",
+    "sha256": "23e6e5c2c4fca1433c4c00fb96386cc10a6848bc31f1b1f5bfba3e00bff43581",
+    "page_count": 10
+  },
+  "extraction": {
+    "status": "verified",
+    "tool": "PyMuPDF 2.1 提取文字层与内嵌图，Pillow 裁剪导出；逐页渲染并逐张打开图片做视觉核对",
+    "notes": [
+      "原卷共10页：第1—8页为试题，第9—10页为参考答案（含第17（3）题结构框图、第20题水平描述表）。答案与试题同在一个PDF，未另设答案文件，全部答案来源记为 question_document。",
+      "各页为整页背景图叠加文字层；配图取自PDF内嵌原图并按图题上沿裁剪，页内“图N”题注改由 caption 记录，未改动图内线条与文字。已逐页核对题号、选项、材料与图表归属，并逐张打开核对全部14个图片资源的方向与完整性。",
+      "图1资料卡（节气花令环与山茶花生长习性）、图10方框图为原卷图片，图中文字保留在图片内未另行转写；图13资料卡片的“阳江绿能产业概况”说明文字已转录为材料文本，卡片内布局示意与产业链示意仍以图片呈现。",
+      "第20题参考答案为“表现水平／水平描述”表，按原表结构记入 answer.content，未拆分 rubric。",
+      "第一部分题干中“每题3分”、第二部分各大题分值均按原卷明确标注记录，未推测分值。"
+    ]
+  },
+  "assets": {
+    "a001": {
+      "path": "assets/a001.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        53.85,
+        248.64,
+        318.56,
+        394.64
+      ],
+      "sha256": "4db5e7ecd3bfa8752bc2b7726f10a67e80f715b1aa8782b79f0f2ca3007183e4"
+    },
+    "a002": {
+      "path": "assets/a002.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        53.85,
+        45.35,
+        269.81,
+        225.64
+      ],
+      "sha256": "41171cd693e964803e4eaec1df2948b1cef29221b6d584df0c3d990a7c08d48c"
+    },
+    "a003": {
+      "path": "assets/a003.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        53.85,
+        45.35,
+        301.75,
+        226.11
+      ],
+      "sha256": "c94eaed2f4c91bb9297c612ff50b69abcce4f53f74a070c8042316e97f207e24"
+    },
+    "a004": {
+      "path": "assets/a004.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        53.85,
+        415.04,
+        322.31,
+        559.48
+      ],
+      "sha256": "5d166efa0f9481f4dbc2e9b5a98b3eddd4bd2c68c8c0c198a4309c1edaf6743d"
+    },
+    "a005": {
+      "path": "assets/a005.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        53.85,
+        45.35,
+        353.78,
+        175.6
+      ],
+      "sha256": "53968aae782a61db5fc2933cce173bf6471ddf5d37f8728a588314d6dcdca6bd"
+    },
+    "a006": {
+      "path": "assets/a006.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        53.85,
+        322.64,
+        321.6,
+        471.84
+      ],
+      "sha256": "a146f57154b9cbaa5060d1124f58a37d5357a0d9febc446c1ffed363f8adc929"
+    },
+    "a007": {
+      "path": "assets/a007.png",
+      "kind": "image",
+      "page": 5,
+      "bbox": [
+        53.85,
+        45.35,
+        303.55,
+        222.63
+      ],
+      "sha256": "df2c288b0522ed3a807960db43fcf257c2aa9d8c29f4e4dca57f3c06a068eec6"
+    },
+    "a008": {
+      "path": "assets/a008.jpg",
+      "kind": "image",
+      "page": 6,
+      "bbox": [
+        53.85,
+        45.35,
+        211.96,
+        166.37
+      ],
+      "sha256": "df87f0503eb182c851c670e86333a3592f26dafcf67f3088fdfdb545724d7f3c"
+    },
+    "a009": {
+      "path": "assets/a009.png",
+      "kind": "image",
+      "page": 6,
+      "bbox": [
+        226.79,
+        45.35,
+        450.1,
+        166.37
+      ],
+      "sha256": "e9486d57a5f93189f15390e318eebaddf120987e3be3763f1eee3299a521f375"
+    },
+    "a010": {
+      "path": "assets/a010.png",
+      "kind": "image",
+      "page": 6,
+      "bbox": [
+        53.85,
+        296.02,
+        421.92,
+        367.55
+      ],
+      "sha256": "b1902fd27d50aa904e9c914206ccfe065648f94b2d1d8f4266d4939280e8536a"
+    },
+    "a011": {
+      "path": "assets/a011.png",
+      "kind": "image",
+      "page": 6,
+      "bbox": [
+        53.85,
+        453.59,
+        260.3,
+        623.04
+      ],
+      "sha256": "94c0da5a4730574f8b378bce2e2954339fa3db022904d7a1aec836a66186f0e2"
+    },
+    "a012": {
+      "path": "assets/a012.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [
+        53.85,
+        188.33,
+        241.95,
+        430.52
+      ],
+      "sha256": "18d173f3da280b52047a2187b6a653e64672197f9614aee8efae240bea4fe47d"
+    },
+    "a013": {
+      "path": "assets/a013.png",
+      "kind": "image",
+      "page": 8,
+      "bbox": [
+        53.85,
+        45.35,
+        441.3,
+        507.33
+      ],
+      "sha256": "5f669e483d7b4518a1685ad4b0901d37a5807d565e9eaf9751ab92704a48b098"
+    },
+    "a014": {
+      "path": "assets/a014.png",
+      "kind": "image",
+      "page": 9,
+      "bbox": [
+        53.85,
+        503.86,
+        467.85,
+        628.21
+      ],
+      "sha256": "3a703874623f47f6d6d1446314129ab3ccfaf020ac5a6aa9ac432bc10c597190"
+    }
+  },
+  "materials": {
+    "m001": {
+      "kind": "instructions",
+      "content": "第一部分\n本部分共15题，每题3分，共45分。在每题列出的四个选项中，选出最符合题目要求的一项。",
+      "pages": [
+        1
+      ]
+    },
+    "m002": {
+      "kind": "situation",
+      "content": [
+        "古人将一年四季细分为24个节气，各节气有对应的时令花当令开放。某校同学以此展开了跨学科学习活动。图1为某同学制作的资料卡。读图，回答第1—3题。",
+        {
+          "asset": "a001",
+          "caption": "图1"
+        }
+      ],
+      "pages": [
+        1
+      ]
+    },
+    "m003": {
+      "kind": "situation",
+      "content": [
+        "图2为某城镇土地利用示意图。读图，回答第4—5题。",
+        {
+          "asset": "a002",
+          "caption": "图2"
+        }
+      ],
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "m004": {
+      "kind": "situation",
+      "content": "江西省某地曾是柑橘主产地，因柑橘品种老化等原因，价格下跌。当地政府启动“退橘改柚”，加强金兰柚品种改良与推广，并采用鲜果销售与精深加工融合模式，助力金兰柚产业提质增效。据此，回答第6—7题。",
+      "pages": [
+        2
+      ]
+    },
+    "m005": {
+      "kind": "situation",
+      "content": [
+        "图3为北京时间2026年1月17日20时亚洲局部地区海平面气压分布图。读图，回答第8—9题。",
+        {
+          "asset": "a003",
+          "caption": "图3"
+        }
+      ],
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "m006": {
+      "kind": "situation",
+      "content": [
+        "图4为某地区地质剖面示意图。读图，回答第10—11题。",
+        {
+          "asset": "a004",
+          "caption": "图4"
+        }
+      ],
+      "pages": [
+        3
+      ]
+    },
+    "m007": {
+      "kind": "situation",
+      "content": [
+        "罗斯海是南极大陆周边海冰变化最显著的海域之一。读图5，回答第12—13题。",
+        {
+          "asset": "a005",
+          "caption": "图5"
+        }
+      ],
+      "pages": [
+        3,
+        4
+      ]
+    },
+    "m008": {
+      "kind": "situation",
+      "content": [
+        "大溪地岛是世界著名旅游胜地。图6为大溪地主岛位置及地形示意图。读图，回答第14—15题。",
+        {
+          "asset": "a006",
+          "caption": "图6"
+        }
+      ],
+      "pages": [
+        4
+      ]
+    },
+    "m009": {
+      "kind": "instructions",
+      "content": "第二部分\n本部分共5题，共55分。",
+      "pages": [
+        4
+      ]
+    },
+    "m010": {
+      "kind": "data",
+      "content": [
+        {
+          "table": {
+            "caption": "表1",
+            "header": [
+              "时间",
+              "植被覆盖度（%）",
+              "河流输沙量（亿吨）"
+            ],
+            "rows": [
+              [
+                "1980年",
+                "29",
+                "2.52"
+              ],
+              [
+                "1995年",
+                "34",
+                "2.18"
+              ],
+              [
+                "2010年",
+                "52",
+                "0.98"
+              ],
+              [
+                "2025年",
+                "68",
+                "0.63"
+              ]
+            ]
+          }
+        }
+      ],
+      "pages": [
+        5
+      ]
+    },
+    "m011": {
+      "kind": "data",
+      "title": "绿能之都 魅力阳江",
+      "content": [
+        "◆阳江绿能产业概况",
+        "▷海域与风能资源",
+        "全市海域面积约1.23万平方公里。海上风能资源富集，距海平面100米高度平均风速可达8.6米/秒，风能年均有效利用小时数高达7000—8000小时，开发潜力巨大。",
+        "▷港口条件",
+        "阳江港为天然深水良港，为大型装备制造、运输及海上施工提供优越的物流基础。",
+        "▷人才培养与技术创新",
+        "成立风能协会和产业联盟，牵头或参与制定行业标准，推动产业规范与协同发展。设立海上风电学院与绿氢产业创新研究院，构建人才培养与技术创新体系。",
+        {
+          "asset": "a013",
+          "caption": "图13"
+        }
+      ],
+      "pages": [
+        8
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "1",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": [
+        "中国传统的时令花体系体现了",
+        "①植物花期受太阳活动影响　②植物生长对节气变化的适应",
+        "③花卉的盛放期由水分决定　④古人观天察地、认识自然的智慧"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "①③"
+        },
+        {
+          "key": "B",
+          "content": "①④"
+        },
+        {
+          "key": "C",
+          "content": "②③"
+        },
+        {
+          "key": "D",
+          "content": "②④"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q002",
+      "label": "2",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "时令花体系中，从桐花当令至凤仙花当令期间",
+      "options": [
+        {
+          "key": "A",
+          "content": "对应从谷雨至立秋8个节气"
+        },
+        {
+          "key": "B",
+          "content": "北京的日出方位逐渐向北偏"
+        },
+        {
+          "key": "C",
+          "content": "上海正午日影先变短后变长"
+        },
+        {
+          "key": "D",
+          "content": "地球公转速度先变快后变慢"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q003",
+      "label": "3",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "下列四地中最适合野生山茶花生长的地区是",
+      "options": [
+        {
+          "key": "A",
+          "content": "河西走廊"
+        },
+        {
+          "key": "B",
+          "content": "山东丘陵"
+        },
+        {
+          "key": "C",
+          "content": "浙闽丘陵"
+        },
+        {
+          "key": "D",
+          "content": "东北平原"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q004",
+      "label": "4",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": "图中",
+      "options": [
+        {
+          "key": "A",
+          "content": "公园绿地分散在居住区内部"
+        },
+        {
+          "key": "B",
+          "content": "图例甲为商业用地，乙为工业用地"
+        },
+        {
+          "key": "C",
+          "content": "国家海洋博物馆位于中新友好图书馆的西南方"
+        },
+        {
+          "key": "D",
+          "content": "方特欢乐世界与国家动漫园的直线距离约为10千米"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q005",
+      "label": "5",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": "利用地理信息技术研究该地海岸线变迁的流程是",
+      "options": [
+        {
+          "key": "A",
+          "content": "解译遥感影像—实地验证—图层叠加分析—获取遥感影像"
+        },
+        {
+          "key": "B",
+          "content": "解译遥感影像—图层叠加分析—获取遥感影像—实地验证"
+        },
+        {
+          "key": "C",
+          "content": "获取遥感影像—图层叠加分析—实地验证—解译遥感影像"
+        },
+        {
+          "key": "D",
+          "content": "获取遥感影像—解译遥感影像—图层叠加分析—实地验证"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q006",
+      "label": "6",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m004"
+      ],
+      "stem": [
+        "该地“退橘改柚”转型的主要影响因素有",
+        "①市场需求　②自然条件　③政策导向　④劳动力数量　⑤科技水平"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "①②③"
+        },
+        {
+          "key": "B",
+          "content": "①③⑤"
+        },
+        {
+          "key": "C",
+          "content": "②③④"
+        },
+        {
+          "key": "D",
+          "content": "②④⑤"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q007",
+      "label": "7",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m004"
+      ],
+      "stem": [
+        "金兰柚产业采用融合模式的主要目的是",
+        "①适应市场波动，稳定果农收入　②保持水土，改善生态环境",
+        "③提高单产，增强市场竞争力　④减少鲜果损耗，降低物流成本"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "①②"
+        },
+        {
+          "key": "B",
+          "content": "①④"
+        },
+        {
+          "key": "C",
+          "content": "②③"
+        },
+        {
+          "key": "D",
+          "content": "③④"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q008",
+      "label": "8",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m005"
+      ],
+      "stem": "图中",
+      "options": [
+        {
+          "key": "A",
+          "content": "甲地受冷气团控制，大气逆辐射强"
+        },
+        {
+          "key": "B",
+          "content": "乙地位于暖锋锋前，云层厚"
+        },
+        {
+          "key": "C",
+          "content": "丙地受偏北风影响，海面风大浪高"
+        },
+        {
+          "key": "D",
+          "content": "丁地受气旋影响，气流上升"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q009",
+      "label": "9",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m005"
+      ],
+      "stem": [
+        "1月17日到18日，北京出现降雪天气。造成此次降雪的主要原因有",
+        "①锋面移动速度快，降雪时间长　②渤海输送暖湿气流，水汽充足",
+        "③受山地阻挡，水汽抬升易凝结　④位于低压中心，对流运动强烈"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "①②"
+        },
+        {
+          "key": "B",
+          "content": "①④"
+        },
+        {
+          "key": "C",
+          "content": "②③"
+        },
+        {
+          "key": "D",
+          "content": "③④"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q010",
+      "label": "10",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m006"
+      ],
+      "stem": "图中",
+      "options": [
+        {
+          "key": "A",
+          "content": "①岩层多在高温高压环境形成"
+        },
+        {
+          "key": "B",
+          "content": "②岩石由岩浆喷出地表形成"
+        },
+        {
+          "key": "C",
+          "content": "③岩石由外力沉积固结而形成"
+        },
+        {
+          "key": "D",
+          "content": "④岩层可能发现三叶虫化石"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q011",
+      "label": "11",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m006"
+      ],
+      "stem": "据图判断",
+      "options": [
+        {
+          "key": "A",
+          "content": "甲断层形成晚于古生代"
+        },
+        {
+          "key": "B",
+          "content": "乙断层受水平张力形成"
+        },
+        {
+          "key": "C",
+          "content": "②岩石形成早于①岩层"
+        },
+        {
+          "key": "D",
+          "content": "甲乙断层之间岩块上升"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q012",
+      "label": "12",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m007"
+      ],
+      "stem": "罗斯海海冰面积减小导致",
+      "options": [
+        {
+          "key": "A",
+          "content": "海面长波辐射减弱"
+        },
+        {
+          "key": "B",
+          "content": "海水吸收太阳辐射减少"
+        },
+        {
+          "key": "C",
+          "content": "海面反射率增强"
+        },
+        {
+          "key": "D",
+          "content": "海气间水分交换增强"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q013",
+      "label": "13",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m007"
+      ],
+      "stem": "与2月相比，8月罗斯海表层海水",
+      "options": [
+        {
+          "key": "A",
+          "content": "盐度高，密度大"
+        },
+        {
+          "key": "B",
+          "content": "盐度低，密度小"
+        },
+        {
+          "key": "C",
+          "content": "盐度高，密度小"
+        },
+        {
+          "key": "D",
+          "content": "盐度低，密度大"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q014",
+      "label": "14",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m008"
+      ],
+      "stem": "大溪地主岛",
+      "options": [
+        {
+          "key": "A",
+          "content": "位于大西洋西部"
+        },
+        {
+          "key": "B",
+          "content": "地处板块生长边界"
+        },
+        {
+          "key": "C",
+          "content": "不适宜发展内河航运"
+        },
+        {
+          "key": "D",
+          "content": "区时比北京时间早6个小时"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q015",
+      "label": "15",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m008"
+      ],
+      "stem": [
+        "该岛成为旅游胜地的主要条件是",
+        "①环境承载力高　②距离客源地近　③旅游资源独特　④服务水平高"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "①②"
+        },
+        {
+          "key": "B",
+          "content": "①④"
+        },
+        {
+          "key": "C",
+          "content": "②③"
+        },
+        {
+          "key": "D",
+          "content": "③④"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q016",
+      "label": "16",
+      "type": "composite",
+      "score": 13,
+      "materials": [
+        "m009"
+      ],
+      "stem": [
+        "某校同学赴渭河流域野外研学。图7为渭河流域示意图。阅读图文资料，回答下列问题。",
+        {
+          "asset": "a007",
+          "caption": "图7"
+        }
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "short_answer",
+          "score": 5,
+          "materials": [
+            "m010"
+          ],
+          "stem": [
+            "任务一 流域植被与水沙特征分析",
+            "泾河是渭河的重要支流，流经黄土高原。同学们调查获得泾河流域1980—2025年植被覆盖度与河流输沙量的相关数据，如表1所示。",
+            "分析泾河流域植被覆盖度与河流输沙量的关系。"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "植被能够截留雨水、拦截地表径流、稳固土壤，植被覆盖度增加，流水对地表的侵蚀作用减弱，进入河流的泥沙减少，河流输沙量减少。"
+          },
+          "pages": [
+            5
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "short_answer",
+          "score": 4,
+          "stem": [
+            "任务二 流域水库功能调研",
+            "同学们来到流域内库容最大、坝高最高的水利工程——东庄水库进行调研。",
+            "简述东庄水库的主要功能。"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "拦截上游来水来沙；减轻下游洪涝灾害；为下游提供生产、生活、生态用水；发电等。"
+          },
+          "pages": [
+            5
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "short_answer",
+          "score": 4,
+          "stem": [
+            "任务三 流域发展状况调查",
+            "同学们在走访中了解到，近年来流域内多地依托文旅融合，走出了一条“生态美、产业兴、百姓富”的发展之路。",
+            "列举促进渭河流域文旅融合发展的具体措施。"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "做好水土保持，改善生态环境；挖掘并保护窑洞等当地的特色文化；加大宣传、扩大客源市场；完善交通等基础设施和服务设施。"
+          },
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "pages": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "17",
+      "type": "composite",
+      "score": 11,
+      "materials": [
+        "m009"
+      ],
+      "stem": [
+        "2023年7月，某课题组赴青海湖西南部A村开展“季节性草场分布与使用状况”的主题调研。图8为A村位置图，图9为青海南山四季草场分布示意图。阅读图文资料，回答下列问题。",
+        {
+          "asset": "a008",
+          "caption": "图8"
+        },
+        {
+          "asset": "a009",
+          "caption": "图9"
+        }
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "short_answer",
+          "score": 4,
+          "stem": "从自然地理环境角度，说明课题组开展实地调研可能遇到的困难。",
+          "answer": {
+            "source": "question_document",
+            "content": "海拔高，空气稀薄，易缺氧；紫外线强、昼夜温差大，威胁身体健康；山区对流运动显著，天气多变，影响野外活动安全性；地形起伏大，通行不便。"
+          },
+          "pages": [
+            6
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "short_answer",
+          "score": 3,
+          "stem": [
+            "该村牧民不同季节在各草场转场放牧。",
+            "概述该村划分季节性草场进行轮牧的意义。"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "合理利用草场资源，保护草场生态环境，保障牧业稳定发展。"
+          },
+          "pages": [
+            6
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "drawing",
+          "score": 4,
+          "stem": [
+            "近年来，全球气候变化对该村草场产生影响。",
+            "结合图10，绘制全球气候变化对草场影响的结构框图。",
+            {
+              "asset": "a010",
+              "caption": "图10"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": [
+              {
+                "asset": "a014"
+              }
+            ]
+          },
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "pages": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "18",
+      "type": "composite",
+      "score": 12,
+      "materials": [
+        "m009"
+      ],
+      "stem": [
+        "2026年2月第25届冬奥会在意大利米兰和科尔蒂纳丹佩佐两地联合举办。图11为举办地位置示意图。阅读图文材料，回答下列问题。",
+        {
+          "asset": "a011",
+          "caption": "图11"
+        }
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "short_answer",
+          "score": 4,
+          "stem": [
+            "多洛米蒂山是阿尔卑斯山脉的一部分，主体为浅色石灰岩，山体中保存了大量海洋生物化石，山中群峰形态各异，山脊呈锯齿形，山谷深邃。",
+            "说明多洛米蒂山地貌的形成过程。"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "沉积作用固结成岩，形成石灰岩；板块碰撞，地壳抬升隆起形成山脉；地表经风化、流水和冰川侵蚀形成该地貌形态。"
+          },
+          "pages": [
+            6
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "short_answer",
+          "score": 3,
+          "stem": [
+            "科尔蒂纳丹佩佐年积雪深度约300厘米，冬季积雪时间达5个月。",
+            "解释科尔蒂纳丹佩佐降雪量大且积雪时间长的原因。"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "盛行西风从海洋带来丰沛水汽，受地形抬升形成降雪；该地海拔高，气温低，积雪时间长。"
+          },
+          "pages": [
+            6
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "short_answer",
+          "score": 5,
+          "stem": [
+            "米兰是意大利第二大城市，拥有3个国际机场和完善的高速铁路网。科尔蒂纳丹佩佐是一座历史悠久的滑雪小镇，曾于1956年举办冬奥会。本届冬奥会采用冰上项目集中米兰、雪上项目落户科尔蒂纳丹佩佐的差异化联合办赛模式。",
+            "阐述两地联合办赛的合理性。"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "米兰的城市基础设施和服务设施完善；科尔蒂纳丹佩佐发展滑雪产业的自然条件优越、办赛经验丰富。两地联合办赛可分工协作，发挥各自优势；带动两地体育、旅游等相关产业，提高冬奥会的辐射效应，实现区域协同发展。"
+          },
+          "pages": [
+            6,
+            7
+          ]
+        }
+      ],
+      "pages": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "19",
+      "type": "composite",
+      "score": 12,
+      "materials": [
+        "m009"
+      ],
+      "stem": [
+        "小京是一名跑步爱好者，经常到朝阳公园锻炼。据他介绍，爷爷年轻时曾在这片土地养鱼、种田。20世纪60年代，这里建成北京市煤气用具厂等工厂，小京的父亲也曾在此工作。1984年北京市政府决定在此建设朝阳公园。图12为朝阳公园示意图。阅读图文资料，回答下列问题。",
+        {
+          "asset": "a012",
+          "caption": "图12"
+        }
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "short_answer",
+          "score": 3,
+          "stem": "说出朝阳公园所在地区土地利用方式的变化。",
+          "answer": {
+            "source": "question_document",
+            "content": "由农业用地转变为工业用地，之后转变为生态用地、休闲娱乐用地。"
+          },
+          "pages": [
+            7
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "short_answer",
+          "score": 5,
+          "stem": [
+            "朝阳公园内有“小怪兽健走路线”（因路线形似小怪兽而得名），是北京跑圈颇具知名度的网红打卡地，路线全程为塑胶跑道，宽约2米，吸引了小京等众多跑者。",
+            "说明朝阳公园吸引跑步爱好者的原因。"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "公园地处北京四环内，周边公路、地铁交通便捷，园内环境优美、服务设施完善，设有专业步道，路线知名度高。"
+          },
+          "pages": [
+            7
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "short_answer",
+          "score": 4,
+          "stem": [
+            "近年来，北京各类公园绿地、小微绿地等不断增加。",
+            "简述绿地面积增加对合理利用北京城市空间的意义。"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "优化北京城市内部空间结构，提高土地利用率，美化城市环境，促进宜居生活空间建设，提高居民生活品质。"
+          },
+          "pages": [
+            7
+          ]
+        }
+      ],
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "q020",
+      "label": "20",
+      "type": "essay",
+      "score": 7,
+      "materials": [
+        "m009",
+        "m011"
+      ],
+      "stem": [
+        "随着经济的快速发展，我国东部地区的能源需求不断增加。广东省阳江市经过不断探索走出一条能源产业的高速发展之路。图13为阳江市能源产业相关资料卡片。阅读图文资料，回答问题。",
+        "论述阳江能源产业发展对其他城市能源产业的借鉴意义。"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": [
+          {
+            "table": {
+              "header": [
+                "表现水平",
+                "水平描述"
+              ],
+              "rows": [
+                [
+                  "水平 4",
+                  "视角丰富，实例恰当，逻辑严谨，条理清晰，准确运用地理术语"
+                ],
+                [
+                  "水平 3",
+                  "视角较丰富，实例较恰当，逻辑较严谨，条理较清晰，运用地理术语"
+                ],
+                [
+                  "水平 2",
+                  "视角单一，有实例，缺乏逻辑，无条理，无地理术语"
+                ],
+                [
+                  "水平 1",
+                  "作答与试题无关，或重复试题内容，或没有作答"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      "pages": [
+        7,
+        8
+      ]
+    }
+  ]
+}

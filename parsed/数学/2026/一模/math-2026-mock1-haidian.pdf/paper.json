@@ -1,0 +1,957 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|一模|海淀|数学|",
+    "title": "2026北京海淀区高三一模数学试题及答案",
+    "year": 2026,
+    "kind": "一模",
+    "subject": "数学",
+    "district": "海淀",
+    "exam_date": "2026-04"
+  },
+  "source": {
+    "file": "../../../../../raw/数学/2026/一模/math-2026-mock1-haidian.pdf",
+    "sha256": "31f45eeaeda9f17f4ff289a4ad53a30ff313a1694a2ae1d17a56e15fca2c958a",
+    "page_count": 14
+  },
+  "extraction": {
+    "status": "verified",
+    "tool": "pymupdf 文本提取 + 页面渲染视觉核对 + 局部配图裁剪（页面水印已清理）",
+    "notes": [
+      "PDF 共14页：第1—5页为试题，第6—13页为参考答案，第14页为平台宣传页，未纳入题目。",
+      "原卷答案第11页两处“f'(x)与f(x)的变化情况如下表”后未印出表格，已在第20题第（Ⅱ）问标记 needs_review。",
+      "PDF 文本层为碎片化结果（公式被拆分为单字、单符号），全部题目、选项、答案和解析均经页面渲染视觉核对；公式按原卷排版重新录入为 LaTeX。",
+      "第17题第（Ⅱ）问原答案仅给出选择条件②、条件③的解答，未给出条件①的解答。"
+    ]
+  },
+  "assets": {
+    "a101": {
+      "path": "assets/a101.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        437,
+        635,
+        547,
+        748
+      ],
+      "sha256": "16615ab31ff7130f5915e8eb801ca1b76367ee3aedd60a57f0650f524c88e3c8"
+    },
+    "a102": {
+      "path": "assets/a102.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        424,
+        330,
+        552,
+        476
+      ],
+      "sha256": "651c033da88ed7324b19931cf65a434e2a4003fd849790094d43877f69cebb5b"
+    },
+    "a103": {
+      "path": "assets/a103.png",
+      "kind": "image",
+      "page": 8,
+      "bbox": [
+        334,
+        106,
+        444,
+        206
+      ],
+      "sha256": "7dfba6f1374d7a176dbcf1bcbc4fe65843555c22f58fde3b2db7181fccb398a4"
+    }
+  },
+  "materials": {
+    "m001": {
+      "kind": "instructions",
+      "content": [
+        "本试卷共6页，150分。考试时长120分钟。考生务必将答案答在答题纸上，在试卷上作答无效。考试结束后，将本试卷和答题纸一并交回。",
+        "第一部分（选择题 共40分）",
+        "一、选择题共10小题，每小题4分，共40分。在每小题列出的四个选项中，选出符合题目要求的一项。"
+      ],
+      "pages": [
+        1
+      ]
+    },
+    "m002": {
+      "kind": "instructions",
+      "content": [
+        "第二部分（非选择题 共110分）",
+        "二、填空题共5小题，每小题5分，共25分。"
+      ],
+      "pages": [
+        2
+      ]
+    },
+    "m003": {
+      "kind": "instructions",
+      "content": [
+        "三、解答题共6小题，共85分。解答应写出文字说明，演算步骤或证明过程。",
+        "（考生务必将答案答在答题纸上，在试卷上作答无效）"
+      ],
+      "pages": [
+        3,
+        5
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "（1）",
+      "type": "single_choice",
+      "stem": "已知全集 $U=\\{x\\mid |x-1|<3\\}$，$A=\\{x\\mid x^2<4\\}$，则 $\\complement_U A=$",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\{x\\mid -2<x<2\\}$"
+        },
+        {
+          "key": "B",
+          "content": "$\\{x\\mid 2\\le x<4\\}$"
+        },
+        {
+          "key": "C",
+          "content": "$\\{x\\mid -1<x\\le 4\\}$"
+        },
+        {
+          "key": "D",
+          "content": "$\\{x\\mid -2<x<4\\}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ],
+      "materials": [
+        "m001"
+      ]
+    },
+    {
+      "id": "q002",
+      "label": "（2）",
+      "type": "single_choice",
+      "stem": "已知等差数列 $\\{a_n\\}$，$a_1=-1$，$a_3+a_7=14$，则 $a_9=$",
+      "options": [
+        {
+          "key": "A",
+          "content": "13"
+        },
+        {
+          "key": "B",
+          "content": "15"
+        },
+        {
+          "key": "C",
+          "content": "17"
+        },
+        {
+          "key": "D",
+          "content": "18"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ],
+      "materials": [
+        "m001"
+      ]
+    },
+    {
+      "id": "q003",
+      "label": "（3）",
+      "type": "single_choice",
+      "stem": "抛物线 $W:y^2=8x$ 的焦点为 $F$，点 $A$ 在 $W$ 上，且 $|AF|=6$，则线段 $AF$ 中点的横坐标为",
+      "options": [
+        {
+          "key": "A",
+          "content": "2"
+        },
+        {
+          "key": "B",
+          "content": "$\\frac52$"
+        },
+        {
+          "key": "C",
+          "content": "3"
+        },
+        {
+          "key": "D",
+          "content": "$\\frac72$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ],
+      "materials": [
+        "m001"
+      ]
+    },
+    {
+      "id": "q004",
+      "label": "（4）",
+      "type": "single_choice",
+      "stem": "若函数 $f(x)=\\ln\\frac{x+a}{x+1}$ 是奇函数，则 $a=$",
+      "options": [
+        {
+          "key": "A",
+          "content": "$-1$"
+        },
+        {
+          "key": "B",
+          "content": "$-\\frac12$"
+        },
+        {
+          "key": "C",
+          "content": "0"
+        },
+        {
+          "key": "D",
+          "content": "1"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ],
+      "materials": [
+        "m001"
+      ]
+    },
+    {
+      "id": "q005",
+      "label": "（5）",
+      "type": "single_choice",
+      "stem": "在 $\\triangle ABC$ 中，$\\angle B=\\frac{\\pi}{4}$，$\\sin C=\\frac{\\sqrt3}{3}$，则",
+      "options": [
+        {
+          "key": "A",
+          "content": "$c<a<b$"
+        },
+        {
+          "key": "B",
+          "content": "$b<a<c$"
+        },
+        {
+          "key": "C",
+          "content": "$c^2+b^2<a^2$"
+        },
+        {
+          "key": "D",
+          "content": "$c^2+a^2<b^2$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ],
+      "materials": [
+        "m001"
+      ]
+    },
+    {
+      "id": "q006",
+      "label": "（6）",
+      "type": "single_choice",
+      "stem": "已知 $(2-3x)^5=a_0+3a_1x+3^2a_2x^2+3^3a_3x^3+3^4a_4x^4+3^5a_5x^5$，则 $a_2=$",
+      "options": [
+        {
+          "key": "A",
+          "content": "$-10$"
+        },
+        {
+          "key": "B",
+          "content": "10"
+        },
+        {
+          "key": "C",
+          "content": "$-80$"
+        },
+        {
+          "key": "D",
+          "content": "80"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ],
+      "materials": [
+        "m001"
+      ]
+    },
+    {
+      "id": "q007",
+      "label": "（7）",
+      "type": "single_choice",
+      "stem": "在某密码系统中，生成密码需要从含有94个符号的字符集中随机选择字符. 密码熵 $H$（单位：比特）的计算公式为 $H=\\log_2(94^l)$，其中 $l$ 为密码长度. 根据密码熵估计表，当 $l=8$ 时，$H\\approx 52.4$ 比特. 若某用户将密码长度从 $l=6$ 增加到 $l=18$，则密码熵的增加量约为",
+      "options": [
+        {
+          "key": "A",
+          "content": "78.6比特"
+        },
+        {
+          "key": "B",
+          "content": "86.4比特"
+        },
+        {
+          "key": "C",
+          "content": "99.0比特"
+        },
+        {
+          "key": "D",
+          "content": "104.8比特"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1,
+        2
+      ],
+      "materials": [
+        "m001"
+      ]
+    },
+    {
+      "id": "q008",
+      "label": "（8）",
+      "type": "single_choice",
+      "stem": "已知函数 $f(x)=\\begin{cases}ax^2+bx, & x<0,\\\\ bx^2-ax, & x\\ge 0,\\end{cases}$ 则“$ab<0$”是“$f(x)$ 在 $\\mathbf{R}$ 上为单调函数”的",
+      "options": [
+        {
+          "key": "A",
+          "content": "充分不必要条件"
+        },
+        {
+          "key": "B",
+          "content": "必要不充分条件"
+        },
+        {
+          "key": "C",
+          "content": "充要条件"
+        },
+        {
+          "key": "D",
+          "content": "既不充分也不必要条件"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        2
+      ],
+      "materials": [
+        "m001"
+      ]
+    },
+    {
+      "id": "q009",
+      "label": "（9）",
+      "type": "single_choice",
+      "stem": "已知平行四边形的两个顶点为 $M(-1,1)$，$P(t,-t)$，另两个顶点在圆 $x^2+y^2=8$ 上. 若对于给定的 $t$，这样的平行四边形有且只有一个，则 $t$ 的取值范围是",
+      "options": [
+        {
+          "key": "A",
+          "content": "$[-3,-1)$"
+        },
+        {
+          "key": "B",
+          "content": "$[1,3]$"
+        },
+        {
+          "key": "C",
+          "content": "$[2,4]$"
+        },
+        {
+          "key": "D",
+          "content": "$[3,5)$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        2
+      ],
+      "materials": [
+        "m001"
+      ]
+    },
+    {
+      "id": "q010",
+      "label": "（10）",
+      "type": "single_choice",
+      "stem": "已知平面上的点 $A_1,A_2,A_3,A_4,A_5$ 满足 $\\angle A_1A_2A_3=\\angle A_2A_3A_4=\\angle A_3A_4A_5=\\frac{2\\pi}{3}$，且 $\\overrightarrow{A_1A_2}\\cdot\\overrightarrow{A_2A_3}=\\overrightarrow{A_2A_3}\\cdot\\overrightarrow{A_3A_4}=\\overrightarrow{A_3A_4}\\cdot\\overrightarrow{A_4A_5}$，则下列等式中一定不成立的是",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\overrightarrow{A_1A_5}=\\overrightarrow{A_2A_4}$"
+        },
+        {
+          "key": "B",
+          "content": "$\\overrightarrow{A_1A_5}=\\frac32\\overrightarrow{A_4A_5}$"
+        },
+        {
+          "key": "C",
+          "content": "$\\overrightarrow{A_1A_5}=2\\overrightarrow{A_2A_4}$"
+        },
+        {
+          "key": "D",
+          "content": "$\\overrightarrow{A_1A_5}=\\frac52\\overrightarrow{A_4A_5}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        2
+      ],
+      "materials": [
+        "m001"
+      ]
+    },
+    {
+      "id": "q011",
+      "label": "（11）",
+      "type": "fill_blank",
+      "stem": "若复数 $z$ 满足 $\\frac{z}{\\mathrm{i}}+\\mathrm{i}=2$，则 $z=$ _______，$|\\bar z|=$ _______．",
+      "answer": {
+        "source": "question_document",
+        "content": [
+          "$1+2\\mathrm{i}$",
+          "$\\sqrt5$"
+        ]
+      },
+      "score": 5,
+      "pages": [
+        2
+      ],
+      "materials": [
+        "m002"
+      ]
+    },
+    {
+      "id": "q012",
+      "label": "（12）",
+      "type": "fill_blank",
+      "stem": "已知双曲线 $C:\\frac{x^2}{4}-\\frac{y^2}{5}=1$ 的左、右焦点分别为 $F_1,F_2$，若 $C$ 上一点 $P$ 满足 $|PF_1|=3$，则 $|PF_2|=$ _______.",
+      "answer": {
+        "source": "question_document",
+        "content": "7"
+      },
+      "score": 5,
+      "pages": [
+        2
+      ],
+      "materials": [
+        "m002"
+      ]
+    },
+    {
+      "id": "q013",
+      "label": "（13）",
+      "type": "fill_blank",
+      "stem": "设等比数列 $\\{a_n\\}$ 的前 $n$ 项和为 $S_n$. 若 $S_{n+2}-S_{n+1}=4(a_{n+1}-a_n)$，则公比 $q=$ _______．",
+      "answer": {
+        "source": "question_document",
+        "content": "2"
+      },
+      "score": 5,
+      "pages": [
+        2
+      ],
+      "materials": [
+        "m002"
+      ]
+    },
+    {
+      "id": "q014",
+      "label": "（14）",
+      "type": "fill_blank",
+      "stem": "将函数 $f(x)=2^x+a|x|(a\\ne0)$ 的图象向左平移1个单位长度，再向上平移2个单位长度，所得图象位于 $f(x)$ 图象的上方，则 $a$ 的一个取值为_______，$a$ 的最大值为_______．",
+      "answer": {
+        "source": "question_document",
+        "content": [
+          "1（答案不唯一）",
+          "2"
+        ]
+      },
+      "score": 5,
+      "pages": [
+        2
+      ],
+      "materials": [
+        "m002"
+      ]
+    },
+    {
+      "id": "q015",
+      "label": "（15）",
+      "type": "fill_blank",
+      "stem": [
+        "如图，正方体 $ABCD-A'B'C'D'$ 的棱长为2，以底面 $ABCD$ 的中心 $O$ 为原点建立空间直角坐标系 $O-xyz$，其中坐标轴 $Ox,Oy,Oz$ 分别与正方体的三条棱平行. 设正方体 $ABCD-A'B'C'D'$ 表面及其内部所有点构成的集合为 $\\Omega$，集合 $T=\\{(x,y,z)\\in\\Omega\\mid x^2+y^2\\le z\\}$，记 $W$ 为 $T$ 中所有点构成的几何体.",
+        {
+          "asset": "a101"
+        },
+        "给出下列四个结论：",
+        "① $(1,1,1)\\in T$；",
+        "② $W$ 被平面 $A'B'C'D'$ 所截的截面面积为4；",
+        "③ $W$ 的体积大于 $\\frac{4\\pi}{3}$；",
+        "④ $W$ 表面上的点到点 $(0,0,1)$ 的距离的最小值为1.",
+        "其中所有正确结论的序号是_______．"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "②③"
+      },
+      "score": 5,
+      "pages": [
+        2,
+        3
+      ],
+      "materials": [
+        "m002"
+      ]
+    },
+    {
+      "id": "q016",
+      "label": "（16）",
+      "type": "composite",
+      "stem": "已知函数 $f(x)=A\\sin(\\omega x+\\frac{\\pi}{3})$（$\\omega>0$）两个相邻零点的距离为 $\\frac{\\pi}{2}$，且 $f(0)=\\frac{\\sqrt3}{2}$.",
+      "score": 13,
+      "pages": [
+        3
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "求 $A,\\omega$ 的值；",
+          "answer": {
+            "source": "question_document",
+            "content": "$A=1$，$\\omega=2$"
+          },
+          "analysis": [
+            "因为 $f(0)=\\frac{\\sqrt3}{2}$，所以 $A\\sin\\frac{\\pi}{3}=\\frac{\\sqrt3}{2}A=\\frac{\\sqrt3}{2}$．所以 $A=1$.",
+            "因为 $f(x)$ 的两个相邻零点的距离为 $\\frac{\\pi}{2}$，所以 $f(x)$ 的最小正周期 $T=\\frac{\\pi}{2}\\cdot 2=\\pi$.",
+            "所以 $\\frac{2\\pi}{\\omega}=\\pi$.",
+            "所以 $\\omega=2$，$f(x)=\\sin(2x+\\frac{\\pi}{3})$."
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": "设 $g(x)=f(x)-2\\sqrt3\\cos^2 x$，求 $g(x)$ 的单调递增区间.",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\left[k\\pi-\\frac{\\pi}{12},k\\pi+\\frac{5\\pi}{12}\\right],k\\in\\mathbf{Z}$"
+          },
+          "analysis": [
+            "由（Ⅰ）可得，$f(x)=\\sin(2x+\\frac{\\pi}{3})$，所以 $g(x)=\\sin(2x+\\frac{\\pi}{3})-2\\sqrt3\\cos^2 x$",
+            "$=\\sin(2x+\\frac{\\pi}{3})-\\sqrt3(\\cos2x+1)$",
+            "$=\\frac12\\sin2x+\\frac{\\sqrt3}{2}\\cos2x-\\sqrt3(\\cos2x+1)$",
+            "$=\\frac12\\sin2x-\\frac{\\sqrt3}{2}\\cos2x-\\sqrt3$",
+            "$=\\sin(2x-\\frac{\\pi}{3})-\\sqrt3$.",
+            "令 $2k\\pi-\\frac{\\pi}{2}\\le2x-\\frac{\\pi}{3}\\le2k\\pi+\\frac{\\pi}{2}$，解得 $k\\pi-\\frac{\\pi}{12}\\le x\\le k\\pi+\\frac{5\\pi}{12}$.",
+            "$g(x)$ 的单调递增区间为 $\\left[k\\pi-\\frac{\\pi}{12},k\\pi+\\frac{5\\pi}{12}\\right],k\\in\\mathbf{Z}$."
+          ]
+        }
+      ],
+      "materials": [
+        "m003"
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "（17）",
+      "type": "composite",
+      "stem": [
+        "如图，在直四棱柱 $ABCD-A_1B_1C_1D_1$ 中，$AB\\parallel CD$，$AB=2$，$AD=CD=1$，$\\angle DAB=60^{\\circ}$，$E,F$ 分别为 $AB,CC_1$ 的中点.",
+        {
+          "asset": "a102"
+        }
+      ],
+      "score": 14,
+      "pages": [
+        3
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "proof",
+          "stem": "求证：$EF\\parallel$ 平面 $ADD_1A_1$；",
+          "analysis": [
+            "法一：取 $DD_1$ 中点 $M$，连接 $MF,MA$，因为直四棱柱 $ABCD-A_1B_1C_1D_1$，所以四边形 $DCC_1D_1$ 为平行四边形.",
+            "因为 $M,F$ 分别是 $D_1D,C_1C$ 的中点，所以 $MF\\parallel CD$，$MF=CD$，又 $AB\\parallel CD$，点 $E$ 是 $AB$ 的中点，所以 $MF\\parallel AE$，$MF=AE$.",
+            "所以四边形 $MAEF$ 为平行四边形. 所以 $MA\\parallel EF$.",
+            "因为 $MA\\subset$ 平面 $ADD_1A_1$，$EF\\not\\subset$ 平面 $ADD_1A_1$，所以 $EF\\parallel$ 平面 $ADD_1A_1$.",
+            "法二：在直四棱柱 $ABCD-A_1B_1C_1D_1$ 中，连接 $CE$，因为 $CD=1$，$AB=2$，$E$ 为 $AB$ 中点，所以 $AE=DC$，又因为 $AB\\parallel DC$，即 $AE\\parallel DC$，所以四边形 $AECD$ 为平行四边形，所以 $AD\\parallel EC$.",
+            "又因为 $FC\\parallel D_1D$，$AD\\cap D_1D=D$，$EC\\cap FC=C$，且 $AD,D_1D\\subset$ 平面 $ADD_1A_1$，$EC,FC\\subset$ 平面 $EFC$，所以平面 $ADD_1A_1\\parallel$ 平面 $EFC$，又 $EF\\subset$ 平面 $EFC$，所以 $EF\\parallel$ 平面 $ADD_1A_1$."
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": [
+            "从下列条件①，条件②，条件③中选择一个作为已知条件，使得直四棱柱 $ABCD-A_1B_1C_1D_1$ 存在且唯一，求平面 $D_1EF$ 与平面 $ADD_1A_1$ 夹角的余弦值.",
+            "条件①：$A_1D\\perp BD$；",
+            "条件②：$EF=\\sqrt2$；",
+            "条件③：$EF$ 与平面 $ABCD$ 所成角为 $45^{\\circ}$.",
+            "注：如果选择的条件不符合要求，第（Ⅱ）问得0分；如果选择多个符合要求的条件分别解答，按第一个解答计分．"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "选②：$\\cos\\theta=\\frac{\\sqrt{15}}{5}$",
+              "选③：后续解法同②"
+            ]
+          },
+          "analysis": [
+            "连接 $BD$。因为 $AD=1$，$AB=2$，$\\angle DAB=60^{\\circ}$，所以 $BD=\\sqrt3$，由 $AD^2+BD^2=AB^2$，所以 $AD\\perp BD$，又因为 $D_1D\\perp$ 平面 $ABCD$，所以 $D_1D\\perp AD$，$D_1D\\perp BD$，所以 $AD,BD,D_1D$ 两两垂直，如图，以 $D$ 为坐标原点，建立空间直角坐标系 $D-xyz$.",
+            {
+              "asset": "a103"
+            },
+            "选②：连接 $CE$，在 $\\mathrm{Rt}\\triangle ECF$ 中，因为 $EF=\\sqrt2$，$CE=AD=1$，所以 $CF=1$，所以 $CC_1=2$，所以 $D_1(0,0,2)$，$E(\\frac12,\\frac{\\sqrt3}{2},0)$，$F(-\\frac12,\\frac{\\sqrt3}{2},1)$，$\\overrightarrow{EF}=(-1,0,1)$，$\\overrightarrow{ED_1}=(-\\frac12,-\\frac{\\sqrt3}{2},2)$，设平面 $D_1EF$ 的法向量为 $\\mathbf{n}=(x,y,z)$，则 $\\begin{cases}\\overrightarrow{EF}\\cdot\\mathbf{n}=0,\\\\ \\overrightarrow{ED_1}\\cdot\\mathbf{n}=0,\\end{cases}$ 即 $\\begin{cases}-x+z=0,\\\\ -\\frac{x}{2}-\\frac{\\sqrt3}{2}y+2z=0.\\end{cases}$ 令 $x=1$，则 $y=\\sqrt3,z=1$，所以 $\\mathbf{n}=(1,\\sqrt3,1)$，又平面 $ADD_1A_1$ 的法向量 $\\mathbf{m}=(0,1,0)$，设平面 $D_1EF$ 与平面 $ADD_1A_1$ 的夹角为 $\\theta$，所以 $\\cos\\theta=|\\cos\\langle\\mathbf{m},\\mathbf{n}\\rangle|=\\frac{|\\mathbf{m}\\cdot\\mathbf{n}|}{|\\mathbf{m}||\\mathbf{n}|}=\\frac{\\sqrt3}{\\sqrt5}=\\frac{\\sqrt{15}}{5}$。",
+            "选③：因为 $FC\\perp$ 平面 $ABCD$，所以 $EC$ 为 $EF$ 在平面 $ABCD$ 上的射影，所以 $\\angle FEC$ 为 $EF$ 与平面 $ABCD$ 所成的角。因为 $EF$ 与平面 $ABCD$ 所成角为 $45^{\\circ}$，所以 $\\angle FEC=45^{\\circ}$。在 $\\mathrm{Rt}\\triangle FEC$ 中，$CF=CE=AD=1$，所以 $CC_1=2$，后续解法同②。"
+          ]
+        }
+      ],
+      "materials": [
+        "m003"
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "（18）",
+      "type": "composite",
+      "stem": [
+        "为了调查“AI赋能教学活动”的实施效果是否达到预期，对甲、乙两个学区的教师进行简单随机抽样，获得评价数据如下表：",
+        {
+          "table": {
+            "header": [
+              "学区",
+              "甲",
+              "甲",
+              "乙",
+              "乙"
+            ],
+            "rows": [
+              [
+                "性别",
+                "男",
+                "女",
+                "男",
+                "女"
+              ],
+              [
+                "达到预期",
+                "260人",
+                "200人",
+                "240人",
+                "190人"
+              ],
+              [
+                "未达到预期",
+                "190人",
+                "150人",
+                "60人",
+                "110人"
+              ]
+            ]
+          }
+        },
+        "假设所有教师的评价相互独立. 用频率估计概率."
+      ],
+      "score": 13,
+      "pages": [
+        4
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（I）",
+          "type": "calculation",
+          "stem": "估计甲学区教师的评价为“达到预期”的概率；",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\frac{23}{40}$"
+          },
+          "analysis": [
+            "根据题中数据，样本中甲学区教师的人数为 $260+200+190+150=800$ 人，其中评价为“达到预期”的人数为 $260+200=460$ 人，所以甲学区教师评价为“达到预期”的概率估计为 $\\frac{460}{800}=\\frac{23}{40}$."
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "composite",
+          "stem": "若教师的评价为“达到预期”，则赋分为5；若教师的评价为“未达到预期”则赋分为0.",
+          "parts": [
+            {
+              "id": "p1",
+              "label": "（ⅰ）",
+              "type": "calculation",
+              "stem": "从这两个学区的所有男教师中随机抽取2人，所有女教师中随机抽取1人，记随机变量 $X$ 为这3人的赋分之和，估计 $X$ 的数学期望；",
+              "answer": {
+                "source": "question_document",
+                "content": "$\\frac{29}{3}$"
+              },
+              "analysis": [
+                "$X$ 的取值范围为 $\\{0,5,10,15\\}$.",
+                "男教师的评价为“达到预期”的概率估计值为 $\\frac{240+260}{240+260+190+60}=\\frac23$，女教师的评价为“达到预期”的概率估计值为 $\\frac{200+190}{200+190+150+110}=\\frac35$.",
+                "所以 $P(X=0)=(\\frac13)^2\\times\\frac25=\\frac{2}{45}$，$P(X=5)=(\\mathrm{C}_2^1\\frac13\\times\\frac23)\\times\\frac25+(\\frac13\\times\\frac13)\\times\\frac35=\\frac{11}{45}$，$P(X=10)=(\\frac23)^2\\times\\frac25+(\\mathrm{C}_2^1\\frac13\\times\\frac23)\\times\\frac35=\\frac{20}{45}$，$P(X=15)=(\\frac23)^2\\times\\frac35=\\frac{12}{45}$.",
+                "所以 $E(X)=0\\times\\frac{2}{45}+5\\times\\frac{11}{45}+10\\times\\frac{20}{45}+15\\times\\frac{12}{45}=\\frac{11+40+36}{9}=\\frac{29}{3}$."
+              ]
+            },
+            {
+              "id": "p2",
+              "label": "（ⅱ）",
+              "type": "short_answer",
+              "stem": "记甲学区样本赋分的方差为 $s_1^2$，乙学区样本赋分的方差为 $s_2^2$，两学区所有样本赋分的方差为 $s_3^2$. 比较 $s_1^2,s_2^2,s_3^2$ 的大小.（结论不要求证明）",
+              "answer": {
+                "source": "question_document",
+                "content": "$s_1^2>s_3^2>s_2^2$"
+              }
+            }
+          ]
+        }
+      ],
+      "materials": [
+        "m003"
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "（19）",
+      "type": "composite",
+      "stem": "已知椭圆 $E:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$ 的离心率为 $\\frac{\\sqrt3}{2}$，其左、右焦点和上顶点构成的三角形面积为 $3\\sqrt3$.",
+      "score": 15,
+      "pages": [
+        4
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "求椭圆 $E$ 的方程；",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\frac{x^2}{12}+\\frac{y^2}{3}=1$"
+          },
+          "analysis": [
+            "由题意得 $\\begin{cases}\\frac ca=\\frac{\\sqrt3}{2},\\\\ \\frac12\\cdot2c\\cdot b=3\\sqrt3,\\\\ a^2=b^2+c^2\\end{cases}$ 解得 $a=2\\sqrt3$，$b=\\sqrt3$，$c=3$.",
+            "所以椭圆 $E$ 的方程为 $\\frac{x^2}{12}+\\frac{y^2}{3}=1$."
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": "设 $O$ 为坐标原点，$M(x_0,y_0)$ 为第一象限内 $E$ 上的动点，点 $N$ 在直线 $y=-2$ 上，且 $OM\\perp ON$. 过 $A(0,3)$ 作 $MN$ 的垂线交直线 $OM$ 于 $B$，求 $|AB|$ 的值.",
+          "answer": {
+            "source": "question_document",
+            "content": "$2\\sqrt3$"
+          },
+          "analysis": [
+            "设 $N(t,-2)$. 因为 $OM\\perp ON$，所以 $tx_0-2y_0=0$.",
+            "当 $t=x_0$ 时，$\\begin{cases}tx_0-2y_0=0,\\\\ x_0^2+4y_0^2=12,\\end{cases}$ 解得 $y_0=\\frac32$，$x_0=\\sqrt3$.",
+            "直线 $OM$ 为 $y=\\frac{\\sqrt3}{2}x$，又直线 $AB$ 为 $y=3$，所以 $B(2\\sqrt3,3)$，$|AB|=2\\sqrt3$.",
+            "法一：当 $t\\ne x_0$ 时，$k_{MN}=\\frac{y_0+2}{x_0-t}=\\frac{y_0+2}{x_0-\\frac{2y_0}{x_0}}=-\\frac{x_0}{2(2y_0-3)}$，所以 $k_{AB}=\\frac{2(2y_0-3)}{x_0}$，直线 $AB$ 的方程为 $y=\\frac{2(2y_0-3)}{x_0}x+3$，又 $OM$ 为 $y=\\frac{y_0}{x_0}x$，联立得 $x_B=\\frac{x_0}{2-y_0}$，所以 $y_B=\\frac{y_0}{2-y_0}$.",
+            "所以 $|AB|=\\sqrt{(\\frac{x_0}{2-y_0})^2+(\\frac{y_0}{2-y_0}-3)^2}=\\sqrt{\\frac{x_0^2+16y_0^2-48y_0+36}{4-4y_0+y_0^2}}=2\\sqrt3$.",
+            "法二：当 $t\\ne x_0$ 时，$k_{MN}=\\frac{y_0+2}{x_0-t}$，所以 $k_{AB}=-\\frac{x_0-t}{y_0+2}$，$AB$ 方程为 $y=-\\frac{x_0-t}{y_0+2}x+3$，又 $OM$ 为 $y=\\frac{y_0}{x_0}x$，联立得 $(\\frac{y_0}{x_0}+\\frac{x_0-t}{y_0+2})x=3$，$\\frac{y_0^2+2y_0+x_0^2-tx_0}{x_0(y_0+2)}x=3$，$\\frac{y_0^2+x_0^2}{x_0(y_0+2)}x=3$，$\\frac{12-3y_0^2}{x_0(y_0+2)}x=3$，$x_B=\\frac{x_0}{2-y_0}$，所以 $y_B=\\frac{y_0}{2-y_0}$.",
+            "所以 $|AB|=\\sqrt{(\\frac{x_0}{2-y_0})^2+(\\frac{y_0}{2-y_0}-3)^2}=\\sqrt{\\frac{x_0^2+16y_0^2-48y_0+36}{4-4y_0+y_0^2}}=2\\sqrt3$."
+          ]
+        }
+      ],
+      "materials": [
+        "m003"
+      ]
+    },
+    {
+      "id": "q020",
+      "label": "（20）",
+      "type": "composite",
+      "stem": "设函数 $f(x)=x^2-\\ln(ax+1)+ax(a\\ne0)$.",
+      "score": 15,
+      "pages": [
+        4
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "proof",
+          "stem": "当 $a=1$ 时，求证：直线 $y=0$ 是曲线 $y=f(x)$ 的切线；",
+          "analysis": [
+            "当 $a=1$ 时，$f(x)=x^2-\\ln(x+1)+x$，定义域为 $(-1,+\\infty)$. 所以 $f'(x)=2x-\\frac{1}{x+1}+1$.",
+            "因为 $f(0)=0$，$f'(0)=0$，所以曲线 $y=f(x)$ 在点 $(0,f(0))$ 处的切线为 $y=0$. 问题得证."
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": "求 $f(x)$ 的单调区间；",
+          "answer": {
+            "source": "question_document",
+            "content": "当 $a>0$ 时，单调递增区间为 $(0,+\\infty)$，单调递减区间为 $(-\\frac1a,0)$；当 $a<0$ 时，单调递增区间为 $(0,-\\frac1a)$，单调递减区间为 $(-\\infty,0)$."
+          },
+          "analysis": [
+            "因为 $f'(x)=2x-\\frac{a}{ax+1}+a=\\frac{2ax^2+(2+a^2)x}{ax+1}$.",
+            "令 $f'(x)=0$，得 $x_1=0$，$x_2=-\\frac1a-\\frac a2$.",
+            "当 $a>0$ 时，$f(x)$ 的定义域为 $(-\\frac1a,+\\infty)$. $x_2=-\\frac1a-\\frac a2<-\\frac1a$，$f'(x)$ 与 $f(x)$ 的变化情况如下表：",
+            "所以 $f(x)$ 的单调递增区间为 $(0,+\\infty)$，单调递减区间为 $(-\\frac1a,0)$.",
+            "当 $a<0$ 时，$f(x)$ 的定义域为 $(-\\infty,-\\frac1a)$. $x_2=-\\frac1a-\\frac a2>-\\frac1a$，$f'(x)$ 与 $f(x)$ 的变化情况如下表：",
+            "所以 $f(x)$ 的单调递增区间为 $(0,-\\frac1a)$，单调递减区间为 $(-\\infty,0)$."
+          ],
+          "needs_review": true,
+          "notes": [
+            "原卷答案两处“变化情况如下表”后未印出表格，单调性结论仍完整；需人工核对缺失表格。"
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（Ⅲ）",
+          "type": "short_answer",
+          "stem": "判断函数 $g(x)=x f(x)$ 是否存在极值. 如果存在，求出所有的极值；如果不存在，说明理由.",
+          "answer": {
+            "source": "question_document",
+            "content": "不存在极值"
+          },
+          "analysis": [
+            "因为 $g(x)=x\\cdot f(x)$，所以 $g'(x)=xf'(x)+f(x)$.",
+            "由（Ⅱ）知，当 $x>0$ 时，$f'(x)>0$，所以 $xf'(x)>0$；当 $x<0$ 时，$f'(x)<0$，所以 $xf'(x)>0$；且 $f(x)\\ge f(0)=0$.",
+            "所以 $g'(x)\\ge0$，$g(x)$ 不存在极值."
+          ]
+        }
+      ],
+      "materials": [
+        "m003"
+      ]
+    },
+    {
+      "id": "q021",
+      "label": "（21）",
+      "type": "composite",
+      "stem": "对于正整数 $m,n(m\\ge3,n\\ge3)$，集合 $M=\\{(x,y)\\mid 1\\le x\\le m,1\\le y\\le n,x\\in\\mathbf{N},y\\in\\mathbf{N}\\}$. 给定集合 $M$ 的一个子集 $A$，对于 $M$ 中的元素 $(a,b)$，若存在 $(x,y)\\in M$ 且 $x>a,y>b$，使得集合 $\\{(a,b),(a,y),(x,b),(x,y)\\}$ 与 $A$ 的交集所含元素个数为0或4，则称 $(a,b)$ 为 $A$ 的一个“同形点”.",
+      "score": 15,
+      "pages": [
+        5
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "short_answer",
+          "stem": "当 $m=n=3$ 时，写出集合 $A=\\{(1,1),(2,2)\\}$ 的所有“同形点”；",
+          "answer": {
+            "source": "question_document",
+            "content": "$(1,2),(2,1)$"
+          }
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": "当 $A$ 只有一个元素时，求其“同形点”的个数；",
+          "answer": {
+            "source": "question_document",
+            "content": "$mn-m-n$"
+          },
+          "analysis": [
+            "证明如下：设 $A=\\{(i,j)\\}$，由题：取集合 $T=\\{(x,y)\\mid 1\\le x<m,1\\le y<n,x\\in\\mathbf{N},y\\in\\mathbf{N}\\}$. 若 $(x,y)$ 为 $A$ 的“同形点”，应有 $(x,y)\\in T$，且 $(x,y)\\notin A$.",
+            "（1）当 $i<m,j<n$ 时，若 $(x,y)\\notin A$ 且 $(x,y)\\in T$，取 $(z,t)$ 为 $(m,n)$，则 $\\{(x,y),(x,t),(z,y),(z,t)\\}$ 与 $A$ 的交集元素个数为0，此时 $(x,y)$ 为 $A$ 的“同形点”，共有 $(m-1)(n-1)-1=mn-m-n$ 个；",
+            "（2）当 $i=m,j<n$ 时，同理可得 $T$ 中除 $(m-1,j)$ 外，其余元素都是 $A$ 的“同形点”，共有 $mn-m-n$ 个；",
+            "（3）当 $i<m,j=n$ 时，同理可得 $T$ 中除 $(i,n-1)$ 外，其余元素都是 $A$ 的“同形点”，共有 $mn-m-n$ 个；",
+            "（4）当 $i=m,j=n$ 时，同理可得 $T$ 中除 $(m-1,n-1)$ 外，其余元素都是 $A$ 的“同形点”，共有 $mn-m-n$ 个.",
+            "综上可得 $A$ 的“同形点”的个数为 $mn-m-n$."
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（Ⅲ）",
+          "type": "proof",
+          "stem": "若 $M$ 的任意子集都有“同形点”，求 $mn$ 的最小值.",
+          "answer": {
+            "source": "question_document",
+            "content": "21"
+          },
+          "analysis": [
+            "证明如下：首先当 $m=3,n=7$ 时，$mn=21$，由对称性不妨设 $A$ 中元素个数不少于11，对于 $j=1,2,\\cdots,7$，设 $\\{(i,j)\\mid(i,j)\\in M\\}\\cap A$ 的元素个数为 $x_j$.",
+            "（1）若存在 $x_k=3$，因为 $11-3>6$，所以存在 $l\\ne k$，有 $x_l\\ge2$，不妨设 $l<k$，则 $(1,l),(2,l)$ 中至少一个是 $A$ 的“同形点”；",
+            "（2）若 $x_i\\le2$ 恒成立，因为 $11-7=4$，所以存在 $i_1<i_2<i_3<i_4$，有 $x_{i_1}=x_{i_2}=x_{i_3}=x_{i_4}=2$，因为 $\\mathrm{C}_3^2=3<4$，所以存在 $\\{k,l\\}\\subseteq\\{i_1,i_2,i_3,i_4\\}$，$1\\le p<q\\le3$，使得 $\\{(k,p),(k,q),(l,p),(l,q)\\}\\subseteq A$，不妨设 $l<k$，则 $(l,p)$ 为 $A$ 的“同形点”.",
+            "其次当 $mn<21$ 时，不妨设 $m\\le4$；",
+            "（1）若 $m=3$，则 $n\\le6$，取 $A=\\{(1,1),(2,1),(1,2),(3,2),(2,3),(3,3),(1,4),(2,5),(3,6)\\}\\cap M$ 可得其无“同形点”；",
+            "（2）若 $m=4$，则 $n\\le5$，取 $A=\\{(1,1),(2,1),(1,2),(3,2),(1,3),(4,3),(2,4),(3,4),(2,5),(4,5)\\}\\cap M$，可得其无“同形点”；",
+            "综上 $mn$ 的最小值为 $21$."
+          ]
+        }
+      ],
+      "materials": [
+        "m003"
+      ]
+    }
+  ]
+}

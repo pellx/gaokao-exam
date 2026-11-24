@@ -1,0 +1,1147 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|一模|石景山|数学|",
+    "title": "2026北京石景山高三一模数学试题及答案",
+    "year": 2026,
+    "kind": "一模",
+    "subject": "数学",
+    "district": "石景山"
+  },
+  "source": {
+    "file": "../../../../../raw/数学/2026/一模/math-2026-mock1-shijingshan.pdf",
+    "sha256": "1783cfae5a96711429599e8846017e08bc9d167c69439229b69d9b2715d60096",
+    "page_count": 13
+  },
+  "extraction": {
+    "status": "needs_review",
+    "tool": "pymupdf 文本层提取 + 逐页渲染视觉核对",
+    "notes": [
+      "原卷第1—5页为试题，第6—12页为参考答案，第13页为平台介绍，非试题内容，未纳入。",
+      "第7页答案中的坐标系示意图与正文、水印重叠，未单独切图；Q17 解答文字完整保留，第3页原题几何图已收录为 a005。",
+      "Q18 频率分布图（a006）含原页水印，已按图幅完整裁剪；图中第1等级无柱，第2—6等级频率分别为0.05、0.1、0.2、0.3、0.35。",
+      "Q5 四个选项的立方体图分别裁切为 a001—a004，已逐一核对归属与方向。"
+    ]
+  },
+  "assets": {
+    "a001": {
+      "path": "assets/a001.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        58,
+        464,
+        154,
+        570
+      ],
+      "sha256": "7ea573d255d4927951de2e7cd1b045c8215ea9707e616fc6dd9703501d83568b"
+    },
+    "a002": {
+      "path": "assets/a002.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        156.5,
+        464,
+        250,
+        570
+      ],
+      "sha256": "17cef90c6f78d5328a87ad9945204bde73b37d1b38ed89fc277f85c26c02fdf9"
+    },
+    "a003": {
+      "path": "assets/a003.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        258,
+        464,
+        358,
+        570
+      ],
+      "sha256": "b1e99f3a6157c152005649f9e64e0c657ca00af1a6ba7dd44328c757faceb37b"
+    },
+    "a004": {
+      "path": "assets/a004.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        360,
+        464,
+        462,
+        570
+      ],
+      "sha256": "c6d833cf03700b9ec332610bc7669aaa170665d2b94701362f5f406484e5bbc3"
+    },
+    "a005": {
+      "path": "assets/a005.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        392,
+        195,
+        548,
+        372
+      ],
+      "sha256": "d4cfc0404acd96b359fafcabfd4637ab9ae1d614ad59130f5b71bc007efac04a"
+    },
+    "a006": {
+      "path": "assets/a006.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        45,
+        584,
+        245,
+        772
+      ],
+      "sha256": "c7eace05a2547dee4d29f30c141ab6c4b6c6d7a1f0d6fbcfa2b9fe9946af3baa"
+    }
+  },
+  "materials": {
+    "m001": {
+      "kind": "instructions",
+      "content": [
+        "第一部分（选择题  共40分）",
+        "一、选择题共10小题，每小题4分，共40分。在每小题列出的四个选项中，选出符合题目要求的一项。"
+      ],
+      "pages": [
+        1
+      ]
+    },
+    "m002": {
+      "kind": "instructions",
+      "content": [
+        "第二部分（非选择题  共110分）",
+        "二、填空题共5小题，每小题5分，共25分。"
+      ],
+      "pages": [
+        2
+      ]
+    },
+    "m003": {
+      "kind": "instructions",
+      "content": "三、解答题共6小题，共85分。解答应写出文字说明，演算步骤或证明过程。",
+      "pages": [
+        3
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "（1）",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "已知集合 $A=\\{x\\mid -2<x<2\\}$，$B=\\{x\\mid -1\\leqslant x<3\\}$，则 $A\\cup B=$",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\{x\\mid -2<x<3\\}$"
+        },
+        {
+          "key": "B",
+          "content": "$\\{x\\mid x>-2\\}$"
+        },
+        {
+          "key": "C",
+          "content": "$\\{x\\mid -1\\leqslant x<3\\}$"
+        },
+        {
+          "key": "D",
+          "content": "$\\{x\\mid x<3\\}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q002",
+      "label": "（2）",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "已知 $z=2-\\mathrm{i}$，则 $z(z+\\mathrm{i})=$",
+      "options": [
+        {
+          "key": "A",
+          "content": "$6-2\\mathrm{i}$"
+        },
+        {
+          "key": "B",
+          "content": "$4-2\\mathrm{i}$"
+        },
+        {
+          "key": "C",
+          "content": "$6+2\\mathrm{i}$"
+        },
+        {
+          "key": "D",
+          "content": "$4+2\\mathrm{i}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q003",
+      "label": "（3）",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "下列函数中，是偶函数又在 $[0,1]$ 上单调递减的是",
+      "options": [
+        {
+          "key": "A",
+          "content": "$y=-x$"
+        },
+        {
+          "key": "B",
+          "content": "$y=-|x|$"
+        },
+        {
+          "key": "C",
+          "content": "$y=x^2$"
+        },
+        {
+          "key": "D",
+          "content": "$y=2^{-x}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q004",
+      "label": "（4）",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "设 $\\boldsymbol{a},\\boldsymbol{b}$ 为单位向量，且 $|\\boldsymbol{a}+\\boldsymbol{b}|=1$，则 $|\\boldsymbol{a}-\\boldsymbol{b}|=$",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\frac{\\sqrt{3}}{2}$"
+        },
+        {
+          "key": "B",
+          "content": "$1$"
+        },
+        {
+          "key": "C",
+          "content": "$\\sqrt{3}$"
+        },
+        {
+          "key": "D",
+          "content": "$2$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q005",
+      "label": "（5）",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "如图，在正方体中，$O$ 为底面的中心，$P$ 为所在棱的中点，$M,N$ 为正方体的顶点．则满足 $MN\\perp OP$ 的是",
+      "options": [
+        {
+          "key": "A",
+          "content": [
+            {
+              "asset": "a001"
+            }
+          ]
+        },
+        {
+          "key": "B",
+          "content": [
+            {
+              "asset": "a002"
+            }
+          ]
+        },
+        {
+          "key": "C",
+          "content": [
+            {
+              "asset": "a003"
+            }
+          ]
+        },
+        {
+          "key": "D",
+          "content": [
+            {
+              "asset": "a004"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q006",
+      "label": "（6）",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "直线 $l:x+y=0$ 与圆 $C:x^2+y^2+4x-1=0$ 相交于 $A,B$ 两点，则 $|AB|=$",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\sqrt{3}$"
+        },
+        {
+          "key": "B",
+          "content": "$2\\sqrt{3}$"
+        },
+        {
+          "key": "C",
+          "content": "$2$"
+        },
+        {
+          "key": "D",
+          "content": "$4$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q007",
+      "label": "（7）",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "数列 $\\{a_n\\}$ 为各项均为正数的等比数列，$k,l,s,t$ 为正整数，则“$k+l>s+t$”是“$a_k\\cdot a_l>a_s\\cdot a_t$”的",
+      "options": [
+        {
+          "key": "A",
+          "content": "充分不必要条件"
+        },
+        {
+          "key": "B",
+          "content": "必要不充分条件"
+        },
+        {
+          "key": "C",
+          "content": "充要条件"
+        },
+        {
+          "key": "D",
+          "content": "既不充分也不必要条件"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q008",
+      "label": "（8）",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "已知 $A(0,1),B(2,2)$，点 $C$ 在曲线 $\\frac{x^2}{4}-y^2=1(x\\geqslant 2,y\\geqslant 0)$ 上，则 $\\triangle ABC$ 的面积",
+      "options": [
+        {
+          "key": "A",
+          "content": "有最大值，无最小值"
+        },
+        {
+          "key": "B",
+          "content": "无最大值，有最小值"
+        },
+        {
+          "key": "C",
+          "content": "有最大值，有最小值"
+        },
+        {
+          "key": "D",
+          "content": "无最大值，无最小值"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q009",
+      "label": "（9）",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "设 $a=\\log_{0.3}0.2,b=\\log_2 0.2$，则",
+      "options": [
+        {
+          "key": "A",
+          "content": "$a+b<0<ab$"
+        },
+        {
+          "key": "B",
+          "content": "$ab<0<a+b$"
+        },
+        {
+          "key": "C",
+          "content": "$a+b<ab<0$"
+        },
+        {
+          "key": "D",
+          "content": "$ab<a+b<0$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q010",
+      "label": "（10）",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": [
+        "在平面直角坐标系中，当 $P(x,y)$ 不是原点时，定义 $P$ 的“对应点”为 $P'\\left(\\frac{y}{x^2+y^2},\\frac{-x}{x^2+y^2}\\right)$，当 $P$ 是原点时，定义 $P$ 的“对应点”为它自身；将曲线 $C$ 上所有点的“对应点”构成的曲线 $C'$ 定义为曲线 $C$ 的“对应曲线”．现有下列命题：",
+        "①若点 $A$ 的“对应点”是点 $A'$，则点 $A'$ 的“对应点”是点 $A$；",
+        "②单位圆的“对应曲线”是它自身；",
+        "③直线的“对应曲线”一定是直线.",
+        "其中正确命题的个数是"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "$0$"
+        },
+        {
+          "key": "B",
+          "content": "$1$"
+        },
+        {
+          "key": "C",
+          "content": "$2$"
+        },
+        {
+          "key": "D",
+          "content": "$3$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q011",
+      "label": "（11）",
+      "type": "fill_blank",
+      "materials": [
+        "m002"
+      ],
+      "stem": "若 $\\left(\\sqrt{x}-\\frac{2}{x}\\right)^n$ 的展开式的二项式系数和为 $32$，则 $n=$_______，$x^{-2}$ 的系数为_______．",
+      "answer": {
+        "source": "question_document",
+        "content": [
+          "5",
+          "$-80$"
+        ]
+      },
+      "score": 5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q012",
+      "label": "（12）",
+      "type": "fill_blank",
+      "materials": [
+        "m002"
+      ],
+      "stem": "已知抛物线 $y^2=2px(p>0)$ 上一点 $M(1,m)$ 到其焦点的距离为 $5$，则该抛物线的准线方程为_______．",
+      "answer": {
+        "source": "question_document",
+        "content": "$x=-4$"
+      },
+      "score": 5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q013",
+      "label": "（13）",
+      "type": "fill_blank",
+      "materials": [
+        "m002"
+      ],
+      "stem": "已知 $\\sin\\alpha=\\frac{1}{3},\\cos(\\alpha+\\beta)=-1$，则 $\\sin(2\\alpha+\\beta)=$_______．",
+      "answer": {
+        "source": "question_document",
+        "content": "$-\\frac{1}{3}$"
+      },
+      "score": 5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q014",
+      "label": "（14）",
+      "type": "fill_blank",
+      "materials": [
+        "m002"
+      ],
+      "stem": "设函数 $f(x)=\\begin{cases}\\sqrt{x+1},&x\\in[-1,a),\\\\ ax+1,&x\\in[a,3].\\end{cases}$ 当 $a=0$ 时，$f(x)$ 的值域为_______；若方程 $f(x)-\\frac{1}{2}=0$ 有两个不同的解，则实数 $a$ 的一个取值可以是_______．",
+      "answer": {
+        "source": "question_document",
+        "content": [
+          "$[0,1]$",
+          "$-\\frac{1}{2}$（答案不唯一）"
+        ]
+      },
+      "score": 5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q015",
+      "label": "（15）",
+      "type": "fill_blank",
+      "materials": [
+        "m002"
+      ],
+      "stem": [
+        "已知 $S_n$ 为数列 $\\{a_n\\}$ 的前 $n$ 项和，记 $T_n=S_1S_2S_3\\cdots S_n(n=1,2,\\cdots)$，且满足 $\\frac{2}{S_n}+\\frac{1}{T_n}=2$．给出下列四个结论：",
+        "①$\\{a_n\\}$ 的第 2 项小于 $0$；",
+        "②$\\{a_n\\}$ 为等比数列；",
+        "③$\\{a_n\\}$ 为递减数列；",
+        "④当 $m\\geqslant 2$ 时，存在 $-\\frac{1}{100}<a_m<0$．",
+        "其中所有正确结论的序号是_______．"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "①④"
+      },
+      "score": 5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q016",
+      "label": "（16）",
+      "type": "composite",
+      "materials": [
+        "m003"
+      ],
+      "stem": "已知函数 $f(x)=2\\sqrt{3}\\sin x\\cos x+\\sin^2 x-\\cos^2 x$．",
+      "score": 13,
+      "pages": [
+        3
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "求 $f(x)$ 的最小正周期及单调递增区间；",
+          "answer": {
+            "source": "question_document",
+            "content": "$T=\\pi$；单调递增区间为 $\\left[k\\pi-\\frac{\\pi}{6},k\\pi+\\frac{\\pi}{3}\\right](k\\in\\mathbf{Z})$"
+          },
+          "analysis": [
+            "$f(x)=\\sqrt{3}\\sin 2x-\\cos 2x=2\\sin\\left(2x-\\frac{\\pi}{6}\\right)$，",
+            "所以 $f(x)$ 的最小正周期为 $T=\\frac{2\\pi}{2}=\\pi$．",
+            "函数 $y=\\sin x$ 的单调递增区间为 $\\left[2k\\pi-\\frac{\\pi}{2},2k\\pi+\\frac{\\pi}{2}\\right](k\\in\\mathbf{Z})$．",
+            "由 $2k\\pi-\\frac{\\pi}{2}\\leqslant 2x-\\frac{\\pi}{6}\\leqslant 2k\\pi+\\frac{\\pi}{2}(k\\in\\mathbf{Z})$，得 $k\\pi-\\frac{\\pi}{6}\\leqslant x\\leqslant k\\pi+\\frac{\\pi}{3}(k\\in\\mathbf{Z})$．",
+            "所以 $f(x)$ 的单调递增区间为 $\\left[k\\pi-\\frac{\\pi}{6},k\\pi+\\frac{\\pi}{3}\\right](k\\in\\mathbf{Z})$．【6分】"
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": "在 $\\triangle ABC$ 中，$f(A)=2,b=3,c=2$，若 $\\angle A$ 的平分线交 $BC$ 于 $D$，求 $AD$ 的长.",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\frac{6\\sqrt{3}}{5}$"
+          },
+          "analysis": [
+            "因为 $f(A)=2$，所以 $2\\sin\\left(2A-\\frac{\\pi}{6}\\right)=2$，$\\sin\\left(2A-\\frac{\\pi}{6}\\right)=1$，",
+            "因为 $A\\in(0,\\pi)$，所以 $2A-\\frac{\\pi}{6}=\\frac{\\pi}{2}$，$A=\\frac{\\pi}{3}$．",
+            "因为 $AD$ 为 $\\angle A$ 的平分线，所以 $\\angle CAD=\\angle BAD=\\frac{\\pi}{6}$，",
+            "根据 $S_{\\triangle ACD}+S_{\\triangle ABD}=S_{\\triangle ACB}$，",
+            "有 $\\frac{1}{2}AC\\cdot AD\\cdot\\sin\\angle CAD+\\frac{1}{2}AB\\cdot AD\\cdot\\sin\\angle BAD=\\frac{1}{2}AC\\cdot AB\\cdot\\sin\\angle CAB$，",
+            "即 $\\frac{1}{2}\\times 3\\times AD\\times\\frac{1}{2}+\\frac{1}{2}\\times 2\\times AD\\times\\frac{1}{2}=\\frac{1}{2}\\times 3\\times 2\\times\\frac{\\sqrt{3}}{2}$，解得 $AD=\\frac{6\\sqrt{3}}{5}$．【13分】"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "（17）",
+      "type": "composite",
+      "materials": [
+        "m003"
+      ],
+      "stem": [
+        "如图，在三棱锥 $A-BCD$ 中，$\\triangle ABD$ 为等边三角形，$G,E,F$ 分别是 $BD,AC,AD$ 的中点．$AB=2,CD=1,BC=\\sqrt{5}$，$BC$ 与平面 $GEF$ 交于点 $H$．",
+        {
+          "asset": "a005"
+        }
+      ],
+      "score": 14,
+      "pages": [
+        3
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "proof",
+          "stem": "求证：$H$ 是 $BC$ 的中点；",
+          "answer": {
+            "source": "question_document",
+            "content": "$H$ 是 $BC$ 的中点"
+          },
+          "analysis": [
+            "在三棱锥 $A-BCD$ 中，因为 $E,F$ 分别是 $AC,AD$ 中点，所以 $EF\\parallel CD$．",
+            "因为 $CD\\not\\subset$ 平面 $GEF$，且 $EF\\subset$ 平面 $GEF$，所以 $CD\\parallel$ 平面 $GEF$．",
+            "因为平面 $GEF\\cap$ 平面 $BCD=HG$，所以 $CD\\parallel HG$．",
+            "因为 $G$ 是 $BD$ 中点，所以 $H$ 是 $BC$ 中点．【6分】"
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": [
+            "再从条件①、条件②这两个条件中选择一个作为已知，求直线 $AC$ 与平面 $GEF$ 所成角的正弦值．",
+            "条件①：平面 $ABD\\perp$ 平面 $BCD$；",
+            "条件②：$AC=\\sqrt{5}$．",
+            "注：如果选择条件①和条件②分别解答，按第一个解答计分．"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "$\\frac{\\sqrt{15}}{5}$"
+          },
+          "analysis": [
+            "选条件①：平面 $ABD\\perp$ 平面 $BCD$．",
+            "连结 $AG$，因为 $\\triangle ABD$ 为等边三角形，$G$ 是 $BD$ 中点，所以 $AG\\perp BD$．",
+            "因为平面 $ABD\\perp$ 平面 $BCD$，平面 $ABD\\cap$ 平面 $BCD=BD$，又 $AG\\subset$ 平面 $ABD$，所以 $AG\\perp$ 平面 $BCD$．",
+            "因为 $HG\\subset$ 平面 $BCD$，所以 $AG\\perp HG$．",
+            "因为 $BD^2+CD^2=BC^2$，所以 $CD\\perp BD$．所以 $HG\\perp BD$．",
+            "如图建立空间直角坐标系 $G-xyz$，则 $G(0,0,0),A(0,0,\\sqrt{3}),C(1,1,0),D(0,1,0),F\\left(0,\\frac{1}{2},\\frac{\\sqrt{3}}{2}\\right),H\\left(\\frac{1}{2},0,0\\right)$．",
+            "所以 $\\overrightarrow{AC}=(1,1,-\\sqrt{3})$，$\\overrightarrow{GF}=\\left(0,\\frac{1}{2},\\frac{\\sqrt{3}}{2}\\right)$，$\\overrightarrow{GH}=\\left(\\frac{1}{2},0,0\\right)$．",
+            "设平面 $GEF$ 的法向量为 $\\boldsymbol{m}=(x,y,z)$，则 $\\begin{cases}\\boldsymbol{m}\\cdot\\overrightarrow{GF}=0,\\\\\\boldsymbol{m}\\cdot\\overrightarrow{GH}=0,\\end{cases}$ 即 $\\begin{cases}\\frac{1}{2}y+\\frac{\\sqrt{3}}{2}z=0,\\\\\\frac{1}{2}x=0.\\end{cases}$",
+            "令 $y=\\sqrt{3}$，则 $z=-1$．于是 $\\boldsymbol{m}=(0,\\sqrt{3},-1)$．",
+            "设直线 $AC$ 与平面 $GEF$ 所成角为 $\\alpha$，则 $\\sin\\alpha=|\\cos\\langle\\boldsymbol{m},\\overrightarrow{AC}\\rangle|=\\frac{|\\boldsymbol{m}\\cdot\\overrightarrow{AC}|}{|\\boldsymbol{m}||\\overrightarrow{AC}|}=\\frac{\\sqrt{15}}{5}$．【14分】",
+            "选条件②：$AC=\\sqrt{5}$．",
+            "因为 $AC^2=CD^2+AD^2$，所以 $CD\\perp AD$．",
+            "因为 $BD^2+CD^2=BC^2$，所以 $CD\\perp BD$．",
+            "又因为 $AD\\cap BD=D$，所以 $CD\\perp$ 平面 $ABD$．",
+            "因为 $AG\\subset$ 平面 $ABD$，所以 $CD\\perp AG$．",
+            "因为 $CD\\parallel HG$，所以 $AG\\perp HG$，$HG\\perp BD$．",
+            "因为 $\\triangle ABD$ 为等边三角形，$G$ 是 $BD$ 中点，所以 $AG\\perp BD$，",
+            "以下同条件①如图建立空间直角坐标系 $G-xyz$．"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "（18）",
+      "type": "composite",
+      "materials": [
+        "m003"
+      ],
+      "stem": [
+        "为了研究需要，将高三年级男生肺活量检测值(单位：$\\mathrm{L}$)划分为如下6个等级：",
+        {
+          "table": {
+            "header": [
+              "肺活量(单位：$\\mathrm{L}$)",
+              "小于2.0",
+              "$[2.0,2.5)$",
+              "$[2.5,3.0)$",
+              "$[3.0,3.5)$",
+              "$[3.5,4.0)$",
+              "4.0及以上"
+            ],
+            "rows": [
+              [
+                "等级",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+              ]
+            ]
+          }
+        },
+        "某校为研究高三年级男生1000米长跑成绩是否达标（成绩达到合格标准）与肺活量等级的关系，随机从该校抽取了100名高三年级男生作为研究对象，记录他们的长跑成绩与肺活量等级，整理得到如下统计图与统计表.",
+        {
+          "asset": "a006",
+          "caption": "长跑成绩达标组"
+        },
+        {
+          "table": {
+            "caption": "长跑成绩未达标组",
+            "header": [
+              "肺活量等级",
+              "频数"
+            ],
+            "rows": [
+              [
+                "1",
+                "14"
+              ],
+              [
+                "2",
+                "12"
+              ],
+              [
+                "3",
+                "8"
+              ],
+              [
+                "4",
+                "4"
+              ],
+              [
+                "5",
+                "2"
+              ],
+              [
+                "6",
+                "0"
+              ],
+              [
+                "合计",
+                "40"
+              ]
+            ]
+          }
+        }
+      ],
+      "score": 13,
+      "pages": [
+        3,
+        4
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "从100名研究对象中随机选取1人，求此人肺活量等级为3的概率；",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\frac{7}{50}$"
+          },
+          "analysis": [
+            "根据题中数据，在100名研究对象中，肺活量等级为3且长跑成绩达标的人数为6，肺活量等级为3且长跑成绩不达标的人数为8，因此肺活量等级为3的总人数为 $6+8=14$．因此，从100名研究对象中随机选取1人，此人肺活量等级为3的概率为 $\\frac{14}{100}=\\frac{7}{50}$．【3分】"
+          ],
+          "pages": [
+            4
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": [
+            "用频率估计概率，假设每名高三年级男生的肺活量等级相互独立，长跑成绩也相互独立．从该校全体高三年级男生中肺活量等级为4的学生中随机选取2人，肺活量等级为2的学生中随机选取1人，设这3人中长跑成绩达标的人数为 $X$，估计 $X$ 的数学期望 $EX$；"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "$\\frac{17}{10}$"
+          },
+          "analysis": [
+            "设事件 $A$ 为“从该校高三年级男生中肺活量等级为4的学生中随机选取一人长跑成绩达标”，事件 $B$ 为“从该校高三年级男生中肺活量等级为2的学生中随机选取一人长跑成绩达标”．",
+            "根据题中数据，$P(A)$ 估计为 $\\frac{12}{16}=\\frac{3}{4}$，$P(B)$ 估计为 $\\frac{3}{15}=\\frac{1}{5}$．",
+            "根据题意，随机变量 $X$ 的所有可能值为 $0,1,2,3$，且",
+            "$P(X=0)=P(\\overline{A}\\overline{A}\\overline{B})=(P(\\overline{A}))^2P(\\overline{B})$；",
+            "$P(X=1)=P(\\overline{A}A\\overline{B}+A\\overline{A}\\overline{B}+\\overline{A}\\overline{A}B)=\\mathrm{C}_2^1P(\\overline{A})P(A)P(\\overline{B})+(P(\\overline{A}))^2P(B)$；",
+            "$P(X=2)=P(A\\overline{A}\\overline{B}+\\overline{A}A\\overline{B}+AA\\overline{B})=\\mathrm{C}_2^1P(A)P(\\overline{A})P(\\overline{B})+(P(A))^2P(B)$；",
+            "$P(X=3)=P(AA B)=(P(A))^2P(B)$．",
+            "所以，$P(X=0)$ 估计为 $\\frac{1}{20}$；$P(X=1)$ 估计为 $\\frac{5}{16}$；",
+            "$P(X=2)$ 估计为 $\\frac{21}{40}$；$P(X=3)$ 估计为 $\\frac{9}{80}$．",
+            "所以，$EX$ 估计为 $0\\times\\frac{1}{20}+1\\times\\frac{5}{16}+2\\times\\frac{21}{40}+3\\times\\frac{9}{80}=\\frac{17}{10}$．【11分】"
+          ],
+          "pages": [
+            4
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（Ⅲ）",
+          "type": "short_answer",
+          "stem": [
+            "研究人员提出可以按照下述方式判断高三年级男生长跑成绩是否达标：",
+            "选取常数 $N=n+0.5(n\\in\\mathbf{N}^*)$，若一名高三年级男生的肺活量等级大于 $N$，则判断其长跑成绩达标；若肺活量等级小于 $N$，则判断其长跑成绩未达标．",
+            "从100名研究对象中随机选取1人，按照上述方式判断其长跑成绩是否达标．写出使得判断错误的概率最小的 $N$ 的值（只需写出结论）．"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "$N=3.5$"
+          },
+          "pages": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "（19）",
+      "type": "composite",
+      "materials": [
+        "m003"
+      ],
+      "stem": "已知函数 $f(x)=\\mathrm{e}^x-ax^2-x$．",
+      "score": 15,
+      "pages": [
+        4
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "求曲线 $y=f(x)$ 在点 $(0,f(0))$ 处的切线方程；",
+          "answer": {
+            "source": "question_document",
+            "content": "$y=1$"
+          },
+          "analysis": [
+            "$f'(x)=\\mathrm{e}^x-2ax-1$，$f'(0)=\\mathrm{e}^0-2a\\times 0-1=0$，",
+            "$f(0)=\\mathrm{e}^0-2a\\times 0-0=1$，",
+            "所以，所求切线方程为 $y=1$．【4分】"
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": "若函数 $f(x)$ 是 $\\mathbf{R}$ 上的单调递增函数，求 $a$ 的值；",
+          "answer": {
+            "source": "question_document",
+            "content": "$a=\\frac{1}{2}$"
+          },
+          "analysis": [
+            "$f'(x)=\\mathrm{e}^x-2ax-1$，令 $g(x)=\\mathrm{e}^x-2ax-1$，$g'(x)=\\mathrm{e}^x-2a$，",
+            "①当 $a\\leqslant 0$ 时，$g'(x)>0$，$g(x)$ 在 $(-\\infty,+\\infty)$ 上单调递增，又 $g(0)=0$，",
+            "所以当 $x\\in(-\\infty,0)$ 时，$g(x)<0$，当 $x\\in(0,+\\infty)$ 时，$g(x)>0$．",
+            "所以 $f(x)$ 的单调增区间为 $(0,+\\infty)$，单调减区间为 $(-\\infty,0)$，不符合题意；",
+            "②当 $a>0$ 时，令 $g'(x)=\\mathrm{e}^x-2a=0$，解得 $x=\\ln 2a$，",
+            "所以，当 $x\\in(-\\infty,\\ln 2a)$ 时，$g'(x)<0$；当 $x\\in(\\ln 2a,+\\infty)$ 时，$g'(x)>0$；",
+            "所以，$g(x)$ 在 $(-\\infty,\\ln 2a)$ 上单调递减，在 $(\\ln 2a,+\\infty)$ 上单调递增．",
+            "所以，当 $x=\\ln 2a$ 时，$g(x)$ 有最小值 $g(\\ln 2a)=2a-2a\\ln 2a-1$，",
+            "所以，当 $f(x)$ 在 $\\mathbf{R}$ 上单调递增时，有 $g(\\ln 2a)=2a-2a\\ln 2a-1\\geqslant 0$，",
+            "令 $h(a)=2a-2a\\ln 2a-1$，$h'(a)=-2\\ln 2a=0$，得 $a=\\frac{1}{2}$．",
+            "所以 $a\\in\\left(0,\\frac{1}{2}\\right)$ 时，$h'(a)>0$；$a\\in\\left(\\frac{1}{2},+\\infty\\right)$ 时，$h'(a)<0$．",
+            "所以 $h(a)$ 在 $\\left(0,\\frac{1}{2}\\right)$ 上单调递增，在 $\\left(\\frac{1}{2},+\\infty\\right)$ 上单调递减．",
+            "所以 $h(a)\\leqslant h\\left(\\frac{1}{2}\\right)=0$，所以 $h(a)=0$，即 $a=\\frac{1}{2}$．",
+            "综上所述 $a$ 的值为 $\\frac{1}{2}$．【9分】"
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（Ⅲ）",
+          "type": "calculation",
+          "stem": "若存在 $x_0>0$，使得 $f(x_0)<1$ 成立，求 $a$ 的取值范围．",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\left(\\frac{1}{2},+\\infty\\right)$"
+          },
+          "analysis": [
+            "法1：由已知可得当 $x\\in(0,+\\infty)$ 时，",
+            "①当 $a\\leqslant\\frac{1}{2}$ 时，由（Ⅱ）知 $g'(x)=\\mathrm{e}^x-2a\\geqslant\\mathrm{e}^x-1>0$；",
+            "所以 $g(x)$ 在 $(0,+\\infty)$ 单调递增，所以 $f'(x)=g(x)>g(0)=0$，",
+            "所以 $f(x)$ 在 $(0,+\\infty)$ 单调递增，",
+            "所以 $\\forall x>0$，$f(x)>f(0)=1$，不合题意；",
+            "②当 $a>\\frac{1}{2}$ 时，$\\ln 2a>0$，",
+            "因为 $g(x)$ 在 $(-\\infty,\\ln 2a)$ 上单调递减，$g(0)=0$",
+            "所以当 $x\\in(0,\\ln 2a)$ 时，$g(x)<0$",
+            "所以 $f(x)$ 在 $(0,\\ln 2a)$ 上单调递减，又 $f(0)=1$",
+            "所以存在 $x_0\\in(0,+\\infty)$，$f(x_0)<1$ 成立．",
+            "综上所述 $a$ 的取值范围是 $\\left(\\frac{1}{2},+\\infty\\right)$．【15分】",
+            "法2：由已知可得当 $x\\in(0,+\\infty)$ 时，",
+            "①当 $a\\leqslant\\frac{1}{2}$ 时，$f'(x)=\\mathrm{e}^x-2ax-1\\geqslant\\mathrm{e}^x-x-1$，",
+            "设 $u(x)=\\mathrm{e}^x-x-1(x>0)$，则 $u'(x)=\\mathrm{e}^x-1>0$，",
+            "所以 $u(x)$ 在 $(0,+\\infty)$ 单调递增．",
+            "$u(x)>u(0)=0$，$f'(x)>0$；",
+            "所以，$f(x)$ 在 $(0,+\\infty)$ 上单调递增，",
+            "所以 $\\forall x>0$，$f(x)>f(0)=1$，不合题意；",
+            "②当 $a>\\frac{1}{2}$ 时，$\\ln 2a>0$，",
+            "因为 $g(x)$ 在 $(-\\infty,\\ln 2a)$ 上单调递减，$g(0)=0$",
+            "所以当 $x\\in(0,\\ln 2a)$ 时，$g(x)<0$",
+            "所以 $f(x)$ 在 $(0,\\ln 2a)$ 上单调递减，又 $f(0)=1$",
+            "所以存在 $x_0\\in(0,+\\infty)$，$f(x_0)<1$ 成立．",
+            "综上所述 $a$ 的取值范围是 $\\left(\\frac{1}{2},+\\infty\\right)$．【15分】"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q020",
+      "label": "（20）",
+      "type": "composite",
+      "materials": [
+        "m003"
+      ],
+      "stem": "已知椭圆 $C:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$ 的左顶点为 $A(-2,0)$，离心率为 $\\frac{\\sqrt{3}}{2}$．",
+      "score": 15,
+      "pages": [
+        4
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "求椭圆 $C$ 的方程；",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\frac{x^2}{4}+y^2=1$"
+          },
+          "analysis": [
+            "由已知可得 $\\begin{cases}a=2\\\\ \\mathrm{e}=\\frac{c}{a}=\\frac{\\sqrt{3}}{2}\\\\ c^2=a^2-b^2\\end{cases}$，解得 $b=1$，$c=\\sqrt{3}$．",
+            "故椭圆 $C$ 的方程为 $\\frac{x^2}{4}+y^2=1$．【5分】"
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "composite",
+          "stem": "$B$ 为椭圆 $C$ 的右顶点，$P$ 为椭圆 $C$ 上异于 $A,B$ 的任意一点，直线 $AP,BP$ 分别与直线 $x=\\frac{10}{3}$ 交于 $M,N$ 两点，直线 $BM$ 与椭圆 $C$ 的另一个交点为 $Q$．求证：",
+          "parts": [
+            {
+              "id": "p3",
+              "label": "①",
+              "type": "proof",
+              "stem": "$BM\\perp BN$；",
+              "answer": {
+                "source": "question_document",
+                "content": "$BM\\perp BN$"
+              },
+              "analysis": [
+                "由已知得 $B(2,0)$．",
+                "设 $P(x_1,y_1)$，则 $x_1^2+4y_1^2=4$，",
+                "所以 $k_{AP}=\\frac{y_1}{x_1+2},k_{BP}=\\frac{y_1}{x_1-2}$，",
+                "所以直线 $AP$ 的方程为 $y=\\frac{y_1}{x_1+2}(x+2)$，",
+                "所以直线 $BP$ 的方程为 $y=\\frac{y_1}{x_1-2}(x-2)$．",
+                "令 $x=\\frac{10}{3}$，得 $y_M=\\frac{16y_1}{3(x_1+2)}$，$y_N=\\frac{4y_1}{3(x_1-2)}$．",
+                "因为 $\\overrightarrow{BM}=\\left(\\frac{4}{3},\\frac{16y_1}{3(x_1+2)}\\right)$，$\\overrightarrow{BN}=\\left(\\frac{4}{3},\\frac{4y_1}{3(x_1-2)}\\right)$，",
+                "所以 $\\overrightarrow{BM}\\cdot\\overrightarrow{BN}=\\frac{16}{9}+\\frac{64y_1^2}{9(x_1^2-4)}=\\frac{16}{9}+\\frac{64y_1^2}{-36y_1^2}=0$，",
+                "所以 $BM\\perp BN$．【10分】"
+              ]
+            },
+            {
+              "id": "p4",
+              "label": "②",
+              "type": "proof",
+              "stem": "直线 $PQ$ 恒过定点．",
+              "answer": {
+                "source": "question_document",
+                "content": "直线 $PQ$ 恒过定点 $\\left(\\frac{6}{5},0\\right)$"
+              },
+              "analysis": [
+                "当直线 $PQ$ 的斜率存在时，设其方程为 $y=kx+m$．",
+                "由 $\\begin{cases}\\frac{x^2}{4}+y^2=1,\\\\ y=kx+m\\end{cases}$ 化简得 $(4k^2+1)x^2+8kmx+4m^2-4=0$，其判别式 $\\Delta>0$．",
+                "设 $Q(x_2,y_2)$，可得 $x_1+x_2=\\frac{-8km}{4k^2+1}$，$x_1x_2=\\frac{4m^2-4}{4k^2+1}$．",
+                "由 $BM\\perp BN$，得 $BP\\perp BQ$，即 $\\overrightarrow{BP}\\cdot\\overrightarrow{BQ}=0$",
+                "因为 $\\overrightarrow{BP}=(x_1-2,y_1),\\overrightarrow{BQ}=(x_2-2,y_2)$，",
+                "所以 $(x_1-2)(x_2-2)+y_1y_2=0$，",
+                "化简得 $x_1x_2-2(x_1+x_2)+4+y_1y_2=0$．",
+                "因为 $y_1y_2=(kx_1+m)(kx_2+m)=k^2x_1x_2+km(x_1+x_2)+m^2=\\frac{m^2-4k^2}{4k^2+1}$，",
+                "所以 $\\frac{4m^2-4}{4k^2+1}-2\\times\\frac{-8km}{4k^2+1}+4+\\frac{m^2-4k^2}{4k^2+1}=0$，",
+                "化简得 $12k^2+16km+5m^2=0$，",
+                "$(6k+5m)(2k+m)=0$，",
+                "$m=-\\frac{6}{5}k$ 或 $m=-2k$．",
+                "所以直线 $PQ$ 的方程为 $y=k\\left(x-\\frac{6}{5}\\right)$ 或 $y=k(x-2)$（舍）．",
+                "所以直线 $PQ$ 过定点 $\\left(\\frac{6}{5},0\\right)$．",
+                "当直线 $PQ$ 的斜率不存在时，其方程为 $x=\\frac{6}{5}$，满足题意．",
+                "综上所述直线 $PQ$ 恒过定点 $\\left(\\frac{6}{5},0\\right)$．【15分】"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q021",
+      "label": "（21）",
+      "type": "composite",
+      "materials": [
+        "m003"
+      ],
+      "stem": [
+        "已知集合 $A=\\{a_1,a_2,\\cdots,a_k\\}(k\\geqslant 2)$，其中 $a_i\\in\\mathbf{N}^*(i=1,2,\\cdots,k)$，若对于任意的 $a\\in A$，总有 $\\frac{1}{a}\\notin A$，则称集合 $A$ 具有性质 $P$．由 $A$ 中的元素构成两个相应的集合：",
+        "$S=\\{(a,b)\\mid a\\in A,b\\in A,ab\\in A\\}$，$T=\\{(a,b)\\mid a\\in A,b\\in A,\\frac{a}{b}\\in A\\}$，",
+        "其中 $(a,b)$ 是有序数对，集合 $S$ 和 $T$ 中的元素个数分别为 $m$ 和 $n$．"
+      ],
+      "score": 15,
+      "pages": [
+        5
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "short_answer",
+          "stem": "检验集合 $\\{2,3,6\\}$ 与 $\\{1,2,4\\}$ 是否具有性质 $P$，并对其中具有性质 $P$ 的集合，写出相应的集合 $S$ 和 $T$；",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\{2,3,6\\}$ 具有性质 $P$，$\\{1,2,4\\}$ 不具有性质 $P$；$S=\\{(2,3),(3,2)\\}$，$T=\\{(6,2),(6,3)\\}$"
+          },
+          "analysis": [
+            "因为 $\\frac{1}{1}\\in\\{1,2,4\\}$，所以 $\\{1,2,4\\}$ 不具有性质 $P$；",
+            "因为 $\\frac{1}{2}\\notin\\{2,3,6\\},\\frac{1}{3}\\notin\\{2,3,6\\},\\frac{1}{6}\\notin\\{2,3,6\\}$，所以 $\\{2,3,6\\}$ 具有性质 $P$．",
+            "$S=\\{(2,3),(3,2)\\}$，$T=\\{(6,2),(6,3)\\}$．【4分】"
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "proof",
+          "stem": "对任何具有性质 $P$ 的集合 $A$，证明：$n\\leqslant\\frac{k(k-1)}{2}$；",
+          "answer": {
+            "source": "question_document",
+            "content": "$n\\leqslant\\frac{k(k-1)}{2}$"
+          },
+          "analysis": [
+            "解法1：因为对于任意的 $a\\in A$，总有 $\\frac{1}{a}\\notin A$，",
+            "所以 $1\\notin A$，从而 $\\{(a_i,a_i)\\}\\notin T(i=1,2,\\cdots,k)$．",
+            "因为 $a\\in A,b\\in A,\\frac{a}{b}\\in A$，",
+            "所以当 $i\\neq j$ 时，$(a_i,a_j)\\in T$ 和 $(a_j,a_i)\\in T(i,j=1,2,\\cdots,k)$ 至多有一个成立．",
+            "所以集合 $T$ 中的元素个数最多为 $\\mathrm{C}_k^2=\\frac{k(k-1)}{2}$，",
+            "即 $n\\leqslant\\frac{k(k-1)}{2}$．【9分】",
+            "法2：首先，由 $A$ 中元素构成的有序数对 $(a_i,a_j)$ 共有 $k^2$ 个．",
+            "因为对于任意的 $a\\in A$，总有 $\\frac{1}{a}\\notin A$，所以 $1\\notin A$．",
+            "所以 $\\{(a_i,a_i)\\}\\notin T(i=1,2,\\cdots,k)$．",
+            "又因为 $a\\in A,b\\in A,\\frac{a}{b}\\in A$，所以当 $(a_i,a_j)\\in T$ 时，$(a_j,a_i)\\notin T(i,j=1,2,\\cdots,k)$．",
+            "所以集合 $T$ 中的元素个数最多为 $\\frac{1}{2}(k^2-k)=\\frac{k(k-1)}{2}$，",
+            "即 $n\\leqslant\\frac{k(k-1)}{2}$．【9分】"
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（Ⅲ）",
+          "type": "proof",
+          "stem": "判断 $m$ 和 $n$ 的大小关系，并证明你的结论．",
+          "answer": {
+            "source": "question_document",
+            "content": "$m=n$"
+          },
+          "analysis": [
+            "$m=n$，证明如下：",
+            "①设 $(a,b)\\in T$，则 $a\\in A,b\\in A,\\frac{a}{b}\\in A$．",
+            "设 $c=\\frac{a}{b}$，则 $a=bc$，故 $b\\in A,c\\in A,bc\\in A$，",
+            "从而 $(b,c)\\in S$，即对 $\\forall(a,b)\\in T$，总 $\\exists c$ 使 $(b,c)\\in S$，",
+            "从而 $n\\leqslant m$．",
+            "②设 $(p,q)\\in S$，则 $p\\in A,q\\in A,pq\\in A$．",
+            "设 $r=pq$，则 $q=\\frac{r}{p}$，故 $r\\in A,p\\in A,\\frac{r}{p}\\in A$，",
+            "从而 $(r,p)\\in T$，即对 $\\forall(p,q)\\in S$，总 $\\exists r$ 使 $(r,p)\\in T$，",
+            "从而 $m\\leqslant n$．",
+            "由①②可知 $m=n$．【15分】"
+          ]
+        }
+      ]
+    }
+  ]
+}

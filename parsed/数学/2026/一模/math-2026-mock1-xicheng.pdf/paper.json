@@ -1,0 +1,1106 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|一模|西城|数学|",
+    "title": "2026北京西城区高三一模数学试题及答案",
+    "year": 2026,
+    "kind": "一模",
+    "subject": "数学",
+    "district": "西城",
+    "exam_date": "2026-04"
+  },
+  "source": {
+    "file": "../../../../../raw/数学/2026/一模/math-2026-mock1-xicheng.pdf",
+    "sha256": "e957c4850141fabfcbf02f19d40f32217881c7c7560bd620004209f9533497ec",
+    "page_count": 15
+  },
+  "extraction": {
+    "status": "verified",
+    "tool": "PyMuPDF 页面/嵌入图提取；页面图像逐页视觉识读",
+    "notes": [
+      "原 PDF 共 15 页：第 1—6 页为试题，第 7—14 页为“数学答案及评分参考”，第 15 页为广告页，未收录。",
+      "扫描版 PDF，前 14 页无文本层，全部内容按页面图像逐页识读；第 15 页广告文字层为乱码，未使用。",
+      "答案与试题在同一 PDF 中，answer.source 均为 question_document；未另列 answer_files。",
+      "答案页原注：（14）题第一空3分，第二空2分；（15）题全部选对得5分，有一个选对且无错选得3分，其他得0分。"
+    ]
+  },
+  "assets": {
+    "a001": {
+      "path": "assets/a001.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        842,
+        938,
+        1112,
+        1200
+      ],
+      "sha256": "279afe9aa3a89e6294a3762156d096d2036b76988ae1719262ed08794ee44b5b"
+    },
+    "a002": {
+      "path": "assets/a002.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        630,
+        1030,
+        1082,
+        1325
+      ],
+      "sha256": "28c41e17fd7da889325361317871ed2d7ff9a3e4d2516812e43d4eb245db07ea"
+    },
+    "a003": {
+      "path": "assets/a003.png",
+      "kind": "image",
+      "page": 8,
+      "bbox": [
+        660,
+        536,
+        1078,
+        840
+      ],
+      "sha256": "f9ad887a9cfbfd83fa0a579ff38af34b0fe0bc0c38822c51b3541fb716c8463f"
+    }
+  },
+  "materials": {
+    "m001": {
+      "kind": "instructions",
+      "content": "本试卷共6页，150分。考试时长120分钟。考生务必将答案答在答题卡上，在试卷上作答无效。考试结束后，将本试卷和答题卡一并交回。",
+      "pages": [
+        1
+      ]
+    },
+    "m002": {
+      "kind": "instructions",
+      "content": [
+        "第一部分（选择题 共40分）",
+        "一、选择题共10小题，每小题4分，共40分。在每小题列出的四个选项中，选出符合题目要求的一项。"
+      ],
+      "pages": [
+        1
+      ]
+    },
+    "m003": {
+      "kind": "instructions",
+      "content": [
+        "第二部分（非选择题 共110分）",
+        "二、填空题共5小题，每小题5分，共25分。"
+      ],
+      "pages": [
+        3
+      ]
+    },
+    "m004": {
+      "kind": "instructions",
+      "content": "三、解答题共6小题，共85分。解答应写出文字说明，演算步骤或证明过程。",
+      "pages": [
+        4
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "（1）",
+      "type": "single_choice",
+      "score": 4,
+      "pages": [
+        1
+      ],
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "已知集合 $A=\\{x\\mid x^2-3x<0\\}$，集合 $B=\\{x\\mid x-2>0\\}$，则集合 $A\\cup B=$",
+      "options": [
+        {
+          "key": "A",
+          "content": "$(0,3)$"
+        },
+        {
+          "key": "B",
+          "content": "$(2,3)$"
+        },
+        {
+          "key": "C",
+          "content": "$(0,+\\infty)$"
+        },
+        {
+          "key": "D",
+          "content": "$(2,+\\infty)$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      }
+    },
+    {
+      "id": "q002",
+      "label": "（2）",
+      "type": "single_choice",
+      "score": 4,
+      "pages": [
+        1
+      ],
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "在复平面内，复数 $(2+\\mathrm{i})(1-\\mathrm{i})$ 对应的点在",
+      "options": [
+        {
+          "key": "A",
+          "content": "第一象限"
+        },
+        {
+          "key": "B",
+          "content": "第二象限"
+        },
+        {
+          "key": "C",
+          "content": "第三象限"
+        },
+        {
+          "key": "D",
+          "content": "第四象限"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      }
+    },
+    {
+      "id": "q003",
+      "label": "（3）",
+      "type": "single_choice",
+      "score": 4,
+      "pages": [
+        1
+      ],
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "在等比数列 $\\{a_n\\}$ 中，$a_2=4$，$a_4+a_6=24$，则 $a_8=$",
+      "options": [
+        {
+          "key": "A",
+          "content": "$16$"
+        },
+        {
+          "key": "B",
+          "content": "$32$"
+        },
+        {
+          "key": "C",
+          "content": "$64$"
+        },
+        {
+          "key": "D",
+          "content": "$256$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      }
+    },
+    {
+      "id": "q004",
+      "label": "（4）",
+      "type": "single_choice",
+      "score": 4,
+      "pages": [
+        1
+      ],
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "已知 $x(2+x)^4=a_1x+a_2x^2+a_3x^3+a_4x^4+a_5x^5$，则 $a_1+a_2+a_3+a_4=$",
+      "options": [
+        {
+          "key": "A",
+          "content": "$16$"
+        },
+        {
+          "key": "B",
+          "content": "$65$"
+        },
+        {
+          "key": "C",
+          "content": "$80$"
+        },
+        {
+          "key": "D",
+          "content": "$81$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      }
+    },
+    {
+      "id": "q005",
+      "label": "（5）",
+      "type": "single_choice",
+      "score": 4,
+      "pages": [
+        1
+      ],
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "若圆锥曲线 $C: x^2+my^2+m=0$ 的焦距为 $4$，则其离心率为",
+      "options": [
+        {
+          "key": "A",
+          "content": "$2$"
+        },
+        {
+          "key": "B",
+          "content": "$\\frac{2}{3}$"
+        },
+        {
+          "key": "C",
+          "content": "$\\frac{4}{3}$"
+        },
+        {
+          "key": "D",
+          "content": "$\\frac{2\\sqrt{3}}{3}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      }
+    },
+    {
+      "id": "q006",
+      "label": "（6）",
+      "type": "single_choice",
+      "score": 4,
+      "pages": [
+        2
+      ],
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "已知函数 $f(x)=2\\sin x\\cos x+\\sin x$，则 $f(x)$ 是",
+      "options": [
+        {
+          "key": "A",
+          "content": "奇函数，且最小正周期为 $\\pi$"
+        },
+        {
+          "key": "B",
+          "content": "奇函数，且最小正周期为 $2\\pi$"
+        },
+        {
+          "key": "C",
+          "content": "偶函数，且最小正周期为 $\\pi$"
+        },
+        {
+          "key": "D",
+          "content": "偶函数，且最小正周期为 $2\\pi$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      }
+    },
+    {
+      "id": "q007",
+      "label": "（7）",
+      "type": "single_choice",
+      "score": 4,
+      "pages": [
+        2
+      ],
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "设 $\\boldsymbol{a},\\boldsymbol{b}$ 为非零向量，则“对于任意 $\\lambda\\in\\mathbf{R}$，$\\boldsymbol{b}\\neq\\lambda\\boldsymbol{a}$”是“$|\\boldsymbol{a}|-|\\boldsymbol{b}|<|\\boldsymbol{a}+\\boldsymbol{b}|$”的",
+      "options": [
+        {
+          "key": "A",
+          "content": "充分不必要条件"
+        },
+        {
+          "key": "B",
+          "content": "必要不充分条件"
+        },
+        {
+          "key": "C",
+          "content": "充要条件"
+        },
+        {
+          "key": "D",
+          "content": "既不充分也不必要条件"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      }
+    },
+    {
+      "id": "q008",
+      "label": "（8）",
+      "type": "single_choice",
+      "score": 4,
+      "pages": [
+        2
+      ],
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "设关于 $x$ 的不等式 $x^2<|x|+2^m$ 的解集为 $P$，若 $P\\subseteq(-2,4)$，则实数 $m$ 的取值范围是",
+      "options": [
+        {
+          "key": "A",
+          "content": "$[1,+\\infty)$"
+        },
+        {
+          "key": "B",
+          "content": "$(-\\infty,1]$"
+        },
+        {
+          "key": "C",
+          "content": "$[2,+\\infty)$"
+        },
+        {
+          "key": "D",
+          "content": "$(-\\infty,2]$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      }
+    },
+    {
+      "id": "q009",
+      "label": "（9）",
+      "type": "single_choice",
+      "score": 4,
+      "pages": [
+        2
+      ],
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": [
+        "如图所示的沙漏是由上下两个相同的圆锥型容器组成，其内细沙的总体积为 $V_0$．假设上方容器中细沙的堆积体一直近似为一个倒置的圆锥，初始时细沙都在上方容器内，且此时沙堆的高度为 $h$，在重力和限流片的作用下细沙徐徐流入下方容器，经过 $t(t\\leqslant 30)$ 分钟后剩余沙堆的体积 $V=V_0\\mathrm{e}^{-kt}$（$k$ 为常数）．已知初始时细沙都在上方容器内，经过 10 分钟后上方沙堆的高度降为 $\\frac{1}{2}h$，此时将沙漏上下颠倒，若倒置后的上方容器内沙堆高度再次降为 $\\frac{1}{2}h$，则需再经过的时间约为",
+        {
+          "asset": "a001"
+        },
+        "（参考数据：$\\ln 2\\approx 0.69$，$\\ln 3\\approx 1.10$，$\\ln 7\\approx 1.95$）"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "8.0 分钟"
+        },
+        {
+          "key": "B",
+          "content": "8.6 分钟"
+        },
+        {
+          "key": "C",
+          "content": "9.4 分钟"
+        },
+        {
+          "key": "D",
+          "content": "10.6 分钟"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      }
+    },
+    {
+      "id": "q010",
+      "label": "（10）",
+      "type": "single_choice",
+      "score": 4,
+      "pages": [
+        2
+      ],
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "在平面直角坐标系 $xOy$ 中，点 $M$ 在圆心为 $C$ 的圆 $x^2+y^2-2x-2=0$ 上．若动点 $P$ 满足 $|\\overrightarrow{MP}|=1$，$\\overrightarrow{CM}\\cdot\\overrightarrow{CP}=3$，则对于 $a\\in\\mathbf{R}$，点 $P$ 到直线 $x+ay+2a=0$ 的距离的最大值为",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\sqrt{5}+2$"
+        },
+        {
+          "key": "B",
+          "content": "$2+\\sqrt{2}$"
+        },
+        {
+          "key": "C",
+          "content": "$\\sqrt{5}+\\sqrt{3}$"
+        },
+        {
+          "key": "D",
+          "content": "$2+\\sqrt{3}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      }
+    },
+    {
+      "id": "q011",
+      "label": "（11）",
+      "type": "fill_blank",
+      "score": 5,
+      "pages": [
+        3
+      ],
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": "设抛物线 $C: y^2=8x$ 的准线为 $l$，$P(4,m)$ 为 $C$ 上一点，则 $P$ 到 $l$ 的距离为____．",
+      "answer": {
+        "source": "question_document",
+        "content": "$6$"
+      }
+    },
+    {
+      "id": "q012",
+      "label": "（12）",
+      "type": "fill_blank",
+      "score": 5,
+      "pages": [
+        3
+      ],
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": "设平面向量 $\\boldsymbol{a}=(-1,2)$，$\\boldsymbol{b}=(3,t)$，其中 $t\\in\\mathbf{R}$，则 $|\\boldsymbol{b}-\\boldsymbol{a}|$ 的最小值为____．",
+      "answer": {
+        "source": "question_document",
+        "content": "$4$"
+      }
+    },
+    {
+      "id": "q013",
+      "label": "（13）",
+      "type": "fill_blank",
+      "score": 5,
+      "pages": [
+        3
+      ],
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": "已知 $\\alpha,\\beta\\in(0,2\\pi)$，且 $\\cos(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta$，写出满足条件的一组 $\\alpha,\\beta$ 的值 $\\alpha=$____，$\\beta=$____．",
+      "answer": {
+        "source": "question_document",
+        "content": [
+          "$\\pi$",
+          "$\\frac{\\pi}{4}$（答案不唯一）"
+        ]
+      }
+    },
+    {
+      "id": "q014",
+      "label": "（14）",
+      "type": "fill_blank",
+      "score": 5,
+      "pages": [
+        3
+      ],
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": "《营造法式》是中国古代最完整的建筑技术著作，是中国古代建筑发展到了较高阶段的标志．书中根据不同等级房屋建筑的需要，将建筑中的木方（断面为矩形的木料）的尺寸分为 8 个等级．记这 8 个等级木方断面的长与宽分别为 $a_i$ 与 $b_i$，若对任意 $i$ $(i=1,2,\\cdots,8)$，$\\frac{a_i}{b_i}=\\frac{3}{2}$，且 $a_1,a_2,a_3$ 与 $a_6,a_7,a_8$ 都是公差为 $-0.75$ 的等差数列，$b_4,b_5,b_6$ 是公差为 $-0.4$ 的等差数列．已知 $a_1=9$，$a_3-a_4=0.3$，则 $a_5=$____，$b_7=$____．",
+      "answer": {
+        "source": "question_document",
+        "content": [
+          "$6.6$",
+          "$3.5$"
+        ]
+      }
+    },
+    {
+      "id": "q015",
+      "label": "（15）",
+      "type": "fill_blank",
+      "score": 5,
+      "pages": [
+        3
+      ],
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": [
+        "记 $[x]$ 表示不超过实数 $x$ 的最大整数．设 $a,b$ 为正整数，函数 $f(x)=[ax]+[bx]$，给出以下四个结论：",
+        "① 对于任意的 $x_1,x_2$，若 $x_1<x_2$，则 $f(x_1)\\leqslant f(x_2)$；",
+        "② 存在正整数 $a,b$，使得曲线 $y=f(x)$ 关于坐标原点对称；",
+        "③ 设 $a=2$，$b=3$，则方程 $f(x)=10$ 有无数个解；",
+        "④ 设 $a=2$，$b=3$，则当 $x\\in[0,1)$ 时，函数 $f(x)$ 的值域中有且仅有 5 个元素．",
+        "其中，所有正确结论的序号是____．"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "①③"
+      }
+    },
+    {
+      "id": "q016",
+      "label": "（16）",
+      "type": "composite",
+      "score": 13,
+      "pages": [
+        4
+      ],
+      "materials": [
+        "m001",
+        "m004"
+      ],
+      "stem": "已知 $\\triangle ABC$ 的面积 $S=\\frac{\\sqrt{3}}{4}(a^2+b^2-c^2)$，且 $a=2\\sin A$．",
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "求 $C$ 的大小；",
+          "answer": {
+            "source": "question_document",
+            "content": "$C=\\frac{\\pi}{3}$"
+          },
+          "analysis": [
+            "解：（Ⅰ）由余弦定理 $c^2=a^2+b^2-2ab\\cos C$，得 $a^2+b^2-c^2=2ab\\cos C$．…… 2分",
+            "所以 $S=\\frac{\\sqrt{3}}{4}(a^2+b^2-c^2)=\\frac{\\sqrt{3}}{2}ab\\cos C=\\frac{1}{2}ab\\sin C$．…… 4分",
+            "由 $ab\\neq 0$，得 $\\sin C=\\sqrt{3}\\cos C$，即 $\\tan C=\\sqrt{3}$．",
+            "结合 $0<C<\\pi$，得 $C=\\frac{\\pi}{3}$．…… 6分"
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": "记 $\\triangle ABC$ 的周长为 $f(A)$．给出 $f(A)$ 的解析式，并求其最大值．",
+          "answer": {
+            "source": "question_document",
+            "content": "$f(A)=2\\sqrt{3}\\sin\\left(A+\\frac{\\pi}{6}\\right)+\\sqrt{3}$，最大值为 $3\\sqrt{3}$"
+          },
+          "analysis": [
+            "（Ⅱ）由 $a=2\\sin A$ 和正弦定理 $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$，",
+            "得 $c=2\\sin C=\\sqrt{3}$，$b=2\\sin B$．…… 8分",
+            "又因为 $A+B+C=\\pi$，",
+            "所以 $f(A)=2\\sin A+2\\sin B+\\sqrt{3}$…… 9分",
+            "$=2\\sin A+2\\sin\\left(\\frac{2\\pi}{3}-A\\right)+\\sqrt{3}$",
+            "$=3\\sin A+\\sqrt{3}\\cos A+\\sqrt{3}$",
+            "$=2\\sqrt{3}\\sin\\left(A+\\frac{\\pi}{6}\\right)+\\sqrt{3}$．…… 11分",
+            "由 $A\\in\\left(0,\\frac{2\\pi}{3}\\right)$，得 $A+\\frac{\\pi}{6}\\in\\left(\\frac{\\pi}{6},\\frac{5\\pi}{6}\\right)$，",
+            "所以当 $A=\\frac{\\pi}{3}$ 时，$f(A)$ 取得最大值 $3\\sqrt{3}$．…… 13分"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "（17）",
+      "type": "composite",
+      "score": 14,
+      "pages": [
+        4
+      ],
+      "materials": [
+        "m001",
+        "m004"
+      ],
+      "stem": [
+        "如图，在四棱锥 $P-ABCD$ 中，底面 $ABCD$ 为平行四边形，且 $AB\\perp AC$，$E$ 为 $PD$ 的中点，平面 $PAC\\perp$ 平面 $ABCD$．",
+        {
+          "asset": "a002"
+        }
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "proof",
+          "stem": "求证：$AB\\perp PA$；",
+          "analysis": [
+            "解：（Ⅰ）因为平面 $PAC\\perp$ 平面 $ABCD$，平面 $PAC\\cap$ 平面 $ABCD=AC$，$AB\\subset$ 平面 $ABCD$，",
+            "且 $AB\\perp AC$，",
+            "所以 $AB\\perp$ 平面 $PAC$．",
+            "又因为 $PA\\subset$ 平面 $PAC$，",
+            "所以 $AB\\perp PA$．…… 5分"
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": [
+            "若 $PA=AB=1$，$BC=2$，从条件①、条件②、条件③这三个条件中选择一个作为已知，使得四棱锥 $P-ABCD$ 存在，求平面 $PAE$ 与平面 $AEC$ 夹角的余弦值．",
+            "条件①：$CD\\perp PD$；",
+            "条件②：$AE=PE$；",
+            "条件③：$\\triangle ABC\\cong\\triangle APC$．",
+            "注：如果选择的条件不符合要求，第（Ⅱ）问得 0 分；如果选择多个符合要求的条件分别解答，按第一个解答计分．"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "$\\frac{\\sqrt{6}}{4}$"
+          },
+          "analysis": [
+            "（Ⅱ）选择条件②：",
+            "因为在 $\\triangle APD$ 中，$AE=PE=ED$，",
+            "所以 $\\triangle APD$ 为直角三角形，且 $PA\\perp AD$．",
+            "又因为 $AB\\perp PA$，$AB\\cap AD=A$，$AB,AD\\subset$ 平面 $ABCD$，",
+            "所以 $PA\\perp$ 平面 $ABCD$，",
+            "所以 $PA\\perp AC$，即 $PA,AB,AC$ 两两垂直．…… 7分",
+            "如图建立空间直角坐标系 $A-xyz$，则 $A(0,0,0)$，$C(0,\\sqrt{3},0)$，$P(0,0,1)$，$D(-1,\\sqrt{3},0)$，",
+            "$E\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2},\\frac{1}{2}\\right)$，$\\overrightarrow{AP}=(0,0,1)$，$\\overrightarrow{AC}=(0,\\sqrt{3},0)$，$\\overrightarrow{AE}=\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2},\\frac{1}{2}\\right)$．…… 8分",
+            {
+              "asset": "a003"
+            },
+            "设平面 $AEC$ 的法向量为 $\\boldsymbol{m}=(x,y,z)$，",
+            "则 $\\begin{cases}\\boldsymbol{m}\\cdot\\overrightarrow{AC}=0,\\\\\\boldsymbol{m}\\cdot\\overrightarrow{AE}=0,\\end{cases}$ 即 $\\begin{cases}\\sqrt{3}y=0,\\\\-\\frac{1}{2}x+\\frac{\\sqrt{3}}{2}y+\\frac{1}{2}z=0.\\end{cases}$",
+            "令 $x=1$，则 $z=1$．于是 $\\boldsymbol{m}=(1,0,1)$．…… 10分",
+            "设平面 $PAE$ 的法向量为 $\\boldsymbol{n}=(x_1,y_1,z_1)$，",
+            "则 $\\begin{cases}\\boldsymbol{n}\\cdot\\overrightarrow{AP}=0,\\\\\\boldsymbol{n}\\cdot\\overrightarrow{AE}=0,\\end{cases}$ 即 $\\begin{cases}z_1=0,\\\\-\\frac{1}{2}x_1+\\frac{\\sqrt{3}}{2}y_1+\\frac{1}{2}z_1=0.\\end{cases}$",
+            "令 $y_1=1$，则 $x_1=\\sqrt{3}$．于是 $\\boldsymbol{n}=(\\sqrt{3},1,0)$．…… 12分",
+            "因为 $\\cos\\langle\\boldsymbol{m},\\boldsymbol{n}\\rangle=\\frac{\\boldsymbol{m}\\cdot\\boldsymbol{n}}{|\\boldsymbol{m}||\\boldsymbol{n}|}=\\frac{\\sqrt{6}}{4}$，",
+            "所以平面 $PAE$ 与平面 $AEC$ 夹角的余弦值为 $\\frac{\\sqrt{6}}{4}$．…… 14分",
+            "选择条件③：",
+            "在 $\\triangle ABC$ 中，由 $AB\\perp AC$，$AB=1$，$BC=2$，得 $AC=\\sqrt{3}$．",
+            "又因为 $\\triangle ABC\\cong\\triangle APC$，$PA=AB=1$，$AC$ 为两个三角形的公共边，",
+            "所以 $\\angle PAC=\\angle BAC=90^{\\circ}$，即 $PA\\perp AC$，",
+            "故 $PA,AB,AC$ 两两垂直．…… 7分",
+            "以下与选择条件②相同，略．"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "（18）",
+      "type": "composite",
+      "score": 13,
+      "pages": [
+        5
+      ],
+      "materials": [
+        "m001",
+        "m004"
+      ],
+      "stem": [
+        "某市图书馆为了解馆内图书借阅情况，随机对馆内的部分读者进行了为期一年的跟踪调查，得到下表数据，其中部分数据意外缺失，分别用字母 $a,b,c,d$（$abcd>0$）表示．",
+        {
+          "table": {
+            "caption": "某类读者图书借阅量分类占比情况",
+            "header": [
+              "读者类型",
+              "调查人数",
+              "年人均借阅量（册）",
+              "文学类",
+              "科技类",
+              "教辅类",
+              "社科类",
+              "其他"
+            ],
+            "rows": [
+              [
+                "在职人员",
+                "600",
+                "18.5",
+                "35%",
+                "25%",
+                "10%",
+                "20%",
+                "10%"
+              ],
+              [
+                "大学生",
+                "800",
+                "24.3",
+                "30%",
+                "40%",
+                "13%",
+                "$a$",
+                "$b$"
+              ],
+              [
+                "中学生",
+                "500",
+                "15.2",
+                "25%",
+                "20%",
+                "40%",
+                "$c$",
+                "$d$"
+              ]
+            ]
+          }
+        },
+        "假设每位读者的每次借阅情况互不影响．用频率估计概率．"
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "short_answer",
+          "stem": "在参与调查的读者中，比较这一年里“在职人员”借阅的文学类图书量与“中学生”借阅的教辅类图书量的大小，说明理由；",
+          "answer": {
+            "source": "question_document",
+            "content": "“在职人员”借阅的文学类图书量比“中学生”借阅的教辅类图书量大．"
+          },
+          "analysis": [
+            "解：（Ⅰ）“在职人员”借阅的文学类图书量 $X=600\\times 18.5\\times 35\\%=3885$（册）；",
+            "“中学生”借阅的教辅类图书量 $Y=500\\times 15.2\\times 40\\%=3040$（册）．",
+            "由 $X>Y$，得“在职人员”借阅的文学类图书量比“中学生”借阅的教辅类图书量大．…… 4分"
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "short_answer",
+          "stem": "在该市图书馆的所有读者中随机选出 2 名大学生和 1 名中学生，已知这 3 人每人借阅了 1 册书，估计所借的 3 册书中至少有 2 册为科技类图书的概率；",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\frac{32}{125}$"
+          },
+          "analysis": [
+            "（Ⅱ）记选出的 2 名大学生为甲、乙，设事件“甲借阅了科技类图书”为 $A$，事件“乙借阅了科技类图书”为 $B$，事件“选出的中学生借阅了科技类图书”为 $C$，事件“所借的 3 册书中至少有 2 册为科技类图书”为 $Z$，",
+            "由题意，$P(A)$ 和 $P(B)$ 均可估计为 $40\\%=\\frac{2}{5}$，$P(C)$ 可估计为 $20\\%=\\frac{1}{5}$，…… 7分",
+            "则 $P(Z)=P(AB\\bar{C})+P(\\bar{A}BC)+P(A\\bar{B}C)+P(ABC)$",
+            "$=\\frac{2}{5}\\times\\frac{2}{5}\\times\\frac{4}{5}+2\\times\\frac{2}{5}\\times\\frac{3}{5}\\times\\frac{1}{5}+\\frac{2}{5}\\times\\frac{2}{5}\\times\\frac{1}{5}$",
+            "$=\\frac{32}{125}$．",
+            "故估计所借的 3 册书中至少有 2 册为科技类图书的概率为 $\\frac{32}{125}$．…… 10分"
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（Ⅲ）",
+          "type": "short_answer",
+          "stem": "为分析同一类读者的偏好，市图书馆将图书借阅量分类占比的平均差 $M=\\frac{1}{n}\\sum_{i=1}^{n}|x_i-\\bar{x}|$ 定义为该类读者的“偏好度”，其中 $x_i$ 为其图书借阅量分类占比值，$\\bar{x}$ 为所有 $x_i$ 的均值，$n$ 为图书的类别个数．记“在职人员”、“大学生”和“中学生”的“偏好度”分别为 $M_1,M_2,M_3$，写出这三个“偏好度”的大小关系．（结论不要求证明）",
+          "answer": {
+            "source": "question_document",
+            "content": "$M_1<M_3<M_2$"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "（19）",
+      "type": "composite",
+      "score": 15,
+      "pages": [
+        5
+      ],
+      "materials": [
+        "m001",
+        "m004"
+      ],
+      "stem": "已知椭圆 $E: \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$ 的右顶点为 $A$，下顶点为 $B$，左右焦点分别为 $F_1,F_2$，且 $\\angle F_1BF_2=\\frac{2\\pi}{3}$，圆 $W: x^2+y^2=1$ 经过点 $B$．$O$ 为坐标原点．",
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "求椭圆 $E$ 的方程；",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\frac{x^2}{4}+y^2=1$"
+          },
+          "analysis": [
+            "解：（Ⅰ）由圆 $W: x^2+y^2=1$ 经过下顶点 $B$，得 $b=1$．…… 1分",
+            "由 $\\angle F_1BF_2=\\frac{2\\pi}{3}$，得 $\\angle F_1BO=\\frac{\\pi}{3}$，故 $c=\\sqrt{3}b=\\sqrt{3}$，…… 3分",
+            "所以 $a^2=b^2+c^2=4$．",
+            "故椭圆 $E$ 的方程为 $\\frac{x^2}{4}+y^2=1$．…… 5分"
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "proof",
+          "stem": "设圆 $W$ 的切线 $l$ 与椭圆 $E$ 相交于 $C,D$ 两点，点 $Q(x_0,y_0)(y_0>0)$ 在直线 $l$ 上，且满足 $OQ\\perp OD$，过 $Q$ 作 $QP\\perp y$ 轴于点 $P$，求证：$AP\\parallel BF_1$．",
+          "analysis": [
+            "（Ⅱ）由（Ⅰ），得点 $A(2,0)$，$B(0,-1)$，$F_1(-\\sqrt{3},0)$，",
+            "设切线 $l: y=kx+m$ 或 $x=\\pm 1$．…… 6分",
+            "当切线 $l$ 为 $x=\\pm 1$ 时，$D\\left(\\pm 1,\\frac{\\sqrt{3}}{2}\\right)$，$P\\left(0,\\frac{2\\sqrt{3}}{3}\\right)$，",
+            "则直线 $AP$ 与直线 $BF_1$ 的斜率均等于 $-\\frac{\\sqrt{3}}{3}$，即 $AP\\parallel BF_1$．…… 8分",
+            "当切线 $l: y=kx+m$ 时，",
+            "设 $D(x_0,y_0)$，则 $\\frac{x_0^2}{4}+y_0^2=1$，$y_0=kx_0+m$．…… 9分",
+            "由 $OQ\\perp OD$，直线 $OD$ 的斜率 $k_{OD}=\\frac{y_0}{x_0}$，得直线 $OQ: y=-\\frac{x_0}{y_0}x$．…… 10分",
+            "由直线 $l$ 与圆 $W$ 相切，得 $\\frac{|m|}{\\sqrt{1+k^2}}=1$，即 $m^2=1+k^2$．…… 11分",
+            "由 $\\begin{cases}y=kx+m,\\\\y=-\\frac{x_0}{y_0}x,\\end{cases}$ 得 $y_Q=\\frac{mx_0}{x_0+ky_0}$．…… 12分",
+            "所以 $y_Q^2-\\frac{4}{3}=\\frac{3m^2x_0^2-4(x_0+ky_0)^2}{3(x_0+ky_0)^2}$",
+            "$=\\frac{1}{3(x_0+ky_0)^2}\\times[3m^2x_0^2-4x_0^2-8kx_0(kx_0+m)-4k^2y_0^2]$",
+            "$=\\frac{1}{3(x_0+ky_0)^2}\\times[3m^2x_0^2-4(1+k^2)x_0^2-4(kx_0+m)^2+4m^2-4k^2y_0^2]$",
+            "$=\\frac{1}{3(x_0+ky_0)^2}\\times(-m^2x_0^2-4y_0^2+4m^2-4k^2y_0^2)$",
+            "$=\\frac{m^2(-x_0^2-4y_0^2+4)}{3(x_0+ky_0)^2}$",
+            "$=0$．…… 14分",
+            "故 $y_Q=\\frac{2\\sqrt{3}}{3}$，即点 $P$ 的坐标为 $\\left(0,\\frac{2\\sqrt{3}}{3}\\right)$，",
+            "所以直线 $AP$ 与直线 $BF_1$ 的斜率均等于 $-\\frac{\\sqrt{3}}{3}$，即 $AP\\parallel BF_1$．…… 15分"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q020",
+      "label": "（20）",
+      "type": "composite",
+      "score": 15,
+      "pages": [
+        6
+      ],
+      "materials": [
+        "m001",
+        "m004"
+      ],
+      "stem": "已知函数 $f(x)=x^2\\ln x$，直线 $l$ 为曲线 $y=f(x)$ 在点 $(x_0,f(x_0))$ 处的切线．$O$ 为坐标原点．",
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "求函数 $f(x)$ 的单调区间；",
+          "answer": {
+            "source": "question_document",
+            "content": "单调递减区间为 $\\left(0,\\mathrm{e}^{-\\frac{1}{2}}\\right)$，单调递增区间为 $\\left(\\mathrm{e}^{-\\frac{1}{2}},+\\infty\\right)$"
+          },
+          "analysis": [
+            "解：（Ⅰ）函数 $f(x)$ 的定义域为 $(0,+\\infty)$，",
+            "求导，得 $f'(x)=x(2\\ln x+1)$，…… 3分",
+            "令 $f'(x)=0$，得 $x=\\mathrm{e}^{-\\frac{1}{2}}$．",
+            "当 $x$ 变化时，$f'(x)$ 与 $f(x)$ 的变化情况如下表：",
+            {
+              "table": {
+                "header": [
+                  "$x$",
+                  "$\\left(0,\\mathrm{e}^{-\\frac{1}{2}}\\right)$",
+                  "$\\mathrm{e}^{-\\frac{1}{2}}$",
+                  "$\\left(\\mathrm{e}^{-\\frac{1}{2}},+\\infty\\right)$"
+                ],
+                "rows": [
+                  [
+                    "$f'(x)$",
+                    "$-$",
+                    "$0$",
+                    "$+$"
+                  ],
+                  [
+                    "$f(x)$",
+                    "$\\searrow$",
+                    "极小值",
+                    "$\\nearrow$"
+                  ]
+                ]
+              }
+            },
+            "所以函数 $f(x)$ 的单调递减区间为 $\\left(0,\\mathrm{e}^{-\\frac{1}{2}}\\right)$，单调递增区间为 $\\left(\\mathrm{e}^{-\\frac{1}{2}},+\\infty\\right)$．…… 5分"
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": "设 $g(x)=f(x)+x$，研究函数 $g(x)$ 的零点个数；",
+          "answer": {
+            "source": "question_document",
+            "content": "函数 $g(x)$ 无零点．"
+          },
+          "analysis": [
+            "（Ⅱ）由 $g(x)=x^2\\ln x+x=x(x\\ln x+1)$，且 $x>0$，知只需研究 $h(x)=x\\ln x+1$ 的零点个数．",
+            "求导，得 $h'(x)=\\ln x+1$．令 $h'(x)=0$，解得 $x=\\frac{1}{\\mathrm{e}}$．…… 8分",
+            "当 $x$ 变化时，$h'(x)$ 与 $h(x)$ 的变化情况如下表：",
+            {
+              "table": {
+                "header": [
+                  "$x$",
+                  "$\\left(0,\\frac{1}{\\mathrm{e}}\\right)$",
+                  "$\\frac{1}{\\mathrm{e}}$",
+                  "$\\left(\\frac{1}{\\mathrm{e}},+\\infty\\right)$"
+                ],
+                "rows": [
+                  [
+                    "$h'(x)$",
+                    "$-$",
+                    "$0$",
+                    "$+$"
+                  ],
+                  [
+                    "$h(x)$",
+                    "$\\searrow$",
+                    "极小值",
+                    "$\\nearrow$"
+                  ]
+                ]
+              }
+            },
+            "所以函数 $h(x)$ 在 $\\left(0,\\frac{1}{\\mathrm{e}}\\right)$ 上单调递减，在 $\\left(\\frac{1}{\\mathrm{e}},+\\infty\\right)$ 上单调递增．",
+            "所以 $h(x)_{\\min}=h\\left(\\frac{1}{\\mathrm{e}}\\right)=-\\frac{1}{\\mathrm{e}}+1>0$．",
+            "故函数 $h(x)$ 不存在零点．",
+            "所以函数 $g(x)$ 无零点．…… 10分"
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（Ⅲ）",
+          "type": "calculation",
+          "stem": "若 $l$ 与 $x$ 轴、$y$ 轴分别交于点 $A,B$，且 $\\triangle OAB$ 为等腰直角三角形，求 $\\triangle OAB$ 的面积．",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\frac{1}{2}$"
+          },
+          "analysis": [
+            "（Ⅲ）由 $\\triangle OAB$ 为等腰直角三角形，得 $l$ 的斜率 $f'(x_0)=x_0(2\\ln x_0+1)=\\pm 1$．…… 11分",
+            "设函数 $m(x)=x(2\\ln x+1)$，其中 $x>0$，",
+            "求导，得 $m'(x)=2\\ln x+3$．",
+            "由 $m'(x)>0$，解得 $x>\\mathrm{e}^{-\\frac{3}{2}}$，故 $m(x)$ 在区间 $\\left(\\mathrm{e}^{-\\frac{3}{2}},+\\infty\\right)$ 上单调递增；",
+            "由 $m'(x)<0$，解得 $0<x<\\mathrm{e}^{-\\frac{3}{2}}$，故 $m(x)$ 在区间 $\\left(0,\\mathrm{e}^{-\\frac{3}{2}}\\right)$ 上单调递减．",
+            "所以 $m(x)_{\\min}=m\\left(\\mathrm{e}^{-\\frac{3}{2}}\\right)=-2\\mathrm{e}^{-\\frac{3}{2}}\\in(-1,0)$．…… 12分",
+            "所以方程 $m(x)=-1$ 无解，即不存在 $x_0$，使得 $f'(x_0)=-1$．",
+            "又因为当 $0<x<\\mathrm{e}^{-\\frac{3}{2}}$ 时，$m(x)=x(2\\ln x+1)<x\\left(2\\ln\\mathrm{e}^{-\\frac{3}{2}}+1\\right)=-2x\\in(-1,0)$．",
+            "所以方程 $m(x)=1$ 至多存在一个解，且此解在区间 $\\left(\\mathrm{e}^{-\\frac{3}{2}},+\\infty\\right)$ 内．",
+            "由 $m(1)=1$，得当且仅当 $x_0=1$ 时，$f'(x_0)=1$；",
+            "由 $f(1)=0$，得切线 $l$ 的方程为 $y=x-1$．",
+            "所以 $l$ 与 $x$ 轴、$y$ 轴分别交于点 $A(1,0)$，$B(0,-1)$，",
+            "故 $\\triangle OAB$ 的面积为 $\\frac{1}{2}$．…… 15分"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q021",
+      "label": "（21）",
+      "type": "composite",
+      "score": 15,
+      "pages": [
+        6
+      ],
+      "materials": [
+        "m001",
+        "m004"
+      ],
+      "stem": [
+        "对任意无穷数列 $\\{a_n\\}$，定义从 $a_i$ 起连续 $k$ 项的和 $S_k(i)$ 为：",
+        "$$S_k(i)=a_i+a_{i+1}+\\cdots+a_{i+k-1},$$",
+        "其中 $k,i$ 为任意正整数．",
+        "若无穷数列 $\\{a_n\\}$ 满足：对任意 $n\\in\\mathbf{N}^*$ 和 $l\\in\\mathbf{N}^*$，存在 $m\\in\\{n+1,n+2,n+3,n+4\\}$，使得 $S_l(n)=S_l(m)$，则称数列 $\\{a_n\\}$ 具有性质 $T$．"
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "short_answer",
+          "stem": "设 $b_n=\\sin\\frac{n\\pi}{2}$，其中 $n\\in\\mathbf{N}^*$．判断数列 $\\{b_n\\}$ 是否具有性质 $T$？说明理由；",
+          "answer": {
+            "source": "question_document",
+            "content": "数列 $\\{b_n\\}$ 具有性质 $T$．"
+          },
+          "analysis": [
+            "解：（Ⅰ）数列 $\\{b_n\\}$ 具有性质 $T$．…… 2分",
+            "理由如下：",
+            "数列 $\\{b_n\\}$ 满足 $b_{4k+1}=1$，$b_{4k+2}=0$，$b_{4k+3}=-1$，$b_{4k+4}=0$，其中 $k\\in\\mathbf{N}$，即 $\\{b_n\\}$ 是周期为 4 的周期数列．",
+            "所以对任意 $n\\in\\mathbf{N}^*$ 和 $l\\in\\mathbf{N}^*$，当 $m=n+4$ 时，$S_l(n)=S_l(m)$．",
+            "故数列 $\\{b_n\\}$ 具有性质 $T$．…… 4分"
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "composite",
+          "stem": "已知数列 $\\{a_n\\}$ 具有性质 $T$，",
+          "parts": [
+            {
+              "id": "p1",
+              "label": "（i）",
+              "type": "short_answer",
+              "stem": "求集合 $\\{u\\mid u=a_n,n\\in\\mathbf{N}^*\\}$ 中元素个数的最大值；",
+              "answer": {
+                "source": "question_document",
+                "content": "$4$"
+              },
+              "analysis": [
+                "（Ⅱ）（i）取 $n=1,l=1$，由性质 $T$ 得：存在 $m\\in\\{2,3,4,5\\}$，使得 $a_m=a_1$．",
+                "同理，取 $n=m,l=1$，由性质 $T$ 得：存在 $k\\in\\{m+1,m+2,m+3,m+4\\}$，使得 $a_m=a_k=a_1$．",
+                "以此类推，得数列 $\\{a_n\\}$ 中任意连续 4 项中，必有一项的值等于 $a_1$．…… 6分",
+                "同理，得对于数列中的每一项 $a_n$，$a_n$ 之后的任意连续 4 项中，必有一项的值等于 $a_n$．",
+                "假设 $\\{a_n\\}$ 的取值超过 4 个，不妨设有 5 个值不同的项 $a_{i_1},a_{i_2},a_{i_3},a_{i_4},a_{i_5}$（$i_1<i_2<i_3<i_4<i_5$），",
+                "由上述结论，知在 $a_{i_5}$ 之后的连续 4 项中，这 5 个不同值都会出现，这是不可能的．",
+                "所以 $\\{a_n\\}$ 中至多只有 4 个不同的取值．…… 8分",
+                "又因为周期数列：$1,2,3,4,1,2,3,4,\\cdots,1,2,3,4,\\cdots$ 具有性质 $T$，",
+                "所以集合 $\\{u\\mid u=a_n,n\\in\\mathbf{N}^*\\}$ 中元素个数的最大值为 4．…… 9分"
+              ]
+            },
+            {
+              "id": "p2",
+              "label": "（ii）",
+              "type": "proof",
+              "stem": "证明：存在正整数 $t$，对任意 $k\\in\\{1,2,3,\\cdots,2026\\}$，有 $a_{k+t}=a_k$．",
+              "analysis": [
+                "（ii）考察由连续 4 项构成的数组 $A(n)=(a_n,a_{n+1},a_{n+2},a_{n+3})$，",
+                "由（i），知 $a_n$ 的取值不超过 4 个，故这样的数组个数不超过 $4^4=256$．",
+                "所以在 $A(2026),A(2027),\\cdots,A(2026+256)$ 这 257 个数组中至少存在两个相同的，即",
+                "存在 $n,t$，满足 $A(n)=A(n+t)$，其中 $n\\geqslant 2026$，$t\\geqslant 1$．…… 12分",
+                "以下证明：若 $A(n)=A(n+t)$，则 $A(n-1)=A(n+t-1)$，即证 $a_{n-1}=a_{n+t-1}$．",
+                "由性质 $T$，知存在 $i\\in\\{0,1,2,3\\}$，使得 $a_{n-1}+a_n+\\cdots+a_{n-1+t-1}=a_{n+i}+a_{n+i+1}+\\cdots+a_{n+i+t-1}$．",
+                "① 若 $n-1+t-1\\geqslant n+i$，即 $t\\geqslant i+2$ 时，去掉上述等式两边的公共项，得",
+                "$a_{n-1}+a_n+\\cdots+a_{n+i-1}=a_{n+t-1}+a_{n+t}+\\cdots+a_{n+i+t-1}$．",
+                "若 $i=0$，上式即为 $a_{n-1}=a_{n+t-1}$．",
+                "若 $i>0$，由 $A(n)=A(n+t)$，知 $a_n+\\cdots+a_{n+i-1}=a_{n+t}+\\cdots+a_{n+i+t-1}$，所以 $a_{n-1}=a_{n+t-1}$．",
+                "② 若 $t<i+2$，因为 $i\\leqslant 3$，所以 $t\\leqslant 4$．",
+                "当 $t=1$ 时，由 $A(n)=A(n+1)$，得 $a_n=a_{n+1}=a_{n+2}=a_{n+3}=a_{n+4}$，记其值为 $a$，由性质 $T$ 知，$a_{n-1}$ 在其后四项出现，所以 $a_{n-1}=a=a_n$；",
+                "当 $t=2$ 时，由 $A(n)=A(n+2)$，得 $a_n=a_{n+2}=a_{n+4}$，$a_{n+1}=a_{n+3}=a_{n+5}$，分别记其值为 $a,b$，由性质 $T$，知 $a_{n-1}+a_n=a+b$，所以 $a_{n-1}=b=a_{n+1}$；",
+                "同理，得当 $t=3,4$ 时，均有 $a_{n-1}=a_{n+t-1}$．",
+                "综上，可推导出 $a_{n-1}=a_{n+t-1}$．",
+                "从而由 $A(n)=A(n+t)$，得 $A(n-1)=A(n+t-1)$，即得 $a_{n-1}=a_{n+t-1}$．",
+                "进而得到 $A(n-2)=A(n+t-2),\\cdots,A(1)=A(1+t)$，",
+                "所以存在正整数 $t$，对任意 $k\\in\\{1,2,3,\\cdots,2026\\}$，有 $a_{k+t}=a_k$．…… 15分"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

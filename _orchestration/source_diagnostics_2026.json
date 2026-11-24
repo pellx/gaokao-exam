@@ -1,0 +1,4265 @@
+[
+  {
+    "entry_key": "2026|零模|北京二中|语文|",
+    "sequence": 1,
+    "sources": [
+      {
+        "file": "raw/语文/2026/零模/chinese-2026-mock0-dongcheng.docx",
+        "bytes": 35068,
+        "media_files": 0,
+        "xml_bytes": 135460
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|零模|北师大实验中学|数学|",
+    "sequence": 10,
+    "sources": [
+      {
+        "file": "raw/数学/2026/零模/math-2026-mock0-xicheng.pdf",
+        "bytes": 1253770,
+        "pages": 5,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 9,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|零模|北师大实验中学|化学|",
+    "sequence": 11,
+    "sources": [
+      {
+        "file": "raw/化学/2026/零模/chemistry-2026-mock0-xicheng.pdf",
+        "bytes": 1922855,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|零模|八十中|物理|",
+    "sequence": 12,
+    "sources": [
+      {
+        "file": "raw/物理/2026/零模/physics-2026-mock0-chaoyang.docx",
+        "bytes": 11130897,
+        "media_files": 200,
+        "xml_bytes": 400882
+      },
+      {
+        "file": "raw/物理/2026/零模/physics-2026-mock0-chaoyang.pdf",
+        "bytes": 3101349,
+        "pages": 17,
+        "encrypted": false,
+        "text_chars": 11946,
+        "embedded_images": 31,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|东城|语文|",
+    "sequence": 13,
+    "sources": [
+      {
+        "file": "raw/语文/2026/一模/chinese-2026-mock1-dongcheng.pdf",
+        "bytes": 2611375,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 12900,
+        "embedded_images": 13,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|东城|数学|",
+    "sequence": 14,
+    "sources": [
+      {
+        "file": "raw/数学/2026/一模/math-2026-mock1-dongcheng.pdf",
+        "bytes": 4510765,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|东城|英语|",
+    "sequence": 15,
+    "sources": [
+      {
+        "file": "raw/英语/2026/一模/english-2026-mock1-dongcheng.pdf",
+        "bytes": 4450164,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 29,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|东城|物理|",
+    "sequence": 16,
+    "sources": [
+      {
+        "file": "raw/物理/2026/一模/physics-2026-mock1-dongcheng.pdf",
+        "bytes": 13418344,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 29,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|东城|化学|",
+    "sequence": 17,
+    "sources": [
+      {
+        "file": "raw/化学/2026/一模/chemistry-2026-mock1-dongcheng.pdf",
+        "bytes": 12942551,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 27,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|东城|生物|",
+    "sequence": 18,
+    "sources": [
+      {
+        "file": "raw/生物/2026/一模/biology-2026-mock1-dongcheng.pdf",
+        "bytes": 4218595,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 27,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|东城|政治|",
+    "sequence": 19,
+    "sources": [
+      {
+        "file": "raw/政治/2026/一模/politics-2026-mock1-dongcheng.pdf",
+        "bytes": 2932689,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 8816,
+        "embedded_images": 19,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|东城|历史|",
+    "sequence": 20,
+    "sources": [
+      {
+        "file": "raw/历史/2026/一模/history-2026-mock1-dongcheng.pdf",
+        "bytes": 12366639,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 23,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|东城|地理|",
+    "sequence": 21,
+    "sources": [
+      {
+        "file": "raw/地理/2026/一模/geography-2026-mock1-dongcheng.pdf",
+        "bytes": 14263009,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|西城|语文|",
+    "sequence": 22,
+    "sources": [
+      {
+        "file": "raw/语文/2026/一模/chinese-2026-mock1-xicheng.pdf",
+        "bytes": 3543852,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 0,
+        "embedded_images": 24,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|西城|数学|",
+    "sequence": 23,
+    "sources": [
+      {
+        "file": "raw/数学/2026/一模/math-2026-mock1-xicheng.pdf",
+        "bytes": 3383738,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 29,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|西城|英语|",
+    "sequence": 24,
+    "sources": [
+      {
+        "file": "raw/英语/2026/一模/english-2026-mock1-xicheng.pdf",
+        "bytes": 18820954,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 29,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|西城|物理|",
+    "sequence": 25,
+    "sources": [
+      {
+        "file": "raw/物理/2026/一模/physics-2026-mock1-xicheng.pdf",
+        "bytes": 9843451,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|西城|化学|",
+    "sequence": 26,
+    "sources": [
+      {
+        "file": "raw/化学/2026/一模/chemistry-2026-mock1-xicheng.pdf",
+        "bytes": 11985505,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|西城|生物|",
+    "sequence": 27,
+    "sources": [
+      {
+        "file": "raw/生物/2026/一模/biology-2026-mock1-xicheng.pdf",
+        "bytes": 3684727,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|西城|政治|",
+    "sequence": 28,
+    "sources": [
+      {
+        "file": "raw/政治/2026/一模/politics-2026-mock1-xicheng.pdf",
+        "bytes": 4360474,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 23,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|西城|历史|",
+    "sequence": 29,
+    "sources": [
+      {
+        "file": "raw/历史/2026/一模/history-2026-mock1-xicheng.pdf",
+        "bytes": 8077252,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 23,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|西城|地理|",
+    "sequence": 30,
+    "sources": [
+      {
+        "file": "raw/地理/2026/一模/geography-2026-mock1-xicheng.pdf",
+        "bytes": 12063614,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 23,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|朝阳|语文|",
+    "sequence": 31,
+    "sources": [
+      {
+        "file": "raw/语文/2026/一模/chinese-2026-mock1-chaoyang.pdf",
+        "bytes": 1301350,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 14288,
+        "embedded_images": 14,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|朝阳|数学|",
+    "sequence": 32,
+    "sources": [
+      {
+        "file": "raw/数学/2026/一模/math-2026-mock1-chaoyang.pdf",
+        "bytes": 2163162,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 13064,
+        "embedded_images": 14,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|朝阳|英语|",
+    "sequence": 33,
+    "sources": [
+      {
+        "file": "raw/英语/2026/一模/english-2026-mock1-chaoyang.pdf",
+        "bytes": 1747380,
+        "pages": 9,
+        "encrypted": false,
+        "text_chars": 23149,
+        "embedded_images": 9,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|朝阳|物理|",
+    "sequence": 34,
+    "sources": [
+      {
+        "file": "raw/物理/2026/一模/physics-2026-mock1-chaoyang.pdf",
+        "bytes": 5028900,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 15,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|朝阳|化学|",
+    "sequence": 35,
+    "sources": [
+      {
+        "file": "raw/化学/2026/一模/chemistry-2026-mock1-chaoyang.pdf",
+        "bytes": 10523123,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 1537,
+        "embedded_images": 24,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|朝阳|生物|",
+    "sequence": 36,
+    "sources": [
+      {
+        "file": "raw/生物/2026/一模/biology-2026-mock1-chaoyang.pdf",
+        "bytes": 2239644,
+        "pages": 19,
+        "encrypted": false,
+        "text_chars": 13026,
+        "embedded_images": 34,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|朝阳|政治|",
+    "sequence": 37,
+    "sources": [
+      {
+        "file": "raw/政治/2026/一模/politics-2026-mock1-chaoyang.pdf",
+        "bytes": 2021052,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 14216,
+        "embedded_images": 14,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|朝阳|历史|",
+    "sequence": 38,
+    "sources": [
+      {
+        "file": "raw/历史/2026/一模/history-2026-mock1-chaoyang.pdf",
+        "bytes": 8023873,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 12,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|朝阳|地理|",
+    "sequence": 39,
+    "sources": [
+      {
+        "file": "raw/地理/2026/一模/geography-2026-mock1-chaoyang.pdf",
+        "bytes": 2647466,
+        "pages": 10,
+        "encrypted": false,
+        "text_chars": 4725,
+        "embedded_images": 23,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|海淀|语文|",
+    "sequence": 40,
+    "sources": [
+      {
+        "file": "raw/语文/2026/一模/chinese-2026-mock1-haidian.pdf",
+        "bytes": 8883680,
+        "pages": 16,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 16,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|海淀|数学|",
+    "sequence": 41,
+    "sources": [
+      {
+        "file": "raw/数学/2026/一模/math-2026-mock1-haidian.pdf",
+        "bytes": 2745657,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 13037,
+        "embedded_images": 15,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|海淀|英语|",
+    "sequence": 42,
+    "sources": [
+      {
+        "file": "raw/英语/2026/一模/english-2026-mock1-haidian.pdf",
+        "bytes": 3901254,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 21,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|海淀|物理|",
+    "sequence": 43,
+    "sources": [
+      {
+        "file": "raw/物理/2026/一模/physics-2026-mock1-haidian.pdf",
+        "bytes": 13815437,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|海淀|化学|",
+    "sequence": 44,
+    "sources": [
+      {
+        "file": "raw/化学/2026/一模/chemistry-2026-mock1-haidian.pdf",
+        "bytes": 4582496,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|海淀|生物|",
+    "sequence": 45,
+    "sources": [
+      {
+        "file": "raw/生物/2026/一模/biology-2026-mock1-haidian.pdf",
+        "bytes": 4948828,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 27,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|海淀|政治|",
+    "sequence": 46,
+    "sources": [
+      {
+        "file": "raw/政治/2026/一模/politics-2026-mock1-haidian.pdf",
+        "bytes": 11757999,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 21,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|海淀|历史|",
+    "sequence": 47,
+    "sources": [
+      {
+        "file": "raw/历史/2026/一模/history-2026-mock1-haidian.pdf",
+        "bytes": 10678440,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 21,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|海淀|地理|",
+    "sequence": 48,
+    "sources": [
+      {
+        "file": "raw/地理/2026/一模/geography-2026-mock1-haidian.pdf",
+        "bytes": 2848454,
+        "pages": 10,
+        "encrypted": false,
+        "text_chars": 6791,
+        "embedded_images": 21,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|丰台|语文|",
+    "sequence": 49,
+    "sources": [
+      {
+        "file": "raw/语文/2026/一模/chinese-2026-mock1-fengtai.pdf",
+        "bytes": 1680465,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 12834,
+        "embedded_images": 12,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|丰台|数学|",
+    "sequence": 50,
+    "sources": [
+      {
+        "file": "raw/数学/2026/一模/math-2026-mock1-fengtai.pdf",
+        "bytes": 7022197,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|丰台|英语|",
+    "sequence": 51,
+    "sources": [
+      {
+        "file": "raw/英语/2026/一模/english-2026-mock1-fengtai.pdf",
+        "bytes": 3568542,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 27,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|丰台|物理|",
+    "sequence": 52,
+    "sources": [
+      {
+        "file": "raw/物理/2026/一模/physics-2026-mock1-fengtai.pdf",
+        "bytes": 6489549,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 23,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|丰台|化学|",
+    "sequence": 53,
+    "sources": [
+      {
+        "file": "raw/化学/2026/一模/chemistry-2026-mock1-fengtai.pdf",
+        "bytes": 4253647,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|丰台|生物|",
+    "sequence": 54,
+    "sources": [
+      {
+        "file": "raw/生物/2026/一模/biology-2026-mock1-fengtai.pdf",
+        "bytes": 12571191,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 27,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|丰台|政治|",
+    "sequence": 55,
+    "sources": [
+      {
+        "file": "raw/政治/2026/一模/politics-2026-mock1-fengtai.pdf",
+        "bytes": 1919129,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 9882,
+        "embedded_images": 18,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|丰台|历史|",
+    "sequence": 56,
+    "sources": [
+      {
+        "file": "raw/历史/2026/一模/history-2026-mock1-fengtai.pdf",
+        "bytes": 1588809,
+        "pages": 9,
+        "encrypted": false,
+        "text_chars": 9842,
+        "embedded_images": 13,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|丰台|地理|",
+    "sequence": 57,
+    "sources": [
+      {
+        "file": "raw/地理/2026/一模/geography-2026-mock1-fengtai.pdf",
+        "bytes": 1675987,
+        "pages": 16,
+        "encrypted": false,
+        "text_chars": 0,
+        "embedded_images": 16,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|石景山|语文|",
+    "sequence": 58,
+    "sources": [
+      {
+        "file": "raw/语文/2026/一模/chinese-2026-mock1-shijingshan.pdf",
+        "bytes": 4745454,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 12,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|石景山|数学|",
+    "sequence": 59,
+    "sources": [
+      {
+        "file": "raw/数学/2026/一模/math-2026-mock1-shijingshan.pdf",
+        "bytes": 1813846,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 13122,
+        "embedded_images": 4,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|石景山|英语|",
+    "sequence": 60,
+    "sources": [
+      {
+        "file": "raw/英语/2026/一模/english-2026-mock1-shijingshan.pdf",
+        "bytes": 10606305,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 15,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|石景山|物理|",
+    "sequence": 61,
+    "sources": [
+      {
+        "file": "raw/物理/2026/一模/physics-2026-mock1-shijingshan.pdf",
+        "bytes": 9070039,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|石景山|化学|",
+    "sequence": 62,
+    "sources": [
+      {
+        "file": "raw/化学/2026/一模/chemistry-2026-mock1-shijingshan.pdf",
+        "bytes": 10085497,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 2250,
+        "embedded_images": 26,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|石景山|生物|",
+    "sequence": 63,
+    "sources": [
+      {
+        "file": "raw/生物/2026/一模/biology-2026-mock1-shijingshan.pdf",
+        "bytes": 11054689,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|石景山|政治|",
+    "sequence": 64,
+    "sources": [
+      {
+        "file": "raw/政治/2026/一模/politics-2026-mock1-shijingshan.pdf",
+        "bytes": 11812377,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 3099,
+        "embedded_images": 24,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|石景山|历史|",
+    "sequence": 65,
+    "sources": [
+      {
+        "file": "raw/历史/2026/一模/history-2026-mock1-shijingshan.pdf",
+        "bytes": 7617847,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 12,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|石景山|地理|",
+    "sequence": 66,
+    "sources": [
+      {
+        "file": "raw/地理/2026/一模/geography-2026-mock1-shijingshan.pdf",
+        "bytes": 5757284,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|通州|物理|",
+    "sequence": 67,
+    "sources": [
+      {
+        "file": "raw/物理/2026/一模/physics-2026-mock1-tongzhou.pdf",
+        "bytes": 4277432,
+        "pages": 8,
+        "encrypted": false,
+        "text_chars": 0,
+        "embedded_images": 16,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|顺义|语文|",
+    "sequence": 68,
+    "sources": [
+      {
+        "file": "raw/语文/2026/一模/chinese-2026-mock1-shunyi.pdf",
+        "bytes": 1602400,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 12694,
+        "embedded_images": 12,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|顺义|数学|",
+    "sequence": 69,
+    "sources": [
+      {
+        "file": "raw/数学/2026/一模/math-2026-mock1-shunyi.pdf",
+        "bytes": 2494696,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 29,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|顺义|英语|",
+    "sequence": 70,
+    "sources": [
+      {
+        "file": "raw/英语/2026/一模/english-2026-mock1-shunyi.pdf",
+        "bytes": 3660815,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 15,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|顺义|物理|",
+    "sequence": 71,
+    "sources": [
+      {
+        "file": "raw/物理/2026/一模/physics-2026-mock1-shunyi.pdf",
+        "bytes": 9013841,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|顺义|化学|",
+    "sequence": 72,
+    "sources": [
+      {
+        "file": "raw/化学/2026/一模/chemistry-2026-mock1-shunyi.pdf",
+        "bytes": 11504097,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 14,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|顺义|生物|",
+    "sequence": 73,
+    "sources": [
+      {
+        "file": "raw/生物/2026/一模/biology-2026-mock1-shunyi.pdf",
+        "bytes": 12353992,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|顺义|政治|",
+    "sequence": 74,
+    "sources": [
+      {
+        "file": "raw/政治/2026/一模/politics-2026-mock1-shunyi.pdf",
+        "bytes": 16637602,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 2514,
+        "embedded_images": 27,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|顺义|历史|",
+    "sequence": 75,
+    "sources": [
+      {
+        "file": "raw/历史/2026/一模/history-2026-mock1-shunyi.pdf",
+        "bytes": 10430346,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 12,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|顺义|地理|",
+    "sequence": 76,
+    "sources": [
+      {
+        "file": "raw/地理/2026/一模/geography-2026-mock1-shunyi.pdf",
+        "bytes": 3509210,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 1913,
+        "embedded_images": 24,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|昌平|语文|",
+    "sequence": 77,
+    "sources": [
+      {
+        "file": "raw/语文/2026/一模/chinese-2026-mock1-changping.pdf",
+        "bytes": 5623706,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 14,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|昌平|数学|",
+    "sequence": 78,
+    "sources": [
+      {
+        "file": "raw/数学/2026/一模/math-2026-mock1-changping.pdf",
+        "bytes": 2593644,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 13911,
+        "embedded_images": 11,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|昌平|英语|",
+    "sequence": 79,
+    "sources": [
+      {
+        "file": "raw/英语/2026/一模/english-2026-mock1-changping.pdf",
+        "bytes": 4603285,
+        "pages": 17,
+        "encrypted": false,
+        "text_chars": 5004,
+        "embedded_images": 28,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|昌平|物理|",
+    "sequence": 80,
+    "sources": [
+      {
+        "file": "raw/物理/2026/一模/physics-2026-mock1-changping.pdf",
+        "bytes": 6044607,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 2343,
+        "embedded_images": 20,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|昌平|化学|",
+    "sequence": 81,
+    "sources": [
+      {
+        "file": "raw/化学/2026/一模/chemistry-2026-mock1-changping.pdf",
+        "bytes": 12000814,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|昌平|生物|",
+    "sequence": 82,
+    "sources": [
+      {
+        "file": "raw/生物/2026/一模/biology-2026-mock1-changping.pdf",
+        "bytes": 14313888,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 1708,
+        "embedded_images": 26,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|昌平|政治|",
+    "sequence": 83,
+    "sources": [
+      {
+        "file": "raw/政治/2026/一模/politics-2026-mock1-changping.pdf",
+        "bytes": 2871990,
+        "pages": 18,
+        "encrypted": false,
+        "text_chars": 16820,
+        "embedded_images": 49,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|昌平|历史|",
+    "sequence": 84,
+    "sources": [
+      {
+        "file": "raw/历史/2026/一模/history-2026-mock1-changping.pdf",
+        "bytes": 11830161,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 3364,
+        "embedded_images": 18,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|昌平|地理|",
+    "sequence": 85,
+    "sources": [
+      {
+        "file": "raw/地理/2026/一模/geography-2026-mock1-changping.pdf",
+        "bytes": 7525017,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 2515,
+        "embedded_images": 24,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|房山|语文|",
+    "sequence": 88,
+    "sources": [
+      {
+        "file": "raw/语文/2026/一模/chinese-2026-mock1-fangshan.pdf",
+        "bytes": 15381412,
+        "pages": 16,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 16,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|房山|数学|",
+    "sequence": 89,
+    "sources": [
+      {
+        "file": "raw/数学/2026/一模/math-2026-mock1-fangshan.pdf",
+        "bytes": 3296431,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 11,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|房山|英语|",
+    "sequence": 90,
+    "sources": [
+      {
+        "file": "raw/英语/2026/一模/english-2026-mock1-fangshan.pdf",
+        "bytes": 10233510,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 12,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|房山|物理|",
+    "sequence": 91,
+    "sources": [
+      {
+        "file": "raw/物理/2026/一模/physics-2026-mock1-fangshan.pdf",
+        "bytes": 4924126,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 2674,
+        "embedded_images": 21,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|房山|化学|",
+    "sequence": 92,
+    "sources": [
+      {
+        "file": "raw/化学/2026/一模/chemistry-2026-mock1-fangshan.pdf",
+        "bytes": 9840603,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|房山|生物|",
+    "sequence": 93,
+    "sources": [
+      {
+        "file": "raw/生物/2026/一模/biology-2026-mock1-fangshan.pdf",
+        "bytes": 12231196,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|房山|政治|",
+    "sequence": 94,
+    "sources": [
+      {
+        "file": "raw/政治/2026/一模/politics-2026-mock1-fangshan.pdf",
+        "bytes": 5977757,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 15,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|房山|历史|",
+    "sequence": 95,
+    "sources": [
+      {
+        "file": "raw/历史/2026/一模/history-2026-mock1-fangshan.pdf",
+        "bytes": 16178156,
+        "pages": 16,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 16,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|门头沟|语文|",
+    "sequence": 96,
+    "sources": [
+      {
+        "file": "raw/语文/2026/一模/chinese-2026-mock1-mentougou.pdf",
+        "bytes": 7201247,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 4340,
+        "embedded_images": 25,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|门头沟|数学|",
+    "sequence": 97,
+    "sources": [
+      {
+        "file": "raw/数学/2026/一模/math-2026-mock1-mentougou.pdf",
+        "bytes": 5269875,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 6489,
+        "embedded_images": 22,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|门头沟|英语|",
+    "sequence": 98,
+    "sources": [
+      {
+        "file": "raw/英语/2026/一模/english-2026-mock1-mentougou.pdf",
+        "bytes": 3973626,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 12,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|门头沟|物理|",
+    "sequence": 99,
+    "sources": [
+      {
+        "file": "raw/物理/2026/一模/physics-2026-mock1-mentougou.pdf",
+        "bytes": 5639641,
+        "pages": 17,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 33,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|门头沟|化学|",
+    "sequence": 100,
+    "sources": [
+      {
+        "file": "raw/化学/2026/一模/chemistry-2026-mock1-mentougou.pdf",
+        "bytes": 9360995,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 14,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|门头沟|生物|",
+    "sequence": 101,
+    "sources": [
+      {
+        "file": "raw/生物/2026/一模/biology-2026-mock1-mentougou.pdf",
+        "bytes": 12829686,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 14,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|门头沟|政治|",
+    "sequence": 102,
+    "sources": [
+      {
+        "file": "raw/政治/2026/一模/politics-2026-mock1-mentougou.pdf",
+        "bytes": 2631317,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 10875,
+        "embedded_images": 23,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|门头沟|历史|",
+    "sequence": 103,
+    "sources": [
+      {
+        "file": "raw/历史/2026/一模/history-2026-mock1-mentougou.pdf",
+        "bytes": 2812161,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 11694,
+        "embedded_images": 21,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|门头沟|地理|",
+    "sequence": 104,
+    "sources": [
+      {
+        "file": "raw/地理/2026/一模/geography-2026-mock1-mentougou.pdf",
+        "bytes": 5264804,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 11,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|平谷|语文|",
+    "sequence": 106,
+    "sources": [
+      {
+        "file": "raw/语文/2026/一模/chinese-2026-mock1-pinggu.pdf",
+        "bytes": 5465421,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 14,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|平谷|数学|",
+    "sequence": 107,
+    "sources": [
+      {
+        "file": "raw/数学/2026/一模/math-2026-mock1-pinggu.pdf",
+        "bytes": 6255385,
+        "pages": 16,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 16,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|平谷|历史|",
+    "sequence": 108,
+    "sources": [
+      {
+        "file": "raw/历史/2026/一模/history-2026-mock1-pinggu.pdf",
+        "bytes": 13884337,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 15,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|密云|数学|",
+    "sequence": 109,
+    "sources": [
+      {
+        "file": "raw/数学/2026/一模/math-2026-mock1-miyun.pdf",
+        "bytes": 1867172,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 15338,
+        "embedded_images": 56,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|延庆|语文|",
+    "sequence": 110,
+    "sources": [
+      {
+        "file": "raw/语文/2026/一模/chinese-2026-mock1-yanqing.pdf",
+        "bytes": 1761722,
+        "pages": 21,
+        "encrypted": false,
+        "text_chars": 22793,
+        "embedded_images": 21,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|延庆|数学|",
+    "sequence": 111,
+    "sources": [
+      {
+        "file": "raw/数学/2026/一模/math-2026-mock1-yanqing.pdf",
+        "bytes": 9174165,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|延庆|英语|",
+    "sequence": 112,
+    "sources": [
+      {
+        "file": "raw/英语/2026/一模/english-2026-mock1-yanqing.pdf",
+        "bytes": 7288596,
+        "pages": 20,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 20,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|延庆|物理|",
+    "sequence": 113,
+    "sources": [
+      {
+        "file": "raw/物理/2026/一模/physics-2026-mock1-yanqing.pdf",
+        "bytes": 4001831,
+        "pages": 10,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 10,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|延庆|化学|",
+    "sequence": 114,
+    "sources": [
+      {
+        "file": "raw/化学/2026/一模/chemistry-2026-mock1-yanqing.pdf",
+        "bytes": 4280555,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|延庆|政治|",
+    "sequence": 115,
+    "sources": [
+      {
+        "file": "raw/政治/2026/一模/politics-2026-mock1-yanqing.pdf",
+        "bytes": 1672094,
+        "pages": 10,
+        "encrypted": false,
+        "text_chars": 10435,
+        "embedded_images": 20,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|延庆|历史|",
+    "sequence": 116,
+    "sources": [
+      {
+        "file": "raw/历史/2026/一模/history-2026-mock1-yanqing.pdf",
+        "bytes": 6255367,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 14,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|一模|延庆|地理|",
+    "sequence": 117,
+    "sources": [
+      {
+        "file": "raw/地理/2026/一模/geography-2026-mock1-yanqing.pdf",
+        "bytes": 9132477,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 21,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|东城|语文|",
+    "sequence": 118,
+    "sources": [
+      {
+        "file": "raw/语文/2026/二模/chinese-2026-mock2-dongcheng.pdf",
+        "bytes": 13019550,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 15,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|东城|数学|",
+    "sequence": 119,
+    "sources": [
+      {
+        "file": "raw/数学/2026/二模/math-2026-mock2-dongcheng.pdf",
+        "bytes": 3314983,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|东城|英语|",
+    "sequence": 120,
+    "sources": [
+      {
+        "file": "raw/英语/2026/二模/english-2026-mock2-dongcheng.pdf",
+        "bytes": 12408174,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 14,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|东城|物理|",
+    "sequence": 121,
+    "sources": [
+      {
+        "file": "raw/物理/2026/二模/physics-2026-mock2-dongcheng.pdf",
+        "bytes": 4270164,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 29,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|东城|化学|",
+    "sequence": 122,
+    "sources": [
+      {
+        "file": "raw/化学/2026/二模/chemistry-2026-mock2-dongcheng.pdf",
+        "bytes": 11434518,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|东城|生物|",
+    "sequence": 123,
+    "sources": [
+      {
+        "file": "raw/生物/2026/二模/biology-2026-mock2-dongcheng.pdf",
+        "bytes": 4303826,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|东城|政治|",
+    "sequence": 124,
+    "sources": [
+      {
+        "file": "raw/政治/2026/二模/politics-2026-mock2-dongcheng.pdf",
+        "bytes": 14388653,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 0,
+        "embedded_images": 33,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|东城|历史|",
+    "sequence": 125,
+    "sources": [
+      {
+        "file": "raw/历史/2026/二模/history-2026-mock2-dongcheng.pdf",
+        "bytes": 14042723,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 627,
+        "embedded_images": 24,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|东城|地理|",
+    "sequence": 126,
+    "sources": [
+      {
+        "file": "raw/地理/2026/二模/geography-2026-mock2-dongcheng.pdf",
+        "bytes": 13072877,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 14,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|西城|语文|",
+    "sequence": 127,
+    "sources": [
+      {
+        "file": "raw/语文/2026/二模/chinese-2026-mock2-xicheng.pdf",
+        "bytes": 4984631,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|西城|数学|",
+    "sequence": 128,
+    "sources": [
+      {
+        "file": "raw/数学/2026/二模/math-2026-mock2-xicheng.pdf",
+        "bytes": 2562665,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 13176,
+        "embedded_images": 9,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|西城|英语|",
+    "sequence": 129,
+    "sources": [
+      {
+        "file": "raw/英语/2026/二模/english-2026-mock2-xicheng.pdf",
+        "bytes": 11456909,
+        "pages": 16,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 16,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|西城|物理|",
+    "sequence": 130,
+    "sources": [
+      {
+        "file": "raw/物理/2026/二模/physics-2026-mock2-xicheng.pdf",
+        "bytes": 8853529,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|西城|化学|",
+    "sequence": 131,
+    "sources": [
+      {
+        "file": "raw/化学/2026/二模/chemistry-2026-mock2-xicheng.pdf",
+        "bytes": 8990560,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|西城|生物|",
+    "sequence": 132,
+    "sources": [
+      {
+        "file": "raw/生物/2026/二模/biology-2026-mock2-xicheng.pdf",
+        "bytes": 8619666,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|西城|政治|",
+    "sequence": 133,
+    "sources": [
+      {
+        "file": "raw/政治/2026/二模/politics-2026-mock2-xicheng.pdf",
+        "bytes": 19131295,
+        "pages": 10,
+        "encrypted": false,
+        "text_chars": 1888,
+        "embedded_images": 28,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|西城|历史|",
+    "sequence": 134,
+    "sources": [
+      {
+        "file": "raw/历史/2026/二模/history-2026-mock2-xicheng.pdf",
+        "bytes": 11890500,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 3063,
+        "embedded_images": 19,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|西城|地理|",
+    "sequence": 135,
+    "sources": [
+      {
+        "file": "raw/地理/2026/二模/geography-2026-mock2-xicheng.pdf",
+        "bytes": 3072143,
+        "pages": 10,
+        "encrypted": false,
+        "text_chars": 5440,
+        "embedded_images": 21,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|朝阳|语文|",
+    "sequence": 136,
+    "sources": [
+      {
+        "file": "raw/语文/2026/二模/chinese-2026-mock2-chaoyang.pdf",
+        "bytes": 2634210,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 14022,
+        "embedded_images": 23,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|朝阳|数学|",
+    "sequence": 137,
+    "sources": [
+      {
+        "file": "raw/数学/2026/二模/math-2026-mock2-chaoyang.pdf",
+        "bytes": 4847205,
+        "pages": 18,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 18,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|朝阳|英语|",
+    "sequence": 138,
+    "sources": [
+      {
+        "file": "raw/英语/2026/二模/english-2026-mock2-chaoyang.pdf",
+        "bytes": 8194532,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|朝阳|物理|",
+    "sequence": 139,
+    "sources": [
+      {
+        "file": "raw/物理/2026/二模/physics-2026-mock2-chaoyang.pdf",
+        "bytes": 10466063,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 14,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|朝阳|化学|",
+    "sequence": 140,
+    "sources": [
+      {
+        "file": "raw/化学/2026/二模/chemistry-2026-mock2-chaoyang.pdf",
+        "bytes": 4207867,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 14,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|朝阳|生物|",
+    "sequence": 141,
+    "sources": [
+      {
+        "file": "raw/生物/2026/二模/biology-2026-mock2-chaoyang.pdf",
+        "bytes": 6139019,
+        "pages": 20,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 20,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|朝阳|政治|",
+    "sequence": 142,
+    "sources": [
+      {
+        "file": "raw/政治/2026/二模/politics-2026-mock2-chaoyang.pdf",
+        "bytes": 2573463,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 10797,
+        "embedded_images": 93,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|朝阳|历史|",
+    "sequence": 143,
+    "sources": [
+      {
+        "file": "raw/历史/2026/二模/history-2026-mock2-chaoyang.pdf",
+        "bytes": 4837335,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 12,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|朝阳|地理|",
+    "sequence": 144,
+    "sources": [
+      {
+        "file": "raw/地理/2026/二模/geography-2026-mock2-chaoyang.pdf",
+        "bytes": 4444173,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 11,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|海淀|语文|",
+    "sequence": 145,
+    "sources": [
+      {
+        "file": "raw/语文/2026/二模/chinese-2026-mock2-haidian-copy.pdf",
+        "bytes": 12529699,
+        "pages": 16,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 16,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|海淀|语文|查漏补缺",
+    "sequence": 146,
+    "sources": [
+      {
+        "file": "raw/语文/2026/二模/chinese-2026-mock2-haidian-variant-chaloubuque.pdf",
+        "bytes": 2841214,
+        "pages": 26,
+        "encrypted": false,
+        "text_chars": 19477,
+        "embedded_images": 27,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|海淀|数学|",
+    "sequence": 147,
+    "sources": [
+      {
+        "file": "raw/数学/2026/二模/math-2026-mock2-haidian-copy.pdf",
+        "bytes": 6599120,
+        "pages": 16,
+        "encrypted": false,
+        "text_chars": 9406,
+        "embedded_images": 33,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|海淀|数学|查漏补缺",
+    "sequence": 148,
+    "sources": [
+      {
+        "file": "raw/数学/2026/二模/math-2026-mock2-haidian-variant-chaloubuque.pdf",
+        "bytes": 3169531,
+        "pages": 32,
+        "encrypted": false,
+        "text_chars": 31542,
+        "embedded_images": 35,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|海淀|英语|",
+    "sequence": 149,
+    "sources": [
+      {
+        "file": "raw/英语/2026/二模/english-2026-mock2-haidian-copy.pdf",
+        "bytes": 11991708,
+        "pages": 10,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 10,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|海淀|英语|查漏补缺",
+    "sequence": 150,
+    "sources": [
+      {
+        "file": "raw/英语/2026/二模/english-2026-mock2-haidian-variant-chaloubuque.pdf",
+        "bytes": 2326132,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 24659,
+        "embedded_images": 11,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|海淀|物理|",
+    "sequence": 151,
+    "sources": [
+      {
+        "file": "raw/物理/2026/二模/physics-2026-mock2-haidian-copy.pdf",
+        "bytes": 6850680,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|海淀|物理|查漏补缺",
+    "sequence": 152,
+    "sources": [
+      {
+        "file": "raw/物理/2026/二模/physics-2026-mock2-haidian-variant-chaloubuque.pdf",
+        "bytes": 4233375,
+        "pages": 27,
+        "encrypted": false,
+        "text_chars": 21585,
+        "embedded_images": 131,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|海淀|化学|",
+    "sequence": 153,
+    "sources": [
+      {
+        "file": "raw/化学/2026/二模/chemistry-2026-mock2-haidian-copy.pdf",
+        "bytes": 2717861,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 1977,
+        "embedded_images": 24,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|海淀|化学|查漏补缺",
+    "sequence": 154,
+    "sources": [
+      {
+        "file": "raw/化学/2026/二模/chemistry-2026-mock2-haidian-variant-chaloubuque.pdf",
+        "bytes": 4663436,
+        "pages": 19,
+        "encrypted": false,
+        "text_chars": 5532,
+        "embedded_images": 69,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|海淀|生物|",
+    "sequence": 155,
+    "sources": [
+      {
+        "file": "raw/生物/2026/二模/biology-2026-mock2-haidian-copy.pdf",
+        "bytes": 3570147,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|海淀|生物|查漏补缺",
+    "sequence": 156,
+    "sources": [
+      {
+        "file": "raw/生物/2026/二模/biology-2026-mock2-haidian-variant-chaloubuque.pdf",
+        "bytes": 4005958,
+        "pages": 20,
+        "encrypted": false,
+        "text_chars": 14916,
+        "embedded_images": 62,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|海淀|政治|",
+    "sequence": 157,
+    "sources": [
+      {
+        "file": "raw/政治/2026/二模/politics-2026-mock2-haidian-copy.pdf",
+        "bytes": 7687641,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 11,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|海淀|政治|查漏补缺",
+    "sequence": 158,
+    "sources": [
+      {
+        "file": "raw/政治/2026/二模/politics-2026-mock2-haidian-variant-chaloubuque.pdf",
+        "bytes": 2350891,
+        "pages": 7,
+        "encrypted": false,
+        "text_chars": 5693,
+        "embedded_images": 7,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|海淀|历史|",
+    "sequence": 159,
+    "sources": [
+      {
+        "file": "raw/历史/2026/二模/history-2026-mock2-haidian-copy.pdf",
+        "bytes": 664575,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 10150,
+        "embedded_images": 3,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|海淀|历史|查漏补缺",
+    "sequence": 160,
+    "sources": [
+      {
+        "file": "raw/历史/2026/二模/history-2026-mock2-haidian-variant-chaloubuque.pdf",
+        "bytes": 2369016,
+        "pages": 6,
+        "encrypted": false,
+        "text_chars": 5101,
+        "embedded_images": 6,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|海淀|地理|",
+    "sequence": 161,
+    "sources": [
+      {
+        "file": "raw/地理/2026/二模/geography-2026-mock2-haidian-copy.pdf",
+        "bytes": 999334,
+        "pages": 10,
+        "encrypted": false,
+        "text_chars": 6624,
+        "embedded_images": 11,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|海淀|地理|查漏补缺",
+    "sequence": 162,
+    "sources": [
+      {
+        "file": "raw/地理/2026/二模/geography-2026-mock2-haidian-variant-chaloubuque.pdf",
+        "bytes": 3137450,
+        "pages": 10,
+        "encrypted": false,
+        "text_chars": 5870,
+        "embedded_images": 23,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|丰台|语文|",
+    "sequence": 163,
+    "sources": [
+      {
+        "file": "raw/语文/2026/二模/chinese-2026-mock2-fengtai.pdf",
+        "bytes": 10764712,
+        "pages": 16,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 16,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|丰台|数学|",
+    "sequence": 164,
+    "sources": [
+      {
+        "file": "raw/数学/2026/二模/math-2026-mock2-fengtai.pdf",
+        "bytes": 5661663,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 7319,
+        "embedded_images": 27,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|丰台|英语|",
+    "sequence": 165,
+    "sources": [
+      {
+        "file": "raw/英语/2026/二模/english-2026-mock2-fengtai.pdf",
+        "bytes": 13786366,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 15,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|丰台|物理|",
+    "sequence": 166,
+    "sources": [
+      {
+        "file": "raw/物理/2026/二模/physics-2026-mock2-fengtai.pdf",
+        "bytes": 10415857,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 24,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|丰台|化学|",
+    "sequence": 167,
+    "sources": [
+      {
+        "file": "raw/化学/2026/二模/chemistry-2026-mock2-fengtai.pdf",
+        "bytes": 3653598,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|丰台|生物|",
+    "sequence": 168,
+    "sources": [
+      {
+        "file": "raw/生物/2026/二模/biology-2026-mock2-fengtai.pdf",
+        "bytes": 10429985,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 15,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|丰台|政治|",
+    "sequence": 169,
+    "sources": [
+      {
+        "file": "raw/政治/2026/二模/politics-2026-mock2-fengtai.pdf",
+        "bytes": 5353193,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 636,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|丰台|历史|",
+    "sequence": 170,
+    "sources": [
+      {
+        "file": "raw/历史/2026/二模/history-2026-mock2-fengtai.pdf",
+        "bytes": 4209572,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 11,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|丰台|地理|",
+    "sequence": 171,
+    "sources": [
+      {
+        "file": "raw/地理/2026/二模/geography-2026-mock2-fengtai.pdf",
+        "bytes": 5345597,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 12,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|石景山|语文|",
+    "sequence": 172,
+    "sources": [
+      {
+        "file": "raw/语文/2026/二模/chinese-2026-mock2-shijingshan.pdf",
+        "bytes": 13038245,
+        "pages": 16,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 16,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|石景山|数学|",
+    "sequence": 173,
+    "sources": [
+      {
+        "file": "raw/数学/2026/二模/math-2026-mock2-shijingshan.pdf",
+        "bytes": 6209364,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 15,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|石景山|英语|",
+    "sequence": 174,
+    "sources": [
+      {
+        "file": "raw/英语/2026/二模/english-2026-mock2-shijingshan.pdf",
+        "bytes": 2329955,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 0,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|石景山|物理|",
+    "sequence": 175,
+    "sources": [
+      {
+        "file": "raw/物理/2026/二模/physics-2026-mock2-shijingshan.pdf",
+        "bytes": 1880271,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 0,
+        "embedded_images": 12,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|石景山|化学|",
+    "sequence": 176,
+    "sources": [
+      {
+        "file": "raw/化学/2026/二模/chemistry-2026-mock2-shijingshan.pdf",
+        "bytes": 3645754,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|石景山|生物|",
+    "sequence": 177,
+    "sources": [
+      {
+        "file": "raw/生物/2026/二模/biology-2026-mock2-shijingshan.pdf",
+        "bytes": 2868083,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 9272,
+        "embedded_images": 36,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|石景山|政治|",
+    "sequence": 178,
+    "sources": [
+      {
+        "file": "raw/政治/2026/二模/politics-2026-mock2-shijingshan.pdf",
+        "bytes": 4311974,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 11,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|石景山|历史|",
+    "sequence": 179,
+    "sources": [
+      {
+        "file": "raw/历史/2026/二模/history-2026-mock2-shijingshan.pdf",
+        "bytes": 10329218,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 3321,
+        "embedded_images": 20,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|石景山|地理|",
+    "sequence": 180,
+    "sources": [
+      {
+        "file": "raw/地理/2026/二模/geography-2026-mock2-shijingshan.pdf",
+        "bytes": 5251786,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|通州|数学|",
+    "sequence": 181,
+    "sources": [
+      {
+        "file": "raw/数学/2026/二模/math-2026-mock2-tongzhou.pdf",
+        "bytes": 4171717,
+        "pages": 4,
+        "encrypted": false,
+        "text_chars": 0,
+        "embedded_images": 8,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|通州|物理|",
+    "sequence": 182,
+    "sources": [
+      {
+        "file": "raw/物理/2026/二模/physics-2026-mock2-tongzhou.pdf",
+        "bytes": 4277432,
+        "pages": 8,
+        "encrypted": false,
+        "text_chars": 0,
+        "embedded_images": 16,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|顺义|语文|",
+    "sequence": 183,
+    "sources": [
+      {
+        "file": "raw/语文/2026/二模/chinese-2026-mock2-shunyi.pdf",
+        "bytes": 644274,
+        "pages": 10,
+        "encrypted": false,
+        "text_chars": 11328,
+        "embedded_images": 0,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|顺义|数学|",
+    "sequence": 184,
+    "sources": [
+      {
+        "file": "raw/数学/2026/二模/math-2026-mock2-shunyi.pdf",
+        "bytes": 4427244,
+        "pages": 7,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 7,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|顺义|英语|",
+    "sequence": 185,
+    "sources": [
+      {
+        "file": "raw/英语/2026/二模/english-2026-mock2-shunyi.pdf",
+        "bytes": 4075910,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|顺义|物理|",
+    "sequence": 186,
+    "sources": [
+      {
+        "file": "raw/物理/2026/二模/physics-2026-mock2-shunyi.pdf",
+        "bytes": 7361209,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 11,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|顺义|化学|",
+    "sequence": 187,
+    "sources": [
+      {
+        "file": "raw/化学/2026/二模/chemistry-2026-mock2-shunyi.pdf",
+        "bytes": 10339779,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 14,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|顺义|历史|",
+    "sequence": 188,
+    "sources": [
+      {
+        "file": "raw/历史/2026/二模/history-2026-mock2-shunyi.pdf",
+        "bytes": 2602886,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 9801,
+        "embedded_images": 17,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|顺义|地理|",
+    "sequence": 189,
+    "sources": [
+      {
+        "file": "raw/地理/2026/二模/geography-2026-mock2-shunyi.pdf",
+        "bytes": 3433923,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 6737,
+        "embedded_images": 29,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|昌平|语文|",
+    "sequence": 190,
+    "sources": [
+      {
+        "file": "raw/语文/2026/二模/chinese-2026-mock2-changping.pdf",
+        "bytes": 5253606,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|昌平|数学|",
+    "sequence": 191,
+    "sources": [
+      {
+        "file": "raw/数学/2026/二模/math-2026-mock2-changping.pdf",
+        "bytes": 5599205,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 14,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|昌平|英语|",
+    "sequence": 192,
+    "sources": [
+      {
+        "file": "raw/英语/2026/二模/english-2026-mock2-changping.pdf",
+        "bytes": 11596609,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 14,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|昌平|物理|",
+    "sequence": 193,
+    "sources": [
+      {
+        "file": "raw/物理/2026/二模/physics-2026-mock2-changping.pdf",
+        "bytes": 4514839,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 3319,
+        "embedded_images": 28,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|昌平|化学|",
+    "sequence": 194,
+    "sources": [
+      {
+        "file": "raw/化学/2026/二模/chemistry-2026-mock2-changping.pdf",
+        "bytes": 3460980,
+        "pages": 16,
+        "encrypted": false,
+        "text_chars": 10376,
+        "embedded_images": 71,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|昌平|生物|",
+    "sequence": 195,
+    "sources": [
+      {
+        "file": "raw/生物/2026/二模/biology-2026-mock2-changping.pdf",
+        "bytes": 12652699,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|昌平|政治|",
+    "sequence": 196,
+    "sources": [
+      {
+        "file": "raw/政治/2026/二模/politics-2026-mock2-changping.pdf",
+        "bytes": 8645694,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 11994,
+        "embedded_images": 49,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|昌平|历史|",
+    "sequence": 197,
+    "sources": [
+      {
+        "file": "raw/历史/2026/二模/history-2026-mock2-changping.pdf",
+        "bytes": 7363087,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 11,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|昌平|地理|",
+    "sequence": 198,
+    "sources": [
+      {
+        "file": "raw/地理/2026/二模/geography-2026-mock2-changping.pdf",
+        "bytes": 9998582,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 12,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|房山|语文|",
+    "sequence": 199,
+    "sources": [
+      {
+        "file": "raw/语文/2026/二模/chinese-2026-mock2-fangshan.pdf",
+        "bytes": 5554602,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 15,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|房山|数学|",
+    "sequence": 200,
+    "sources": [
+      {
+        "file": "raw/数学/2026/二模/math-2026-mock2-fangshan.pdf",
+        "bytes": 2768770,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 13570,
+        "embedded_images": 21,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|房山|英语|",
+    "sequence": 201,
+    "sources": [
+      {
+        "file": "raw/英语/2026/二模/english-2026-mock2-fangshan.pdf",
+        "bytes": 15041680,
+        "pages": 18,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 18,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|房山|物理|",
+    "sequence": 202,
+    "sources": [
+      {
+        "file": "raw/物理/2026/二模/physics-2026-mock2-fangshan.pdf",
+        "bytes": 2868158,
+        "pages": 16,
+        "encrypted": false,
+        "text_chars": 11131,
+        "embedded_images": 37,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|房山|化学|",
+    "sequence": 203,
+    "sources": [
+      {
+        "file": "raw/化学/2026/二模/chemistry-2026-mock2-fangshan.pdf",
+        "bytes": 10431781,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 2260,
+        "embedded_images": 29,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|房山|政治|",
+    "sequence": 204,
+    "sources": [
+      {
+        "file": "raw/政治/2026/二模/politics-2026-mock2-fangshan.pdf",
+        "bytes": 14454694,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 4320,
+        "embedded_images": 21,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|二模|房山|历史|",
+    "sequence": 205,
+    "sources": [
+      {
+        "file": "raw/历史/2026/二模/history-2026-mock2-fangshan.pdf",
+        "bytes": 4982716,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 12,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北京二中|数学|三模",
+    "sequence": 206,
+    "sources": [
+      {
+        "file": "raw/数学/2026/三模/math-2026-mock3-dongcheng.pdf",
+        "bytes": 2901843,
+        "pages": 18,
+        "encrypted": false,
+        "text_chars": 16969,
+        "embedded_images": 73,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北京二中|化学|三模",
+    "sequence": 208,
+    "sources": [
+      {
+        "file": "raw/化学/2026/三模/chemistry-2026-mock3-dongcheng-school-beijingerzhong.pdf",
+        "bytes": 12732019,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 2306,
+        "embedded_images": 29,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北京五中|化学|三模",
+    "sequence": 209,
+    "sources": [
+      {
+        "file": "raw/化学/2026/三模/chemistry-2026-mock3-dongcheng-school-beijingwuzhong.pdf",
+        "bytes": 3540717,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 9073,
+        "embedded_images": 46,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北京五中|政治|三模",
+    "sequence": 211,
+    "sources": [
+      {
+        "file": "raw/政治/2026/三模/politics-2026-mock3-dongcheng.pdf",
+        "bytes": 7629843,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 3130,
+        "embedded_images": 24,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|一六一中|语文|保温",
+    "sequence": 213,
+    "sources": [
+      {
+        "file": "raw/语文/2026/三模/chinese-2026-mock3-xicheng-school-yiliuyizhong-variant-baowen.pdf",
+        "bytes": 2848569,
+        "pages": 25,
+        "encrypted": false,
+        "text_chars": 25543,
+        "embedded_images": 25,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|一六一中|语文|考前热身",
+    "sequence": 214,
+    "sources": [
+      {
+        "file": "raw/语文/2026/三模/chinese-2026-mock3-xicheng-school-yiliuyizhong-variant-kaoqianreshen.pdf",
+        "bytes": 24104374,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 21,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|一六一中|数学|暖身",
+    "sequence": 215,
+    "sources": [
+      {
+        "file": "raw/数学/2026/三模/math-2026-mock3-xicheng-school-yiliuyizhong-variant-nuanshen.pdf",
+        "bytes": 11808932,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 29,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|一六一中|数学|考前热身",
+    "sequence": 216,
+    "sources": [
+      {
+        "file": "raw/数学/2026/三模/math-2026-mock3-xicheng-school-yiliuyizhong-variant-kaoqianreshen.pdf",
+        "bytes": 6834479,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 10892,
+        "embedded_images": 23,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|一六一中|英语|暖身",
+    "sequence": 217,
+    "sources": [
+      {
+        "file": "raw/英语/2026/三模/english-2026-mock3-xicheng-school-yiliuyizhong-variant-nuanshen.pdf",
+        "bytes": 14173675,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|一六一中|英语|考前热身",
+    "sequence": 218,
+    "sources": [
+      {
+        "file": "raw/英语/2026/三模/english-2026-mock3-xicheng-school-yiliuyizhong-variant-kaoqianreshen.pdf",
+        "bytes": 13866344,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 1944,
+        "embedded_images": 22,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|一六一中|物理|保温",
+    "sequence": 219,
+    "sources": [
+      {
+        "file": "raw/物理/2026/三模/physics-2026-mock3-xicheng-school-yiliuyizhong-variant-baowen.pdf",
+        "bytes": 18708437,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 21,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|一六一中|化学|考前热身",
+    "sequence": 221,
+    "sources": [
+      {
+        "file": "raw/化学/2026/三模/chemistry-2026-mock3-xicheng-school-yiliuyizhong-variant-kaoqianreshen.pdf",
+        "bytes": 14817690,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 21,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|一六一中|政治|暖身",
+    "sequence": 222,
+    "sources": [
+      {
+        "file": "raw/政治/2026/三模/politics-2026-mock3-xicheng-school-yiliuyizhong-variant-nuanshen.pdf",
+        "bytes": 27678452,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|一六一中|政治|考前热身",
+    "sequence": 223,
+    "sources": [
+      {
+        "file": "raw/政治/2026/三模/politics-2026-mock3-xicheng-school-yiliuyizhong-variant-kaoqianreshen.pdf",
+        "bytes": 17988210,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|一六一中|历史|暖身",
+    "sequence": 224,
+    "sources": [
+      {
+        "file": "raw/历史/2026/三模/history-2026-mock3-xicheng-school-yiliuyizhong-variant-nuanshen.pdf",
+        "bytes": 4245044,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 23,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|一六一中|历史|考前热身",
+    "sequence": 225,
+    "sources": [
+      {
+        "file": "raw/历史/2026/三模/history-2026-mock3-xicheng-school-yiliuyizhong-variant-kaoqianreshen.pdf",
+        "bytes": 2671213,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 9947,
+        "embedded_images": 18,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|一六一中|地理|暖身",
+    "sequence": 226,
+    "sources": [
+      {
+        "file": "raw/地理/2026/三模/geography-2026-mock3-xicheng-school-yiliuyizhong-variant-nuanshen.pdf",
+        "bytes": 11148047,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 21,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|一六一中|地理|考前热身",
+    "sequence": 227,
+    "sources": [
+      {
+        "file": "raw/地理/2026/三模/geography-2026-mock3-xicheng-school-yiliuyizhong-variant-kaoqianreshen.pdf",
+        "bytes": 15984346,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 23,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北京八中|数学|三模",
+    "sequence": 228,
+    "sources": [
+      {
+        "file": "raw/数学/2026/三模/math-2026-mock3-xicheng-school-beijingbazhong.pdf",
+        "bytes": 13916397,
+        "pages": 19,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 37,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北京四中|化学|三模",
+    "sequence": 232,
+    "sources": [
+      {
+        "file": "raw/化学/2026/三模/chemistry-2026-mock3-xicheng-school-beijingsizhong.pdf",
+        "bytes": 7717570,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北师大二附中|数学|三模",
+    "sequence": 234,
+    "sources": [
+      {
+        "file": "raw/数学/2026/三模/math-2026-mock3-xicheng-school-beishidaerfuzhong.pdf",
+        "bytes": 2340229,
+        "pages": 20,
+        "encrypted": false,
+        "text_chars": 18098,
+        "embedded_images": 26,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北师大二附中|化学|三模",
+    "sequence": 235,
+    "sources": [
+      {
+        "file": "raw/化学/2026/三模/chemistry-2026-mock3-xicheng-school-beishidaerfuzhong.pdf",
+        "bytes": 4078901,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 7826,
+        "embedded_images": 42,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北师大实验中学|数学|考前热身",
+    "sequence": 237,
+    "sources": [
+      {
+        "file": "raw/数学/2026/三模/math-2026-mock3-xicheng-school-beishidashiyanzhongxue-variant-kaoqianreshen.pdf",
+        "bytes": 2339424,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 10713,
+        "embedded_images": 14,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北师大附中|语文|三模",
+    "sequence": 239,
+    "sources": [
+      {
+        "file": "raw/语文/2026/三模/chinese-2026-mock3-xicheng-school-beishidafuzhong.pdf",
+        "bytes": 4180367,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 27,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北师大附中|数学|三模",
+    "sequence": 240,
+    "sources": [
+      {
+        "file": "raw/数学/2026/三模/math-2026-mock3-xicheng-school-beishidafuzhong.pdf",
+        "bytes": 7746128,
+        "pages": 9,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 17,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北师大附中|英语|三模",
+    "sequence": 241,
+    "sources": [
+      {
+        "file": "raw/英语/2026/三模/english-2026-mock3-xicheng-school-beishidafuzhong.pdf",
+        "bytes": 11640487,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 23,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北师大附中|化学|三模",
+    "sequence": 242,
+    "sources": [
+      {
+        "file": "raw/化学/2026/三模/chemistry-2026-mock3-xicheng-school-beishidafuzhong.pdf",
+        "bytes": 12040226,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北师大附中|政治|三模",
+    "sequence": 243,
+    "sources": [
+      {
+        "file": "raw/政治/2026/三模/politics-2026-mock3-xicheng-school-beishidafuzhong.pdf",
+        "bytes": 5510739,
+        "pages": 20,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 39,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北师大附中|历史|三模",
+    "sequence": 244,
+    "sources": [
+      {
+        "file": "raw/历史/2026/三模/history-2026-mock3-xicheng-school-beishidafuzhong.pdf",
+        "bytes": 10080051,
+        "pages": 9,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 17,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|育才学校|语文|三模",
+    "sequence": 246,
+    "sources": [
+      {
+        "file": "raw/语文/2026/三模/chinese-2026-mock3-xicheng-school-yucaixuexiao.pdf",
+        "bytes": 2845735,
+        "pages": 23,
+        "encrypted": false,
+        "text_chars": 22821,
+        "embedded_images": 24,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|育才学校|数学|三模",
+    "sequence": 248,
+    "sources": [
+      {
+        "file": "raw/数学/2026/三模/math-2026-mock3-xicheng-school-yucaixuexiao.pdf",
+        "bytes": 2745966,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 15103,
+        "embedded_images": 39,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|育才学校|英语|三模",
+    "sequence": 250,
+    "sources": [
+      {
+        "file": "raw/英语/2026/三模/english-2026-mock3-xicheng-school-yucaixuexiao.pdf",
+        "bytes": 2281218,
+        "pages": 10,
+        "encrypted": false,
+        "text_chars": 23395,
+        "embedded_images": 18,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|育才学校|物理|三模",
+    "sequence": 252,
+    "sources": [
+      {
+        "file": "raw/物理/2026/三模/physics-2026-mock3-xicheng-school-yucaixuexiao.pdf",
+        "bytes": 6839638,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 235,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|育才学校|化学|三模",
+    "sequence": 254,
+    "sources": [
+      {
+        "file": "raw/化学/2026/三模/chemistry-2026-mock3-xicheng-school-yucaixuexiao.pdf",
+        "bytes": 3094718,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 8924,
+        "embedded_images": 50,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|育才学校|政治|三模",
+    "sequence": 256,
+    "sources": [
+      {
+        "file": "raw/政治/2026/三模/politics-2026-mock3-xicheng-school-yucaixuexiao.pdf",
+        "bytes": 4546899,
+        "pages": 16,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 31,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北京中学|化学|三模",
+    "sequence": 264,
+    "sources": [
+      {
+        "file": "raw/化学/2026/三模/chemistry-2026-mock3-chaoyang.pdf",
+        "bytes": 13541477,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 646,
+        "embedded_images": 27,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|陈经纶中学|语文|保温",
+    "sequence": 265,
+    "sources": [
+      {
+        "file": "raw/语文/2026/三模/chinese-2026-mock3-chaoyang.pdf",
+        "bytes": 2663185,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 10711,
+        "embedded_images": 19,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|陈经纶中学|数学|三模",
+    "sequence": 266,
+    "sources": [
+      {
+        "file": "raw/数学/2026/三模/math-2026-mock3-chaoyang.pdf",
+        "bytes": 2897960,
+        "pages": 18,
+        "encrypted": false,
+        "text_chars": 14650,
+        "embedded_images": 84,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|一零一中学|语文|三模",
+    "sequence": 267,
+    "sources": [
+      {
+        "file": "raw/语文/2026/三模/chinese-2026-mock3-haidian-school-yilingyizhongxue.pdf",
+        "bytes": 2872497,
+        "pages": 24,
+        "encrypted": false,
+        "text_chars": 24461,
+        "embedded_images": 24,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|一零一中学|英语|三模",
+    "sequence": 268,
+    "sources": [
+      {
+        "file": "raw/英语/2026/三模/english-2026-mock3-haidian-school-yilingyizhongxue.pdf",
+        "bytes": 12910753,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 2205,
+        "embedded_images": 19,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|一零一中学|物理|三模",
+    "sequence": 269,
+    "sources": [
+      {
+        "file": "raw/物理/2026/三模/physics-2026-mock3-haidian-school-yilingyizhongxue.pdf",
+        "bytes": 4147207,
+        "pages": 9,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 17,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|一零一中学|化学|三模",
+    "sequence": 270,
+    "sources": [
+      {
+        "file": "raw/化学/2026/三模/chemistry-2026-mock3-haidian-school-yilingyizhongxue.pdf",
+        "bytes": 4064445,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|中关村中学|数学|三模",
+    "sequence": 271,
+    "sources": [
+      {
+        "file": "raw/数学/2026/三模/math-2026-mock3-haidian-school-zhongguancunzhongxue.pdf",
+        "bytes": 3531248,
+        "pages": 16,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 31,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|中关村中学|化学|三模",
+    "sequence": 273,
+    "sources": [
+      {
+        "file": "raw/化学/2026/三模/chemistry-2026-mock3-haidian-school-zhongguancunzhongxue.pdf",
+        "bytes": 11256483,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 21,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|人大附中|语文|三模",
+    "sequence": 274,
+    "sources": [
+      {
+        "file": "raw/语文/2026/三模/chinese-2026-mock3-haidian-school-rendafuzhong.pdf",
+        "bytes": 4214930,
+        "pages": 16,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 31,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|人大附中|数学|考前热身",
+    "sequence": 276,
+    "sources": [
+      {
+        "file": "raw/数学/2026/三模/math-2026-mock3-haidian-school-rendafuzhong-variant-kaoqianreshen.pdf",
+        "bytes": 4811758,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 12,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|人大附中|英语|三模",
+    "sequence": 278,
+    "sources": [
+      {
+        "file": "raw/英语/2026/三模/english-2026-mock3-haidian-school-rendafuzhong.pdf",
+        "bytes": 14939296,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 21,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|人大附中|物理|三模",
+    "sequence": 280,
+    "sources": [
+      {
+        "file": "raw/物理/2026/三模/physics-2026-mock3-haidian-school-rendafuzhong.pdf",
+        "bytes": 10620012,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|人大附中|化学|考前热身",
+    "sequence": 282,
+    "sources": [
+      {
+        "file": "raw/化学/2026/三模/chemistry-2026-mock3-haidian-school-rendafuzhong-variant-kaoqianreshen.pdf",
+        "bytes": 4738953,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 2086,
+        "embedded_images": 25,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|人大附中|生物|三模",
+    "sequence": 284,
+    "sources": [
+      {
+        "file": "raw/生物/2026/三模/biology-2026-mock3-haidian-school-rendafuzhong.pdf",
+        "bytes": 8470677,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 1848,
+        "embedded_images": 24,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|人大附中|政治|考前热身",
+    "sequence": 286,
+    "sources": [
+      {
+        "file": "raw/政治/2026/三模/politics-2026-mock3-haidian-school-rendafuzhong-variant-kaoqianreshen.pdf",
+        "bytes": 13393536,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 21,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|人大附中|地理|考前热身",
+    "sequence": 289,
+    "sources": [
+      {
+        "file": "raw/地理/2026/三模/geography-2026-mock3-haidian-school-rendafuzhong-variant-kaoqianreshen.pdf",
+        "bytes": 3148527,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 23,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|八一学校|化学|考前热身",
+    "sequence": 292,
+    "sources": [
+      {
+        "file": "raw/化学/2026/三模/chemistry-2026-mock3-haidian-school-bayixuexiao-variant-kaoqianreshen.pdf",
+        "bytes": 11776741,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北大附中|英语|三模",
+    "sequence": 293,
+    "sources": [
+      {
+        "file": "raw/英语/2026/三模/english-2026-mock3-haidian-school-beidafuzhong.pdf",
+        "bytes": 13404600,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 2496,
+        "embedded_images": 19,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北大附中|化学|三模",
+    "sequence": 295,
+    "sources": [
+      {
+        "file": "raw/化学/2026/三模/chemistry-2026-mock3-haidian-school-beidafuzhong.pdf",
+        "bytes": 9559432,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 13,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|十一学校|语文|三模",
+    "sequence": 296,
+    "sources": [
+      {
+        "file": "raw/语文/2026/三模/chinese-2026-mock3-haidian-school-shiyixuexiao.pdf",
+        "bytes": 18206403,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 21,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|十一学校|数学|三模",
+    "sequence": 298,
+    "sources": [
+      {
+        "file": "raw/数学/2026/三模/math-2026-mock3-haidian-school-shiyixuexiao.pdf",
+        "bytes": 2653575,
+        "pages": 27,
+        "encrypted": false,
+        "text_chars": 23170,
+        "embedded_images": 35,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|十一学校|物理|三模",
+    "sequence": 299,
+    "sources": [
+      {
+        "file": "raw/物理/2026/三模/physics-2026-mock3-haidian-school-shiyixuexiao.pdf",
+        "bytes": 3025941,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 10958,
+        "embedded_images": 136,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|十一学校|化学|三模",
+    "sequence": 300,
+    "sources": [
+      {
+        "file": "raw/化学/2026/三模/chemistry-2026-mock3-haidian-school-shiyixuexiao.pdf",
+        "bytes": 4050486,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 27,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|海淀|语文|查漏补缺",
+    "sequence": 301,
+    "sources": [
+      {
+        "file": "raw/语文/2026/三模/chinese-2026-mock3-haidian-variant-chaloubuque.pdf",
+        "bytes": 2841214,
+        "pages": 26,
+        "encrypted": false,
+        "text_chars": 19477,
+        "embedded_images": 27,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|海淀|数学|查漏补缺",
+    "sequence": 302,
+    "sources": [
+      {
+        "file": "raw/数学/2026/三模/math-2026-mock3-haidian-variant-chaloubuque.pdf",
+        "bytes": 3169531,
+        "pages": 32,
+        "encrypted": false,
+        "text_chars": 31542,
+        "embedded_images": 35,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|海淀|英语|查漏补缺",
+    "sequence": 303,
+    "sources": [
+      {
+        "file": "raw/英语/2026/三模/english-2026-mock3-haidian-variant-chaloubuque.pdf",
+        "bytes": 2326132,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 24659,
+        "embedded_images": 11,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|海淀|物理|查漏补缺",
+    "sequence": 304,
+    "sources": [
+      {
+        "file": "raw/物理/2026/三模/physics-2026-mock3-haidian-variant-chaloubuque.pdf",
+        "bytes": 4233375,
+        "pages": 27,
+        "encrypted": false,
+        "text_chars": 21585,
+        "embedded_images": 131,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|海淀|化学|查漏补缺",
+    "sequence": 305,
+    "sources": [
+      {
+        "file": "raw/化学/2026/三模/chemistry-2026-mock3-haidian-variant-chaloubuque.pdf",
+        "bytes": 4663436,
+        "pages": 19,
+        "encrypted": false,
+        "text_chars": 5532,
+        "embedded_images": 69,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|海淀|生物|查漏补缺",
+    "sequence": 306,
+    "sources": [
+      {
+        "file": "raw/生物/2026/三模/biology-2026-mock3-haidian-variant-chaloubuque.pdf",
+        "bytes": 4005958,
+        "pages": 20,
+        "encrypted": false,
+        "text_chars": 14916,
+        "embedded_images": 62,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|海淀|政治|查漏补缺",
+    "sequence": 307,
+    "sources": [
+      {
+        "file": "raw/政治/2026/三模/politics-2026-mock3-haidian-variant-chaloubuque.pdf",
+        "bytes": 2350891,
+        "pages": 7,
+        "encrypted": false,
+        "text_chars": 5693,
+        "embedded_images": 7,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|海淀|历史|查漏补缺",
+    "sequence": 308,
+    "sources": [
+      {
+        "file": "raw/历史/2026/三模/history-2026-mock3-haidian.pdf",
+        "bytes": 2369016,
+        "pages": 6,
+        "encrypted": false,
+        "text_chars": 5101,
+        "embedded_images": 6,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|海淀|地理|查漏补缺",
+    "sequence": 309,
+    "sources": [
+      {
+        "file": "raw/地理/2026/三模/geography-2026-mock3-haidian-variant-chaloubuque.pdf",
+        "bytes": 3137450,
+        "pages": 10,
+        "encrypted": false,
+        "text_chars": 5870,
+        "embedded_images": 23,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|海淀进修实验学校|数学|三模",
+    "sequence": 310,
+    "sources": [
+      {
+        "file": "raw/数学/2026/三模/math-2026-mock3-haidian-school-haidianjinxiushiyanxuexiao.pdf",
+        "bytes": 2600294,
+        "pages": 6,
+        "encrypted": false,
+        "text_chars": 5116,
+        "embedded_images": 20,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|理工大附中|数学|三模",
+    "sequence": 311,
+    "sources": [
+      {
+        "file": "raw/数学/2026/三模/math-2026-mock3-haidian-school-ligongdafuzhong.pdf",
+        "bytes": 3801846,
+        "pages": 18,
+        "encrypted": false,
+        "text_chars": 7829,
+        "embedded_images": 525,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|首师大附中|化学|三模",
+    "sequence": 312,
+    "sources": [
+      {
+        "file": "raw/化学/2026/三模/chemistry-2026-mock3-haidian-school-shoushidafuzhong.pdf",
+        "bytes": 3027650,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 8456,
+        "embedded_images": 48,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北京九中|政治|保温",
+    "sequence": 314,
+    "sources": [
+      {
+        "file": "raw/政治/2026/三模/politics-2026-mock3-shijingshan.pdf",
+        "bytes": 2722214,
+        "pages": 9,
+        "encrypted": false,
+        "text_chars": 8921,
+        "embedded_images": 37,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北京九中|地理|保温",
+    "sequence": 315,
+    "sources": [
+      {
+        "file": "raw/地理/2026/三模/geography-2026-mock3-shijingshan.pdf",
+        "bytes": 3629835,
+        "pages": 16,
+        "encrypted": false,
+        "text_chars": 7306,
+        "embedded_images": 34,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|通州|英语|查漏补缺",
+    "sequence": 316,
+    "sources": [
+      {
+        "file": "raw/英语/2026/三模/english-2026-mock3-tongzhou.pdf",
+        "bytes": 2602625,
+        "pages": 11,
+        "encrypted": false,
+        "text_chars": 23567,
+        "embedded_images": 12,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|通州|物理|查漏补缺",
+    "sequence": 317,
+    "sources": [
+      {
+        "file": "raw/物理/2026/三模/physics-2026-mock3-tongzhou.pdf",
+        "bytes": 3229945,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 8344,
+        "embedded_images": 36,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|通州|地理|查漏补缺",
+    "sequence": 318,
+    "sources": [
+      {
+        "file": "raw/地理/2026/三模/geography-2026-mock3-tongzhou.pdf",
+        "bytes": 3238204,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 7472,
+        "embedded_images": 36,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|十一学校顺义学校|数学|三模",
+    "sequence": 319,
+    "sources": [
+      {
+        "file": "raw/数学/2026/三模/math-2026-mock3-shunyi-school-shiyixuexiaoshunyixuexiao.pdf",
+        "bytes": 2853548,
+        "pages": 16,
+        "encrypted": false,
+        "text_chars": 14374,
+        "embedded_images": 66,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|十一学校顺义学校|物理|三模",
+    "sequence": 320,
+    "sources": [
+      {
+        "file": "raw/物理/2026/三模/physics-2026-mock3-shunyi.pdf",
+        "bytes": 2792293,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 9070,
+        "embedded_images": 100,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|牛栏山一中|化学|保温",
+    "sequence": 321,
+    "sources": [
+      {
+        "file": "raw/化学/2026/三模/chemistry-2026-mock3-shunyi.pdf",
+        "bytes": 10719820,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 23,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|顺义一中|数学|三模",
+    "sequence": 322,
+    "sources": [
+      {
+        "file": "raw/数学/2026/三模/math-2026-mock3-shunyi-school-shunyiyizhong.pdf",
+        "bytes": 1856827,
+        "pages": 5,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 5,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北京精华学校|语文|三模",
+    "sequence": 323,
+    "sources": [
+      {
+        "file": "raw/语文/2026/三模/chinese-2026-mock3-daxing.pdf",
+        "bytes": 5502769,
+        "pages": 19,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 37,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北京精华学校|数学|三模",
+    "sequence": 325,
+    "sources": [
+      {
+        "file": "raw/数学/2026/三模/math-2026-mock3-daxing-school-beijingjinghuaxuexiao.pdf",
+        "bytes": 3298404,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北京精华学校|英语|三模",
+    "sequence": 327,
+    "sources": [
+      {
+        "file": "raw/英语/2026/三模/english-2026-mock3-daxing.pdf",
+        "bytes": 7883853,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 3244,
+        "embedded_images": 13,
+        "scanned_or_low_text": false
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北京精华学校|物理|三模",
+    "sequence": 329,
+    "sources": [
+      {
+        "file": "raw/物理/2026/三模/physics-2026-mock3-daxing.pdf",
+        "bytes": 3523402,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 27,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北京精华学校|化学|三模",
+    "sequence": 331,
+    "sources": [
+      {
+        "file": "raw/化学/2026/三模/chemistry-2026-mock3-daxing.pdf",
+        "bytes": 8016918,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 12,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北京精华学校|生物|三模",
+    "sequence": 333,
+    "sources": [
+      {
+        "file": "raw/生物/2026/三模/biology-2026-mock3-daxing.pdf",
+        "bytes": 4183890,
+        "pages": 14,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 27,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北京精华学校|政治|三模",
+    "sequence": 335,
+    "sources": [
+      {
+        "file": "raw/政治/2026/三模/politics-2026-mock3-daxing.pdf",
+        "bytes": 3983670,
+        "pages": 13,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 25,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北京精华学校|历史|三模",
+    "sequence": 337,
+    "sources": [
+      {
+        "file": "raw/历史/2026/三模/history-2026-mock3-daxing.pdf",
+        "bytes": 4508672,
+        "pages": 15,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 29,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|北京精华学校|地理|三模",
+    "sequence": 339,
+    "sources": [
+      {
+        "file": "raw/地理/2026/三模/geography-2026-mock3-daxing.pdf",
+        "bytes": 3570064,
+        "pages": 12,
+        "encrypted": false,
+        "text_chars": 630,
+        "embedded_images": 23,
+        "scanned_or_low_text": true
+      }
+    ]
+  },
+  {
+    "entry_key": "2026|三模|大兴一中|数学|三模",
+    "sequence": 341,
+    "sources": [
+      {
+        "file": "raw/数学/2026/三模/math-2026-mock3-daxing-school-daxingyizhong.pdf",
+        "bytes": 2916805,
+        "pages": 18,
+        "encrypted": false,
+        "text_chars": 16806,
+        "embedded_images": 60,
+        "scanned_or_low_text": false
+      }
+    ]
+  }
+]

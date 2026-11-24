@@ -1,0 +1,1575 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|一模|海淀|英语|",
+    "title": "2026北京海淀区高三一模英语试题及答案",
+    "year": 2026,
+    "kind": "一模",
+    "subject": "英语",
+    "district": "海淀",
+    "academic_year": "2025-2026",
+    "exam_date": "2026-04"
+  },
+  "source": {
+    "file": "../../../../../raw/英语/2026/一模/english-2026-mock1-haidian.pdf",
+    "sha256": "0c678e199839a43b5534c921588af2e01bfa07cbd33a72422d363c528522d3ec",
+    "page_count": 11
+  },
+  "extraction": {
+    "status": "verified",
+    "tool": "PyMuPDF 逐页渲染（含局部放大）+ 人工逐页视觉转录",
+    "notes": [
+      "原卷 PDF 共 11 页：第 1 页为封面，第 2–9 页为试题（印刷第 1–8 页），第 10 页为参考答案，第 11 页为平台广告，非试题内容。",
+      "第 2–10 页均为扫描图像、无文本层；已逐页渲染并人工核对转录。",
+      "参考答案位于同一 PDF 第 10 页，故答案来源统一记为 question_document，未另列 answer_files。",
+      "全卷无插图，仅阅读 A 含一张项目对比表，已结构化保存，未生成图片资源。",
+      "第 43 题原答案标注为“(略)”，未提供参考答案。",
+      "PDF 第 9 页（印刷第 8 页）短文中的“Vince died in 2018.”“In 2019.”“In 2020.”“three letters.”等句点为原卷印刷标点，按原样保留，未作更正。",
+      "PDF 第 8 页（印刷第 7 页）七选五末段 Brene Brown 的引文在原卷中未见闭合引号，按原样保留。"
+    ]
+  },
+  "materials": {
+    "m001": {
+      "kind": "instructions",
+      "content": [
+        "第一部分　知识运用（共两节，30 分）",
+        "第一节（共 10 小题；每小题 1.5 分，共 15 分）",
+        "阅读下面短文，掌握其大意，从每题所给的 A、B、C、D 四个选项中，选出最佳选项，并在答题卡上将该项涂黑。"
+      ],
+      "pages": [
+        2
+      ]
+    },
+    "m002": {
+      "kind": "passage",
+      "content": [
+        "Every morning, Kofi woke up with a quiet sigh. He reached for his phone out of habit, and as he scrolled, his chest ___1___ slightly. His classmates were posting acceptance letters and photos from campus visits, their futures already beginning to ___2___. He told himself he was happy for them. Sometimes that was true, but other times, it was a ___3___ he repeated until it sounded polite.",
+        "He began to ___4___ himself quietly. His grades felt unimpressive and his clothes too ordinary. Even his smile looked ___5___, worn only for others. The mirror in the house caught him on bad mornings, with tired eyes, shoulders bent forward. Some days he turned his face away from it. Other days, he stared too long, hoping it might show him a version of himself that had already “arrived”.",
+        "One evening, his grandma eased into the chair beside him and said, “Mirrors can lie.”",
+        "He laughed ___6___. “They only show the truth, Grandma.”",
+        "She shook her head. “They show what you’re ___7___ to see.”",
+        "She told him of two seeds that were planted. One seed sprouted early and took away all the ___8___. The other stayed hidden, growing roots underground where no one clapped. “But when its day came, the hidden sprout forced its way upward.” Her words didn’t ___9___ anything right away. But something shifted. Just a little.",
+        "That night, Kofi stood in front of the mirror again. For the first time, he noticed hope in his tired eyes. The mirror hadn’t changed. Perhaps Kofi hadn’t either, not yet. But he realized his life was not late or behind. It was simply unfolding in a way that couldn’t be filtered, posted, or ___10___.",
+        "And that was enough, for now."
+      ],
+      "pages": [
+        2
+      ]
+    },
+    "m003": {
+      "kind": "instructions",
+      "content": [
+        "第二节（共 10 小题；每小题 1.5 分，共 15 分）",
+        "阅读下列短文，根据短文内容填空。在未给提示词的空白处仅填写 1 个恰当的单词，在给出提示词的空白处用括号内所给词的正确形式填空。请在答题卡指定区域作答。"
+      ],
+      "pages": [
+        2
+      ]
+    },
+    "m004": {
+      "kind": "passage",
+      "content": [
+        "**A**",
+        "It was Sarah’s last day in Beijing. She went to a market for souvenirs. A faint scraping sound drew her towards a nearby stall, where an old man ___11___ (carve) a shadow puppet from cowhide, his knife barely moving. Sarah found ___12___ (she) standing there for nearly an hour. When the puppet was finished, the craftsman pressed it gently into her hands. Sarah smiled, paid, and walked back into the crowd. She had come for souvenirs but left ___13___ a story.",
+        "**B**",
+        "“Digital amnesia” refers to the situation where we outsource memory to devices instead of using our own brains. According to recent research, ___14___ (realise) information is digitally available weakens people’s ability to recall it. In studies on digital habits, participants ___15___ (find) to depend heavily on smartphones long before their personal memory shows signs of decline. This habit initiates a cycle, continuously weakening our natural cognitive functions. The critical question now is whether this shift is altering our capability ___16___ (process) information.",
+        "**C**",
+        "A skilled critical thinker with a closed mind will likely have many true ___17___ (belief), but will be blind to others. However, those ___18___ don’t screen incoming ideas will end up believing things not only false, but also ___19___ (danger). By thinking critically, you reject ideas; by being open-minded, you accept them. These two mindsets seem to be in conflict, but support each other nicely, which is ___20___ you should strive to transform yourself into an open-minded critical thinker if you wish to strengthen your mind."
+      ],
+      "pages": [
+        2,
+        3
+      ]
+    },
+    "m005": {
+      "kind": "instructions",
+      "content": [
+        "第二部分　阅读理解（共两节，38 分）",
+        "第一节（共 14 小题；每小题 2 分，共 28 分）",
+        "阅读下列短文，从每题所给的 A、B、C、D 四个选项中，选出最佳选项，并在答题卡上将该项涂黑。"
+      ],
+      "pages": [
+        3
+      ]
+    },
+    "m006": {
+      "kind": "passage",
+      "title": "A",
+      "content": [
+        "Eager to run your own company? Venture is your perfect choice! It helps you become an excellent leader and public speaker, build lifelong connections with peers and technological professionals, and gain real-world learning beyond academics.",
+        "**What You’ll Learn & Do**",
+        "• Week 1: Break-limiting-mindsets, present ideas, form teams by group vote, and create a proof-of-concept with coaches’ support.",
+        "• Week 2: Polish ideas via user engagement, build a Minimum Viable Product, and learn branding and visual design to launch a landing page.",
+        "• Week 3: Enter the market, showcase products, and master marketing, sales and ad creation to gain customers.",
+        "• Week 4: Craft story-driven presentations and practice delivering them to investors confidently.",
+        "**Demo Day**",
+        "Present your company to a panel of investors. Teams are judged on product-market fit, market size, growth and presentation, with awards for Most Outstanding Company and Best Entrepreneur (企业家).",
+        "**Extracurriculars**",
+        "Enjoy tailored leisure activities and mental health conversations with a licensed therapist during the program.",
+        {
+          "table": {
+            "header": [
+              " ",
+              "Online",
+              "On-site"
+            ],
+            "rows": [
+              [
+                "Start date",
+                "July 10, 2026",
+                "June 15, 2026"
+              ],
+              [
+                "End date",
+                "August 8, 2026",
+                "July 12, 2026"
+              ],
+              [
+                "Schedule",
+                "Classes 8 AM to 11 AM",
+                "Full-time program"
+              ],
+              [
+                "Features",
+                [
+                  "• Guidance from accomplished start-up founders in all time zones",
+                  "• Teamwork throughout the day",
+                  "• Group leisure activities",
+                  "• Flexible schedule"
+                ],
+                [
+                  "• Classes in a top college campus",
+                  "• All meals, including vegetarian options",
+                  "• Housing near campus",
+                  "• Group leisure activities in the city"
+                ]
+              ]
+            ]
+          }
+        }
+      ],
+      "pages": [
+        3,
+        4
+      ]
+    },
+    "m007": {
+      "kind": "passage",
+      "title": "B",
+      "content": [
+        "– *3 tablespoons butter*",
+        "– *2 eggs*",
+        "– *2 medium carrots*",
+        "– *1 small white onion*",
+        "– *3 cloves garlic*",
+        "– *4 cups cooked and chilled rice*",
+        "I bet you didn’t read those numbers.",
+        "I’ll let you in on a secret — I didn’t either.",
+        "The ingredients above were copied and pasted from the first online search result for “fried rice recipe”. But, without any disrespect to the recipe’s owner, I can tell you it’s wrong.",
+        "The only true fried rice recipe is no recipe at all. There are no measurements, no exact instructions, no timer for how long something should sizzle in the pan. There are only smells and feelings and memories. I learned to cook fried rice on the rickety stool covered in stickers, surrounded by the scents of my Grandma’s apron. We used however much leftover rice we had and a combination of anything and everything sitting in the fridge. The kitchen was always a little messy, but that was part of the fun.",
+        "Yet I’ve always been more of a baker than a cook. I enjoy recipes — I enjoy the process of being exact and finding details, adjusting and leveling and weighing. From a young age, I found comfort in the careful baking recipes in Western cookbooks.",
+        "But I understand the beauty of spontaneity (即兴) and organic creation. There’s something special in realizing that no two recreations of my grandma’s fried rice will ever be the same, and really, isn’t that what life is? Creation, without recipe?",
+        "It’s funny. This may contradict everything I’ve written thus far, but the more I bake, the more I realize perhaps baking is spontaneous too. I don’t always need to weigh my flour beforehand in order to get perfect cookies. My signature food is cupcake, but I challenged myself to use a different recipe every time. You’d be surprised at how different cupcakes taste when you add an extra egg, and you’d be especially uncertain about my baking skills if you tried my cupcakes that had way too much baking soda (trial and error...).",
+        "I’m learning to love going with the flow. It’s not mutually exclusive with loving precision, and it’s such an integral part of my culture; I’d be missing out otherwise. Coming to terms with and embracing the unknown is scary, but I assure you: One day, I’ll master my own fried rice."
+      ],
+      "pages": [
+        4,
+        5
+      ]
+    },
+    "m008": {
+      "kind": "passage",
+      "title": "C",
+      "content": [
+        "For half a century, psychologist Keith Holyoak has studied analogy — the capacity to see relational similarities between superficially dissimilar things — as a cornerstone of human intelligence. His new book, *The Human Edge*, takes a fresh look at analogy as a defining feature of human thought.",
+        "At its core, analogy enables us to apply prior knowledge to novel situations. Unlike simple perceptual similarity, analogy maps relational patterns across different domains. The proverb about two dogs fighting over a bone while a third runs away, for instance, illuminates a business scenario where competing corporations weaken each other, allowing a rival to take advantage. This capacity for relational mapping <u>underpins</u> fluid intelligence — the ability to reason about new problems — and strongly predicts performance on intelligence tests.",
+        "Analogy also drives creativity. Holyoak’s classic research on the “radiation problem” illustrates this: participants struggled to destroy a tumor (肿瘤) with rays without harming healthy tissue. But those first exposed to a story about a general attacking a castle from multiple sides readily devised the convergent (会聚的) ray solution. While we often fail to retrieve useful analogies independently, exposure to structurally similar but superficially different situations can spark breakthrough thinking.",
+        "This cognitive capacity develops early and naturally. Children begin reasoning analogically around age three and the capacity continues to develop until adulthood. Holyoak identifies this as a “Late System” — a uniquely human, evolutionarily recent ability for general relational reasoning. It builds upon and cooperates with older, specialized “Early Systems” we share with other animals. While nonhuman species perform tasks that resemble analogical reasoning, these successes remain domain-specific. Humans alone can map relations across any content, from fairy tales to physics.",
+        "This special ability, however, grants neither wisdom nor morality. Abstract thought has yielded both medical cures and weapons of mass destruction. As Holyoak notes, if Earth becomes uninhabitable, it won’t be the chimpanzees’ fault.",
+        "The rise of AI presents a new frontier. Large language models (LLMs) now solve analogy problems at a college-student level, and their computational power could eventually produce superhuman intelligence. Yet they lack autonomy and, crucially, the ability to spontaneously notice a meaningful analogy. In art, this limitation may prove difficult to overcome. AI, lacking emotion, consciousness, and individuality, produces work many find soulless.",
+        "Human uniqueness stems from the evolution of cooperative systems: a “Late System” that enables complex relational reasoning and the “Early Systems” that reflect our vast biological heritage. Their integration is the very essence of the human edge."
+      ],
+      "pages": [
+        5,
+        6
+      ]
+    },
+    "m009": {
+      "kind": "passage",
+      "title": "D",
+      "content": [
+        "Meritocracy (优绩主义) has become a leading social ideal. Politicians continually return to the theme that the rewards of life — money, jobs, university admission — should be distributed according to skill and effort. Conceptually and morally, meritocracy is presented as the opposite of hereditary aristocracy, in which one’s social position is determined by the lottery of birth.",
+        "Although widely held, the belief that merit rather than luck determines success or failure in the world is demonstrably false. This is not least because merit itself is, in large part, the result of luck. Talent and the capacity for determined effort depend a great deal on one’s genetic gifts and upbringing.",
+        "This is to say nothing of other fortuitous circumstances that figure into every success story.",
+        "In his book *Success and Luck*, Robert Frank recounts the coincidences behind the stellar rise of many successful entrepreneurs. Luck intervenes by offering people merit, and again by furnishing circumstances where merit can translate into success. This is not to deny the industry and talent of successful people. However, it does demonstrate that the link between merit and outcome is weak and indirect at best.",
+        "In addition to being false, research suggests that believing in meritocracy makes people more selfish, less self-critical and even more prone to acting in discriminatory ways. The “ultimatum game” is a common psychological experiment, where one player is given a sum of money and told to propose a division between him and another player, who may accept or reject the offer. If the offer is rejected, neither gets anything. Usually a relatively even split is offered. In one variation, participants played a fake game of skill before making offers. Players who were led to believe they had “won” claimed more for themselves than those who engaged in games of chance. Similar studies suggest that just having the idea of skill in mind makes people more tolerant of unequal outcomes.",
+        "By contrast, research on gratitude indicates that remembering the role of luck increases generosity. Simply asking subjects to recall external contributors to their successes made them more likely to give to charity than those remembering internal factors.",
+        "Part of meritocracy’s moral appeal is its power to justify the existing social order. On top of that, it also offers flattery. Where success is determined by merit, each win can be viewed as a reflection of personal worth and worldly failures become signs of personal weaknesses.",
+        "Meritocracy ought to be abandoned both as a belief about how the world works and as a general social ideal. It’s false, and believing in it encourages selfishness, discrimination and indifference to the struggles of the unfortunate."
+      ],
+      "pages": [
+        6,
+        7
+      ]
+    },
+    "m010": {
+      "kind": "instructions",
+      "content": [
+        "第二节（共 5 小题；每小题 2 分，共 10 分）",
+        "根据短文内容，从短文后的七个选项中选出能填入空白处的最佳选项，并在答题卡上将该项涂黑。选项中有两项为多余选项。"
+      ],
+      "pages": [
+        8
+      ]
+    },
+    "m011": {
+      "kind": "passage",
+      "content": [
+        "How many times do you find yourself in a conversation with someone, waiting for the other person to stop talking so you can say what you want to say? ___35___ This common experience shows a lack of active listening, because you are only thinking about how you want to respond.",
+        "Communication that leads to real human connection involves active listening and empathy. Active listening includes eye contact as well as verbal and non-verbal acknowledgements that you are listening. ___36___ Empathy involves reflection, validation and a genuine concern for how others are feeling. This combination of active listening and empathy — empathetic listening — can improve relationships of all kinds.",
+        "___37___ Being brave enough to share with another person is a vulnerable position to be in. Imagine sharing something sad with a friend: “I studied so hard for the math exam, but I still failed it.” Consider these two potential responses and how they would make you feel.",
+        "“Oh well, I’m glad I’m not the one taking that exam. Want to hang out?”",
+        "“That must be so hard. Thank you for sharing with me. I am here for you.”",
+        "The first response might leave one feeling dismissed. Why do people respond like that? Perhaps the comment comes from a place of the listener being uncomfortable with hearing something that taps into their own fears or vulnerability. ___38___ The second response, however, might make one feel heard, seen and supported. It shows the listener heard what the other person was saying, understanding and expressing concern.",
+        "So how do you know what to say or not to say when someone shares something difficult with you? Sometimes, the best thing to do is to sit and listen. Brene Brown, a renowned researcher in this field, says it best: “Empathy is a strange and powerful thing. There is no script. There is no right way or wrong way to do it. ___39___"
+      ],
+      "pages": [
+        8
+      ]
+    },
+    "m012": {
+      "kind": "instructions",
+      "content": [
+        "第三部分　书面表达（共两节，32 分）",
+        "第一节（共 4 小题；第 40、41 题各 2 分，第 42 题 3 分，第 43 题 5 分，共 12 分）",
+        "阅读下面短文，根据题目要求用英文回答问题。请在答题卡指定区域作答。"
+      ],
+      "pages": [
+        8
+      ]
+    },
+    "m013": {
+      "kind": "passage",
+      "content": [
+        "I have always been better at expressing myself through writing than verbally or through any other medium, and I’ve been communicating through the written words since I was a child. This practice became profoundly meaningful to me after my stepfather Vince passed away.",
+        "Vince died in 2018. right before New Year’s Eve. I had wanted to write him a letter for years, long before his shocking diagnosis, but I kept delaying it. I always thought there would be more time. Sadly, I never finished that letter. It is a regret I will carry with me always.",
+        "Yet, this personal failure led me to think of the other important people in my life — those I could still reach. those with whom I still had time. There were things I needed to say to them, words that mattered.",
+        "In 2019. I made a list of everyone I wanted to write to, and I started sending a few letters here and there. Gratitude, regrets, apologies — all of these were found in my pages. Each envelope marked another crossing off of a name on my bucket list of recipients.",
+        "In 2020. I appraised my progress and began thinking about how I might encourage other people to write letters too. I operated a website that encourages people to write letters to others — three letters. to be exact.",
+        "There are no rules or restrictions regarding the contents of participants’ letters or the format they take. The letters can be typed or handwritten, in any length and language, on any style of paper, etc. My only advice is that the letters should be sent within one year. I am hesitant to impose any directives at all, but I believe a deadline can be helpful as it will remind people we don’t always have all the time we think we do.",
+        "My goal is to work on a letter to someone at least once a month. We have only a limited amount of time on this planet. There are important things that we need to say."
+      ],
+      "pages": [
+        8,
+        9
+      ]
+    }
+  },
+  "option_sets": {
+    "o001": [
+      {
+        "key": "A",
+        "content": "Shifting the topic might bring comfort to the speaker."
+      },
+      {
+        "key": "B",
+        "content": "These include nodding, confirming, and clarifying questions."
+      },
+      {
+        "key": "C",
+        "content": "Just be empathetic and you’ll have thought-provoking conversations."
+      },
+      {
+        "key": "D",
+        "content": "It’s simply listening, withholding judgment, and emotionally connecting."
+      },
+      {
+        "key": "E",
+        "content": "Everyone wants to feel understood for speaking their thoughts and feelings."
+      },
+      {
+        "key": "F",
+        "content": "The listener may want to shut down the conversation and move to a safer space."
+      },
+      {
+        "key": "G",
+        "content": "You might even expect the other person to completely tune into what you are saying."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "1",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "widened"
+        },
+        {
+          "key": "B",
+          "content": "softened"
+        },
+        {
+          "key": "C",
+          "content": "lightened"
+        },
+        {
+          "key": "D",
+          "content": "tightened"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q002",
+      "label": "2",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "fall apart"
+        },
+        {
+          "key": "B",
+          "content": "slip away"
+        },
+        {
+          "key": "C",
+          "content": "take shape"
+        },
+        {
+          "key": "D",
+          "content": "make sense"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q003",
+      "label": "3",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "lie"
+        },
+        {
+          "key": "B",
+          "content": "trick"
+        },
+        {
+          "key": "C",
+          "content": "secret"
+        },
+        {
+          "key": "D",
+          "content": "promise"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q004",
+      "label": "4",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "warn"
+        },
+        {
+          "key": "B",
+          "content": "forgive"
+        },
+        {
+          "key": "C",
+          "content": "measure"
+        },
+        {
+          "key": "D",
+          "content": "challenge"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q005",
+      "label": "5",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "borrowed"
+        },
+        {
+          "key": "B",
+          "content": "defeated"
+        },
+        {
+          "key": "C",
+          "content": "offended"
+        },
+        {
+          "key": "D",
+          "content": "confused"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q006",
+      "label": "6",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "coldly"
+        },
+        {
+          "key": "B",
+          "content": "wildly"
+        },
+        {
+          "key": "C",
+          "content": "bitterly"
+        },
+        {
+          "key": "D",
+          "content": "nervously"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q007",
+      "label": "7",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "eager"
+        },
+        {
+          "key": "B",
+          "content": "ready"
+        },
+        {
+          "key": "C",
+          "content": "proud"
+        },
+        {
+          "key": "D",
+          "content": "unable"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q008",
+      "label": "8",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "warmth"
+        },
+        {
+          "key": "B",
+          "content": "credit"
+        },
+        {
+          "key": "C",
+          "content": "nutrition"
+        },
+        {
+          "key": "D",
+          "content": "attention"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q009",
+      "label": "9",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "fix"
+        },
+        {
+          "key": "B",
+          "content": "explain"
+        },
+        {
+          "key": "C",
+          "content": "confirm"
+        },
+        {
+          "key": "D",
+          "content": "show"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q010",
+      "label": "10",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "expected"
+        },
+        {
+          "key": "B",
+          "content": "compared"
+        },
+        {
+          "key": "C",
+          "content": "described"
+        },
+        {
+          "key": "D",
+          "content": "identified"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q011",
+      "label": "11",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "was carving"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q012",
+      "label": "12",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "herself"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q013",
+      "label": "13",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "with"
+      },
+      "score": 1.5,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q014",
+      "label": "14",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "realising"
+      },
+      "score": 1.5,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q015",
+      "label": "15",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "are found"
+      },
+      "score": 1.5,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q016",
+      "label": "16",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "to process"
+      },
+      "score": 1.5,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "17",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "beliefs"
+      },
+      "score": 1.5,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "18",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "who/that"
+      },
+      "score": 1.5,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "19",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "dangerous"
+      },
+      "score": 1.5,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q020",
+      "label": "20",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "why"
+      },
+      "score": 1.5,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q021",
+      "label": "21",
+      "type": "single_choice",
+      "materials": [
+        "m005",
+        "m006"
+      ],
+      "stem": "Venture is intended to help students ______.",
+      "options": [
+        {
+          "key": "A",
+          "content": "release their academic potential"
+        },
+        {
+          "key": "B",
+          "content": "land a job in the tech industry"
+        },
+        {
+          "key": "C",
+          "content": "develop business-building skills"
+        },
+        {
+          "key": "D",
+          "content": "network with public speakers"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q022",
+      "label": "22",
+      "type": "single_choice",
+      "materials": [
+        "m005",
+        "m006"
+      ],
+      "stem": "What will participants do during the program?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Craft stories on a landing page."
+        },
+        {
+          "key": "B",
+          "content": "Work in teams assigned by coaches."
+        },
+        {
+          "key": "C",
+          "content": "Attend weekly mental health talks."
+        },
+        {
+          "key": "D",
+          "content": "Display their products in the market."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q023",
+      "label": "23",
+      "type": "single_choice",
+      "materials": [
+        "m005",
+        "m006"
+      ],
+      "stem": "Unlike the on-site program, the online program ______.",
+      "options": [
+        {
+          "key": "A",
+          "content": "requires full-time commitment"
+        },
+        {
+          "key": "B",
+          "content": "provides leisure activities"
+        },
+        {
+          "key": "C",
+          "content": "invites entrepreneurs worldwide"
+        },
+        {
+          "key": "D",
+          "content": "features individual learning"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q024",
+      "label": "24",
+      "type": "single_choice",
+      "materials": [
+        "m005",
+        "m007"
+      ],
+      "stem": "What does the author think of the fried rice recipe?",
+      "options": [
+        {
+          "key": "A",
+          "content": "It provides inaccurate details."
+        },
+        {
+          "key": "B",
+          "content": "It includes too many ingredients."
+        },
+        {
+          "key": "C",
+          "content": "It misses the essence of cooking."
+        },
+        {
+          "key": "D",
+          "content": "It contradicts the basics of cuisine."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q025",
+      "label": "25",
+      "type": "single_choice",
+      "materials": [
+        "m005",
+        "m007"
+      ],
+      "stem": "The author enjoys baking because of ______.",
+      "options": [
+        {
+          "key": "A",
+          "content": "her hope to pass recipes on"
+        },
+        {
+          "key": "B",
+          "content": "her love of precision and detail"
+        },
+        {
+          "key": "C",
+          "content": "her interest in a different culture"
+        },
+        {
+          "key": "D",
+          "content": "her desire to honour family traditions"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q026",
+      "label": "26",
+      "type": "single_choice",
+      "materials": [
+        "m005",
+        "m007"
+      ],
+      "stem": "The author’s cupcake experiments made her more ______.",
+      "options": [
+        {
+          "key": "A",
+          "content": "open-minded"
+        },
+        {
+          "key": "B",
+          "content": "organized"
+        },
+        {
+          "key": "C",
+          "content": "confident"
+        },
+        {
+          "key": "D",
+          "content": "clear-headed"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q027",
+      "label": "27",
+      "type": "single_choice",
+      "materials": [
+        "m005",
+        "m007"
+      ],
+      "stem": "What can we learn from this passage?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Fond memories make a dish tasty."
+        },
+        {
+          "key": "B",
+          "content": "Precision and creativity are inseparable."
+        },
+        {
+          "key": "C",
+          "content": "Creativity prospers where rules end."
+        },
+        {
+          "key": "D",
+          "content": "Life doesn’t always come with a recipe."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q028",
+      "label": "28",
+      "type": "single_choice",
+      "materials": [
+        "m005",
+        "m008"
+      ],
+      "stem": "What does the word “<u>underpins</u>” underlined in Paragraph 2 most probably mean?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Supports."
+        },
+        {
+          "key": "B",
+          "content": "Evaluates."
+        },
+        {
+          "key": "C",
+          "content": "Replaces."
+        },
+        {
+          "key": "D",
+          "content": "Frames."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "q029",
+      "label": "29",
+      "type": "single_choice",
+      "materials": [
+        "m005",
+        "m008"
+      ],
+      "stem": "What can we learn from the passage?",
+      "options": [
+        {
+          "key": "A",
+          "content": "The “Late System” is developed in adulthood."
+        },
+        {
+          "key": "B",
+          "content": "The “two dogs” proverb encourages competitions."
+        },
+        {
+          "key": "C",
+          "content": "The convergent ray solution arose from an analogy."
+        },
+        {
+          "key": "D",
+          "content": "LLMs can’t form analogies due to lack of autonomy."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "q030",
+      "label": "30",
+      "type": "single_choice",
+      "materials": [
+        "m005",
+        "m008"
+      ],
+      "stem": "Which would be the best title for the passage?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Developing Analogy: The Core of Human Creativity"
+        },
+        {
+          "key": "B",
+          "content": "Decoding Analogy: A Capacity Setting Humans Apart"
+        },
+        {
+          "key": "C",
+          "content": "Defining Analogy: The Force Driving Human Evolution"
+        },
+        {
+          "key": "D",
+          "content": "Defending Analogy: A Mechanism of Human Perception"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "q031",
+      "label": "31",
+      "type": "single_choice",
+      "materials": [
+        "m005",
+        "m009"
+      ],
+      "stem": "What can we learn from the first three paragraphs?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Politicians argue life rewards are set at birth."
+        },
+        {
+          "key": "B",
+          "content": "Talent and determination owe nothing to luck."
+        },
+        {
+          "key": "C",
+          "content": "Industry enhances merit and directs to success."
+        },
+        {
+          "key": "D",
+          "content": "Merit is largely decided by circumstantial factors."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "q032",
+      "label": "32",
+      "type": "single_choice",
+      "materials": [
+        "m005",
+        "m009"
+      ],
+      "stem": "What does the author imply by citing the “ultimatum game” experiment?",
+      "options": [
+        {
+          "key": "A",
+          "content": "The results confirm meritocracy’s moral appeal."
+        },
+        {
+          "key": "B",
+          "content": "Belief in merit may encourage selfishness and bias."
+        },
+        {
+          "key": "C",
+          "content": "Ideas of skill can increase our willingness to donate."
+        },
+        {
+          "key": "D",
+          "content": "Games of chance ensure even distribution of resources."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "q033",
+      "label": "33",
+      "type": "single_choice",
+      "materials": [
+        "m005",
+        "m009"
+      ],
+      "stem": "The author feels meritocracy’s moral appeal is ______.",
+      "options": [
+        {
+          "key": "A",
+          "content": "erroneous"
+        },
+        {
+          "key": "B",
+          "content": "justified"
+        },
+        {
+          "key": "C",
+          "content": "practical"
+        },
+        {
+          "key": "D",
+          "content": "groundless"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "q034",
+      "label": "34",
+      "type": "single_choice",
+      "materials": [
+        "m005",
+        "m009"
+      ],
+      "stem": "What is the purpose of this passage?",
+      "options": [
+        {
+          "key": "A",
+          "content": "To criticise the mindset of chasing success."
+        },
+        {
+          "key": "B",
+          "content": "To challenge a commonly held social belief."
+        },
+        {
+          "key": "C",
+          "content": "To compare different social reward systems."
+        },
+        {
+          "key": "D",
+          "content": "To evaluate the pros and cons of meritocracy."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "q035",
+      "label": "35",
+      "type": "single_choice",
+      "materials": [
+        "m010",
+        "m011"
+      ],
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "G"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q036",
+      "label": "36",
+      "type": "single_choice",
+      "materials": [
+        "m010",
+        "m011"
+      ],
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q037",
+      "label": "37",
+      "type": "single_choice",
+      "materials": [
+        "m010",
+        "m011"
+      ],
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "E"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q038",
+      "label": "38",
+      "type": "single_choice",
+      "materials": [
+        "m010",
+        "m011"
+      ],
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "F"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q039",
+      "label": "39",
+      "type": "single_choice",
+      "materials": [
+        "m010",
+        "m011"
+      ],
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q040",
+      "label": "40",
+      "type": "short_answer",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "stem": "What did the author find important after losing her stepfather?",
+      "answer": {
+        "source": "question_document",
+        "content": "Expressing herself through writing./Communicating through written words."
+      },
+      "score": 2,
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "q041",
+      "label": "41",
+      "type": "short_answer",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "stem": "Why did the author set up the website?",
+      "answer": {
+        "source": "question_document",
+        "content": "To encourage people to write letters to others."
+      },
+      "score": 2,
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "q042",
+      "label": "42",
+      "type": "short_answer",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "stem": [
+        "Please decide which part is false in the following statement, then underline it and explain why.",
+        "➤ *On the author’s website, she suggests a deadline in order to collect as many letters as possible.*"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": [
+          "On the author’s website, she suggests a deadline in order to <u>collect as many letters as possible</u>.",
+          "According to the passage, the author suggests a deadline on her website in order to remind people that we don’t always have the time we think we do."
+        ]
+      },
+      "score": 3,
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "q043",
+      "label": "43",
+      "type": "short_answer",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "stem": "If you are to write a letter to someone, who will you write to? What will you write about? *(In about 40 words)*",
+      "answer": {
+        "source": "question_document",
+        "content": "(略)"
+      },
+      "score": 5,
+      "pages": [
+        9
+      ],
+      "notes": [
+        "原卷参考答案页第 43 题仅印“(略)”，未提供具体答案。"
+      ]
+    },
+    {
+      "id": "q044",
+      "label": "第二节",
+      "type": "essay",
+      "stem": [
+        "假设你是红星中学高三学生李华。你们学校即将举办“未来已来”（The Future is Here）的科技节活动。你打算邀请你的国际部好友 Jim 参加。请你给他写一封邮件，内容包括：",
+        "1. 活动安排（时间、地点等）；",
+        "2. 活动内容。",
+        "注意：1. 词数 100 左右；",
+        "2. 开头和结尾已给出，不计入总词数。",
+        "Dear Jim,",
+        "Yours,",
+        "Li Hua",
+        "（请务必将作文写在答题卡指定区域内）"
+      ],
+      "score": 20,
+      "pages": [
+        9
+      ]
+    }
+  ]
+}

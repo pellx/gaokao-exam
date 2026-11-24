@@ -1,0 +1,965 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|一模|朝阳|数学|",
+    "title": "2026北京朝阳高三一模数学试题及答案",
+    "year": 2026,
+    "kind": "一模",
+    "subject": "数学",
+    "district": "朝阳",
+    "exam_date": "2026-03"
+  },
+  "source": {
+    "file": "../../../../../raw/数学/2026/一模/math-2026-mock1-chaoyang.pdf",
+    "sha256": "312780862b9d030ec24a8516eb520d16f44eb5b688ea0457838114bc0f0244f7",
+    "page_count": 13
+  },
+  "extraction": {
+    "status": "verified",
+    "tool": "PyMuPDF 文本提取与页面渲染，嵌入图提取/页面区域裁剪，逐页逐图视觉核对，jsonschema Draft 2020-12 校验",
+    "created_at": "2026-11-14T12:00:00+08:00",
+    "notes": [
+      "原卷 13 页：第 1–6 页为试题，第 7–13 页为参考答案；答案均在同一 PDF 内，故未列 source.answer_files，answer.source 均为 question_document。",
+      "第 16 题（Ⅱ）原卷“使得 △ABC 有两个，”后无宾语，按原卷原样保留。",
+      "第 21 题（Ⅲ）参考答案末尾集合写作 $|a_{m-1}-a_m|$，按原卷保留。",
+      "第 18 题（Ⅲ）原文只给出 M2、M3 的评级为 A 的概率 0.3、0.35，按原卷保留。",
+      "第 17 题（Ⅱ）参考答案中含坐标系的图作为 a004 收入 analysis。"
+    ]
+  },
+  "assets": {
+    "a001": {
+      "path": "assets/a001.png",
+      "kind": "image",
+      "page": 3,
+      "sha256": "1c692c9810c854ddc51c19c5534eb83f31e9e1df3e7a9214283d723afd303828",
+      "bbox": [
+        384.0,
+        569.6,
+        541.1,
+        714.4
+      ]
+    },
+    "a002": {
+      "path": "assets/a002.png",
+      "kind": "image",
+      "page": 4,
+      "sha256": "c4a71bee690d87563166c0a264f96c433b98a1f40d7a5bdee4bb70b2cfba467b",
+      "bbox": [
+        70.0,
+        150.0,
+        245.0,
+        292.0
+      ]
+    },
+    "a003": {
+      "path": "assets/a003.png",
+      "kind": "image",
+      "page": 4,
+      "sha256": "04ece7a9ac7d5e3e168eb49f89fa7c7e0d6c144784e0e71b6cff29b69d3b2bdc",
+      "bbox": [
+        278.0,
+        145.0,
+        455.0,
+        292.0
+      ]
+    },
+    "a004": {
+      "path": "assets/a004.png",
+      "kind": "image",
+      "page": 8,
+      "sha256": "694f22ca8b7e479270dc496289eb0042b69a3be08370815aaf2276f018284b36",
+      "bbox": [
+        349.0,
+        303.7,
+        489.6,
+        439.5
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "（1）",
+      "type": "single_choice",
+      "stem": "已知全集 $U=\\{-1,0,1,2\\}$，集合 $A$ 满足 $\\complement_U A=\\{-1,1\\}$，则",
+      "options": [
+        {
+          "key": "A",
+          "content": "$-1\\in A$"
+        },
+        {
+          "key": "B",
+          "content": "$0\\in A$"
+        },
+        {
+          "key": "C",
+          "content": "$1\\in A$"
+        },
+        {
+          "key": "D",
+          "content": "$2\\notin A$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q002",
+      "label": "（2）",
+      "type": "single_choice",
+      "stem": "复数 $1-\\mathrm{i}$ 的实部与虚部的和是",
+      "options": [
+        {
+          "key": "A",
+          "content": "$1-\\mathrm{i}$"
+        },
+        {
+          "key": "B",
+          "content": "$1+\\mathrm{i}$"
+        },
+        {
+          "key": "C",
+          "content": "$0$"
+        },
+        {
+          "key": "D",
+          "content": "$2$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q003",
+      "label": "（3）",
+      "type": "single_choice",
+      "stem": "已知等差数列 $\\{a_n\\}$ 的前 $n$ 项和为 $S_n$，$a_2-a_3+a_4=3$，则 $S_5=$",
+      "options": [
+        {
+          "key": "A",
+          "content": "$10$"
+        },
+        {
+          "key": "B",
+          "content": "$15$"
+        },
+        {
+          "key": "C",
+          "content": "$20$"
+        },
+        {
+          "key": "D",
+          "content": "$25$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q004",
+      "label": "（4）",
+      "type": "single_choice",
+      "stem": "已知向量 $\\overrightarrow{OA}=(1,1)$，$\\overrightarrow{OB}=(k,3)$，$\\overrightarrow{OC}=(2,-1)$．若 $A,B,C$ 三点共线，则 $k=$",
+      "options": [
+        {
+          "key": "A",
+          "content": "$-1$"
+        },
+        {
+          "key": "B",
+          "content": "$0$"
+        },
+        {
+          "key": "C",
+          "content": "$1$"
+        },
+        {
+          "key": "D",
+          "content": "$2$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q005",
+      "label": "（5）",
+      "type": "single_choice",
+      "stem": "设点 $O$ 为坐标原点，过双曲线 $\\frac{x^2}{3}-y^2=1$ 的右焦点 $F$ 作其一条渐近线的垂线，垂足为点 $D$，则 $\\tan\\angle DFO=$",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\sqrt{3}$"
+        },
+        {
+          "key": "B",
+          "content": "$\\frac{\\sqrt{3}}{3}$"
+        },
+        {
+          "key": "C",
+          "content": "$2$"
+        },
+        {
+          "key": "D",
+          "content": "$\\frac{1}{2}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q006",
+      "label": "（6）",
+      "type": "single_choice",
+      "stem": "已知函数 $f(x)=\\sin x-\\sqrt{3}\\cos x$（$x\\in[-\\pi,2\\pi]$），则 $f(x)$ 的所有零点之和为",
+      "options": [
+        {
+          "key": "A",
+          "content": "$-\\frac{\\pi}{3}$"
+        },
+        {
+          "key": "B",
+          "content": "$\\frac{\\pi}{3}$"
+        },
+        {
+          "key": "C",
+          "content": "$\\frac{2\\pi}{3}$"
+        },
+        {
+          "key": "D",
+          "content": "$\\pi$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q007",
+      "label": "（7）",
+      "type": "single_choice",
+      "stem": "设 $a,b\\in\\mathbf{R}$，则“$|a|<3$ 且 $|b|<3$”是“$a^2+b^2<9$”的",
+      "options": [
+        {
+          "key": "A",
+          "content": "充分不必要条件"
+        },
+        {
+          "key": "B",
+          "content": "必要不充分条件"
+        },
+        {
+          "key": "C",
+          "content": "充要条件"
+        },
+        {
+          "key": "D",
+          "content": "既不充分也不必要条件"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q008",
+      "label": "（8）",
+      "type": "single_choice",
+      "stem": "已知函数 $f(x)=\\mathrm{e}^{x-1}$，$g(x)=\\sqrt{|x|}$，则",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\forall x\\in(-\\infty,0)$，$f(x)>g(x)$"
+        },
+        {
+          "key": "B",
+          "content": "$\\forall x\\in(0,1)$，$f(x)>g(x)$"
+        },
+        {
+          "key": "C",
+          "content": "$\\exists x\\in(0,1)$，$f(x)<g(x)$"
+        },
+        {
+          "key": "D",
+          "content": "$\\exists x\\in(1,+\\infty)$，$f(x)<g(x)$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q009",
+      "label": "（9）",
+      "type": "single_choice",
+      "stem": "某深度学习框架提供了一种自然指数衰减的学习率调整模型 $L(k)=L_0\\mathrm{e}^{-r\\cdot\\frac{k}{S}}$（$L_0\\in(0,1)$，$r\\in(0,1)$，$S\\in\\mathbf{N}^*$，$k\\in\\mathbf{N}^*$），其中 $L_0$ 为初始学习率，$r$ 为衰减率，$S$ 为衰减步长，$k$ 为训练步数，$L(k)$ 为第 $k$ 步时的学习率．现有两种学习率衰减策略 A 和 B，初始学习率 $L_0$ 相同，策略 A 的参数为 $r_A=0.9$，$S_A=100$，策略 B 的参数为 $r_B=0.95$，$S_B=50$．已知当训练步数为 $k_1$ 时，策略 A 的学习率首次大于策略 B 的学习率的 2 倍，当训练步数为 $k_2$ 时，策略 A 的学习率首次大于策略 B 的学习率的 8 倍，则\n（参考数据：$0.6931<\\ln 2<0.6932$）",
+      "options": [
+        {
+          "key": "A",
+          "content": "$k_2=3k_1-2$"
+        },
+        {
+          "key": "B",
+          "content": "$k_2=3k_1-1$"
+        },
+        {
+          "key": "C",
+          "content": "$k_2=3k_1$"
+        },
+        {
+          "key": "D",
+          "content": "$k_2=3k_1+1$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q010",
+      "label": "（10）",
+      "type": "single_choice",
+      "stem": "已知集合 $A=\\{x\\in\\mathbf{N}^*\\mid 1\\leqslant x\\leqslant 2026\\}$．设集合 $B=\\{b_1,b_2,b_3,\\cdots,b_n\\}$ 满足 $B\\subseteq A$，且对任意的 $b_i,b_j,b_k\\in B$（$i,j,k\\in\\{1,2,3,\\cdots,n\\}$），存在 $m\\in\\mathbf{N}^*$，使得 $b_i+b_j+b_k=39m$，则 $n$ 的最大值为",
+      "options": [
+        {
+          "key": "A",
+          "content": "$50$"
+        },
+        {
+          "key": "B",
+          "content": "$51$"
+        },
+        {
+          "key": "C",
+          "content": "$52$"
+        },
+        {
+          "key": "D",
+          "content": "$53$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q011",
+      "label": "（11）",
+      "type": "fill_blank",
+      "stem": "在 $(x-\\frac{2}{x})^4$ 的展开式中，常数项为_______．（用数字作答）",
+      "answer": {
+        "source": "question_document",
+        "content": "$24$"
+      },
+      "score": 5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q012",
+      "label": "（12）",
+      "type": "fill_blank",
+      "stem": "已知抛物线 $C:y^2=4x$，则 $C$ 的准线 $l$ 的方程为_______；若圆 $M$ 分别与直线 $l$ 和 $x$ 轴都相切，且圆心 $M$ 在 $C$ 上，则圆 $M$ 的半径为_______．",
+      "answer": {
+        "source": "question_document",
+        "content": [
+          "$x=-1$",
+          "$2$"
+        ]
+      },
+      "score": 5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q013",
+      "label": "（13）",
+      "type": "fill_blank",
+      "stem": "已知点 $P(-\\sqrt{3},1)$，点 $A(m,n)$（$m>0,n>0$）为圆 $O:x^2+y^2=1$ 上的动点，若 $\\angle AOP\\in[\\frac{\\pi}{2},\\frac{5\\pi}{6})$，则 $m$ 的一个取值为_______．",
+      "answer": {
+        "source": "question_document",
+        "content": "$\\frac{1}{2}$（答案不唯一）"
+      },
+      "score": 5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q014",
+      "label": "（14）",
+      "type": "fill_blank",
+      "stem": "已知菱形 $ABCD$ 的边长为 $1$，$\\angle ABC=\\frac{\\pi}{3}$，将 $\\triangle ACD$ 沿 $AC$ 折起，得到三棱锥 $D'-ABC$．当平面 $ACD'\\perp$ 平面 $ABC$ 时，$BD'=$_______；当平面 $ABD'\\perp$ 平面 $BCD'$ 时，三棱锥 $D'-ABC$ 的体积为_______．",
+      "answer": {
+        "source": "question_document",
+        "content": [
+          "$\\frac{\\sqrt{6}}{2}$",
+          "$\\frac{\\sqrt{2}}{12}$"
+        ]
+      },
+      "score": 5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q015",
+      "label": "（15）",
+      "type": "fill_blank",
+      "stem": "设无穷数列 $\\{a_n\\}$ 的前 $n$ 项和为 $S_n$，且对于任意 $n\\in\\mathbf{N}^*$，$S_n+\\lambda a_n=1$（$\\lambda\\in\\mathbf{R}$ 且 $\\lambda\\neq-1$），给出下列四个结论：\n①存在 $\\lambda\\neq-1$，使得 $\\{a_n\\}$ 是常数列；\n②任意 $\\lambda\\neq-1$，$\\{a_n\\}$ 不是递增数列；\n③存在 $\\lambda<0$，使得 $\\{a_n\\}$ 是周期数列（即存在 $p\\in\\mathbf{N}^*$，对任意 $n\\in\\mathbf{N}^*$，$a_{n+p}=a_n$）；\n④任意 $\\lambda\\in(-1,0)$，$\\{a_n\\}$ 既有最大值，又有最小值．\n其中正确结论的序号是_______．",
+      "answer": {
+        "source": "question_document",
+        "content": "②③"
+      },
+      "score": 5,
+      "pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "q016",
+      "label": "（16）",
+      "type": "composite",
+      "score": 13,
+      "pages": [
+        3
+      ],
+      "stem": "在 $\\triangle ABC$ 中，$\\sqrt{3}c\\sin B-b\\sin2C=0$．",
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "求 $\\angle C$；",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\frac{\\pi}{6}$"
+          },
+          "score": 6,
+          "analysis": [
+            "解：因为 $\\sqrt{3}c\\sin B-b\\sin2C=0$，",
+            "由正弦定理 $\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$，得 $\\sqrt{3}\\sin C\\sin B-\\sin B\\sin2C=0$．",
+            "所以 $\\sqrt{3}\\sin C\\sin B-2\\sin B\\sin C\\cos C=0$．",
+            "因为 $B,C\\in(0,\\pi)$，所以 $\\sin B\\neq0,\\sin C\\neq0$．",
+            "所以 $\\sqrt{3}-2\\cos C=0$，即 $\\cos C=\\frac{\\sqrt{3}}{2}$．",
+            "又因为 $C\\in(0,\\pi)$，所以 $\\angle C=\\frac{\\pi}{6}$．"
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": [
+            "若 $a=2\\sqrt{3}$，再从条件①、条件②、条件③这三个条件中选择一个作为已知，使得 $\\triangle ABC$ 有两个，求这两个三角形的面积．",
+            "条件①：$b=4$；",
+            "条件②：$\\sin A=\\frac{\\sqrt{21}}{7}$；",
+            "条件③：$c=\\sqrt{7}$．",
+            "注：如果选择的条件不符合要求，第（Ⅱ）问得 $0$ 分；如果选择多个符合要求的条件分别解答，按第一个解答计分．"
+          ],
+          "needs_review": true,
+          "notes": [
+            "原卷此处为“使得 △ABC 有两个，”，疑缺宾语，按原样转录。"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "选择条件②：$\\frac{5\\sqrt{3}}{2}$，$\\frac{\\sqrt{3}}{2}$．",
+              "选择条件③：以下同选条件②．"
+            ]
+          },
+          "analysis": [
+            "选择条件②：$\\sin A=\\frac{\\sqrt{21}}{7}$．",
+            "由正弦定理 $\\frac{a}{\\sin A}=\\frac{c}{\\sin C}$，得 $c=\\frac{a}{\\sin A}\\sin C=\\frac{2\\sqrt{3}}{\\frac{\\sqrt{21}}{7}}\\times\\frac{1}{2}=\\sqrt{7}$．",
+            "由余弦定理 $c^2=b^2+a^2-2ab\\cos C$，得 $b^2-6b+5=0$，",
+            "解得 $b=5$ 或 $b=1$．经检验知 $\\triangle ABC$ 有两个．",
+            "当 $b=5$ 时，$S_{\\triangle ABC}=\\frac{1}{2}ab\\sin C=\\frac{1}{2}\\times2\\sqrt{3}\\times5\\times\\sin\\frac{\\pi}{6}=\\frac{5\\sqrt{3}}{2}$；",
+            "当 $b=1$ 时，$S_{\\triangle ABC}=\\frac{1}{2}ab\\sin C=\\frac{1}{2}\\times2\\sqrt{3}\\times1\\times\\sin\\frac{\\pi}{6}=\\frac{\\sqrt{3}}{2}$．",
+            "选择条件③：$c=\\sqrt{7}$．",
+            "由余弦定理 $c^2=b^2+a^2-2ab\\cos C$，得 $b^2-6b+5=0$，解得 $b=5$ 或 $b=1$．",
+            "以下同选条件②．"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "（17）",
+      "type": "composite",
+      "score": 14,
+      "pages": [
+        3
+      ],
+      "stem": [
+        "如图，在四棱锥 $P-ABCD$ 中，底面 $ABCD$ 是梯形，$AB\\parallel DC$．点 $M$ 是 $PD$ 的中点，平面 $ABM$ 与 $PC$ 交于点 $N$．",
+        {
+          "asset": "a001",
+          "caption": "图"
+        }
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "proof",
+          "stem": "求证：$MN\\parallel AB$；",
+          "answer": {
+            "source": "question_document",
+            "content": "$MN\\parallel AB$"
+          },
+          "score": 5,
+          "analysis": [
+            "解：因为 $AB\\parallel DC$，$DC\\subset$ 平面 $PCD$，$AB\\not\\subset$ 平面 $PCD$，",
+            "所以 $AB\\parallel$ 平面 $PCD$．",
+            "又因为 $AB\\subset$ 平面 $ABM$，且平面 $ABM\\cap$ 平面 $PCD=MN$，",
+            "所以 $MN\\parallel AB$．"
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": "若 $PA\\perp$ 平面 $ABCD$，$AB=BC=AP=2$，$CD=1$，$\\angle ABC=\\frac{\\pi}{3}$，求直线 $PM$ 与平面 $ABM$ 所成角的正弦值．",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\frac{4\\sqrt{3}}{7}$"
+          },
+          "analysis": [
+            "（Ⅱ）连接 $AC$，在 $\\triangle ABC$ 中，因为 $AB=BC=2$，$\\angle ABC=\\frac{\\pi}{3}$，",
+            "所以 $\\triangle ABC$ 是等边三角形，$AC=2$．",
+            "在梯形 $ABCD$ 中，因为 $AB\\parallel DC$，所以 $\\angle ACD=\\angle BAC=\\frac{\\pi}{3}$．",
+            "故在 $\\triangle ACD$ 中，$AC=2,CD=1$，且 $\\angle ACD=\\frac{\\pi}{3}$，所以 $AD=\\sqrt{3}$．",
+            "又 $AD^2+CD^2=AC^2$，所以 $AD\\perp DC$．",
+            "所以 $AB\\perp AD$．",
+            "又因为 $PA\\perp$ 平面 $ABCD$，所以 $PA\\perp AB,PA\\perp AD$．",
+            "如图，建立空间直角坐标系 $A-xyz$．",
+            {
+              "asset": "a004",
+              "caption": "建立空间直角坐标系"
+            },
+            "则 $B(2,0,0),D(0,\\sqrt{3},0),P(0,0,2),M(0,\\frac{\\sqrt{3}}{2},1)$．",
+            "$\\overrightarrow{AB}=(2,0,0)$，$\\overrightarrow{AM}=(0,\\frac{\\sqrt{3}}{2},1)$，$\\overrightarrow{PD}=(0,\\sqrt{3},-2)$．",
+            "设平面 $ABM$ 的法向量为 $\\boldsymbol{m}=(x,y,z)$，",
+            "由 $\\begin{cases}\\boldsymbol{m}\\cdot\\overrightarrow{AB}=0,\\\\ \\boldsymbol{m}\\cdot\\overrightarrow{AM}=0,\\end{cases}$ 得 $\\begin{cases}2x=0,\\\\ \\frac{\\sqrt{3}}{2}y+z=0.\\end{cases}$",
+            "令 $y=2$，则 $z=-\\sqrt{3}$，所以 $\\boldsymbol{m}=(0,2,-\\sqrt{3})$．",
+            "设直线 $PM$ 与平面 $ABM$ 所成角为 $\\theta$，则",
+            "$\\sin\\theta=|\\cos\\langle\\overrightarrow{PD},\\boldsymbol{m}\\rangle|=\\frac{|\\overrightarrow{PD}\\cdot\\boldsymbol{m}|}{|\\overrightarrow{PD}|\\cdot|\\boldsymbol{m}|}=\\frac{4\\sqrt{3}}{\\sqrt{7}\\cdot\\sqrt{7}}=\\frac{4\\sqrt{3}}{7}$．",
+            "所以直线 $PM$ 与平面 $ABM$ 所成角的正弦值为 $\\frac{4\\sqrt{3}}{7}$．"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "（18）",
+      "type": "composite",
+      "score": 13,
+      "pages": [
+        4
+      ],
+      "stem": [
+        "某研究团队发现人工智能助手的问题解决“满意度评分”（满分 $100$ 分）与其使用场景密切相关，该团队将用户分为学习场景用户和工作场景用户两类．为了调研用户对人工智能助手 $\\mathrm{M}_1$ 的满意度评分情况，现从这两类用户中各随机抽取 $100$ 人，记录他们的满意度评分，将数据分成 $6$ 组：$[40,50),[50,60),[60,70),[70,80),[80,90),[90,100]$，并分别整理得到如下两个频率分布直方图：",
+        {
+          "asset": "a002",
+          "caption": "学习场景用户评分"
+        },
+        {
+          "asset": "a003",
+          "caption": "工作场景用户评分"
+        },
+        "现规定满意度评分在 $80$ 分及以上的满意度评级为 A，在区间 $[60,80)$ 的满意度评级为 B，在 $60$ 分以下的满意度评级为 C．用频率估计概率，假设每个用户的评分相互独立．"
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "求 $a$ 的值；",
+          "answer": {
+            "source": "question_document",
+            "content": "$0.015$"
+          },
+          "score": 3,
+          "analysis": [
+            "解：由题知，$(0.005+0.010+2a+0.025+0.030)\\times10=1$，",
+            "所以 $a=0.015$．"
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": "从使用人工智能助手 $\\mathrm{M}_1$ 的所有学习场景用户中随机抽取 $2$ 人，从使用人工智能助手 $\\mathrm{M}_1$ 的所有工作场景用户中随机抽取 $1$ 人，设 $X$ 为抽出的 $3$ 人中满意度评级为 A 的人数，估计 $X$ 的分布列和数学期望 $EX$；",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "$X$ 的所有可能取值为 $0,1,2,3$．所以 $X$ 的分布列为",
+              {
+                "table": {
+                  "header": [
+                    "$X$",
+                    "$0$",
+                    "$1$",
+                    "$2$",
+                    "$3$"
+                  ],
+                  "rows": [
+                    [
+                      "$P$",
+                      "$\\frac{9}{20}$",
+                      "$\\frac{33}{80}$",
+                      "$\\frac{1}{8}$",
+                      "$\\frac{1}{80}$"
+                    ]
+                  ]
+                }
+              },
+              "故 $X$ 的数学期望 $EX$ 可估计为 $0\\times\\frac{9}{20}+1\\times\\frac{33}{80}+2\\times\\frac{1}{8}+3\\times\\frac{1}{80}=\\frac{7}{10}$．"
+            ]
+          },
+          "analysis": [
+            "从使用人工智能助手 $\\mathrm{M}_1$ 的所有学习场景用户中随机抽取一人，此人满意度评级为 A 的概率估计为 $0.15+0.1=0.25=\\frac{1}{4}$；",
+            "从使用人工智能助手 $\\mathrm{M}_1$ 的所有工作场景用户中随机抽取一人，此人满意度评级为 A 的概率估计为 $0.12+0.08=0.2=\\frac{1}{5}$．",
+            "所以 $P(X=0)$ 可估计为 $\\left(\\frac{3}{4}\\right)^2\\times\\frac{4}{5}=\\frac{9}{20}$；",
+            "$P(X=1)$ 可估计为 $\\mathrm{C}_2^1\\times\\frac{1}{4}\\times\\frac{3}{4}\\times\\frac{4}{5}+\\left(\\frac{3}{4}\\right)^2\\times\\frac{1}{5}=\\frac{33}{80}$；",
+            "$P(X=2)$ 可估计为 $\\left(\\frac{1}{4}\\right)^2\\times\\frac{4}{5}+\\mathrm{C}_2^1\\times\\frac{1}{4}\\times\\frac{3}{4}\\times\\frac{1}{5}=\\frac{1}{8}$；",
+            "$P(X=3)$ 可估计为 $\\left(\\frac{1}{4}\\right)^2\\times\\frac{1}{5}=\\frac{1}{80}$．"
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（Ⅲ）",
+          "type": "short_answer",
+          "stem": [
+            "该研究团队又对另外两款人工智能助手 $\\mathrm{M}_2,\\mathrm{M}_3$ 进行了同样的调研，估计出其学习场景用户的满意度评级为 A 的概率分别为 $0.3,0.35$．现分别从使用 $\\mathrm{M}_1,\\mathrm{M}_2,\\mathrm{M}_3$ 这三款人工智能助手的学习场景用户中各随机抽取 $1$ 人，用“$\\xi_i=1$”表示其中使用 $\\mathrm{M}_i$（$i=1,2,3$）的学习场景用户的满意度评级为 A，用“$\\xi_i=0$”表示其中使用 $\\mathrm{M}_i$（$i=1,2,3$）的学习场景用户的满意度评级为 B 或 C．设 $d_1=|D\\xi_1-D\\xi_2|$，$d_2=|D\\xi_2-D\\xi_3|$，判断 $d_1,d_2$ 的大小．（结论不要求证明）"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "$d_1>d_2$"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "（19）",
+      "type": "composite",
+      "score": 15,
+      "pages": [
+        5
+      ],
+      "stem": "已知椭圆 $E:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$ 的离心率为 $\\frac{\\sqrt{3}}{2}$，$A,B$ 分别为椭圆 $E$ 的上、下顶点，且 $B(0,-1)$．",
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "求椭圆 $E$ 的方程；",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\frac{x^2}{4}+y^2=1$"
+          },
+          "score": 5,
+          "analysis": [
+            "解：由题意得 $\\begin{cases}b=1,\\\\ \\frac{c}{a}=\\frac{\\sqrt{3}}{2},\\\\ a^2=b^2+c^2.\\end{cases}$",
+            "解得 $a=2,b=1$．",
+            "所以椭圆 $E$ 的方程为 $\\frac{x^2}{4}+y^2=1$．"
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "proof",
+          "stem": "过点 $D(-1,-1)$ 的斜率存在且不为 $1$ 的直线 $l$ 与椭圆 $E$ 交于不同的两点 $M,N$（均不与点 $A$ 重合），点 $P$ 与点 $M$ 关于原点 $O$ 对称，直线 $BP$ 与直线 $OD$ 交于点 $Q$．求证：直线 $NQ$ 经过点 $A$．",
+          "answer": {
+            "source": "question_document",
+            "content": "直线 $NQ$ 经过点 $A$"
+          },
+          "analysis": [
+            "（Ⅱ）依题意，直线 $l$ 的斜率存在且不为 $1$．",
+            "设直线 $l$ 的方程为 $y+1=k(x+1)$．",
+            "由 $\\begin{cases}y+1=k(x+1),\\\\ \\frac{x^2}{4}+y^2=1\\end{cases}$ 得 $(4k^2+1)x^2+(8k^2-8k)x+4k^2-8k=0$．",
+            "由 $\\Delta=(8k^2-8k)^2-4(4k^2+1)(4k^2-8k)=16(3k^2+2k)>0$，得 $k>0$ 或 $k<-\\frac{2}{3}$．",
+            "又直线 $l$ 不经过点 $A$，故 $k\\in(-\\infty,-\\frac{2}{3})\\cup(0,1)\\cup(1,2)\\cup(2,+\\infty)$．",
+            "设 $M(x_1,y_1),N(x_2,y_2)(x_1\\neq0,x_2\\neq0)$，",
+            "则 $x_1+x_2=-\\frac{8k^2-8k}{4k^2+1},x_1x_2=\\frac{4k^2-8k}{4k^2+1}$．",
+            "由题可知 $A(0,1),B(0,-1),P(-x_1,-y_1)$，",
+            "直线 $BP$ 的方程为 $y=\\frac{y_1-1}{x_1}x-1$（$\\frac{y_1-1}{x_1}\\neq1$），直线 $OD$ 的方程为 $y=x$．",
+            "由 $\\begin{cases}y=\\frac{y_1-1}{x_1}x-1,\\\\ y=x,\\end{cases}$ 得 $\\begin{cases}x_Q=\\frac{x_1}{y_1-x_1-1},\\\\ y_Q=\\frac{x_1}{y_1-x_1-1}.\\end{cases}$",
+            "所以 $Q\\left(\\frac{x_1}{y_1-x_1-1},\\frac{x_1}{y_1-x_1-1}\\right)$．",
+            "所以 $k_{AQ}=\\frac{\\frac{x_1}{y_1-x_1-1}-1}{\\frac{x_1}{y_1-x_1-1}}=\\frac{2x_1-y_1+1}{x_1}$，$k_{AN}=\\frac{y_2-1}{x_2}$．",
+            "所以 $k_{AN}-k_{AQ}=\\frac{y_2-1}{x_2}-\\frac{2x_1-y_1+1}{x_1}=\\frac{x_1y_2+x_2y_1-2x_1x_2-x_1-x_2}{x_1x_2}$",
+            "$=\\frac{x_1(kx_2+k-1)+x_2(kx_1+k-1)-2x_1x_2-x_1-x_2}{x_1x_2}$",
+            "$=\\frac{(2k-2)x_1x_2+(k-2)(x_1+x_2)}{x_1x_2}$．",
+            "又因为 $(2k-2)x_1x_2+(k-2)(x_1+x_2)$",
+            "$=(2k-2)\\cdot\\frac{4k^2-8k}{4k^2+1}+(k-2)\\cdot\\left(-\\frac{8k^2-8k}{4k^2+1}\\right)$",
+            "$=\\frac{8k(k-2)(k-1)-8k(k-1)(k-2)}{4k^2+1}$",
+            "$=0$．",
+            "所以 $k_{AN}=k_{AQ}$．",
+            "所以直线 $NQ$ 经过点 $A(0,1)$．"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q020",
+      "label": "（20）",
+      "type": "composite",
+      "score": 15,
+      "pages": [
+        5
+      ],
+      "stem": "已知函数 $f(x)=x-x\\ln x-k$，$g(x)=x\\mathrm{e}^{1-x}-k$，其中 $k\\in\\mathbf{R}$．",
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "求 $f(x)$ 的最大值；",
+          "answer": {
+            "source": "question_document",
+            "content": "$1-k$"
+          },
+          "score": 5,
+          "analysis": [
+            "解：$f(x)$ 的定义域为 $(0,+\\infty)$，",
+            "$f'(x)=-\\ln x$，令 $f'(x)=0$，得 $x=1$．",
+            "$f(x)$ 与 $f'(x)$ 在区间 $(0,+\\infty)$ 上的变化情况如下：",
+            {
+              "table": {
+                "header": [
+                  "$x$",
+                  "$(0,1)$",
+                  "$1$",
+                  "$(1,+\\infty)$"
+                ],
+                "rows": [
+                  [
+                    "$f'(x)$",
+                    "$+$",
+                    "$0$",
+                    "$-$"
+                  ],
+                  [
+                    "$f(x)$",
+                    "$\\nearrow$",
+                    "$1-k$",
+                    "$\\searrow$"
+                  ]
+                ]
+              }
+            },
+            "所以当 $x=1$ 时，$f(x)$ 取得最大值 $1-k$．"
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "proof",
+          "stem": "若 $g(x)$ 在区间 $(0,1)$ 上有且只有一个零点 $m$，证明：$f(x)$ 在区间 $(1,+\\infty)$ 上有且只有一个零点 $n$，且 $n\\mathrm{e}^{m-1}=1$；",
+          "answer": {
+            "source": "question_document",
+            "content": "$f(x)$ 在区间 $(1,+\\infty)$ 上有且只有一个零点 $n$，且 $n\\mathrm{e}^{m-1}=1$"
+          },
+          "analysis": [
+            "（Ⅱ）由题设知 $g'(x)=\\mathrm{e}^{1-x}(1-x)$．",
+            "当 $x\\in(0,1)$ 时，$g'(x)>0$，所以 $g(x)$ 在区间 $(0,1)$ 上单调递增．",
+            "因为 $g(x)$ 在区间 $(0,1)$ 上有且只有一个零点 $m$，所以 $\\begin{cases}g(0)<0,\\\\ g(1)>0,\\end{cases}$ 即 $\\begin{cases}-k<0,\\\\ 1-k>0.\\end{cases}$",
+            "所以 $0<k<1$．",
+            "由（Ⅰ）可知 $f(x)$ 在区间 $(1,+\\infty)$ 上单调递减，",
+            "又 $f(1)=1-k>0,f(\\mathrm{e})=-k<0$，",
+            "所以 $f(x)$ 在区间 $(1,+\\infty)$ 上有且只有一个零点 $n$．",
+            "因为 $f(\\mathrm{e}^{1-m})=\\mathrm{e}^{1-m}(1-\\ln\\mathrm{e}^{1-m})-k=m\\mathrm{e}^{1-m}-k=g(m)=0$，又 $f(n)=0$，",
+            "所以 $f(n)=f(\\mathrm{e}^{1-m})$．",
+            "又 $n>1,\\mathrm{e}^{1-m}>1$，$f(x)$ 在区间 $(1,+\\infty)$ 上单调递减，",
+            "所以 $n=\\mathrm{e}^{1-m}$，即 $n\\mathrm{e}^{m-1}=1$．"
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（Ⅲ）",
+          "type": "proof",
+          "stem": "对于（Ⅱ）中的 $n$，证明：$g(n)>0$．",
+          "answer": {
+            "source": "question_document",
+            "content": "$g(n)>0$"
+          },
+          "analysis": [
+            "（Ⅲ）因为 $g(x)-f(x)=x(\\mathrm{e}^{1-x}-1+\\ln x)(x>1)$，",
+            "设 $h(x)=\\mathrm{e}^{1-x}-1+\\ln x(x>1)$，",
+            "则 $h'(x)=-\\mathrm{e}^{1-x}+\\frac{1}{x}=\\frac{1-x\\mathrm{e}^{1-x}}{x}$．",
+            "设 $\\varphi(x)=1-x\\mathrm{e}^{1-x}(x>1)$，则 $\\varphi'(x)=\\mathrm{e}^{1-x}(x-1)>0$，",
+            "所以 $\\varphi(x)$ 在 $(1,+\\infty)$ 上单调递增．",
+            "故 $\\varphi(x)>\\varphi(1)=0$，即 $h'(x)>0$，",
+            "所以 $h(x)$ 在 $(1,+\\infty)$ 上单调递增．",
+            "故 $h(x)>h(1)=0$．",
+            "所以当 $x>1$ 时，$g(x)-f(x)>0$，即 $g(x)>f(x)$．",
+            "又 $n>1$，所以 $g(n)>f(n)=0$．",
+            "即 $g(n)>0$．"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q021",
+      "label": "（21）",
+      "type": "composite",
+      "score": 15,
+      "pages": [
+        6
+      ],
+      "stem": "若数列 $Q:a_1,a_2,\\cdots,a_n(n\\geqslant3)$ 满足如下两个性质，则称 $Q$ 为 $\\mathfrak{D}$ 数列：\n①$a_1,a_2,\\cdots,a_n$ 是 $1,2,\\cdots,n$ 的一个排列；\n②$|a_1-a_2|,|a_2-a_3|,\\cdots,|a_{n-1}-a_n|$ 是 $1,2,\\cdots,n-1$ 的一个排列．",
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "short_answer",
+          "stem": "判断数列 $Q_1:1,4,3,2$ 和数列 $Q_2:5,1,4,2,3$ 是否为 $\\mathfrak{D}$ 数列？说明理由；",
+          "answer": {
+            "source": "question_document",
+            "content": "数列 $Q_1$ 不是 $\\mathfrak{D}$ 数列；数列 $Q_2$ 是 $\\mathfrak{D}$ 数列．"
+          },
+          "score": 4,
+          "analysis": [
+            "解：因为 $|1-4|=3$，$|4-3|=1$，$|3-2|=1$，",
+            "而 $3,1,1$ 不是 $1,2,3$ 的一个排列，",
+            "所以数列 $Q_1:1,4,3,2$ 不是 $\\mathfrak{D}$ 数列．",
+            "因为 $5,1,4,2,3$ 是 $1,2,3,4,5$ 的一个排列，",
+            "又 $|5-1|=4$，$|1-4|=3$，$|4-2|=2$，$|2-3|=1$，",
+            "$4,3,2,1$ 是 $1,2,3,4$ 的一个排列，",
+            "所以数列 $Q_2:5,1,4,2,3$ 是 $\\mathfrak{D}$ 数列．"
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "proof",
+          "stem": "若数列 $Q:a_1,a_2,\\cdots,a_{20}$ 满足 $a_1=1,a_{20}=10$，求证：数列 $Q:a_1,a_2,\\cdots,a_{20}$ 不是 $\\mathfrak{D}$ 数列；",
+          "answer": {
+            "source": "question_document",
+            "content": "数列 $Q:a_1,a_2,\\cdots,a_{20}$ 不是 $\\mathfrak{D}$ 数列"
+          },
+          "analysis": [
+            "（Ⅱ）假设数列 $Q:a_1,a_2,\\cdots,a_{20}$ 为 $\\mathfrak{D}$ 数列，",
+            "则 $|a_1-a_2|+|a_2-a_3|+\\cdots+|a_{19}-a_{20}|=1+2+\\cdots+19=\\frac{(1+19)\\times19}{2}=190$．",
+            "因为 $|a_i-a_{i+1}|$ 与 $a_{i+1}-a_i$（$i=1,2,\\cdots,19$）的奇偶性相同，",
+            "所以 $|a_1-a_2|+|a_2-a_3|+\\cdots+|a_{19}-a_{20}|$",
+            "与 $a_2-a_1+a_3-a_2+\\cdots+a_{20}-a_{19}$ 的奇偶性相同．",
+            "所以 $|a_1-a_2|+|a_2-a_3|+\\cdots+|a_{19}-a_{20}|$ 与 $a_{20}-a_1$ 的奇偶性相同．",
+            "又 $|a_1-a_2|+|a_2-a_3|+\\cdots+|a_{19}-a_{20}|=190$ 是偶数，$a_{20}-a_1=9$ 是奇数，矛盾．",
+            "所以数列 $Q:a_1,a_2,\\cdots,a_{20}$ 不是 $\\mathfrak{D}$ 数列．"
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（Ⅲ）",
+          "type": "calculation",
+          "stem": "若数列 $Q:a_1,a_2,\\cdots,a_{2m-1}(m\\geqslant2)$ 为 $\\mathfrak{D}$ 数列，求 $a_1+a_{2m-1}$ 的最小值．",
+          "answer": {
+            "source": "question_document",
+            "content": "$m+1$"
+          },
+          "needs_review": true,
+          "notes": [
+            "参考答案末尾集合写作 $|a_{m-1}-a_m|$，按原卷保留。"
+          ],
+          "analysis": [
+            "（Ⅲ）因为数列 $Q:a_1,a_2,\\cdots,a_{2m-1}$ 为 $\\mathfrak{D}$ 数列，",
+            "所以 $|a_1-a_2|+|a_2-a_3|+\\cdots+|a_{2m-2}-a_{2m-1}|=1+2+\\cdots+2m-2=(2m-1)(m-1)$，",
+            "且 $|a_1-a_2|+|a_2-a_3|+\\cdots+|a_{2m-2}-a_{2m-1}|$",
+            "$\\leqslant(|a_1-m|+|a_2-m|)+(|a_2-m|+|a_3-m|)+\\cdots+(|a_{2m-2}-m|+|a_{2m-1}-m|)$",
+            "$=2(|a_1-m|+|a_2-m|+\\cdots+|a_{2m-1}-m|)-(|a_1-m|+|a_{2m-1}-m|)$",
+            "$=2\\times(0+1+1+2+2+\\cdots+m-1+m-1)-(|a_1-m|+|a_{2m-1}-m|)$",
+            "$=2m(m-1)-(|a_1-m|+|a_{2m-1}-m|)$．",
+            "所以 $(2m-1)(m-1)\\leqslant2m(m-1)-(|a_1-m|+|a_{2m-1}-m|)$．",
+            "所以 $|a_1-m|+|a_{2m-1}-m|\\leqslant m-1$．",
+            "因为 $m-a_1\\leqslant|a_1-m|$，$m-a_{2m-1}\\leqslant|a_{2m-1}-m|$，",
+            "所以 $m-a_1+m-a_{2m-1}\\leqslant m-1$，即 $a_1+a_{2m-1}\\geqslant m+1$．",
+            "令 $a_i=\\begin{cases}k,i=2k-1,\\\\ 2m-k,i=2k\\end{cases}(i=1,2,\\cdots,2m-1)$，",
+            "则 $|a_{i+1}-a_i|=2m-(i+1)(i=1,2,\\cdots,2m-2)$，",
+            "所以 $\\{|a_1-a_2|,|a_2-a_3|,\\cdots,|a_{m-1}-a_m|\\}=\\{1,2,\\cdots,2m-2\\}$，",
+            "即数列 $Q:a_1,a_2,\\cdots,a_{2m-1}$ 为 $\\mathfrak{D}$ 数列．",
+            "所以 $a_1+a_{2m-1}$ 的最小值为 $m+1$．"
+          ]
+        }
+      ]
+    }
+  ]
+}

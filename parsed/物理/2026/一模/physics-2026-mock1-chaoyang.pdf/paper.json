@@ -1,0 +1,1853 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|一模|朝阳|物理|",
+    "title": "2026北京朝阳高三一模物理试题及答案",
+    "year": 2026,
+    "kind": "一模",
+    "subject": "物理",
+    "district": "朝阳",
+    "exam_date": "2026-04"
+  },
+  "source": {
+    "file": "../../../../../raw/物理/2026/一模/physics-2026-mock1-chaoyang.pdf",
+    "sha256": "600c23204287a33f027e937cfc5be3ae29353583e3bc0c44fd50b31a826ee6f6",
+    "page_count": 15
+  },
+  "extraction": {
+    "status": "needs_review",
+    "tool": "手动逐页视觉转写（PyMuPDF 渲染页面与裁剪配图，未使用 OCR）",
+    "notes": [
+      "原卷15页均为扫描图像，第15页为“北京高考在线”宣传页，非试题内容；试题及参考答案位于第1—14页。",
+      "部分配图含原扫描件水印“北京高考在线”，已按图形区域裁剪，水印不影响图形内容判读。",
+      "第19题参考答案中第（3）问方法一标注（3分），方法二至四标注（4分），与本题10分及已列小题分值合计不一致；分值按原印刷保留，需人工复核。"
+    ]
+  },
+  "assets": {
+    "a001": {
+      "path": "assets/a001.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        662.5,
+        477.0,
+        830.0,
+        555.0
+      ],
+      "sha256": "4a9a269913eafebec82531aa64cf1411a823ec1ed237678d39e4f3b18976ed02"
+    },
+    "a002": {
+      "path": "assets/a002.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        670.0,
+        662.5,
+        837.5,
+        757.5
+      ],
+      "sha256": "4bca8fb0f30bc1c92072727d763f04cc633a9dc59993fe89c9b932af4e8ea20a"
+    },
+    "a003": {
+      "path": "assets/a003.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        615.0,
+        872.5,
+        822.5,
+        922.5
+      ],
+      "sha256": "eaa13589679922030ed503e42ad7987c7e55855bbeea7617293a1b3abcdf7ffa"
+    },
+    "a004": {
+      "path": "assets/a004.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        160.0,
+        936.0,
+        285.0,
+        1025.0
+      ],
+      "sha256": "8bb95b0741842849263634704f94a2f523c147d227197c0bde881cd8514b68b7"
+    },
+    "a005": {
+      "path": "assets/a005.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        310.0,
+        930.0,
+        435.0,
+        1025.0
+      ],
+      "sha256": "6770f3de18be11a2ff4f55fb7bf4632e20091e18deea0b582849b975e80912c7"
+    },
+    "a006": {
+      "path": "assets/a006.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        460.0,
+        929.0,
+        582.5,
+        1025.0
+      ],
+      "sha256": "ae0b77060b6f5dbe1b23d66c2ac0f4e756b7dcbeb576b419b938f074d4601ec0"
+    },
+    "a007": {
+      "path": "assets/a007.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        610.0,
+        929.0,
+        730.0,
+        1025.0
+      ],
+      "sha256": "d078fdf85fff1843b71d8c8c8cfcb743d914381d5fba4a46783a2a783fbbcbc2"
+    },
+    "a008": {
+      "path": "assets/a008.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        450.0,
+        60.0,
+        700.0,
+        175.0
+      ],
+      "sha256": "e9b2ecd913a2b9ea720638f352e28b8878f355385990adbb0dbd84c4969e3ce2"
+    },
+    "a009": {
+      "path": "assets/a009.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        635.0,
+        249.0,
+        872.5,
+        400.0
+      ],
+      "sha256": "cf9fc21da3241cbe25aba6a105f21a37449684ba4bfc25e192bd6e8f01d516e3"
+    },
+    "a010": {
+      "path": "assets/a010.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        490.0,
+        470.0,
+        680.0,
+        592.5
+      ],
+      "sha256": "93a3558b2c1f556de9f14b9c22ddb6a9bf5373a214e2ab796e384322650b10c2"
+    },
+    "a011": {
+      "path": "assets/a011.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        65.0,
+        675.0,
+        340.0,
+        805.0
+      ],
+      "sha256": "49073e3e1cee133acbc51b4e808cdfafa171c01b17ce7369b5bd1ef97ac7697a"
+    },
+    "a012": {
+      "path": "assets/a012.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        327.5,
+        675.0,
+        632.5,
+        805.0
+      ],
+      "sha256": "94096d6e09195c8cbdb8fd4e289c99c7ac7912f48c4fc9f655116d1872f9cf89"
+    },
+    "a013": {
+      "path": "assets/a013.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        72.5,
+        1012.5,
+        435.0,
+        1132.5
+      ],
+      "sha256": "2cb0e4ed3c9fe179662da1d3673882f34df27e5c215b5ac299b830ace30bfe6e"
+    },
+    "a014": {
+      "path": "assets/a014.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        667.5,
+        225.0,
+        865.0,
+        467.5
+      ],
+      "sha256": "6de70be7a3d155ae613dc91fbc1ec7ada5d94044d6aed342dde2ee13598563de"
+    },
+    "a015": {
+      "path": "assets/a015.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        612.5,
+        570.0,
+        862.5,
+        682.5
+      ],
+      "sha256": "6f893b72456c52f23f3139c841db219ed2853e4385445ed4eb83fa6990a05539"
+    },
+    "a016": {
+      "path": "assets/a016.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        67.5,
+        820.0,
+        475.0,
+        1030.0
+      ],
+      "sha256": "fbef4d83e4580b5bfb604babafa58be451b6177e370870b4c425a43e21464ebd"
+    },
+    "a017": {
+      "path": "assets/a017.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        52.5,
+        232.5,
+        392.5,
+        435.0
+      ],
+      "sha256": "fe56458b611e41e8292253a5a22409e3a06a91d983d59d552f9ddb6b45746971"
+    },
+    "a018": {
+      "path": "assets/a018.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        377.5,
+        232.5,
+        697.5,
+        462.5
+      ],
+      "sha256": "6ef89bf4aea3b7da4e60ad1c941e425999e28739de4dcd20cb82401b6ec0d5d8"
+    },
+    "a019": {
+      "path": "assets/a019.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        97.5,
+        740.0,
+        392.5,
+        945.0
+      ],
+      "sha256": "690906abbee09c1b885777850d988e7095419c9f13c6424fd167203cb6d86619"
+    },
+    "a020": {
+      "path": "assets/a020.png",
+      "kind": "image",
+      "page": 5,
+      "bbox": [
+        47.5,
+        485.0,
+        340.0,
+        595.0
+      ],
+      "sha256": "57133178573260bf70cf75089c4daec193615c3e9844cbb559d2ffdeb2e6fc58"
+    },
+    "a021": {
+      "path": "assets/a021.png",
+      "kind": "image",
+      "page": 5,
+      "bbox": [
+        437.5,
+        447.5,
+        712.5,
+        622.5
+      ],
+      "sha256": "07987f05e57e07d65d9019dc686ec4efa929558088fbd82384e64997ec0db0b3"
+    },
+    "a022": {
+      "path": "assets/a022.png",
+      "kind": "image",
+      "page": 5,
+      "bbox": [
+        60.0,
+        840.0,
+        225.0,
+        1067.5
+      ],
+      "sha256": "6ef5951b1c93474ef9ace0d956cdd51fafc7f931d66cbc861654b271cbf7e70e"
+    },
+    "a023": {
+      "path": "assets/a023.png",
+      "kind": "image",
+      "page": 5,
+      "bbox": [
+        267.5,
+        815.0,
+        465.0,
+        1062.5
+      ],
+      "sha256": "a3253c4ebb6036a3be0a5f4fccc614a6626ca6923fa957978eab722ba4aa1050"
+    },
+    "a024": {
+      "path": "assets/a024.png",
+      "kind": "image",
+      "page": 5,
+      "bbox": [
+        500.0,
+        825.0,
+        715.0,
+        1067.5
+      ],
+      "sha256": "b01001dddd3f3629e351180d00198174a54b7f72c1f52742393d727d6ec37c40"
+    },
+    "a025": {
+      "path": "assets/a025.png",
+      "kind": "image",
+      "page": 6,
+      "bbox": [
+        540.0,
+        52.5,
+        840.0,
+        220.0
+      ],
+      "sha256": "c60f01569dbd9f6195a75a9834168dab66aa7d42763a756ce1d3ae2a609dabf5"
+    },
+    "a026": {
+      "path": "assets/a026.png",
+      "kind": "image",
+      "page": 6,
+      "bbox": [
+        67.5,
+        516.0,
+        390.0,
+        672.5
+      ],
+      "sha256": "f27f7ef8954f54dd89eeaa15ef876a54f73a7917e2334fd51dcf68578845a340"
+    },
+    "a027": {
+      "path": "assets/a027.png",
+      "kind": "image",
+      "page": 6,
+      "bbox": [
+        375.0,
+        560.0,
+        850.0,
+        635.0
+      ],
+      "sha256": "6e2b64a2c7fd0cebc5d5e821b6914591e43b7d2f5092d5e5888766b56fb3b81e"
+    },
+    "a028": {
+      "path": "assets/a028.png",
+      "kind": "image",
+      "page": 6,
+      "bbox": [
+        502.5,
+        1012.5,
+        867.5,
+        1172.5
+      ],
+      "sha256": "0fa081e776b2709c1c7bcf520837517821a25a6cad69986af2b96daf9ac7e0ad"
+    },
+    "a029": {
+      "path": "assets/a029.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [
+        617.5,
+        225.0,
+        872.5,
+        397.5
+      ],
+      "sha256": "596bea65c8c57aefe6798e80d45aed0c0a2cbd88d3ecaaa0668a79fd04c2740f"
+    },
+    "a030": {
+      "path": "assets/a030.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [
+        82.5,
+        672.5,
+        582.5,
+        800.0
+      ],
+      "sha256": "47f50265959a70906ff66c23fb2466dc4852a11e1ec890ecd20fbc38f7867156"
+    },
+    "a031": {
+      "path": "assets/a031.png",
+      "kind": "image",
+      "page": 8,
+      "bbox": [
+        130.0,
+        27.5,
+        795.0,
+        207.5
+      ],
+      "sha256": "ad74dbec2442d1a023c063ffc5710770f89de2b7d379bbd6df69a6d75e50f945"
+    },
+    "a032": {
+      "path": "assets/a032.png",
+      "kind": "image",
+      "page": 8,
+      "bbox": [
+        215.0,
+        300.0,
+        602.5,
+        440.0
+      ],
+      "sha256": "08201ea829dda662da4f1457498e3fc9e1ec54f5a7caab6b09176138093b219f"
+    },
+    "a033": {
+      "path": "assets/a033.png",
+      "kind": "image",
+      "page": 9,
+      "bbox": [
+        85.0,
+        75.0,
+        210.0,
+        207.5
+      ],
+      "sha256": "39948036d1ab6f0385261b5f37ffbc3992dcc573a370c142e8123201458a92a8"
+    },
+    "a034": {
+      "path": "assets/a034.png",
+      "kind": "image",
+      "page": 9,
+      "bbox": [
+        220.0,
+        57.5,
+        345.0,
+        220.0
+      ],
+      "sha256": "76daf21d59a0ef99878f261bcda258b8cf6c32802975d32682ac47cf0adee3e2"
+    },
+    "a035": {
+      "path": "assets/a035.png",
+      "kind": "image",
+      "page": 9,
+      "bbox": [
+        365.0,
+        37.5,
+        720.0,
+        272.5
+      ],
+      "sha256": "cb280f3d2877afe6c3520970c871a083e45349baea58f6526a781e96ce88f2bf"
+    },
+    "a036": {
+      "path": "assets/a036.png",
+      "kind": "image",
+      "page": 10,
+      "bbox": [
+        530.0,
+        350.0,
+        892.5,
+        612.5
+      ],
+      "sha256": "876d18a339817edb5f26cbaa1b7c1c13878ac21d4e3e0b29003f49d2771b9e36"
+    },
+    "a037": {
+      "path": "assets/a037.png",
+      "kind": "image",
+      "page": 11,
+      "bbox": [
+        360.0,
+        832.5,
+        570.0,
+        962.5
+      ],
+      "sha256": "366e64b2f7eb73cfb0f1b1b21011163f9a56b67fb39d3ddf7ee8cb2f5acafdb6"
+    },
+    "a038": {
+      "path": "assets/a038.png",
+      "kind": "image",
+      "page": 12,
+      "bbox": [
+        565.0,
+        507.5,
+        765.0,
+        687.5
+      ],
+      "sha256": "eda118cbe01ecbf0f7bc9e219bf0802c17a63b6f552807b53ebe3103f241e226"
+    },
+    "a039": {
+      "path": "assets/a039.png",
+      "kind": "image",
+      "page": 14,
+      "bbox": [
+        537.5,
+        62.5,
+        695.0,
+        220.0
+      ],
+      "sha256": "ccde577792ba4f532eaf8da13d85b9ac7cde5077f86709088c4c99db01368393"
+    }
+  },
+  "materials": {
+    "m001": {
+      "kind": "instructions",
+      "title": "第一部分",
+      "content": [
+        "本部分共14题，每题3分，共42分。在每题列出的四个选项中，选出最符合题目要求的一项。"
+      ],
+      "pages": [
+        1
+      ]
+    },
+    "m002": {
+      "kind": "instructions",
+      "title": "第二部分",
+      "content": [
+        "本部分共6题，共58分。"
+      ],
+      "pages": [
+        5
+      ]
+    },
+    "m003": {
+      "kind": "instructions",
+      "title": "全卷评分说明",
+      "content": [
+        "用其他方法解答正确，给相应分数。"
+      ],
+      "pages": [
+        14
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "1",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": "下列说法正确的是",
+      "options": [
+        {
+          "key": "A",
+          "content": "电子的发现说明原子不是组成物质的最小微粒"
+        },
+        {
+          "key": "B",
+          "content": "$\\alpha$粒子散射实验表明原子核的核子之间存在核力"
+        },
+        {
+          "key": "C",
+          "content": "$\\beta$衰变放出的电子是原子的最外层电子吸收能量之后放出来的"
+        },
+        {
+          "key": "D",
+          "content": "核反应前后电荷数守恒但质量数不守恒"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q002",
+      "label": "2",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": [
+        "小明观看了一段视频：落水者用双手环抱倒扣的塑料盆，将盆口压入水中实现自救，如图所示。若盆中空气可视为质量一定的理想气体，且温度保持不变，则在盆被下压的过程中盆中气体",
+        {
+          "asset": "a001",
+          "inline": true
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "对外做功"
+        },
+        {
+          "key": "B",
+          "content": "压强增大"
+        },
+        {
+          "key": "C",
+          "content": "从外界吸收热量"
+        },
+        {
+          "key": "D",
+          "content": "分子平均动能增加"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q003",
+      "label": "3",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": [
+        "一束单色光从某种均匀介质射入空气中时，入射角为$\\theta_1$，折射角为$\\theta_2$，折射光路如图所示。下列说法正确的是",
+        {
+          "asset": "a002",
+          "inline": true
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "此介质的折射率为$\\frac{\\sin\\theta_1}{\\sin\\theta_2}$"
+        },
+        {
+          "key": "B",
+          "content": "光在介质中的速度与光在空气中速度的比值为$\\frac{\\sin\\theta_2}{\\sin\\theta_1}$"
+        },
+        {
+          "key": "C",
+          "content": "当入射角减小时，光在介质中的波长也随之减小"
+        },
+        {
+          "key": "D",
+          "content": "当入射角减小时，折射角也随之减小，但折射率不变"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q004",
+      "label": "4",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": [
+        "振源$A$带动水平细绳上下振动，某时刻在绳上形成如图所示的横波波形。规定绳上各质点向上运动的方向为位移$x$的正方向。从波传播到绳上的$P$点开始计时，下列图中能表示$P$点振动图像的是",
+        {
+          "asset": "a003",
+          "inline": true
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": [
+            {
+              "asset": "a004"
+            }
+          ]
+        },
+        {
+          "key": "B",
+          "content": [
+            {
+              "asset": "a005"
+            }
+          ]
+        },
+        {
+          "key": "C",
+          "content": [
+            {
+              "asset": "a006"
+            }
+          ]
+        },
+        {
+          "key": "D",
+          "content": [
+            {
+              "asset": "a007"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q005",
+      "label": "5",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": [
+        "一理想变压器原、副线圈的匝数比为$11:5$，原线圈与正弦交流电源连接，其输入电压$u$随时间$t$的变化如图所示。若副线圈仅接入一个$10\\Omega$的电阻，则",
+        {
+          "asset": "a008",
+          "inline": true
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "输入电压$u=220\\sqrt{2}\\cos50\\pi t\\,\\mathrm{V}$"
+        },
+        {
+          "key": "B",
+          "content": "流过电阻的电流是22 A"
+        },
+        {
+          "key": "C",
+          "content": "流过电阻的电流方向每秒钟改变50次"
+        },
+        {
+          "key": "D",
+          "content": "经过1 min电阻产生的热量是$6.0\\times10^4\\,\\mathrm{J}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q006",
+      "label": "6",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": [
+        "2025年10月，神舟二十一号载人飞船成功发射，历时3.5小时完成与天和核心舱的对接，实现了最快对接记录。飞船变轨前绕地稳定运行在圆形轨道Ⅰ上，飞船的转移轨道为椭圆轨道Ⅱ，核心舱稳定运行在圆形轨道Ⅲ上。轨道Ⅰ和Ⅱ、Ⅱ和Ⅲ分别相切于$A$、$B$两点。则飞船在轨道Ⅱ上运行时",
+        {
+          "asset": "a009",
+          "inline": true
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "在$A$点的加速度小于核心舱在轨道Ⅲ上$B$点的加速度"
+        },
+        {
+          "key": "B",
+          "content": "在$A$点的速度大于核心舱在轨道Ⅲ上$B$点的速度"
+        },
+        {
+          "key": "C",
+          "content": "由$A$向$B$运行的过程中机械能逐渐增大"
+        },
+        {
+          "key": "D",
+          "content": "由$A$向$B$运行的过程中宇航员先超重后失重"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q007",
+      "label": "7",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": [
+        "如图所示，光滑水平地面上，一质量为$m$的物体$P$以速度$v$向右运动，物体$Q$静止且左端固定一轻弹簧。$P$撞上弹簧后，弹簧被压缩至最短时",
+        {
+          "asset": "a010",
+          "inline": true
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "$P$、$Q$系统总动量大小为$mv$"
+        },
+        {
+          "key": "B",
+          "content": "$P$的动量变为0"
+        },
+        {
+          "key": "C",
+          "content": "$Q$的动量达到最大值"
+        },
+        {
+          "key": "D",
+          "content": "弹簧的弹性势能一定为$\\frac{1}{4}mv^2$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q008",
+      "label": "8",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": [
+        "如图甲所示，边长为$l$的正方形导线框$abcd$，以恒定速度沿$x$轴向右运动，穿过图中所示的匀强磁场区域。从导线框在图示位置的时刻开始计时，则乙图的纵轴对应的物理量为导线框",
+        {
+          "asset": "a011",
+          "caption": "图甲"
+        },
+        {
+          "asset": "a012",
+          "caption": "图乙"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "所包围面积的磁通量"
+        },
+        {
+          "key": "B",
+          "content": "$b$、$c$两点的电势差$U_{bc}$"
+        },
+        {
+          "key": "C",
+          "content": "$bc$边所受安培力大小"
+        },
+        {
+          "key": "D",
+          "content": "所受外力的功率"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q009",
+      "label": "9",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": [
+        "老师在课堂上做了一个如图所示的实验：把粉笔盒静置于水平桌面上的课本上，用水平向右的恒力$F$将课本迅速抽出，粉笔盒移动较小的距离。若粉笔盒和课本的质量均为$m$，各接触面间的动摩擦因数均为$\\mu$，抽出课本的过程历时$t$。最大静摩擦力可视为等于滑动摩擦力，重力加速度为$g$。在此过程中，下列说法正确的是",
+        {
+          "asset": "a013",
+          "inline": true
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "课本受到5个力作用"
+        },
+        {
+          "key": "B",
+          "content": "课本受到的摩擦力大小为$2\\mu mg$"
+        },
+        {
+          "key": "C",
+          "content": "$F$大于$4\\mu mg$才可能将课本从粉笔盒下抽出"
+        },
+        {
+          "key": "D",
+          "content": "粉笔盒最终将停留在初始位置右侧$\\frac{1}{2}\\mu gt^2$处"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "q010",
+      "label": "10",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": [
+        "如图所示，小明同学用一个悬挂的强磁铁和一块铜片演示了一个神奇实验，当磁铁从左侧某一高度处由静止释放摆至右侧最高位置的过程中，其下方放在圆珠笔芯上的铜片发生了运动（此过程铜片始终未脱离笔芯）。在此过程中，磁铁重力做功为$W_G$，磁铁克服磁场力做功为$W_1$，磁场力对铜片做功为$W_2$，铜片获得的动能为$E_k$，铜片上产生的电热为$Q$。不计磁铁产生的电热，忽略空气阻力以及铜片在笔芯上所受的摩擦力，不计地磁场影响。则",
+        {
+          "asset": "a014",
+          "inline": true
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "$W_G>W_1$"
+        },
+        {
+          "key": "B",
+          "content": "$W_2=E_k$"
+        },
+        {
+          "key": "C",
+          "content": "$W_1=W_2$"
+        },
+        {
+          "key": "D",
+          "content": "$W_G=W_1+E_k+Q$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q011",
+      "label": "11",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": [
+        "如图所示的矩形区域$ABCD$内分布有平行于$AD$方向的匀强电场，$AB=2BC$，$P$为$CD$中点。质量相同的带电粒子$a$、$b$分别从$A$点和$D$点平行于$AB$同时进入电场，并同时到达$P$、$B$点，二者的运动轨迹交于$O$点（图中未标出）。忽略粒子所受重力和粒子间的相互作用。则带电粒子$a$、$b$",
+        {
+          "asset": "a015",
+          "inline": true
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "具有不同的比荷"
+        },
+        {
+          "key": "B",
+          "content": "电势能均随时间逐渐增大"
+        },
+        {
+          "key": "C",
+          "content": "到达$O$点所用的时间之比为$1:2$"
+        },
+        {
+          "key": "D",
+          "content": "到达$P$、$B$点时的动能之比为$5:8$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q012",
+      "label": "12",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": [
+        "如图所示为某环境监控电路简图，$R_1$、$R_2$均为可变电阻，M、N两元件中有一个是光敏电阻，另一个是热敏电阻。已知热敏电阻阻值随温度升高而减小，光敏电阻阻值随光照增强而减小。忽略光照对环境温度的影响。报警器1两端电压大于某值时报警，报警器2上通过的电流大于某值时报警。闭合开关后，两报警器1、2均未报警。不计报警器对电路的影响。下列说法正确的是",
+        {
+          "asset": "a016",
+          "inline": true
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "仅温度升高，若只有报警器1报警，则M为热敏电阻"
+        },
+        {
+          "key": "B",
+          "content": "仅光照增强，若只有报警器2报警，则N为光敏电阻"
+        },
+        {
+          "key": "C",
+          "content": "仅增大$R_1$的阻值，报警器1、2可能都报警"
+        },
+        {
+          "key": "D",
+          "content": "仅增大$R_2$的阻值，报警器1、2可能都报警"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q013",
+      "label": "13",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": [
+        "一种磁流体发电装置如图甲所示。间距为$d$的平行金属板M、N之间充满垂直于纸面向里的匀强磁场，磁感应强度为$B$。等离子体（高温下电离的气体，含有大量正、负带电粒子）以速度$v$沿垂直于磁场的方向射入磁场，M、N两板间便产生电压。某同学设想了另一种方案：如图乙所示，一细束质量为$m$、电荷量为$q$的带正电的离子束以相同的速度$v$紧临下极板N射入磁场（N板接地），M、N两板间也同样能够产生电压。已知$d<\\frac{2mv}{qB}$，不计粒子重力。下列说法正确的是",
+        {
+          "asset": "a017",
+          "caption": "图甲"
+        },
+        {
+          "asset": "a018",
+          "caption": "图乙"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "图甲中M板是电源的负极"
+        },
+        {
+          "key": "B",
+          "content": "图甲中M、N板间的最大电压大于$Bdv$"
+        },
+        {
+          "key": "C",
+          "content": "图乙中M、N板间的最大电压为$Bd(v-\\frac{qBd}{2m})$"
+        },
+        {
+          "key": "D",
+          "content": "图甲与图乙中M、N板间的最大电压均为$Bdv$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q014",
+      "label": "14",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m003"
+      ],
+      "stem": [
+        "“谁将春晚作冬看，添着绵衣减却难。”人们一年四季穿着的变化与热传递过程密切相关。热传递是一种热能的转移过程，与自然界中其他转移过程（如电荷量的转移）有类似之处，它们的共性可归结为“过程中单位时间的转移量$=\\frac{过程的动力量}{过程的阻力量}$”，在电学中体现为欧姆定律，即$I=\\frac{U}{R}$，在热能的转移过程中，动力量表现为温度差，与电阻对应的物理量称为热阻。",
+        "如图所示，某长方体导热板，侧面1、2的面积均为$A$，温度分别为$T_1$、$T_2$。坐标轴$x$与侧面垂直，坐标原点在侧面1上，导热板各处的温度$T$仅随$x$线性变化。科学家发现单位时间从侧面1传递到侧面2的热量$Q=A\\frac{\\lambda}{\\Delta x}(T_1-T_2)$，其中$\\lambda$是常量，仅与导热材料有关，$\\Delta x$为两侧面的间距。下列说法错误的是",
+        {
+          "asset": "a019",
+          "inline": true
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "该导热物体的热阻为$\\frac{\\Delta x}{\\lambda A}$"
+        },
+        {
+          "key": "B",
+          "content": "$\\lambda$的单位可表示为$\\mathrm{kg\\cdot m/(K\\cdot s^2)}$"
+        },
+        {
+          "key": "C",
+          "content": "热量先后通过多层不同材料的总热阻等于各层热阻之和"
+        },
+        {
+          "key": "D",
+          "content": "在导热板垂直于$x$轴的任意截面上，单位时间传递的热量都相等"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "q015",
+      "label": "15",
+      "type": "composite",
+      "materials": [
+        "m002",
+        "m003"
+      ],
+      "score": 8,
+      "pages": [
+        5,
+        10
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": [
+            "在“探究加速度与力的关系”的实验中，打出的一条纸带如图1所示，$A$、$B$、$C$为依次选取的三个计数点，相邻计数点间的时间间隔为$T$，则小车的加速度$a=$________。",
+            {
+              "asset": "a020",
+              "caption": "图1"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "$\\frac{s_2-2s_1}{T^2}$"
+          },
+          "score": 2,
+          "pages": [
+            5,
+            10
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "fill_blank",
+          "stem": [
+            "“用双缝干涉测量光的波长”的实验中，在测量相邻两条亮条纹的间距时，先将测量头的分划板中心刻线与某亮条纹中心对齐，将该条纹定为第1亮条纹，读数记为$x_1$；然后转动手轮，使分划板中心刻线与第6亮条纹中心对齐，此时手轮上的示数如图2所示，读数记为$x_2$，则$x_2=$________mm。若已知双缝间的距离为$d$，双缝到光屏间的距离为$L$，由此计算光的波长表达式为$\\lambda=$________（用题中字母表示）。",
+            {
+              "asset": "a021",
+              "caption": "图2"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "9.150",
+              "$\\frac{(x_2-x_1)d}{5L}$"
+            ]
+          },
+          "score": 4,
+          "pages": [
+            5,
+            10
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "fill_blank",
+          "stem": [
+            "某同学用图3所示装置探究气体等温变化的规律，该同学在不同环境温度下对同一封闭气体进行了两组实验，得到的$p-V$图像如图4所示。由图可知两组实验气体的温度大小关系为$T_1$________$T_2$（选填“<”“=”或“>”）。",
+            "另一位同学用传感器进行该实验，实验装置如图5所示。注射器内密封一段气体（气密性良好），通过塑料管与气体压强传感器连接。然后缓慢移动柱塞确保温度不变，记录注射器的刻度值得到空气柱的体积$V$，由计算机得到对应的气体压强值$p$。重复该过程，获得多组数据并进行数据处理。该方案系统误差的主要来源为________。",
+            {
+              "asset": "a022",
+              "caption": "图3"
+            },
+            {
+              "asset": "a023",
+              "caption": "图4"
+            },
+            {
+              "asset": "a024",
+              "caption": "图5"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "<",
+              "空气柱体积未包含塑料管内的气体体积"
+            ]
+          },
+          "score": 2,
+          "pages": [
+            5,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q016",
+      "label": "16",
+      "type": "composite",
+      "materials": [
+        "m002",
+        "m003"
+      ],
+      "score": 10,
+      "pages": [
+        6,
+        10
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": [
+            "先用多用电表“×1”挡粗测某金属丝的电阻，表针位置如图1所示，可知金属丝的电阻$R_x=$________$\\Omega$。",
+            {
+              "asset": "a025",
+              "caption": "图1"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "5"
+          },
+          "score": 2,
+          "pages": [
+            6,
+            10
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "fill_blank",
+          "stem": [
+            "再用伏安法测金属丝的电阻$R_x$。实验所用器材除电池组（电动势3V，内阻约$1\\Omega$）、滑动变阻器（$0\\sim20\\Omega$，额定电流2A）、开关及导线若干外，下列器材中电流表应选用________，电压表应选用________。（填写选项前的字母）"
+          ],
+          "options": [
+            {
+              "key": "A",
+              "content": "电流表（$0\\sim0.6\\mathrm{A}$，内阻约$10\\Omega$）"
+            },
+            {
+              "key": "B",
+              "content": "电流表（$0\\sim1\\mathrm{mA}$，内阻约$20\\Omega$）"
+            },
+            {
+              "key": "C",
+              "content": "电压表（$0\\sim3\\mathrm{V}$，内阻约$3\\mathrm{k}\\Omega$）"
+            },
+            {
+              "key": "D",
+              "content": "电压表（$0\\sim15\\mathrm{V}$，内阻约$15\\mathrm{k}\\Omega$）"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "A",
+              "C"
+            ]
+          },
+          "score": 2,
+          "pages": [
+            6,
+            10
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "composite",
+          "stem": [
+            "该小组完成上述实验后，对一种导电硅胶条的电阻率感兴趣，他们取两条材质完全相同的导电胶条，规格如下：",
+            "导电胶条A：长350mm、宽10mm、厚4mm",
+            "导电胶条B：长350mm、宽40mm、厚4mm"
+          ],
+          "parts": [
+            {
+              "id": "p3a",
+              "label": "a.",
+              "type": "drawing",
+              "stem": [
+                "该小组首先用多用电表粗测两胶条电阻，阻值均为几千欧左右。选用（2）中合适的器材，为尽可能准确测量导电胶条的电阻率，请在图2中用笔代替导线完成电路器材连接。",
+                {
+                  "asset": "a026",
+                  "caption": "图2"
+                }
+              ],
+              "answer": {
+                "source": "question_document",
+                "content": [
+                  "如图所示",
+                  {
+                    "asset": "a036"
+                  }
+                ]
+              },
+              "score": 2,
+              "pages": [
+                6,
+                10
+              ]
+            },
+            {
+              "id": "p3b",
+              "label": "b.",
+              "type": "short_answer",
+              "stem": [
+                "该小组在导电胶条两端安装小圆柱电极并接入电路，如图3所示。测量两电极间的距离作为有效长度$L$，测量胶条宽度和厚度以二者乘积作为横截面积$S$。通过计算发现，胶条B的电阻率测量值$\\rho_B$比胶条A的电阻率测量值$\\rho_A$要大些，多次测量结果均如此。请从恒定电场与静电场的相似性出发，建构合适的模型解释其原因。",
+                {
+                  "asset": "a027",
+                  "caption": "图3"
+                }
+              ],
+              "answer": {
+                "source": "question_document",
+                "content": "因圆柱电极较小、胶条有一定宽度，两极间的恒定电场类似等量异种电荷间的静电场，两极间的电流流过的实际长度比胶条的长度大，实际横截面积比胶条的横截面积小，致使实验的测量值$L$均偏小、$S$均偏大，由$\\rho=\\frac{R_xS}{L}$可得测量值$\\rho$均偏大。因胶条B比胶条A宽度大，影响更大，所以$\\rho_B>\\rho_A$。"
+              },
+              "score": 4,
+              "pages": [
+                6,
+                10
+              ]
+            }
+          ],
+          "pages": [
+            6,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "17",
+      "type": "composite",
+      "materials": [
+        "m002",
+        "m003"
+      ],
+      "score": 9,
+      "pages": [
+        6,
+        10
+      ],
+      "stem": [
+        "如图所示，光滑水平面与竖直面内的粗糙半圆形导轨在$B$点相切，导轨半径为$R=0.4\\mathrm{m}$。一质量为$m=1\\mathrm{kg}$的物体（可视为质点）将弹簧压缩至$A$点后由静止释放，在弹力作用下物体获得某一速度后脱离弹簧，之后沿半圆形导轨恰好运动至最高点$C$，该过程损失的机械能为$\\Delta E=8\\mathrm{J}$，重力加速度取$g=10\\mathrm{m/s^2}$。不计空气阻力影响。求：",
+        {
+          "asset": "a028",
+          "inline": true
+        }
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "calculation",
+          "stem": "物体在$C$点的速度大小$v_C$；",
+          "answer": {
+            "source": "question_document",
+            "content": "$v_c=2\\,\\mathrm{m/s}$"
+          },
+          "analysis": [
+            "物体运动至$C$点时，轨道对其支持力为零，根据牛顿第二定律有",
+            "$$mg=m\\frac{v_c^2}{R}$$"
+          ],
+          "score": 3,
+          "pages": [
+            6,
+            10
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "calculation",
+          "stem": "弹簧最初压缩时储存的弹性势能$E_p$；",
+          "answer": {
+            "source": "question_document",
+            "content": "$E_p=18\\,\\mathrm{J}$"
+          },
+          "analysis": [
+            "根据能量守恒定律有",
+            "$$E_p=\\frac{1}{2}mv_c^2+2mgR+\\Delta E$$"
+          ],
+          "score": 3,
+          "pages": [
+            6,
+            10
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "calculation",
+          "stem": "物体离开$C$点后落地点距离$C$点的水平位移大小$x$。",
+          "answer": {
+            "source": "question_document",
+            "content": "$x=0.8\\,\\mathrm{m}$"
+          },
+          "analysis": [
+            "物体离开$C$点后做平抛运动，设运动时间为$t$，则",
+            "竖直方向 $$2R=\\frac{1}{2}gt^2$$",
+            "水平方向 $$x=v_ct$$"
+          ],
+          "score": 3,
+          "pages": [
+            6,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "18",
+      "type": "composite",
+      "materials": [
+        "m002",
+        "m003"
+      ],
+      "score": 9,
+      "pages": [
+        7,
+        11
+      ],
+      "stem": [
+        "如图为早期设计的质谱仪原理简图。电荷量为$q$的粒子，从容器A下方的小孔飘入电势差为$U$的加速电场，其初速度可视为0，之后从小孔S沿垂直于磁场的方向进入磁感应强度大小为$B$的匀强磁场中，旋转半周后打到照相底片D上的$M_1$刻线处。不计粒子重力。",
+        {
+          "asset": "a029",
+          "inline": true
+        }
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "calculation",
+          "stem": "求该粒子进入磁场时的动能$E_k$；",
+          "answer": {
+            "source": "question_document",
+            "content": "$E_k=qU$"
+          },
+          "analysis": [
+            "根据动能定理，有",
+            "$$qU=E_k-0$$"
+          ],
+          "score": 2,
+          "pages": [
+            7,
+            11
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "calculation",
+          "stem": "若测得$M_1$与小孔S的间距为$L$，求该粒子的质量$m$；",
+          "answer": {
+            "source": "question_document",
+            "content": "$m=\\frac{qL^2B^2}{8U}$"
+          },
+          "analysis": [
+            "粒子在磁场中运动时，洛伦兹力提供向心力，根据牛顿运动定律有",
+            "$$qvB=m\\frac{v^2}{R}$$",
+            "其中",
+            "$$R=\\frac{L}{2}$$",
+            "结合（1）问的结果",
+            "$$E_k=\\frac{1}{2}mv^2=qU$$"
+          ],
+          "score": 4,
+          "pages": [
+            7,
+            11
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "calculation",
+          "stem": "若底片的右半部损坏，为使该粒子能打在左半部的刻线$M_2$处，可以仅调节加速电压来实现。已知$M_2$与小孔S的间距为$nL$。求调节后的加速电压大小$U'$；并说明还可以通过什么方法使该粒子能打在$M_2$处。",
+          "answer": {
+            "source": "question_document",
+            "content": "$U'=n^2U$；还可以仅改变磁感应强度的大小，使其变为原来的$\\frac{1}{n}$即可。"
+          },
+          "analysis": [
+            "由（2）问结果可得$U\\propto L^2$，因此"
+          ],
+          "score": 3,
+          "pages": [
+            7,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "19",
+      "type": "composite",
+      "materials": [
+        "m002",
+        "m003"
+      ],
+      "score": 10,
+      "pages": [
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "stem": "物理图像是形象的思维工具。图像所包围的“面积”往往有特定的物理含义。",
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "calculation",
+          "stem": [
+            "图1中的甲图为某球形金属电极静电除尘器的主体部分，表面均匀分布着正电荷，其半径为$R$，在空间各点产生球对称的电场。场强大小$E$与该点到球心距离$r$的变化图像如图1中的乙图所示。已知$E-r$曲线下$R\\sim2R$部分的面积为$S$。若电荷量为$-q$的尘埃微粒从距球心$2R$处被吸附至球壳表面，求此过程尘埃微粒电势能的变化量$\\Delta E_p$；",
+            {
+              "asset": "a030",
+              "caption": "图1"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "$\\Delta E_p=-qS$"
+          },
+          "analysis": [
+            "图中面积为球壳表面与$2R$处的电势差，根据功能关系有"
+          ],
+          "score": 2,
+          "pages": [
+            7,
+            11
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "composite",
+          "stem": [
+            "图2中甲图为某发电机的简化模型。质量为$m$的导体棒在水平驱动力$F$的作用下，以恒定加速度$a$从静止开始沿光滑水平导轨向右运动。定值电阻阻值为$R$，忽略其余电阻。磁感应强度大小为$B$，磁场方向垂直于导轨平面。导轨间距为$L$。",
+            {
+              "asset": "a031",
+              "caption": "图2"
+            }
+          ],
+          "parts": [
+            {
+              "id": "p2a",
+              "label": "a.",
+              "type": "calculation",
+              "stem": "写出驱动力$F$与运动时间$t$的关系式；",
+              "answer": {
+                "source": "question_document",
+                "content": "$F=ma+\\frac{B^2L^2}{R}at$"
+              },
+              "analysis": [
+                "导体棒速度为$v$时，产生的电动势为",
+                "$$E=BLv$$",
+                "其中",
+                "$$v=at$$",
+                "回路的电流",
+                "$$i=\\frac{BLv}{R}$$",
+                "根据牛顿第二定律有",
+                "$$F-BiL=ma$$"
+              ],
+              "score": 3,
+              "pages": [
+                7,
+                8,
+                11
+              ]
+            },
+            {
+              "id": "p2b",
+              "label": "b.",
+              "type": "drawing",
+              "stem": "在图2乙给出的坐标系中定性画出驱动力$F$大小随运动时间$t$的变化图像，并结合图像求出$0\\sim t_0$时间内$F$的冲量大小$I$。",
+              "answer": {
+                "source": "question_document",
+                "content": [
+                  "由上式可知，$F$随$t$的变化为线性图线，如图所示。",
+                  {
+                    "asset": "a037"
+                  },
+                  "$I=mat_0+\\frac{B^2L^2}{2R}at_0^2$"
+                ]
+              },
+              "score": 2,
+              "pages": [
+                8,
+                11
+              ]
+            }
+          ],
+          "pages": [
+            7,
+            8,
+            11
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "short_answer",
+          "stem": [
+            "如图3所示，$y$随$t$按照正弦规律变化，其中$Y_m$、$t_0$均为已知量。为得到$0\\sim2t_0$内的阴影面积，除利用函数微积分方法外，请你展开想象的翅膀借助物理量间的内在关联，构建物理模型，求此阴影面积$A$。",
+            {
+              "asset": "a032",
+              "caption": "图3"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "$A=\\frac{4Y_mt_0}{\\pi}$"
+          },
+          "analysis": [
+            "设$0\\sim2t_0$内$y-t$图像的平均值为$\\bar y$，则面积$A=\\bar y\\cdot2t_0$。可构建下列不同的物理模型，求出$0\\sim2t_0$内$y-t$图像的平均值$\\bar y$与最大值$Y_m$之间满足关系。",
+            "方法一：将$y$想象成正弦交变电流$i$，则图中阴影面积代表半周期内电路通过的电量$q$。建立模型如下：①在匀强磁场$B$中有一$N$匝线圈，面积为$S$，电阻为$R$；②线圈的转动轴垂直于磁场；③线圈以角速度$\\omega=\\frac{2\\pi}{4t_0}=\\frac{\\pi}{2t_0}$转动，$t=0$时线圈与磁场垂直。在上述模型条件下，线圈中的电流的最大值为$I_m=\\frac{NBS\\omega}{R}$。半周期内电路中通过的电量为$q=\\bar I t=\\frac{\\bar E}{R}t=\\frac{2NBS}{R}$。半周期内电路中电流的平均值$\\bar I=\\frac{q}{2t_0}=\\frac{2}{\\pi}\\cdot\\frac{NBS\\omega}{R}=\\frac{2}{\\pi}I_m$。类比可知，$y-t$图像的面积为$$A=\\frac{2}{\\pi}Y_m\\cdot2t_0=\\frac{4Y_mt_0}{\\pi}$$",
+            "方法二：将$y$想象成匀速圆周运动在$x$方向的分速度$v_x$，则图中阴影面积代表半周期内质点在该方向通过的位移大小$x$。建立模型如下：①质点在平面内做半径为$R$的匀速圆周运动，角速度为$\\omega=\\frac{2\\pi}{4t_0}=\\frac{\\pi}{2t_0}$；②$t=0$时质点位于$x$轴上，其线速度与$x$轴垂直。质点沿该方向的最大速度$v_m=\\omega R$。质点转动半周期在该方向上通过的距离$x=2R$。在该方向的平均速度为$$\\bar v=\\frac{x}{2t_0}=\\frac{2}{\\pi}\\cdot\\omega R=\\frac{2}{\\pi}v_m$$。类比可知，$y-t$图像的面积为$$A=\\frac{2}{\\pi}Y_m\\cdot2t_0=\\frac{4Y_mt_0}{\\pi}$$",
+            {
+              "asset": "a038"
+            },
+            "方法三：将物理量$y$想象成单摆做简谐运动时摆球的速度$v$，则图中阴影面积表示半周期内摆球通过的路程$x$。建立模型如下：①摆长为$L$的单摆，$t=0$时质点从细线偏离竖直很小的$\\theta$角处由静止释放；②摆球仅在细线拉力和重力作用下运动。单摆从最高点摆至最低点，根据动能定理有$$mgL(1-\\cos\\theta)=\\frac{1}{2}mv_m^2$$，得$$v_m=\\sqrt{2gL(1-\\cos\\theta)}=2\\sin\\frac{\\theta}{2}\\sqrt{gL}\\approx\\theta\\sqrt{gL}$$。小球从静止开始摆动半个周期过程内的位移$$x\\approx2L\\theta$$，运动时间$$t=\\frac{T}{2}=\\pi\\sqrt{\\frac{L}{g}}$$，可得小球的平均速度为$$\\bar v=\\frac{x}{t}=\\frac{2}{\\pi}\\cdot\\theta\\sqrt{gL}=\\frac{2}{\\pi}v_m$$。类比可知，$y-t$图像的面积为$$A=\\frac{2}{\\pi}Y_m\\cdot2t_0=\\frac{4Y_mt_0}{\\pi}$$",
+            "方法四：将物理量$y$想象成单摆做简谐运动过程中受到的回复力$F$，则图中阴影面积表示半周期内摆球受到的回复力的冲量$I$。建立模型如下：①摆长为$L$的单摆，$t=0$时质点从平衡位置开始摆动，最大摆角$\\theta$很小；②摆球仅在细线拉力和重力作用下运动。单摆在摆动过程中受到的最大回复力$F_m=mg\\sin\\theta=mg\\theta$。单摆从最高点摆至最低点，根据动能定理$$mgL(1-\\cos\\theta)=\\frac{1}{2}mv_m^2$$，得$$v_m=\\sqrt{2gL(1-\\cos\\theta)}=2\\sin\\frac{\\theta}{2}\\sqrt{gL}\\approx\\theta\\sqrt{gL}$$。运动时间$$t=\\frac{T}{2}=\\pi\\sqrt{\\frac{L}{g}}$$。根据动量定理$$\\bar F=\\frac{I}{t}=\\frac{2mv_m}{t}=\\frac{2}{\\pi}\\cdot mg\\theta=\\frac{2}{\\pi}F_m$$。类比可知，$y-t$图像的面积为$$A=\\frac{2}{\\pi}Y_m\\cdot2t_0=\\frac{4Y_mt_0}{\\pi}$$"
+          ],
+          "score": 3,
+          "needs_review": true,
+          "notes": [
+            "原卷参考答案中方法一标注（3分），方法二至四标注（4分），且本题总分10分与各小题分值合计不一致；分值按原印刷保留。"
+          ],
+          "pages": [
+            8,
+            11,
+            12,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q020",
+      "label": "20",
+      "type": "composite",
+      "materials": [
+        "m002",
+        "m003"
+      ],
+      "score": 12,
+      "pages": [
+        8,
+        9,
+        13,
+        14
+      ],
+      "stem": "篮球运动是中学生喜爱的运动之一，其技术动作蕴含着丰富的物理学原理。已知篮球质量为$m$，重力加速度为$g$，篮球可视为质点，不计空气阻力。",
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "calculation",
+          "stem": [
+            "空中投篮：如图1所示，运动员在空中一个漂亮的投篮，篮球以与水平面成$45^\\circ$的倾角准确落入篮筐。已知投球点和篮筐正好在同一水平面上，设投球点到篮筐的距离为$x$，求篮球出手时的速度大小$v$。",
+            {
+              "asset": "a033",
+              "caption": "图1"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "$v=\\sqrt{gx}$"
+          },
+          "analysis": [
+            "设在空中运动的时间为$t$，",
+            "竖直方向有 $$-v\\sin45^\\circ=v\\sin45^\\circ-gt$$",
+            "水平方向有 $$x=vt\\cos45^\\circ$$"
+          ],
+          "score": 3,
+          "pages": [
+            8,
+            9,
+            13
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "proof",
+          "stem": [
+            "原地拍球：如图2所示，实际拍球过程中，为使篮球每次都达到相同的最大高度$h$，运动员通常在篮球上升到某高度时，手就会接触篮球并对球施加一个向下的阻力$F_1$，球和手一起上升距离$s$后到达最高点，紧接着手对球施加向下的动力$F_2$，下降距离$s$后，手与篮球分开。手对球的两次作用力均视为恒力。球与地面碰撞时存在机械能损失，请通过计算推证$F_2>F_1$。",
+            {
+              "asset": "a034",
+              "caption": "图2"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "$F_2>F_1$"
+          },
+          "analysis": [
+            "设篮球在与地面碰撞前、后瞬间的动能分别为$E_{k1}$、$E_{k2}$，",
+            "篮球上升过程，根据动能定理有 $$-F_1s-mgh=0-E_{k2}$$",
+            "篮球下降过程，根据动能定理有 $$F_2s+mgh=E_{k1}-0$$",
+            "由于碰撞中有能量损失，则 $$E_{k1}>E_{k2}$$"
+          ],
+          "score": 3,
+          "pages": [
+            8,
+            9,
+            13
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "composite",
+          "stem": [
+            "转身运球：如图3甲所示，为运动员拉球转身的一瞬间。可将转身运球的过程理想化为如图3乙所示的模型，薄长方体代表手掌，转身时球紧贴竖立的手掌，篮球绕着转轴（左脚所在竖直线）在水平面内做圆周运动。在转身快要结束时，篮球有一段速率随时间均匀减小的运动过程，直到篮球刚好滑离手掌。已知篮球刚开始减速时的初速度为$v_0$，减速过程中沿圆周轨迹切线方向的加速度大小为$\\frac{4}{3}g$。假设手掌和球之间的动摩擦因数为$\\mu$，手掌到转轴的距离为$r$。最大静摩擦力可视为等于滑动摩擦力。求：",
+            {
+              "asset": "a035",
+              "caption": "图3"
+            }
+          ],
+          "parts": [
+            {
+              "id": "p3a",
+              "label": "a.",
+              "type": "calculation",
+              "stem": "篮球减速过程中手掌对篮球的摩擦力大小$f$；",
+              "answer": {
+                "source": "question_document",
+                "content": "$f=\\frac{5}{3}mg$"
+              },
+              "analysis": [
+                "篮球减速过程在竖直面内的受力分析如图所示，根据牛顿第二定律有",
+                "竖直方向 $$f_y=mg$$",
+                "沿运动方向 $$f_x=ma=\\frac{4}{3}mg$$",
+                "又 $$f=\\sqrt{f_x^2+f_y^2}$$",
+                {
+                  "asset": "a039"
+                }
+              ],
+              "score": 3,
+              "pages": [
+                8,
+                9,
+                13,
+                14
+              ]
+            },
+            {
+              "id": "p3b",
+              "label": "b.",
+              "type": "calculation",
+              "stem": "篮球从开始减速到刚好滑离手掌的过程中所运动的路程$L$。",
+              "answer": {
+                "source": "question_document",
+                "content": "$L=\\frac{3v_0^2}{8g}-\\frac{5r}{8\\mu}$"
+              },
+              "analysis": [
+                "在水平面内，根据牛顿第二定律有 $$N=m\\frac{v^2}{r}$$",
+                "由上式可知，随着篮球速度减小，受到手掌的弹力减小，最大静摩擦力也会随之减小，当篮球恰好滑离手掌时，最大静摩擦力恰好减小至$f$，此时 $$f=\\mu N$$",
+                "篮球减速过程，类比匀变速直线运动有 $$L=\\frac{v_0^2-v^2}{2a}$$"
+              ],
+              "score": 3,
+              "pages": [
+                8,
+                9,
+                13,
+                14
+              ]
+            }
+          ],
+          "pages": [
+            8,
+            9,
+            13,
+            14
+          ]
+        }
+      ]
+    }
+  ]
+}

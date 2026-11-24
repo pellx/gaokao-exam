@@ -1,0 +1,57 @@
+{
+  "run_id": "20261115_161411",
+  "model": "opencode-go/deepseek-v4.1-flash#high",
+  "max_parallel": 8,
+  "total": 284,
+  "counts": {
+    "verified": 55,
+    "blocked": 3,
+    "paused": 14,
+    "pending": 212
+  },
+  "blocked": [
+    {
+      "entry_key": "2026|零模|北师大实验中学|化学|",
+      "sequence": 11,
+      "subject": "化学",
+      "output_dir": "parsed/化学/2026/零模/chemistry-2026-mock0-xicheng.pdf",
+      "status": "blocked",
+      "retry_count": 2,
+      "review_report": "_orchestration/runs/20261114_081924/011/review_2_result.json",
+      "review_result": "reject",
+      "blocked_reason": "Review rejected after maximum repairs",
+      "resume_stage": "in_review",
+      "extraction_session": "ses_e385e64e6ffeogAmgnMdxhg8IJ",
+      "review_session": "ses_e2892e614ffeM0cS644Dn6Qtky"
+    },
+    {
+      "entry_key": "2026|一模|东城|历史|",
+      "sequence": 20,
+      "subject": "历史",
+      "output_dir": "parsed/历史/2026/一模/history-2026-mock1-dongcheng.pdf",
+      "status": "blocked",
+      "retry_count": 2,
+      "review_report": "_orchestration/runs/20261115_040912/020/review_2_result.json",
+      "review_result": "reject",
+      "blocked_reason": "Review rejected after maximum repairs",
+      "resume_stage": "in_review",
+      "extraction_session": "ses_e240d9a1affeDAVAOIvIsjlb6h",
+      "review_session": "ses_e23db0010ffex6hWiWkQj5Ii4C",
+      "error_kind": "content"
+    },
+    {
+      "entry_key": "2026|一模|西城|英语|",
+      "sequence": 24,
+      "subject": "英语",
+      "output_dir": "parsed/英语/2026/一模/english-2026-mock1-xicheng.pdf",
+      "status": "blocked",
+      "retry_count": 2,
+      "review_report": "_orchestration/runs/20261115_121050/024/review_2_result.json",
+      "review_result": "reject",
+      "blocked_reason": "Review rejected after maximum repairs",
+      "resume_stage": "in_review",
+      "review_session": "ses_e2298dc25ffe4Cu2s3VhBtlrqu",
+      "error_kind": "content"
+    }
+  ]
+}

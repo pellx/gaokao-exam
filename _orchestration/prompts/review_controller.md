@@ -1,0 +1,1 @@
+请只读检查 E:/gaokao-exam/_orchestration/run_2026_all.py 的实际正确性。不要修改任何项目文件，不联网，不调用其他子代理。重点找会让断点续跑漏卷、状态错误、独立复核失效、已验收卷被重做、或 Windows OpenCode 子进程启动失败的具体 bug。可读 docs/PDF_TO_JSON_ORCHESTRATOR_2026.md 和旧 scripts/run_2026_chinese_batch.py 作上下文。只报告确认的问题，给出文件行号与触发场景；没有就说明未发现。不要泛化建议，不要修改或执行批处理脚本，不要读取 API key 或用户凭据。

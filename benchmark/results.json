@@ -1,0 +1,6288 @@
+{
+  "environment": {
+    "python": "3.11.9",
+    "os": "Windows-10-10.0.26200-SP0",
+    "logical_cpus": 12,
+    "pymupdf_version": "2.1",
+    "pillow_version": "12.2.0",
+    "pdftotext_version": "pdftotext version 4.00",
+    "round_count": 3,
+    "paddle": {
+      "engine": "PP-OCRv5 server det/rec, lightweight DB/CTC",
+      "ort_version": "1.25.1",
+      "threads": 4,
+      "model_load_s": 0.4055703000049107
+    },
+    "xiaomi": {
+      "engine": "Qwen3_5ForConditionalGeneration",
+      "source": "xiaomi-research/Xiaomi-OCR-0@bbd8cf8d21f256b3644b44cb860f3a7cecb93c30",
+      "trust_remote_code": false,
+      "offline_inference": true,
+      "torch": "2.14.0+cpu",
+      "transformers": "5.17.0",
+      "python": "3.11.9",
+      "threads": 4,
+      "dtype": "bfloat16",
+      "device": "cpu",
+      "cap_per_call": 4096,
+      "max_image_pixels": 1003520,
+      "model_and_processor_load_s": 1.989365799992811,
+      "layout": null
+    },
+    "paddlevl": {
+      "engine": "PaddleOCRVLForConditionalGeneration",
+      "torch": "2.14.0+cpu",
+      "transformers": "5.17.0",
+      "python": "3.11.9",
+      "threads": 4,
+      "dtype": "bfloat16",
+      "device": "cpu",
+      "cap_per_call": 512,
+      "max_image_pixels": null,
+      "model_and_processor_load_s": 1.6149856999982148,
+      "layout": {
+        "engine": "DocLayout-YOLO DocStructBench ONNX CPU",
+        "threads": 4,
+        "threshold": 0.25,
+        "model_load_s": 0.3812430999823846
+      },
+      "source": "PaddlePaddle/PaddleOCR-VL-1.6@132c45f52c0a26ed5a6b2f6bd8e3985794cc27dd",
+      "trust_remote_code": false,
+      "offline_inference": true
+    }
+  },
+  "page_groups": {
+    "scan": [
+      "cn01",
+      "cn02",
+      "cn03",
+      "ma01",
+      "ma02",
+      "ma03",
+      "ch07"
+    ],
+    "text_layer": [
+      "cn11",
+      "ph01",
+      "ph05",
+      "ph06",
+      "ph12"
+    ]
+  },
+  "methods": {
+    "pymupdf": {
+      "median_12_page_processing_s": 0.04553399994620122,
+      "page_median_s": 0.002141700009815395,
+      "page_p90_s": 0.009562399995047599,
+      "round_processing_s": [
+        0.05271229997742921,
+        0.04553399994620122,
+        0.04180320000159554
+      ],
+      "median_measured_batch_wall_s": 0.045668399980058894,
+      "round_batch_wall_s": [
+        0.05283709999639541,
+        0.045668399980058894,
+        0.041921299998648465
+      ],
+      "modeled_from_measured_stages": false,
+      "groups": {
+        "text": {
+          "snippets": 36,
+          "exact": 15,
+          "chars": 844,
+          "edits": 508
+        },
+        "scan": {
+          "snippets": 21,
+          "exact": 0,
+          "chars": 508,
+          "edits": 508
+        },
+        "formulas": {
+          "snippets": 13,
+          "exact": 1,
+          "chars": 111,
+          "edits": 85
+        },
+        "answers": {
+          "snippets": 5,
+          "exact": 5,
+          "chars": 37,
+          "edits": 0
+        },
+        "text_layer": {
+          "snippets": 15,
+          "exact": 15,
+          "chars": 336,
+          "edits": 0
+        }
+      },
+      "pages": {
+        "cn01": {
+          "text": [
+            {
+              "ref": "阅读下面材料，完成1—5题。",
+              "match": "",
+              "chars": 14,
+              "edits": 14
+            },
+            {
+              "ref": "强调通过自主探索、归纳推理和问题解决来重新建构知识形成的过程，而非被动接受现成结论。",
+              "match": "",
+              "chars": 42,
+              "edits": 42
+            },
+            {
+              "ref": "以学习者的认知结构和经验为基础，通过亲身实践、情境参与和反思验证等方式，来建构知识、技能与综合能力的学习方法。",
+              "match": "",
+              "chars": 55,
+              "edits": 55
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.0017275999998673797
+        },
+        "cn02": {
+          "text": [
+            {
+              "ref": "体验学习的核心作用在于：将感性体验转化为理性认知，再通过实践验证实现将认知与行动整合。",
+              "match": "",
+              "chars": 43,
+              "edits": 43
+            },
+            {
+              "ref": "教师组织学生分组搜集资料",
+              "match": "",
+              "chars": 12,
+              "edits": 12
+            },
+            {
+              "ref": "学生在非遗手工作坊，参与彩釉烧制、印模造型等体验活动。",
+              "match": "",
+              "chars": 27,
+              "edits": 27
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.0014020999951753765
+        },
+        "cn03": {
+          "text": [
+            {
+              "ref": "“发现学习”更适合具有探索精神、有高自主性学习需求的学习者。",
+              "match": "",
+              "chars": 30,
+              "edits": 30
+            },
+            {
+              "ref": "体验学习过程并非严格线性，而是可以从任一环节启动。",
+              "match": "",
+              "chars": 25,
+              "edits": 25
+            },
+            {
+              "ref": "夫人之有生也，则有是心，有心则有仁义礼智之性。",
+              "match": "",
+              "chars": 23,
+              "edits": 23
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.001396199979353696
+        },
+        "cn11": {
+          "text": [
+            {
+              "ref": "语文答案要点及评分标准",
+              "match": "语文答案要点及评分标准",
+              "chars": 11,
+              "edits": 0
+            },
+            {
+              "ref": "不需要被动接受现成的结论，可以自主选择小视频的主题和视角",
+              "match": "不需要被动接受现成的结论，可以自主选择小视频的主题和视角",
+              "chars": 28,
+              "edits": 0
+            },
+            {
+              "ref": "自省修为：通过不断比较、自我反省、思考来验证。",
+              "match": "自省修为：通过不断比较、自我反省、思考来验证。",
+              "chars": 23,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [
+            {
+              "ref": "1.（3分）C",
+              "match": "1.(3分)C",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "2.（3分）D",
+              "match": "2.(3分)D",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "3.（3分）A",
+              "match": "3.(3分)A",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "4.（3分）B",
+              "match": "4.(3分)B",
+              "chars": 7,
+              "edits": 0
+            }
+          ],
+          "median_s": 0.008684000000357628
+        },
+        "ma01": {
+          "text": [
+            {
+              "ref": "本试卷共4页，共150分。考试时长120分钟。",
+              "match": "",
+              "chars": 23,
+              "edits": 23
+            },
+            {
+              "ref": "在区间(1,+∞)上单调递增的是",
+              "match": "",
+              "chars": 16,
+              "edits": 16
+            },
+            {
+              "ref": "奶茶温度衰减满足函数关系",
+              "match": "",
+              "chars": 12,
+              "edits": 12
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "A={x|−1≤x<2}",
+              "match": "",
+              "chars": 12,
+              "edits": 12
+            },
+            {
+              "ref": "a₁+a₂=−16",
+              "match": "",
+              "chars": 9,
+              "edits": 9
+            },
+            {
+              "ref": "|a+λb|=|a|+λ|b|",
+              "match": "",
+              "chars": 15,
+              "edits": 15
+            }
+          ],
+          "answers": [],
+          "median_s": 0.0010543999960646033
+        },
+        "ma02": {
+          "text": [
+            {
+              "ref": "则满足条件的平面α的个数为",
+              "match": "",
+              "chars": 13,
+              "edits": 13
+            },
+            {
+              "ref": "则在复平面内z对应点的坐标为",
+              "match": "",
+              "chars": 14,
+              "edits": 14
+            },
+            {
+              "ref": "则|AB|的最小值为",
+              "match": "",
+              "chars": 10,
+              "edits": 10
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "ax+by+c=0",
+              "match": "",
+              "chars": 9,
+              "edits": 9
+            },
+            {
+              "ref": "x²=12y",
+              "match": "",
+              "chars": 6,
+              "edits": 6
+            }
+          ],
+          "answers": [],
+          "median_s": 0.0008935999940149486
+        },
+        "ma03": {
+          "text": [
+            {
+              "ref": "若a=6，求△ABC的面积最大值。",
+              "match": "",
+              "chars": 17,
+              "edits": 17
+            },
+            {
+              "ref": "如果选择多个符合要求的条件分别解答，按第一个解答计分。",
+              "match": "",
+              "chars": 27,
+              "edits": 27
+            },
+            {
+              "ref": "假设该地区2025届大学毕业生选择的毕业去向相互独立。",
+              "match": "",
+              "chars": 27,
+              "edits": 27
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "AB=3",
+              "match": "",
+              "chars": 4,
+              "edits": 4
+            },
+            {
+              "ref": "BC=5",
+              "match": "",
+              "chars": 4,
+              "edits": 4
+            }
+          ],
+          "answers": [],
+          "median_s": 0.0008549000194761902
+        },
+        "ph01": {
+          "text": [
+            {
+              "ref": "试卷答案请一律填涂或书写在答题卡上，在试卷上作答无效。",
+              "match": "试卷答案请一律填涂或书写在答题卡上，在试卷上作答无效。",
+              "chars": 27,
+              "edits": 0
+            },
+            {
+              "ref": "从物理学的角度来看，彩虹是由太阳光进入水滴，先折射一次，然后在水滴的背面反射",
+              "match": "从物理学的角度来看，彩虹是由太阳光进入水滴，先折射一次，然后在水滴的背面反射",
+              "chars": 38,
+              "edits": 0
+            },
+            {
+              "ref": "若遇到相同的障碍物，M光比N光的衍射现象更明显",
+              "match": "若遇到相同的障碍物，M光比N光的衍射现象更明显",
+              "chars": 23,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.005423700000392273
+        },
+        "ph05": {
+          "text": [
+            {
+              "ref": "碰后瞬间管道对结合体的作用力方向沿圆环半径向内",
+              "match": "碰后瞬间管道对结合体的作用力方向沿圆环半径向内",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "利用手机中的磁传感器可测量埋在地下的水平高压直流长直电缆的深度。",
+              "match": "利用手机中的磁传感器可测量埋在地下的水平高压直流长直电缆的深度。",
+              "chars": 32,
+              "edits": 0
+            },
+            {
+              "ref": "EF、GH长均为1.8m且垂直平分。",
+              "match": "EF、GH长均为1.8m且垂直平分。",
+              "chars": 18,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "S₁=S₂",
+              "match": "S1=S2",
+              "chars": 5,
+              "edits": 0
+            }
+          ],
+          "answers": [],
+          "median_s": 0.005783300002804026
+        },
+        "ph06": {
+          "text": [
+            {
+              "ref": "在水平面上有一质谱仪，由直线加速器和磁场偏转器组成",
+              "match": "在水平面上有一质谱仪，由直线加速器和磁场偏转器组成",
+              "chars": 25,
+              "edits": 0
+            },
+            {
+              "ref": "不计粒子重力及粒子间的相互作用",
+              "match": "不计粒子重力及粒子间的相互作用",
+              "chars": 15,
+              "edits": 0
+            },
+            {
+              "ref": "系统静止在光滑水平面上（B靠墙面）",
+              "match": "系统静止在光滑水平面上（B靠墙面）",
+              "chars": 17,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "U₀−ΔU",
+              "match": "U0U",
+              "chars": 5,
+              "edits": 2
+            },
+            {
+              "ref": "S₁−S₂>S₃",
+              "match": "S1S2S3",
+              "chars": 8,
+              "edits": 2
+            }
+          ],
+          "answers": [],
+          "median_s": 0.0059031999844592065
+        },
+        "ph12": {
+          "text": [
+            {
+              "ref": "参考答案",
+              "match": "参考答案",
+              "chars": 4,
+              "edits": 0
+            },
+            {
+              "ref": "两球不一定是弹性的，可以是非弹性的，故B错误；",
+              "match": "两球不一定是弹性的，可以是非弹性的，故B错误；",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "斜槽可以不光滑，只要同一实验从斜槽上同一位置由静止释放即可",
+              "match": "斜槽可以不光滑，只要同一实验从斜槽上同一位置由静止释放即可",
+              "chars": 29,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "m₁v₀=m₁v₁+m₂v₂",
+              "match": "m1v0m1v1m2v2",
+              "chars": 14,
+              "edits": 2
+            }
+          ],
+          "answers": [
+            {
+              "ref": "【答案】（1）CD",
+              "match": "【答案】(1)CD",
+              "chars": 9,
+              "edits": 0
+            }
+          ],
+          "median_s": 0.010058399988338351
+        },
+        "ch07": {
+          "text": [
+            {
+              "ref": "制备方法的发展体现了化学科学与技术的不断进步。",
+              "match": "",
+              "chars": 23,
+              "edits": 23
+            },
+            {
+              "ref": "20世纪初，我国化学工业科学家侯德榜创造性地提出了侯氏制碱法，流程如下。",
+              "match": "",
+              "chars": 36,
+              "edits": 36
+            },
+            {
+              "ref": "结合数据分析优先析出NaHCO₃的原因",
+              "match": "",
+              "chars": 19,
+              "edits": 19
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "Na₂SO₄、C、CaCO₃",
+              "match": "",
+              "chars": 14,
+              "edits": 14
+            },
+            {
+              "ref": "CaS和CO",
+              "match": "",
+              "chars": 6,
+              "edits": 6
+            }
+          ],
+          "answers": [],
+          "median_s": 0.0022792999807279557
+        }
+      }
+    },
+    "pdftotext": {
+      "median_12_page_processing_s": 0.14573150005890056,
+      "page_median_s": 0.012620200010132976,
+      "page_p90_s": 0.014862700016237795,
+      "round_processing_s": [
+        0.16636440003640018,
+        0.14187840002705343,
+        0.14573150005890056
+      ],
+      "median_measured_batch_wall_s": 0.1459571000013966,
+      "round_batch_wall_s": [
+        0.16658839999581687,
+        0.14210180001100525,
+        0.1459571000013966
+      ],
+      "modeled_from_measured_stages": false,
+      "groups": {
+        "text": {
+          "snippets": 36,
+          "exact": 15,
+          "chars": 844,
+          "edits": 508
+        },
+        "scan": {
+          "snippets": 21,
+          "exact": 0,
+          "chars": 508,
+          "edits": 508
+        },
+        "formulas": {
+          "snippets": 13,
+          "exact": 1,
+          "chars": 111,
+          "edits": 85
+        },
+        "answers": {
+          "snippets": 5,
+          "exact": 5,
+          "chars": 37,
+          "edits": 0
+        },
+        "text_layer": {
+          "snippets": 15,
+          "exact": 15,
+          "chars": 336,
+          "edits": 0
+        }
+      },
+      "pages": {
+        "cn01": {
+          "text": [
+            {
+              "ref": "阅读下面材料，完成1—5题。",
+              "match": "",
+              "chars": 14,
+              "edits": 14
+            },
+            {
+              "ref": "强调通过自主探索、归纳推理和问题解决来重新建构知识形成的过程，而非被动接受现成结论。",
+              "match": "",
+              "chars": 42,
+              "edits": 42
+            },
+            {
+              "ref": "以学习者的认知结构和经验为基础，通过亲身实践、情境参与和反思验证等方式，来建构知识、技能与综合能力的学习方法。",
+              "match": "",
+              "chars": 55,
+              "edits": 55
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.012764899991452694
+        },
+        "cn02": {
+          "text": [
+            {
+              "ref": "体验学习的核心作用在于：将感性体验转化为理性认知，再通过实践验证实现将认知与行动整合。",
+              "match": "",
+              "chars": 43,
+              "edits": 43
+            },
+            {
+              "ref": "教师组织学生分组搜集资料",
+              "match": "",
+              "chars": 12,
+              "edits": 12
+            },
+            {
+              "ref": "学生在非遗手工作坊，参与彩釉烧制、印模造型等体验活动。",
+              "match": "",
+              "chars": 27,
+              "edits": 27
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.011685900011798367
+        },
+        "cn03": {
+          "text": [
+            {
+              "ref": "“发现学习”更适合具有探索精神、有高自主性学习需求的学习者。",
+              "match": "",
+              "chars": 30,
+              "edits": 30
+            },
+            {
+              "ref": "体验学习过程并非严格线性，而是可以从任一环节启动。",
+              "match": "",
+              "chars": 25,
+              "edits": 25
+            },
+            {
+              "ref": "夫人之有生也，则有是心，有心则有仁义礼智之性。",
+              "match": "",
+              "chars": 23,
+              "edits": 23
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.011593300005188212
+        },
+        "cn11": {
+          "text": [
+            {
+              "ref": "语文答案要点及评分标准",
+              "match": "语文答案要点及评分标准",
+              "chars": 11,
+              "edits": 0
+            },
+            {
+              "ref": "不需要被动接受现成的结论，可以自主选择小视频的主题和视角",
+              "match": "不需要被动接受现成的结论，可以自主选择小视频的主题和视角",
+              "chars": 28,
+              "edits": 0
+            },
+            {
+              "ref": "自省修为：通过不断比较、自我反省、思考来验证。",
+              "match": "自省修为：通过不断比较、自我反省、思考来验证。",
+              "chars": 23,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [
+            {
+              "ref": "1.（3分）C",
+              "match": "1.(3分)C",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "2.（3分）D",
+              "match": "2.(3分)D",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "3.（3分）A",
+              "match": "3.(3分)A",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "4.（3分）B",
+              "match": "4.(3分)B",
+              "chars": 7,
+              "edits": 0
+            }
+          ],
+          "median_s": 0.013572500000009313
+        },
+        "ma01": {
+          "text": [
+            {
+              "ref": "本试卷共4页，共150分。考试时长120分钟。",
+              "match": "",
+              "chars": 23,
+              "edits": 23
+            },
+            {
+              "ref": "在区间(1,+∞)上单调递增的是",
+              "match": "",
+              "chars": 16,
+              "edits": 16
+            },
+            {
+              "ref": "奶茶温度衰减满足函数关系",
+              "match": "",
+              "chars": 12,
+              "edits": 12
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "A={x|−1≤x<2}",
+              "match": "",
+              "chars": 12,
+              "edits": 12
+            },
+            {
+              "ref": "a₁+a₂=−16",
+              "match": "",
+              "chars": 9,
+              "edits": 9
+            },
+            {
+              "ref": "|a+λb|=|a|+λ|b|",
+              "match": "",
+              "chars": 15,
+              "edits": 15
+            }
+          ],
+          "answers": [],
+          "median_s": 0.010361799999373034
+        },
+        "ma02": {
+          "text": [
+            {
+              "ref": "则满足条件的平面α的个数为",
+              "match": "",
+              "chars": 13,
+              "edits": 13
+            },
+            {
+              "ref": "则在复平面内z对应点的坐标为",
+              "match": "",
+              "chars": 14,
+              "edits": 14
+            },
+            {
+              "ref": "则|AB|的最小值为",
+              "match": "",
+              "chars": 10,
+              "edits": 10
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "ax+by+c=0",
+              "match": "",
+              "chars": 9,
+              "edits": 9
+            },
+            {
+              "ref": "x²=12y",
+              "match": "",
+              "chars": 6,
+              "edits": 6
+            }
+          ],
+          "answers": [],
+          "median_s": 0.011464100010925904
+        },
+        "ma03": {
+          "text": [
+            {
+              "ref": "若a=6，求△ABC的面积最大值。",
+              "match": "",
+              "chars": 17,
+              "edits": 17
+            },
+            {
+              "ref": "如果选择多个符合要求的条件分别解答，按第一个解答计分。",
+              "match": "",
+              "chars": 27,
+              "edits": 27
+            },
+            {
+              "ref": "假设该地区2025届大学毕业生选择的毕业去向相互独立。",
+              "match": "",
+              "chars": 27,
+              "edits": 27
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "AB=3",
+              "match": "",
+              "chars": 4,
+              "edits": 4
+            },
+            {
+              "ref": "BC=5",
+              "match": "",
+              "chars": 4,
+              "edits": 4
+            }
+          ],
+          "answers": [],
+          "median_s": 0.011017699987860397
+        },
+        "ph01": {
+          "text": [
+            {
+              "ref": "试卷答案请一律填涂或书写在答题卡上，在试卷上作答无效。",
+              "match": "试卷答案请一律填涂或书写在答题卡上，在试卷上作答无效。",
+              "chars": 27,
+              "edits": 0
+            },
+            {
+              "ref": "从物理学的角度来看，彩虹是由太阳光进入水滴，先折射一次，然后在水滴的背面反射",
+              "match": "从物理学的角度来看，彩虹是由太阳光进入水滴，先折射一次，然后在水滴的背面反射",
+              "chars": 38,
+              "edits": 0
+            },
+            {
+              "ref": "若遇到相同的障碍物，M光比N光的衍射现象更明显",
+              "match": "若遇到相同的障碍物，M光比N光的衍射现象更明显",
+              "chars": 23,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.012714000011328608
+        },
+        "ph05": {
+          "text": [
+            {
+              "ref": "碰后瞬间管道对结合体的作用力方向沿圆环半径向内",
+              "match": "碰后瞬间管道对结合体的作用力方向沿圆环半径向内",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "利用手机中的磁传感器可测量埋在地下的水平高压直流长直电缆的深度。",
+              "match": "利用手机中的磁传感器可测量埋在地下的水平高压直流长直电缆的深度。",
+              "chars": 32,
+              "edits": 0
+            },
+            {
+              "ref": "EF、GH长均为1.8m且垂直平分。",
+              "match": "EF、GH长均为1.8m且垂直平分。",
+              "chars": 18,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "S₁=S₂",
+              "match": "S1=S2",
+              "chars": 5,
+              "edits": 0
+            }
+          ],
+          "answers": [],
+          "median_s": 0.012730800022836775
+        },
+        "ph06": {
+          "text": [
+            {
+              "ref": "在水平面上有一质谱仪，由直线加速器和磁场偏转器组成",
+              "match": "在水平面上有一质谱仪，由直线加速器和磁场偏转器组成",
+              "chars": 25,
+              "edits": 0
+            },
+            {
+              "ref": "不计粒子重力及粒子间的相互作用",
+              "match": "不计粒子重力及粒子间的相互作用",
+              "chars": 15,
+              "edits": 0
+            },
+            {
+              "ref": "系统静止在光滑水平面上（B靠墙面）",
+              "match": "系统静止在光滑水平面上（B靠墙面）",
+              "chars": 17,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "U₀−ΔU",
+              "match": "U0U",
+              "chars": 5,
+              "edits": 2
+            },
+            {
+              "ref": "S₁−S₂>S₃",
+              "match": "S1S2S3",
+              "chars": 8,
+              "edits": 2
+            }
+          ],
+          "answers": [],
+          "median_s": 0.013059599994448945
+        },
+        "ph12": {
+          "text": [
+            {
+              "ref": "参考答案",
+              "match": "参考答案",
+              "chars": 4,
+              "edits": 0
+            },
+            {
+              "ref": "两球不一定是弹性的，可以是非弹性的，故B错误；",
+              "match": "两球不一定是弹性的，可以是非弹性的，故B错误；",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "斜槽可以不光滑，只要同一实验从斜槽上同一位置由静止释放即可",
+              "match": "斜槽可以不光滑，只要同一实验从斜槽上同一位置由静止释放即可",
+              "chars": 29,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "m₁v₀=m₁v₁+m₂v₂",
+              "match": "m1v0m1v1m2v2",
+              "chars": 14,
+              "edits": 2
+            }
+          ],
+          "answers": [
+            {
+              "ref": "【答案】（1）CD",
+              "match": "【答案】(1)CD",
+              "chars": 9,
+              "edits": 0
+            }
+          ],
+          "median_s": 0.013588600006187335
+        },
+        "ch07": {
+          "text": [
+            {
+              "ref": "制备方法的发展体现了化学科学与技术的不断进步。",
+              "match": "",
+              "chars": 23,
+              "edits": 23
+            },
+            {
+              "ref": "20世纪初，我国化学工业科学家侯德榜创造性地提出了侯氏制碱法，流程如下。",
+              "match": "",
+              "chars": 36,
+              "edits": 36
+            },
+            {
+              "ref": "结合数据分析优先析出NaHCO₃的原因",
+              "match": "",
+              "chars": 19,
+              "edits": 19
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "Na₂SO₄、C、CaCO₃",
+              "match": "",
+              "chars": 14,
+              "edits": 14
+            },
+            {
+              "ref": "CaS和CO",
+              "match": "",
+              "chars": 6,
+              "edits": 6
+            }
+          ],
+          "answers": [],
+          "median_s": 0.010901200002990663
+        }
+      }
+    },
+    "windows": {
+      "median_12_page_processing_s": 5.203414599918664,
+      "page_median_s": 0.4873328500047892,
+      "page_p90_s": 0.574873499966623,
+      "round_processing_s": [
+        5.203414599918664,
+        5.224631999918662,
+        5.090407299918662
+      ],
+      "median_measured_batch_wall_s": 2.954164700000547,
+      "round_batch_wall_s": [
+        3.0090953999897465,
+        2.954164700000547,
+        2.8161314000026323
+      ],
+      "modeled_from_measured_stages": false,
+      "groups": {
+        "text": {
+          "snippets": 36,
+          "exact": 19,
+          "chars": 844,
+          "edits": 69
+        },
+        "scan": {
+          "snippets": 21,
+          "exact": 6,
+          "chars": 508,
+          "edits": 67
+        },
+        "formulas": {
+          "snippets": 13,
+          "exact": 0,
+          "chars": 111,
+          "edits": 69
+        },
+        "answers": {
+          "snippets": 5,
+          "exact": 4,
+          "chars": 37,
+          "edits": 2
+        },
+        "text_layer": {
+          "snippets": 15,
+          "exact": 13,
+          "chars": 336,
+          "edits": 2
+        }
+      },
+      "pages": {
+        "cn01": {
+          "text": [
+            {
+              "ref": "阅读下面材料，完成1—5题。",
+              "match": "阅读下面材料，完成1一5题。",
+              "chars": 14,
+              "edits": 1
+            },
+            {
+              "ref": "强调通过自主探索、归纳推理和问题解决来重新建构知识形成的过程，而非被动接受现成结论。",
+              "match": "强调通过自主探索、归纳推理和问题解决来重新构建知识形成的过程，'而非被动接受现成结论。",
+              "chars": 42,
+              "edits": 3
+            },
+            {
+              "ref": "以学习者的认知结构和经验为基础，通过亲身实践、情境参与和反思验证等方式，来建构知识、技能与综合能力的学习方法。",
+              "match": "以学习者的认知结构和经验为基础，通过亲身实践、情境参与和反思验证等方式，来建构知识、技能与综合能力的学习方法。",
+              "chars": 55,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.6259367000105578
+        },
+        "cn02": {
+          "text": [
+            {
+              "ref": "体验学习的核心作用在于：将感性体验转化为理性认知，再通过实践验证实现将认知与行动整合。",
+              "match": "体验学习的核心作用在于：将感性体验转化为理性认知，再通过实践验证实现将认知与行动整合。",
+              "chars": 43,
+              "edits": 0
+            },
+            {
+              "ref": "教师组织学生分组搜集资料",
+              "match": "教师组织学生分组搜集资料",
+              "chars": 12,
+              "edits": 0
+            },
+            {
+              "ref": "学生在非遗手工作坊，参与彩釉烧制、印模造型等体验活动。",
+              "match": "学生在非遗手工作坊，参与彩釉烧制、印模造型等体验活动。",
+              "chars": 27,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.5742718999666229
+        },
+        "cn03": {
+          "text": [
+            {
+              "ref": "“发现学习”更适合具有探索精神、有高自主性学习需求的学习者。",
+              "match": ".发现学习”更适合具有探索精神、有高自主性学习需求的学习者。",
+              "chars": 30,
+              "edits": 1
+            },
+            {
+              "ref": "体验学习过程并非严格线性，而是可以从任一环节启动。",
+              "match": "体验学习过程并非严格线性，而是可从任一环节启动。",
+              "chars": 25,
+              "edits": 1
+            },
+            {
+              "ref": "夫人之有生也，则有是心，有心则有仁义礼智之性。",
+              "match": "失人之有生也，则有是心，有心则有仁义礼智之性。",
+              "chars": 23,
+              "edits": 1
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.5359816000151955
+        },
+        "cn11": {
+          "text": [
+            {
+              "ref": "语文答案要点及评分标准",
+              "match": "语文答案要点及评分标准",
+              "chars": 11,
+              "edits": 0
+            },
+            {
+              "ref": "不需要被动接受现成的结论，可以自主选择小视频的主题和视角",
+              "match": "不需要被动接受现成的结论，可以自主选择小视频的主题和视角",
+              "chars": 28,
+              "edits": 0
+            },
+            {
+              "ref": "自省修为：通过不断比较、自我反省、思考来验证。",
+              "match": "自省修为：通过不断比较、自我反省、思考来验证。",
+              "chars": 23,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [
+            {
+              "ref": "1.（3分）C",
+              "match": "1.(3分)C",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "2.（3分）D",
+              "match": "2.(3分)D",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "3.（3分）A",
+              "match": "3.(3分)A",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "4.（3分）B",
+              "match": "4.(3分)B",
+              "chars": 7,
+              "edits": 0
+            }
+          ],
+          "median_s": 0.4268710999768682
+        },
+        "ma01": {
+          "text": [
+            {
+              "ref": "本试卷共4页，共150分。考试时长120分钟。",
+              "match": "本试卷共4页、共1分·考试时长1分钟",
+              "chars": 23,
+              "edits": 7
+            },
+            {
+              "ref": "在区间(1,+∞)上单调递增的是",
+              "match": "在区间上单调递增的是",
+              "chars": 16,
+              "edits": 6
+            },
+            {
+              "ref": "奶茶温度衰减满足函数关系",
+              "match": "列茶度衰足关系",
+              "chars": 12,
+              "edits": 6
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "A={x|−1≤x<2}",
+              "match": "集合{圳一1生<2}",
+              "chars": 12,
+              "edits": 7
+            },
+            {
+              "ref": "a₁+a₂=−16",
+              "match": "一101-1",
+              "chars": 9,
+              "edits": 6
+            },
+            {
+              "ref": "|a+λb|=|a|+λ|b|",
+              "match": "中、+。一+",
+              "chars": 15,
+              "edits": 13
+            }
+          ],
+          "answers": [],
+          "median_s": 0.5566348999924742
+        },
+        "ma02": {
+          "text": [
+            {
+              "ref": "则满足条件的平面α的个数为",
+              "match": "则满足条件的平而在的个数为",
+              "chars": 13,
+              "edits": 2
+            },
+            {
+              "ref": "则在复平面内z对应点的坐标为",
+              "match": "則在复年面内对点的坐标为",
+              "chars": 14,
+              "edits": 4
+            },
+            {
+              "ref": "则|AB|的最小值为",
+              "match": "则〔，40的最小值为",
+              "chars": 10,
+              "edits": 4
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "ax+by+c=0",
+              "match": "0与圆十俨+一还0",
+              "chars": 9,
+              "edits": 7
+            },
+            {
+              "ref": "x²=12y",
+              "match": "数了囫一2",
+              "chars": 6,
+              "edits": 5
+            }
+          ],
+          "answers": [],
+          "median_s": 0.49440519999605564
+        },
+        "ma03": {
+          "text": [
+            {
+              "ref": "若a=6，求△ABC的面积最大值。",
+              "match": "若。6，求BC的面大值",
+              "chars": 17,
+              "edits": 7
+            },
+            {
+              "ref": "如果选择多个符合要求的条件分别解答，按第一个解答计分。",
+              "match": "ZBCaC;符含耍求的条件分别解答，按第亠个齷筌计分",
+              "chars": 27,
+              "edits": 12
+            },
+            {
+              "ref": "假设该地区2025届大学毕业生选择的毕业去向相互独立。",
+              "match": "假设该地区鑷届大学毕业生选怿的毕业去向相互独立",
+              "chars": 27,
+              "edits": 6
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "AB=3",
+              "match": "AB",
+              "chars": 4,
+              "edits": 2
+            },
+            {
+              "ref": "BC=5",
+              "match": "BC",
+              "chars": 4,
+              "edits": 2
+            }
+          ],
+          "answers": [],
+          "median_s": 0.5584362000127208
+        },
+        "ph01": {
+          "text": [
+            {
+              "ref": "试卷答案请一律填涂或书写在答题卡上，在试卷上作答无效。",
+              "match": "试卷答案请一律填涂或书写在答题卡上，在试卷上作答无效。",
+              "chars": 27,
+              "edits": 0
+            },
+            {
+              "ref": "从物理学的角度来看，彩虹是由太阳光进入水滴，先折射一次，然后在水滴的背面反射",
+              "match": "从物理学的角度来看，彩虹是由太阳光进入水滴，先折射一次，然后在水滴的背面反射",
+              "chars": 38,
+              "edits": 0
+            },
+            {
+              "ref": "若遇到相同的障碍物，M光比N光的衍射现象更明显",
+              "match": "若遇到相同的障碍物，M光比光的衍射现象更明显",
+              "chars": 23,
+              "edits": 1
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.23494699998589008
+        },
+        "ph05": {
+          "text": [
+            {
+              "ref": "碰后瞬间管道对结合体的作用力方向沿圆环半径向内",
+              "match": "碰后瞬间管道对结合体的作用力方向沿圆环半径向内",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "利用手机中的磁传感器可测量埋在地下的水平高压直流长直电缆的深度。",
+              "match": "利用手机中的磁传感器可测量埋在地下的水平高压直流长直电缆的深度。",
+              "chars": 32,
+              "edits": 0
+            },
+            {
+              "ref": "EF、GH长均为1.8m且垂直平分。",
+              "match": "EF、GH长均为I.8m且垂直平分。",
+              "chars": 18,
+              "edits": 1
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "S₁=S₂",
+              "match": "Sl=S2",
+              "chars": 5,
+              "edits": 1
+            }
+          ],
+          "answers": [],
+          "median_s": 0.19683239998299032
+        },
+        "ph06": {
+          "text": [
+            {
+              "ref": "在水平面上有一质谱仪，由直线加速器和磁场偏转器组成",
+              "match": "在水平面上有一质谱仪，由直线加速器和磁场偏转器组成",
+              "chars": 25,
+              "edits": 0
+            },
+            {
+              "ref": "不计粒子重力及粒子间的相互作用",
+              "match": "不计粒子重力及粒子间的相互作用",
+              "chars": 15,
+              "edits": 0
+            },
+            {
+              "ref": "系统静止在光滑水平面上（B靠墙面）",
+              "match": "系统静止在光滑水平面上（B靠墙面）",
+              "chars": 17,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "U₀−ΔU",
+              "match": "()-AU",
+              "chars": 5,
+              "edits": 3
+            },
+            {
+              "ref": "S₁−S₂>S₃",
+              "match": "SI一S2>S3",
+              "chars": 8,
+              "edits": 2
+            }
+          ],
+          "answers": [],
+          "median_s": 0.27448509996812753
+        },
+        "ph12": {
+          "text": [
+            {
+              "ref": "参考答案",
+              "match": "参考答案",
+              "chars": 4,
+              "edits": 0
+            },
+            {
+              "ref": "两球不一定是弹性的，可以是非弹性的，故B错误；",
+              "match": "两球不一定是弹性的，可以是非弹性的，故B错误；",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "斜槽可以不光滑，只要同一实验从斜槽上同一位置由静止释放即可",
+              "match": "斜槽可以不光滑，只要同一实验从斜槽上同一位置由静止释放即可",
+              "chars": 29,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "m₁v₀=m₁v₁+m₂v₂",
+              "match": "达式叫左:mlLI+m2",
+              "chars": 14,
+              "edits": 10
+            }
+          ],
+          "answers": [
+            {
+              "ref": "【答案】（1）CD",
+              "match": "〖答案〗(1)CD",
+              "chars": 9,
+              "edits": 2
+            }
+          ],
+          "median_s": 0.23610499999763668
+        },
+        "ch07": {
+          "text": [
+            {
+              "ref": "制备方法的发展体现了化学科学与技术的不断进步。",
+              "match": "制备方法的发展体现了化学科学与技术的不断进步。",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "20世纪初，我国化学工业科学家侯德榜创造性地提出了侯氏制碱法，流程如下。",
+              "match": "20世纪初，我国化学工业科学家侯德榜创造性地提出了侯氏制碱法，流程如下。",
+              "chars": 36,
+              "edits": 0
+            },
+            {
+              "ref": "结合数据分析优先析出NaHCO₃的原因",
+              "match": "结合数据分析优先析出的原因",
+              "chars": 19,
+              "edits": 6
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "Na₂SO₄、C、CaCO₃",
+              "match": "NazCONaHC03",
+              "chars": 14,
+              "edits": 9
+            },
+            {
+              "ref": "CaS和CO",
+              "match": "cas和CO",
+              "chars": 6,
+              "edits": 2
+            }
+          ],
+          "answers": [],
+          "median_s": 0.4846156000135228
+        }
+      }
+    },
+    "windows_gray": {
+      "median_12_page_processing_s": 5.596967699905894,
+      "page_median_s": 0.5277235000082886,
+      "page_p90_s": 0.6288211999492712,
+      "round_processing_s": [
+        5.596967699905894,
+        5.7011649999058935,
+        5.569626499905894
+      ],
+      "median_measured_batch_wall_s": 2.6930111999972723,
+      "round_batch_wall_s": [
+        2.6930111999972723,
+        2.7927672999794595,
+        2.66304209997179
+      ],
+      "modeled_from_measured_stages": false,
+      "groups": {
+        "text": {
+          "snippets": 36,
+          "exact": 19,
+          "chars": 844,
+          "edits": 59
+        },
+        "scan": {
+          "snippets": 21,
+          "exact": 6,
+          "chars": 508,
+          "edits": 57
+        },
+        "formulas": {
+          "snippets": 13,
+          "exact": 0,
+          "chars": 111,
+          "edits": 71
+        },
+        "answers": {
+          "snippets": 5,
+          "exact": 4,
+          "chars": 37,
+          "edits": 2
+        },
+        "text_layer": {
+          "snippets": 15,
+          "exact": 13,
+          "chars": 336,
+          "edits": 2
+        }
+      },
+      "pages": {
+        "cn01": {
+          "text": [
+            {
+              "ref": "阅读下面材料，完成1—5题。",
+              "match": "阅读下面材料，完成1一5题。",
+              "chars": 14,
+              "edits": 1
+            },
+            {
+              "ref": "强调通过自主探索、归纳推理和问题解决来重新建构知识形成的过程，而非被动接受现成结论。",
+              "match": "强调通过自主探索、归纳推理和问题解决来重新构建知识形成的过程，《而非被动接受现成结论。",
+              "chars": 42,
+              "edits": 3
+            },
+            {
+              "ref": "以学习者的认知结构和经验为基础，通过亲身实践、情境参与和反思验证等方式，来建构知识、技能与综合能力的学习方法。",
+              "match": "以学习者的认知结构和经验为基础，通过亲身实践、情境参与和反思验证等方式，来建构知识、技能与综合能力的学习方法。",
+              "chars": 55,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.663728800010382
+        },
+        "cn02": {
+          "text": [
+            {
+              "ref": "体验学习的核心作用在于：将感性体验转化为理性认知，再通过实践验证实现将认知与行动整合。",
+              "match": "体验学习的核心作用在于：将感性体验转化为理性认知，再通过实践验证实现将认知与行动整合。",
+              "chars": 43,
+              "edits": 0
+            },
+            {
+              "ref": "教师组织学生分组搜集资料",
+              "match": "教师组织学生分组搜集资料",
+              "chars": 12,
+              "edits": 0
+            },
+            {
+              "ref": "学生在非遗手工作坊，参与彩釉烧制、印模造型等体验活动。",
+              "match": "学生在非遗手工作坊，参与彩釉烧制、印模造型等体验活动。",
+              "chars": 27,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.6145548999492711
+        },
+        "cn03": {
+          "text": [
+            {
+              "ref": "“发现学习”更适合具有探索精神、有高自主性学习需求的学习者。",
+              "match": ".发现学习”更适合具有探索精神、有高自主性学习需求的学习者。",
+              "chars": 30,
+              "edits": 1
+            },
+            {
+              "ref": "体验学习过程并非严格线性，而是可以从任一环节启动。",
+              "match": "体验学习过程并非严格线性，而是可从任一环节启动。",
+              "chars": 25,
+              "edits": 1
+            },
+            {
+              "ref": "夫人之有生也，则有是心，有心则有仁义礼智之性。",
+              "match": "失人之有生也，则有是心，有心则有仁义礼智之性。",
+              "chars": 23,
+              "edits": 1
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.5800204000140495
+        },
+        "cn11": {
+          "text": [
+            {
+              "ref": "语文答案要点及评分标准",
+              "match": "语文答案要点及评分标准",
+              "chars": 11,
+              "edits": 0
+            },
+            {
+              "ref": "不需要被动接受现成的结论，可以自主选择小视频的主题和视角",
+              "match": "不需要被动接受现成的结论，可以自主选择小视频的主题和视角",
+              "chars": 28,
+              "edits": 0
+            },
+            {
+              "ref": "自省修为：通过不断比较、自我反省、思考来验证。",
+              "match": "自省修为：通过不断比较、自我反省、思考来验证。",
+              "chars": 23,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [
+            {
+              "ref": "1.（3分）C",
+              "match": "1.(3分)C",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "2.（3分）D",
+              "match": "2.(3分)D",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "3.（3分）A",
+              "match": "3.(3分)A",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "4.（3分）B",
+              "match": "4.(3分)B",
+              "chars": 7,
+              "edits": 0
+            }
+          ],
+          "median_s": 0.472286099968737
+        },
+        "ma01": {
+          "text": [
+            {
+              "ref": "本试卷共4页，共150分。考试时长120分钟。",
+              "match": "本试卷共4页、共1分·考试时长1分钟",
+              "chars": 23,
+              "edits": 7
+            },
+            {
+              "ref": "在区间(1,+∞)上单调递增的是",
+              "match": "在区间上单调递增的是",
+              "chars": 16,
+              "edits": 6
+            },
+            {
+              "ref": "奶茶温度衰减满足函数关系",
+              "match": "奶茶度、衰喊满足函数关系",
+              "chars": 12,
+              "edits": 3
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "A={x|−1≤x<2}",
+              "match": "知集合盈地一1叾<2}",
+              "chars": 12,
+              "edits": 8
+            },
+            {
+              "ref": "a₁+a₂=−16",
+              "match": ")1-1",
+              "chars": 9,
+              "edits": 6
+            },
+            {
+              "ref": "|a+λb|=|a|+λ|b|",
+              "match": "中.+地一+",
+              "chars": 15,
+              "edits": 13
+            }
+          ],
+          "answers": [],
+          "median_s": 0.5875484999960419
+        },
+        "ma02": {
+          "text": [
+            {
+              "ref": "则满足条件的平面α的个数为",
+              "match": "则满足绦件的平面。的个数为",
+              "chars": 13,
+              "edits": 2
+            },
+            {
+              "ref": "则在复平面内z对应点的坐标为",
+              "match": "則在复平面内对点的坐标为",
+              "chars": 14,
+              "edits": 3
+            },
+            {
+              "ref": "则|AB|的最小值为",
+              "match": "则〔，《的最小值为",
+              "chars": 10,
+              "edits": 4
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "ax+by+c=0",
+              "match": "值为直线“+c0",
+              "chars": 9,
+              "edits": 6
+            },
+            {
+              "ref": "x²=12y",
+              "match": "数了囫一2",
+              "chars": 6,
+              "edits": 5
+            }
+          ],
+          "answers": [],
+          "median_s": 0.5365354000084221
+        },
+        "ma03": {
+          "text": [
+            {
+              "ref": "若a=6，求△ABC的面积最大值。",
+              "match": "若在过6，求BC的面'大值",
+              "chars": 17,
+              "edits": 7
+            },
+            {
+              "ref": "如果选择多个符合要求的条件分别解答，按第一个解答计分。",
+              "match": "如果选择多个符含耍求的条件分别解答，按第亠个齷礬计",
+              "chars": 27,
+              "edits": 7
+            },
+            {
+              "ref": "假设该地区2025届大学毕业生选择的毕业去向相互独立。",
+              "match": "假设该地区届大学毕业生选择的毕业去向相互独立",
+              "chars": 27,
+              "edits": 5
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "AB=3",
+              "match": "啡103",
+              "chars": 4,
+              "edits": 3
+            },
+            {
+              "ref": "BC=5",
+              "match": "BC",
+              "chars": 4,
+              "edits": 2
+            }
+          ],
+          "answers": [],
+          "median_s": 0.5926167000185888
+        },
+        "ph01": {
+          "text": [
+            {
+              "ref": "试卷答案请一律填涂或书写在答题卡上，在试卷上作答无效。",
+              "match": "试卷答案请一律填涂或书写在答题卡上，在试卷上作答无效。",
+              "chars": 27,
+              "edits": 0
+            },
+            {
+              "ref": "从物理学的角度来看，彩虹是由太阳光进入水滴，先折射一次，然后在水滴的背面反射",
+              "match": "从物理学的角度来看，彩虹是由太阳光进入水滴，先折射一次，然后在水滴的背面反射",
+              "chars": 38,
+              "edits": 0
+            },
+            {
+              "ref": "若遇到相同的障碍物，M光比N光的衍射现象更明显",
+              "match": "若遇到相同的障碍物，M光比光的衍射现象更明显",
+              "chars": 23,
+              "edits": 1
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.2610345999719985
+        },
+        "ph05": {
+          "text": [
+            {
+              "ref": "碰后瞬间管道对结合体的作用力方向沿圆环半径向内",
+              "match": "碰后瞬间管道对结合体的作用力方向沿圆环半径向内",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "利用手机中的磁传感器可测量埋在地下的水平高压直流长直电缆的深度。",
+              "match": "利用手机中的磁传感器可测量埋在地下的水平高压直流长直电缆的深度。",
+              "chars": 32,
+              "edits": 0
+            },
+            {
+              "ref": "EF、GH长均为1.8m且垂直平分。",
+              "match": "EF、GH长均为I.8m且垂直平分。",
+              "chars": 18,
+              "edits": 1
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "S₁=S₂",
+              "match": "Sl=S2",
+              "chars": 5,
+              "edits": 1
+            }
+          ],
+          "answers": [],
+          "median_s": 0.21839270000271796
+        },
+        "ph06": {
+          "text": [
+            {
+              "ref": "在水平面上有一质谱仪，由直线加速器和磁场偏转器组成",
+              "match": "在水平面上有一质谱仪，由直线加速器和磁场偏转器组成",
+              "chars": 25,
+              "edits": 0
+            },
+            {
+              "ref": "不计粒子重力及粒子间的相互作用",
+              "match": "不计粒子重力及粒子间的相互作用",
+              "chars": 15,
+              "edits": 0
+            },
+            {
+              "ref": "系统静止在光滑水平面上（B靠墙面）",
+              "match": "系统静止在光滑水平面上（B靠墙面）",
+              "chars": 17,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "U₀−ΔU",
+              "match": "压在-AU",
+              "chars": 5,
+              "edits": 3
+            },
+            {
+              "ref": "S₁−S₂>S₃",
+              "match": "SI一S2>S3",
+              "chars": 8,
+              "edits": 2
+            }
+          ],
+          "answers": [],
+          "median_s": 0.29608939996558353
+        },
+        "ph12": {
+          "text": [
+            {
+              "ref": "参考答案",
+              "match": "参考答案",
+              "chars": 4,
+              "edits": 0
+            },
+            {
+              "ref": "两球不一定是弹性的，可以是非弹性的，故B错误；",
+              "match": "两球不一定是弹性的，可以是非弹性的，故B错误；",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "斜槽可以不光滑，只要同一实验从斜槽上同一位置由静止释放即可",
+              "match": "斜槽可以不光滑，只要同一实验从斜槽上同一位置由静止释放即可",
+              "chars": 29,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "m₁v₀=m₁v₁+m₂v₂",
+              "match": "(1)CD(2)m叾2",
+              "chars": 14,
+              "edits": 11
+            }
+          ],
+          "answers": [
+            {
+              "ref": "【答案】（1）CD",
+              "match": "〖答案〗(1)CD",
+              "chars": 9,
+              "edits": 2
+            }
+          ],
+          "median_s": 0.25854629999194667
+        },
+        "ch07": {
+          "text": [
+            {
+              "ref": "制备方法的发展体现了化学科学与技术的不断进步。",
+              "match": "制备方法的发展体现了化学科学与技术的不断进步。",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "20世纪初，我国化学工业科学家侯德榜创造性地提出了侯氏制碱法，流程如下。",
+              "match": "20世纪初，我国化学工业科学家侯德榜创造性地提出了侯氏制碱法，流程如下。",
+              "chars": 36,
+              "edits": 0
+            },
+            {
+              "ref": "结合数据分析优先析出NaHCO₃的原因",
+              "match": "结合数据分析优先析出的原因",
+              "chars": 19,
+              "edits": 6
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "Na₂SO₄、C、CaCO₃",
+              "match": "Na2C03",
+              "chars": 14,
+              "edits": 9
+            },
+            {
+              "ref": "CaS和CO",
+              "match": "cas和CO",
+              "chars": 6,
+              "edits": 2
+            }
+          ],
+          "answers": [],
+          "median_s": 0.521812500008155
+        }
+      }
+    },
+    "hybrid": {
+      "median_12_page_processing_s": 4.397476399950343,
+      "page_median_s": 0.4888606499821281,
+      "page_p90_s": 0.5765863999709726,
+      "round_processing_s": [
+        4.397476399950343,
+        4.407210199919115,
+        4.295413499974509
+      ],
+      "median_measured_batch_wall_s": null,
+      "round_batch_wall_s": [],
+      "modeled_from_measured_stages": true,
+      "groups": {
+        "text": {
+          "snippets": 36,
+          "exact": 21,
+          "chars": 844,
+          "edits": 67
+        },
+        "scan": {
+          "snippets": 21,
+          "exact": 6,
+          "chars": 508,
+          "edits": 67
+        },
+        "formulas": {
+          "snippets": 13,
+          "exact": 1,
+          "chars": 111,
+          "edits": 68
+        },
+        "answers": {
+          "snippets": 5,
+          "exact": 4,
+          "chars": 37,
+          "edits": 2
+        },
+        "text_layer": {
+          "snippets": 15,
+          "exact": 15,
+          "chars": 336,
+          "edits": 0
+        }
+      },
+      "pages": {
+        "cn01": {
+          "text": [
+            {
+              "ref": "阅读下面材料，完成1—5题。",
+              "match": "阅读下面材料，完成1一5题。",
+              "chars": 14,
+              "edits": 1
+            },
+            {
+              "ref": "强调通过自主探索、归纳推理和问题解决来重新建构知识形成的过程，而非被动接受现成结论。",
+              "match": "强调通过自主探索、归纳推理和问题解决来重新构建知识形成的过程，'而非被动接受现成结论。",
+              "chars": 42,
+              "edits": 3
+            },
+            {
+              "ref": "以学习者的认知结构和经验为基础，通过亲身实践、情境参与和反思验证等方式，来建构知识、技能与综合能力的学习方法。",
+              "match": "以学习者的认知结构和经验为基础，通过亲身实践、情境参与和反思验证等方式，来建构知识、技能与综合能力的学习方法。",
+              "chars": 55,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.6280936000196982,
+          "route": "windows"
+        },
+        "cn02": {
+          "text": [
+            {
+              "ref": "体验学习的核心作用在于：将感性体验转化为理性认知，再通过实践验证实现将认知与行动整合。",
+              "match": "体验学习的核心作用在于：将感性体验转化为理性认知，再通过实践验证实现将认知与行动整合。",
+              "chars": 43,
+              "edits": 0
+            },
+            {
+              "ref": "教师组织学生分组搜集资料",
+              "match": "教师组织学生分组搜集资料",
+              "chars": 12,
+              "edits": 0
+            },
+            {
+              "ref": "学生在非遗手工作坊，参与彩釉烧制、印模造型等体验活动。",
+              "match": "学生在非遗手工作坊，参与彩釉烧制、印模造型等体验活动。",
+              "chars": 27,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.5756739999617982,
+          "route": "windows"
+        },
+        "cn03": {
+          "text": [
+            {
+              "ref": "“发现学习”更适合具有探索精神、有高自主性学习需求的学习者。",
+              "match": ".发现学习”更适合具有探索精神、有高自主性学习需求的学习者。",
+              "chars": 30,
+              "edits": 1
+            },
+            {
+              "ref": "体验学习过程并非严格线性，而是可以从任一环节启动。",
+              "match": "体验学习过程并非严格线性，而是可从任一环节启动。",
+              "chars": 25,
+              "edits": 1
+            },
+            {
+              "ref": "夫人之有生也，则有是心，有心则有仁义礼智之性。",
+              "match": "失人之有生也，则有是心，有心则有仁义礼智之性。",
+              "chars": 23,
+              "edits": 1
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.5376157000307035,
+          "route": "windows"
+        },
+        "cn11": {
+          "text": [
+            {
+              "ref": "语文答案要点及评分标准",
+              "match": "语文答案要点及评分标准",
+              "chars": 11,
+              "edits": 0
+            },
+            {
+              "ref": "不需要被动接受现成的结论，可以自主选择小视频的主题和视角",
+              "match": "不需要被动接受现成的结论，可以自主选择小视频的主题和视角",
+              "chars": 28,
+              "edits": 0
+            },
+            {
+              "ref": "自省修为：通过不断比较、自我反省、思考来验证。",
+              "match": "自省修为：通过不断比较、自我反省、思考来验证。",
+              "chars": 23,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [
+            {
+              "ref": "1.（3分）C",
+              "match": "1.(3分)C",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "2.（3分）D",
+              "match": "2.(3分)D",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "3.（3分）A",
+              "match": "3.(3分)A",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "4.（3分）B",
+              "match": "4.(3分)B",
+              "chars": 7,
+              "edits": 0
+            }
+          ],
+          "median_s": 0.008684000000357628,
+          "route": "pymupdf"
+        },
+        "ma01": {
+          "text": [
+            {
+              "ref": "本试卷共4页，共150分。考试时长120分钟。",
+              "match": "本试卷共4页、共1分·考试时长1分钟",
+              "chars": 23,
+              "edits": 7
+            },
+            {
+              "ref": "在区间(1,+∞)上单调递增的是",
+              "match": "在区间上单调递增的是",
+              "chars": 16,
+              "edits": 6
+            },
+            {
+              "ref": "奶茶温度衰减满足函数关系",
+              "match": "列茶度衰足关系",
+              "chars": 12,
+              "edits": 6
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "A={x|−1≤x<2}",
+              "match": "集合{圳一1生<2}",
+              "chars": 12,
+              "edits": 7
+            },
+            {
+              "ref": "a₁+a₂=−16",
+              "match": "一101-1",
+              "chars": 9,
+              "edits": 6
+            },
+            {
+              "ref": "|a+λb|=|a|+λ|b|",
+              "match": "中、+。一+",
+              "chars": 15,
+              "edits": 13
+            }
+          ],
+          "answers": [],
+          "median_s": 0.5576892999885388,
+          "route": "windows"
+        },
+        "ma02": {
+          "text": [
+            {
+              "ref": "则满足条件的平面α的个数为",
+              "match": "则满足条件的平而在的个数为",
+              "chars": 13,
+              "edits": 2
+            },
+            {
+              "ref": "则在复平面内z对应点的坐标为",
+              "match": "則在复年面内对点的坐标为",
+              "chars": 14,
+              "edits": 4
+            },
+            {
+              "ref": "则|AB|的最小值为",
+              "match": "则〔，40的最小值为",
+              "chars": 10,
+              "edits": 4
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "ax+by+c=0",
+              "match": "0与圆十俨+一还0",
+              "chars": 9,
+              "edits": 7
+            },
+            {
+              "ref": "x²=12y",
+              "match": "数了囫一2",
+              "chars": 6,
+              "edits": 5
+            }
+          ],
+          "answers": [],
+          "median_s": 0.4952987999900706,
+          "route": "windows"
+        },
+        "ma03": {
+          "text": [
+            {
+              "ref": "若a=6，求△ABC的面积最大值。",
+              "match": "若。6，求BC的面大值",
+              "chars": 17,
+              "edits": 7
+            },
+            {
+              "ref": "如果选择多个符合要求的条件分别解答，按第一个解答计分。",
+              "match": "ZBCaC;符含耍求的条件分别解答，按第亠个齷筌计分",
+              "chars": 27,
+              "edits": 12
+            },
+            {
+              "ref": "假设该地区2025届大学毕业生选择的毕业去向相互独立。",
+              "match": "假设该地区鑷届大学毕业生选怿的毕业去向相互独立",
+              "chars": 27,
+              "edits": 6
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "AB=3",
+              "match": "AB",
+              "chars": 4,
+              "edits": 2
+            },
+            {
+              "ref": "BC=5",
+              "match": "BC",
+              "chars": 4,
+              "edits": 2
+            }
+          ],
+          "answers": [],
+          "median_s": 0.559291100032197,
+          "route": "windows"
+        },
+        "ph01": {
+          "text": [
+            {
+              "ref": "试卷答案请一律填涂或书写在答题卡上，在试卷上作答无效。",
+              "match": "试卷答案请一律填涂或书写在答题卡上，在试卷上作答无效。",
+              "chars": 27,
+              "edits": 0
+            },
+            {
+              "ref": "从物理学的角度来看，彩虹是由太阳光进入水滴，先折射一次，然后在水滴的背面反射",
+              "match": "从物理学的角度来看，彩虹是由太阳光进入水滴，先折射一次，然后在水滴的背面反射",
+              "chars": 38,
+              "edits": 0
+            },
+            {
+              "ref": "若遇到相同的障碍物，M光比N光的衍射现象更明显",
+              "match": "若遇到相同的障碍物，M光比N光的衍射现象更明显",
+              "chars": 23,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.005423700000392273,
+          "route": "pymupdf"
+        },
+        "ph05": {
+          "text": [
+            {
+              "ref": "碰后瞬间管道对结合体的作用力方向沿圆环半径向内",
+              "match": "碰后瞬间管道对结合体的作用力方向沿圆环半径向内",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "利用手机中的磁传感器可测量埋在地下的水平高压直流长直电缆的深度。",
+              "match": "利用手机中的磁传感器可测量埋在地下的水平高压直流长直电缆的深度。",
+              "chars": 32,
+              "edits": 0
+            },
+            {
+              "ref": "EF、GH长均为1.8m且垂直平分。",
+              "match": "EF、GH长均为1.8m且垂直平分。",
+              "chars": 18,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "S₁=S₂",
+              "match": "S1=S2",
+              "chars": 5,
+              "edits": 0
+            }
+          ],
+          "answers": [],
+          "median_s": 0.005783300002804026,
+          "route": "pymupdf"
+        },
+        "ph06": {
+          "text": [
+            {
+              "ref": "在水平面上有一质谱仪，由直线加速器和磁场偏转器组成",
+              "match": "在水平面上有一质谱仪，由直线加速器和磁场偏转器组成",
+              "chars": 25,
+              "edits": 0
+            },
+            {
+              "ref": "不计粒子重力及粒子间的相互作用",
+              "match": "不计粒子重力及粒子间的相互作用",
+              "chars": 15,
+              "edits": 0
+            },
+            {
+              "ref": "系统静止在光滑水平面上（B靠墙面）",
+              "match": "系统静止在光滑水平面上（B靠墙面）",
+              "chars": 17,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "U₀−ΔU",
+              "match": "()-AU",
+              "chars": 5,
+              "edits": 3
+            },
+            {
+              "ref": "S₁−S₂>S₃",
+              "match": "SI一S2>S3",
+              "chars": 8,
+              "edits": 2
+            }
+          ],
+          "answers": [],
+          "median_s": 0.28079229997293986,
+          "route": "windows"
+        },
+        "ph12": {
+          "text": [
+            {
+              "ref": "参考答案",
+              "match": "参考答案",
+              "chars": 4,
+              "edits": 0
+            },
+            {
+              "ref": "两球不一定是弹性的，可以是非弹性的，故B错误；",
+              "match": "两球不一定是弹性的，可以是非弹性的，故B错误；",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "斜槽可以不光滑，只要同一实验从斜槽上同一位置由静止释放即可",
+              "match": "斜槽可以不光滑，只要同一实验从斜槽上同一位置由静止释放即可",
+              "chars": 29,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "m₁v₀=m₁v₁+m₂v₂",
+              "match": "达式叫左:mlLI+m2",
+              "chars": 14,
+              "edits": 10
+            }
+          ],
+          "answers": [
+            {
+              "ref": "【答案】（1）CD",
+              "match": "〖答案〗(1)CD",
+              "chars": 9,
+              "edits": 2
+            }
+          ],
+          "median_s": 0.25069219998597503,
+          "route": "windows"
+        },
+        "ch07": {
+          "text": [
+            {
+              "ref": "制备方法的发展体现了化学科学与技术的不断进步。",
+              "match": "制备方法的发展体现了化学科学与技术的不断进步。",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "20世纪初，我国化学工业科学家侯德榜创造性地提出了侯氏制碱法，流程如下。",
+              "match": "20世纪初，我国化学工业科学家侯德榜创造性地提出了侯氏制碱法，流程如下。",
+              "chars": 36,
+              "edits": 0
+            },
+            {
+              "ref": "结合数据分析优先析出NaHCO₃的原因",
+              "match": "结合数据分析优先析出的原因",
+              "chars": 19,
+              "edits": 6
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "Na₂SO₄、C、CaCO₃",
+              "match": "NazCONaHC03",
+              "chars": 14,
+              "edits": 9
+            },
+            {
+              "ref": "CaS和CO",
+              "match": "cas和CO",
+              "chars": 6,
+              "edits": 2
+            }
+          ],
+          "answers": [],
+          "median_s": 0.4869401999899413,
+          "route": "windows"
+        }
+      }
+    },
+    "paddle": {
+      "median_12_page_processing_s": 51.259700899914606,
+      "page_median_s": 4.023383600011584,
+      "page_p90_s": 5.540237900044303,
+      "round_processing_s": [
+        51.715911899955245,
+        51.1402373999299,
+        51.259700899914606
+      ],
+      "median_measured_batch_wall_s": 48.872948199976236,
+      "round_batch_wall_s": [
+        49.329603200021666,
+        48.762653600017074,
+        48.872948199976236
+      ],
+      "modeled_from_measured_stages": false,
+      "groups": {
+        "text": {
+          "snippets": 36,
+          "exact": 25,
+          "chars": 844,
+          "edits": 16
+        },
+        "scan": {
+          "snippets": 21,
+          "exact": 11,
+          "chars": 508,
+          "edits": 15
+        },
+        "formulas": {
+          "snippets": 13,
+          "exact": 6,
+          "chars": 111,
+          "edits": 18
+        },
+        "answers": {
+          "snippets": 5,
+          "exact": 4,
+          "chars": 37,
+          "edits": 1
+        },
+        "text_layer": {
+          "snippets": 15,
+          "exact": 14,
+          "chars": 336,
+          "edits": 1
+        }
+      },
+      "pages": {
+        "cn01": {
+          "text": [
+            {
+              "ref": "阅读下面材料，完成1—5题。",
+              "match": "阅读下面材料，完成1—5题。",
+              "chars": 14,
+              "edits": 0
+            },
+            {
+              "ref": "强调通过自主探索、归纳推理和问题解决来重新建构知识形成的过程，而非被动接受现成结论。",
+              "match": "强调通过自主探索、归纳推理和问题解决来重新构建知识形成的过程，而非被动接受现成结论。",
+              "chars": 42,
+              "edits": 2
+            },
+            {
+              "ref": "以学习者的认知结构和经验为基础，通过亲身实践、情境参与和反思验证等方式，来建构知识、技能与综合能力的学习方法。",
+              "match": "以学习者的认知结构和经验为基础，通过亲身实践、情境参与和反思验证等方式，来建构知识、技能与综合能力的学习方法。",
+              "chars": 55,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 5.301161300012609
+        },
+        "cn02": {
+          "text": [
+            {
+              "ref": "体验学习的核心作用在于：将感性体验转化为理性认知，再通过实践验证实现将认知与行动整合。",
+              "match": "体验学习的核心作用在于：将感性体验转化为理性认知，再通过实践验证实现将认知与w行动整合。",
+              "chars": 43,
+              "edits": 1
+            },
+            {
+              "ref": "教师组织学生分组搜集资料",
+              "match": "教师组织学生分组搜集资料",
+              "chars": 12,
+              "edits": 0
+            },
+            {
+              "ref": "学生在非遗手工作坊，参与彩釉烧制、印模造型等体验活动。",
+              "match": "学生在非遗手工作坊，参与彩釉烧制、印模造型等体验活动。",
+              "chars": 27,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 5.901925899961498
+        },
+        "cn03": {
+          "text": [
+            {
+              "ref": "“发现学习”更适合具有探索精神、有高自主性学习需求的学习者。",
+              "match": "“发现学习”更适合具有探索精神、有高自主性学习需求的学习者。",
+              "chars": 30,
+              "edits": 0
+            },
+            {
+              "ref": "体验学习过程并非严格线性，而是可以从任一环节启动。",
+              "match": "体验学习过程并非严格线性，而是可从任一环节启动。",
+              "chars": 25,
+              "edits": 1
+            },
+            {
+              "ref": "夫人之有生也，则有是心，有心则有仁义礼智之性。",
+              "match": "夫人之有生也，则有是心，有心则有仁义礼智之性。",
+              "chars": 23,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 5.067236500006402
+        },
+        "cn11": {
+          "text": [
+            {
+              "ref": "语文答案要点及评分标准",
+              "match": "语文答案要点及评分标准",
+              "chars": 11,
+              "edits": 0
+            },
+            {
+              "ref": "不需要被动接受现成的结论，可以自主选择小视频的主题和视角",
+              "match": "不需要被动接受现成的结论，可以自主选择小视频的主题和视角",
+              "chars": 28,
+              "edits": 0
+            },
+            {
+              "ref": "自省修为：通过不断比较、自我反省、思考来验证。",
+              "match": "自省修为：通过不断比较、自我反省、思考来验证。",
+              "chars": 23,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [
+            {
+              "ref": "1.（3分）C",
+              "match": "1.(3分)C",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "2.（3分）D",
+              "match": "2.(3分)D",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "3.（3分）A",
+              "match": "3.(3分)A",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "4.（3分）B",
+              "match": "6.(3分)B",
+              "chars": 7,
+              "edits": 1
+            }
+          ],
+          "median_s": 5.019634999975096
+        },
+        "ma01": {
+          "text": [
+            {
+              "ref": "本试卷共4页，共150分。考试时长120分钟。",
+              "match": "本试卷共4页，共150分。考试时长120分钟。",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "在区间(1,+∞)上单调递增的是",
+              "match": "在区间（1+∞0）上单调递增的是",
+              "chars": 16,
+              "edits": 4
+            },
+            {
+              "ref": "奶茶温度衰减满足函数关系",
+              "match": "奶茶温度衰减满足函数关系",
+              "chars": 12,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "A={x|−1≤x<2}",
+              "match": ".已知集合-1≤x<2}",
+              "chars": 12,
+              "edits": 5
+            },
+            {
+              "ref": "a₁+a₂=−16",
+              "match": "11+a2=-16",
+              "chars": 9,
+              "edits": 1
+            },
+            {
+              "ref": "|a+λb|=|a|+λ|b|",
+              "match": "|a+λb|=|a|+λ|b",
+              "chars": 15,
+              "edits": 1
+            }
+          ],
+          "answers": [],
+          "median_s": 4.156801299977815
+        },
+        "ma02": {
+          "text": [
+            {
+              "ref": "则满足条件的平面α的个数为",
+              "match": "则满足条件的平面α的个数为",
+              "chars": 13,
+              "edits": 0
+            },
+            {
+              "ref": "则在复平面内z对应点的坐标为",
+              "match": "则在复平面内z对应点的坐标为",
+              "chars": 14,
+              "edits": 0
+            },
+            {
+              "ref": "则|AB|的最小值为",
+              "match": "则|AB的最小值为",
+              "chars": 10,
+              "edits": 1
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "ax+by+c=0",
+              "match": "ax+by+c=0",
+              "chars": 9,
+              "edits": 0
+            },
+            {
+              "ref": "x²=12y",
+              "match": "x2=12y",
+              "chars": 6,
+              "edits": 0
+            }
+          ],
+          "answers": [],
+          "median_s": 3.719849699991755
+        },
+        "ma03": {
+          "text": [
+            {
+              "ref": "若a=6，求△ABC的面积最大值。",
+              "match": "若a=6，求△ABC的面积最大值",
+              "chars": 17,
+              "edits": 1
+            },
+            {
+              "ref": "如果选择多个符合要求的条件分别解答，按第一个解答计分。",
+              "match": "如果选择多个符合要求的条件分别解答，按第一个解答计分",
+              "chars": 27,
+              "edits": 1
+            },
+            {
+              "ref": "假设该地区2025届大学毕业生选择的毕业去向相互独立。",
+              "match": "假设该地区2025届大学毕业生选择的毕业去向相互独立",
+              "chars": 27,
+              "edits": 1
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "AB=3",
+              "match": "AB=3",
+              "chars": 4,
+              "edits": 0
+            },
+            {
+              "ref": "BC=5",
+              "match": "BC=5",
+              "chars": 4,
+              "edits": 0
+            }
+          ],
+          "answers": [],
+          "median_s": 4.030776500003412
+        },
+        "ph01": {
+          "text": [
+            {
+              "ref": "试卷答案请一律填涂或书写在答题卡上，在试卷上作答无效。",
+              "match": "试卷答案请一律填涂或书写在答题卡上，在试卷上作答无效。",
+              "chars": 27,
+              "edits": 0
+            },
+            {
+              "ref": "从物理学的角度来看，彩虹是由太阳光进入水滴，先折射一次，然后在水滴的背面反射",
+              "match": "从物理学的角度来看，彩虹是由太阳光进入水滴，先折射一次，然后在水滴的背面反射",
+              "chars": 38,
+              "edits": 0
+            },
+            {
+              "ref": "若遇到相同的障碍物，M光比N光的衍射现象更明显",
+              "match": "若遇到相同的障碍物，M光比N光的衍射现象更明显",
+              "chars": 23,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 3.7167724999890197
+        },
+        "ph05": {
+          "text": [
+            {
+              "ref": "碰后瞬间管道对结合体的作用力方向沿圆环半径向内",
+              "match": "碰后瞬间管道对结合体的作用力方向沿圆环半径向内",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "利用手机中的磁传感器可测量埋在地下的水平高压直流长直电缆的深度。",
+              "match": "利用手机中的磁传感器可测量埋在地下的水平高压直流长直电缆的深度。",
+              "chars": 32,
+              "edits": 0
+            },
+            {
+              "ref": "EF、GH长均为1.8m且垂直平分。",
+              "match": "EF、GH长均为1.8m且垂直平分。",
+              "chars": 18,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "S₁=S₂",
+              "match": "{1=S",
+              "chars": 5,
+              "edits": 2
+            }
+          ],
+          "answers": [],
+          "median_s": 3.228938099986408
+        },
+        "ph06": {
+          "text": [
+            {
+              "ref": "在水平面上有一质谱仪，由直线加速器和磁场偏转器组成",
+              "match": "在水平面上有一质谱仪，由直线加速器和磁场偏转器组成",
+              "chars": 25,
+              "edits": 0
+            },
+            {
+              "ref": "不计粒子重力及粒子间的相互作用",
+              "match": "不计粒子重力及粒子间的相互作用",
+              "chars": 15,
+              "edits": 0
+            },
+            {
+              "ref": "系统静止在光滑水平面上（B靠墙面）",
+              "match": "系统静止在光滑水平面上（B靠墙面",
+              "chars": 17,
+              "edits": 1
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "U₀−ΔU",
+              "match": "U0-△U",
+              "chars": 5,
+              "edits": 1
+            },
+            {
+              "ref": "S₁−S₂>S₃",
+              "match": "S1-S2>S3",
+              "chars": 8,
+              "edits": 0
+            }
+          ],
+          "answers": [],
+          "median_s": 4.010434899973916
+        },
+        "ph12": {
+          "text": [
+            {
+              "ref": "参考答案",
+              "match": "参考答案",
+              "chars": 4,
+              "edits": 0
+            },
+            {
+              "ref": "两球不一定是弹性的，可以是非弹性的，故B错误；",
+              "match": "两球不一定是弹性的，可以是非弹性的，故B错误；",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "斜槽可以不光滑，只要同一实验从斜槽上同一位置由静止释放即可",
+              "match": "斜槽可以不光滑，只要同一实验从斜槽上同一位置由静止释放即可",
+              "chars": 29,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "m₁v₀=m₁v₁+m₂v₂",
+              "match": "是10=m1V1+m2V2",
+              "chars": 14,
+              "edits": 4
+            }
+          ],
+          "answers": [
+            {
+              "ref": "【答案】（1）CD",
+              "match": "【答案】(1)CD",
+              "chars": 9,
+              "edits": 0
+            }
+          ],
+          "median_s": 3.8968745000020135
+        },
+        "ch07": {
+          "text": [
+            {
+              "ref": "制备方法的发展体现了化学科学与技术的不断进步。",
+              "match": "制备方法的发展体现了化学科学与技术的不断进步。",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "20世纪初，我国化学工业科学家侯德榜创造性地提出了侯氏制碱法，流程如下。",
+              "match": "20世纪初，我国化学工业科学家侯德榜创造性地提出了侯氏制碱法,流程如下。",
+              "chars": 36,
+              "edits": 1
+            },
+            {
+              "ref": "结合数据分析优先析出NaHCO₃的原因",
+              "match": "结合数据分析优先析出NaHCO{3的原因",
+              "chars": 19,
+              "edits": 2
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "Na₂SO₄、C、CaCO₃",
+              "match": "Na{2}SO{、C、CaCO",
+              "chars": 14,
+              "edits": 4
+            },
+            {
+              "ref": "CaS和CO",
+              "match": "CaS和CO",
+              "chars": 6,
+              "edits": 0
+            }
+          ],
+          "answers": [],
+          "median_s": 3.1642912999959663
+        }
+      }
+    },
+    "hybrid_paddle": {
+      "median_12_page_processing_s": 39.24699499993585,
+      "page_median_s": 3.958026799984509,
+      "page_p90_s": 5.542394800053444,
+      "round_processing_s": [
+        39.80827899998985,
+        39.24699499993585,
+        39.20620169999893
+      ],
+      "median_measured_batch_wall_s": null,
+      "round_batch_wall_s": [],
+      "modeled_from_measured_stages": true,
+      "groups": {
+        "text": {
+          "snippets": 36,
+          "exact": 25,
+          "chars": 844,
+          "edits": 16
+        },
+        "scan": {
+          "snippets": 21,
+          "exact": 11,
+          "chars": 508,
+          "edits": 15
+        },
+        "formulas": {
+          "snippets": 13,
+          "exact": 7,
+          "chars": 111,
+          "edits": 16
+        },
+        "answers": {
+          "snippets": 5,
+          "exact": 5,
+          "chars": 37,
+          "edits": 0
+        },
+        "text_layer": {
+          "snippets": 15,
+          "exact": 14,
+          "chars": 336,
+          "edits": 1
+        }
+      },
+      "pages": {
+        "cn01": {
+          "text": [
+            {
+              "ref": "阅读下面材料，完成1—5题。",
+              "match": "阅读下面材料，完成1—5题。",
+              "chars": 14,
+              "edits": 0
+            },
+            {
+              "ref": "强调通过自主探索、归纳推理和问题解决来重新建构知识形成的过程，而非被动接受现成结论。",
+              "match": "强调通过自主探索、归纳推理和问题解决来重新构建知识形成的过程，而非被动接受现成结论。",
+              "chars": 42,
+              "edits": 2
+            },
+            {
+              "ref": "以学习者的认知结构和经验为基础，通过亲身实践、情境参与和反思验证等方式，来建构知识、技能与综合能力的学习方法。",
+              "match": "以学习者的认知结构和经验为基础，通过亲身实践、情境参与和反思验证等方式，来建构知识、技能与综合能力的学习方法。",
+              "chars": 55,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 5.302888900012476,
+          "route": "paddle"
+        },
+        "cn02": {
+          "text": [
+            {
+              "ref": "体验学习的核心作用在于：将感性体验转化为理性认知，再通过实践验证实现将认知与行动整合。",
+              "match": "体验学习的核心作用在于：将感性体验转化为理性认知，再通过实践验证实现将认知与w行动整合。",
+              "chars": 43,
+              "edits": 1
+            },
+            {
+              "ref": "教师组织学生分组搜集资料",
+              "match": "教师组织学生分组搜集资料",
+              "chars": 12,
+              "edits": 0
+            },
+            {
+              "ref": "学生在非遗手工作坊，参与彩釉烧制、印模造型等体验活动。",
+              "match": "学生在非遗手工作坊，参与彩釉烧制、印模造型等体验活动。",
+              "chars": 27,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 5.903327999956673,
+          "route": "paddle"
+        },
+        "cn03": {
+          "text": [
+            {
+              "ref": "“发现学习”更适合具有探索精神、有高自主性学习需求的学习者。",
+              "match": "“发现学习”更适合具有探索精神、有高自主性学习需求的学习者。",
+              "chars": 30,
+              "edits": 0
+            },
+            {
+              "ref": "体验学习过程并非严格线性，而是可以从任一环节启动。",
+              "match": "体验学习过程并非严格线性，而是可从任一环节启动。",
+              "chars": 25,
+              "edits": 1
+            },
+            {
+              "ref": "夫人之有生也，则有是心，有心则有仁义礼智之性。",
+              "match": "夫人之有生也，则有是心，有心则有仁义礼智之性。",
+              "chars": 23,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 5.06887060002191,
+          "route": "paddle"
+        },
+        "cn11": {
+          "text": [
+            {
+              "ref": "语文答案要点及评分标准",
+              "match": "语文答案要点及评分标准",
+              "chars": 11,
+              "edits": 0
+            },
+            {
+              "ref": "不需要被动接受现成的结论，可以自主选择小视频的主题和视角",
+              "match": "不需要被动接受现成的结论，可以自主选择小视频的主题和视角",
+              "chars": 28,
+              "edits": 0
+            },
+            {
+              "ref": "自省修为：通过不断比较、自我反省、思考来验证。",
+              "match": "自省修为：通过不断比较、自我反省、思考来验证。",
+              "chars": 23,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [
+            {
+              "ref": "1.（3分）C",
+              "match": "1.(3分)C",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "2.（3分）D",
+              "match": "2.(3分)D",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "3.（3分）A",
+              "match": "3.(3分)A",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "4.（3分）B",
+              "match": "4.(3分)B",
+              "chars": 7,
+              "edits": 0
+            }
+          ],
+          "median_s": 0.008684000000357628,
+          "route": "pymupdf"
+        },
+        "ma01": {
+          "text": [
+            {
+              "ref": "本试卷共4页，共150分。考试时长120分钟。",
+              "match": "本试卷共4页，共150分。考试时长120分钟。",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "在区间(1,+∞)上单调递增的是",
+              "match": "在区间（1+∞0）上单调递增的是",
+              "chars": 16,
+              "edits": 4
+            },
+            {
+              "ref": "奶茶温度衰减满足函数关系",
+              "match": "奶茶温度衰减满足函数关系",
+              "chars": 12,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "A={x|−1≤x<2}",
+              "match": ".已知集合-1≤x<2}",
+              "chars": 12,
+              "edits": 5
+            },
+            {
+              "ref": "a₁+a₂=−16",
+              "match": "11+a2=-16",
+              "chars": 9,
+              "edits": 1
+            },
+            {
+              "ref": "|a+λb|=|a|+λ|b|",
+              "match": "|a+λb|=|a|+λ|b",
+              "chars": 15,
+              "edits": 1
+            }
+          ],
+          "answers": [],
+          "median_s": 4.157855699973879,
+          "route": "paddle"
+        },
+        "ma02": {
+          "text": [
+            {
+              "ref": "则满足条件的平面α的个数为",
+              "match": "则满足条件的平面α的个数为",
+              "chars": 13,
+              "edits": 0
+            },
+            {
+              "ref": "则在复平面内z对应点的坐标为",
+              "match": "则在复平面内z对应点的坐标为",
+              "chars": 14,
+              "edits": 0
+            },
+            {
+              "ref": "则|AB|的最小值为",
+              "match": "则|AB的最小值为",
+              "chars": 10,
+              "edits": 1
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "ax+by+c=0",
+              "match": "ax+by+c=0",
+              "chars": 9,
+              "edits": 0
+            },
+            {
+              "ref": "x²=12y",
+              "match": "x2=12y",
+              "chars": 6,
+              "edits": 0
+            }
+          ],
+          "answers": [],
+          "median_s": 3.720625999965705,
+          "route": "paddle"
+        },
+        "ma03": {
+          "text": [
+            {
+              "ref": "若a=6，求△ABC的面积最大值。",
+              "match": "若a=6，求△ABC的面积最大值",
+              "chars": 17,
+              "edits": 1
+            },
+            {
+              "ref": "如果选择多个符合要求的条件分别解答，按第一个解答计分。",
+              "match": "如果选择多个符合要求的条件分别解答，按第一个解答计分",
+              "chars": 27,
+              "edits": 1
+            },
+            {
+              "ref": "假设该地区2025届大学毕业生选择的毕业去向相互独立。",
+              "match": "假设该地区2025届大学毕业生选择的毕业去向相互独立",
+              "chars": 27,
+              "edits": 1
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "AB=3",
+              "match": "AB=3",
+              "chars": 4,
+              "edits": 0
+            },
+            {
+              "ref": "BC=5",
+              "match": "BC=5",
+              "chars": 4,
+              "edits": 0
+            }
+          ],
+          "answers": [],
+          "median_s": 4.031631400022889,
+          "route": "paddle"
+        },
+        "ph01": {
+          "text": [
+            {
+              "ref": "试卷答案请一律填涂或书写在答题卡上，在试卷上作答无效。",
+              "match": "试卷答案请一律填涂或书写在答题卡上，在试卷上作答无效。",
+              "chars": 27,
+              "edits": 0
+            },
+            {
+              "ref": "从物理学的角度来看，彩虹是由太阳光进入水滴，先折射一次，然后在水滴的背面反射",
+              "match": "从物理学的角度来看，彩虹是由太阳光进入水滴，先折射一次，然后在水滴的背面反射",
+              "chars": 38,
+              "edits": 0
+            },
+            {
+              "ref": "若遇到相同的障碍物，M光比N光的衍射现象更明显",
+              "match": "若遇到相同的障碍物，M光比N光的衍射现象更明显",
+              "chars": 23,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 0.005423700000392273,
+          "route": "pymupdf"
+        },
+        "ph05": {
+          "text": [
+            {
+              "ref": "碰后瞬间管道对结合体的作用力方向沿圆环半径向内",
+              "match": "碰后瞬间管道对结合体的作用力方向沿圆环半径向内",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "利用手机中的磁传感器可测量埋在地下的水平高压直流长直电缆的深度。",
+              "match": "利用手机中的磁传感器可测量埋在地下的水平高压直流长直电缆的深度。",
+              "chars": 32,
+              "edits": 0
+            },
+            {
+              "ref": "EF、GH长均为1.8m且垂直平分。",
+              "match": "EF、GH长均为1.8m且垂直平分。",
+              "chars": 18,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "S₁=S₂",
+              "match": "S1=S2",
+              "chars": 5,
+              "edits": 0
+            }
+          ],
+          "answers": [],
+          "median_s": 0.005783300002804026,
+          "route": "pymupdf"
+        },
+        "ph06": {
+          "text": [
+            {
+              "ref": "在水平面上有一质谱仪，由直线加速器和磁场偏转器组成",
+              "match": "在水平面上有一质谱仪，由直线加速器和磁场偏转器组成",
+              "chars": 25,
+              "edits": 0
+            },
+            {
+              "ref": "不计粒子重力及粒子间的相互作用",
+              "match": "不计粒子重力及粒子间的相互作用",
+              "chars": 15,
+              "edits": 0
+            },
+            {
+              "ref": "系统静止在光滑水平面上（B靠墙面）",
+              "match": "系统静止在光滑水平面上（B靠墙面",
+              "chars": 17,
+              "edits": 1
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "U₀−ΔU",
+              "match": "U0-△U",
+              "chars": 5,
+              "edits": 1
+            },
+            {
+              "ref": "S₁−S₂>S₃",
+              "match": "S1-S2>S3",
+              "chars": 8,
+              "edits": 0
+            }
+          ],
+          "answers": [],
+          "median_s": 4.016332499973942,
+          "route": "paddle"
+        },
+        "ph12": {
+          "text": [
+            {
+              "ref": "参考答案",
+              "match": "参考答案",
+              "chars": 4,
+              "edits": 0
+            },
+            {
+              "ref": "两球不一定是弹性的，可以是非弹性的，故B错误；",
+              "match": "两球不一定是弹性的，可以是非弹性的，故B错误；",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "斜槽可以不光滑，只要同一实验从斜槽上同一位置由静止释放即可",
+              "match": "斜槽可以不光滑，只要同一实验从斜槽上同一位置由静止释放即可",
+              "chars": 29,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "m₁v₀=m₁v₁+m₂v₂",
+              "match": "是10=m1V1+m2V2",
+              "chars": 14,
+              "edits": 4
+            }
+          ],
+          "answers": [
+            {
+              "ref": "【答案】（1）CD",
+              "match": "【答案】(1)CD",
+              "chars": 9,
+              "edits": 0
+            }
+          ],
+          "median_s": 3.911578400002327,
+          "route": "paddle"
+        },
+        "ch07": {
+          "text": [
+            {
+              "ref": "制备方法的发展体现了化学科学与技术的不断进步。",
+              "match": "制备方法的发展体现了化学科学与技术的不断进步。",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "20世纪初，我国化学工业科学家侯德榜创造性地提出了侯氏制碱法，流程如下。",
+              "match": "20世纪初，我国化学工业科学家侯德榜创造性地提出了侯氏制碱法,流程如下。",
+              "chars": 36,
+              "edits": 1
+            },
+            {
+              "ref": "结合数据分析优先析出NaHCO₃的原因",
+              "match": "结合数据分析优先析出NaHCO{3的原因",
+              "chars": 19,
+              "edits": 2
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "Na₂SO₄、C、CaCO₃",
+              "match": "Na{2}SO{、C、CaCO",
+              "chars": 14,
+              "edits": 4
+            },
+            {
+              "ref": "CaS和CO",
+              "match": "CaS和CO",
+              "chars": 6,
+              "edits": 0
+            }
+          ],
+          "answers": [],
+          "median_s": 3.166615899972385,
+          "route": "paddle"
+        }
+      }
+    },
+    "xiaomi": {
+      "median_12_page_processing_s": 759.0055960998579,
+      "page_median_s": 64.20255254997755,
+      "page_p90_s": 79.12897779999184,
+      "round_processing_s": [
+        759.0055960998579
+      ],
+      "median_measured_batch_wall_s": 756.6303684999875,
+      "round_batch_wall_s": [
+        756.6303684999875
+      ],
+      "modeled_from_measured_stages": false,
+      "groups": {
+        "text": {
+          "snippets": 36,
+          "exact": 27,
+          "chars": 844,
+          "edits": 47
+        },
+        "scan": {
+          "snippets": 21,
+          "exact": 13,
+          "chars": 508,
+          "edits": 35
+        },
+        "formulas": {
+          "snippets": 13,
+          "exact": 4,
+          "chars": 111,
+          "edits": 50
+        },
+        "answers": {
+          "snippets": 5,
+          "exact": 5,
+          "chars": 37,
+          "edits": 0
+        },
+        "text_layer": {
+          "snippets": 15,
+          "exact": 14,
+          "chars": 336,
+          "edits": 12
+        }
+      },
+      "pages": {
+        "cn01": {
+          "text": [
+            {
+              "ref": "阅读下面材料，完成1—5题。",
+              "match": "阅读下面材料，完成1—5题。",
+              "chars": 14,
+              "edits": 0
+            },
+            {
+              "ref": "强调通过自主探索、归纳推理和问题解决来重新建构知识形成的过程，而非被动接受现成结论。",
+              "match": "强调通过自主探索、归纳推理和问题解决来重新构建知识形成的过程，而非被动接受现成结论。",
+              "chars": 42,
+              "edits": 2
+            },
+            {
+              "ref": "以学习者的认知结构和经验为基础，通过亲身实践、情境参与和反思验证等方式，来建构知识、技能与综合能力的学习方法。",
+              "match": "以学习者的认知结构和经验为基础，通过亲身实践、情境参与和反思验证等方式，来建构知识、技能与综合能力的学习方法。",
+              "chars": 55,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 51.13763920002384,
+          "prompt_tokens": 1034,
+          "generated_tokens": 595,
+          "hit_limit": 0,
+          "processor_s": 0.07483820000197738,
+          "generate_s": 50.72125849997974,
+          "decode_s": 0.0004902000073343515,
+          "prep_s": 0.30382890001055785,
+          "detect_s": 0,
+          "image_decode_s": 0.03715230000670999,
+          "recognition_wall_s": 50.83381030001328,
+          "calls": 1
+        },
+        "cn02": {
+          "text": [
+            {
+              "ref": "体验学习的核心作用在于：将感性体验转化为理性认知，再通过实践验证实现将认知与行动整合。",
+              "match": "体验学习的核心作用在于：将感性体验转化为理性认知，再通过实践验证实现将认知与行动整合。",
+              "chars": 43,
+              "edits": 0
+            },
+            {
+              "ref": "教师组织学生分组搜集资料",
+              "match": "教师组织学生分组搜集资料",
+              "chars": 12,
+              "edits": 0
+            },
+            {
+              "ref": "学生在非遗手工作坊，参与彩釉烧制、印模造型等体验活动。",
+              "match": "学生在非遗手工作坊，参与彩釉烧制、印模造型等体验活动。",
+              "chars": 27,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 62.42322649995913,
+          "prompt_tokens": 1034,
+          "generated_tokens": 751,
+          "hit_limit": 0,
+          "processor_s": 0.021239399997284636,
+          "generate_s": 62.09494340000674,
+          "decode_s": 0.0004078999918419868,
+          "prep_s": 0.2752065999666229,
+          "detect_s": 0,
+          "image_decode_s": 0.03138079997734167,
+          "recognition_wall_s": 62.148019899992505,
+          "calls": 1
+        },
+        "cn03": {
+          "text": [
+            {
+              "ref": "“发现学习”更适合具有探索精神、有高自主性学习需求的学习者。",
+              "match": "“发现学习”更适合具有探索精神、有高自主性学习需求的学习者。",
+              "chars": 30,
+              "edits": 0
+            },
+            {
+              "ref": "体验学习过程并非严格线性，而是可以从任一环节启动。",
+              "match": "体验学习过程并非严格线性，而是可从任一环节启动。",
+              "chars": 25,
+              "edits": 1
+            },
+            {
+              "ref": "夫人之有生也，则有是心，有心则有仁义礼智之性。",
+              "match": "夫人之有生也，则有是心，有心则有仁义礼智之性。",
+              "chars": 23,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 65.98187859999598,
+          "prompt_tokens": 1034,
+          "generated_tokens": 798,
+          "hit_limit": 0,
+          "processor_s": 0.024151899997377768,
+          "generate_s": 65.65793260000646,
+          "decode_s": 0.0003887999919243157,
+          "prep_s": 0.26676600001519546,
+          "detect_s": 0,
+          "image_decode_s": 0.032575099990935996,
+          "recognition_wall_s": 65.71511259998078,
+          "calls": 1
+        },
+        "cn11": {
+          "text": [
+            {
+              "ref": "语文答案要点及评分标准",
+              "match": "语文答案要点及评分标准",
+              "chars": 11,
+              "edits": 0
+            },
+            {
+              "ref": "不需要被动接受现成的结论，可以自主选择小视频的主题和视角",
+              "match": "不需要被动接受现成的结论，可以自主选择小视频的主题和视角",
+              "chars": 28,
+              "edits": 0
+            },
+            {
+              "ref": "自省修为：通过不断比较、自我反省、思考来验证。",
+              "match": "自省修为：通过不断比较、自我反省、思考来验证。",
+              "chars": 23,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [
+            {
+              "ref": "1.（3分）C",
+              "match": "1.(3分)C",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "2.（3分）D",
+              "match": "2.(3分)D",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "3.（3分）A",
+              "match": "3.(3分)A",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "4.（3分）B",
+              "match": "4.(3分)B",
+              "chars": 7,
+              "edits": 0
+            }
+          ],
+          "median_s": 55.14334439995582,
+          "prompt_tokens": 1034,
+          "generated_tokens": 658,
+          "hit_limit": 0,
+          "processor_s": 0.022483599983388558,
+          "generate_s": 54.90210840001237,
+          "decode_s": 0.0003457999846432358,
+          "prep_s": 0.19572989997686818,
+          "detect_s": 0,
+          "image_decode_s": 0.022617299982812256,
+          "recognition_wall_s": 54.947614499978954,
+          "calls": 1
+        },
+        "ma01": {
+          "text": [
+            {
+              "ref": "本试卷共4页，共150分。考试时长120分钟。",
+              "match": "本试卷共4页，共150分。考试时长120分钟。",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "在区间(1,+∞)上单调递增的是",
+              "match": "\\infty)\\)上单调递增的是",
+              "chars": 16,
+              "edits": 8
+            },
+            {
+              "ref": "奶茶温度衰减满足函数关系",
+              "match": "奶茶温度衰减满足函数关系",
+              "chars": 12,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "A={x|−1≤x<2}",
+              "match": "y=|x-2",
+              "chars": 12,
+              "edits": 8
+            },
+            {
+              "ref": "a₁+a₂=−16",
+              "match": "a_{2}=-16",
+              "chars": 9,
+              "edits": 4
+            },
+            {
+              "ref": "|a+λb|=|a|+λ|b|",
+              "match": "dab|=|a|+",
+              "chars": 15,
+              "edits": 7
+            }
+          ],
+          "answers": [],
+          "median_s": 79.68030049998197,
+          "prompt_tokens": 1034,
+          "generated_tokens": 980,
+          "hit_limit": 0,
+          "processor_s": 0.031830199994146824,
+          "generate_s": 79.35482129998854,
+          "decode_s": 0.00041969999438151717,
+          "prep_s": 0.26139669999247417,
+          "detect_s": 0,
+          "image_decode_s": 0.03178079999634065,
+          "recognition_wall_s": 79.4189037999895,
+          "calls": 1
+        },
+        "ma02": {
+          "text": [
+            {
+              "ref": "则满足条件的平面α的个数为",
+              "match": "则满足条件的平面",
+              "chars": 13,
+              "edits": 5
+            },
+            {
+              "ref": "则在复平面内z对应点的坐标为",
+              "match": "则在复平面内\\(z\\)对应点的坐标为",
+              "chars": 14,
+              "edits": 4
+            },
+            {
+              "ref": "则|AB|的最小值为",
+              "match": "(|AB|\\)的最小值为",
+              "chars": 10,
+              "edits": 3
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "ax+by+c=0",
+              "match": "ax+by+c=0",
+              "chars": 9,
+              "edits": 0
+            },
+            {
+              "ref": "x²=12y",
+              "match": "2}=12y",
+              "chars": 6,
+              "edits": 2
+            }
+          ],
+          "answers": [],
+          "median_s": 75.37607539998135,
+          "prompt_tokens": 1034,
+          "generated_tokens": 817,
+          "hit_limit": 0,
+          "processor_s": 0.03418909999891184,
+          "generate_s": 75.05092800001148,
+          "decode_s": 0.0003696999920066446,
+          "prep_s": 0.26021229999605566,
+          "detect_s": 0,
+          "image_decode_s": 0.030313099996419623,
+          "recognition_wall_s": 75.11586309998529,
+          "calls": 1
+        },
+        "ma03": {
+          "text": [
+            {
+              "ref": "若a=6，求△ABC的面积最大值。",
+              "match": "iangleABC\\)的面积最大值。",
+              "chars": 17,
+              "edits": 8
+            },
+            {
+              "ref": "如果选择多个符合要求的条件分别解答，按第一个解答计分。",
+              "match": "如果选择多个符合要求的条件分别解答，按第一个解答计分。",
+              "chars": 27,
+              "edits": 0
+            },
+            {
+              "ref": "假设该地区2025届大学毕业生选择的毕业去向相互独立。",
+              "match": "假设该地区2025届大学毕业生选择的毕业去向相互独立。",
+              "chars": 27,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "AB=3",
+              "match": "AB=3",
+              "chars": 4,
+              "edits": 0
+            },
+            {
+              "ref": "BC=5",
+              "match": "BC=5",
+              "chars": 4,
+              "edits": 0
+            }
+          ],
+          "answers": [],
+          "median_s": 73.42361769999843,
+          "prompt_tokens": 1034,
+          "generated_tokens": 771,
+          "hit_limit": 0,
+          "processor_s": 0.03631509997649118,
+          "generate_s": 73.07223740001791,
+          "decode_s": 0.00038809998659417033,
+          "prep_s": 0.27653130001272075,
+          "detect_s": 0,
+          "image_decode_s": 0.038094199990155175,
+          "recognition_wall_s": 73.14708639998571,
+          "calls": 1
+        },
+        "ph01": {
+          "text": [
+            {
+              "ref": "试卷答案请一律填涂或书写在答题卡上，在试卷上作答无效。",
+              "match": "试卷答案请一律填涂或书写在答题卡上，在试卷上作答无效。",
+              "chars": 27,
+              "edits": 0
+            },
+            {
+              "ref": "从物理学的角度来看，彩虹是由太阳光进入水滴，先折射一次，然后在水滴的背面反射",
+              "match": "从物理学的角度来看，彩虹是由太阳光进入水滴，先折射一次，然后在水滴的背面反射",
+              "chars": 38,
+              "edits": 0
+            },
+            {
+              "ref": "若遇到相同的障碍物，M光比N光的衍射现象更明显",
+              "match": "若遇到相同的障碍物，M光比N光的衍射现象更明显",
+              "chars": 23,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 49.61578140000347,
+          "prompt_tokens": 1034,
+          "generated_tokens": 483,
+          "hit_limit": 0,
+          "processor_s": 0.03115639998577535,
+          "generate_s": 49.50039860000834,
+          "decode_s": 0.00034500000765547156,
+          "prep_s": 0.06336959998589009,
+          "detect_s": 0,
+          "image_decode_s": 0.020452600001590326,
+          "recognition_wall_s": 49.55241180001758,
+          "calls": 1
+        },
+        "ph05": {
+          "text": [
+            {
+              "ref": "碰后瞬间管道对结合体的作用力方向沿圆环半径向内",
+              "match": "碰后瞬间管道对结合体的作用力方向沿圆环半径向内",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "利用手机中的磁传感器可测量埋在地下的水平高压直流长直电缆的深度。",
+              "match": "利用手机中的磁传感器可测量埋在地下的水平高压直流长直电缆的深度。",
+              "chars": 32,
+              "edits": 0
+            },
+            {
+              "ref": "EF、GH长均为1.8m且垂直平分。",
+              "match": "\\mathrm{m}\\)且垂直平分。",
+              "chars": 18,
+              "edits": 12
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "S₁=S₂",
+              "match": "S_{2",
+              "chars": 5,
+              "edits": 3
+            }
+          ],
+          "answers": [],
+          "median_s": 54.700382899987744,
+          "prompt_tokens": 1034,
+          "generated_tokens": 546,
+          "hit_limit": 0,
+          "processor_s": 0.026735099992947653,
+          "generate_s": 54.605615999986185,
+          "decode_s": 0.00035700001171790063,
+          "prep_s": 0.051810999982990324,
+          "detect_s": 0,
+          "image_decode_s": 0.01580290001584217,
+          "recognition_wall_s": 54.648571900004754,
+          "calls": 1
+        },
+        "ph06": {
+          "text": [
+            {
+              "ref": "在水平面上有一质谱仪，由直线加速器和磁场偏转器组成",
+              "match": "在水平面上有一质谱仪，由直线加速器和磁场偏转器组成",
+              "chars": 25,
+              "edits": 0
+            },
+            {
+              "ref": "不计粒子重力及粒子间的相互作用",
+              "match": "不计粒子重力及粒子间的相互作用",
+              "chars": 15,
+              "edits": 0
+            },
+            {
+              "ref": "系统静止在光滑水平面上（B靠墙面）",
+              "match": "系统静止在光滑水平面上（B靠墙面）",
+              "chars": 17,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "U₀−ΔU",
+              "match": "U}{U",
+              "chars": 5,
+              "edits": 3
+            },
+            {
+              "ref": "S₁−S₂>S₃",
+              "match": "S_{2}>S",
+              "chars": 8,
+              "edits": 5
+            }
+          ],
+          "answers": [],
+          "median_s": 73.1010294999578,
+          "prompt_tokens": 1034,
+          "generated_tokens": 761,
+          "hit_limit": 0,
+          "processor_s": 0.027284899988444522,
+          "generate_s": 72.99338739999803,
+          "decode_s": 0.000370699999621138,
+          "prep_s": 0.059854699968127534,
+          "detect_s": 0,
+          "image_decode_s": 0.020075500011444092,
+          "recognition_wall_s": 73.04117479998968,
+          "calls": 1
+        },
+        "ph12": {
+          "text": [
+            {
+              "ref": "参考答案",
+              "match": "参考答案",
+              "chars": 4,
+              "edits": 0
+            },
+            {
+              "ref": "两球不一定是弹性的，可以是非弹性的，故B错误；",
+              "match": "两球不一定是弹性的，可以是非弹性的，故B错误；",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "斜槽可以不光滑，只要同一实验从斜槽上同一位置由静止释放即可",
+              "match": "斜槽可以不光滑，只要同一实验从斜槽上同一位置由静止释放即可",
+              "chars": 29,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "m₁v₀=m₁v₁+m₂v₂",
+              "match": "{1}L_{1}+m_{2",
+              "chars": 14,
+              "edits": 9
+            }
+          ],
+          "answers": [
+            {
+              "ref": "【答案】（1）CD",
+              "match": "【答案】(1)CD",
+              "chars": 9,
+              "edits": 0
+            }
+          ],
+          "median_s": 79.12897779999184,
+          "prompt_tokens": 1034,
+          "generated_tokens": 832,
+          "hit_limit": 0,
+          "processor_s": 0.02657539999927394,
+          "generate_s": 79.0381064999965,
+          "decode_s": 0.0003392999933566898,
+          "prep_s": 0.048342399997636676,
+          "detect_s": 0,
+          "image_decode_s": 0.015571399999316782,
+          "recognition_wall_s": 79.08063539999421,
+          "calls": 1
+        },
+        "ch07": {
+          "text": [
+            {
+              "ref": "制备方法的发展体现了化学科学与技术的不断进步。",
+              "match": "制备方法的发展体现了化学科学与技术的不断进步。",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "20世纪初，我国化学工业科学家侯德榜创造性地提出了侯氏制碱法，流程如下。",
+              "match": "20世纪初，我国化学工业科学家侯德榜创造性地提出了侯氏制碱法，流程如下。",
+              "chars": 36,
+              "edits": 0
+            },
+            {
+              "ref": "结合数据分析优先析出NaHCO₃的原因",
+              "match": "结合数据分析优先析出NaHCO",
+              "chars": 19,
+              "edits": 4
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "Na₂SO₄、C、CaCO₃",
+              "match": "4}\\)、C、\\(CaCO",
+              "chars": 14,
+              "edits": 9
+            },
+            {
+              "ref": "CaS和CO",
+              "match": "CaS和CO",
+              "chars": 6,
+              "edits": 0
+            }
+          ],
+          "answers": [],
+          "median_s": 39.29334220002056,
+          "prompt_tokens": 1034,
+          "generated_tokens": 356,
+          "hit_limit": 0,
+          "processor_s": 0.028508499992312863,
+          "generate_s": 38.90954180000699,
+          "decode_s": 0.00024189997930079699,
+          "prep_s": 0.3244575000135228,
+          "detect_s": 0,
+          "image_decode_s": 0.030530399992130697,
+          "recognition_wall_s": 38.96888470000704,
+          "calls": 1
+        }
+      },
+      "first_round_totals": {
+        "prompt_tokens": 12408,
+        "generated_tokens": 8348,
+        "hit_limit": 0,
+        "processor_s": 0.3853077999083325,
+        "generate_s": 755.9012799000193,
+        "decode_s": 0.004464099940378219,
+        "calls": 12,
+        "detect_s": 0
+      },
+      "whole_page_table_cells": {
+        "totals": {
+          "expected": 4,
+          "pages_with_one_candidate": 4,
+          "correct_shape": 4,
+          "cells": 70,
+          "correct_cells": 54
+        },
+        "pages": {
+          "ma03": {
+            "candidates": 1,
+            "same_grid": true,
+            "correct_cells": 12,
+            "cells": 12,
+            "predicted_cells": [
+              [
+                [
+                  "毕业去向",
+                  "继续学习深造",
+                  "单位就业",
+                  "自主创业",
+                  "自由职业",
+                  "慢就业"
+                ],
+                [
+                  "人数",
+                  "200",
+                  "560",
+                  "14",
+                  "128",
+                  "98"
+                ]
+              ]
+            ]
+          },
+          "ph05": {
+            "candidates": 1,
+            "same_grid": true,
+            "correct_cells": 15,
+            "cells": 20,
+            "predicted_cells": [
+              [
+                [
+                  "位置",
+                  "\\(B_x/\\mu T\\)",
+                  "\\(B_y/\\mu T\\)",
+                  "\\(B_z/\\mu T\\)"
+                ],
+                [
+                  "E",
+                  "8",
+                  "0",
+                  "6"
+                ],
+                [
+                  "F",
+                  "8",
+                  "0",
+                  "-6"
+                ],
+                [
+                  "G",
+                  "\\(B_{xG}\\)",
+                  "0",
+                  "0"
+                ],
+                [
+                  "H",
+                  "\\(B_{xH}\\)",
+                  "0",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "ph12": {
+            "candidates": 1,
+            "same_grid": true,
+            "correct_cells": 22,
+            "cells": 30,
+            "predicted_cells": [
+              [
+                [
+                  "题号",
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11",
+                  "12",
+                  "13",
+                  "14"
+                ],
+                [
+                  "答案",
+                  "D",
+                  "D",
+                  "B",
+                  "B",
+                  "B",
+                  "C",
+                  "BC",
+                  "C",
+                  "BC",
+                  "AC",
+                  "D",
+                  "AC",
+                  "AC",
+                  ""
+                ]
+              ]
+            ]
+          },
+          "ch07": {
+            "candidates": 1,
+            "same_grid": true,
+            "correct_cells": 5,
+            "cells": 8,
+            "predicted_cells": [
+              [
+                [
+                  "盐",
+                  "NaCl",
+                  "\\(NH_{4}Cl\\)",
+                  "\\(NaHCO_{3}\\)"
+                ],
+                [
+                  "溶解度/g (20℃,100 g \\(H_{2}O\\))",
+                  "35.9",
+                  "37.2",
+                  "9.6"
+                ]
+              ]
+            ]
+          }
+        },
+        "location_scored": false
+      }
+    },
+    "paddlevl": {
+      "median_12_page_processing_s": 738.1390107999323,
+      "page_median_s": 64.28220675002376,
+      "page_p90_s": 76.49458829997457,
+      "round_processing_s": [
+        738.1390107999323
+      ],
+      "median_measured_batch_wall_s": 726.4054862000048,
+      "round_batch_wall_s": [
+        726.4054862000048
+      ],
+      "modeled_from_measured_stages": false,
+      "groups": {
+        "text": {
+          "snippets": 36,
+          "exact": 25,
+          "chars": 844,
+          "edits": 47
+        },
+        "scan": {
+          "snippets": 21,
+          "exact": 10,
+          "chars": 508,
+          "edits": 47
+        },
+        "formulas": {
+          "snippets": 13,
+          "exact": 4,
+          "chars": 111,
+          "edits": 45
+        },
+        "answers": {
+          "snippets": 5,
+          "exact": 5,
+          "chars": 37,
+          "edits": 0
+        },
+        "text_layer": {
+          "snippets": 15,
+          "exact": 15,
+          "chars": 336,
+          "edits": 0
+        }
+      },
+      "pages": {
+        "cn01": {
+          "text": [
+            {
+              "ref": "阅读下面材料，完成1—5题。",
+              "match": "阅读下面材料，完成1—5题。",
+              "chars": 14,
+              "edits": 0
+            },
+            {
+              "ref": "强调通过自主探索、归纳推理和问题解决来重新建构知识形成的过程，而非被动接受现成结论。",
+              "match": "强调通过自主探索、归纳推理和问题解决来重新构建知识形成的过程，而非被动接受现成结论。",
+              "chars": 42,
+              "edits": 2
+            },
+            {
+              "ref": "以学习者的认知结构和经验为基础，通过亲身实践、情境参与和反思验证等方式，来建构知识、技能与综合能力的学习方法。",
+              "match": "以学习者的认知结构和经验为基础，通过亲身实践、情境参与和反思验证等方式，来建构知识、技能与综合能力的学习方法。",
+              "chars": 55,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 72.37289350002538,
+          "prompt_tokens": 4029,
+          "generated_tokens": 627,
+          "hit_limit": 0,
+          "processor_s": 0.06273599999258295,
+          "generate_s": 71.18094779999228,
+          "decode_s": 0.001401200017426163,
+          "prep_s": 0.30382890001055785,
+          "detect_s": 0.7842998999985866,
+          "image_decode_s": 0.0342444000125397,
+          "recognition_wall_s": 71.28476470001624,
+          "calls": 14
+        },
+        "cn02": {
+          "text": [
+            {
+              "ref": "体验学习的核心作用在于：将感性体验转化为理性认知，再通过实践验证实现将认知与行动整合。",
+              "match": "体验学习的核心作用在于：将感性体验转化为理性认知，再通过实践验证实现将认知与行动整合。",
+              "chars": 43,
+              "edits": 0
+            },
+            {
+              "ref": "教师组织学生分组搜集资料",
+              "match": "教师组织学生分组搜集资料",
+              "chars": 12,
+              "edits": 0
+            },
+            {
+              "ref": "学生在非遗手工作坊，参与彩釉烧制、印模造型等体验活动。",
+              "match": "学生在非遗手工作坊，参与彩釉烧制、印模造型等体验活动。",
+              "chars": 27,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 75.94429409995792,
+          "prompt_tokens": 5215,
+          "generated_tokens": 905,
+          "hit_limit": 0,
+          "processor_s": 0.07054610003251582,
+          "generate_s": 74.77306599999429,
+          "decode_s": 0.002063199965050444,
+          "prep_s": 0.2752065999666229,
+          "detect_s": 0.7788023999892175,
+          "image_decode_s": 0.04056160000618547,
+          "recognition_wall_s": 74.89028510000207,
+          "calls": 22
+        },
+        "cn03": {
+          "text": [
+            {
+              "ref": "“发现学习”更适合具有探索精神、有高自主性学习需求的学习者。",
+              "match": "“发现学习”更适合具有探索精神、有高自主性学习需求的学习者。",
+              "chars": 30,
+              "edits": 0
+            },
+            {
+              "ref": "体验学习过程并非严格线性，而是可以从任一环节启动。",
+              "match": "体验学习过程并非严格线性，而是可从任一环节启动。",
+              "chars": 25,
+              "edits": 1
+            },
+            {
+              "ref": "夫人之有生也，则有是心，有心则有仁义礼智之性。",
+              "match": "}\\)有生也，则有是心，有心则有仁义礼智之性。",
+              "chars": 23,
+              "edits": 3
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 70.59654810000211,
+          "prompt_tokens": 4390,
+          "generated_tokens": 993,
+          "hit_limit": 0,
+          "processor_s": 0.054586999875027686,
+          "generate_s": 69.46594380005263,
+          "decode_s": 0.0018726999405771494,
+          "prep_s": 0.26676600001519546,
+          "detect_s": 0.7741365999972913,
+          "image_decode_s": 0.030449199985014275,
+          "recognition_wall_s": 69.55564549998962,
+          "calls": 18
+        },
+        "cn11": {
+          "text": [
+            {
+              "ref": "语文答案要点及评分标准",
+              "match": "语文答案要点及评分标准",
+              "chars": 11,
+              "edits": 0
+            },
+            {
+              "ref": "不需要被动接受现成的结论，可以自主选择小视频的主题和视角",
+              "match": "不需要被动接受现成的结论，可以自主选择小视频的主题和视角",
+              "chars": 28,
+              "edits": 0
+            },
+            {
+              "ref": "自省修为：通过不断比较、自我反省、思考来验证。",
+              "match": "自省修为：通过不断比较、自我反省、思考来验证。",
+              "chars": 23,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [
+            {
+              "ref": "1.（3分）C",
+              "match": "1.(3分)C",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "2.（3分）D",
+              "match": "2.(3分)D",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "3.（3分）A",
+              "match": "3.(3分)A",
+              "chars": 7,
+              "edits": 0
+            },
+            {
+              "ref": "4.（3分）B",
+              "match": "4.(3分)B",
+              "chars": 7,
+              "edits": 0
+            }
+          ],
+          "median_s": 76.49458829997457,
+          "prompt_tokens": 5388,
+          "generated_tokens": 931,
+          "hit_limit": 0,
+          "processor_s": 0.06904379994375631,
+          "generate_s": 75.42709790007211,
+          "decode_s": 0.0021961999882478267,
+          "prep_s": 0.19572989997686818,
+          "detect_s": 0.7758007000084035,
+          "image_decode_s": 0.021325000008801,
+          "recognition_wall_s": 75.5230576999893,
+          "calls": 24
+        },
+        "ma01": {
+          "text": [
+            {
+              "ref": "本试卷共4页，共150分。考试时长120分钟。",
+              "match": "本试卷共4页，共150分。考试时长120分钟。",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "在区间(1,+∞)上单调递增的是",
+              "match": "\\infty)\\)上单调递增的是",
+              "chars": 16,
+              "edits": 8
+            },
+            {
+              "ref": "奶茶温度衰减满足函数关系",
+              "match": "奶茶温度衰减满足函数关系",
+              "chars": 12,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "A={x|−1≤x<2}",
+              "match": "y=|x-2",
+              "chars": 12,
+              "edits": 8
+            },
+            {
+              "ref": "a₁+a₂=−16",
+              "match": "a_{2}=-16",
+              "chars": 9,
+              "edits": 4
+            },
+            {
+              "ref": "|a+λb|=|a|+λ|b|",
+              "match": "dab|=|a|+",
+              "chars": 15,
+              "edits": 7
+            }
+          ],
+          "answers": [],
+          "median_s": 80.14116710002418,
+          "prompt_tokens": 5224,
+          "generated_tokens": 1153,
+          "hit_limit": 0,
+          "processor_s": 0.06809240009170026,
+          "generate_s": 78.91859399992973,
+          "decode_s": 0.0022976000618655235,
+          "prep_s": 0.26139669999247417,
+          "detect_s": 0.8554236000054516,
+          "image_decode_s": 0.03161880001425743,
+          "recognition_wall_s": 79.02434680002625,
+          "calls": 25
+        },
+        "ma02": {
+          "text": [
+            {
+              "ref": "则满足条件的平面α的个数为",
+              "match": "则满足条件的平面",
+              "chars": 13,
+              "edits": 5
+            },
+            {
+              "ref": "则在复平面内z对应点的坐标为",
+              "match": "则在复平面内\\(z\\)对应点的坐标为",
+              "chars": 14,
+              "edits": 4
+            },
+            {
+              "ref": "则|AB|的最小值为",
+              "match": "(|AB|\\)的最小值为",
+              "chars": 10,
+              "edits": 3
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "ax+by+c=0",
+              "match": "ax+by+c=0",
+              "chars": 9,
+              "edits": 0
+            },
+            {
+              "ref": "x²=12y",
+              "match": "^2=12y",
+              "chars": 6,
+              "edits": 1
+            }
+          ],
+          "answers": [],
+          "median_s": 59.324568200012436,
+          "prompt_tokens": 3555,
+          "generated_tokens": 930,
+          "hit_limit": 0,
+          "processor_s": 0.04620859993156046,
+          "generate_s": 58.18335529998876,
+          "decode_s": 0.0016446000372525305,
+          "prep_s": 0.26021229999605566,
+          "detect_s": 0.7993793000059668,
+          "image_decode_s": 0.03180440000141971,
+          "recognition_wall_s": 58.264976600010414,
+          "calls": 16
+        },
+        "ma03": {
+          "text": [
+            {
+              "ref": "若a=6，求△ABC的面积最大值。",
+              "match": "iangleABC\\)的面积最大值",
+              "chars": 17,
+              "edits": 9
+            },
+            {
+              "ref": "如果选择多个符合要求的条件分别解答，按第一个解答计分。",
+              "match": "如果选择多个符合要求的条件分别解答，按第一个解答计分。",
+              "chars": 27,
+              "edits": 0
+            },
+            {
+              "ref": "假设该地区2025届大学毕业生选择的毕业去向相互独立。",
+              "match": "假设该地区2025届大学毕业生选择的毕业去向相互独立",
+              "chars": 27,
+              "edits": 1
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "AB=3",
+              "match": "AB=3",
+              "chars": 4,
+              "edits": 0
+            },
+            {
+              "ref": "BC=5",
+              "match": "BC=5",
+              "chars": 4,
+              "edits": 0
+            }
+          ],
+          "answers": [],
+          "median_s": 60.2780356000294,
+          "prompt_tokens": 4134,
+          "generated_tokens": 861,
+          "hit_limit": 0,
+          "processor_s": 0.056179999897722155,
+          "generate_s": 59.12120730004972,
+          "decode_s": 0.0019774999527726322,
+          "prep_s": 0.27653130001272075,
+          "detect_s": 0.7816728000179864,
+          "image_decode_s": 0.03721059998497367,
+          "recognition_wall_s": 59.21983149999869,
+          "calls": 21
+        },
+        "ph01": {
+          "text": [
+            {
+              "ref": "试卷答案请一律填涂或书写在答题卡上，在试卷上作答无效。",
+              "match": "试卷答案请一律填涂或书写在答题卡上，在试卷上作答无效。",
+              "chars": 27,
+              "edits": 0
+            },
+            {
+              "ref": "从物理学的角度来看，彩虹是由太阳光进入水滴，先折射一次，然后在水滴的背面反射",
+              "match": "从物理学的角度来看，彩虹是由太阳光进入水滴，先折射一次，然后在水滴的背面反射",
+              "chars": 38,
+              "edits": 0
+            },
+            {
+              "ref": "若遇到相同的障碍物，M光比N光的衍射现象更明显",
+              "match": "若遇到相同的障碍物，M光比N光的衍射现象更明显",
+              "chars": 23,
+              "edits": 0
+            }
+          ],
+          "formulas": [],
+          "answers": [],
+          "median_s": 48.76796469994588,
+          "prompt_tokens": 2848,
+          "generated_tokens": 695,
+          "hit_limit": 0,
+          "processor_s": 0.03655700001399964,
+          "generate_s": 47.85485220004921,
+          "decode_s": 0.0011947999300900847,
+          "prep_s": 0.06336959998589009,
+          "detect_s": 0.7912873999739531,
+          "image_decode_s": 0.018593699991470203,
+          "recognition_wall_s": 47.913307699986035,
+          "calls": 11
+        },
+        "ph05": {
+          "text": [
+            {
+              "ref": "碰后瞬间管道对结合体的作用力方向沿圆环半径向内",
+              "match": "碰后瞬间管道对结合体的作用力方向沿圆环半径向内",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "利用手机中的磁传感器可测量埋在地下的水平高压直流长直电缆的深度。",
+              "match": "利用手机中的磁传感器可测量埋在地下的水平高压直流长直电缆的深度。",
+              "chars": 32,
+              "edits": 0
+            },
+            {
+              "ref": "EF、GH长均为1.8m且垂直平分。",
+              "match": "EF、GH长均为1.8m且垂直平分。",
+              "chars": 18,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "S₁=S₂",
+              "match": "S_{2",
+              "chars": 5,
+              "edits": 3
+            }
+          ],
+          "answers": [],
+          "median_s": 34.33580359996995,
+          "prompt_tokens": 1953,
+          "generated_tokens": 499,
+          "hit_limit": 0,
+          "processor_s": 0.02473560004727915,
+          "generate_s": 33.50423809996573,
+          "decode_s": 0.0009064000041689724,
+          "prep_s": 0.051810999982990324,
+          "detect_s": 0.7341675999923609,
+          "image_decode_s": 0.018492799979867414,
+          "recognition_wall_s": 33.5498249999946,
+          "calls": 8
+        },
+        "ph06": {
+          "text": [
+            {
+              "ref": "在水平面上有一质谱仪，由直线加速器和磁场偏转器组成",
+              "match": "在水平面上有一质谱仪，由直线加速器和磁场偏转器组成",
+              "chars": 25,
+              "edits": 0
+            },
+            {
+              "ref": "不计粒子重力及粒子间的相互作用",
+              "match": "不计粒子重力及粒子间的相互作用",
+              "chars": 15,
+              "edits": 0
+            },
+            {
+              "ref": "系统静止在光滑水平面上（B靠墙面）",
+              "match": "系统静止在光滑水平面上（B靠墙面）",
+              "chars": 17,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "U₀−ΔU",
+              "match": "U}{U",
+              "chars": 5,
+              "edits": 3
+            },
+            {
+              "ref": "S₁−S₂>S₃",
+              "match": "_1-S_2>S",
+              "chars": 8,
+              "edits": 3
+            }
+          ],
+          "answers": [],
+          "median_s": 58.33729649998713,
+          "prompt_tokens": 2816,
+          "generated_tokens": 775,
+          "hit_limit": 0,
+          "processor_s": 0.03292719996534288,
+          "generate_s": 57.46028070000466,
+          "decode_s": 0.0011812000011559576,
+          "prep_s": 0.059854699968127534,
+          "detect_s": 0.7613256000040565,
+          "image_decode_s": 0.019595999998273328,
+          "recognition_wall_s": 57.51611620001495,
+          "calls": 9
+        },
+        "ph12": {
+          "text": [
+            {
+              "ref": "参考答案",
+              "match": "参考答案",
+              "chars": 4,
+              "edits": 0
+            },
+            {
+              "ref": "两球不一定是弹性的，可以是非弹性的，故B错误；",
+              "match": "两球不一定是弹性的，可以是非弹性的，故B错误；",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "斜槽可以不光滑，只要同一实验从斜槽上同一位置由静止释放即可",
+              "match": "斜槽可以不光滑，只要同一实验从斜槽上同一位置由静止释放即可",
+              "chars": 29,
+              "edits": 0
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "m₁v₀=m₁v₁+m₂v₂",
+              "match": "{1}L_{1}+m_{2",
+              "chars": 14,
+              "edits": 9
+            }
+          ],
+          "answers": [
+            {
+              "ref": "【答案】（1）CD",
+              "match": "【答案】(1)CD",
+              "chars": 9,
+              "edits": 0
+            }
+          ],
+          "median_s": 68.28637790001812,
+          "prompt_tokens": 3980,
+          "generated_tokens": 919,
+          "hit_limit": 0,
+          "processor_s": 0.049775099992984906,
+          "generate_s": 67.40894990004017,
+          "decode_s": 0.0015585999935865402,
+          "prep_s": 0.048342399997636676,
+          "detect_s": 0.7603827000129968,
+          "image_decode_s": 0.014601900009438396,
+          "recognition_wall_s": 67.47765280000749,
+          "calls": 15
+        },
+        "ch07": {
+          "text": [
+            {
+              "ref": "制备方法的发展体现了化学科学与技术的不断进步。",
+              "match": "制备方法的发展体现了化学科学与技术的不断进步。",
+              "chars": 23,
+              "edits": 0
+            },
+            {
+              "ref": "20世纪初，我国化学工业科学家侯德榜创造性地提出了侯氏制碱法，流程如下。",
+              "match": "20世纪初,我国化学工业科学家侯德榜创造性地提出了侯氏制碱法,流程如下。",
+              "chars": 36,
+              "edits": 2
+            },
+            {
+              "ref": "结合数据分析优先析出NaHCO₃的原因",
+              "match": "结合数据分析优先析出",
+              "chars": 19,
+              "edits": 9
+            }
+          ],
+          "formulas": [
+            {
+              "ref": "Na₂SO₄、C、CaCO₃",
+              "match": "SO_{4}、C、CaCO",
+              "chars": 14,
+              "edits": 7
+            },
+            {
+              "ref": "CaS和CO",
+              "match": "CaS和CO",
+              "chars": 6,
+              "edits": 0
+            }
+          ],
+          "answers": [],
+          "median_s": 33.25947319998522,
+          "prompt_tokens": 2471,
+          "generated_tokens": 396,
+          "hit_limit": 0,
+          "processor_s": 0.032838799990713596,
+          "generate_s": 32.08965629994054,
+          "decode_s": 0.0009904000617098063,
+          "prep_s": 0.3244575000135228,
+          "detect_s": 0.7848134999803733,
+          "image_decode_s": 0.025287399999797344,
+          "recognition_wall_s": 32.15020219999133,
+          "calls": 12
+        }
+      },
+      "first_round_totals": {
+        "prompt_tokens": 46003,
+        "generated_tokens": 9684,
+        "hit_limit": 0,
+        "processor_s": 0.6042275997751858,
+        "generate_s": 725.3881893000798,
+        "decode_s": 0.01928439995390363,
+        "calls": 195,
+        "detect_s": 9.381492099986644
+      },
+      "table_recognition": {
+        "totals": {
+          "cells": 70,
+          "correct_cells": 62,
+          "correct_shape": 4,
+          "expected": 4,
+          "matched": 4,
+          "predicted": 5
+        },
+        "recognition_s": 23.246139199996833,
+        "pages": {
+          "cn01": {
+            "expected": 0,
+            "predicted": 0,
+            "matched": 0,
+            "correct_shape": 0,
+            "cells": 0,
+            "correct_cells": 0,
+            "matches": []
+          },
+          "cn02": {
+            "expected": 0,
+            "predicted": 0,
+            "matched": 0,
+            "correct_shape": 0,
+            "cells": 0,
+            "correct_cells": 0,
+            "matches": []
+          },
+          "cn03": {
+            "expected": 0,
+            "predicted": 0,
+            "matched": 0,
+            "correct_shape": 0,
+            "cells": 0,
+            "correct_cells": 0,
+            "matches": []
+          },
+          "cn11": {
+            "expected": 0,
+            "predicted": 0,
+            "matched": 0,
+            "correct_shape": 0,
+            "cells": 0,
+            "correct_cells": 0,
+            "matches": []
+          },
+          "ma01": {
+            "expected": 0,
+            "predicted": 0,
+            "matched": 0,
+            "correct_shape": 0,
+            "cells": 0,
+            "correct_cells": 0,
+            "matches": []
+          },
+          "ma02": {
+            "expected": 0,
+            "predicted": 0,
+            "matched": 0,
+            "correct_shape": 0,
+            "cells": 0,
+            "correct_cells": 0,
+            "matches": []
+          },
+          "ma03": {
+            "expected": 1,
+            "predicted": 1,
+            "matched": 1,
+            "correct_shape": 1,
+            "cells": 12,
+            "correct_cells": 12,
+            "matches": [
+              {
+                "iou": 0.8774179606725941,
+                "same_grid": true,
+                "correct_cells": 12,
+                "predicted_cells": [
+                  [
+                    "毕业去向",
+                    "继续学习深造",
+                    "单位就业",
+                    "自主创业",
+                    "自由职业",
+                    "慢就业"
+                  ],
+                  [
+                    "人数",
+                    "200",
+                    "560",
+                    "14",
+                    "128",
+                    "98"
+                  ]
+                ]
+              }
+            ]
+          },
+          "ph01": {
+            "expected": 0,
+            "predicted": 0,
+            "matched": 0,
+            "correct_shape": 0,
+            "cells": 0,
+            "correct_cells": 0,
+            "matches": []
+          },
+          "ph05": {
+            "expected": 1,
+            "predicted": 1,
+            "matched": 1,
+            "correct_shape": 1,
+            "cells": 20,
+            "correct_cells": 15,
+            "matches": [
+              {
+                "iou": 0.9835051119501352,
+                "same_grid": true,
+                "correct_cells": 15,
+                "predicted_cells": [
+                  [
+                    "位置",
+                    "\\(B_{x}/\\mu T\\)",
+                    "\\(B_{y}/\\mu T\\)",
+                    "\\(B_{z}/\\mu T\\)"
+                  ],
+                  [
+                    "E",
+                    "8",
+                    "0",
+                    "6"
+                  ],
+                  [
+                    "F",
+                    "8",
+                    "0",
+                    "-6"
+                  ],
+                  [
+                    "G",
+                    "\\(B_{xG}\\)",
+                    "0",
+                    "0"
+                  ],
+                  [
+                    "H",
+                    "\\(B_{xH}\\)",
+                    "0",
+                    "0"
+                  ]
+                ]
+              }
+            ]
+          },
+          "ph06": {
+            "expected": 0,
+            "predicted": 0,
+            "matched": 0,
+            "correct_shape": 0,
+            "cells": 0,
+            "correct_cells": 0,
+            "matches": []
+          },
+          "ph12": {
+            "expected": 1,
+            "predicted": 1,
+            "matched": 1,
+            "correct_shape": 1,
+            "cells": 30,
+            "correct_cells": 30,
+            "matches": [
+              {
+                "iou": 0.9677218503429235,
+                "same_grid": true,
+                "correct_cells": 30,
+                "predicted_cells": [
+                  [
+                    "题号",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
+                    "14"
+                  ],
+                  [
+                    "答案",
+                    "D",
+                    "D",
+                    "B",
+                    "B",
+                    "B",
+                    "B",
+                    "C",
+                    "BC",
+                    "C",
+                    "BC",
+                    "AC",
+                    "D",
+                    "AC",
+                    "AC"
+                  ]
+                ]
+              }
+            ]
+          },
+          "ch07": {
+            "expected": 1,
+            "predicted": 2,
+            "matched": 1,
+            "correct_shape": 1,
+            "cells": 8,
+            "correct_cells": 5,
+            "matches": [
+              {
+                "iou": 0.9703333035844316,
+                "same_grid": true,
+                "correct_cells": 5,
+                "predicted_cells": [
+                  [
+                    "盐",
+                    "NaCl",
+                    "NH\\(_{4}\\)Cl",
+                    "NaHCO\\(_{3}\\)"
+                  ],
+                  [
+                    "溶解度/g\n(20℃,100 g H\\(_{2}\\)O)",
+                    "35.9",
+                    "37.2",
+                    "9.6"
+                  ]
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "native_layout": {
+    "totals": {
+      "figures": {
+        "correct_q": 6,
+        "expected": 9,
+        "matched": 6,
+        "predicted": 6
+      },
+      "tables": {
+        "cells": 70,
+        "correct_cells": 0,
+        "correct_shape": 0,
+        "expected": 4,
+        "matched": 0,
+        "predicted": 1
+      }
+    },
+    "pages": {
+      "cn01": {
+        "figures": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_q": 0,
+          "matches": []
+        },
+        "tables": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_shape": 0,
+          "cells": 0,
+          "correct_cells": 0,
+          "matches": []
+        },
+        "figure_s": 0.0013620000099763274,
+        "table_s": 1.1560064000077546
+      },
+      "cn02": {
+        "figures": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_q": 0,
+          "matches": []
+        },
+        "tables": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_shape": 0,
+          "cells": 0,
+          "correct_cells": 0,
+          "matches": []
+        },
+        "figure_s": 0.0014082999841775745,
+        "table_s": 0.1570237999840174
+      },
+      "cn03": {
+        "figures": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_q": 0,
+          "matches": []
+        },
+        "tables": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_shape": 0,
+          "cells": 0,
+          "correct_cells": 0,
+          "matches": []
+        },
+        "figure_s": 0.0011584000021684915,
+        "table_s": 0.1521902999957092
+      },
+      "cn11": {
+        "figures": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_q": 0,
+          "matches": []
+        },
+        "tables": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_shape": 0,
+          "cells": 0,
+          "correct_cells": 0,
+          "matches": []
+        },
+        "figure_s": 0.006790800020098686,
+        "table_s": 0.16046780001488514
+      },
+      "ma01": {
+        "figures": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_q": 0,
+          "matches": []
+        },
+        "tables": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_shape": 0,
+          "cells": 0,
+          "correct_cells": 0,
+          "matches": []
+        },
+        "figure_s": 0.0008913000056054443,
+        "table_s": 0.15937639999901876
+      },
+      "ma02": {
+        "figures": {
+          "expected": 1,
+          "predicted": 0,
+          "matched": 0,
+          "correct_q": 0,
+          "matches": []
+        },
+        "tables": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_shape": 0,
+          "cells": 0,
+          "correct_cells": 0,
+          "matches": []
+        },
+        "figure_s": 0.0007038999756332487,
+        "table_s": 0.16134799999417737
+      },
+      "ma03": {
+        "figures": {
+          "expected": 1,
+          "predicted": 0,
+          "matched": 0,
+          "correct_q": 0,
+          "matches": []
+        },
+        "tables": {
+          "expected": 1,
+          "predicted": 0,
+          "matched": 0,
+          "correct_shape": 0,
+          "cells": 12,
+          "correct_cells": 0,
+          "matches": []
+        },
+        "figure_s": 0.000833099998999387,
+        "table_s": 0.15790749998996034
+      },
+      "ph01": {
+        "figures": {
+          "expected": 2,
+          "predicted": 2,
+          "matched": 2,
+          "correct_q": 2,
+          "matches": [
+            {
+              "ref_q": 2,
+              "pred_q": 2,
+              "iou": 0.9495052914470834,
+              "path": "crops/ph01-02.png"
+            },
+            {
+              "ref_q": 1,
+              "pred_q": 1,
+              "iou": 0.943911475412985,
+              "path": "crops/ph01-01.png"
+            }
+          ]
+        },
+        "tables": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_shape": 0,
+          "cells": 0,
+          "correct_cells": 0,
+          "matches": []
+        },
+        "figure_s": 0.05070059999707155,
+        "table_s": 0.08230609999736771
+      },
+      "ph05": {
+        "figures": {
+          "expected": 2,
+          "predicted": 2,
+          "matched": 2,
+          "correct_q": 2,
+          "matches": [
+            {
+              "ref_q": 11,
+              "pred_q": 11,
+              "iou": 0.9472864185689625,
+              "path": "crops/ph05-02.png"
+            },
+            {
+              "ref_q": 10,
+              "pred_q": 10,
+              "iou": 0.9169096866832137,
+              "path": "crops/ph05-01.png"
+            }
+          ]
+        },
+        "tables": {
+          "expected": 1,
+          "predicted": 0,
+          "matched": 0,
+          "correct_shape": 0,
+          "cells": 20,
+          "correct_cells": 0,
+          "matches": []
+        },
+        "figure_s": 0.030014800024218857,
+        "table_s": 0.08749740000348538
+      },
+      "ph06": {
+        "figures": {
+          "expected": 2,
+          "predicted": 2,
+          "matched": 2,
+          "correct_q": 2,
+          "matches": [
+            {
+              "ref_q": 13,
+              "pred_q": 13,
+              "iou": 0.9628502929134726,
+              "path": "crops/ph06-02.png"
+            },
+            {
+              "ref_q": 12,
+              "pred_q": 12,
+              "iou": 0.9555053409881094,
+              "path": "crops/ph06-01.png"
+            }
+          ]
+        },
+        "tables": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_shape": 0,
+          "cells": 0,
+          "correct_cells": 0,
+          "matches": []
+        },
+        "figure_s": 0.03788439999334514,
+        "table_s": 0.10559520000242628
+      },
+      "ph12": {
+        "figures": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_q": 0,
+          "matches": []
+        },
+        "tables": {
+          "expected": 1,
+          "predicted": 1,
+          "matched": 0,
+          "correct_shape": 0,
+          "cells": 30,
+          "correct_cells": 0,
+          "matches": []
+        },
+        "figure_s": 0.005250299989711493,
+        "table_s": 0.269921200000681
+      },
+      "ch07": {
+        "figures": {
+          "expected": 1,
+          "predicted": 0,
+          "matched": 0,
+          "correct_q": 0,
+          "matches": []
+        },
+        "tables": {
+          "expected": 1,
+          "predicted": 0,
+          "matched": 0,
+          "correct_shape": 0,
+          "cells": 8,
+          "correct_cells": 0,
+          "matches": []
+        },
+        "figure_s": 0.0019145999976899475,
+        "table_s": 0.2462171999795828
+      }
+    },
+    "figure_total_s": 0.13891249999869615,
+    "table_total_s": 2.895857299969066
+  },
+  "llm": {
+    "engine": "Qwen2.5-0.5B-Instruct INT8 ONNX CPU",
+    "threads": 4,
+    "ort_version": "1.25.1",
+    "model_load_s": 1.5033078999840654,
+    "max_tokens": 224,
+    "requests": [
+      {
+        "case": "cn-q1",
+        "mode": "verbatim",
+        "raw": "b1: “发现学习”强调以主动探究为核心，而非被动接受。",
+        "prompt_tokens": 303,
+        "generated_tokens": 18,
+        "seconds": 0.6825134999817237,
+        "first_token_s": 0.36446289997547865,
+        "stop_reason": "stop",
+        "valid": false,
+        "error": "Expecting value: line 1 column 1 (char 0)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "cn-q1",
+        "mode": "references",
+        "raw": "```json\n{\n  \"q\": \"b1\",\n  \"o\": \"1\",\n  \"a\": \"1\"\n}\n```",
+        "prompt_tokens": 296,
+        "generated_tokens": 29,
+        "seconds": 0.8583838999911677,
+        "first_token_s": 0.3477161999908276,
+        "stop_reason": "stop",
+        "valid": false,
+        "error": "shape mismatch",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "cn-q3",
+        "mode": "references",
+        "raw": "只提取第3题。遇到别的题号，停止收集选项。",
+        "prompt_tokens": 323,
+        "generated_tokens": 16,
+        "seconds": 0.7043814999924507,
+        "first_token_s": 0.412209999980405,
+        "stop_reason": "stop",
+        "valid": false,
+        "error": "Expecting value: line 1 column 1 (char 0)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "cn-q3",
+        "mode": "verbatim",
+        "raw": "b11: 4.（3分）D\nb12: 4.（3分）A\nb13: 4.（3分）B\nb14: 4.（3分）C\nb15: 4.（3分）A\nb16: 4.（3分）B\nb17: 4.（3分）C\nb18: 4.（3分）D\nb19: 4.（3分）A\nb20: 4.（3分）B\nb21: 4.（3分）C\nb22: 4.（3分）D\nb23: 4.（3分）A\nb24: 4.（3分）B\nb25: 4.（3分）C\nb26: 4.（3分）D\nb27: 4.（3分）A\nb28",
+        "prompt_tokens": 330,
+        "generated_tokens": 224,
+        "seconds": 4.7684319999825675,
+        "first_token_s": 0.40463410000666045,
+        "stop_reason": "length",
+        "valid": false,
+        "error": "Expecting value: line 1 column 1 (char 0)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "ma-q2",
+        "mode": "verbatim",
+        "raw": "b8: (B) y=−x^2\nb9: (C) 1/(1−x)\nb10: (D) 1+√x\nb11: (E) 1−√x\nb12: (F) √x\nb13: (G) x^2\nb14: (H) x^3\nb15: (I) x^4\nb16: (J) x^5\nb17: (K) x^6\nb18: (L) x^(1/2)\nb19: (M) x^(1/3)\nb20: (N) x^(1/4)\nb21: (O) x^(1/5)\nb22: (P) x^(1/6)\nb23: (Q) x^(2/3)\nb24: (R) x^(3/2)\nb25: (S) x^(4/3)\nb2",
+        "prompt_tokens": 243,
+        "generated_tokens": 224,
+        "seconds": 4.3658548000094015,
+        "first_token_s": 0.25444180000340566,
+        "stop_reason": "length",
+        "valid": false,
+        "error": "Expecting value: line 1 column 1 (char 0)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "ma-q2",
+        "mode": "references",
+        "raw": "只提取第1题。以下是有编号的原文块。遇到别的题号停止收集选项；答案必须本题号的单独答案；本题号的题干必须是本题号的题干ID。答案必须是本题号的题干ID的单独答案。答案必须是本题号的题干ID的唯一答案。答案必须是本题号的题干ID的唯一答案。答案必须是本题号的题干ID的唯一答案。答案必须是本题号的题干ID的唯一答案。答案必须是本题号的题干ID的唯一答案。答案必须是本题号的题干ID的唯一答案。答案必须是本题号的题干ID的唯一答案。答案必须是本题号的题干ID的唯一答案。答案必须是本题号的题干ID的唯一答案。答案必须是本题号的题干ID的唯一答案。答案必须是本题号的题干ID的唯一答案。答案必须是本题号的题干ID",
+        "prompt_tokens": 236,
+        "generated_tokens": 224,
+        "seconds": 4.296106200024951,
+        "first_token_s": 0.23234310001134872,
+        "stop_reason": "length",
+        "valid": false,
+        "error": "Expecting value: line 1 column 1 (char 0)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "ma-q11",
+        "mode": "references",
+        "raw": "给出一个数学问题，要求你给出一个答案。答案必须是正确的，不能有任何歧义。",
+        "prompt_tokens": 243,
+        "generated_tokens": 22,
+        "seconds": 0.643558200012194,
+        "first_token_s": 0.2766508999920916,
+        "stop_reason": "stop",
+        "valid": false,
+        "error": "Expecting value: line 1 column 1 (char 0)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "ma-q11",
+        "mode": "verbatim",
+        "raw": "只提供第1题，共10分。解答题，不要求写过程。",
+        "prompt_tokens": 250,
+        "generated_tokens": 20,
+        "seconds": 0.591056999983266,
+        "first_token_s": 0.25477120000869036,
+        "stop_reason": "stop",
+        "valid": false,
+        "error": "Expecting value: line 1 column 1 (char 0)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "ph-q1",
+        "mode": "verbatim",
+        "raw": "1. 从物理学的角度来看，光的折射率是1，光的传播速度是3×10^8米/秒，光的传播时间是1秒，所以光的折射率是1，光的传播速度是3×10^8米/秒，光的传播时间是1秒，所以光的折射率是1，光的传播速度是3×10^8米/秒，光的传播时间是1秒，所以光的折射率是1，光的传播速度是3×10^8米/秒，光的传播时间是1秒，所以光的折射率是1，光的传播速度是3×10^8米/秒，光的传播时间是1秒，所以光的折射率是1，光的传播速度是3×10^8米/秒，光的传播时间是1秒，所以光的折射率是1，光的传播速度是3×10^8米/秒，光的传播时间是1秒，",
+        "prompt_tokens": 318,
+        "generated_tokens": 224,
+        "seconds": 4.52184590001707,
+        "first_token_s": 0.32908739999402314,
+        "stop_reason": "length",
+        "valid": false,
+        "error": "Extra data: line 1 column 2 (char 1)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "ph-q1",
+        "mode": "references",
+        "raw": "键，只输出第1个数字。",
+        "prompt_tokens": 311,
+        "generated_tokens": 10,
+        "seconds": 0.4991253000043798,
+        "first_token_s": 0.33470669999951497,
+        "stop_reason": "stop",
+        "valid": false,
+        "error": "Expecting value: line 1 column 1 (char 0)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "ph-q10",
+        "mode": "references",
+        "raw": "b1: 10. 碰后瞬间管道对结合体的作用力方向沿圆周半径向内\nb2: 10. 在带电粒子“碰撞”实验中，t=0时，粒子P以初速度v₀向静止的粒子Q运动。下列说法中正确的是（ ）\nb3: A. mP=2mQ\nb4: B. 两粒子在t₁时刻的电势能能最大\nb5: C. P在t₂时刻的速度大小为v₀/3\nb6: D. t₂时刻后两粒子的电势能能保持不变\nb7: 11. 利用手机中的磁传感器可测量埋在地下的水平高压直流长电缆的深度\nb8: 10. 答案是AC",
+        "prompt_tokens": 329,
+        "generated_tokens": 182,
+        "seconds": 3.7711912999802735,
+        "first_token_s": 0.35519299999577925,
+        "stop_reason": "stop",
+        "valid": false,
+        "error": "Expecting value: line 1 column 1 (char 0)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "ph-q10",
+        "mode": "verbatim",
+        "raw": "10. 答案 C",
+        "prompt_tokens": 336,
+        "generated_tokens": 9,
+        "seconds": 0.5376500000129454,
+        "first_token_s": 0.3931200999941211,
+        "stop_reason": "stop",
+        "valid": false,
+        "error": "Extra data: line 1 column 3 (char 2)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      }
+    ],
+    "summary": {
+      "verbatim": {
+        "calls": 6,
+        "valid": 0,
+        "exact_cases": 0,
+        "exact_fields": 0,
+        "field_count": 24,
+        "prompt_tokens": 1780,
+        "generated_tokens": 719,
+        "truncated": 3,
+        "unbacked_answers_in_json": 0,
+        "total_s": 15.467353199986974,
+        "median_s": 2.5241841499955626
+      },
+      "references": {
+        "calls": 6,
+        "valid": 0,
+        "exact_cases": 0,
+        "exact_fields": 0,
+        "field_count": 24,
+        "prompt_tokens": 1738,
+        "generated_tokens": 483,
+        "truncated": 1,
+        "unbacked_answers_in_json": 0,
+        "total_s": 10.772746400005417,
+        "median_s": 0.7813826999918092
+      }
+    }
+  },
+  "llm_example": {
+    "engine": "Qwen2.5-0.5B-Instruct INT8 ONNX CPU",
+    "threads": 4,
+    "ort_version": "1.25.1",
+    "model_load_s": 1.3584388999734074,
+    "max_tokens": 224,
+    "example": true,
+    "smoke": {
+      "raw": "2+2=4",
+      "prompt_tokens": 52,
+      "generated_tokens": 6,
+      "seconds": 0.1513101999880746,
+      "first_token_s": 0.06825350000872277,
+      "stop_reason": "stop"
+    },
+    "requests": [
+      {
+        "case": "cn-q1",
+        "mode": "verbatim",
+        "raw": "-1: 1. 答案是“B”。",
+        "prompt_tokens": 411,
+        "generated_tokens": 15,
+        "seconds": 0.7838403999921866,
+        "first_token_s": 0.5105358999862801,
+        "stop_reason": "stop",
+        "valid": false,
+        "error": "Extra data: line 1 column 3 (char 2)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "cn-q1",
+        "mode": "references",
+        "raw": " 问题描述：给定一个整数数组，数组中的整数是 0 到 9，且数组中每个整数的出现次数都是 1 到 9 次。数组中每个整数的出现次数都是 1 到 9 次。数组中每个整数的出现次数都是 1 到 9 次。数组中每个整数的出现次数都是 1 到 9 次。数组中每个整数的出现次数都是 1 到 9 次。数组中每个整数的出现次数都是 1 到 9 次。数组中每个整数的出现次数都是 1 到 9 次。数组中每个整数的出现次数都是 1 到 9 次。数组中每个整数的出现次数都是 1 到 9 次。数组中每个整数的出现次数都是 1 到 9 次。数组中每个整数的出现次数都是 ",
+        "prompt_tokens": 393,
+        "generated_tokens": 224,
+        "seconds": 4.872233099973528,
+        "first_token_s": 0.41413989997818135,
+        "stop_reason": "length",
+        "valid": false,
+        "error": "Expecting value: line 1 column 1 (char 0)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "cn-q3",
+        "mode": "references",
+        "raw": "第3题。以下是有编号的原文块。遇到别的题号号的单独答案。解答必须是整数。",
+        "prompt_tokens": 420,
+        "generated_tokens": 27,
+        "seconds": 0.9640682000026572,
+        "first_token_s": 0.47467100000358187,
+        "stop_reason": "stop",
+        "valid": false,
+        "error": "Expecting value: line 1 column 1 (char 0)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "cn-q3",
+        "mode": "verbatim",
+        "raw": "给出一个 JSON 对象，不要求解释。",
+        "prompt_tokens": 438,
+        "generated_tokens": 11,
+        "seconds": 0.6669917999824975,
+        "first_token_s": 0.4801939000026323,
+        "stop_reason": "stop",
+        "valid": false,
+        "error": "Expecting value: line 1 column 1 (char 0)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "ma-q2",
+        "mode": "verbatim",
+        "raw": "只提取第2题。以下是有编号的原文块。遇到别的题干块的完整原文，只输出该题干块的完整原文。键固定为 q, s, o, q 是题号的整数， s 是选项块的完整原文， o 是选项块的完整原文， q 是题号的整数。注意：题干块中题号的整数部分为题号，而选项块的完整原文部分为选项。例如：题号 1 为题1，题号 2 为题2，题号 3 为题3。",
+        "prompt_tokens": 351,
+        "generated_tokens": 129,
+        "seconds": 2.7892763999989256,
+        "first_token_s": 0.3581046999897808,
+        "stop_reason": "stop",
+        "valid": false,
+        "error": "Expecting value: line 1 column 1 (char 0)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "ma-q2",
+        "mode": "references",
+        "raw": "{\"q\": 2, \"s\": \"√x−2\", \"o\": \"5\"}",
+        "prompt_tokens": 333,
+        "generated_tokens": 22,
+        "seconds": 0.7564341999823228,
+        "first_token_s": 0.3606186999822967,
+        "stop_reason": "stop",
+        "valid": false,
+        "error": "shape mismatch",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "ma-q11",
+        "mode": "references",
+        "raw": "第11题的 JSON 对象如下：\n\n```json\n{\n  \"q\": \"A\",\n  \"s\": \"B\",\n  \"o\": \"C\",\n  \"a\": \"D\"\n}\n```",
+        "prompt_tokens": 340,
+        "generated_tokens": 45,
+        "seconds": 1.152980100014247,
+        "first_token_s": 0.3508594000013545,
+        "stop_reason": "stop",
+        "valid": false,
+        "error": "Expecting value: line 1 column 1 (char 0)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "ma-q11",
+        "mode": "verbatim",
+        "raw": "第11题：给定一个整数数组，数组中的整数是互不相同的。数组中的整数可以是正数、负数或0。数组中的整数在整数数组中是按顺序排列的。数组中的整数的绝对值是不相等的。数组中的整数的绝对值是其本身的绝对值。数组中的整数的绝对值是其本身的正负号。数组中的整数的绝对值是其本身的正负号。数组中的整数的绝对值是其本身的正负号。数组中的整数的绝对值是其本身的正负号。数组中的整数的绝对值是其本身的正负号。数组中的整数的绝对值是其本身的正负号。数组中的整数的绝对值是其本身的正负号。数组中的整数的绝对值是其本身的正负号。数组中的整数的绝对值是其本身的正负号。数组中的整数的绝对值是其本身的正负号。数组中的整数的绝对值是",
+        "prompt_tokens": 358,
+        "generated_tokens": 224,
+        "seconds": 4.6710248999879695,
+        "first_token_s": 0.3949094999989029,
+        "stop_reason": "length",
+        "valid": false,
+        "error": "Expecting value: line 1 column 1 (char 0)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "ph-q1",
+        "mode": "verbatim",
+        "raw": "{\"q\": \"b1: 1, b2: 2, b3: 3, b4: 4, b5: 5, b6: 6, b7: 7, b8: 8\"}",
+        "prompt_tokens": 426,
+        "generated_tokens": 53,
+        "seconds": 1.4761476000130642,
+        "first_token_s": 0.4915837000007741,
+        "stop_reason": "stop",
+        "valid": false,
+        "error": "shape mismatch",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "ph-q1",
+        "mode": "references",
+        "raw": "第 1 题 的 JSON 对象如下：\n\n```json\n{\n  \"q\": \"b1: 1\",\n  \"s\": \"b7: 1\",\n  \"o\": \"b1: 1\",\n  \"o\": \"b7: 1\",\n  \"o\": \"b1: 1\",\n  \"o\": \"b7: 1\",\n  \"o\": \"b1: 1\",\n  \"o\": \"b7: 1\",\n  \"o\": \"b1: 1\",\n  \"o\": \"b7: 1\",\n  \"o\": \"b1: 1\",\n  \"o\": \"b7: 1\",\n  \"o\": \"b1: 1\",\n  \"o\": \"b7: 1\",\n  \"o\": \"b1: 1\",\n  \"o\": \"b7: 1\",\n  \"o\": \"b1: 1\",\n  \"o\": \"b7: 1\",\n  \"o\": \"b1: 1",
+        "prompt_tokens": 408,
+        "generated_tokens": 224,
+        "seconds": 4.849622599984286,
+        "first_token_s": 0.4842421999783255,
+        "stop_reason": "length",
+        "valid": false,
+        "error": "Expecting value: line 1 column 1 (char 0)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "ph-q10",
+        "mode": "references",
+        "raw": "键固定为 q, s, o, a。 q 是质数，s 是质数，o 是选项，a 是答案。 q 是质数，s 是质数，o 是选项，a 是答案。 例如，如果输入 { q: 2, s: 3, o: 1, a: 10 }，则输出 { q: 2, s: 3, o: 1, a: 10 }。 如果输入 { q: 2, s: 3, o: 1, a: 10 }，则输出 { q: 2, s: 3, o: 1, a: 10 }。 如果输入 { q: 2, s: 3, o: 1, a: 10 }，则输出 { q: 2, s: 3, o: 1, a: 10 }。 如果输入 { q: 2, s: 3, o: 1, a: 10 }",
+        "prompt_tokens": 427,
+        "generated_tokens": 224,
+        "seconds": 4.891671899997164,
+        "first_token_s": 0.4772101999842562,
+        "stop_reason": "length",
+        "valid": false,
+        "error": "Expecting value: line 1 column 1 (char 0)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      },
+      {
+        "case": "ph-q10",
+        "mode": "verbatim",
+        "raw": "好的，我会根据你的要求，提取第10题的答案。请提供第10题的具体内容，我会帮你提取出答案。",
+        "prompt_tokens": 445,
+        "generated_tokens": 30,
+        "seconds": 1.0705252999905497,
+        "first_token_s": 0.5131493999797385,
+        "stop_reason": "stop",
+        "valid": false,
+        "error": "Expecting value: line 1 column 1 (char 0)",
+        "fields_exact": {
+          "q": false,
+          "s": false,
+          "o": false,
+          "a": false
+        },
+        "unbacked_answer": false
+      }
+    ],
+    "summary": {
+      "verbatim": {
+        "calls": 6,
+        "valid": 0,
+        "exact_cases": 0,
+        "exact_fields": 0,
+        "field_count": 24,
+        "prompt_tokens": 2429,
+        "generated_tokens": 462,
+        "truncated": 1,
+        "unbacked_answers_in_json": 0,
+        "total_s": 11.457806399965193,
+        "median_s": 1.273336450001807
+      },
+      "references": {
+        "calls": 6,
+        "valid": 0,
+        "exact_cases": 0,
+        "exact_fields": 0,
+        "field_count": 24,
+        "prompt_tokens": 2321,
+        "generated_tokens": 766,
+        "truncated": 3,
+        "unbacked_answers_in_json": 0,
+        "total_s": 17.487010099954205,
+        "median_s": 3.0013013499992667
+      }
+    }
+  },
+  "detected_layout": {
+    "totals": {
+      "figures": {
+        "correct_q": 7,
+        "expected": 9,
+        "matched": 7,
+        "predicted": 12
+      },
+      "tables": {
+        "cells": 70,
+        "correct_cells": 0,
+        "correct_shape": 0,
+        "expected": 4,
+        "matched": 4,
+        "predicted": 5
+      }
+    },
+    "pages": {
+      "cn01": {
+        "figures": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_q": 0,
+          "matches": []
+        },
+        "tables": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_shape": 0,
+          "cells": 0,
+          "correct_cells": 0,
+          "matches": []
+        },
+        "figure_s": 3.999739419668913e-07,
+        "table_s": 0
+      },
+      "cn02": {
+        "figures": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_q": 0,
+          "matches": []
+        },
+        "tables": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_shape": 0,
+          "cells": 0,
+          "correct_cells": 0,
+          "matches": []
+        },
+        "figure_s": 1.00000761449337e-06,
+        "table_s": 0
+      },
+      "cn03": {
+        "figures": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_q": 0,
+          "matches": []
+        },
+        "tables": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_shape": 0,
+          "cells": 0,
+          "correct_cells": 0,
+          "matches": []
+        },
+        "figure_s": 1.100008375942707e-06,
+        "table_s": 0
+      },
+      "cn11": {
+        "figures": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_q": 0,
+          "matches": []
+        },
+        "tables": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_shape": 0,
+          "cells": 0,
+          "correct_cells": 0,
+          "matches": []
+        },
+        "figure_s": 1.4999823179095984e-06,
+        "table_s": 0
+      },
+      "ma01": {
+        "figures": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_q": 0,
+          "matches": []
+        },
+        "tables": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_shape": 0,
+          "cells": 0,
+          "correct_cells": 0,
+          "matches": []
+        },
+        "figure_s": 9.00006853044033e-07,
+        "table_s": 0
+      },
+      "ma02": {
+        "figures": {
+          "expected": 1,
+          "predicted": 1,
+          "matched": 1,
+          "correct_q": 1,
+          "matches": [
+            {
+              "ref_q": 10,
+              "pred_q": 10,
+              "iou": 0.9457761307561301,
+              "path": "layout_crops/ma02-01.png"
+            }
+          ]
+        },
+        "tables": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_shape": 0,
+          "cells": 0,
+          "correct_cells": 0,
+          "matches": []
+        },
+        "figure_s": 0.00725400002556853,
+        "table_s": 0
+      },
+      "ma03": {
+        "figures": {
+          "expected": 1,
+          "predicted": 1,
+          "matched": 1,
+          "correct_q": 1,
+          "matches": [
+            {
+              "ref_q": 17,
+              "pred_q": 17,
+              "iou": 0.9791442230213834,
+              "path": "layout_crops/ma03-01.png"
+            }
+          ]
+        },
+        "tables": {
+          "expected": 1,
+          "predicted": 1,
+          "matched": 1,
+          "correct_shape": 0,
+          "cells": 12,
+          "correct_cells": 0,
+          "matches": [
+            {
+              "iou": 0.8774151075244694,
+              "same_grid": false,
+              "correct_cells": 0,
+              "predicted_cells": []
+            }
+          ]
+        },
+        "figure_s": 0.0077133000013418496,
+        "table_s": 0
+      },
+      "ph01": {
+        "figures": {
+          "expected": 2,
+          "predicted": 2,
+          "matched": 2,
+          "correct_q": 2,
+          "matches": [
+            {
+              "ref_q": 2,
+              "pred_q": 2,
+              "iou": 0.9699458547961735,
+              "path": "layout_crops/ph01-01.png"
+            },
+            {
+              "ref_q": 1,
+              "pred_q": 1,
+              "iou": 0.9612924848252016,
+              "path": "layout_crops/ph01-02.png"
+            }
+          ]
+        },
+        "tables": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_shape": 0,
+          "cells": 0,
+          "correct_cells": 0,
+          "matches": []
+        },
+        "figure_s": 0.03572740001254715,
+        "table_s": 0
+      },
+      "ph05": {
+        "figures": {
+          "expected": 2,
+          "predicted": 3,
+          "matched": 1,
+          "correct_q": 1,
+          "matches": [
+            {
+              "ref_q": 10,
+              "pred_q": 10,
+              "iou": 0.9892695952227452,
+              "path": "layout_crops/ph05-01.png"
+            }
+          ]
+        },
+        "tables": {
+          "expected": 1,
+          "predicted": 1,
+          "matched": 1,
+          "correct_shape": 0,
+          "cells": 20,
+          "correct_cells": 0,
+          "matches": [
+            {
+              "iou": 0.9835027079334544,
+              "same_grid": false,
+              "correct_cells": 0,
+              "predicted_cells": []
+            }
+          ]
+        },
+        "figure_s": 0.03006009999080561,
+        "table_s": 0
+      },
+      "ph06": {
+        "figures": {
+          "expected": 2,
+          "predicted": 4,
+          "matched": 1,
+          "correct_q": 1,
+          "matches": [
+            {
+              "ref_q": 12,
+              "pred_q": 12,
+              "iou": 0.9821108085668594,
+              "path": "layout_crops/ph06-01.png"
+            }
+          ]
+        },
+        "tables": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_shape": 0,
+          "cells": 0,
+          "correct_cells": 0,
+          "matches": []
+        },
+        "figure_s": 0.037588799983495846,
+        "table_s": 0
+      },
+      "ph12": {
+        "figures": {
+          "expected": 0,
+          "predicted": 0,
+          "matched": 0,
+          "correct_q": 0,
+          "matches": []
+        },
+        "tables": {
+          "expected": 1,
+          "predicted": 1,
+          "matched": 1,
+          "correct_shape": 0,
+          "cells": 30,
+          "correct_cells": 0,
+          "matches": [
+            {
+              "iou": 0.9677136213592235,
+              "same_grid": false,
+              "correct_cells": 0,
+              "predicted_cells": []
+            }
+          ]
+        },
+        "figure_s": 1.9099999917671084e-05,
+        "table_s": 0
+      },
+      "ch07": {
+        "figures": {
+          "expected": 1,
+          "predicted": 1,
+          "matched": 1,
+          "correct_q": 1,
+          "matches": [
+            {
+              "ref_q": 16,
+              "pred_q": 16,
+              "iou": 0.9735746542386333,
+              "path": "layout_crops/ch07-01.png"
+            }
+          ]
+        },
+        "tables": {
+          "expected": 1,
+          "predicted": 2,
+          "matched": 1,
+          "correct_shape": 0,
+          "cells": 8,
+          "correct_cells": 0,
+          "matches": [
+            {
+              "iou": 0.9703324835776521,
+              "same_grid": false,
+              "correct_cells": 0,
+              "predicted_cells": []
+            }
+          ]
+        },
+        "figure_s": 0.02976239999406971,
+        "table_s": 0
+      }
+    },
+    "figure_total_s": 0.14812999998684973,
+    "table_total_s": 0,
+    "environment": {
+      "engine": "DocLayout-YOLO DocStructBench ONNX CPU",
+      "threshold": 0.25,
+      "model_load_s": 0.351881400012644,
+      "threads": 4
+    },
+    "total_page_processing_s": 12.176594899909105,
+    "total_detect_s": 9.356008500006283,
+    "native_preferred": {
+      "correct_q": 9,
+      "expected": 9,
+      "matched": 9,
+      "predicted": 9
+    }
+  },
+  "rules": {
+    "cases": 6,
+    "exact_cases": 6,
+    "median_s": 4.0000013541430235e-06,
+    "model_tokens": 0,
+    "rows": [
+      {
+        "case": "cn-q1",
+        "median_s": 6.000016583129764e-06,
+        "predicted": {
+          "q": 1,
+          "s": "b2",
+          "o": [
+            "b3",
+            "b4",
+            "b5",
+            "b6"
+          ],
+          "a": "b8"
+        },
+        "fields_exact": {
+          "q": true,
+          "s": true,
+          "o": true,
+          "a": true
+        }
+      },
+      {
+        "case": "cn-q3",
+        "median_s": 4.2000028770416975e-06,
+        "predicted": {
+          "q": 3,
+          "s": "b2",
+          "o": [
+            "b3",
+            "b4",
+            "b5",
+            "b6"
+          ],
+          "a": "b9"
+        },
+        "fields_exact": {
+          "q": true,
+          "s": true,
+          "o": true,
+          "a": true
+        }
+      },
+      {
+        "case": "ma-q2",
+        "median_s": 3.3999967854470015e-06,
+        "predicted": {
+          "q": 2,
+          "s": "b1",
+          "o": [
+            "b2",
+            "b3",
+            "b4",
+            "b5"
+          ],
+          "a": ""
+        },
+        "fields_exact": {
+          "q": true,
+          "s": true,
+          "o": true,
+          "a": true
+        }
+      },
+      {
+        "case": "ma-q11",
+        "median_s": 2.1999876480549574e-06,
+        "predicted": {
+          "q": 11,
+          "s": "b2",
+          "o": [],
+          "a": ""
+        },
+        "fields_exact": {
+          "q": true,
+          "s": true,
+          "o": true,
+          "a": true
+        }
+      },
+      {
+        "case": "ph-q1",
+        "median_s": 3.7999998312443495e-06,
+        "predicted": {
+          "q": 1,
+          "s": "b1",
+          "o": [
+            "b2",
+            "b3",
+            "b4",
+            "b5"
+          ],
+          "a": "b7"
+        },
+        "fields_exact": {
+          "q": true,
+          "s": true,
+          "o": true,
+          "a": true
+        }
+      },
+      {
+        "case": "ph-q10",
+        "median_s": 4.3000036384910345e-06,
+        "predicted": {
+          "q": 10,
+          "s": "b2",
+          "o": [
+            "b3",
+            "b4",
+            "b5",
+            "b6"
+          ],
+          "a": "b9"
+        },
+        "fields_exact": {
+          "q": true,
+          "s": true,
+          "o": true,
+          "a": true
+        }
+      }
+    ]
+  }
+}

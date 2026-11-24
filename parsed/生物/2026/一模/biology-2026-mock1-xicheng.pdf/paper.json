@@ -1,0 +1,1486 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|一模|西城|生物|",
+    "title": "2026北京西城高三一模生物试题及答案",
+    "year": 2026,
+    "kind": "一模",
+    "subject": "生物",
+    "district": "西城"
+  },
+  "source": {
+    "file": "../../../../../raw/生物/2026/一模/biology-2026-mock1-xicheng.pdf",
+    "sha256": "0c835ef2d2f7ae719abf7affbe6cfc1421b73f21c63b656a0b304d7c933cfd8b",
+    "page_count": 13
+  },
+  "extraction": {
+    "status": "verified",
+    "tool": "PyMuPDF 页面图像提取 + 视觉逐页转录；配图按原页面区域裁剪",
+    "notes": [
+      "PDF 为扫描件，正文 10 页（第 1-10 页），第 11-12 页为“生物答案及评分参考”，第 13 页为“北京高考在线”平台宣传页，无试题内容。",
+      "答案与试题在同一 PDF 的第 11-12 页，故 answer.source 均为 question_document，未另列 answer_files。",
+      "全卷无可检索文本层，文字由页面图像逐页视觉转录，建议人工抽检后转为 verified。",
+      "各页另叠有一张带平台水印的透明图层，转录与配图裁剪时均忽略水印。",
+      "第一部分每题 2 分据卷首“每题 2 分”标注。"
+    ]
+  },
+  "assets": {
+    "a001": {
+      "path": "assets/a001.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        737,
+        682,
+        1180,
+        1065
+      ],
+      "sha256": "0334807ea2062008626a8c46cd8fa1655f35cb0f0858f318b0c31e6b1db79c88"
+    },
+    "a002": {
+      "path": "assets/a002.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        246,
+        252,
+        1155,
+        426
+      ],
+      "sha256": "475d22dcdc05caf75b7e8a4ac86c3e13cf93bbe73bd493bd7139c02743281f45"
+    },
+    "a003": {
+      "path": "assets/a003.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        295,
+        658,
+        909,
+        1061
+      ],
+      "sha256": "33f1f30e4e3c8b0b31f34c8279f02420d54ba88817b20e86aa528882e49bb989"
+    },
+    "a004": {
+      "path": "assets/a004.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        658,
+        1227,
+        1180,
+        1627
+      ],
+      "sha256": "2019ab4a0213df50e04518e366c4fb1215f179cb0ad8be13ed939d9cba140531"
+    },
+    "a005": {
+      "path": "assets/a005.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        313,
+        218,
+        922,
+        505
+      ],
+      "sha256": "ed937940ace94ad11e23906bf874ea80227395f9a620dda0bbc9480c90124efa"
+    },
+    "a006": {
+      "path": "assets/a006.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        264,
+        223,
+        1002,
+        566
+      ],
+      "sha256": "c1a640842184a56a230cc07038a0e9d0dd95a16a2cf73393fb4df171301beb2a"
+    },
+    "a007": {
+      "path": "assets/a007.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        891,
+        1140,
+        1161,
+        1336
+      ],
+      "sha256": "9536fdec3f9af7ee790f6cf2f824ee29a65212e2d8df72f332be29655ed33ca7"
+    },
+    "a008": {
+      "path": "assets/a008.png",
+      "kind": "image",
+      "page": 5,
+      "bbox": [
+        338,
+        531,
+        989,
+        847
+      ],
+      "sha256": "cef609620a989b1c769b1ef515a21cced357f2e813213dfed1c2027e4f9e0461"
+    },
+    "a009": {
+      "path": "assets/a009.png",
+      "kind": "image",
+      "page": 6,
+      "bbox": [
+        215,
+        548,
+        605,
+        800
+      ],
+      "sha256": "93d66d490b2d5461cf27327ff40c8a2869706f2f94565fb20a7caaeb2b4dcb08"
+    },
+    "a010": {
+      "path": "assets/a010.png",
+      "kind": "image",
+      "page": 6,
+      "bbox": [
+        670,
+        543,
+        1106,
+        780
+      ],
+      "sha256": "6156488e4b06144cba0c296341e2817c2b6d4ca7f8df46d96852a4e2949f5e57"
+    },
+    "a011": {
+      "path": "assets/a011.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [
+        166,
+        369,
+        1002,
+        444
+      ],
+      "sha256": "cb9a6f6865a827867b2a3cd7b2a3376ea1d1f1357013c4abb10a8f85fd00ca66"
+    },
+    "a012": {
+      "path": "assets/a012.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [
+        356,
+        673,
+        848,
+        931
+      ],
+      "sha256": "cb485ce92272ebfc746591998718bb69cb36bbcd26913816b470a92248f2524a"
+    },
+    "a013": {
+      "path": "assets/a013.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [
+        289,
+        1114,
+        897,
+        1406
+      ],
+      "sha256": "d7b9dfdbf8bc02b26fbe49bc76384eb699884600a8ebbd7111d91f30698dce9d"
+    },
+    "a014": {
+      "path": "assets/a014.png",
+      "kind": "image",
+      "page": 8,
+      "bbox": [
+        768,
+        304,
+        1174,
+        592
+      ],
+      "sha256": "3ff80909c222afbfaef0f0d6e226d5e6da8fa225f8d5897c1e21beb5ee68934c"
+    },
+    "a015": {
+      "path": "assets/a015.png",
+      "kind": "image",
+      "page": 8,
+      "bbox": [
+        246,
+        757,
+        866,
+        914
+      ],
+      "sha256": "4b6889f7e2f992d0e945573d54eabbe91ea14449876689c2815a2a5ccb2084e5"
+    },
+    "a016": {
+      "path": "assets/a016.png",
+      "kind": "image",
+      "page": 8,
+      "bbox": [
+        848,
+        1070,
+        1155,
+        1246
+      ],
+      "sha256": "7558090286d2660748a7b60181f33da620d0fa89556db9787b91970c3424c32e"
+    },
+    "a017": {
+      "path": "assets/a017.png",
+      "kind": "image",
+      "page": 9,
+      "bbox": [
+        166,
+        313,
+        1057,
+        665
+      ],
+      "sha256": "937816adc33aeeeb87b2ff1bb69a3545da28288cee70bc8b820fbcbe2696eaa7"
+    },
+    "a018": {
+      "path": "assets/a018.png",
+      "kind": "image",
+      "page": 9,
+      "bbox": [
+        424,
+        884,
+        1057,
+        1204
+      ],
+      "sha256": "89f11f12130bb09deaace5ed8d6f5b390ad17893da7b96b0e2d66d58c62a4849"
+    },
+    "a019": {
+      "path": "assets/a019.png",
+      "kind": "image",
+      "page": 10,
+      "bbox": [
+        670,
+        331,
+        1211,
+        665
+      ],
+      "sha256": "0f314cb3c55263d42d093f78437bcf0f710a52c9bf129e08aa60189e7bfb53f9"
+    },
+    "a020": {
+      "path": "assets/a020.png",
+      "kind": "image",
+      "page": 10,
+      "bbox": [
+        614,
+        1093,
+        1192,
+        1336
+      ],
+      "sha256": "ec89a897006e6b27b964a9227561edfd5a4ded6c16c30161830e08e88f9d303f"
+    }
+  },
+  "materials": {
+    "m001": {
+      "kind": "instructions",
+      "title": "第一部分",
+      "content": [
+        "本试卷共10页，100分。考试时长90分钟。考生务必将答案答在答题卡上，在试卷上作答无效。考试结束后，将本试卷和答题卡一并交回。",
+        "第一部分",
+        "本部分共15题，每题2分，共30分。在每题列出的四个选项中，选出最符合题目要求的一项。"
+      ],
+      "pages": [
+        1
+      ]
+    },
+    "m002": {
+      "kind": "instructions",
+      "title": "第二部分",
+      "content": [
+        "第二部分",
+        "本部分共6题，共70分。"
+      ],
+      "pages": [
+        5
+      ]
+    },
+    "m003": {
+      "kind": "passage",
+      "title": "基于 T7-OR 复制系统的基因持续超突变和加速进化",
+      "content": [
+        "T7 噬菌体侵染大肠杆菌后，会合成其特有的 DNA 聚合酶、解旋酶等，以适配自身 DNA 的特殊结构，来进行 DNA 复制。科研人员对 T7 噬菌体的复制系统进行改造，开发出新的复制系统（T7-OR），实现了目标基因在大肠杆菌细胞内的连续超突变和加速进化。",
+        "T7 溶菌酶的核心功能是降解宿主菌细胞壁，帮助子代噬菌体从细菌中释放。T7 溶菌酶还参与 T7 噬菌体 DNA 复制（图1）。科研人员将 T7 DNA 聚合酶基因、T7 溶菌酶基因改造后，与 T7 RNA 聚合酶基因、T7 复制原点等导入大肠杆菌中，获得具有 T7-OR 复制系统的菌株（R 菌株）。T7-OR 系统仅作用于携带 T7 复制原点的环形质粒，实现在正常培养条件下目标基因的持续超突变。",
+        {
+          "asset": "a019",
+          "caption": "图1"
+        },
+        "细菌产生的 β-内酰胺酶能够水解 β-内酰胺类抗生素，使其失去抗菌活性。这种酶是细菌耐药性的重要机制之一。科研人员将 β-内酰胺酶基因导入 R 菌株，然后将此菌株接种到含有最低抑菌浓度的抗生素的平板上，以此作为进化起点。培养后挑取菌落，在不断提高的抗生素浓度下传代培养。该系统仅用一周时间，就使 β-内酰胺酶的抗菌活性提升 5000 倍，且进化出的突变位点与临床耐药菌株中的突变高度一致。"
+      ],
+      "pages": [
+        10
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "1.",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "对人血红蛋白的叙述错误的是",
+      "options": [
+        {
+          "key": "A",
+          "content": "由 C、H、O、N 等元素构成"
+        },
+        {
+          "key": "B",
+          "content": "组成血红蛋白的肽链在核糖体合成"
+        },
+        {
+          "key": "C",
+          "content": "肽链的氨基酸序列决定其空间结构"
+        },
+        {
+          "key": "D",
+          "content": "通过主动运输分泌到血浆中发挥运输作用"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q002",
+      "label": "2.",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": [
+        "香樟幼树的光合速率与环境 CO₂ 浓度、土壤水分含量的关系如图。下列分析错误的是",
+        {
+          "asset": "a001"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "a 点光合速率大于 b 点与气孔导度较大有关"
+        },
+        {
+          "key": "B",
+          "content": "bc 段限制光合作用的主要因素是 CO₂ 浓度"
+        },
+        {
+          "key": "C",
+          "content": "干旱胁迫会降低香樟幼树同化 CO₂ 的能力"
+        },
+        {
+          "key": "D",
+          "content": "水分缺乏还影响香樟对土壤无机盐的利用"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q003",
+      "label": "3.",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "我国科研人员开发的通用型 iPS 衍生帕金森病细胞治疗产品（多巴胺能神经前体细胞）已进入临床阶段。相关叙述错误的是",
+      "options": [
+        {
+          "key": "A",
+          "content": "诱导形成 iPS 细胞过程中不存在基因选择性表达"
+        },
+        {
+          "key": "B",
+          "content": "iPS 细胞具有自我更新能力和多向分化的潜能"
+        },
+        {
+          "key": "C",
+          "content": "应用 iPS 细胞避免了胚胎干细胞涉及的伦理问题"
+        },
+        {
+          "key": "D",
+          "content": "通用型 iPS 衍生细胞治疗产品具有即时供应的优势"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q004",
+      "label": "4.",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "Fabry 病是伴 X 染色体隐性遗传病。患者编码 α-半乳糖苷酶 A 的基因 GLA 发生突变，导致 Gb3 等在全身多个脏器积累，引起临床症状。相关叙述正确的是",
+      "options": [
+        {
+          "key": "A",
+          "content": "Fabry 病患者中女性远多于男性"
+        },
+        {
+          "key": "B",
+          "content": "所有患者 GLA 的碱基序列均相同"
+        },
+        {
+          "key": "C",
+          "content": "基因测序、Gb3 含量测定可辅助诊断"
+        },
+        {
+          "key": "D",
+          "content": "可通过口服 α-半乳糖苷酶进行治疗"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q005",
+      "label": "5.",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": [
+        "酵母有 α 型和 a 型两种交配类型，由一对等位基因决定。3 号染色体上的 R 基因使酵母有环己酰亚胺（CYH）抗性。利用 2 个酵母细胞进行实验，结果如图。不考虑突变，由结果可得出",
+        {
+          "asset": "a002"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "子囊中四个细胞的基因型两两相同"
+        },
+        {
+          "key": "B",
+          "content": "R 基因参与决定酵母交配类型"
+        },
+        {
+          "key": "C",
+          "content": "减数分裂时发生了同源染色体片段交换"
+        },
+        {
+          "key": "D",
+          "content": "筛选获得的酵母细胞基因型均为 RR"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q006",
+      "label": "6.",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": [
+        "将来自不同湖泊的刺鱼在人工饲养条件下杂交，结果如图。对两个刺鱼种群的叙述错误的是",
+        {
+          "asset": "a003"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "不存在生殖隔离"
+        },
+        {
+          "key": "B",
+          "content": "性状主要由环境决定"
+        },
+        {
+          "key": "C",
+          "content": "基因库有差异"
+        },
+        {
+          "key": "D",
+          "content": "具有共同祖先"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q007",
+      "label": "7.",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": [
+        "不同选择压力下，某种生物在繁殖、竞争和避免被捕食之间的能量分配比例如图。相关分析错误的是",
+        {
+          "asset": "a004"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "生物用于繁殖、竞争和避免被捕食的能量之和等于其同化的总能量"
+        },
+        {
+          "key": "B",
+          "content": "低竞争低捕食条件更有利于种群数量增长"
+        },
+        {
+          "key": "C",
+          "content": "环境从 A 到 C 变化时，能量分配调整有利于降低死亡率"
+        },
+        {
+          "key": "D",
+          "content": "新迁入某地的种群，能量分配可发生由 A 到 B 再到 D 的变化"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q008",
+      "label": "8.",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": [
+        "某湖泊受到低水平原子能工业废料污染后，湖中的食物网各部分锶-90 的相对含量如图所示。下列分析错误的是",
+        {
+          "asset": "a005"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "水生植物属于第一营养级"
+        },
+        {
+          "key": "B",
+          "content": "浮游动物中锶-90 含量可能低于 750"
+        },
+        {
+          "key": "C",
+          "content": "锶-90 不易被排出体外使其沿着食物链在生物体内富集"
+        },
+        {
+          "key": "D",
+          "content": "引入水生植物清除湖中锶-90 体现了生物多样性的直接价值"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q009",
+      "label": "9.",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "下列生态工程设计中，依据的主要原理不是“循环”的是",
+      "options": [
+        {
+          "key": "A",
+          "content": "生态农场利用秸秆培养食用菌，菌渣再还田"
+        },
+        {
+          "key": "B",
+          "content": "桑基鱼塘中用蚕沙喂鱼、塘泥培桑"
+        },
+        {
+          "key": "C",
+          "content": "厨余垃圾堆肥发酵，制成有机肥用于城市绿化"
+        },
+        {
+          "key": "D",
+          "content": "在塔克拉玛干沙漠锁边工程中，选种多种本土植物"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q010",
+      "label": "10.",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": [
+        "慢性失眠会使肾上腺皮质分泌皮质醇增多，进而产生疲劳、焦虑等症状。推拿治疗对患者下丘脑-垂体-肾上腺皮质轴（HPA 轴）的影响如表。相关叙述错误的是",
+        {
+          "table": {
+            "header": [
+              "组别",
+              "时间",
+              "皮质醇（pg·mL⁻¹）",
+              "促肾上腺皮质激素（pg·mL⁻¹）",
+              "促肾上腺皮质激素释放激素（pg·mL⁻¹）"
+            ],
+            "rows": [
+              [
+                "健康组",
+                "—",
+                "1486",
+                "298",
+                "187"
+              ],
+              [
+                "推拿组",
+                "治疗前",
+                "1996",
+                "330",
+                "213"
+              ],
+              [
+                "推拿组",
+                "治疗后",
+                "1571",
+                "300",
+                "190"
+              ]
+            ]
+          }
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "患者皮质醇较高与下丘脑产生的促肾上腺皮质激素较高有关"
+        },
+        {
+          "key": "B",
+          "content": "推拿治疗可以降低慢性失眠患者 HPA 轴相关激素的水平"
+        },
+        {
+          "key": "C",
+          "content": "推拿治疗可能促进了皮质醇对垂体的反馈抑制作用"
+        },
+        {
+          "key": "D",
+          "content": "还应检测睡眠质量、疲劳状态等指标来评价疗效"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        3
+      ],
+      "notes": [
+        "原表“健康组”行的“时间”列为空白，JSON 表格中以“—”占位。"
+      ]
+    },
+    {
+      "id": "q011",
+      "label": "11.",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "调节性 T 细胞是一类免疫抑制细胞，可抑制辅助性 T 细胞和细胞毒性 T 细胞的活化、增殖。在下列疾病的治疗中，抑制调节性 T 细胞活性有利于减轻症状的是",
+      "options": [
+        {
+          "key": "A",
+          "content": "自身免疫病"
+        },
+        {
+          "key": "B",
+          "content": "癌症"
+        },
+        {
+          "key": "C",
+          "content": "移植排斥反应"
+        },
+        {
+          "key": "D",
+          "content": "过敏反应"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q012",
+      "label": "12.",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": [
+        "GSK 是油菜素内酯（BR）信号通路中的关键组分。生长素响应基因 OsIAA7 调控水稻籽粒发育（如图）。以下说法错误的是",
+        {
+          "asset": "a006"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "生长素和 BR 共同调控水稻籽粒的大小"
+        },
+        {
+          "key": "B",
+          "content": "OsIAA7 增强 GSK 对 BZR 的磷酸化修饰"
+        },
+        {
+          "key": "C",
+          "content": "osiaa7 突变体中过表达 GSK 可使籽粒更大"
+        },
+        {
+          "key": "D",
+          "content": "该研究可为水稻高产育种提供新靶点"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q013",
+      "label": "13.",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "为制备抗甲肝抗原的人源单克隆抗体，从病毒携带者的淋巴细胞获取抗体基因，通过基因工程使抗体展示在噬菌体表面，从中筛选携带目标抗体的噬菌体克隆。此过程中不需要的步骤是",
+      "options": [
+        {
+          "key": "A",
+          "content": "设计引物，通过 PCR 获取抗体基因"
+        },
+        {
+          "key": "B",
+          "content": "将分离的 B 细胞与骨髓瘤细胞融合并筛选"
+        },
+        {
+          "key": "C",
+          "content": "构建抗体基因—噬菌体表面蛋白基因融合基因"
+        },
+        {
+          "key": "D",
+          "content": "通过抗原—抗体杂交对噬菌体抗体库进行筛选"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q014",
+      "label": "14.",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": [
+        "某同学探究公园土壤中分解尿素的细菌的数量，部分结果如图。相关叙述正确的是",
+        {
+          "asset": "a007"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "培养基以尿素为唯一碳源"
+        },
+        {
+          "key": "B",
+          "content": "采用平板划线法进行接种"
+        },
+        {
+          "key": "C",
+          "content": "用无菌水对土壤浸出液进行梯度稀释"
+        },
+        {
+          "key": "D",
+          "content": "菌落太少，不适合分解尿素细菌的计数"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q015",
+      "label": "15.",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "关于实验中温度的控制，叙述错误的是",
+      "options": [
+        {
+          "key": "A",
+          "content": "PCR 扩增 DNA 片段，变性后需要降低温度以复性"
+        },
+        {
+          "key": "B",
+          "content": "诱导洋葱细胞染色体数目加倍，可将洋葱放置在 4℃环境"
+        },
+        {
+          "key": "C",
+          "content": "体外培养哺乳动物细胞，温度多以（36.5±0.5）℃为宜"
+        },
+        {
+          "key": "D",
+          "content": "用双缩脲试剂检测蛋白质，需将试管放入沸水中加热"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q016",
+      "label": "16.",
+      "type": "composite",
+      "materials": [
+        "m002"
+      ],
+      "stem": "种间关系及其维持机制是生态学研究的重点问题。科研人员对蝇子草与夜蛾等传粉昆虫之间的互作关系进行了研究。",
+      "score": 10,
+      "pages": [
+        5
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "short_answer",
+          "stem": "生物学在不同结构层次上研究的问题不同。种间关系属于______水平研究的问题。",
+          "answer": {
+            "source": "question_document",
+            "content": "群落"
+          }
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "composite",
+          "stem": [
+            "夜蛾成虫夜间活动，熊蜂白天出巢访花。为确定蝇子草与夜蛾、熊蜂等的传粉关系，在不同时间段对蝇子草的花进行套袋，一段时间后统计坐果率，结果如图。",
+            {
+              "asset": "a008"
+            }
+          ],
+          "parts": [
+            {
+              "id": "p1",
+              "label": "①",
+              "type": "short_answer",
+              "stem": "细蝇子草昼夜全套组的坐果率______其他三组，说明其高度依赖动物传粉。",
+              "answer": {
+                "source": "question_document",
+                "content": "远低于"
+              }
+            },
+            {
+              "id": "p2",
+              "label": "②",
+              "type": "short_answer",
+              "stem": "观察发现，云南蝇子草的花中有夜蛾卵，部分果实被夜蛾幼虫啃食。图中结果表明夜蛾______。研究者据此判断，夜蛾与云南蝇子草的种间关系为寄生。",
+              "answer": {
+                "source": "question_document",
+                "content": "夜蛾没有对云南蝇子草进行有效传粉"
+              }
+            }
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "short_answer",
+          "stem": "细蝇子草释放挥发性化学物质吸引夜蛾传粉，该实例体现了生态系统中______对于种群繁衍的重要作用。在授粉后，细蝇子草释放的气味中对传粉者具有主要吸引作用的丁香醛等物质含量显著下降，细蝇子草通过这种机制限制了夜蛾在每朵花中的产卵数量。请分析限制单花产卵数有利于维持二者互惠关系的原因。",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "信息传递",
+              "限制单花产卵数，可降低夜蛾种内竞争，增加幼虫成活率；同时减少夜蛾对蝇子草果实的消耗。"
+            ]
+          },
+          "notes": [
+            "本小问含一处填空与一问简答，答案数组按原答案顺序记录。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "17.",
+      "type": "composite",
+      "materials": [
+        "m002"
+      ],
+      "stem": "激酶 VLK 是一种分泌蛋白，可对蛋白质中的酪氨酸残基进行磷酸化修饰。研究发现 VLK 对痛觉感知至关重要。",
+      "score": 12,
+      "pages": [
+        6
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "short_answer",
+          "stem": "人体在受到机械损伤时，感觉神经元产生的______传导至突触小体，引发 VLK 分泌到胞外。",
+          "answer": {
+            "source": "question_document",
+            "content": "兴奋"
+          }
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "short_answer",
+          "stem": [
+            "受体 N 和蛋白 E 广泛存在于大脑和脊髓兴奋性突触的突触后膜上。受体 N 是调节痛觉的关键因子，VLK 可通过激活受体 N 增强人体对机械损伤的敏感性。根据相关研究，研究者假设：VLK 可诱导 E 与 N 相互作用。为检验假设，在培养的人脊髓突触体中分别加入 VLK、VLK 和 PAP（去磷酸化酶），一段时间后使用 PLA 技术（图1）进行检测，结果如图2。",
+            {
+              "asset": "a009",
+              "caption": "图1"
+            },
+            {
+              "asset": "a010",
+              "caption": "图2"
+            },
+            "图2 所示结果支持假设，依据是______。"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "加入 VLK 组荧光强度显著高于对照组"
+          }
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "short_answer",
+          "stem": [
+            "蛋白 E 第 504 位酪氨酸（电中性）被 VLK 磷酸化后带负电。以体外培养的人胚肾细胞为材料进行实验（如下表），证明了蛋白 E 第 504 位氨基酸位点的负电荷是 E 与 N 相互作用的必要且充分条件。请补充完善下表。",
+            {
+              "table": {
+                "header": [
+                  "组别",
+                  "人胚肾细胞（表达以下蛋白 E）",
+                  "实验过程",
+                  "检测结果"
+                ],
+                "rows": [
+                  [
+                    "1",
+                    "野生型蛋白 E",
+                    "① 敲低细胞内源 VLK 基因。",
+                    "甲有较强红色荧光，乙无红色荧光"
+                  ],
+                  [
+                    "2",
+                    "蛋白 E 第 504 位氨基酸替换为电中性的苯丙氨酸（不可被 VLK 磷酸化）",
+                    "② 甲组细胞导入含 VLK 基因的表达载体，乙组细胞导入含功能缺失突变型 VLK 基因的表达载体。",
+                    "______b______"
+                  ],
+                  [
+                    "3",
+                    "蛋白 E 第 504 位氨基酸替换为______a______的氨基酸",
+                    "③ 一段时间后，用 PLA 技术检测荧光强度。",
+                    "______c______"
+                  ]
+                ]
+              }
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "a：带负电",
+              "b：甲乙均无红色荧光",
+              "c：甲乙均有红色荧光"
+            ]
+          }
+        },
+        {
+          "id": "p4",
+          "label": "（4）",
+          "type": "short_answer",
+          "stem": "VLK 基因主要在痛觉神经元中表达。请说明以 VLK 作为靶点的止痛药相较于氯胺酮（受体 N 阻断剂）类止痛药的优势。",
+          "answer": {
+            "source": "question_document",
+            "content": "仅作用于痛觉神经元，靶向性更强，副作用更少。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "18.",
+      "type": "composite",
+      "materials": [
+        "m002"
+      ],
+      "stem": "肝脏中的肝星状细胞（HSC）被激活会引起肝纤维化，甚至发展为肝硬化、肝细胞癌。研究 HSC 的激活机制有助于防治相关疾病。",
+      "score": 12,
+      "pages": [
+        7
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "short_answer",
+          "stem": [
+            "HSC 的激活和增殖依赖于有氧糖酵解代谢（图1）。在有氧条件下，葡萄糖在 HSC 的______中被 P 酶等分解为丙酮酸，继而在 L 酶作用下被还原成乳酸。有氧糖酵解能更快产生中间代谢产物和 ATP，以满足细胞快速增殖的需求。",
+            {
+              "asset": "a011",
+              "caption": "图1"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "细胞质基质"
+          }
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "short_answer",
+          "stem": [
+            "已有研究发现，Wnt 蛋白与细胞膜上受体结合后，促进 β 连环蛋白进入细胞核，进而激活靶基因转录，该信号通路参与调节 HSC 有氧糖酵解。用 Wnt 蛋白处理 HSC 后，检测 HSC 中______，结果如图2。研究者由此推测，Wnt/β 连环蛋白信号通路对 L 酶基因表达进行直接调节，进而间接调节 P 酶基因表达。对 L 酶基因的进一步研究证实，L 酶基因是 β 连环蛋白的直接靶基因。",
+            {
+              "asset": "a012",
+              "caption": "图2"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "L 酶基因和 P 酶基因的 mRNA 含量"
+          }
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "short_answer",
+          "stem": [
+            "H 蛋白是一种转录因子。用 Wnt 蛋白处理 HSC，细胞中 H 蛋白总量及细胞核中 H 蛋白含量均提高。用蛋白质合成阻断剂环己亚胺处理 HSC，检测细胞中 H 蛋白含量，结果如图3。该结果表明______。",
+            {
+              "asset": "a013",
+              "caption": "图3"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "L 酶能抑制 H 蛋白的降解"
+          }
+        },
+        {
+          "id": "p4",
+          "label": "（4）",
+          "type": "short_answer",
+          "stem": "L 酶能与 H 蛋白结合并促进其进入细胞核，激活 P 酶基因和 L 酶基因转录。请综合以上信息，说明 HSC 能够被快速激活的主要原因。",
+          "answer": {
+            "source": "question_document",
+            "content": "L 酶抑制 H 蛋白降解并促进其入核，H 蛋白含量升高使 L 酶、P 酶更快合成。Wnt/β 连环蛋白信号通路通过正反馈机制，迅速提高有氧糖酵解速率，进而快速激活 HSC。"
+          }
+        },
+        {
+          "id": "p5",
+          "label": "（5）",
+          "type": "short_answer",
+          "stem": "依据该研究结果推测，可利用______来抑制 HSC 激活进而防治肝纤维化。",
+          "answer": {
+            "source": "question_document",
+            "content": "β 连环蛋白抑制剂/L 酶抑制剂/H 蛋白抑制剂"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "19.",
+      "type": "composite",
+      "materials": [
+        "m002"
+      ],
+      "stem": "肿瘤细胞可分泌乳酸，肿瘤微环境中乳酸积累会减弱细胞毒性 T 淋巴细胞（Tc 细胞）的杀伤能力。",
+      "score": 12,
+      "pages": [
+        8
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "short_answer",
+          "stem": "从免疫系统的功能分析，肿瘤微环境中乳酸积累可帮助肿瘤细胞逃避______。",
+          "answer": {
+            "source": "question_document",
+            "content": "免疫监视"
+          }
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "short_answer",
+          "stem": [
+            "Tc 细胞可通过分泌肿瘤坏死因子（TNF）等发挥杀伤作用。用 M 蛋白抑制剂、乳酸处理活化的 Tc 细胞，分选高表达 TNF 的 Tc 细胞，结果如图1所示（数值为高表达 TNF 的 Tc 细胞占全部 Tc 细胞的百分比）。结果表明乳酸可通过 M 蛋白抑制 Tc 细胞活性，依据是______。",
+            {
+              "asset": "a014",
+              "caption": "图1"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "高表达 TNF 的 Tc 占全部 Tc 的百分比：第 1 组-第 2 组＞第 3 组-第 4 组"
+          }
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "composite",
+          "stem": [
+            "为探究 M 蛋白抑制 Tc 细胞活性的机制，利用甲乙丙三种转基因小鼠，通过杂交和筛选，获得仅在 T 细胞中 M 基因被敲除且 T 细胞能表达特定抗原受体 D 的小鼠。",
+            {
+              "asset": "a015",
+              "caption": "图2"
+            },
+            "注：LoxP 为一段特殊的 DNA 序列，被 A 基因编码的重组酶识别并剪切后，两个 LoxP 之间的序列将被删除。T 启动子是 T 细胞特异性启动子。D 基因编码的抗原受体能够特异性识别卵清蛋白肽段。"
+          ],
+          "parts": [
+            {
+              "id": "p1",
+              "label": "①",
+              "type": "short_answer",
+              "stem": "获取基因型为______的纯合小鼠作为实验组。",
+              "answer": {
+                "source": "question_document",
+                "content": "M'M'AADD"
+              }
+            },
+            {
+              "id": "p2",
+              "label": "②",
+              "type": "short_answer",
+              "stem": [
+                "提取实验组和对照组小鼠 Tc 细胞，用______处理以活化 Tc 细胞。检测小鼠活化的 Tc 细胞膜上葡萄糖转运蛋白 1（GLUT1）的含量，结果如图3所示。",
+                {
+                  "asset": "a016",
+                  "caption": "图3"
+                }
+              ],
+              "answer": {
+                "source": "question_document",
+                "content": "卵清蛋白肽段（呈递的抗原肽）、细胞因子"
+              }
+            }
+          ]
+        },
+        {
+          "id": "p4",
+          "label": "（4）",
+          "type": "short_answer",
+          "stem": [
+            "综合以上研究，补充完善乳酸减弱 Tc 细胞杀伤能力的机制。",
+            "乳酸促进 Tc 细胞 M 基因表达 → ______ → Tc 细胞的肿瘤杀伤能力减弱"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "抑制 Tc 细胞摄取葡萄糖进而抑制其合成 TNF"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q020",
+      "label": "20.",
+      "type": "composite",
+      "materials": [
+        "m002"
+      ],
+      "stem": "玉米中 A 基因编码的蛋白质与花青素合成有关。正常表达 A 基因的玉米能合成花青素，茎呈紫色。无花青素玉米茎为绿色。",
+      "score": 12,
+      "pages": [
+        9
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "short_answer",
+          "stem": [
+            "将三个不同品系的玉米杂交，结果如图1。",
+            {
+              "asset": "a017",
+              "caption": "图1"
+            },
+            "根据杂交实验 1 可知______为显性性状。"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "紫茎"
+          }
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "short_answer",
+          "stem": [
+            "为解释杂交实验 2 的结果，进行一系列实验。将编码去甲基化酶的 R 基因导入品系乙，获得纯合转基因品系丁，丁表现为绿茎，R 基因与 A 基因不在同一对染色体上。将品系丙与品系丁杂交，结果如图2。推测品系丙表现为绿茎的原因是______。",
+            {
+              "asset": "a018",
+              "caption": "图2"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "A 基因被甲基化修饰后不表达，不产生花青素"
+          }
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "short_answer",
+          "stem": "以杂交实验 3 中的 F₂ 紫茎植株为母本，以品系丙为父本进行杂交，单株收获种子。每个单株上收获的种子种植后形成的植株群为一个 BCF 群。在全部 BCF 群中，全绿茎 BCF 群占 1/4，该群玉米与 R/r 相关的基因型为______。",
+          "answer": {
+            "source": "question_document",
+            "content": "rr"
+          }
+        },
+        {
+          "id": "p4",
+          "label": "（4）",
+          "type": "short_answer",
+          "stem": "将杂交实验 2 中 F₁ 与品系甲连续多代回交，子代均为绿茎。综合上述实验结果，推测杂交实验 2 中 F₁ 全为绿茎的原因是______。用杂交实验 2 中的 F₁ 与品系乙杂交，若实验结果为______，则支持上述假设。",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "F₁ 中来自品系丙的甲基化 A 基因能够使来自品系甲的 A 基因甲基化，A 基因表达受抑制，不产生花青素",
+              "子代全为绿茎"
+            ]
+          },
+          "notes": [
+            "本小问含两处填空，答案数组按空位顺序记录。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q021",
+      "label": "21.",
+      "type": "composite",
+      "materials": [
+        "m002",
+        "m003"
+      ],
+      "stem": "学习以下材料，回答（1）～（5）题。",
+      "score": 12,
+      "pages": [
+        10
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "short_answer",
+          "stem": "在复制原点附近，T7 溶菌酶与 T7 RNA 聚合酶结合后______过程被终止，已合成的 RNA 链被 T7 DNA 聚合酶利用，以复制 T7 DNA。",
+          "answer": {
+            "source": "question_document",
+            "content": "转录"
+          }
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "short_answer",
+          "stem": "为实现目标基因在宿主菌内的持续超突变，在开发 T7-OR 复制系统时，对 T7 溶菌酶和 T7 DNA 聚合酶的改造分别是______。",
+          "answer": {
+            "source": "question_document",
+            "content": "使 T7 溶菌酶降解细菌细胞壁功能缺失；降低 T7 DNA 聚合酶的保真性"
+          }
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "composite",
+          "stem": [
+            "获取用于 β-内酰胺酶基因加速进化的 R 菌株时，下列组件应构建到图 2 中哪种结构上。",
+            {
+              "asset": "a020",
+              "caption": "图2"
+            }
+          ],
+          "parts": [
+            {
+              "id": "p1",
+              "label": "①",
+              "type": "short_answer",
+              "stem": "T7 DNA 聚合酶基因______；",
+              "answer": {
+                "source": "question_document",
+                "content": "质粒 1"
+              }
+            },
+            {
+              "id": "p2",
+              "label": "②",
+              "type": "short_answer",
+              "stem": "T7 复制原点______；",
+              "answer": {
+                "source": "question_document",
+                "content": "质粒 2"
+              }
+            },
+            {
+              "id": "p3",
+              "label": "③",
+              "type": "short_answer",
+              "stem": "β-内酰胺酶基因______。",
+              "answer": {
+                "source": "question_document",
+                "content": "质粒 2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "p4",
+          "label": "（4）",
+          "type": "multiple_choice",
+          "stem": "关于 β-内酰胺酶进化实验和 T7-OR 复制系统的叙述，正确的有______。",
+          "options": [
+            {
+              "key": "A",
+              "content": "目标基因快速高频突变，依赖系统导致的高突变率和大肠杆菌快速繁殖能力"
+            },
+            {
+              "key": "B",
+              "content": "该系统使酶活性提升 5000 倍，说明可通过定向突变提升蛋白质功能"
+            },
+            {
+              "key": "C",
+              "content": "进化出的突变位点与临床耐药菌高度一致，体现实验室进化结果的实用性"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "choices": [
+              "A",
+              "C"
+            ]
+          }
+        },
+        {
+          "id": "p5",
+          "label": "（5）",
+          "type": "short_answer",
+          "stem": "请说明 T7-OR 复制系统与传统诱变相比在基因加速进化方面的优势。",
+          "answer": {
+            "source": "question_document",
+            "content": "仅针对外源目标基因进行突变，不导致宿主菌自身基因突变，宿主菌成活率高，目标基因持续超突变，进化速度快。"
+          }
+        }
+      ]
+    }
+  ]
+}

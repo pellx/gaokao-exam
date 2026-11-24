@@ -1,0 +1,1672 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|一模|石景山|英语|",
+    "title": "2026北京石景山高三一模英语试题及答案",
+    "year": 2026,
+    "kind": "一模",
+    "subject": "英语",
+    "district": "石景山"
+  },
+  "source": {
+    "file": "../../../../../raw/英语/2026/一模/english-2026-mock1-shijingshan.pdf",
+    "sha256": "4ec4233c10f357423529d8fc508ca0d8dd6a3ff817005857daf9bcb2c47d5832",
+    "page_count": 15
+  },
+  "extraction": {
+    "status": "needs_review",
+    "tool": "PyMuPDF 页面渲染 + 逐页视觉识读 + jsonschema Draft 2020-12 校验",
+    "notes": [
+      "PDF 共 15 页：第 1–10 页为试题，第 11–14 页为参考答案与评分标准，第 15 页为无关的平台介绍，未作为题目内容。第 11–14 页页脚均印“高三英语试卷参考答案 第 3 页（共 3 页）”，页码与连续内容不一致。",
+      "答案与评分标准位于同一 PDF 第 11–14 页，因此 answer.source 均记为 question_document，未另列 source.answer_files。",
+      "原卷为扫描件，页面带“北京高考在线”水印，部分题号、下划线和标点被水印遮挡；已逐页放大核对。",
+      "第 7 空在原卷短文中未见空格和题号（第 6 空后直接出现第 8 空），第 7 题选项、答案仍照录并在 q007 标记 needs_review。",
+      "第 13 空题号数字疑似仅印出“3”，第 37 空题号中的“7”被水印遮挡；分别按题号顺序与参考答案确定为 13、37，并在对应题目标记 needs_review。"
+    ]
+  },
+  "materials": {
+    "m001": {
+      "kind": "instructions",
+      "content": [
+        "第一部分 知识运用（共两节，30 分）",
+        "第一节 完形填空（共 10 小题；每小题 1.5 分，共 15 分）",
+        "阅读下面短文，掌握其大意，从每题所给的 A、B、C、D 四个选项中，选出最佳选项，并在答题卡上将该项涂黑。"
+      ],
+      "pages": [
+        1
+      ]
+    },
+    "m002": {
+      "kind": "passage",
+      "content": [
+        "Years ago, my friend and I were hanging out in my parents’ Boston home when he pressed an orange slice and the juice shot out and ___1___ him. I said, “Oh, the orange just orbisculated.” “It did what?” he asked.",
+        "I grabbed a dictionary, skipped to the “O” section and stared at the ___2___ where “orbisculate” should have been. Moments later, ___3___. I burst into my dad’s study and told him the shocking ___4___: “Orbisculate” was somehow not in the dictionary!",
+        "My father looked kind of embarrassed. and that’s when I found out that he ___5___ this word when he was in college and had just been using it our whole lives, as if it were a ___6___ word. He’d always defined it as “when you dig your spoon into a grapefruit and got juice into your eyes”. Wondering what other nonsense words might he hidden in my vocabulary, I was ___8___ at the time.",
+        "Years later, I came to see my dad’s invented words as a gift. It speaks to his ___9___ and the idea is that, even when something’s ___10___, like getting grapefruit juice in your eye, you can laugh it off and take it as a little fun in life."
+      ],
+      "pages": [
+        1
+      ]
+    },
+    "m003": {
+      "kind": "instructions",
+      "content": [
+        "第二节 语法填空（共 10 小题；每小题 1.5 分，共 15 分）",
+        "阅读下列短文，根据短文内容填空。在未给提示词的空白处仅填写 1 个适当的单词，在给出提示词的空白处用括号内所给词的正确形式填空。"
+      ],
+      "pages": [
+        2
+      ]
+    },
+    "m004": {
+      "kind": "passage",
+      "title": "A",
+      "content": "The UN observes the Chinese Language Day every year on or around April 20. The contribution of Chinese culture and language ___11___ (highlight) on this day. Language is a bridge of interaction between nations. As more and more people start to study Chinese, the world will gain an even ___12___ (deep) understanding of China. On its part, China will also welcome the world with greater ___13___ (open) to the international community.",
+      "pages": [
+        2
+      ]
+    },
+    "m005": {
+      "kind": "passage",
+      "title": "B",
+      "content": "Maybe you’re one of those who take off sweaters when others; ___14___ (complain) that it’s cold, are still wearing them. Or you’re the person on a sweater while everyone else feels hot. The point is, there’s no single temperature regarded ___15___ comfortable for everyone In fact, our perception of heat and cold doesn’t just depend on the temperature. Combinations of factors unique to individuals—age, gender, medical condition—affect ___16___ we experience temperature.",
+      "pages": [
+        2
+      ]
+    },
+    "m006": {
+      "kind": "passage",
+      "title": "C",
+      "content": "When Hurricane Helene rushed towards Rocks Beach, many residents, including Marty Thomas, stayed put, as the storm was forecast ___17___ (miss) them. A massive storm destroyed the town’s seawalls just at midnight. Thomas rushed to wake his neighbours up, and ___18___ (take) an elderly man out of the bed and into his car. Thomas, ___19___ own house was flooding. drove back several times to rescue people of the town where he’d grown up, delivering them safely to ___20___ (unflood) shelters.",
+      "pages": [
+        2
+      ]
+    },
+    "m007": {
+      "kind": "instructions",
+      "content": [
+        "第二部分 阅读理解（共两节，38 分）",
+        "第一节（共 14 小题；每小题 2 分，共 28 分）",
+        "阅读下列短文，从每题所给的 A、B、C、D 四个选项中，选出最佳选项，并在答题卡上将该项涂黑。"
+      ],
+      "pages": [
+        3
+      ]
+    },
+    "m008": {
+      "kind": "passage",
+      "title": "A",
+      "content": [
+        "Advance your leadership with Aurora LEAP, our flagship online certificate program. Build the skills and mind-set you need to succeed in today’s fast-changing world.",
+        "What Is LEAP?",
+        "Taught by experienced faculty (教员) from Aurora School of Management, LEAP is a nine-month experiential learning journey that helps you unlock your leadership potential. This flexible and practical program develops your ability to drive change, lead innovation and achieve your personal and professional goals.",
+        "Through Aurora’s engaging online curriculum, you will work on your own real-life projects and connect course ideas with daily business challenges. The program offers a rare chance to broaden your view by sharing experiences with a diverse global community of peers, while receiving personal and useful feedback from professors, consultants and classmates.",
+        "Who Should Enrol?",
+        "• Mid- or senior-level professionals who want new strategies to guide their organizations.",
+        "• Team leaders hoping to strengthen management skills and improve group performance.",
+        "• Young professionals or startuppers wishing to advance their careers and build strong leadership foundations.",
+        "Application Process for Aurora LEAP",
+        "To apply, you complete an online form, write a short personal statement and take part in a brief video interview.",
+        "Fees & Payment",
+        "The program fee includes training and all digital course materials. Program fees may change. After admission, payment instructions and a secure online payment link will be emailed to you. Full payment is required to confirm your place. Payment can be made by bank transfer or credit card."
+      ],
+      "pages": [
+        3,
+        4
+      ]
+    },
+    "m009": {
+      "kind": "passage",
+      "title": "B",
+      "content": [
+        "As I stepped out of the DMV (车管所) with my license and my head held high, I thought of all the new memories I could create. The places I could drive to were limitless. As I started driving, however, I realized that it wasn’t the GPS saying, “You have reached your destination,” that gave me a rush in my heart. The journey became more electrifying as I sang along to my “Driving Playlist”.",
+        "I never understood when my mom asked me, “Do you want to go out for a drive, man?” There was nowhere to go—I didn’t have a class or a club that we would be driving to. It would be 5:00 pm on a random Tuesday when she posed the question. I declined the offer. For a long time, I approached my creative aspirations the same way I viewed those drives—only with a purpose when given a specific destination.",
+        "I only picked up a paintbrush when school required it for a project. I only took up a book when I had a reading assignment. I knew I needed to change the belief that because there wasn’t a grade attached to my passion, that was meaningless. In an art project, a good friend of mine offered a solution that erased my desire for perfection: she told me to just draw aimlessly on paper. Without an end product in mind, I was able to construct a masterpiece that I could be proud of without having to receive an “A+” on it.",
+        "In the past, I was driven by the fear of missing out (FOMO). Instead of enjoying moments with my friends, I attended every single academic event because I worried about the consequences if I missed one. At the start of my senior year, I feared missing out on the “high school experience” that was portrayed (描绘) in the movies I watched growing up. Yet, I am now defining my own version of that experience. It is worthwhile to pursue simple passions in life. There doesn’t need to be a grand reason for venturing out of the house; driving just for the sake of driving is my favourite pastime.",
+        "The day I got my license, I no longer grabbed the wheel with hesitation; I was in control of it as I uncovered a new world of possibilities."
+      ],
+      "pages": [
+        4,
+        5
+      ]
+    },
+    "m010": {
+      "kind": "passage",
+      "title": "C",
+      "content": [
+        "It was dark outside, a late afternoon in the winter of 1981. As I did each week during my last year of graduate school, I was sitting with my thesis (论文) director, the poet James Dickey. I remember that particular meeting because of one ill-chosen word. In a poem that was otherwise finished, a single adjective was clearly wrong. We batted alternatives back and forth across the desk, but none was right.",
+        "Hours later, while I was washing the cups at ten o’clock, the right word surfaced: pale. Without pausing to weigh the hour, I called my professor and said, “The word is ‘pale’.” Mr. Dickey was overjoyed about that word, every bit as delighted as I was. If only for a moment, the world made a kind of sense it hadn’t made before.",
+        "I had not thought about that phone call, much less that poem, in many years, but I’ve begun to think about it often. Nowadays, “AI assistants” have suddenly colonized (征服) my documents. They appear out of nowhere, like fruit flies around an overripe banana. In this brave new world, the search for a word like “pale” has been outsourced to a robot that will never suggest such a word. The yoking of unlikely adjective and noun is still, for now, the province of unwetted poets. I have spent hours trying to kill these ghosts in my machine. In some cases, I can’t turn it off at all."
+      ],
+      "pages": [
+        5,
+        6
+      ]
+    },
+    "m011": {
+      "kind": "passage",
+      "title": "D",
+      "content": [
+        "For a long period, many parents have assumed that additional mathematics exercises and an increased number of after-school classes represent the most reliable route to improving a child’s prospects. More recently, however, a research team at the University of Melbourne has directed attention to a different type of educational experience: sustained participation in school-based arts programmes. Their ten-year longitudinal study indicates that regular engagement in the arts is associated with enhanced emotional well-being, greater social confidence and higher levels of engagement with academic work.",
+        "The researchers tracked nearly 8,500 students from Grade 3 through Grade 12. At two-year intervals, the students reported the frequency with which they joined school bands, took part in theatrical performances, contributed to designing stage sets or posters, or attended art clubs after school. At the same time, teachers systematically documented observable changes in classroom behaviour, including whether students completed homework on time, participated in group discussions or displayed disruptive conduct during lessons.",
+        "When the team compared students from broadly similar family backgrounds, a consistent pattern emerged. Those who participated in arts activities at least once a week were, on average, less anxious and more optimistic about their future than peers who rarely took part. Students in the arts-participation group were also more likely to remain in school through to graduation and to report that “school is a place where I belong.”",
+        "The researchers then sought to explore potential mechanisms underlying these outcomes. Interviews with students pointed to several contributory factors. Rehearsing (排练) for a concert or a play, for instance, required them to manage their time carefully, attend to the views of others and tolerate feedback in the presence of their peers. Some quieter students reported discovering that they could communicate strong emotions through a role on stage or through the use of colour and form on a canvas (画布).",
+        "The study stops short of presenting arts education as a simple guarantee of success. Even so, the authors contend that when schools reduce provision in music or art in order to create additional time for test preparation, they may unintentionally remove one of the few environments in which certain students feel recognised and valued. On this basis, the researchers recommend that schools maintain a basic level of arts provision, particularly in communities experiencing economic pressure."
+      ],
+      "pages": [
+        6,
+        7
+      ]
+    },
+    "m012": {
+      "kind": "instructions",
+      "content": [
+        "第二节（共 5 小题；每小题 2 分，共 10 分）",
+        "根据短文内容，从短文后的七个选项中选出能填入空白处的最佳选项，并在答题卡上将该项涂黑。选项中有两项为多余选项。"
+      ],
+      "pages": [
+        8
+      ]
+    },
+    "m013": {
+      "kind": "passage",
+      "content": [
+        "Many teenagers promise themselves they’ll go to sleep early, yet still stay up scrolling (浏览) their phones in the dark. As minutes turn into an hour, messages, short videos and games keep their brains awake. ___35___ Blue light from the screen slows the release of sleep hormones (荷尔蒙), and worries from social media can follow you into your dreams. The habit can be changed with a few simple steps.",
+        "Build a phone-free wind-down time. Avoid lying in bed with your phone beside you. ___36___ After that, you might read a paper book, write in a diary, or simply listen to soft music. Keeping your hands busy with offline activities makes it easier to forget about checking your phone again.",
+        "Understand why you reach for your phone. ___37___ Maybe you are afraid of missing out on news from friends, or maybe you are putting off thinking about homework. Once you name the true reason, you can look for healthier ways to deal with it, such as talking to someone you trust.",
+        "Make nights something to look forward to. Plan a small treat, like enjoying a cup of warm milk or doing a short relaxation exercise. You could also keep a grateful list and add three good things that happened that day. ___38___ When your brain connects bedtime with comfort instead of stress, the pull of the phone grows weaker.",
+        "___39___ Instead, by practising these ideas, you can protect your sleep, care for your mental health, and wake up with more energy for the next day."
+      ],
+      "pages": [
+        8
+      ]
+    },
+    "m014": {
+      "kind": "instructions",
+      "content": [
+        "第三部分 书面表达（共两节，32 分）",
+        "第一节（共 4 小题：第 40、41 题各 2 分，第 42 题 3 分，第 43 题 5 分，共 12 分）",
+        "阅读下面短文，根据题目要求用英文回答问题。请在答题卡指定区域作答。"
+      ],
+      "pages": [
+        9
+      ]
+    },
+    "m015": {
+      "kind": "passage",
+      "content": [
+        "The prize may belong to the fastest, but sometimes the person who lifts the trophy (奖杯) is not the only winner. That was clearly seen at a recent cross-country race in Greenfield, Ohio.",
+        "There were two main runners in the event: Marcus Lee and Daniel Rivera. Marcus, a 17-year-old from Lakeside High School, had trained for months, dreaming of earning a sports scholarship. Daniel, from North Ridge High, was known by his classmates as someone who would rather help others than gain attention for himself. He once told his teammates, “When you are standing at a crossroads, you can choose the path of self-interest, or you can go the extra mile for someone in need.”",
+        "The race went smoothly at first. The runners moved like a colourful river through the trees. With less than one kilometre to go, however, Marcus stepped on a loose stone, lost his balance and fell, badly hurting his knee. “I heard a sharp sound and felt something go wrong,” Daniel later recalled.",
+        "Marcus tried to stand up and waved for Daniel to pass him and keep going. For most athletes, crossing the line first is the main goal. But in that moment, winning suddenly seemed less important to Daniel. As he reached Marcus, he saw the pain on his face and heard his short, shaking breaths.",
+        "Instead of running ahead, Daniel stopped and put Marcus’s arm over his shoulder. Slowly step by step, they moved towards the finish line together. “Helping him finish meant more than any medal,” Daniel said later. “That day, we both won in a different way.”"
+      ],
+      "pages": [
+        9
+      ]
+    }
+  },
+  "option_sets": {
+    "o001": [
+      {
+        "key": "A",
+        "content": "You don’t have to let late-night scrolling control your life."
+      },
+      {
+        "key": "B",
+        "content": "Without strict requirements, you may stay up all night long."
+      },
+      {
+        "key": "C",
+        "content": "Of course, you shouldn’t completely give up smartphones to sleep well."
+      },
+      {
+        "key": "D",
+        "content": "Set a clear “screen-off” time, such as 30 minutes before you plan to sleep."
+      },
+      {
+        "key": "E",
+        "content": "Over time, this late-night scrolling quietly steals both your rest and your energy."
+      },
+      {
+        "key": "F",
+        "content": "Ask yourself what you are really looking for when you keep refreshing the screen."
+      },
+      {
+        "key": "G",
+        "content": "Focusing on these pleasant moments gently moves your attention away from the screen."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "1",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "bit"
+        },
+        {
+          "key": "B",
+          "content": "hit"
+        },
+        {
+          "key": "C",
+          "content": "fed"
+        },
+        {
+          "key": "D",
+          "content": "lit"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q002",
+      "label": "2",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "spot"
+        },
+        {
+          "key": "B",
+          "content": "chart"
+        },
+        {
+          "key": "C",
+          "content": "cover"
+        },
+        {
+          "key": "D",
+          "content": "letter"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q003",
+      "label": "3",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "ashamed"
+        },
+        {
+          "key": "B",
+          "content": "worried"
+        },
+        {
+          "key": "C",
+          "content": "wounded"
+        },
+        {
+          "key": "D",
+          "content": "horrified"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q004",
+      "label": "4",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "word"
+        },
+        {
+          "key": "B",
+          "content": "news"
+        },
+        {
+          "key": "C",
+          "content": "story"
+        },
+        {
+          "key": "D",
+          "content": "secret"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q005",
+      "label": "5",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "gave up"
+        },
+        {
+          "key": "B",
+          "content": "put up"
+        },
+        {
+          "key": "C",
+          "content": "made up"
+        },
+        {
+          "key": "D",
+          "content": "looked up"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q006",
+      "label": "6",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "rare"
+        },
+        {
+          "key": "B",
+          "content": "correct"
+        },
+        {
+          "key": "C",
+          "content": "real"
+        },
+        {
+          "key": "D",
+          "content": "magic"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q007",
+      "label": "7",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "directly"
+        },
+        {
+          "key": "B",
+          "content": "intentionally"
+        },
+        {
+          "key": "C",
+          "content": "wrongly"
+        },
+        {
+          "key": "D",
+          "content": "successfully"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ],
+      "needs_review": true,
+      "notes": [
+        "原卷短文第 6 空后直接出现第 8 空，未见第 7 空的空格及题号；第 7 题选项和答案仍按原卷保留，填空位置待人工核对。"
+      ]
+    },
+    {
+      "id": "q008",
+      "label": "8",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "mad"
+        },
+        {
+          "key": "B",
+          "content": "sad"
+        },
+        {
+          "key": "C",
+          "content": "cold"
+        },
+        {
+          "key": "D",
+          "content": "sick"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q009",
+      "label": "9",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "concern"
+        },
+        {
+          "key": "B",
+          "content": "curiosity"
+        },
+        {
+          "key": "C",
+          "content": "courage"
+        },
+        {
+          "key": "D",
+          "content": "creativity"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q010",
+      "label": "10",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "tiring"
+        },
+        {
+          "key": "B",
+          "content": "confusing"
+        },
+        {
+          "key": "C",
+          "content": "boring"
+        },
+        {
+          "key": "D",
+          "content": "annoying"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q011",
+      "label": "11",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "is highlighted"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q012",
+      "label": "12",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "deeper"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q013",
+      "label": "13",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "openness"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ],
+      "needs_review": true,
+      "notes": [
+        "原卷该空题号数字仅清晰显示为“3”，前一位“1”未能辨认；按题号顺序及参考答案确定为 13。"
+      ]
+    },
+    {
+      "id": "q014",
+      "label": "14",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m005"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "complaining"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q015",
+      "label": "15",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m005"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "as"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q016",
+      "label": "16",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m005"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "how"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "17",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m006"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "to miss"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "18",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m006"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "took"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "19",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m006"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "whose"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q020",
+      "label": "20",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m006"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "unflooded"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q021",
+      "label": "21",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m008"
+      ],
+      "stem": "What can we learn about Aurora LEAP?",
+      "options": [
+        {
+          "key": "A",
+          "content": "It focuses on business theory."
+        },
+        {
+          "key": "B",
+          "content": "It stimulates interest in academics."
+        },
+        {
+          "key": "C",
+          "content": "It aims to enhance leadership skills."
+        },
+        {
+          "key": "D",
+          "content": "It offers on-campus weekend classes."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q022",
+      "label": "22",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m008"
+      ],
+      "stem": "Who is most likely to apply for Aurora LEAP?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Teenagers preparing for exams."
+        },
+        {
+          "key": "B",
+          "content": "Retired people looking for hobbies."
+        },
+        {
+          "key": "C",
+          "content": "Professionals seeking career growth."
+        },
+        {
+          "key": "D",
+          "content": "New graduates with no work experience."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q023",
+      "label": "23",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m008"
+      ],
+      "stem": "What is stated about the program fee?",
+      "options": [
+        {
+          "key": "A",
+          "content": "It can be paid in cash."
+        },
+        {
+          "key": "B",
+          "content": "It is set at a fixed amount."
+        },
+        {
+          "key": "C",
+          "content": "It covers course materials."
+        },
+        {
+          "key": "D",
+          "content": "It is paid before the interview."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q024",
+      "label": "24",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m009"
+      ],
+      "stem": "How did the author feel when he first got his driver’s license?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Rewarded."
+        },
+        {
+          "key": "B",
+          "content": "Heartened."
+        },
+        {
+          "key": "C",
+          "content": "Honoured."
+        },
+        {
+          "key": "D",
+          "content": "Relieved."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q025",
+      "label": "25",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m009"
+      ],
+      "stem": "What changed the author’s perspective on school life?",
+      "options": [
+        {
+          "key": "A",
+          "content": "His desire to receive an “A+”."
+        },
+        {
+          "key": "B",
+          "content": "Moments shared with his friends."
+        },
+        {
+          "key": "C",
+          "content": "A product to create a masterpiece."
+        },
+        {
+          "key": "D",
+          "content": "A friend’s suggestion to draw aimlessly."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q026",
+      "label": "26",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m009"
+      ],
+      "stem": "The author’s previous FOMO was related to ______.",
+      "options": [
+        {
+          "key": "A",
+          "content": "the movies on high school life"
+        },
+        {
+          "key": "B",
+          "content": "a grand reason for driving around"
+        },
+        {
+          "key": "C",
+          "content": "the pressure of study in high school"
+        },
+        {
+          "key": "D",
+          "content": "a grade attached to academic events"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q027",
+      "label": "27",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m009"
+      ],
+      "stem": "What can we learn from this passage?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Trends help you find your true passion."
+        },
+        {
+          "key": "B",
+          "content": "A journey holds more than the destination:"
+        },
+        {
+          "key": "C",
+          "content": "A well-planned path finally leads to success."
+        },
+        {
+          "key": "D",
+          "content": "Childhood shows the man, as morning shows the day."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q028",
+      "label": "28",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m010"
+      ],
+      "stem": "The author suggests the AI tools are ______.",
+      "options": [
+        {
+          "key": "A",
+          "content": "intended to substitute for teachers’ judgment"
+        },
+        {
+          "key": "B",
+          "content": "ideal for choosing rare and unlikely adjectives"
+        },
+        {
+          "key": "C",
+          "content": "suitable for drafting poems with impactful imagery"
+        },
+        {
+          "key": "D",
+          "content": "helpful for routine messages yet limited for discovery"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "q029",
+      "label": "29",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m010"
+      ],
+      "stem": "What does the word “yoking” underlined in Paragraph 3 most probably mean?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Explaining."
+        },
+        {
+          "key": "B",
+          "content": "Comparing."
+        },
+        {
+          "key": "C",
+          "content": "Joining."
+        },
+        {
+          "key": "D",
+          "content": "Describing."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "q030",
+      "label": "30",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m010"
+      ],
+      "stem": "Which would be the best title for the passage?",
+      "options": [
+        {
+          "key": "A",
+          "content": "I, Human"
+        },
+        {
+          "key": "B",
+          "content": "A Word, A World"
+        },
+        {
+          "key": "C",
+          "content": "I, Robot"
+        },
+        {
+          "key": "D",
+          "content": "A Student, A Professor"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "q031",
+      "label": "31",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m011"
+      ],
+      "stem": "What can be inferred about school arts activities?",
+      "options": [
+        {
+          "key": "A",
+          "content": "It leads to higher marks in school subjects."
+        },
+        {
+          "key": "B",
+          "content": "It gives students a stronger sense of belonging."
+        },
+        {
+          "key": "C",
+          "content": "It takes the place of academic support after class."
+        },
+        {
+          "key": "D",
+          "content": "It is designed for students from well-off families."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "q032",
+      "label": "32",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m011"
+      ],
+      "stem": "What can we learn from this passage?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Arts education has limited value in exam-driven systems."
+        },
+        {
+          "key": "B",
+          "content": "Test practice changes when schools increase arts activities."
+        },
+        {
+          "key": "C",
+          "content": "Parents are the force behind the reduction of arts programmes."
+        },
+        {
+          "key": "D",
+          "content": "Cutting arts provision has side effects that are easy to overlook."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "q033",
+      "label": "33",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m011"
+      ],
+      "stem": "What does the author mainly do in Paragraphs 3 and 4?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Present a research project and its implications."
+        },
+        {
+          "key": "B",
+          "content": "Compare different types of after-school classes."
+        },
+        {
+          "key": "C",
+          "content": "Highlight a viewpoint with various after-school activities."
+        },
+        {
+          "key": "D",
+          "content": "Challenge a common belief through interviews with students."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "q034",
+      "label": "34",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m011"
+      ],
+      "stem": "What is the passage mainly about?",
+      "options": [
+        {
+          "key": "A",
+          "content": "How school arts education aids students’ development."
+        },
+        {
+          "key": "B",
+          "content": "How exam pressure changes parents’ assumptions for education."
+        },
+        {
+          "key": "C",
+          "content": "How students gradually lose their motivation for communication."
+        },
+        {
+          "key": "D",
+          "content": "How researchers record and assess students’ after-school behaviours."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "q035",
+      "label": "35",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "E"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q036",
+      "label": "36",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q037",
+      "label": "37",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "F"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        8
+      ],
+      "needs_review": true,
+      "notes": [
+        "原卷该空题号中的“7”被水印遮挡，仅见“3”；按题号顺序及参考答案确定为 37。"
+      ]
+    },
+    {
+      "id": "q038",
+      "label": "38",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "G"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q039",
+      "label": "39",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q040",
+      "label": "40",
+      "type": "short_answer",
+      "materials": [
+        "m014",
+        "m015"
+      ],
+      "stem": "What event did Marcus and Daniel take part in?",
+      "answer": {
+        "source": "question_document",
+        "content": "They took part in a cross-country race in Greenfield, Ohio."
+      },
+      "analysis": [
+        "【第 40 题】",
+        "（1）内容意义：意义要符合原文，回答内容要完整。",
+        "* 如抄写原文第一段完整的第二句，扣 1 分。",
+        "* 用短语或其它形式回答核心内容不扣分。",
+        "（2）语言：准确、连贯。",
+        "* 如准确性和连贯性欠佳，酌情扣分。",
+        "（含有 a cross-country race 的关键信息的表达都不扣分）"
+      ],
+      "score": 2,
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "q041",
+      "label": "41",
+      "type": "short_answer",
+      "materials": [
+        "m014",
+        "m015"
+      ],
+      "stem": "Why had Marcus trained so hard for months?",
+      "answer": {
+        "source": "question_document",
+        "content": "He had trained hard because he dreamed of earning a sports scholarship."
+      },
+      "analysis": [
+        "【第 41 题】",
+        "（1）内容意义：意义要符合原文，回答内容要完整。",
+        "* 如抄写原文第二段第二句，不扣分。",
+        "* 用短语或其它形式回答核心内容不扣分。",
+        "（2）语言：准确、连贯。",
+        "* 如准确性和连贯性欠佳，酌情扣分。",
+        "（含有 a sports scholarship 的各种表达都不扣分）"
+      ],
+      "score": 2,
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "q042",
+      "label": "42",
+      "type": "short_answer",
+      "materials": [
+        "m014",
+        "m015"
+      ],
+      "stem": [
+        "Please decide which part is false in the following statement, then underline it and explain why.",
+        "➤ ***Daniel, who had been Marcus’s close classmate at Lakeside High School, helped injured Marcus cross the finish line.***"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": [
+          "who had been Marcus’s close classmate at Lakeside High School",
+          "或 close classmate",
+          "理由：Daniel was from North Ridge High School, so he was not Marcus’s close classmate.",
+          "含有 he was not Marcus’s close classmate 表述不扣分。",
+          "类似答案都可以接受。"
+        ]
+      },
+      "analysis": [
+        "【第 42 题】",
+        "（1）划线标准：",
+        "* 如完全划线正确，得 1 分。",
+        "* 含有 classmate 核心词得 1 分。",
+        "* 其他情况不得分。",
+        "（2）内容意义：解释符合原文意义。",
+        "（3）语言：准确、连贯。",
+        "* 如准确性和连贯性欠佳，酌情扣分。"
+      ],
+      "score": 3,
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "q043",
+      "label": "43",
+      "type": "short_answer",
+      "materials": [
+        "m014",
+        "m015"
+      ],
+      "stem": "What do you think of Daniel’s choice in the race? (In about 40 words)",
+      "answer": {
+        "source": "question_document",
+        "content": "I think Daniel’s choice is truly inspiring. He puts kindness and compassion above personal glory, showing the best of sportsmanship. His selfless act proves that true victory lies not in winning a race, but in lifting others up."
+      },
+      "analysis": [
+        "【第 43 题】",
+        {
+          "table": {
+            "caption": "评分标准",
+            "header": [
+              "分数",
+              "具体描述"
+            ],
+            "rows": [
+              [
+                "5 分",
+                "紧扣主题，仅有个别语法错误。"
+              ],
+              [
+                "3-4 分",
+                "贴近主题，有一些语言错误，但不影响理解。"
+              ],
+              [
+                "1-2 分",
+                "与主题相关，有大量语言错误，影响理解。"
+              ],
+              [
+                "0 分",
+                "与主题不相关。"
+              ]
+            ]
+          }
+        },
+        "字数要求：",
+        "* 如超过 50 字，扣 0.5 分。",
+        "* 如少于 30 字，扣 0.5 分；如少于 20 字，扣 1 分。"
+      ],
+      "score": 5,
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "q044",
+      "label": "第二节",
+      "type": "essay",
+      "stem": [
+        "第二节（20 分）",
+        "假设你是红星中学高三学生李华。近期你班组织了“Read Together”阅读分享活动，你的外国朋友 Jim 对此很感兴趣。请你用英文给他写一封电子邮件，内容包括：",
+        "1. 活动内容；",
+        "2. 你的体会。",
+        "注意：1. 词数 100 字左右；",
+        "2. 开头和结尾已给出，不计入总词数。",
+        "Dear Jim,",
+        "Yours,",
+        "Li Hua",
+        "（请务必将作文写在答题卡指定区域内）"
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": [
+          "Dear Jim,",
+          "I’m glad to tell you about our recent “Read Together” activity. Every Friday afternoon, we bring a book we like, share its main ideas, and explain why it is worth reading. After the sharing, we discuss the characters, themes, and the values behind the stories. The classroom is filled with lively conversations, and many of us are inspired to try new books.",
+          "Through this activity, I have realized that reading becomes more meaningful when we exchange ideas. It not only broadens my horizons but also helps me understand different perspectives.",
+          "Hope we can read something together one day!",
+          "Yours,",
+          "Li Hua"
+        ]
+      },
+      "analysis": [
+        "一、评分标准",
+        {
+          "table": {
+            "caption": "评分标准",
+            "header": [
+              "维度/分档",
+              "内容（8 分）",
+              "语言（8 分）",
+              "结构（8 分）"
+            ],
+            "rows": [
+              [
+                "一档（6-8）",
+                [
+                  "• 内容完整，详略得当。",
+                  "• 表述与主题相关。"
+                ],
+                [
+                  "• 语言准确，基本无语言错误；句式多样。",
+                  "• 语言表达基本得体。"
+                ],
+                [
+                  "• 条理清晰，结构合理。",
+                  "• 衔接自然，行文连贯。"
+                ]
+              ],
+              [
+                "二档（3-5）",
+                [
+                  "• 内容基本完整。",
+                  "• 表述与主题基本相关。"
+                ],
+                [
+                  "• 语言有一些错误，但不影响理解；句式有一定变化。",
+                  "• 语言表达不太得体。"
+                ],
+                [
+                  "• 条理基本清晰，结构基本合理。",
+                  "• 有一定衔接手段，行文基本连贯。"
+                ]
+              ],
+              [
+                "三档（0-2）",
+                [
+                  "• 内容不完整。",
+                  "• 表述与主题不太相关或完全无关。"
+                ],
+                [
+                  "• 语言有大量错误，影响理解。",
+                  "• 语言表达不得体。"
+                ],
+                [
+                  "• 条理不清晰。",
+                  "• 支离破碎。"
+                ]
+              ]
+            ]
+          }
+        },
+        "计算方法：总分(20 分) =内容(8 分)×1+语言(8 分)×1+结构(8 分) ×0.5。",
+        "二、评分细则",
+        "1. 评分时先判断作答内容与题目是否有关，若内容判为零分，语言与结构均为零分。",
+        "2. 内容、语言、结构三维度的分数应该呈现正相关。",
+        "3. 内容完整，不仅指要点齐全，而且指要点延展适当、适度，延展内容需与主题表达相关、详略得当。",
+        "4. 语言准确指语法、单词拼写、标点符号等的准确性。",
+        "5. 语言得体，指根据表现方法、场合、对象、目的的差异，恰当使用语言。",
+        "6. 结构合理性，不单指段落的划分，还指段落之间、句式之间的逻辑关系，有一定的衔接手段，段落过渡自然，句子之间连贯。",
+        "7. 词数少于 80 词或多于 120 词，从总分中减去 1 分。",
+        "8. 英式、美式拼写均可接受。"
+      ],
+      "score": 20,
+      "pages": [
+        10
+      ]
+    }
+  ]
+}

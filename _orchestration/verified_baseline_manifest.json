@@ -1,0 +1,172 @@
+{
+  "2026|零模|北京二中|语文|": {
+    "paper": "parsed/2026/零模/东城/北京二中/语文/paper.json",
+    "paper_sha256": "f9c5684743d004b9833487529ff6b63e79574fa6698cebde57f0158c3d074f6a",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|零模|北师大实验中学|数学|": {
+    "paper": "parsed/2026/零模/西城/北师大实验中学/数学/paper.json",
+    "paper_sha256": "cafd9eb5b79505ca613176ca1d96ca8921abf5b3301a78e84356608d781a3472",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|零模|八十中|物理|": {
+    "paper": "parsed/2026/零模/朝阳/八十中/物理/paper.json",
+    "paper_sha256": "633bd927c47c89b8b4807d747bb17b40885cdab9e5f480f24ea0226078bf8bc8",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|一模|东城|语文|": {
+    "paper": "parsed/2026/一模/东城/语文/paper.json",
+    "paper_sha256": "911ced18f0619f19d581da7d978883c0beb9fd6fe70222d87e9b81156f1c4a96",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|一模|西城|语文|": {
+    "paper": "parsed/2026/一模/西城/语文/paper.json",
+    "paper_sha256": "c04225961cf42c6e215da7e6b6002d42379ec231cc897da6c988ae8ad514d60e",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|一模|朝阳|语文|": {
+    "paper": "parsed/2026/一模/朝阳/语文/paper.json",
+    "paper_sha256": "39dc7de0acf48ee9a5d13bfa46009e84cf965ec8b57bf607cc4696e572698b2f",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|一模|海淀|语文|": {
+    "paper": "parsed/2026/一模/海淀/语文/paper.json",
+    "paper_sha256": "6c117a065e94a3c035908840d87c31733307600f4ff63a2e0b1660fcbd8bfa98",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|一模|丰台|语文|": {
+    "paper": "parsed/2026/一模/丰台/语文/paper.json",
+    "paper_sha256": "129056df050664753b75804bf45533018668ffe8d45f6e7c9286ec29da26845f",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|一模|石景山|语文|": {
+    "paper": "parsed/2026/一模/石景山/语文/paper.json",
+    "paper_sha256": "fa80429672318e26aa120295e686dd496e3acfaf3767f82639fd1460cc2e67ee",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|一模|顺义|语文|": {
+    "paper": "parsed/2026/一模/顺义/语文/paper.json",
+    "paper_sha256": "3508edbc124ef46a81462fc9f23d5d2a1249734c56650e28105faf6fb15ffafa",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|一模|昌平|语文|": {
+    "paper": "parsed/2026/一模/昌平/语文/paper.json",
+    "paper_sha256": "f2c61d0fa5e841a0a90875711c65c64cf742482440c0c245201eb430398546ae",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|一模|房山|语文|": {
+    "paper": "parsed/2026/一模/房山/语文/paper.json",
+    "paper_sha256": "12602b9e1dcbcaa9e5e38fa9a6843e933c8484e0b6b00a937622d3794be9f26b",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|一模|门头沟|语文|": {
+    "paper": "parsed/2026/一模/门头沟/语文/paper.json",
+    "paper_sha256": "cba9f184d05350d37ec7b6bbd786afeb42c948b0e2f87f6032a2a250e0140ce1",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|一模|平谷|语文|": {
+    "paper": "parsed/2026/一模/平谷/语文/paper.json",
+    "paper_sha256": "8fd757f5a69f3924e566d74feb89f3267f35e051816c46b2cf604c83179b6653",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|一模|延庆|语文|": {
+    "paper": "parsed/2026/一模/延庆/语文/paper.json",
+    "paper_sha256": "b8eae4e1aeec32fa250cac7eff99aa2421b1bb4a738a941a2df8048224b88648",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|二模|东城|语文|": {
+    "paper": "parsed/2026/二模/东城/语文/paper.json",
+    "paper_sha256": "58f3806a0a10ecda076e20cff0757c1157b3dc6d48f2fc7cc910b1eaa87002d8",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|二模|朝阳|语文|": {
+    "paper": "parsed/2026/二模/朝阳/语文/paper.json",
+    "paper_sha256": "4e7ca13449bec1bcd30d210bccea3230dce4f8067f48f77c00283d6572212528",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|二模|海淀|语文|": {
+    "paper": "parsed/2026/二模/海淀/语文/paper.json",
+    "paper_sha256": "1eb3906797e21efc120ef5d5aeb23f57577d49300ad90e7a0a19d4adadaa840a",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|二模|海淀|语文|查漏补缺": {
+    "paper": "parsed/2026/二模/海淀/语文/查漏补缺/paper.json",
+    "paper_sha256": "dc3ba7e18f1d18b566e395344ccdb095f8a5bace18abdaeb7cf16f2a6a395edc",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|二模|丰台|语文|": {
+    "paper": "parsed/2026/二模/丰台/语文/paper.json",
+    "paper_sha256": "c183aa3509719ed1a88340c8e61164a8b91befb944381c9a894d1756592d2ec5",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|二模|石景山|语文|": {
+    "paper": "parsed/2026/二模/石景山/语文/paper.json",
+    "paper_sha256": "430456aecc31464d51ef936919998b26473197b9697285c0070de800da26ae96",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|二模|顺义|语文|": {
+    "paper": "parsed/2026/二模/顺义/语文/paper.json",
+    "paper_sha256": "09ef15b912d58358b0eb14734bd2c77baf5657c811d85e9da28bf1fa187faeab",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|二模|昌平|语文|": {
+    "paper": "parsed/2026/二模/昌平/语文/paper.json",
+    "paper_sha256": "cb1841ab6ebcfc0b1b44de9850173fc0ebac8cf25791507da0988ac4f1f8ba1c",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|二模|房山|语文|": {
+    "paper": "parsed/2026/二模/房山/语文/paper.json",
+    "paper_sha256": "968dfad118837d6b1a4966624eda77c0f4fb84b7435f3ff521d47fb5803e3c36",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|三模|一六一中|语文|保温": {
+    "paper": "parsed/2026/三模/西城/一六一中/语文/保温/paper.json",
+    "paper_sha256": "a7c1730bed9a11f80eca108bc12add940a1fa69af90d2b23589d20ef906502ae",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|三模|一六一中|语文|考前热身": {
+    "paper": "parsed/2026/三模/西城/一六一中/语文/考前热身/paper.json",
+    "paper_sha256": "87609774288407cc30526723e261be202c5a493495e532ab05caf5d30113044a",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|三模|北师大附中|语文|三模": {
+    "paper": "parsed/2026/三模/西城/北师大附中/语文/三模/paper.json",
+    "paper_sha256": "5befc1ae9a47b77e7163881424d499778b99f5c308029b47edfa1861d4949a20",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|三模|育才学校|语文|三模": {
+    "paper": "parsed/2026/三模/西城/育才学校/语文/三模/paper.json",
+    "paper_sha256": "4183608b0e62fc9d4b338e0591bc4a00c70ee658e232eef4a9fa6047abfe88f4",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|三模|陈经纶中学|语文|保温": {
+    "paper": "parsed/2026/三模/朝阳/陈经纶中学/语文/保温/paper.json",
+    "paper_sha256": "c6a45be61a15d27380d45311cb2c2dde0b804e9c89e5a78b733c9aa7bd0a6bc0",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|三模|一零一中学|语文|三模": {
+    "paper": "parsed/2026/三模/海淀/一零一中学/语文/三模/paper.json",
+    "paper_sha256": "7b8eed4ada1e713683665024db051feeb5dadedcc53e089ee418df7564411a74",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|三模|人大附中|语文|三模": {
+    "paper": "parsed/2026/三模/海淀/人大附中/语文/三模/paper.json",
+    "paper_sha256": "fbe7daf70098215701df9aca821f1f84577e012f531be38cf1def5c4e5c38d9c",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|三模|十一学校|语文|三模": {
+    "paper": "parsed/2026/三模/海淀/十一学校/语文/三模/paper.json",
+    "paper_sha256": "79a162662babd636381829fb81ce8100bf9f92b3af19922f46fe7a121b1d48ae",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|三模|海淀|语文|查漏补缺": {
+    "paper": "parsed/2026/三模/海淀/语文/查漏补缺/paper.json",
+    "paper_sha256": "d7b1e9469ec4ce15164f315d0b1ed18124b637b9e520469a11e3efe86be937d9",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  },
+  "2026|三模|北京精华学校|语文|三模": {
+    "paper": "parsed/2026/三模/大兴/北京精华学校/语文/三模/paper.json",
+    "paper_sha256": "d1691afe78bd7ba987cea52ba54d5f505ecb991bc5e89c96224992cb7c38d1c5",
+    "basis": "Previously verified restored snapshot; baseline validation before new extraction"
+  }
+}

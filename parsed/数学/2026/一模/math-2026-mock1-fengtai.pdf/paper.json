@@ -1,0 +1,1119 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|一模|丰台|数学|",
+    "title": "2026北京丰台高三一模数学试题及答案",
+    "year": 2026,
+    "kind": "一模",
+    "subject": "数学",
+    "district": "丰台",
+    "academic_year": "2025-2026"
+  },
+  "source": {
+    "file": "../../../../../raw/数学/2026/一模/math-2026-mock1-fengtai.pdf",
+    "sha256": "e19e274bf36ec2bf3d3e229f61ebc8b4afa04e83209825b92591a066fc0744eb",
+    "page_count": 13
+  },
+  "extraction": {
+    "status": "verified",
+    "tool": "PyMuPDF 2.1 渲染（300 dpi）+ 逐页视觉核对与结构化转录",
+    "notes": [
+      "原卷为扫描件（第1-12页为整页图像），已按渲染页逐页识别；第13页为网站推广页，不属于试题。",
+      "第4页第18题价格变化表、第9页第19题末行有网站水印遮挡，已按可辨字形核对。",
+      "第13、14题各含两个未编号空，按原答案顺序记为答案数组，并在题注记录原卷标注的两空分值。"
+    ]
+  },
+  "assets": {
+    "a001": {
+      "path": "assets/a001.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        405.6,
+        640.8,
+        530.4,
+        780.0
+      ],
+      "sha256": "99c621e89960c20ad3599ede578e878b7e399d4a90fe24fbcf489db33785053b"
+    },
+    "a002": {
+      "path": "assets/a002.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        410.4,
+        272.4,
+        535.2,
+        409.2
+      ],
+      "sha256": "2e7fc12b1928defac1bfcb6c36f359c4bea249381fde0b3546d15b6c3674c332"
+    },
+    "a003": {
+      "path": "assets/a003.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [
+        688.8,
+        1084.8,
+        936.0,
+        1377.6
+      ],
+      "sha256": "533ad28dc8ca89ffb1b2d0bc78bf634e44e340e5c959c5bdffcba1d71057b14c"
+    }
+  },
+  "materials": {
+    "m001": {
+      "kind": "instructions",
+      "content": [
+        "第一部分（选择题 40 分）",
+        "一、选择题共 10 小题，每小题 4 分，共 40 分。在每小题列出的四个选项中，选出符合题目要求的一项。"
+      ],
+      "pages": [
+        1
+      ]
+    },
+    "m002": {
+      "kind": "instructions",
+      "content": [
+        "第二部分（非选择题 110 分）",
+        "二、填空题共 5 小题，每小题 5 分，共 25 分。"
+      ],
+      "pages": [
+        2
+      ]
+    },
+    "m003": {
+      "kind": "instructions",
+      "content": [
+        "三、解答题共 6 小题，共 85 分。解答应写出文字说明，演算步骤或证明过程。"
+      ],
+      "pages": [
+        3
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "1",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "已知全集 $U=\\{x\\mid -1<x<3\\}$，集合 $A=\\{x\\mid x^2<1\\}$，则 $\\complement_U A=$",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\{x\\mid -1<x<1\\}$"
+        },
+        {
+          "key": "B",
+          "content": "$\\{x\\mid 1<x<3\\}$"
+        },
+        {
+          "key": "C",
+          "content": "$\\{x\\mid 1\\le x<3\\}$"
+        },
+        {
+          "key": "D",
+          "content": "$\\{x\\mid 1\\le x\\le 3\\}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q002",
+      "label": "2",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "若 $z(1+\\mathrm{i})=2\\mathrm{i}$，则 $z=$",
+      "options": [
+        {
+          "key": "A",
+          "content": "$-1-\\mathrm{i}$"
+        },
+        {
+          "key": "B",
+          "content": "$-1+\\mathrm{i}$"
+        },
+        {
+          "key": "C",
+          "content": "$1-\\mathrm{i}$"
+        },
+        {
+          "key": "D",
+          "content": "$1+\\mathrm{i}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q003",
+      "label": "3",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "已知双曲线 $C$ 的焦点为 $(-2\\sqrt{2},0)$ 和 $(2\\sqrt{2},0)$，虚半轴长为 $2$，则 $C$ 的标准方程为",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\frac{x^2}{4}-\\frac{y^2}{4}=1$"
+        },
+        {
+          "key": "B",
+          "content": "$\\frac{x^2}{12}-\\frac{y^2}{4}=1$"
+        },
+        {
+          "key": "C",
+          "content": "$\\frac{y^2}{4}-\\frac{x^2}{4}=1$"
+        },
+        {
+          "key": "D",
+          "content": "$\\frac{y^2}{12}-\\frac{x^2}{4}=1$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q004",
+      "label": "4",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "已知 $a=2^{0.1}$，$b=\\cos 2$，$c=\\lg 2$，则 $a,b,c$ 的大小关系是",
+      "options": [
+        {
+          "key": "A",
+          "content": "$b<a<c$"
+        },
+        {
+          "key": "B",
+          "content": "$b<c<a$"
+        },
+        {
+          "key": "C",
+          "content": "$a<b<c$"
+        },
+        {
+          "key": "D",
+          "content": "$c<b<a$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q005",
+      "label": "5",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "已知 $(2-x)^4=a_0+a_1x+a_2x^2+a_3x^3+a_4x^4$，则 $a_1+a_3=$",
+      "options": [
+        {
+          "key": "A",
+          "content": "$8$"
+        },
+        {
+          "key": "B",
+          "content": "$-8$"
+        },
+        {
+          "key": "C",
+          "content": "$40$"
+        },
+        {
+          "key": "D",
+          "content": "$-40$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q006",
+      "label": "6",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": [
+        "如图，在三棱锥 $A-BCD$ 中，$\\triangle ABC$ 和 $\\triangle ABD$ 是边长为 $2$ 的等边三角形，平面 $ABC\\perp$ 平面 $ABD$，则 $CD=$",
+        {
+          "asset": "a001"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\sqrt{2}$"
+        },
+        {
+          "key": "B",
+          "content": "$2$"
+        },
+        {
+          "key": "C",
+          "content": "$\\sqrt{6}$"
+        },
+        {
+          "key": "D",
+          "content": "$2\\sqrt{2}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q007",
+      "label": "7",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "已知角 $\\alpha$ 的顶点为坐标原点，始边与 $x$ 轴的非负半轴重合，终边与单位圆的交点为 $A(m,n)$，且 $\\cos 2\\alpha=\\frac{2}{3}$，若点 $B(1,b)$ 为角 $\\alpha$ 的终边所在直线上的一点，则 $\\left|\\frac{n}{b}\\right|=$",
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\frac{\\sqrt{6}}{6}$"
+        },
+        {
+          "key": "B",
+          "content": "$\\frac{\\sqrt{5}}{5}$"
+        },
+        {
+          "key": "C",
+          "content": "$\\frac{\\sqrt{30}}{6}$"
+        },
+        {
+          "key": "D",
+          "content": "$\\frac{5\\sqrt{6}}{6}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q008",
+      "label": "8",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": [
+        "某聚乙烯材料的抗拉强度 $P$（单位：$\\mathrm{MPa}$）与时间 $t$（单位：年）的关系为 $P(t)=P_0\\mathrm{e}^{-kt}$，其中 $P_0$ 和 $k$ 是正的常数. 已知经过 $5$ 年，该材料的抗拉强度衰减为原来的一半，则其抗拉强度衰减为原来的 $\\frac{1}{5}$ 大约经过",
+        "（参考数据：$\\ln 2\\approx 0.693$，$\\ln 5\\approx 1.609$）"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "$7.3$ 年"
+        },
+        {
+          "key": "B",
+          "content": "$11.6$ 年"
+        },
+        {
+          "key": "C",
+          "content": "$12.5$ 年"
+        },
+        {
+          "key": "D",
+          "content": "$23.2$ 年"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q009",
+      "label": "9",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "已知 $\\{a_n\\}$ 是公比为 $q$ 的无穷等比数列，则“$q<-1$”是“任取无穷等差数列 $\\{b_n\\}$，对于任意 $N_0\\in\\mathbf{N}^*$，存在正整数 $k$，使 $a_k>b_{N_0}$”的",
+      "options": [
+        {
+          "key": "A",
+          "content": "充分不必要条件"
+        },
+        {
+          "key": "B",
+          "content": "必要不充分条件"
+        },
+        {
+          "key": "C",
+          "content": "充分必要条件"
+        },
+        {
+          "key": "D",
+          "content": "既不充分也不必要条件"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q010",
+      "label": "10",
+      "type": "single_choice",
+      "materials": [
+        "m001"
+      ],
+      "stem": "在平面内，$BC=2$，$D$ 为 $BC$ 的中点，动点 $A$ 满足 $\\angle BAC=\\frac{\\pi}{4}$，动点 $M$ 满足 $\\overrightarrow{MB}\\cdot\\overrightarrow{MD}=\\overrightarrow{MC}\\cdot\\overrightarrow{MD}$，则 $\\overrightarrow{AM}\\cdot\\overrightarrow{BC}$ 的最大值为",
+      "options": [
+        {
+          "key": "A",
+          "content": "$2$"
+        },
+        {
+          "key": "B",
+          "content": "$2\\sqrt{2}$"
+        },
+        {
+          "key": "C",
+          "content": "$4$"
+        },
+        {
+          "key": "D",
+          "content": "$4\\sqrt{2}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 4,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q011",
+      "label": "11",
+      "type": "fill_blank",
+      "materials": [
+        "m002"
+      ],
+      "stem": "函数 $f(x)=\\sqrt{\\log_2 x-1}$ 的定义域为______.",
+      "answer": {
+        "source": "question_document",
+        "content": "$[2,+\\infty)$"
+      },
+      "score": 5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q012",
+      "label": "12",
+      "type": "fill_blank",
+      "materials": [
+        "m002"
+      ],
+      "stem": "抛物线 $x^2=8y$ 的焦点坐标为______.",
+      "answer": {
+        "source": "question_document",
+        "content": "$(0,2)$"
+      },
+      "score": 5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q013",
+      "label": "13",
+      "type": "fill_blank",
+      "materials": [
+        "m002"
+      ],
+      "stem": "已知函数 $f(x)=\\sqrt{3}\\sin\\omega x+\\cos\\omega x$（$\\omega>0$）. 若 $\\omega=1$，则 $f\\left(\\frac{\\pi}{3}\\right)=$ ______；若 $f(x)$ 在区间 $\\left(0,\\frac{\\pi}{2}\\right)$ 上至少有 $3$ 个零点，则 $\\omega$ 的一个取值可以为 ______.",
+      "answer": {
+        "source": "question_document",
+        "content": [
+          "$2$",
+          "$6$（答案不唯一）"
+        ]
+      },
+      "score": 5,
+      "pages": [
+        2
+      ],
+      "notes": [
+        "答案标注：第13题第一空2分，第二空3分。"
+      ]
+    },
+    {
+      "id": "q014",
+      "label": "14",
+      "type": "fill_blank",
+      "materials": [
+        "m002"
+      ],
+      "stem": "西汉海昏侯墓出土的两千多年前的“权”（砝码），是与“衡”（天平）配合使用的称量工具. 已知五枚权的质量（单位：克）从小到大构成项数为 $5$ 的等比数列 $\\{a_n\\}$，其中 $a_1=15.625$，$a_5=250$，则 $\\frac{a_4}{a_2}=$ ______；在称量物体时所用的权的质量之和叫称量值，则从这五枚权中取一枚或多枚，可组合出的不同称量值共有 ______ 种.",
+      "answer": {
+        "source": "question_document",
+        "content": [
+          "$4$",
+          "$31$"
+        ]
+      },
+      "score": 5,
+      "pages": [
+        2
+      ],
+      "notes": [
+        "答案标注：第14题第一空2分，第二空3分。"
+      ]
+    },
+    {
+      "id": "q015",
+      "label": "15",
+      "type": "fill_blank",
+      "materials": [
+        "m002"
+      ],
+      "stem": [
+        "已知函数 $f(x)=\\left|(x^2-1)(x^2+ax+b)\\right|+c$，其中 $a,b,c\\in\\mathbf{R}$. 给出下列四个命题：",
+        "①存在实数 $a,b$，使 $f(x)$ 的值域为 $[c+1,+\\infty)$；",
+        "②存在实数 $a,b,c$，使 $f(x)$ 有 $8$ 个零点；",
+        "③对于任意实数 $a$，存在 $b\\in\\mathbf{R}$，使曲线 $y=f(x)$ 是轴对称图形；",
+        "④对于任意实数 $b$，存在 $a\\in\\mathbf{R}$，使 $f(x)$ 有 $3$ 个极大值点.",
+        "其中所有正确命题的序号是______."
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "②③④"
+      },
+      "score": 5,
+      "pages": [
+        3
+      ],
+      "notes": [
+        "答案标注：第15题2/3/5分。"
+      ]
+    },
+    {
+      "id": "q016",
+      "label": "16",
+      "type": "composite",
+      "materials": [
+        "m003"
+      ],
+      "stem": [
+        "如图，在多面体 $ABCDEF$ 中，面 $ABCD$ 是矩形，$AF\\parallel DE$，$AF\\perp AD$，$AF=AD=2$，$AB=DE=1$.",
+        {
+          "asset": "a002"
+        }
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "proof",
+          "stem": "求证：$BF\\perp AD$；",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "证明：因为四边形 $ABCD$ 是矩形，",
+              "所以 $AD\\perp AB$，",
+              "又因为 $AD\\perp AF$，$AB\\cap AF=A$，$AB,AF\\subset$ 平面 $ABF$，",
+              "所以 $AD\\perp$ 平面 $ABF$，",
+              "因为 $BF\\subset$ 平面 $ABF$，所以 $BF\\perp AD$."
+            ]
+          },
+          "score": 5
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": "若 $AF\\perp AB$，求直线 $BF$ 与平面 $CEF$ 所成角的正弦值.",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "解：因为 $AD\\perp AB$，$AD\\perp AF$，$AF\\perp AB$，",
+              "建立如图所示的空间直角坐标系 $A-xyz$，",
+              {
+                "asset": "a003",
+                "caption": "第16题（Ⅱ）解图"
+              },
+              "所以 $C(1,2,0)$，$E(0,2,1)$，$F(0,0,2)$，$B(1,0,0)$，",
+              "因此 $\\overrightarrow{EC}=(1,0,-1)$，$\\overrightarrow{EF}=(0,-2,1)$，$\\overrightarrow{BF}=(-1,0,2)$.",
+              "设 $\\boldsymbol{n}=(x,y,z)$ 是平面 $CEF$ 的一个法向量，",
+              "则 $\\boldsymbol{n}\\cdot\\overrightarrow{EC}=0$，$\\boldsymbol{n}\\cdot\\overrightarrow{EF}=0$，即 $x-z=0$，$-2y+z=0$，得 $x=z$，$y=\\frac{1}{2}z$.",
+              "令 $z=2$，得 $x=2$，$y=1$，则 $\\boldsymbol{n}=(2,1,2)$.",
+              "设直线 $BF$ 与平面 $CEF$ 所成角为 $\\theta$，则",
+              "$\\sin\\theta=\\left|\\cos\\langle\\boldsymbol{n},\\overrightarrow{BF}\\rangle\\right|=\\frac{\\left|\\boldsymbol{n}\\cdot\\overrightarrow{BF}\\right|}{|\\boldsymbol{n}|\\cdot|\\overrightarrow{BF}|}=\\frac{2\\sqrt{5}}{15}$."
+            ]
+          }
+        }
+      ],
+      "score": 14,
+      "pages": [
+        3
+      ],
+      "notes": [
+        "答案标注：第（Ⅰ）问5分，第（Ⅱ）问至14分。"
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "17",
+      "type": "composite",
+      "materials": [
+        "m003"
+      ],
+      "stem": "在 $\\triangle ABC$ 中，$a,b,c$ 分别为内角 $A,B,C$ 所对的边，$\\sin 2A=\\sin A$.",
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "求 $\\angle A$；",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "解：因为 $\\sin 2A=\\sin A$，所以 $2\\sin A\\cos A=\\sin A$.",
+              "因为 $\\angle A\\in(0,\\pi)$，所以 $\\sin A\\neq0$，",
+              "所以 $\\cos A=\\frac{1}{2}$，所以 $\\angle A=\\frac{\\pi}{3}$."
+            ]
+          },
+          "score": 5
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": [
+            "若 $a=\\sqrt{6}$，再从条件①、条件②、条件③这三个条件中选择一个作为已知，使得 $\\triangle ABC$ 存在，求 $\\triangle ABC$ 的周长.",
+            "条件①：$b=2$；",
+            "条件②：$\\angle B=\\frac{\\pi}{4}$；",
+            "条件③：$c=2\\sqrt{3}$.",
+            "注：如果选择的条件不符合要求，第（Ⅱ）问得 $0$ 分；如果选择多个符合要求的条件分别解答，按第一个解答计分."
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "选择条件①：因为 $b=2$，由正弦定理 $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$",
+              "得 $\\sin B=\\frac{\\sqrt{2}}{2}$.",
+              "因为 $a>b$，所以 $\\angle A>\\angle B$，所以 $\\angle B=\\frac{\\pi}{4}$.",
+              "$\\sin C=\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B=\\frac{\\sqrt{6}+\\sqrt{2}}{4}$.",
+              "由正弦定理 $\\frac{a}{\\sin A}=\\frac{c}{\\sin C}$",
+              "得 $c=\\sqrt{3}+1$.",
+              "所以三角形的周长 $a+b+c=\\sqrt{6}+2+\\sqrt{3}+1=\\sqrt{6}+\\sqrt{3}+3$.",
+              "选择条件②：$\\angle B=\\frac{\\pi}{4}$.",
+              "因为 $\\angle A=\\frac{\\pi}{3}$，$\\angle B=\\frac{\\pi}{4}$，",
+              "所以 $\\sin C=\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B=\\frac{\\sqrt{6}+\\sqrt{2}}{4}$.",
+              "由正弦定理 $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$",
+              "得 $b=2$，$c=\\sqrt{3}+1$，",
+              "所以三角形的周长 $a+b+c=\\sqrt{6}+2+\\sqrt{3}+1=\\sqrt{6}+\\sqrt{3}+3$."
+            ]
+          },
+          "notes": [
+            "答案仅给出选择条件①、条件②的解答。"
+          ]
+        }
+      ],
+      "score": 13,
+      "pages": [
+        3
+      ],
+      "notes": [
+        "答案标注：第（Ⅰ）问5分，全题至13分。"
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "18",
+      "type": "composite",
+      "materials": [
+        "m003"
+      ],
+      "stem": [
+        "为研究某大宗商品价格变化的规律，收集得到了该大宗商品连续 $30$ 个交易日的价格变化情况，如下表所示. 在描述价格变化时，用“↑”表示“上涨”，即当天价格比前一个交易日价格高；用“↓”表示“下跌”，即当天价格比前一个交易日价格低；用“→”表示“不变”，即当天价格与前一个交易日价格相同.",
+        {
+          "table": {
+            "rows": [
+              [
+                "第 $1\\sim15$ 个交易日",
+                "↓",
+                "↑",
+                "↑",
+                "↓",
+                "→",
+                "↑",
+                "→",
+                "↑",
+                "↑",
+                "↑",
+                "↓",
+                "→",
+                "↑",
+                "↑",
+                "↓"
+              ],
+              [
+                "第 $16\\sim30$ 个交易日",
+                "→",
+                "↑",
+                "↑",
+                "↑",
+                "→",
+                "↓",
+                "↓",
+                "↑",
+                "↓",
+                "→",
+                "↑",
+                "↓",
+                "↓",
+                "↑",
+                "↑"
+              ]
+            ],
+            "header": [
+              "时段",
+              "价格变化"
+            ],
+            "caption": "连续30个交易日的价格变化情况"
+          }
+        },
+        "用频率估计概率."
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "试估计该大宗商品价格“上涨”的概率；",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "解：根据题中数据，该大宗商品价格在 $30$ 个交易日中有 $15$ 天“上涨”.",
+              "设事件 $A=$“该大宗商品价格‘上涨’”，",
+              "则 $P(A)=\\frac{15}{30}=\\frac{1}{2}$."
+            ]
+          },
+          "score": 3
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": "假设该大宗商品每个交易日的价格变化是相互独立的，在未来的交易日里任取 $5$ 天，试估计该大宗商品价格在这 $5$ 天中至少有 $3$ 天“上涨”且至少有 $1$ 天“不变”的概率；",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "设事件 $B=$“该大宗商品价格‘不变’”，事件 $C=$“该大宗商品价格‘下跌’”，事件 $D=$“该大宗商品价格在这 $5$ 天中至少有 $3$ 天‘上涨’且至少有 $1$ 天‘不变’”.",
+              "依题意可得，$P(B)=\\frac{6}{30}=\\frac{1}{5}$，$P(C)=\\frac{9}{30}=\\frac{3}{10}$.",
+              "$P(D)=\\mathrm{C}_5^3[P(A)]^3\\mathrm{C}_2^1P(B)P(C)+\\mathrm{C}_5^4[P(A)]^4P(B)+\\mathrm{C}_5^3[P(A)]^3[P(B)]^2$",
+              "$=10\\times\\left(\\frac{1}{2}\\right)^3\\times2\\times\\frac{1}{5}\\times\\frac{3}{10}+5\\times\\left(\\frac{1}{2}\\right)^4\\times\\frac{1}{5}+10\\times\\left(\\frac{1}{2}\\right)^3\\times\\left(\\frac{1}{5}\\right)^2$",
+              "$=\\frac{21}{80}$."
+            ]
+          }
+        },
+        {
+          "id": "p3",
+          "label": "（Ⅲ）",
+          "type": "short_answer",
+          "stem": "假设该大宗商品当日价格“上涨”、“下跌”、“不变”时，当日成交概率分别为 $p_1,p_2,p_3$，且 $p_1>p_2>p_3$. 若该大宗商品每个交易日的价格变化只受前一个交易日价格变化的影响，试比较第 $31$ 个交易日的成交概率 $p_0$ 与 $\\frac{p_1+p_2+p_3}{3}$ 的大小.（结论不要求证明）",
+          "answer": {
+            "source": "question_document",
+            "content": "$p_0>\\frac{p_1+p_2+p_3}{3}$."
+          }
+        }
+      ],
+      "score": 13,
+      "pages": [
+        4
+      ],
+      "notes": [
+        "答案标注：第（Ⅰ）问3分，第（Ⅱ）问至11分，全题至13分。"
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "19",
+      "type": "composite",
+      "materials": [
+        "m003"
+      ],
+      "stem": "已知椭圆 $E:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$（$a>b>0$），椭圆 $E$ 上一点 $A(2,1)$ 到两焦点的距离之和为 $2\\sqrt{6}$.",
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "求椭圆 $E$ 的方程和离心率；",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "解：由题意，得 $2a=2\\sqrt{6}$，解得 $a=\\sqrt{6}$，故 $E:\\frac{x^2}{6}+\\frac{y^2}{b^2}=1$.",
+              "代入点 $A(2,1)$，得 $\\frac{4}{6}+\\frac{1}{b^2}=1$，解得 $b=\\sqrt{3}$，故 $E:\\frac{x^2}{6}+\\frac{y^2}{3}=1$.",
+              "由 $c^2=a^2-b^2$，得 $c=\\sqrt{3}$，故离心率 $e=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}$."
+            ]
+          },
+          "score": 5
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "calculation",
+          "stem": "过点 $P(2,3)$ 的直线 $l$ 与椭圆 $E$ 交于不同的两点 $B,C$. 若直线 $AB$ 与直线 $AC$ 的斜率之和为 $0$，求直线 $l$ 的方程.",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "设直线 $l$ 的方程为 $x-2=t(y-3)$，由题意可知 $t$ 存在且 $t\\neq0$.",
+              "联立 $x-2=t(y-3)$ 与 $\\frac{x^2}{6}+\\frac{y^2}{3}=1$，消去 $x$，得 $(t^2+2)y^2+2t(2-3t)y+(2-3t)^2-6=0$，",
+              "设 $B(x_1,y_1)$，$C(x_2,y_2)$，",
+              "则 $\\Delta=[2t(2-3t)]^2-4(t^2+2)[(2-3t)^2-6]=-16(3t^2-6t-1)$，",
+              "由韦达定理，得 $y_1+y_2=\\frac{-2t(2-3t)}{t^2+2}$，$y_1y_2=\\frac{(2-3t)^2-6}{t^2+2}$.",
+              "由已知，得 $k_{AB}+k_{AC}=\\frac{y_1-1}{x_1-2}+\\frac{y_2-1}{x_2-2}$",
+              "$=\\frac{y_1-1}{t(y_1-3)}+\\frac{y_2-1}{t(y_2-3)}=0$.",
+              "所以 $(y_1-1)(y_2-3)+(y_2-1)(y_1-3)=0$.",
+              "整理得 $y_1y_2-2(y_1+y_2)+3=0$.",
+              "代入得 $\\frac{(2-3t)^2-6}{t^2+2}-2\\cdot\\frac{-2t(2-3t)}{t^2+2}+3=0$.",
+              "解得 $t=1$，符合 $\\Delta>0$.",
+              "所以直线 $l$ 的方程为 $x-2=y-3$，即 $x-y+1=0$."
+            ]
+          }
+        }
+      ],
+      "score": 15,
+      "pages": [
+        5
+      ],
+      "notes": [
+        "答案标注：第（Ⅰ）问5分，全题至15分。"
+      ]
+    },
+    {
+      "id": "q020",
+      "label": "20",
+      "type": "composite",
+      "materials": [
+        "m003"
+      ],
+      "stem": "已知函数 $f(x)=\\frac{x^3+a}{\\mathrm{e}^{ax}}$.",
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "calculation",
+          "stem": "当 $a=1$ 时，求曲线 $y=f(x)$ 在 $(0,f(0))$ 处的切线方程；",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "解：$a=1$ 时，$f(x)=\\frac{x^3+1}{\\mathrm{e}^x}$，所以 $f'(x)=\\frac{-x^3+3x^2-1}{\\mathrm{e}^x}$.",
+              "$f'(0)=-1$，$f(0)=1$，",
+              "所以曲线 $y=f(x)$ 在 $(0,f(0))$ 处的切线方程为 $y=-x+1$，",
+              "即 $x+y-1=0$."
+            ]
+          },
+          "score": 4
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "proof",
+          "stem": "若 $a\\geq\\sqrt{2}$，证明：当 $x\\in[0,+\\infty)$ 时，$f(x)\\leq a$；",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "$f'(x)=\\frac{-ax^3+3x^2-a^2}{\\mathrm{e}^{ax}}$.",
+              "令 $g(x)=-ax^3+3x^2-a^2$，$x\\in[0,+\\infty)$，",
+              "则 $g'(x)=-3ax^2+6x=-3x(ax-2)$.",
+              "因为 $a\\geq\\sqrt{2}$，所以当 $x$ 变化时，$g'(x),g(x)$ 的变化情况如下表：",
+              {
+                "table": {
+                  "rows": [
+                    [
+                      "$g'(x)$",
+                      "$+$",
+                      "$0$",
+                      "$-$"
+                    ],
+                    [
+                      "$g(x)$",
+                      "$\\uparrow$",
+                      "极大值",
+                      "$\\downarrow$"
+                    ]
+                  ],
+                  "header": [
+                    "$x$",
+                    "$\\left(0,\\frac{2}{a}\\right)$",
+                    "$\\frac{2}{a}$",
+                    "$\\left(\\frac{2}{a},+\\infty\\right)$"
+                  ]
+                }
+              },
+              "所以 $g(x)_{\\max}=g\\left(\\frac{2}{a}\\right)=\\frac{4}{a^2}-a^2=\\frac{4-a^4}{a^2}\\leq0$.",
+              "由 $f'(x)=\\frac{g(x)}{\\mathrm{e}^{ax}}\\leq0$，可知 $f(x)$ 在 $[0,+\\infty)$ 上单调递减，",
+              "所以 $f(x)\\leq f(0)=a$."
+            ]
+          }
+        },
+        {
+          "id": "p3",
+          "label": "（Ⅲ）",
+          "type": "calculation",
+          "stem": "若存在 $x_0\\in[0,+\\infty)$，使 $f(x_0)<-a^2x_0+a$ 成立，求实数 $a$ 的取值范围.",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "由题意，存在 $x_0\\in[0,+\\infty)$，使 $f(x_0)<-a^2x_0+a$ 成立，",
+              "即存在 $x_0\\in[0,+\\infty)$，使 $x_0^3+a<(-a^2x_0+a)\\mathrm{e}^{ax_0}$ 成立，",
+              "即 $x_0^3+a+(a^2x_0-a)\\mathrm{e}^{ax_0}<0$ 成立.",
+              "令 $h(x)=x^3+a+(a^2x-a)\\mathrm{e}^{ax}$，$x\\in[0,+\\infty)$，",
+              "则 $h'(x)=x(3x+a^3\\mathrm{e}^{ax})$.",
+              "①当 $a\\geq0$ 时，在 $(0,+\\infty)$ 上 $h'(x)>0$，故 $h(x)$ 在 $[0,+\\infty)$ 单调递增，",
+              "所以 $h(x)\\geq h(0)=0$，不合题意.",
+              "②当 $a<0$ 时，令 $t(x)=3x+a^3\\mathrm{e}^{ax}$，$x\\in[0,+\\infty)$.",
+              "因为 $t'(x)=3+a^4\\mathrm{e}^{ax}>0$，所以 $t(x)$ 在 $[0,+\\infty)$ 单调递增，",
+              "又因为 $t(0)=a^3<0$，$t(-a^3)=a^3(-3+\\mathrm{e}^{-a^4})>0$，",
+              "所以存在 $x_0\\in(0,-a^3)$，使 $t(x_0)=0$.",
+              "所以当 $x$ 变化时，$t(x),h'(x),h(x)$ 的变化情况如下表：",
+              {
+                "table": {
+                  "rows": [
+                    [
+                      "$t(x)$",
+                      "$-$",
+                      "$0$",
+                      "$+$"
+                    ],
+                    [
+                      "$h'(x)$",
+                      "$-$",
+                      "$0$",
+                      "$+$"
+                    ],
+                    [
+                      "$h(x)$",
+                      "$\\downarrow$",
+                      "极小值",
+                      "$\\uparrow$"
+                    ]
+                  ],
+                  "header": [
+                    "$x$",
+                    "$[0,x_0)$",
+                    "$x_0$",
+                    "$(x_0,+\\infty)$"
+                  ]
+                }
+              },
+              "所以 $h(x_0)<h(0)=0$，符合题意.",
+              "综上，$a$ 的范围是 $(-\\infty,0)$."
+            ]
+          }
+        }
+      ],
+      "score": 15,
+      "pages": [
+        5
+      ],
+      "notes": [
+        "答案标注：第（Ⅰ）问4分，第（Ⅱ）问至9分，全题至15分。"
+      ]
+    },
+    {
+      "id": "q021",
+      "label": "21",
+      "type": "composite",
+      "materials": [
+        "m003"
+      ],
+      "stem": [
+        "对于有穷正数数列 $X:x_1,x_2,\\cdots,x_n$（$n\\geq2$），若满足对任意的 $i,j$（$i,j\\in\\{1,2,\\cdots,n\\}$），都有 $x_i\\geq rx_j$（$r$ 是常数，且 $0<r<1$），则称数列 $X$ 具有性质 $\\mathfrak{R}_r$.",
+        "对数列 $X$ 定义“分拆”$F$，$F$ 将 $X$ 中的第 $m$ 项（$m\\in\\{1,2,\\cdots,n\\}$）分拆为两项，并得到数列 $F(X):x_1,x_2,\\cdots,x_{m-1},x_{m+1},\\cdots,x_n,p,q$，其中 $p+q=x_m$，且 $p\\geq q>0$；特别地，当 $m=1$ 时，$F(X):x_2,x_3,\\cdots,x_n,p,q$；当 $m=n$ 时，$F(X):x_1,x_2,\\cdots,x_{n-1},p,q$.",
+        "对有穷正数数列 $A_0:a_1,a_2,\\cdots,a_n$（$n\\geq2$），令数列 $A_{k+1}=F(A_k)$，$k=0,1,2,\\cdots$. 若数列 $A_0,A_1,A_2,\\cdots,A_p$（$p\\in\\mathbf{N}^*$）均具有性质 $\\mathfrak{R}_r$，则称 $A_p$ 为数列 $A_0$ 的 $p$ 阶完美 $\\mathfrak{R}_r$ 分拆数列."
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（Ⅰ）",
+          "type": "composite",
+          "stem": "若 $A_0:1,2$，判断以下数列是否为 $A_0$ 的 $1$ 阶完美 $\\mathfrak{R}_{0.5}$ 分拆数列（结论不要求证明）：",
+          "parts": [
+            {
+              "id": "p1a",
+              "label": "①",
+              "type": "true_false",
+              "stem": "$1,1,1$；",
+              "answer": {
+                "source": "question_document",
+                "content": "是"
+              }
+            },
+            {
+              "id": "p1b",
+              "label": "②",
+              "type": "true_false",
+              "stem": "$2,0.5,0.5$.",
+              "answer": {
+                "source": "question_document",
+                "content": "否"
+              }
+            }
+          ],
+          "score": 4
+        },
+        {
+          "id": "p2",
+          "label": "（Ⅱ）",
+          "type": "proof",
+          "stem": "当 $r>0.5$ 时，若 $A_1$ 为数列 $A_0$ 的 $1$ 阶完美 $\\mathfrak{R}_r$ 分拆数列，证明：数列 $A_0$ 中被分拆的一定是最大项；",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "（Ⅱ）不妨设 $a_1\\geq a_2\\geq\\cdots\\geq a_n$.",
+              "假设取 $a_k(a_k<a_1)$ 分拆，设 $a_k=b_n+b_{n+1}(b_n\\geq b_{n+1}>0)$，",
+              "则 $b_{n+1}\\leq\\frac{1}{2}a_k<\\frac{1}{2}a_1<ra_1$ 与 $b_{n+1}\\geq ra_1$ 矛盾.",
+              "所以分拆的项一定是数列中的最大项."
+            ]
+          }
+        },
+        {
+          "id": "p3",
+          "label": "（Ⅲ）",
+          "type": "proof",
+          "stem": "若数列 $x_1,x_2,\\cdots,x_{2+k}$ 为数列 $A_0:a_1,a_2$ 的 $k$ 阶完美 $\\mathfrak{R}_{0.6}$ 分拆数列，证明：$k$ 的最大值为 $4$.",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "当 $a_1=2.2$，$a_2=1.44$ 时，$A_0$ 的 $1$ 阶完美 $\\mathfrak{R}_{0.6}$ 分拆数列为 $1.44,1.2,1$；",
+              "$A_0$ 的 $2$ 阶完美 $\\mathfrak{R}_{0.6}$ 分拆数列为 $1.2,1,0.72,0.72$；",
+              "$A_0$ 的 $3$ 阶完美 $\\mathfrak{R}_{0.6}$ 分拆数列为 $1,0.72,0.72,0.6,0.6$；",
+              "$A_0$ 的 $4$ 阶完美 $\\mathfrak{R}_{0.6}$ 分拆数列为 $0.72,0.72,0.6,0.6,0.5,0.5$.",
+              "所以数列 $A_0:a_1,a_2$ 存在 $4$ 阶完美 $\\mathfrak{R}_{0.6}$ 分拆数列.",
+              "下面证明对于任意数列 $A_0:a_1,a_2$，不存在 $5$ 阶完美 $\\mathfrak{R}_{0.6}$ 分拆数列.",
+              "假设数列 $a_1,a_2$ 的 $2$ 阶完美 $\\mathfrak{R}_{0.6}$ 分拆数列为 $b_1,b_2,b_3,b_4$，",
+              "不妨设 $b_1\\geq b_2\\geq b_3\\geq b_4$.",
+              "由（Ⅱ）知，为得到 $A_0$ 的 $3$ 阶完美 $\\mathfrak{R}_{0.6}$ 分拆数列，一定分拆 $b_1=c_4+c_5$（$c_4\\geq c_5>0$），得到数列 $c_1,c_2,c_3,c_4,c_5$，其中 $c_1=b_2$，$c_2=b_3$，$c_3=b_4$，及 $c_5\\geq0.6b_2$.",
+              "若 $c_4\\geq c_1$，则由 $c_1=b_2\\geq0.6b_1$，即 $b_1\\leq\\frac{5}{3}b_2$ 及 $c_5\\geq0.6c_1=0.6b_2$，可得",
+              "$c_4=b_1-c_5\\leq b_1-0.6b_2\\leq\\frac{5}{3}b_2-\\frac{3}{5}b_2=\\frac{16}{15}b_2<\\frac{6}{5}b_2$.",
+              "若 $c_4=x+y(x\\geq y>0)$，有 $y\\leq0.5c_4<0.5\\times1.2b_2=0.6b_2$，与题设 $y\\geq0.6b_2$ 矛盾，不合题意.",
+              "此时，数列 $c_1,c_2,c_3,c_4,c_5$ 中的最大项 $c_4$ 无法再分拆，此时分拆结束.",
+              "于是，为得到 $4$ 阶完美 $\\mathfrak{R}_{0.6}$ 分拆数列，必须有 $c_4<c_1=b_2$，此时 $c_4\\geq c_5\\geq0.6b_2$，$b_1=c_4+c_5\\geq1.2b_2$.",
+              "所以，分拆 $c_1=b_2$ 为 $d_5,d_6$（$d_5\\geq d_6>0$），得到数列 $d_1,d_2,d_3,d_4,d_5,d_6$，其中",
+              "$d_1=c_2\\geq d_2=c_3$，$d_3=c_4\\geq d_4=c_5$ 及 $d_6\\geq0.6d_1=0.6c_2=0.6b_3$.",
+              "于是 $b_2=c_1=d_5+d_6\\geq1.2b_3$.",
+              "若 $d_3$ 是数列 $d_1,d_2,d_3,d_4,d_5,d_6$ 中的最大项，",
+              "因为 $b_3\\geq\\frac{3}{5}b_1$，即 $b_1\\leq\\frac{5}{3}b_3$，又 $c_5\\geq\\frac{3}{5}c_1=\\frac{3}{5}b_2\\geq\\frac{3}{5}\\times\\frac{6}{5}b_3=\\frac{18}{25}b_3$，",
+              "于是 $d_3=c_4=b_1-c_5\\leq\\frac{5}{3}b_3-\\frac{18}{25}b_3=\\frac{71}{75}b_3<b_3=c_2=d_1$，与假设矛盾.",
+              "所以 $d_3$ 不是此时数列的最大项.",
+              "若 $d_5$ 是数列 $d_1,d_2,d_3,d_4,d_5,d_6$ 中的最大项，",
+              "因为 $b_3\\geq\\frac{3}{5}b_1\\geq\\frac{3}{5}\\times\\frac{6}{5}b_2=\\frac{18}{25}b_2$，所以 $d_6\\geq\\frac{3}{5}d_1=\\frac{3}{5}b_3\\geq\\frac{54}{125}b_2$，",
+              "又 $b_2\\leq\\frac{25}{18}b_3$，所以 $d_5=b_2-d_6\\leq b_2-\\frac{54}{125}b_2=\\frac{71}{125}b_2\\leq\\frac{71}{125}\\times\\frac{25}{18}b_3=\\frac{71}{90}b_3<b_3$",
+              "$=c_2=d_1$，与假设矛盾.",
+              "所以 $d_5$ 不是此时数列的最大项.",
+              "所以 $d_1=c_2=b_3$ 是此时数列的最大项.",
+              "此时，应有 $d_1=c_2=b_3<1.2b_4=1.2c_3=1.2d_2$，否则，$b_1\\geq1.2b_2\\geq1.2^2b_3\\geq1.2^3b_4$，",
+              "于是 $0.6b_1>0.6\\times1.2^3b_4=\\frac{3}{5}\\times\\left(\\frac{6}{5}\\right)^3b_4=\\frac{648}{625}b_4>b_4$，",
+              "与题设 $b_4\\geq0.6b_1$ 矛盾，不合题意，所以 $b_3<1.2b_2$.",
+              "若 $b_3=x+y(x\\geq y>0)$，有 $y\\leq0.5b_3<0.5\\times1.2b_4=0.6b_4$，与题设 $y\\geq0.6b_4$ 矛盾，不合题意.",
+              "此时，数列 $d_1,d_2,d_3,d_4,d_5,d_6$ 中的最大项 $d_1$ 无法再分拆，此时分拆结束.",
+              "因此，若数列 $a_1,a_2$ 存在 $k$ 阶完美 $\\mathfrak{R}_{0.6}$ 分拆数列，则 $k\\leq4$.",
+              "综上，$k$ 的最大值为 $4$."
+            ]
+          }
+        }
+      ],
+      "score": 15,
+      "pages": [
+        6
+      ],
+      "notes": [
+        "答案标注：第（Ⅰ）问4分，第（Ⅱ）问至9分，全题至15分。"
+      ]
+    }
+  ]
+}

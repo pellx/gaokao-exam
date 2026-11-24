@@ -1,0 +1,9 @@
+# Local PDF recognition and layout detection (CPU).
+pymupdf==2.1
+pillow==12.2.0
+numpy==2.4.4
+scipy==1.17.1
+onnxruntime==1.25.1
+# Existing validation / DOCX fallback dependencies:
+jsonschema==4.26.0
+python-docx==1.2.0

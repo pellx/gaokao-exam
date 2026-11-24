@@ -1,0 +1,1244 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|一模|东城|地理|",
+    "title": "2026北京东城高三一模地理试题及答案",
+    "year": 2026,
+    "kind": "一模",
+    "subject": "地理",
+    "district": "东城"
+  },
+  "source": {
+    "file": "../../../../../raw/地理/2026/一模/geography-2026-mock1-dongcheng.pdf",
+    "sha256": "aadad399bbf438610ed9c9080faa6c41636a4223384ee48edb9c2d2bb2e997e4",
+    "page_count": 13
+  },
+  "extraction": {
+    "status": "needs_review",
+    "tool": "PyMuPDF 页面渲染与图像裁切；逐页人工视觉核对与转写",
+    "notes": [
+      "原卷为扫描版 PDF，正文无文本层，已逐页渲染并视觉核对转写。",
+      "第1、3页选项旁的蓝色勾选痕迹为扫描件上的非原卷标注，未纳入题目内容。",
+      "第17题材料中的“高速十文旅”按原卷印刷字形提取。",
+      "第8图为流程示意图、第13图为照片拼图，图中文字随图片保留；相应图片已实际打开检查。",
+      "第13页为平台宣传页，与试题无关，未纳入。",
+      "选择题分值按第一部分说明“每题3分，共45分”逐题记录为3分。",
+      "已补全第10、13题①②③④项、m015末句和第20题评分表表头，并重裁图2、图8；第17题“高速十文旅”仍按原卷字形保留，待人工确认。"
+    ]
+  },
+  "assets": {
+    "a001": {
+      "path": "assets/a001.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        136.5,
+        249.7,
+        432.5,
+        609.5
+      ],
+      "sha256": "e245ddb60da304ab9830ed061de5dcdc845f6b374bdabaeac3bdde1bb138f235"
+    },
+    "a002": {
+      "path": "assets/a002.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        120.4,
+        84.5,
+        468.7,
+        339.6
+      ],
+      "sha256": "46147dc4c41ed061326e582bccc689be701aaef0aa00ac478821d8307572997e"
+    },
+    "a003": {
+      "path": "assets/a003.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        293.7,
+        518.6,
+        531.0,
+        785.9
+      ],
+      "sha256": "5f54e5d7fd4b993e09108c534df54aa147f2cc59491e0128ecaf7b4bcf5b33f8"
+    },
+    "a004": {
+      "path": "assets/a004.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        62.3,
+        63.9,
+        534.0,
+        259.7
+      ],
+      "sha256": "74f8896d00dad6bbbf3194a17555c3de3814cb7eef380f4ce27c5330107a08e1"
+    },
+    "a005": {
+      "path": "assets/a005.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        259.9,
+        469.0,
+        534.0,
+        653.9
+      ],
+      "sha256": "67d643e09725e36766aa3048d034509f1261ac31c4c2a13fd8648e1e0b024522"
+    },
+    "a006": {
+      "path": "assets/a006.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        65.3,
+        111.3,
+        534.0,
+        441.9
+      ],
+      "sha256": "d0bfb4a3e7fa5b0e03d69884a27a04e7c78233fd5315d817a6fc1b879d0ed2d4"
+    },
+    "a007": {
+      "path": "assets/a007.png",
+      "kind": "image",
+      "page": 5,
+      "bbox": [
+        121.6,
+        446.1,
+        491.3,
+        794.9
+      ],
+      "sha256": "17fe863fbaf3677f57ffc3602052878d07ff71f99989a012943694f07eb00f71"
+    },
+    "a008": {
+      "path": "assets/a008.png",
+      "kind": "image",
+      "page": 6,
+      "bbox": [
+        112.7,
+        458.8,
+        480.6,
+        561.7
+      ],
+      "sha256": "d89e18fa7484590bd705fc791efbea9932fc91fd0c43db1478d7f42df220d586"
+    },
+    "a009": {
+      "path": "assets/a009.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [
+        74.2,
+        80.7,
+        542.9,
+        376.5
+      ],
+      "sha256": "be4ead7ce7a5b4dd7a8658954c765e75ab37b072729a8d850d3430b1ca35eeec"
+    },
+    "a010": {
+      "path": "assets/a010.png",
+      "kind": "image",
+      "page": 8,
+      "bbox": [
+        93.7,
+        112.6,
+        537.0,
+        416.9
+      ],
+      "sha256": "310ce3edbfb399c4bb9a0e4f71a9e48ae2f7ce599bafdd23969dc6d4a65a4729"
+    },
+    "a011": {
+      "path": "assets/a011.png",
+      "kind": "image",
+      "page": 8,
+      "bbox": [
+        145.4,
+        515.2,
+        459.8,
+        627.8
+      ],
+      "sha256": "0abb597ed517c4411e219609bc0de83d7771a04594dcf89e5ddc9717180df4f8"
+    },
+    "a012": {
+      "path": "assets/a012.png",
+      "kind": "image",
+      "page": 9,
+      "bbox": [
+        155.4,
+        109.3,
+        448.0,
+        363.9
+      ],
+      "sha256": "63df899bd86802dea80ae27c989b5afd2d3f5cf92a2b4fb75af18db58c9d9898"
+    },
+    "a013": {
+      "path": "assets/a013.png",
+      "kind": "image",
+      "page": 10,
+      "bbox": [
+        66.5,
+        138.2,
+        563.7,
+        420.6
+      ],
+      "sha256": "b12c25c49b11d53fe4ce06a5ca749d076f34e7573b8cd533b3dd169ff512ff57"
+    }
+  },
+  "materials": {
+    "m001": {
+      "kind": "situation",
+      "content": [
+        "图1为南极冰山A23a部分移动轨迹示意图。读图，回答第1、2题。",
+        {
+          "asset": "a001",
+          "caption": "图1"
+        }
+      ],
+      "pages": [
+        1
+      ]
+    },
+    "m002": {
+      "kind": "situation",
+      "content": [
+        "图2为北京时间2026年1月17日14时亚洲局部地区海平面气压分布图。读图，回答第3、4题。",
+        {
+          "asset": "a002",
+          "caption": "图2"
+        }
+      ],
+      "pages": [
+        2
+      ]
+    },
+    "m003": {
+      "kind": "situation",
+      "content": [
+        "黄土蕴含丰富的古气候信息。有研究发现土层中的铷锶元素比(Rb/Sr)能够反映成土环境，Rb/Sr值大反映风化作用强、淋失程度强。图3为宁夏长城塬“黄土—土壤剖面”划分和Rb/Sr值曲线图。读图，回答第5、6题。",
+        {
+          "asset": "a003",
+          "caption": "图3"
+        }
+      ],
+      "pages": [
+        2
+      ]
+    },
+    "m004": {
+      "kind": "situation",
+      "content": [
+        "图4为某地的地质剖面示意图。读图，回答第7、8题。",
+        {
+          "asset": "a004",
+          "caption": "图4"
+        }
+      ],
+      "pages": [
+        3
+      ]
+    },
+    "m005": {
+      "kind": "situation",
+      "content": [
+        "图5为某研究得出的上海主城区夏季白昼地表热岛强度示意图，其中TDI数值代表不同程度的加热或冷却效应，数值大代表加热效应强。读图，回答第9、10题。",
+        {
+          "asset": "a005",
+          "caption": "图5"
+        }
+      ],
+      "pages": [
+        3
+      ]
+    },
+    "m006": {
+      "kind": "situation",
+      "content": [
+        "汉堡是德国北部的大都市，经易北河与大西洋连接。汉堡未来城市空间发展以挖掘现有建成区潜力为主。修建在旧仓库之上的易北音乐厅是当地著名地标建筑。图6为汉堡市各类功能区分布及易北音乐厅示意图。读图，回答第11～13题。",
+        {
+          "asset": "a006",
+          "caption": "图6"
+        }
+      ],
+      "pages": [
+        4
+      ]
+    },
+    "m007": {
+      "kind": "situation",
+      "content": "2025年11月第十五届全国运动会圣火“源火”是通过引燃南海深海可燃冰获取。可燃冰学名为天然气水合物，是一种似冰状结晶的化石燃料。可燃冰燃烧释放的热量大，且燃烧后仅生成少量的二氧化碳和水，污染远小于煤、石油等。据此，回答第14、15题。",
+      "pages": [
+        5
+      ]
+    },
+    "m008": {
+      "kind": "situation",
+      "content": [
+        {
+          "asset": "a007",
+          "caption": "图7"
+        }
+      ],
+      "pages": [
+        5
+      ]
+    },
+    "m009": {
+      "kind": "data",
+      "content": [
+        {
+          "asset": "a008",
+          "caption": "图8"
+        }
+      ],
+      "pages": [
+        6
+      ]
+    },
+    "m010": {
+      "kind": "situation",
+      "content": [
+        {
+          "asset": "a009",
+          "caption": "图9"
+        }
+      ],
+      "pages": [
+        7
+      ]
+    },
+    "m011": {
+      "kind": "situation",
+      "content": [
+        {
+          "asset": "a010",
+          "caption": "图10"
+        }
+      ],
+      "pages": [
+        8
+      ]
+    },
+    "m012": {
+      "kind": "situation",
+      "content": [
+        "莫托文丘陵地区生长着古老的森林，是克罗地亚白松露的核心产区。图11为白松露资料卡。",
+        "白松露是一种对生长环境要求极为苛刻的地下真菌。它与树木根部共生，依靠分解木质素获取养分，不耐高温与严寒，喜湿怕涝，适宜生长在偏碱性石灰质土壤中。",
+        {
+          "asset": "a011",
+          "caption": "图11"
+        }
+      ],
+      "pages": [
+        8
+      ]
+    },
+    "m013": {
+      "kind": "situation",
+      "content": "十六湖国家公园是克罗地亚最大的国家公园。公园中的湖泊众多、颜色多样且呈现季节变化。湖水的颜色与湖水深度、水中矿物质及光照的角度有关。",
+      "pages": [
+        8
+      ]
+    },
+    "m014": {
+      "kind": "situation",
+      "content": [
+        {
+          "asset": "a012",
+          "caption": "图12"
+        }
+      ],
+      "pages": [
+        9
+      ]
+    },
+    "m015": {
+      "kind": "situation",
+      "content": [
+        "祁连山东西绵延近1000千米，南北宽200—400千米，最高峰5808米，串联起不同的自然和人文景观，形成多彩风貌。图13为祁连山及其周边地区的相关资料。阅读图文资料，回答问题。",
+        {
+          "asset": "a013",
+          "caption": "图13"
+        }
+      ],
+      "pages": [
+        10
+      ]
+    },
+    "m016": {
+      "kind": "instructions",
+      "content": [
+        "第一部分 （选择题 共45分）",
+        "本部分共15题，每题3分，共45分。在每题列出的四个选项中，选出最符合题目要求的一项。"
+      ],
+      "pages": [
+        1
+      ]
+    },
+    "m017": {
+      "kind": "instructions",
+      "content": [
+        "第二部分 （非选择题 共55分）",
+        "本部分共5题，共55分。"
+      ],
+      "pages": [
+        5
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "1",
+      "type": "single_choice",
+      "materials": [
+        "m016",
+        "m001"
+      ],
+      "stem": "图中冰山",
+      "options": [
+        {
+          "key": "A",
+          "content": "移动区域始终位于印度洋"
+        },
+        {
+          "key": "B",
+          "content": "移动轨迹南北最大距离约1000千米"
+        },
+        {
+          "key": "C",
+          "content": "受西风漂流影响向东南移动"
+        },
+        {
+          "key": "D",
+          "content": "移动轨迹沿途海水温度和密度升高"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "pages": [
+        1
+      ],
+      "score": 3
+    },
+    {
+      "id": "q002",
+      "label": "2",
+      "type": "single_choice",
+      "materials": [
+        "m016",
+        "m001"
+      ],
+      "stem": "据图推断",
+      "options": [
+        {
+          "key": "A",
+          "content": "①到②时段南极圈内极昼范围先变小后变大"
+        },
+        {
+          "key": "B",
+          "content": "②到③时段地球自转和公转的速度越来越快"
+        },
+        {
+          "key": "C",
+          "content": "③到④时段北京太阳高度日变化幅度先变大后变小"
+        },
+        {
+          "key": "D",
+          "content": "冰山移动至④时我国正值二十四节气中的白露节气"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "pages": [
+        1
+      ],
+      "score": 3
+    },
+    {
+      "id": "q003",
+      "label": "3",
+      "type": "single_choice",
+      "materials": [
+        "m016",
+        "m002"
+      ],
+      "stem": "图示时刻",
+      "options": [
+        {
+          "key": "A",
+          "content": "甲地位于低压槽附近，风力较大"
+        },
+        {
+          "key": "B",
+          "content": "乙地气流下沉增温，炎热少雨"
+        },
+        {
+          "key": "C",
+          "content": "丙地地处暖锋锋后，风向偏东"
+        },
+        {
+          "key": "D",
+          "content": "丁地对流旺盛，出现狂风暴雨"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "pages": [
+        2
+      ],
+      "score": 3
+    },
+    {
+      "id": "q004",
+      "label": "4",
+      "type": "single_choice",
+      "materials": [
+        "m016",
+        "m002"
+      ],
+      "stem": "此时图中四地太阳辐射最强的是",
+      "options": [
+        {
+          "key": "A",
+          "content": "甲"
+        },
+        {
+          "key": "B",
+          "content": "乙"
+        },
+        {
+          "key": "C",
+          "content": "丙"
+        },
+        {
+          "key": "D",
+          "content": "丁"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "pages": [
+        2
+      ],
+      "score": 3
+    },
+    {
+      "id": "q005",
+      "label": "5",
+      "type": "single_choice",
+      "materials": [
+        "m016",
+        "m003"
+      ],
+      "stem": "古土壤层 $S_0$ 形成时期气候相对",
+      "options": [
+        {
+          "key": "A",
+          "content": "暖湿"
+        },
+        {
+          "key": "B",
+          "content": "冷干"
+        },
+        {
+          "key": "C",
+          "content": "暖干"
+        },
+        {
+          "key": "D",
+          "content": "冷湿"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "pages": [
+        2
+      ],
+      "score": 3
+    },
+    {
+      "id": "q006",
+      "label": "6",
+      "type": "single_choice",
+      "materials": [
+        "m016",
+        "m003"
+      ],
+      "stem": "图中",
+      "options": [
+        {
+          "key": "A",
+          "content": "$T_s$受人类耕作影响，土质紧实"
+        },
+        {
+          "key": "B",
+          "content": "$S_0$为腐殖质层，生物循环旺盛"
+        },
+        {
+          "key": "C",
+          "content": "$L_t$形成过程中风化作用呈减弱趋势"
+        },
+        {
+          "key": "D",
+          "content": "$L_1$和$L_0$形成时期气候较干燥，风力堆积形成黄土层"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "pages": [
+        2
+      ],
+      "score": 3
+    },
+    {
+      "id": "q007",
+      "label": "7",
+      "type": "single_choice",
+      "materials": [
+        "m016",
+        "m004"
+      ],
+      "stem": "图中",
+      "options": [
+        {
+          "key": "A",
+          "content": "①岩层形成早于②"
+        },
+        {
+          "key": "B",
+          "content": "②处岩石由岩浆喷出形成"
+        },
+        {
+          "key": "C",
+          "content": "③处是良好的储油构造"
+        },
+        {
+          "key": "D",
+          "content": "④岩层中有被子植物化石"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "pages": [
+        3
+      ],
+      "score": 3
+    },
+    {
+      "id": "q008",
+      "label": "8",
+      "type": "single_choice",
+      "materials": [
+        "m016",
+        "m004"
+      ],
+      "stem": "甲处地貌形成的主要地质过程可能是",
+      "options": [
+        {
+          "key": "A",
+          "content": "沉积作用—固结成岩—水平挤压—风化侵蚀"
+        },
+        {
+          "key": "B",
+          "content": "断裂错动—地壳下沉—沉积作用—固结成岩"
+        },
+        {
+          "key": "C",
+          "content": "岩浆活动—水平张裂—岩层隆起—风化侵蚀"
+        },
+        {
+          "key": "D",
+          "content": "岩浆活动—地壳抬升—风化侵蚀—沉积作用"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "pages": [
+        3
+      ],
+      "score": 3
+    },
+    {
+      "id": "q009",
+      "label": "9",
+      "type": "single_choice",
+      "materials": [
+        "m016",
+        "m005"
+      ],
+      "stem": "图中",
+      "options": [
+        {
+          "key": "A",
+          "content": "密集树木吸收更多地面辐射，冷却效应显著"
+        },
+        {
+          "key": "B",
+          "content": "河流、湖泊等水域比热容大，冷却效应显著"
+        },
+        {
+          "key": "C",
+          "content": "开敞低层建筑地表硬化面积大，加热效应显著"
+        },
+        {
+          "key": "D",
+          "content": "重工业区排放的二氧化碳吸收太阳辐射，加热效应显著"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "pages": [
+        3
+      ],
+      "score": 3
+    },
+    {
+      "id": "q010",
+      "label": "10",
+      "type": "single_choice",
+      "materials": [
+        "m016",
+        "m005"
+      ],
+      "stem": [
+        "可缓解上海主城区夏季热岛效应的可行措施包括",
+        "①将紧凑高层建筑调整为稀疏建筑",
+        "②推进海绵城市建设",
+        "③种植常绿阔叶树木，扩大绿地面积",
+        "④构建城市通风廊道"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "①②③"
+        },
+        {
+          "key": "B",
+          "content": "①②④"
+        },
+        {
+          "key": "C",
+          "content": "①③④"
+        },
+        {
+          "key": "D",
+          "content": "②③④"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "pages": [
+        3
+      ],
+      "score": 3
+    },
+    {
+      "id": "q011",
+      "label": "11",
+      "type": "single_choice",
+      "materials": [
+        "m016",
+        "m006"
+      ],
+      "stem": "图中甲、乙、丙三种功能区分别是",
+      "options": [
+        {
+          "key": "A",
+          "content": "商业区、港口仓储与工业区、居住区"
+        },
+        {
+          "key": "B",
+          "content": "商业区、居住区、港口仓储与工业区"
+        },
+        {
+          "key": "C",
+          "content": "居住区、港口仓储与工业区、商业区"
+        },
+        {
+          "key": "D",
+          "content": "港口仓储与工业区、商业区、居住区"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "pages": [
+        4
+      ],
+      "score": 3
+    },
+    {
+      "id": "q012",
+      "label": "12",
+      "type": "single_choice",
+      "materials": [
+        "m016",
+        "m006"
+      ],
+      "stem": "汉堡市未来城市空间发展应",
+      "options": [
+        {
+          "key": "A",
+          "content": "将港口与工业区分离，减轻工业对居民区的干扰"
+        },
+        {
+          "key": "B",
+          "content": "开发滨水区域，打造住宅与休闲娱乐混合空间"
+        },
+        {
+          "key": "C",
+          "content": "完善轨道交通和快速路等，带动城市向外围扩张"
+        },
+        {
+          "key": "D",
+          "content": "限制港口与物流业发展，更新改造港区周边土地"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "pages": [
+        4
+      ],
+      "score": 3
+    },
+    {
+      "id": "q013",
+      "label": "13",
+      "type": "single_choice",
+      "materials": [
+        "m016",
+        "m006"
+      ],
+      "stem": [
+        "易北音乐厅立体建筑有利于",
+        "①促进工业集聚",
+        "②丰富地方文化景观",
+        "③降低建造难度",
+        "④集约利用城市空间"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "①②"
+        },
+        {
+          "key": "B",
+          "content": "①③"
+        },
+        {
+          "key": "C",
+          "content": "②④"
+        },
+        {
+          "key": "D",
+          "content": "③④"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "pages": [
+        4
+      ],
+      "score": 3
+    },
+    {
+      "id": "q014",
+      "label": "14",
+      "type": "single_choice",
+      "materials": [
+        "m016",
+        "m007"
+      ],
+      "stem": "深海可燃冰",
+      "options": [
+        {
+          "key": "A",
+          "content": "是清洁、低碳、可再生的能源"
+        },
+        {
+          "key": "B",
+          "content": "赋存于地质历史时期生物残骸转化而成的变质岩中"
+        },
+        {
+          "key": "C",
+          "content": "释放出的温室气体可导致平流层自下而上气温降低"
+        },
+        {
+          "key": "D",
+          "content": "燃烧产生的二氧化碳可被海水及海洋藻类吸收、固定"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "pages": [
+        5
+      ],
+      "score": 3
+    },
+    {
+      "id": "q015",
+      "label": "15",
+      "type": "single_choice",
+      "materials": [
+        "m016",
+        "m007"
+      ],
+      "stem": "我国勘探和开采深海可燃冰的主要意义是",
+      "options": [
+        {
+          "key": "A",
+          "content": "优化能源消费结构，减少对化石能源的依赖"
+        },
+        {
+          "key": "B",
+          "content": "可燃冰燃烧效率高，可降低能源的运输成本"
+        },
+        {
+          "key": "C",
+          "content": "降低能源对外依存度，增强能源供给的稳定性"
+        },
+        {
+          "key": "D",
+          "content": "提高海洋空间资源利用率，保障海洋环境安全"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "pages": [
+        5
+      ],
+      "score": 3
+    },
+    {
+      "id": "q016",
+      "label": "16",
+      "type": "composite",
+      "materials": [
+        "m017",
+        "m008"
+      ],
+      "stem": "某校地理小组到安宁河流域及周边开展研学活动。安宁河流域位于横断山区东部。图7为安宁河流域特色农业产地示意图。阅读图文资料，回答下列问题。",
+      "score": 14,
+      "pages": [
+        5,
+        6
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "(1)",
+          "type": "short_answer",
+          "stem": "任务一 调研“现代农业硅谷”\n据当地工作人员介绍，安宁河流域打造“现代农业硅谷”，已形成优质粮食、错季蔬菜、特色水果等优势产业。\n说明安宁河流域建设“现代农业硅谷”的主要气候优势，提出当地提高农产品品质的主要措施。（6分）",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "亚热带季风气候，雨热同期，冬季温暖，生长期长，农作物产量高；冬季晴天多，光照资源丰富，山区昼夜温差大，农作物品质高；气候垂直差异显著，农作物种类丰富。",
+              "加大科技投入、提高环境质量等。"
+            ]
+          },
+          "score": 6,
+          "pages": [
+            6
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "(2)",
+          "type": "short_answer",
+          "stem": "任务二 访谈返乡创业青年\n盐源县95后大学生小静毕业后返乡创业，优先雇用当地劳动力，从微商代理起步到短视频直播带货，推介当地的优质农产品和壮美风光。\n阐明大学生返乡创业对当地的意义。（3分）",
+          "answer": {
+            "source": "question_document",
+            "content": "开拓农产品市场，增加农产品销量，促进农业发展；促进电商产业、物流业、旅游业等相关产业发展；提高当地村民收入，带动乡村振兴。"
+          },
+          "score": 3,
+          "pages": [
+            6
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "(3)",
+          "type": "drawing",
+          "materials": [
+            "m009"
+          ],
+          "stem": "任务三 探究技术赋能农产品产销流程\n随着地理信息技术的发展和应用，越来越多的优质农产品从安宁河流域运送至全国各地。图8为农产品从农田到消费者手中的主要相关环节。\n补全地理信息技术名称，结合图8绘制农产品从农田到消费者手中的流程图。（5分）",
+          "answer": {
+            "source": "question_document",
+            "content": "①遥感 ②地理信息系统 绘图略"
+          },
+          "score": 5,
+          "pages": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "17",
+      "type": "composite",
+      "materials": [
+        "m017",
+        "m010"
+      ],
+      "stem": "图9为河北省涿鹿县及周边区域地图。阅读图文资料，回答下列问题。",
+      "score": 10,
+      "pages": [
+        7
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "(1)",
+          "type": "short_answer",
+          "stem": "涿鹿县境内有桑干河、洋河等湿地生态系统和小五台山暖温带森林生态系统。涿鹿县与北京市“山同脉、水同源、气相通”，被誉为“京西生态屏障”。\n说明涿鹿县被誉为“京西生态屏障”的依据。（5分）",
+          "answer": {
+            "source": "question_document",
+            "content": "涿鹿县东邻北京，位于永定河上游，是北京重要的水源地，其境内的森林、湿地可以涵养水源、保持水土，保障入京河流的水量、水质安全；位于北京冬季风上风向，小五台山及其森林可以防风固沙、调节区域气候，提供良好生物栖息地。"
+          },
+          "score": 5,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "(2)",
+          "type": "short_answer",
+          "stem": "涿鹿县建设高速沿线冷链物流基地，助力农产品外销，推出“高速十文旅”精品旅游线路，并与中关村特色产业园签订合作协议，承接北京的装备制造、生物科技等产业。\n说明北京对涿鹿县产业发展的辐射带动作用。（5分）",
+          "answer": {
+            "source": "question_document",
+            "content": "涿鹿邻近北京，有高速、国道等交通线与北京相连，区际联系紧密。北京为涿鹿提供广阔的农产品市场，促进其农业和物流业的发展；北京游客至涿鹿旅游，促进其旅游业发展；北京装备制造、生物科技等产业转移至涿鹿，资金、技术向涿鹿流动，促进其工业发展和产业升级。"
+          },
+          "score": 5,
+          "pages": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "18",
+      "type": "composite",
+      "materials": [
+        "m017",
+        "m011"
+      ],
+      "stem": "克罗地亚位于欧洲东南部，境内喀斯特地貌广布。图10为克罗地亚地图。阅读图文资料，回答下列问题。",
+      "score": 13,
+      "pages": [
+        8
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "(1)",
+          "type": "short_answer",
+          "stem": "描述克罗地亚海岸线特征，推测塑造其海岸地貌的主要外力作用。（5分）",
+          "answer": {
+            "source": "question_document",
+            "content": "海岸线长、曲折、破碎，岛屿众多。流水溶蚀、海浪侵蚀等。"
+          },
+          "score": 5,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "(2)",
+          "type": "short_answer",
+          "materials": [
+            "m012"
+          ],
+          "stem": "说明当地适合白松露生长的自然条件。（4分）",
+          "answer": {
+            "source": "question_document",
+            "content": "莫托文气候温和，降水较多；丘陵地形，易排水；喀斯特地貌区，碱性石灰质土壤广布；森林覆盖率高，古老树木根部为白松露提供养分。"
+          },
+          "score": 4,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "(3)",
+          "type": "short_answer",
+          "materials": [
+            "m013"
+          ],
+          "stem": "分析十六湖国家公园湖泊颜色丰富的原因。（4分）",
+          "answer": {
+            "source": "question_document",
+            "content": "湖泊众多，深浅不同；喀斯特地貌广布，湖水中矿物质比例不同。不同季节，降水变化大，湖泊水量不同；太阳高度变化，光照角度不同。"
+          },
+          "score": 4,
+          "pages": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "19",
+      "type": "composite",
+      "materials": [
+        "m017",
+        "m014"
+      ],
+      "stem": "广西壮族自治区柳州市是我国西南汽车工业重镇。图12为广西壮族自治区地图。阅读图文资料，回答下列问题。",
+      "score": 11,
+      "pages": [
+        9
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "(1)",
+          "type": "short_answer",
+          "stem": "柳州市对新能源汽车实行购车补贴、通行优先、停车优惠，实现充电设施和维修站点城乡全覆盖，其新能源汽车渗透率（销量占同期汽车总销量的比例）位居我国各城市前列。\n简述柳州市新能源汽车渗透率高的主要原因。（4分）",
+          "answer": {
+            "source": "question_document",
+            "content": "汽车产业基础好，新能源汽车产量高、价格低；政府政策支持；充电桩等配套基础设施完善；售后服务完善；符合当地居民出行需求等。"
+          },
+          "score": 4,
+          "pages": [
+            9
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "(2)",
+          "type": "short_answer",
+          "stem": "柳州市W汽车公司在印度尼西亚建成海外新能源汽车制造基地，带动广西多家上下游企业共同出海，与印度尼西亚高校合作成立汽车学院，开展人才培训。\n简述该汽车制造基地建成对印度尼西亚的积极影响。（4分）",
+          "answer": {
+            "source": "question_document",
+            "content": "完善印尼新能源汽车产业链，促进经济发展；创造就业机会；培养当地技术人才；推动新能源汽车的普及，减少碳排放。"
+          },
+          "score": 4,
+          "pages": [
+            9
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "(3)",
+          "type": "short_answer",
+          "stem": "由柳州市经钦州市到东南亚的铁海联运专列（定点、定时、定线、定价），主要服务于柳州制造的汽车及零部件出口，采取简易通关模式，“一站直达”东南亚市场。\n说明铁海联运专列的优势。（3分）",
+          "answer": {
+            "source": "question_document",
+            "content": "铁路和海运运量大、运费低，适合运输汽车等大宗货物；专列班次、价格等固定，保障汽车出口的稳定性；专列通关简便，运输效率高。"
+          },
+          "score": 3,
+          "pages": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q020",
+      "label": "20",
+      "type": "essay",
+      "materials": [
+        "m017",
+        "m015"
+      ],
+      "stem": "结合材料，论述图示区域多彩风貌的形成原因。（从自然环境整体性和差异性、人地关系等视角展开论述）",
+      "answer": {
+        "source": "question_document",
+        "content": [
+          {
+            "table": {
+              "header": [
+                "表现水平",
+                "水平描述"
+              ],
+              "rows": [
+                [
+                  "水平3",
+                  "视角丰富，实例恰当，逻辑严谨，条理清晰，准确运用地理术语"
+                ],
+                [
+                  "水平2",
+                  "视角较丰富，实例较恰当，逻辑较严谨，条理较清晰，运用地理术语"
+                ],
+                [
+                  "水平1",
+                  "视角单一，有实例，缺乏逻辑，无条理，无地理术语"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      "score": 7,
+      "pages": [
+        10
+      ]
+    }
+  ]
+}

@@ -1,0 +1,470 @@
+[
+  {
+    "key": "2026|零模|北京二中|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\零模\\东城\\北京二中\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 26,
+      "leaf_questions": 29,
+      "materials": 15,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|零模|北师大实验中学|数学|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\零模\\西城\\北师大实验中学\\数学\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 21,
+      "leaf_questions": 31,
+      "materials": 0,
+      "assets": 2,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|零模|北师大实验中学|化学|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\零模\\西城\\北师大实验中学\\化学\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 19,
+      "leaf_questions": 48,
+      "materials": 3,
+      "assets": 33,
+      "extraction_status": "needs_review"
+    }
+  },
+  {
+    "key": "2026|零模|八十中|物理|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\零模\\朝阳\\八十中\\物理\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 20,
+      "leaf_questions": 34,
+      "materials": 5,
+      "assets": 30,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|一模|东城|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\一模\\东城\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 31,
+      "materials": 13,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|一模|西城|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\一模\\西城\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 31,
+      "materials": 13,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|一模|朝阳|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\一模\\朝阳\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 27,
+      "materials": 10,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|一模|海淀|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\一模\\海淀\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 31,
+      "materials": 7,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|一模|丰台|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\一模\\丰台\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 30,
+      "materials": 9,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|一模|石景山|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\一模\\石景山\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 29,
+      "materials": 8,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|一模|顺义|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\一模\\顺义\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 30,
+      "materials": 14,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|一模|昌平|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\一模\\昌平\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 31,
+      "materials": 8,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|一模|房山|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\一模\\房山\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 23,
+      "leaf_questions": 32,
+      "materials": 8,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|一模|门头沟|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\一模\\门头沟\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 31,
+      "materials": 14,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|一模|平谷|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\一模\\平谷\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 31,
+      "materials": 15,
+      "assets": 1,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|一模|延庆|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\一模\\延庆\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 30,
+      "materials": 13,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|二模|东城|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\二模\\东城\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 30,
+      "materials": 13,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|二模|西城|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\二模\\西城\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 30,
+      "materials": 7,
+      "assets": 0,
+      "extraction_status": "needs_review"
+    }
+  },
+  {
+    "key": "2026|二模|朝阳|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\二模\\朝阳\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 35,
+      "materials": 16,
+      "assets": 1,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|二模|海淀|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\二模\\海淀\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 30,
+      "materials": 16,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|二模|海淀|语文|查漏补缺",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\二模\\海淀\\语文\\查漏补缺\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 44,
+      "leaf_questions": 52,
+      "materials": 22,
+      "assets": 1,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|二模|丰台|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\二模\\丰台\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 30,
+      "materials": 15,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|二模|石景山|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\二模\\石景山\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 30,
+      "materials": 7,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|二模|顺义|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\二模\\顺义\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 30,
+      "materials": 16,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|二模|昌平|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\二模\\昌平\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 31,
+      "materials": 7,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|二模|房山|语文|",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\二模\\房山\\语文\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 31,
+      "materials": 12,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|三模|一六一中|语文|保温",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\三模\\西城\\一六一中\\语文\\保温\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 26,
+      "leaf_questions": 31,
+      "materials": 15,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|三模|一六一中|语文|考前热身",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\三模\\西城\\一六一中\\语文\\考前热身\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 27,
+      "materials": 16,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|三模|北师大附中|语文|三模",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\三模\\西城\\北师大附中\\语文\\三模\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 30,
+      "materials": 13,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|三模|育才学校|语文|三模",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\三模\\西城\\育才学校\\语文\\三模\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 27,
+      "leaf_questions": 30,
+      "materials": 19,
+      "assets": 1,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|三模|陈经纶中学|语文|保温",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\三模\\朝阳\\陈经纶中学\\语文\\保温\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 32,
+      "materials": 14,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|三模|一零一中学|语文|三模",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\三模\\海淀\\一零一中学\\语文\\三模\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 25,
+      "leaf_questions": 30,
+      "materials": 8,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|三模|人大附中|语文|三模",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\三模\\海淀\\人大附中\\语文\\三模\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 23,
+      "leaf_questions": 31,
+      "materials": 17,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|三模|十一学校|语文|三模",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\三模\\海淀\\十一学校\\语文\\三模\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 27,
+      "materials": 15,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|三模|海淀|语文|查漏补缺",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\三模\\海淀\\语文\\查漏补缺\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 44,
+      "leaf_questions": 52,
+      "materials": 13,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  },
+  {
+    "key": "2026|三模|北京精华学校|语文|三模",
+    "report": {
+      "paper": "E:\\gaokao-exam\\parsed\\2026\\三模\\大兴\\北京精华学校\\语文\\三模\\paper.json",
+      "valid": true,
+      "errors": [],
+      "top_level_questions": 22,
+      "leaf_questions": 27,
+      "materials": 13,
+      "assets": 0,
+      "extraction_status": "verified"
+    }
+  }
+]

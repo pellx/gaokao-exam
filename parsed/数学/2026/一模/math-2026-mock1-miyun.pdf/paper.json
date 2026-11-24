@@ -1,0 +1,892 @@
+{
+ "format": "exam-questions/v1",
+ "paper": {
+  "id": "2026|一模|密云|数学|",
+  "title": "2026北京密云高三一模数学试题及答案",
+  "year": 2026,
+  "kind": "一模",
+  "subject": "数学",
+  "district": "密云"
+ },
+ "source": {
+  "file": "../../../../../raw/数学/2026/一模/math-2026-mock1-miyun.pdf",
+  "sha256": "2f0cd6cd0e04ab47474788e7a48fcac218720fe0b287cc03060ddd9e5b41ce43",
+  "page_count": 15
+ },
+ "extraction": {
+  "status": "needs_review",
+  "tool": "pymupdf 2.1 文本层提取 + 170/300dpi 页面渲染视觉核对",
+  "notes": [
+   "PDF 共15页：第1—4页为试题，第5—14页为参考答案，第15页为北京高考在线平台宣传页，未纳入题目。",
+   "PDF 文本层为碎片化公式文本（公式被拆成单字符），全部题目、选项、答案与解析均经页面渲染逐页视觉核对，公式按原卷排版重新录入为 LaTeX。",
+   "原卷第10题题干中“直线 $l$ 与圆 $C$”未与题首的 $l_1,l_2$ 明确对应，按原样保留并在该题标记 needs_review。",
+   "第12题两个空、第14题“答案不唯一”均按原答案标注保留；解答题16—21原卷未印各题分值，未填写 score。",
+   "第15题第④项、第16题第（2）问、第19题第（2）问的解析图分别取自参考答案第6、8、11页原图；第13、16题题干配图取自第2、3页原图。"
+  ]
+ },
+ "assets": {
+  "a001": {
+   "path": "assets/a001.png",
+   "kind": "image",
+   "page": 2,
+   "bbox": [
+    53.85,
+    479.16,
+    278.85,
+    592.41
+   ],
+   "sha256": "0e1cda241ea8e770fa935cbe74c8a33827c276189de28e0e0da28884b7ae8d65"
+  },
+  "a002": {
+   "path": "assets/a002.png",
+   "kind": "image",
+   "page": 3,
+   "bbox": [
+    53.85,
+    146.57,
+    170.1,
+    259.82
+   ],
+   "sha256": "e08b4c94be51762a7cea496ad02af31dd7eb130601270bc6522338c6a648ea9e"
+  },
+  "a003": {
+   "path": "assets/a003.png",
+   "kind": "image",
+   "page": 6,
+   "bbox": [
+    53.85,
+    623.1,
+    178.35,
+    718.35
+   ],
+   "sha256": "482cf54c42921506319f608f7272c9eddfec1ef264dbaa600f82c30c22130f46"
+  },
+  "a004": {
+   "path": "assets/a004.png",
+   "kind": "image",
+   "page": 8,
+   "bbox": [
+    53.85,
+    45.35,
+    185.1,
+    185.6
+   ],
+   "sha256": "928f4769dca5d75a52203200330a40606a0fe4a8d7d36b58fd6423647f24b7bf"
+  },
+  "a005": {
+   "path": "assets/a005.png",
+   "kind": "image",
+   "page": 11,
+   "bbox": [
+    53.85,
+    542.61,
+    185.1,
+    620.61
+   ],
+   "sha256": "328ed344657af06fc8a86ee8d66ce0ecdb87a9aaee21883f6312bb369f4b4ee5"
+  }
+ },
+ "questions": [
+  {
+   "id": "q001",
+   "label": "1",
+   "type": "single_choice",
+   "stem": "已知集合 $A=\\{x|-1\\le x<2\\{}$，$B=\\{x|0<x<3\\{}$，则 $A\\cup B=$（    ）",
+   "options": [
+    {
+     "key": "A",
+     "content": "$\\{x|-1\\le x<3\\{}$"
+    },
+    {
+     "key": "B",
+     "content": "$\\{x|0<x<2\\{}$"
+    },
+    {
+     "key": "C",
+     "content": "$\\{x|-1\\le x<0\\{}$"
+    },
+    {
+     "key": "D",
+     "content": "$\\{x|-1<x<3\\{}$"
+    }
+   ],
+   "answer": {
+    "source": "question_document",
+    "choices": [
+     "A"
+    ]
+   },
+   "score": 4,
+   "pages": [
+    1
+   ]
+  },
+  {
+   "id": "q002",
+   "label": "2",
+   "type": "single_choice",
+   "stem": "若复数 $z=1+2\\mathrm{i}$，则 $\\mathrm{i}z+\\overline{z}$ 在复平面上对应的点位于（    ）",
+   "options": [
+    {
+     "key": "A",
+     "content": "第一象限"
+    },
+    {
+     "key": "B",
+     "content": "第二象限"
+    },
+    {
+     "key": "C",
+     "content": "第三象限"
+    },
+    {
+     "key": "D",
+     "content": "第四象限"
+    }
+   ],
+   "answer": {
+    "source": "question_document",
+    "choices": [
+     "C"
+    ]
+   },
+   "score": 4,
+   "pages": [
+    1
+   ]
+  },
+  {
+   "id": "q003",
+   "label": "3",
+   "type": "single_choice",
+   "stem": "双曲线 $\\frac{y^2}{16}-\\frac{x^2}{9}=1$ 的渐近线方程为（    ）",
+   "options": [
+    {
+     "key": "A",
+     "content": "$y=\\pm\\frac{16}{9}x$"
+    },
+    {
+     "key": "B",
+     "content": "$y=\\pm\\frac{9}{16}x$"
+    },
+    {
+     "key": "C",
+     "content": "$y=\\pm\\frac{3}{4}x$"
+    },
+    {
+     "key": "D",
+     "content": "$y=\\pm\\frac{4}{3}x$"
+    }
+   ],
+   "answer": {
+    "source": "question_document",
+    "choices": [
+     "D"
+    ]
+   },
+   "score": 4,
+   "pages": [
+    1
+   ]
+  },
+  {
+   "id": "q004",
+   "label": "4",
+   "type": "single_choice",
+   "stem": "已知 $a,b,c\\in\\mathbf{R}$，则下列结论中不正确的是（    ）",
+   "options": [
+    {
+     "key": "A",
+     "content": "若 $a>b,c<0$，则 $a+c<b+c$"
+    },
+    {
+     "key": "B",
+     "content": "若 $a^3>b^3$，则 $a>b$"
+    },
+    {
+     "key": "C",
+     "content": "若 $ac^2>bc^2$，则 $a>b$"
+    },
+    {
+     "key": "D",
+     "content": "若 $\\sqrt{a}<\\sqrt{b}$，则 $a<b$"
+    }
+   ],
+   "answer": {
+    "source": "question_document",
+    "choices": [
+     "A"
+    ]
+   },
+   "score": 4,
+   "pages": [
+    1
+   ]
+  },
+  {
+   "id": "q005",
+   "label": "5",
+   "type": "single_choice",
+   "stem": "已知数列 $\\{a_n\\}$ 的前 $n$ 项和为 $S_n$，$a_1=3$，$a_{n+1}=a_n-2\\left(n\\in\\mathbf{N}^*\\right)$，则 $S_5=$（    ）",
+   "options": [
+    {
+     "key": "A",
+     "content": "35"
+    },
+    {
+     "key": "B",
+     "content": "11"
+    },
+    {
+     "key": "C",
+     "content": "$-5$"
+    },
+    {
+     "key": "D",
+     "content": "$-35$"
+    }
+   ],
+   "answer": {
+    "source": "question_document",
+    "choices": [
+     "C"
+    ]
+   },
+   "score": 4,
+   "pages": [
+    1
+   ]
+  },
+  {
+   "id": "q006",
+   "label": "6",
+   "type": "single_choice",
+   "stem": "已知向量 $\\vec{a}=(2,2)$，$\\vec{b}=(\\cos\\theta,\\sin\\theta)(\\theta\\in\\mathbf{R})$，则 $\\vec{a}\\cdot\\vec{b}$ 的最小值为（    ）",
+   "options": [
+    {
+     "key": "A",
+     "content": "$2\\sqrt{2}$"
+    },
+    {
+     "key": "B",
+     "content": "2"
+    },
+    {
+     "key": "C",
+     "content": "-2"
+    },
+    {
+     "key": "D",
+     "content": "$-2\\sqrt{2}$"
+    }
+   ],
+   "answer": {
+    "source": "question_document",
+    "choices": [
+     "D"
+    ]
+   },
+   "score": 4,
+   "pages": [
+    1
+   ]
+  },
+  {
+   "id": "q007",
+   "label": "7",
+   "type": "single_choice",
+   "stem": "为了得到 $y=\\frac{4^x}{4^x+1}$ 的图象，只需把函数 $y=\\frac{2^x}{2^x+1}$ 的图象上所有点的（    ）",
+   "options": [
+    {
+     "key": "A",
+     "content": "横坐标变为原来的2倍（纵坐标不变）"
+    },
+    {
+     "key": "B",
+     "content": "横坐标变为原来的 $\\frac{1}{2}$ 倍（纵坐标不变）"
+    },
+    {
+     "key": "C",
+     "content": "纵坐标变为原来的2倍（横坐标不变）"
+    },
+    {
+     "key": "D",
+     "content": "纵坐标变为原来的 $\\frac{1}{2}$ 倍（横坐标不变）"
+    }
+   ],
+   "answer": {
+    "source": "question_document",
+    "choices": [
+     "B"
+    ]
+   },
+   "score": 4,
+   "pages": [
+    1
+   ]
+  },
+  {
+   "id": "q008",
+   "label": "8",
+   "type": "single_choice",
+   "stem": "已知函数 $f(x)=\\sin\\left(\\omega x+\\frac{\\pi}{4}\\right)(\\omega>0)$，则“$\\omega=\\frac{1}{2}$”是“$f(x)$ 在 $\\left[0,\\frac{\\pi}{3}\\right]$ 上单调递增”的（    ）",
+   "options": [
+    {
+     "key": "A",
+     "content": "充分不必要条件"
+    },
+    {
+     "key": "B",
+     "content": "必要不充分条件"
+    },
+    {
+     "key": "C",
+     "content": "充要条件"
+    },
+    {
+     "key": "D",
+     "content": "既不充分也不必要条件"
+    }
+   ],
+   "answer": {
+    "source": "question_document",
+    "choices": [
+     "A"
+    ]
+   },
+   "score": 4,
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "q009",
+   "label": "9",
+   "type": "single_choice",
+   "stem": [
+    "任取一个正整数，若它是奇数，就将该数乘 $3$ 再加 $1$；若它是偶数，就将该数除以 $2$。反复进行上述两种运算，经过有限次步骤后，必进入循环圈 $1\\to4\\to2\\to1$。这就是数学史上著名的“冰雹猜想”。如取正整数 $6$ 时，根据上述运算法则得出 $6\\to3\\to10\\to5\\to16\\to8\\to4\\to2\\to1$，共需经过 $8$ 个步骤变成 $1$（简称 $8$ 步“雹程”）。现给出“冰雹猜想”的递推关系如下：已知数列 $\\{a_n\\}$ 满足：$a_1=m\\left(m\\in\\mathbf{N}^*\\right)$，",
+    "$$a_{n+1}=\\begin{cases}\\dfrac{a_n}{2},&\\text{当 }a_n\\text{ 为偶数时},\\\\[6pt]3a_n+1,&\\text{当 }a_n\\text{ 为奇数时}.\\end{cases}$$",
+    "若 $a_8=1$，则 $m$ 的所有可能取值的总个数为（    ）"
+   ],
+   "options": [
+    {
+     "key": "A",
+     "content": "5"
+    },
+    {
+     "key": "B",
+     "content": "6"
+    },
+    {
+     "key": "C",
+     "content": "7"
+    },
+    {
+     "key": "D",
+     "content": "8"
+    }
+   ],
+   "answer": {
+    "source": "question_document",
+    "choices": [
+     "B"
+    ]
+   },
+   "score": 4,
+   "pages": [
+    2
+   ]
+  },
+  {
+   "id": "q010",
+   "label": "10",
+   "type": "single_choice",
+   "stem": "已知直线 $l_1:mx+y-3m-2=0$ 与 $l_2:x-my+6m-3=0$ 相交于点 $P$，直线 $l$ 与圆 $C:x^2+y^2=2$ 交于两点 $A,B$，且 $\\left|\\overrightarrow{AB}\\right|=2$，则 $\\left|\\overrightarrow{PA}+\\overrightarrow{PB}\\right|$ 的最大值为（    ）",
+   "options": [
+    {
+     "key": "A",
+     "content": "2"
+    },
+    {
+     "key": "B",
+     "content": "4"
+    },
+    {
+     "key": "C",
+     "content": "8"
+    },
+    {
+     "key": "D",
+     "content": "16"
+    }
+   ],
+   "answer": {
+    "source": "question_document",
+    "choices": [
+     "D"
+    ]
+   },
+   "needs_review": true,
+   "notes": [
+    "原卷题干写为“直线 $l$ 与圆 $C$”，未与题首 $l_1,l_2$ 明确对应，按原样保留，不作改动。"
+   ],
+   "score": 4,
+   "pages": [
+    2
+   ]
+  },
+  {
+   "id": "q011",
+   "label": "11",
+   "type": "fill_blank",
+   "stem": "若抛物线：$y^2=2px(p>0)$ 的焦点在直线 $x+2y-2=0$ 上，则 $p$ 等于______。",
+   "answer": {
+    "source": "question_document",
+    "content": "4"
+   },
+   "analysis": [
+    "将抛物线的焦点坐标代入直线方程可求得实数 $p$ 的值。",
+    "根据题意，抛物线 $C$ 的方程为 $y^2=2px(p>0)$，其抛物线的焦点在 $x$ 轴的正半轴上，其焦点坐标为 $\\left(\\frac{p}{2},0\\right)$，又由抛物线的焦点在直线 $x+2y-2=0$ 上，则有 $\\frac{p}{2}-2=0$，解可得 $p=4$。故答案为：$4$。"
+   ],
+   "score": 5,
+   "pages": [
+    2
+   ]
+  },
+  {
+   "id": "q012",
+   "label": "12",
+   "type": "fill_blank",
+   "stem": "$\\left(\\frac{1}{x}+2x\\right)^4$ 的二项展开式中，第1项是______；常数项是______。",
+   "answer": {
+    "source": "question_document",
+    "content": [
+     "$\\frac{1}{x^4}$",
+     "24"
+    ]
+   },
+   "analysis": [
+    "$\\left(\\frac{1}{x}+2x\\right)^4$ 的二项展开式的第1项是 $\\mathrm{C}_4^0\\left(\\frac{1}{x}\\right)^4=\\frac{1}{x^4}$，常数项为 $\\mathrm{C}_4^2\\left(\\frac{1}{x}\\right)^2(2x)^2=24$。"
+   ],
+   "score": 5,
+   "pages": [
+    2
+   ]
+  },
+  {
+   "id": "q013",
+   "label": "13",
+   "type": "fill_blank",
+   "stem": [
+    "玉琮是一种内圆外方的筒型玉器，是古人用于祭祀的礼器。假定某玉琮中间内空，形状对称；如图所示，圆筒内径长 $2\\mathrm{cm}$，外径长 $3\\mathrm{cm}$，筒高 $4\\mathrm{cm}$，中部是棱长为 $3\\mathrm{cm}$ 的正方体的一部分，圆筒的外侧面内切于正方体的侧面，则该玉琮的体积为______$\\mathrm{cm}^3$。",
+    {
+     "asset": "a001"
+    }
+   ],
+   "answer": {
+    "source": "question_document",
+    "content": "$27-\\frac{7\\pi}{4}$"
+   },
+   "analysis": [
+    "玉琮体积可以分为两部分计算：上下圆筒部分和中部正方体挖去圆柱部分，最后减去空心部分的体积。",
+    "因为圆筒内径长为 $2\\mathrm{cm}$，所以内圆半径 $r=1\\mathrm{cm}$。外径长为 $3\\mathrm{cm}$，所以外圆半径 $R=\\frac{3}{2}\\mathrm{cm}$。上下两段圆筒总高为 $4-3=1\\mathrm{cm}$，加上中部正方体挖去外圆柱后剩余部分：",
+    "$V_{\\text{实心外}}=\\text{上下外圆柱体积}+\\text{中部正方体体积}=\\pi R^2\\cdot1+3^3=\\pi\\left(\\frac{3}{2}\\right)^2+27=27+\\frac{9\\pi}{4}$。",
+    "空心是贯通整个玉琮的内圆柱，总高为 $4\\mathrm{cm}$，$V_{\\text{空心}}=\\pi r^2\\cdot4=\\pi\\cdot1^2\\cdot4=4\\pi$。所以玉琮的体积为 $V=V_{\\text{实心外}}-V_{\\text{空心}}=27+\\frac{9\\pi}{4}-4\\pi=27-\\frac{7\\pi}{4}$。"
+   ],
+   "score": 5,
+   "pages": [
+    2
+   ]
+  },
+  {
+   "id": "q014",
+   "label": "14",
+   "type": "fill_blank",
+   "stem": "设 $a,b\\in\\mathbf{R}$，$c\\in[0,2\\pi)$，若对任意实数 $x$，都有 $a\\sin(bx+c)=2\\sin\\left(3x-\\frac{\\pi}{4}\\right)$，则满足条件的一组实数 $a,b,c$ 的值依次为______。",
+   "answer": {
+    "source": "question_document",
+    "content": "$2$，$3$，$\\frac{7\\pi}{4}$（答案不唯一）"
+   },
+   "analysis": [
+    "利用诱导公式，结合 $a,b,c$ 的取值范围和等式恒成立可得 $a,b,c$ 的一组值。",
+    "因为 $2\\sin\\left(3x-\\frac{\\pi}{4}\\right)=2\\sin\\left(3x-\\frac{\\pi}{4}+2\\pi\\right)=2\\sin\\left(3x+\\frac{7\\pi}{4}\\right)$，且当 $a,b\\in\\mathbf{R},c\\in[0,2\\pi)$ 时，等式 $a\\sin(bx+c)=2\\sin\\left(3x-\\frac{\\pi}{4}\\right)$ 对任意实数 $x$ 都成立，所以 $a=2$，$b=3$，$c=\\frac{7\\pi}{4}$ 满足条件需求。故满足条件的一组实数 $a,b,c$ 的值依次为：$2,3,\\frac{7\\pi}{4}$（答案不唯一）。"
+   ],
+   "score": 5,
+   "pages": [
+    2
+   ]
+  },
+  {
+   "id": "q015",
+   "label": "15",
+   "type": "fill_blank",
+   "stem": [
+    "已知函数 $f(x)=|\\ln|x||-kx+1$。给出下列四个结论：",
+    "①当 $k=0$ 时，$f(x)$ 为偶函数；",
+    "②当 $k>1$ 时，对任意 $x>1$，都有 $f(x)<0$；",
+    "③当 $k>1$ 时，$f(x)$ 在 $(0,+\\infty)$ 上单调递减；",
+    "④存在实数 $k$，使得 $f(x)$ 有2个零点。",
+    "其中正确结论的序号为______。"
+   ],
+   "answer": {
+    "source": "question_document",
+    "content": "①②③"
+   },
+   "analysis": [
+    "利用偶函数定义判断①；利用导数确定单调性判断②③；确定零点个数判断④。",
+    "函数 $f(x)=|\\ln|x||-kx+1$ 的定义域为 $(-\\infty,0)\\cup(0,+\\infty)$。",
+    "对于①，当 $k=0$ 时，$f(x)=|\\ln|x||+1$，$f(-x)=|\\ln|-x||+1=f(x)$，$f(x)$ 为偶函数，①正确；",
+    "对于②，当 $k>1,x>1$ 时，$f(x)=\\ln x-kx+1$，求导得 $f'(x)=\\frac{1}{x}-k<0$，函数 $f(x)$ 在 $(1,+\\infty)$ 上单调递减，恒有 $f(x)<f(1)=1-k<0$，②正确；",
+    "对于③，当 $k>1,x>0$ 时，$f(x)=|\\ln x|-kx+1=\\begin{cases}1-\\ln x-kx,&0<x<1,\\\\1+\\ln x-kx,&x\\ge1,\\end{cases}$，当 $0<x<1$ 时，$f'(x)=-\\frac{1}{x}-k<0$；当 $x\\ge1$ 时，$f'(x)=\\frac{1}{x}-k<0$，函数 $f(x)$ 在 $(0,1]$ 上单调递减，在 $[1,+\\infty)$ 上单调递减，因此 $f(x)$ 在 $(0,+\\infty)$ 上单调递减，③正确；",
+    "对于④，函数 $f(x)=|\\ln|x||-kx+1$ 的零点即为方程 $|\\ln|x||=kx-1$ 的根，亦即函数 $y=|\\ln|x||$ 的图象与直线 $y=kx-1$ 交点的横坐标，在同一坐标系内画出函数 $y=|\\ln|x||$ 的图象及直线 $y=kx-1$，如图：",
+    {
+     "asset": "a003"
+    },
+    "直线 $y=kx-1$ 过定点 $(0,-1)$，令 $y=kx-1$ 与函数 $y=\\ln x$ 相切的切点为 $(x_0,\\ln x_0)$，由 $y=\\ln x$，求导得 $y'=\\frac{1}{x}$，则 $k=\\frac{1}{x_0},\\ln x_0=kx_0-1$，解得 $k=1,x_0=1$，则当 $k=1$ 时，函数 $y=|\\ln|x||$ 的图象与直线 $y=kx-1$ 有1个交点；",
+    "当 $0<k<1$ 时，直线 $y=kx-1$ 还过点 $\\left(\\frac{1}{k},0\\right),\\frac{1}{k}>1$，函数 $y=|\\ln|x||$ 的图象与直线 $y=kx-1$ 有1个交点；",
+    "当 $k>1$ 时，直线 $y=kx-1$ 还过点 $\\left(\\frac{1}{k},0\\right),0<\\frac{1}{k}<1$，函数 $y=|\\ln|x||$ 的图象与直线 $y=kx-1$ 有1个交点，因此当 $k>0$ 时，函数 $y=|\\ln|x||$ 的图象与直线 $y=kx-1$ 有1个交点；当 $k=0$ 时，函数 $y=|\\ln|x||$ 的图象与直线 $y=kx-1$ 没有交点；当 $k<0$ 时，由对称性得函数 $y=|\\ln|x||$ 的图象与直线 $y=kx-1$ 有1个交点，所以不存在实数 $k$，使得 $f(x)$ 有2个零点，④错误。"
+   ],
+   "score": 5,
+   "pages": [
+    2,
+    3
+   ]
+  },
+  {
+   "id": "q016",
+   "label": "16",
+   "type": "composite",
+   "stem": [
+    "如图，在三棱柱 $ABC-A_1B_1C_1$ 中，$BB_1\\perp$ 平面 $ABC$，$AB\\perp BC$，$AB=BC=BB_1=2$，$M,N$ 分别为 $A_1B_1,AC$ 的中点。",
+    {
+     "asset": "a002"
+    }
+   ],
+   "analysis": [
+    "（1）取 $BC$ 的中点 $E$，连接 $EB_1,EN$，先证四边形 $B_1MNE$ 为平行四边形，则根据线面平行的判定定理证明；（2）因为 $BC,AB,BB_1$ 两两垂直，如图建立空间直角坐标系 $B-xyz$，利用空间向量法求二面角。"
+   ],
+   "parts": [
+    {
+     "id": "p1",
+     "label": "（1）",
+     "type": "proof",
+     "stem": "求证：$MN\\parallel$ 平面 $BCC_1B_1$；",
+     "answer": {
+      "source": "question_document",
+      "content": "证明见解析"
+     },
+     "analysis": [
+      "取 $BC$ 的中点 $E$，连接 $EB_1,EN$，因为 $E,N$ 分别为 $BC,AC$ 的中点，所以 $EN\\parallel AB,EN=\\frac{1}{2}AB$，又因为 $B_1M\\parallel AB,B_1M=\\frac{1}{2}AB$，所以 $B_1M=EN,B_1M\\parallel EN$，所以四边形 $B_1MNE$ 为平行四边形。所以 $B_1E\\parallel MN$，因为 $MN\\not\\subset$ 平面 $BCC_1B_1,B_1E\\subset$ 平面 $BCC_1B_1$，所以 $MN\\parallel$ 平面 $BCC_1B_1$。"
+     ]
+    },
+    {
+     "id": "p2",
+     "label": "（2）",
+     "type": "calculation",
+     "stem": "求二面角 $M-AC-B$ 的余弦值。",
+     "answer": {
+      "source": "question_document",
+      "content": "$\\frac{1}{3}$"
+     },
+     "analysis": [
+      "由题知 $BB_1\\perp$ 平面 $ABC$，所以 $BB_1\\perp AB,BB_1\\perp BC$，又因为 $AB\\perp BC$，所以 $BC,AB,BB_1$ 两两垂直，如图建立空间直角坐标系 $B-xyz$。",
+      {
+       "asset": "a004"
+      },
+      "所以 $B(0,0,0),C(2,0,0),A(0,2,0),M(0,1,2)$，则 $\\overrightarrow{MC}=(2,-1,-2),\\overrightarrow{AC}=(2,-2,0)$。根据题意平面 $ABC$ 的一个法向量是 $\\vec{n}=(0,0,1)$，设平面 $MAC$ 的法向量为 $\\vec{m}=(x,y,z)$，则 $\\begin{cases}\\vec{m}\\cdot\\overrightarrow{MC}=0,\\\\\\vec{m}\\cdot\\overrightarrow{AC}=0,\\end{cases}$ 即 $\\begin{cases}2x-y-2z=0,\\\\2x-2y=0,\\end{cases}$ 令 $x=2$，则 $y=2,z=1$。于是 $\\vec{m}=(2,2,1)$，设二面角 $M-AC-B$ 的平面角为 $\\alpha$，则 $|\\cos\\alpha|=\\frac{|\\vec{m}\\cdot\\vec{n}|}{|\\vec{m}||\\vec{n}|}=\\frac{1}{3}$，由图可知 $\\alpha$ 为锐角，所以 $\\cos\\alpha=\\frac{1}{3}$。"
+     ]
+    }
+   ],
+   "pages": [
+    3
+   ]
+  },
+  {
+   "id": "q017",
+   "label": "17",
+   "type": "composite",
+   "stem": [
+    "随着机器人的智能化、精细化发展，市场对其零部件的质量要求不断提高。现有甲、乙两台车床分别加工某种机器人的同一型号的零件。为评估这两台车床加工零件的质量，随机抽取甲、乙两台车床加工的零件各100个，记录零件质量检测结果，并整理得到数据如下表：",
+    {
+     "table": {
+      "header": [
+       "等级",
+       "优等品",
+       "非优等品"
+      ],
+      "rows": [
+       [
+        "甲车床加工的零件数",
+        "75",
+        "25"
+       ],
+       [
+        "乙车床加工的零件数",
+        "80",
+        "20"
+       ]
+      ]
+     }
+    },
+    "假设不同零件的质量等级相互独立，用频率估计概率。"
+   ],
+   "analysis": [
+    "（1）利用频率估计概率求解；（2）求出 $X$ 的可能取值，分别求出 $X$ 的每个可能取值的概率，利用离散型随机变量的期望公式求出期望；（3）甲、乙两台车床加工的零件数之比为 $2:3$，求出 $p'=\\frac{2}{5}p+\\frac{3}{5}q$ 和 $\\frac{p+q}{2}$ 得到 $p'$ 与 $\\frac{p+q}{2}$ 的大小。"
+   ],
+   "parts": [
+    {
+     "id": "p1",
+     "label": "（1）",
+     "type": "short_answer",
+     "stem": "分别估计甲、乙两台车床加工的零件是优等品的概率 $p,q$；",
+     "answer": {
+      "source": "question_document",
+      "content": "$p=0.75$，$q=0.8$"
+     },
+     "analysis": [
+      "甲车床：抽取100个零件，优等品有75个，则 $p=\\frac{75}{100}=0.75$，乙车床：抽取100个零件，优等品有80个，则 $q=\\frac{80}{100}=0.8$。"
+     ]
+    },
+    {
+     "id": "p2",
+     "label": "（2）",
+     "type": "short_answer",
+     "stem": "从甲车床加工的零件中随机抽取1个，乙车床加工的零件中随机抽取2个。设 $X$ 为这3个零件中优等品的个数，估计 $X$ 的数学期望；",
+     "answer": {
+      "source": "question_document",
+      "content": "2.35"
+     },
+     "analysis": [
+      "$X$ 为这3个零件中优等品的个数，则 $X$ 的可能取值为 $0,1,2,3$，",
+      "$X=0$，意味着从甲车床加工的零件中随机抽取1个非优等品且乙车床加工的零件中随机抽取2个非优等品，$P(X=0)=(1-0.75)\\cdot\\mathrm{C}_2^2(1-0.8)^2=0.01$，",
+      "$X=1$，意味着从甲车床加工的零件中随机抽取1个非优等品且乙车床加工的零件中随机抽取1个优等品1个非优等品，或从甲车床加工的零件中随机抽取1个优等品且乙车床加工的零件中随机抽取2个非优等品，$P(X=1)=(1-0.75)\\cdot\\mathrm{C}_2^1\\cdot0.8\\cdot(1-0.8)+0.75\\cdot(1-0.8)^2=0.11$，",
+      "$X=2$，意味着从甲车床加工的零件中随机抽取1个非优等品且乙车床加工的零件中随机抽取2个优等品，或甲车床加工的零件中随机抽取1个优等品乙车床加工的零件中随机抽取1个优等品1个非优等品，$P(X=2)=(1-0.75)\\cdot(0.8)^2+0.75\\cdot\\mathrm{C}_2^1\\cdot0.8\\cdot(1-0.8)=0.4$，",
+      "$X=3$，意味着从甲车床加工的零件中随机抽取1个优等品且乙车床加工的零件中随机抽取2个优等品，$P(X=3)=0.75\\times(0.8)^2=0.48$，",
+      "$E(X)=0\\times0.01+1\\times0.11+2\\times0.4+3\\times0.48=2.35$。"
+     ]
+    },
+    {
+     "id": "p3",
+     "label": "（3）",
+     "type": "short_answer",
+     "stem": "在某一时段内，甲、乙两台车床加工的零件数之比为 $2:3$，现从这些零件中随机抽取1个，设该零件是优等品的概率估计值为 $p'$，判断 $p'$ 与 $\\frac{p+q}{2}$ 的大小。（结论不要求证明）",
+     "answer": {
+      "source": "question_document",
+      "content": "$p'>\\frac{p+q}{2}$"
+     },
+     "analysis": [
+      "$p=0.75,q=0.8$，甲、乙两台车床加工的零件数之比为 $2:3$，现从这些零件中随机抽取1个，设该零件是优等品的概率估计值为 $p'$，则 $p'=\\frac{2}{5}p+\\frac{3}{5}q=\\frac{2}{5}\\times0.75+\\frac{3}{5}\\times0.8=0.3+0.48=0.78$，$\\frac{p+q}{2}=\\frac{0.75+0.8}{2}=0.775$，$\\because0.78>0.775$，$\\therefore p'>\\frac{p+q}{2}$。"
+     ]
+    }
+   ],
+   "pages": [
+    3
+   ]
+  },
+  {
+   "id": "q018",
+   "label": "18",
+   "type": "composite",
+   "stem": "在 $\\triangle ABC$ 中，$a^2=b^2+c^2+bc$，$b=4$。",
+   "analysis": [
+    "（1）利用余弦定理求解即可；（2）条件①，由 $\\cos B$ 的值得到 $B$ 的范围，结合 $A$ 的值得到这样的三角形不存在；条件②，由 $\\tan C$ 的值得到 $C$ 的范围，利用同角关系式求出 $\\sin C,\\cos C$，利用 $\\sin B=\\sin(A+C)$ 结合两角和的正弦公式求出 $\\sin B$，利用正弦定理求出 $a$，利用三角形的面积公式求出 $S_{\\triangle ABC}$；条件③，由 $b\\cos C+c\\cos B=2\\sqrt{7}$ 利用正弦定理进行边化角，结合两角和的正弦公式求出 $a$，利用正弦定理求出 $\\sin B$，利用同角关系式求出 $\\cos B$，由 $\\sin C=\\sin(A+B)$ 结合两角和的正弦公式求出 $\\sin C$，利用三角形的面积公式求出 $S_{\\triangle ABC}$。"
+   ],
+   "parts": [
+    {
+     "id": "p1",
+     "label": "（1）",
+     "type": "calculation",
+     "stem": "求 $\\angle A$；",
+     "answer": {
+      "source": "question_document",
+      "content": "$\\frac{2\\pi}{3}$"
+     },
+     "analysis": [
+      "$\\because a^2=b^2+c^2+bc$，$\\therefore b^2+c^2-a^2=-bc$，$\\therefore 2bc\\cos A=-bc$，$\\therefore\\cos A=-\\frac{1}{2}$，$\\therefore A=\\frac{2\\pi}{3}$。"
+     ]
+    },
+    {
+     "id": "p2",
+     "label": "（2）",
+     "type": "short_answer",
+     "stem": [
+      "再从条件①、条件②、条件③这三个条件中选择一个作为已知，使得 $\\triangle ABC$ 存在，求 $\\triangle ABC$ 的面积。",
+      "条件①：$\\cos B=-\\frac{1}{3}$；",
+      "条件②：$\\tan C=\\frac{\\sqrt{3}}{5}$；",
+      "条件③：$b\\cos C+c\\cos B=2\\sqrt{7}$。",
+      "注：如果选择的条件不符合要求，第（2）问得0分；如果选择多个符合要求的条件分别解答，按第一个解答计分。"
+     ],
+     "answer": {
+      "source": "question_document",
+      "content": "条件①：不存在这样的三角形；条件②：存在这样的三角形，$\\triangle ABC$ 的面积 $2\\sqrt{3}$；条件③：存在这样的三角形，$\\triangle ABC$ 的面积 $2\\sqrt{3}$。"
+     },
+     "analysis": [
+      "条件①，$\\because\\cos B=-\\frac{1}{3}<0$，$\\therefore\\frac{\\pi}{2}<B<\\pi$，$\\because A=\\frac{2\\pi}{3}$，$\\therefore A+B>\\pi$，不符合题意，不存在这样的三角形；",
+      "条件②，$\\because\\tan C=\\frac{\\sqrt{3}}{5}>0$，$\\therefore0<C<\\frac{\\pi}{2}$，$\\because\\begin{cases}\\frac{\\sin C}{\\cos C}=\\frac{\\sqrt{3}}{5},\\\\\\sin^2C+\\cos^2C=1\\end{cases}$，$\\therefore\\begin{cases}\\sin C=\\frac{\\sqrt{21}}{14},\\\\\\cos C=\\frac{5\\sqrt{7}}{14}\\end{cases}$，$\\therefore\\sin B=\\sin(A+C)=\\sin A\\cos C+\\cos A\\sin C=\\frac{\\sqrt{3}}{2}\\times\\frac{5\\sqrt{7}}{14}-\\frac{1}{2}\\times\\frac{\\sqrt{21}}{14}=\\frac{\\sqrt{21}}{7}$，$\\because\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$，$b=4$，$\\therefore\\frac{a}{\\sin\\frac{2\\pi}{3}}=\\frac{4}{\\frac{\\sqrt{21}}{7}}$，$\\therefore a=2\\sqrt{7}$，$\\therefore S_{\\triangle ABC}=\\frac{1}{2}ab\\sin C=\\frac{1}{2}\\times2\\sqrt{7}\\times4\\times\\frac{\\sqrt{21}}{14}=2\\sqrt{3}$；",
+      "条件③，$\\because b\\cos C+c\\cos B=2\\sqrt{7}$，$\\therefore2R\\sin B\\cos C+2R\\sin C\\cos B=2\\sqrt{7}$，其中 $R$ 为 $\\triangle ABC$ 的外接圆的半径，$\\therefore2R(\\sin B\\cos C+\\sin C\\cos B)=2\\sqrt{7}$，$\\therefore2R\\sin(B+C)=2\\sqrt{7}$，$\\therefore2R\\sin A=2\\sqrt{7}$，$\\therefore a=2\\sqrt{7}$，$\\because\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$，$b=4$，$\\therefore\\frac{2\\sqrt{7}}{\\sin\\frac{2\\pi}{3}}=\\frac{4}{\\sin B}$，$\\therefore\\sin B=\\frac{\\sqrt{21}}{7}$，$\\therefore\\cos B=\\frac{2\\sqrt{7}}{7}$，$\\therefore\\sin C=\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B$，$\\therefore\\sin C=\\frac{\\sqrt{3}}{2}\\times\\frac{2\\sqrt{7}}{7}-\\frac{1}{2}\\times\\frac{\\sqrt{21}}{7}=\\frac{\\sqrt{21}}{14}$，$\\therefore S_{\\triangle ABC}=\\frac{1}{2}ab\\sin C=\\frac{1}{2}\\times2\\sqrt{7}\\times4\\times\\frac{\\sqrt{21}}{14}=2\\sqrt{3}$。"
+     ]
+    }
+   ],
+   "pages": [
+    3,
+    4
+   ]
+  },
+  {
+   "id": "q019",
+   "label": "19",
+   "type": "composite",
+   "stem": "已知椭圆 $G:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1(a>b>0)$，过点 $\\left(1,\\frac{\\sqrt{3}}{2}\\right)$，焦距为 $2\\sqrt{3}$。",
+   "analysis": [
+    "（1）由已知条件列出关于 $a,b,c$ 方程组求出 $a,b,c$ 即可求解。（2）先表示过点 $M$ 的直线 $l$ 的方程，与椭圆方程联立，由韦达定理得 $y_1+y_2$、$y_1y_2$，计算求解 $k_{AF}+k_{BF}=0$ 即可。"
+   ],
+   "parts": [
+    {
+     "id": "p1",
+     "label": "（1）",
+     "type": "calculation",
+     "stem": "求椭圆 $G$ 的方程和离心率；",
+     "answer": {
+      "source": "question_document",
+      "content": "$\\frac{x^2}{4}+y^2=1$，$e=\\frac{c}{a}=\\frac{\\sqrt{3}}{2}$"
+     },
+     "analysis": [
+      "由题可得 $\\begin{cases}2c=2\\sqrt{3}\\\\\\frac{1^2}{a^2}+\\frac{\\left(\\frac{\\sqrt{3}}{2}\\right)^2}{b^2}=1\\\\a^2=b^2+c^2\\end{cases}\\Rightarrow\\begin{cases}a=2\\\\b=1\\\\c=\\sqrt{3}\\end{cases}$，$\\therefore$ 椭圆 $G$ 的方程为 $\\frac{x^2}{4}+y^2=1$，所以椭圆的离心率 $e=\\frac{c}{a}=\\frac{\\sqrt{3}}{2}$。"
+     ]
+    },
+    {
+     "id": "p2",
+     "label": "（2）",
+     "type": "short_answer",
+     "stem": "设 $F$ 为椭圆 $G$ 的右焦点，过点 $M\\left(\\frac{4\\sqrt{3}}{3},0\\right)$ 的直线 $l$ 与椭圆 $G$ 交于不同两点 $A,B$（$A,B$ 异于椭圆的顶点）。判断光线 $AF$ 经过 $x$ 轴反射后是否经过点 $B$？说明理由。",
+     "answer": {
+      "source": "question_document",
+      "content": "光线 $AF$ 经过 $x$ 轴反射后经过点 $B$"
+     },
+     "analysis": [
+      "如图",
+      {
+       "asset": "a005"
+      },
+      "$\\because F$ 为椭圆 $G$ 的右焦点，$\\therefore F(\\sqrt{3},0)$，设 $A(x_1,y_1)$，$B(x_2,y_2)$，设过点 $M\\left(\\frac{4\\sqrt{3}}{3},0\\right)$ 的直线 $l$ 的方程为 $x=ty+\\frac{4\\sqrt{3}}{3}$，将直线方程与椭圆方程联立 $\\begin{cases}x=ty+\\frac{4\\sqrt{3}}{3}\\\\\\frac{x^2}{4}+y^2=1\\end{cases}$ 得 $\\left(ty+\\frac{4\\sqrt{3}}{3}\\right)^2+4y^2=4$，展开并整理得 $(t^2+4)y^2+\\frac{8\\sqrt{3}}{3}ty+\\frac{4}{3}=0$，则 $\\Delta=\\left(\\frac{8\\sqrt{3}}{3}t\\right)^2-4(t^2+4)\\times\\frac{4}{3}=\\frac{16}{3}(3t^2-4)>0$ 即 $t^2>\\frac{4}{3}$，且 $y_1+y_2=-\\frac{\\frac{8\\sqrt{3}}{3}t}{t^2+4}=-\\frac{8\\sqrt{3}t}{3(t^2+4)}$，$y_1y_2=\\frac{\\frac{4}{3}}{t^2+4}=\\frac{4}{3(t^2+4)}$，",
+      "$\\therefore k_{AF}+k_{BF}=\\frac{y_1}{x_1-\\sqrt{3}}+\\frac{y_2}{x_2-\\sqrt{3}}=\\frac{y_1(x_2-\\sqrt{3})+y_2(x_1-\\sqrt{3})}{(x_1-\\sqrt{3})(x_2-\\sqrt{3})}=\\frac{y_1\\left(ty_2+\\frac{4\\sqrt{3}}{3}-\\sqrt{3}\\right)+y_2\\left(ty_1+\\frac{4\\sqrt{3}}{3}-\\sqrt{3}\\right)}{\\left(ty_1+\\frac{4\\sqrt{3}}{3}-\\sqrt{3}\\right)\\left(ty_2+\\frac{4\\sqrt{3}}{3}-\\sqrt{3}\\right)}=\\frac{2ty_1y_2+\\frac{\\sqrt{3}}{3}(y_1+y_2)}{t^2y_1y_2+\\frac{\\sqrt{3}t}{3}(y_1+y_2)+\\frac{1}{3}}$",
+      "$=\\frac{2t\\cdot\\frac{4}{3(t^2+4)}+\\frac{\\sqrt{3}}{3}\\left[-\\frac{8\\sqrt{3}t}{3(t^2+4)}\\right]}{t^2\\cdot\\frac{4}{3(t^2+4)}+\\frac{\\sqrt{3}t}{3}\\left[-\\frac{8\\sqrt{3}t}{3(t^2+4)}\\right]+\\frac{1}{3}}=\\frac{\\frac{8t}{3(t^2+4)}-\\frac{8t}{3(t^2+4)}}{\\frac{4t^2}{3(t^2+4)}-\\frac{8t^2}{3(t^2+4)}+\\frac{1}{3}}=0$，",
+      "$\\therefore$ 光线 $AF$ 经过 $x$ 轴反射后经过点 $B$。"
+     ]
+    }
+   ],
+   "pages": [
+    4
+   ]
+  },
+  {
+   "id": "q020",
+   "label": "20",
+   "type": "composite",
+   "stem": "已知函数 $f(x)=x+\\ln x-a\\sqrt{x}$。",
+   "analysis": [
+    "（1）根据导数的几何意义及直线的点斜式方程求解即可。（2）根据4是极小值点求出 $a$，结合导数与单调性、极值的关系求出极大值，进一步证明即可。（3）$f(x)$ 在定义域内单调递增即 $f'(x)\\ge0$ 在定义域内恒成立，结合分离常数法及基本不等式求解即可。"
+   ],
+   "parts": [
+    {
+     "id": "p1",
+     "label": "（1）",
+     "type": "calculation",
+     "stem": "当 $a=1$ 时，求曲线 $y=f(x)$ 在 $(1,f(1))$ 处的切线方程；",
+     "answer": {
+      "source": "question_document",
+      "content": "$3x-2y-3=0$"
+     },
+     "analysis": [
+      "当 $a=1$ 时，$f(x)=x+\\ln x-\\sqrt{x}$，则 $f(1)=1+0-1=0$，$f'(x)=1+\\frac{1}{x}-\\frac{1}{2\\sqrt{x}}$，所以 $f'(1)=1+1-\\frac{1}{2\\sqrt{1}}=\\frac{3}{2}$，所以曲线 $y=f(x)$ 在 $(1,f(1))$ 处的切线方程为：$y-0=\\frac{3}{2}(x-1)$，即 $3x-2y-3=0$。"
+     ]
+    },
+    {
+     "id": "p2",
+     "label": "（2）",
+     "type": "proof",
+     "stem": "若4是 $f(x)$ 的极小值点，证明此时 $f(x)$ 的极大值小于零；",
+     "answer": {
+      "source": "question_document",
+      "content": "证明过程见解析"
+     },
+     "analysis": [
+      "函数 $f(x)$ 的定义域为 $(0,+\\infty)$，$f'(x)=1+\\frac{1}{x}-\\frac{a}{2\\sqrt{x}}=\\frac{2x+2-a\\sqrt{x}}{2x}$。因为4是 $f(x)$ 的极小值点，所以 $f'(4)=0$，即 $\\frac{2\\times4+2-a\\sqrt{4}}{2\\times4}=0$，解得 $a=5$。当 $a=5$ 时，$f(x)=x+\\ln x-5\\sqrt{x}$，$f'(x)=\\frac{2x+2-5\\sqrt{x}}{2x}=\\frac{\\left(\\sqrt{x}-2\\right)\\left(2\\sqrt{x}-1\\right)}{2x}$，令 $f'(x)=0$，则 $\\left(\\sqrt{x}-2\\right)\\left(2\\sqrt{x}-1\\right)=0$，解得 $x=4$ 或 $x=\\frac{1}{4}$。当 $0<x<\\frac{1}{4}$ 时，$f'(x)>0$，$f(x)$ 单调递增，当 $\\frac{1}{4}<x<4$ 时，$f'(x)<0$，$f(x)$ 单调递减，当 $x>4$ 时，$f'(x)>0$，$f(x)$ 单调递增，所以 $f(x)$ 在 $x=\\frac{1}{4}$ 处取得极大值，$f\\left(\\frac{1}{4}\\right)=\\frac{1}{4}+\\ln\\frac{1}{4}-5\\sqrt{\\frac{1}{4}}=-\\frac{9}{4}-\\ln4<0$，故此时 $f(x)$ 的极大值小于零。"
+     ]
+    },
+    {
+     "id": "p3",
+     "label": "（3）",
+     "type": "calculation",
+     "stem": "若 $f(x)$ 在定义域内单调递增，求实数 $a$ 的取值范围。",
+     "answer": {
+      "source": "question_document",
+      "content": "$(-\\infty,4]$"
+     },
+     "analysis": [
+      "因为 $f(x)$ 在定义域 $(0,+\\infty)$ 内单调递增，所以 $f'(x)\\ge0$ 在 $(0,+\\infty)$ 上恒成立，即 $\\frac{2x+2-a\\sqrt{x}}{2x}\\ge0$ 在 $(0,+\\infty)$ 上恒成立。$2x+2-a\\sqrt{x}\\ge0$ 在 $(0,+\\infty)$ 上恒成立，也即 $a\\le2\\sqrt{x}+\\frac{2}{\\sqrt{x}}$ 在 $(0,+\\infty)$ 上恒成立。又 $2\\sqrt{x}+\\frac{2}{\\sqrt{x}}\\ge2\\sqrt{2\\sqrt{x}\\times\\frac{2}{\\sqrt{x}}}=4$，当且仅当 $2\\sqrt{x}=\\frac{2}{\\sqrt{x}}$，即 $x=1$ 时等号成立。所以 $a\\le\\left(2\\sqrt{x}+\\frac{2}{\\sqrt{x}}\\right)_{\\min}=4$，即实数 $a$ 的取值范围为 $(-\\infty,4]$。"
+     ]
+    }
+   ],
+   "pages": [
+    4
+   ]
+  },
+  {
+   "id": "q021",
+   "label": "21",
+   "type": "composite",
+   "stem": [
+    "已知集合 $S_n=\\{X\\mid X=(x_1,x_2,\\cdots,x_n),x_i\\in\\{0,1\\},i=1,2,\\cdots,n\\}(n\\ge2)$。对于 $A=(a_1,a_2,\\cdots,a_n),B=(b_1,b_2,\\cdots,b_n)\\in S_n$，定义 $A$ 与 $B$ 的差为 $A-B=(|a_1-b_1|,|a_2-b_2|,\\cdots,|a_n-b_n|)$；定义 $A$ 与 $B$ 之间的距离为 $d(A,B)=\\sum\\limits_{i=1}^{n}|a_i-b_i|$。"
+   ],
+   "analysis": [
+    "（1）根据距离的定义，找出满足 $d(A,B)=1$ 的 $B$ 即可；（2）先根据 $d(M,A)=d(M,B)=5$，分析 $A,B$ 元素所满足的条件，再求 $d(A,B)$ 的最大值；（3）首先讨论三个差 $|a_i-b_i|,|a_i-c_i|,|b_i-c_i|$ 的和的奇偶性，再利用反证法，结论得证。"
+   ],
+   "parts": [
+    {
+     "id": "p1",
+     "label": "（1）",
+     "type": "short_answer",
+     "stem": "若 $A=(1,1,1,1)\\in S_4$，写出所有的 $B\\in S_4$，使得 $d(A,B)=1$；",
+     "answer": {
+      "source": "question_document",
+      "content": "$(0,1,1,1),(1,0,1,1),(1,1,0,1),(1,1,1,0)$"
+     },
+     "analysis": [
+      "$d(A,B)=1$，说明 $B$ 与 $A$ 只有1个位置元素不同，$A$ 全为1，因此 $B$ 恰有1个位置为0，其余为1，则所有满足条件的 $B$ 为：$(0,1,1,1),(1,0,1,1),(1,1,0,1),(1,1,1,0)$；"
+     ]
+    },
+    {
+     "id": "p2",
+     "label": "（2）",
+     "type": "short_answer",
+     "stem": "已知 $M=(1,1,\\cdots,1)\\in S_n$，若 $A,B\\in S_n$，并且 $d(M,A)=d(M,B)=5\\le n$，求 $d(A,B)$ 的最大值；",
+     "answer": {
+      "source": "question_document",
+      "content": "$d(A,B)$ 的最大值为 $\\begin{cases}2n-10,&5\\le n\\le10,\\\\10,&n\\ge10.\\end{cases}$"
+     },
+     "analysis": [
+      "已知 $M=(1,1,\\cdots,1)\\in S_n$，$A=(a_1,a_2,\\cdots,a_n),B=(b_1,b_2,\\cdots,b_n)\\in S_n$，$d(M,A)=\\sum\\limits_{i=1}^{n}|1-a_i|=5$，$d(M,B)=\\sum\\limits_{i=1}^{n}|1-b_i|=5$，即 $A$ 和 $B$ 中恰好各有5个分量为0（其余为1）。设 $A$ 的0的位置集合为 $P$，$B$ 的0的位置集合为 $Q$，则 $|P|=|Q|=5$，则 $d(A,B)=10-2|P\\cap Q|$，而 $|P\\cap Q|$ 的最小值为 $\\max\\{0,10-n\\}$，因此 $d(A,B)$ 的最大值为 $10-2\\max\\{0,10-n\\}=\\begin{cases}2n-10,&5\\le n\\le10,\\\\10,&n\\ge10.\\end{cases}$"
+     ]
+    },
+    {
+     "id": "p3",
+     "label": "（3）",
+     "type": "proof",
+     "stem": "证明：$\\forall A,B,C\\in S_n$，$d(A,B),d(A,C),d(B,C)$ 三个数中至少有一个是偶数。",
+     "answer": {
+      "source": "question_document",
+      "content": "证明过程见解析"
+     },
+     "analysis": [
+      "证明：对任意位置 $i$，讨论三个差 $|a_i-b_i|,|a_i-c_i|,|b_i-c_i|$ 的和的奇偶性：若 $a_i,b_i,c_i$ 全相同：三个差都为0，和为偶数；若两个相同一个不同：不妨设 $a_i=b_i\\ne c_i$，则三个差为 $0,1,1$，和为2，仍是偶数；所有位置求和得：$d(A,B)+d(A,C)+d(B,C)$ 是偶数；若三个数全为奇数，总和为奇数，与上述结论矛盾，因此三个数中至少有一个是偶数，得证。"
+     ]
+    }
+   ],
+   "pages": [
+    4
+   ]
+  }
+ ]
+}

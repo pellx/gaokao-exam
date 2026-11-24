@@ -1,0 +1,906 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|一模|石景山|物理|",
+    "title": "2026北京石景山高三一模物理试题及答案",
+    "year": 2026,
+    "kind": "一模",
+    "subject": "物理",
+    "district": "石景山"
+  },
+  "source": {
+    "file": "../../../../../raw/物理/2026/一模/physics-2026-mock1-shijingshan.pdf",
+    "sha256": "81ace989647b6765fdc9e7c9b00f0285450754c2ff5005f6f8ec481f79d331c1",
+    "page_count": 13
+  },
+  "extraction": {
+    "status": "needs_review",
+    "tool": "PyMuPDF 页面渲染与逐页目视转录（原卷为无文本层扫描件，未使用 OCR 文本）",
+    "notes": [
+      "原卷 13 页中第 1—9 页为试题、第 10—12 页为“物理试卷答案及评分参考”、第 13 页仅有“北京高考平台”介绍文字，非试卷内容，未纳入提取。",
+      "全卷无文本层（前 12 页文本字符数为 0），题干、选项与答案均按页面渲染图逐页目视转录；公式改写为 LaTeX，扫描页中的图均裁剪为 assets 资源。",
+      "页面上有“北京高考在线 微信号：bjgkzx”半透明水印，覆盖部分插图（如第 4 页图甲/图乙、第 7 页图甲、第 10—12 页答案区），个别图中字符被水印遮挡但仍可辨；第 7 页图甲中导线框顶点 a 的标注被水印压淡。",
+      "第 6 页器材清单的字母顺序为 A、B、C、D、E、F、J、H、I，与原卷印刷一致，未作改动。",
+      "答案页分步给分印作“（3 分）”等形式，分值以数字记入 score；第 16 题（2）（3）两处填空各印有 2 分，按原卷以 rubric 逐空记录。",
+      "第 15 题（1）（2）答案均为 AD，按原答案记为多选。"
+    ]
+  },
+  "assets": {
+    "a001": {
+      "path": "assets/a001.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [505, 995, 780, 1080],
+      "sha256": "55e0649d71721185551c65b2f4b8f3896a3d6c1b8eca9a6e0a73be7b73f826b1"
+    },
+    "a002": {
+      "path": "assets/a002.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [570, 72, 770, 270],
+      "sha256": "fe42a12e4c2d48c269bbd3c31bd1e6e2f47f9a265ed88fc64148fe3265942954"
+    },
+    "a003": {
+      "path": "assets/a003.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [536, 341, 834, 482],
+      "sha256": "163962f8e83fb5d68445d26237a4c0c445e02a0622fcc32b79cc71a792f1a0aa"
+    },
+    "a004": {
+      "path": "assets/a004.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [242, 568, 405, 720],
+      "sha256": "6ac439d6990a268ab81ec1f2c94304225719141cc2988587d71b455f14c53e2e"
+    },
+    "a005": {
+      "path": "assets/a005.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [420, 575, 652, 722],
+      "sha256": "6956d4f4405f82b1b74cb7b8556a29d7101b7f3da2516c82946c07b32804c420"
+    },
+    "a006": {
+      "path": "assets/a006.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [630, 928, 780, 1070],
+      "sha256": "827f4a1ce431f2d7c0c4c4c763e11d21fcd65be5f2f4e6476306d97603440ead"
+    },
+    "a007": {
+      "path": "assets/a007.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [583, 182, 814, 358],
+      "sha256": "f717ec2d3fd19fc250612433e33e4e08a6ab2065ad3dce761218dd6e0943c44c"
+    },
+    "a008": {
+      "path": "assets/a008.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [585, 426, 795, 590],
+      "sha256": "1fa8b2a44c31cf328e22c214a56bc76dfae528c2dee75f34dbb849673dd739f7"
+    },
+    "a009": {
+      "path": "assets/a009.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [548, 694, 768, 830],
+      "sha256": "fe3030a96cc50495b658a5866c27cd84993199daa684aadfc8575701bbada2cb"
+    },
+    "a010": {
+      "path": "assets/a010.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [600, 947, 785, 1075],
+      "sha256": "f06670aa9649707d6ca2002bb1f6fc7c78a86e68cd9b95d368fe8c3cc9cca10d"
+    },
+    "a011": {
+      "path": "assets/a011.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [570, 236, 778, 470],
+      "sha256": "a16a9fca012f66d3a4fbb1cced375a1ab82d709e7201d8f75f3eb7b2288adc36"
+    },
+    "a012": {
+      "path": "assets/a012.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [238, 626, 455, 798],
+      "sha256": "8addda5f25be403cc0e84775a064a15b7d67837fc54ffe1c00e0df806f556376"
+    },
+    "a013": {
+      "path": "assets/a013.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [450, 634, 652, 822],
+      "sha256": "8ce2d87443ca83ca7a26fe2e19107d07364d905154f489a82ac7f60f2f379119"
+    },
+    "a014": {
+      "path": "assets/a014.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [122, 840, 292, 1002],
+      "sha256": "a579d4992a0e696bdd743edb504ba79cc0ec1d4cf5104f222e58fb2470ca742b"
+    },
+    "a015": {
+      "path": "assets/a015.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [290, 845, 460, 1002],
+      "sha256": "8df65be6a3c7227e930ab284b4e12f6099e09a096023c799ed5c1400a13d59f5"
+    },
+    "a016": {
+      "path": "assets/a016.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [462, 842, 616, 1008],
+      "sha256": "b401fc001695513b8245bb36e2fbca81325f361d5f3de4f767fcf56832088b79"
+    },
+    "a017": {
+      "path": "assets/a017.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [612, 848, 783, 1013],
+      "sha256": "f49d328425c1ad9e9e194c29e1f820f1b602910484198d403c7ec95167909651"
+    },
+    "a018": {
+      "path": "assets/a018.png",
+      "kind": "image",
+      "page": 5,
+      "bbox": [652, 172, 800, 365],
+      "sha256": "cb19b4b5af74b5a744061314818f6a8863b5bc7e2293f63b5c7ab7e006679e73"
+    },
+    "a019": {
+      "path": "assets/a019.png",
+      "kind": "image",
+      "page": 5,
+      "bbox": [566, 867, 818, 1038],
+      "sha256": "40c638f8bc35b68d1ec8a888d10daf12c13907a00c31998282e7e137252852df"
+    },
+    "a020": {
+      "path": "assets/a020.png",
+      "kind": "image",
+      "page": 6,
+      "bbox": [94, 415, 268, 575],
+      "sha256": "461313b712d22d22db37b9194a50fc675d4fa6bd6a89bbb6e11899f0b07882b1"
+    },
+    "a021": {
+      "path": "assets/a021.png",
+      "kind": "image",
+      "page": 6,
+      "bbox": [258, 420, 423, 560],
+      "sha256": "8d8c501fd294be073c005da366288b99ebdbc26ccee4885713e0e1d164e44495"
+    },
+    "a022": {
+      "path": "assets/a022.png",
+      "kind": "image",
+      "page": 6,
+      "bbox": [415, 425, 572, 555],
+      "sha256": "f8920a3fa5f83e6c285dc87b17891ef17cf076a10514b3c3c7a6fa3ead9476a9"
+    },
+    "a023": {
+      "path": "assets/a023.png",
+      "kind": "image",
+      "page": 6,
+      "bbox": [560, 410, 782, 560],
+      "sha256": "396b9d58308011d948f20a14b2a579fe561af4fab3e27aead56af8e7bab0ee1f"
+    },
+    "a024": {
+      "path": "assets/a024.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [560, 240, 795, 408],
+      "sha256": "6105af874b112a4e9468fa3b6e9932e4767ec7bc11b2ec839822e96ea46a0272"
+    },
+    "a025": {
+      "path": "assets/a025.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [228, 760, 440, 975],
+      "sha256": "6a5c01986373e90140be58412ad47e4a77602f5e2d968afd964259730c74eadd"
+    },
+    "a026": {
+      "path": "assets/a026.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [506, 786, 725, 960],
+      "sha256": "dad8e94c1110e08d2ebd1f2109aa2c7c3094f9bf2f6a32c1238a74ee6cb9287e"
+    },
+    "a027": {
+      "path": "assets/a027.png",
+      "kind": "image",
+      "page": 8,
+      "bbox": [153, 619, 790, 1090],
+      "sha256": "3ef20c1ea7a64f60b2396799e02f2e242ff76c1a3a60f5f1199e94b177817c33"
+    },
+    "a028": {
+      "path": "assets/a028.png",
+      "kind": "image",
+      "page": 9,
+      "bbox": [615, 105, 795, 275],
+      "sha256": "3f9fddf8ae35366b37445ee94849174867be8a78f4cc654a71cbd27c3a6a1ffa"
+    },
+    "a029": {
+      "path": "assets/a029.png",
+      "kind": "image",
+      "page": 9,
+      "bbox": [515, 480, 815, 715],
+      "sha256": "9eaa3507fa9e1885e60133d310044e412dfae4aa3c065d1f008893296928eeb4"
+    },
+    "a030": {
+      "path": "assets/a030.png",
+      "kind": "image",
+      "page": 11,
+      "bbox": [245, 115, 412, 262],
+      "sha256": "67bc4d1eacb712d778d2c9d4a73f1abc1e93cd86c13c1d8bea2f3ac719cc5cab"
+    }
+  },
+  "materials": {
+    "m001": {
+      "kind": "instructions",
+      "content": "本试卷共9页，100分。考试时长90分钟。考生务必将答案答在答题卡上，在试卷上作答无效。考试结束后，将答题卡交回。",
+      "pages": [1]
+    },
+    "m002": {
+      "kind": "instructions",
+      "title": "第一部分",
+      "content": "本部分共14题，每题3分，共42分。在每题列出的四个选项中，选出最符合题目要求的一项。",
+      "pages": [1]
+    },
+    "m003": {
+      "kind": "instructions",
+      "title": "第二部分",
+      "content": "本部分共6题，共58分。",
+      "pages": [5]
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "1",
+      "type": "single_choice",
+      "materials": ["m001", "m002"],
+      "stem": "下列现象属于光的干涉的是",
+      "options": [
+        {"key": "A", "content": "雨后的天空出现彩虹"},
+        {"key": "B", "content": "光照射细金属丝，在其后放置的光屏上出现明暗相间条纹"},
+        {"key": "C", "content": "在阳光照射下，肥皂泡呈现彩色条纹"},
+        {"key": "D", "content": "白光通过棱镜在屏上呈现彩色光带"}
+      ],
+      "answer": {"source": "question_document", "choices": ["C"]},
+      "score": 3,
+      "pages": [1]
+    },
+    {
+      "id": "q002",
+      "label": "2",
+      "type": "single_choice",
+      "materials": ["m001", "m002"],
+      "stem": "食品包装袋被带到海拔较高的地区后，会发生明显鼓包现象。假设在从低海拔地区到高海拔地区的过程中，该食品包装袋处于恒温环境且密封完好，则该过程中",
+      "options": [
+        {"key": "A", "content": "袋内气体压强减小"},
+        {"key": "B", "content": "大气压强增大"},
+        {"key": "C", "content": "袋内气体放出热量"},
+        {"key": "D", "content": "袋内气体分子平均动能增大"}
+      ],
+      "answer": {"source": "question_document", "choices": ["A"]},
+      "score": 3,
+      "pages": [1]
+    },
+    {
+      "id": "q003",
+      "label": "3",
+      "type": "single_choice",
+      "materials": ["m001", "m002"],
+      "stem": "2025年，我国新一代人造太阳“中国环流三号”首次突破“双亿度”参数水平，可控核聚变技术取得重大突破。目前可控核聚变实验中最主要的核反应由一个氘核$^{2}_{1}\\mathrm{H}$和一个氚核$^{3}_{1}\\mathrm{H}$碰撞生成一个氦核$^{4}_{2}\\mathrm{He}$实现，下列说法正确的是",
+      "options": [
+        {"key": "A", "content": "该核反应方程为$^{2}_{1}\\mathrm{H}+^{3}_{1}\\mathrm{H}\\rightarrow{}^{4}_{2}\\mathrm{He}$"},
+        {"key": "B", "content": "氚核$^{3}_{1}\\mathrm{H}$的中子数是3"},
+        {"key": "C", "content": "该核反应中质量数不守恒"},
+        {"key": "D", "content": "该核反应中氘核$^{2}_{1}\\mathrm{H}$和氚核$^{3}_{1}\\mathrm{H}$的总质量大于氦核$^{4}_{2}\\mathrm{He}$的质量"}
+      ],
+      "answer": {"source": "question_document", "choices": ["D"]},
+      "score": 3,
+      "pages": [1]
+    },
+    {
+      "id": "q004",
+      "label": "4",
+      "type": "single_choice",
+      "materials": ["m001", "m002"],
+      "stem": [
+        "为研究绳波的传播规律，某同学拿着绳子左端沿竖直方向上下做简谐运动，产生的绳波在某时刻的图像如图所示。$a$、$b$为绳中的两质点，下列说法正确的是",
+        {"asset": "a001"}
+      ],
+      "options": [
+        {"key": "A", "content": "$a$质点的加速度正在增大"},
+        {"key": "B", "content": "$b$质点的加速度正在减小"},
+        {"key": "C", "content": "$a$质点的速度方向竖直向上"},
+        {"key": "D", "content": "$b$质点的速度方向竖直向下"}
+      ],
+      "answer": {"source": "question_document", "choices": ["B"]},
+      "score": 3,
+      "pages": [1]
+    },
+    {
+      "id": "q005",
+      "label": "5",
+      "type": "single_choice",
+      "materials": ["m001", "m002"],
+      "stem": [
+        "如图所示，M、N为两颗绕地球做匀速圆周运动的卫星，二者质量相同，下列说法正确的是",
+        {"asset": "a002"}
+      ],
+      "options": [
+        {"key": "A", "content": "M的角速度比N的角速度小"},
+        {"key": "B", "content": "M的线速度比N的线速度小"},
+        {"key": "C", "content": "M的向心加速度比N的向心加速度小"},
+        {"key": "D", "content": "M的机械能比N的机械能小"}
+      ],
+      "answer": {"source": "question_document", "choices": ["D"]},
+      "score": 3,
+      "pages": [2]
+    },
+    {
+      "id": "q006",
+      "label": "6",
+      "type": "single_choice",
+      "materials": ["m001", "m002"],
+      "stem": [
+        "如图所示，在一带铁芯的固定线圈左右两侧对称位置分别放置闭合的铝环和铜环，两环的形状、大小和粗细都相同。已知铜的电阻率较小，不计摩擦，则闭合开关S瞬间",
+        {"asset": "a003"}
+      ],
+      "options": [
+        {"key": "A", "content": "两环都向左运动"},
+        {"key": "B", "content": "两环都向右运动"},
+        {"key": "C", "content": "从左侧向右看，铝环中感应电流沿顺时针方向"},
+        {"key": "D", "content": "铜环受到的安培力小于铝环受到的安培力"}
+      ],
+      "answer": {"source": "question_document", "choices": ["C"]},
+      "score": 3,
+      "pages": [2]
+    },
+    {
+      "id": "q007",
+      "label": "7",
+      "type": "single_choice",
+      "materials": ["m001", "m002"],
+      "stem": [
+        "如图甲所示，为一小型交流发电机示意图。为了便于观察，图甲中只画出其中的一匝线圈。线圈匀速转动时与电阻$R$构成闭合回路。从图甲所示位置开始计时，通过电阻$R$的交变电流如图乙所示，则下列判断正确的是",
+        {"asset": "a004"},
+        {"asset": "a005"}
+      ],
+      "options": [
+        {"key": "A", "content": "此交变电流的频率为100 Hz"},
+        {"key": "B", "content": "此交变电流的表达式为$i=20\\sqrt{2}\\sin 50\\pi t$"},
+        {"key": "C", "content": "线圈平面从图甲所示位置转动90°时，穿过线圈的磁通量变化最快"},
+        {"key": "D", "content": "线圈平面从图甲所示位置开始转动180°的过程，磁通量变化量为0"}
+      ],
+      "answer": {"source": "question_document", "choices": ["C"]},
+      "score": 3,
+      "pages": [2]
+    },
+    {
+      "id": "q008",
+      "label": "8",
+      "type": "single_choice",
+      "materials": ["m001", "m002"],
+      "stem": [
+        "砂摆是用来测量子弹速度的一种装置。将一个砂箱用轻绳竖直悬挂起来，一颗子弹水平射入砂箱(未射穿)，使砂箱摆动。从子弹开始射入砂箱到砂箱摆动到最大摆角处，子弹和砂箱",
+        {"asset": "a006"}
+      ],
+      "options": [
+        {"key": "A", "content": "机械能守恒，动量守恒"},
+        {"key": "B", "content": "机械能不守恒，动量守恒"},
+        {"key": "C", "content": "机械能守恒，动量不守恒"},
+        {"key": "D", "content": "机械能不守恒，动量不守恒"}
+      ],
+      "answer": {"source": "question_document", "choices": ["D"]},
+      "score": 3,
+      "pages": [2]
+    },
+    {
+      "id": "q009",
+      "label": "9",
+      "type": "single_choice",
+      "materials": ["m001", "m002"],
+      "stem": [
+        "如图为楼房顶部避雷针示意图。当雷云携带大量负电荷接近楼房时，避雷针顶端由于聚集着大量正电荷而形成局部电场集中的空间。图中虚线表示某时刻避雷针周围电场的等差等势面分布情况，一带电粒子仅在静电力作用下在该电场中的运动轨迹如图所示。下列说法正确的是",
+        {"asset": "a007"}
+      ],
+      "options": [
+        {"key": "A", "content": "该粒子带正电"},
+        {"key": "B", "content": "$a$点的电势比$c$点的电势低"},
+        {"key": "C", "content": "$a$点的场强比$c$点的场强小"},
+        {"key": "D", "content": "该粒子在$b$点的电势能比在$c$点的电势能小"}
+      ],
+      "answer": {"source": "question_document", "choices": ["B"]},
+      "score": 3,
+      "pages": [3]
+    },
+    {
+      "id": "q010",
+      "label": "10",
+      "type": "single_choice",
+      "materials": ["m001", "m002"],
+      "stem": [
+        "可以利用霍尔效应测量金属导体单位体积中自由电子数$n$。如图所示，将长度为$a$、宽度为$b$、厚度为$c$的金属导体板放在垂直于其表面的匀强磁场中，导体中通有从侧面1流向侧面3的电流$I$时，在导体的下表面4和上表面2之间产生电势差$U$，这种现象称为霍尔效应。已知匀强磁场的磁感应强度为$B$，电子电荷量为$e$。则该金属导体单位体积中自由电子数$n$为",
+        {"asset": "a008"}
+      ],
+      "options": [
+        {"key": "A", "content": "$\\frac{BI}{ecU}$"},
+        {"key": "B", "content": "$\\frac{BI}{ebU}$"},
+        {"key": "C", "content": "$\\frac{eaU}{BI}$"},
+        {"key": "D", "content": "$\\frac{I}{ecBU}$"}
+      ],
+      "answer": {"source": "question_document", "choices": ["A"]},
+      "score": 3,
+      "pages": [3]
+    },
+    {
+      "id": "q011",
+      "label": "11",
+      "type": "single_choice",
+      "materials": ["m001", "m002"],
+      "stem": [
+        "在加速度剧烈变化时，人体会有不舒服的感觉。车辆的加速度$a$变化越快，乘客感觉越不舒服，工程上用“急动度”来描述加速度变化的快慢，用字母$j$表示。如图所示为某车辆加速过程的急动度与时间的关系，下列说法正确的是",
+        {"asset": "a009"}
+      ],
+      "options": [
+        {"key": "A", "content": "急动度$j=\\Delta a$"},
+        {"key": "B", "content": "在0~5.0s内，乘客感觉舒适程度相同"},
+        {"key": "C", "content": "在5.0~10.0s内，乘客感觉最不舒适"},
+        {"key": "D", "content": "在5.0~10.0s内，车辆做匀加速直线运动"}
+      ],
+      "answer": {"source": "question_document", "choices": ["C"]},
+      "score": 3,
+      "pages": [3]
+    },
+    {
+      "id": "q012",
+      "label": "12",
+      "type": "single_choice",
+      "materials": ["m001", "m002"],
+      "stem": [
+        "如图所示，在内壁光滑、水平放置的玻璃圆管内，有一直径略小于圆管口径的带正电的小球，正以速率$v_0$沿逆时针方向做匀速圆周运动。在此空间突然加上方向竖直向上、磁感应强度$B$随时间均匀增大的磁场。运动过程中小球所带的电荷量不变，则下列说法正确的是",
+        {"asset": "a010"}
+      ],
+      "options": [
+        {"key": "A", "content": "洛伦兹力对小球做正功"},
+        {"key": "B", "content": "小球先做减速圆周运动，再反向做加速圆周运动"},
+        {"key": "C", "content": "小球受到的电场力不做功"},
+        {"key": "D", "content": "小球所受洛伦兹力始终指向圆心"}
+      ],
+      "answer": {"source": "question_document", "choices": ["B"]},
+      "score": 3,
+      "pages": [3]
+    },
+    {
+      "id": "q013",
+      "label": "13",
+      "type": "single_choice",
+      "materials": ["m001", "m002"],
+      "stem": [
+        "速端曲线能直观反映物体做曲线运动时速度大小和方向的变化情况，在空气动力学、流体力学及天体物理学中有着广泛的应用。若物体速度在水平面内相互垂直方向上的分量分别为$v_x$、$v_y$，则$v_y$与$v_x$的图像称为速端曲线，用点$Q$（$v_x$，$v_y$）描述物体的速度。一质量为$m$的物块在水平面内运动，其速端曲线如图所示。在$t=0$时刻，物块在水平恒力$F_1$作用下开始做匀变速运动，作用时间为$T$，点$Q$从$a$（$v_0$，0）点沿线段$ab$移动到$b$（$v_0$，$v_0/2$）点；随后外力大小改为$F_2$、方向与$F_1$相反，经过相同的时间$T$，点$Q$从$b$点沿原线段返回经$a$点至$c$（$v_0$，$-v_0$）点。下列说法正确的是",
+        {"asset": "a011"}
+      ],
+      "options": [
+        {"key": "A", "content": "力$F_1$与$F_2$的冲量大小之比为1:3"},
+        {"key": "B", "content": "$T$时刻、$2T$时刻物块的动能之比为1:4"},
+        {"key": "C", "content": "点$Q$从$b$点返回移至$a$点的时间为$T/2$"},
+        {"key": "D", "content": "在任何相等的时间内点$Q$通过的线段长度均相等"}
+      ],
+      "answer": {"source": "question_document", "choices": ["A"]},
+      "score": 3,
+      "pages": [4]
+    },
+    {
+      "id": "q014",
+      "label": "14",
+      "type": "single_choice",
+      "materials": ["m001", "m002"],
+      "stem": [
+        "如图甲所示为一带正电的球体。该球体半径为$R$，带电荷量为$Q$，电荷在球体中均匀分布。以球心$O$为原点，水平向右为正方向建立$x$轴，试探电荷$+q$在球体内部坐标为$x$时所受静电力为$F$，$F$与$x$的关系如图乙所示。以无穷远处为电势零点，球内$x$轴上各点电势$\\varphi$随坐标$x$变化的关系图像为",
+        {"asset": "a012"},
+        {"asset": "a013"}
+      ],
+      "options": [
+        {"key": "A", "content": [{"asset": "a014"}]},
+        {"key": "B", "content": [{"asset": "a015"}]},
+        {"key": "C", "content": [{"asset": "a016"}]},
+        {"key": "D", "content": [{"asset": "a017"}]}
+      ],
+      "answer": {"source": "question_document", "choices": ["D"]},
+      "score": 3,
+      "pages": [4]
+    },
+    {
+      "id": "q015",
+      "label": "15",
+      "type": "composite",
+      "materials": ["m001", "m003"],
+      "score": 8,
+      "pages": [5],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "multiple_choice",
+          "stem": [
+            "图示装置可用于探究气体等温变化的规律。关于该实验，下列说法正确的是________",
+            {"asset": "a018"}
+          ],
+          "options": [
+            {"key": "A", "content": "柱塞上应该涂油以更好地密封气体"},
+            {"key": "B", "content": "应快速推拉柱塞以避免气体与外界进行热交换"},
+            {"key": "C", "content": "用手握住注射器推拉柱塞以使装置更加稳定"},
+            {"key": "D", "content": "作出$p-\\frac{1}{V}$的图像可直观反映$p$与$V$的关系"}
+          ],
+          "answer": {"source": "question_document", "choices": ["A", "D"]},
+          "score": 3,
+          "pages": [5]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "multiple_choice",
+          "stem": "某同学借助实验室的单摆装置测量当地的重力加速度$g$。实验过程中，该同学多次改变摆长$L$，分别记为$L_1$、$L_2$、$L_3$…$L_n$，测得相应的周期分别为$T_1$、$T_2$、$T_3$…$T_n$。为减小误差，下列做法可行的是________",
+          "options": [
+            {"key": "A", "content": "根据$T=2\\pi\\sqrt{\\frac{L}{g}}$，分别求得$g_1$、$g_2$…$g_n$，然后求平均$\\bar{g}=\\frac{g_1+g_2+\\cdots+g_n}{n}$"},
+            {"key": "B", "content": "根据$T=2\\pi\\sqrt{\\frac{L}{g}}$，先分别求得$\\bar{L}=\\frac{L_1+L_2+\\cdots+L_n}{n}$以及$\\bar{T}=\\frac{T_1+T_2+\\cdots+T_n}{n}$，然后求得$\\bar{g}=\\frac{4\\pi^2\\bar{L}}{\\bar{T}^2}$"},
+            {"key": "C", "content": "以测量的$L$为横坐标、以相应的$T$为纵坐标作图像，根据$T$-$L$图像斜率求$g$"},
+            {"key": "D", "content": "以测量的$L$求得$\\sqrt{L}$为横坐标、以相应的$T$为纵坐标作图像，根据$T$-$\\sqrt{L}$图像斜率求$g$"}
+          ],
+          "answer": {"source": "question_document", "choices": ["A", "D"]},
+          "score": 3,
+          "pages": [5]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "single_choice",
+          "stem": [
+            "电路中有$AB$、$CD$、$EF$三根连接电路的导线，其中一根导线内部的铜丝是断的，另外两根导线和电源、电阻$R_1$、$R_2$都是完好的。为了查出断导线，某同学使用多用电表的“直流 10V 挡”，始终把红表笔接在$A$点的电源正极接线柱上，将黑表笔接在$B$点时，电表指针不偏转，将黑表笔改接在$C$点时，电表指针也不偏转，黑表笔改接$D$点时电表指针偏转。则发生断路的是________",
+            {"asset": "a019"}
+          ],
+          "options": [
+            {"key": "A", "content": "导线$AB$"},
+            {"key": "B", "content": "导线$CD$"},
+            {"key": "C", "content": "导线$EF$"}
+          ],
+          "answer": {"source": "question_document", "choices": ["B"]},
+          "score": 2,
+          "pages": [5]
+        }
+      ]
+    },
+    {
+      "id": "q016",
+      "label": "16",
+      "type": "composite",
+      "materials": ["m001", "m003"],
+      "stem": [
+        "小明计划利用压敏电阻设计一个测力计，实验室可供选择的器材如下：",
+        "A．两节规格相同的干电池（电动势$E$、内阻$r$均未知）；",
+        "B．电流表$A_1$（量程为0~0.6A，内阻为$r_1$=0.2Ω）；",
+        "C．电流表$A_2$（量程为0~3mA，内阻为$r_2$=100Ω）；",
+        "D．电压表V（量程为0~3V，内阻约为3000Ω）；",
+        "E．滑动变阻器$R_1$（最大阻值10Ω，额定电流2A）；",
+        "F．滑动变阻器$R_2$（最大阻值100Ω，额定电流1A）；",
+        "J．电阻箱$R$（0~999.9Ω）；",
+        "H．压敏电阻$R_x$，其阻值$R_x$随所加压力大小$F$变化的$R_x$-$F$图像如图甲所示；",
+        "I．开关S及导线若干。",
+        {"asset": "a020"}
+      ],
+      "score": 10,
+      "pages": [6],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": [
+            "测量一节干电池的电动势和内阻，为使测量结果尽可能准确，本实验采用如图乙所示的电路，滑动变阻器应选________（选填“E”或“F”）。",
+            {"asset": "a021"}
+          ],
+          "answer": {"source": "question_document", "content": "E"},
+          "score": 2,
+          "pages": [6]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "fill_blank",
+          "stem": [
+            "根据实验中电压表V和电流表$A_1$的示数得到如图丙所示的$U$-$I$图像，则该干电池的电动势$E$=________V，内阻$r$=________Ω。",
+            {"asset": "a022"}
+          ],
+          "answer": {
+            "source": "question_document",
+            "rubric": [
+              {"content": "1.5", "score": 2},
+              {"content": "0.8", "score": 2}
+            ]
+          },
+          "pages": [6]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "fill_blank",
+          "stem": [
+            "将压敏电阻$R_x$设计成量程为0~100N的测力计，需将压敏电阻$R_x$与上述两节干电池、电流表$A_2$、电阻箱$R$串联成如图丁所示的电路。闭合开关S，调节电阻箱的阻值，使压敏电阻$R_x$所受压力大小为100N时电流表$A_2$指针满偏，此时电路中除压敏电阻$R_x$外，其他元件的总阻值$R_0$=________Ω。",
+            "保持电阻箱接入电路的阻值不变，使用该测力计时，通过电流表$A_2$的电流$I$随压力大小$F$变化的关系式为$I$=________A。",
+            {"asset": "a023"}
+          ],
+          "answer": {
+            "source": "question_document",
+            "rubric": [
+              {"content": "950", "score": 2},
+              {"content": "$\\frac{3}{1200-2F}$", "score": 2}
+            ]
+          },
+          "pages": [6]
+        }
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "17",
+      "type": "composite",
+      "materials": ["m001", "m003"],
+      "stem": [
+        "如图所示为游乐场“旋转飞椅”的简化原理图。处于水平面内的圆形转盘，可绕穿过其中心的竖直轴转动。让转盘由静止开始逐渐加速转动，经过一段时间后，游客与转盘一起做匀速圆周运动，达到稳定状态，此时轻绳与竖直方向夹角为$\\theta$。已知绳长为$L$且不可伸长，悬点与转轴中心的距离为$r$，座椅与游客可视为质点，总质量为$m$，重力加速度为$g$，不计空气阻力，求：",
+        {"asset": "a024"}
+      ],
+      "score": 9,
+      "pages": [7],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "calculation",
+          "stem": "轻绳拉力的大小$T$；",
+          "answer": {"source": "question_document", "content": "$T=\\frac{mg}{\\cos\\theta}$"},
+          "analysis": "在竖直方向受力平衡$T\\cos\\theta=mg$，解得$T=\\frac{mg}{\\cos\\theta}$。",
+          "score": 3,
+          "pages": [7]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "calculation",
+          "stem": "转盘角速度的大小$\\omega$；",
+          "answer": {"source": "question_document", "content": "$\\omega=\\sqrt{\\frac{g\\tan\\theta}{r+L\\sin\\theta}}$"},
+          "analysis": "根据牛顿第二定律$mg\\tan\\theta=m\\omega^2(r+L\\sin\\theta)$，解得$\\omega=\\sqrt{\\frac{g\\tan\\theta}{r+L\\sin\\theta}}$。",
+          "score": 3,
+          "pages": [7]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "calculation",
+          "stem": "从静止到稳定转动，轻绳拉力对座椅与游客做的功$W$。",
+          "answer": {"source": "question_document", "content": "$W=mgL(1-\\cos\\theta)+\\frac{1}{2}mg\\tan\\theta(r+L\\sin\\theta)$"},
+          "analysis": [
+            "稳定转动时，座椅和游客的速度$v=\\omega(r+L\\sin\\theta)$。",
+            "从静止到稳定转动，根据动能定理$W-mgL(1-\\cos\\theta)=\\frac{1}{2}mv^2$，解得$W=mgL(1-\\cos\\theta)+\\frac{1}{2}mg\\tan\\theta(r+L\\sin\\theta)$。"
+          ],
+          "score": 3,
+          "pages": [7]
+        }
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "18",
+      "type": "composite",
+      "materials": ["m001", "m003"],
+      "stem": [
+        "光滑水平面内存在一有界匀强磁场，如图甲所示。磁场两边界平行，宽度为$L$，磁感应强度大小为$B$，方向垂直于纸面向里。均匀导线制成的单匝正方形线框$abcd$置于该水平面内，某时刻起，该线框以垂直磁场边界的初速度$v_0$进入磁场，一段时间后从磁场全部穿出。已知导线框的边长为$L$，电阻为$R$。求：",
+        {"asset": "a025"},
+        {"asset": "a026"}
+      ],
+      "score": 9,
+      "pages": [7],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "calculation",
+          "stem": "$cd$边刚进入磁场时，$a$、$b$两点间的电势差$U_{ab}$；",
+          "answer": {"source": "question_document", "content": "$U_{ab}=\\frac{1}{4}BLv_0$"},
+          "analysis": [
+            "$cd$边刚进入磁场时，电动势$E=BLv_0$。",
+            "$ab$边电势差$U_{ab}=\\frac{1}{4}E=\\frac{1}{4}BLv_0$。"
+          ],
+          "score": 3,
+          "pages": [7]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "calculation",
+          "stem": "线框所受最大安培力$F_m$的大小和方向；",
+          "answer": {"source": "question_document", "content": "$F_m=\\frac{B^2L^2v_0}{R}$，方向与运动方向相反"},
+          "analysis": [
+            "安培力大小为$F=BIL$，其中$I=\\frac{BLv}{R}$，则$F=\\frac{B^2L^2v}{R}$。",
+            "刚进入磁场时速度最大，安培力最大，即$F_m=\\frac{B^2L^2v_0}{R}$，方向与运动方向相反。"
+          ],
+          "score": 3,
+          "pages": [7]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "drawing",
+          "stem": "在图乙中定性画出线框穿过磁场的全过程中，速度随时间变化的图线。",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "如答图所示",
+              {"asset": "a030"}
+            ]
+          },
+          "score": 3,
+          "pages": [7, 11]
+        }
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "19",
+      "type": "composite",
+      "materials": ["m001", "m003"],
+      "stem": [
+        "离子注入是制作芯片的一道重要工序。工作原理如图，离子经加速后沿水平方向进入速度选择器，然后通过磁分析器，选择出特定比荷的离子，经电场偏转系统后注入处在水平面内的晶圆（硅片）。速度选择器和磁分析器中匀强磁场的磁感应强度大小均为$B$，方向均垂直纸面向外；速度选择器和电场偏转系统中匀强电场的场强大小均为$E$，方向分别为竖直向上和垂直纸面向外。磁分析器中偏转磁场处于内外半径分别为$R_1$和$R_2$的四分之一圆环中，其两端中心位置$M$和$N$处各有一个小孔；电场偏转系统中电场的分布区域是一边长为$L$的正方体，其底面与晶圆所在水平面平行。当偏转系统不加电场时，离子恰好竖直注入到晶圆上的$O$点。整个系统置于真空中，不计离子重力。",
+        {"asset": "a027"}
+      ],
+      "score": 10,
+      "pages": [8],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "calculation",
+          "stem": "求离子的电性及离子通过速度选择器的速度大小$v$；",
+          "answer": {"source": "question_document", "content": "离子的电性为正，$v=\\frac{E}{B}$"},
+          "analysis": "离子的电性为正，离子通过速度选择器时受力平衡$Eq=qvB$，解得$v=\\frac{E}{B}$。",
+          "score": 3,
+          "pages": [8]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "calculation",
+          "stem": "求从磁分析器射出离子的比荷$\\frac{q}{m}$；",
+          "answer": {"source": "question_document", "content": "$\\frac{q}{m}=\\frac{2E}{B^2(R_1+R_2)}$"},
+          "analysis": [
+            "粒子在偏转磁场中圆周运动的半径为$r=\\frac{R_1+R_2}{2}$。",
+            "由洛伦兹力提供向心力$qvB=m\\frac{v^2}{r}$，解得$\\frac{q}{m}=\\frac{2E}{B^2(R_1+R_2)}$。"
+          ],
+          "score": 3,
+          "pages": [8]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "composite",
+          "parts": [
+            {
+              "id": "p1",
+              "label": "①",
+              "type": "calculation",
+              "stem": "如图所示，以$O$点为原点，沿电场偏转系统的电场方向为$x$轴，垂直电场方向为$y$轴，建立坐标系。晶圆与电场偏转系统底面的距离为$L$。若离子可以从底面射出，求离子注入晶圆的位置坐标；",
+              "answer": {"source": "question_document", "content": "$\\left(\\frac{3L^2}{R_1+R_2},0\\right)$"},
+              "analysis": [
+                "离子通过电场偏转系统后，在沿$x$轴方向偏移量为$x_E=\\frac{1}{2}at^2$。",
+                "其中，$Eq=ma$，$t=\\frac{L}{v}$。",
+                "到达晶圆位置在$x$轴上，根据几何关系，$x=3x_E$，解得$x=\\frac{3L^2}{R_1+R_2}$，则位置坐标为$\\left(\\frac{3L^2}{R_1+R_2},0\\right)$。"
+              ],
+              "score": 3,
+              "pages": [8, 11]
+            },
+            {
+              "id": "p2",
+              "label": "②",
+              "type": "short_answer",
+              "stem": "若电场偏转系统及其中的电场可一起绕过顶面中心的竖直轴转动，且离子穿过电场的时间远小于电场偏转系统的转动周期，则离子会打到晶圆的不同位置，请判断这些位置构成的形状。",
+              "answer": {"source": "question_document", "content": "离子注入晶圆的位置形成圆。"},
+              "score": 1,
+              "pages": [8, 11]
+            }
+          ],
+          "pages": [8]
+        }
+      ]
+    },
+    {
+      "id": "q020",
+      "label": "20",
+      "type": "composite",
+      "materials": ["m001", "m003"],
+      "score": 12,
+      "pages": [9],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "composite",
+          "stem": [
+            "如图所示，质量分布均匀的大球质量为$M$、球心为$O$、半径为$R$，从大球中挖去一个半径为$\\frac{R}{2}$的小球，大、小球表面相切于$A$点，$B$点为小球球心。将质量为$m$的小物体（可视为质点）置于$A$点，引力常数为$G$。",
+            {"asset": "a028"}
+          ],
+          "pages": [9],
+          "parts": [
+            {
+              "id": "p1",
+              "label": "①",
+              "type": "calculation",
+              "stem": "求大球剩余部分对小物体的引力大小$F_A$。",
+              "answer": {"source": "question_document", "content": "$F_A=\\frac{GMm}{2R^2}$"},
+              "analysis": "大球的质量为$M$，挖去小球的质量为$M'$，$M'=\\frac{1}{8}M$。大球对$A$点小物体的引力为$F_{A1}=\\frac{GMm}{R^2}$；小球单独存在时对$A$点小物体的引力为$F_{A2}=\\frac{GM'm}{(R/2)^2}$；则剩余部分对$A$点小物体的引力为$F_A=F_{A1}-F_{A2}$，解得$F_A=\\frac{GMm}{2R^2}$。",
+              "score": 4,
+              "pages": [9, 11]
+            },
+            {
+              "id": "p2",
+              "label": "②",
+              "type": "calculation",
+              "stem": "已知质量分布均匀的球壳对壳内物体的引力为零。将小物体移动到$B$点时，求大球剩余部分对小物体的引力大小$F_B$。",
+              "answer": {"source": "question_document", "content": "$F_B=\\frac{GMm}{2R^2}$"},
+              "analysis": [
+                "由于质量分布均匀的球壳对内部的引力为零，大球对$B$点小物体的引力相当于球心在$O$、半径为$\\frac{R}{2}$的球体对$B$点小物体的引力，即$F_{B1}=\\frac{GM'm}{(R/2)^2}$。",
+                "由①可知$M'=\\frac{1}{8}M$。",
+                "又因为质点位于挖去小球的球心处，质量分布均匀的小球对其球心处质点的引力为0，即$F_{B2}=0$。",
+                "则$F_B=F_{B1}-F_{B2}=\\frac{GMm}{2R^2}$。"
+              ],
+              "score": 4,
+              "pages": [9, 12]
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "composite",
+          "stem": [
+            "如图所示，$P$、$Q$为某地区水平地面上的两点，在$P$点正下方有一球形空腔区域。假定区域周围岩石均匀分布，密度为$\\rho$。如果没有这一空腔，则该地区重力加速度（正常值）沿竖直方向；当存在空腔时，该地区重力加速度的大小和方向会与正常情况有微小偏离。重力加速度在原竖直方向（即$PO$方向）上的投影相对于正常值的偏离叫作重力加速度反常。",
+            {"asset": "a029"}
+          ],
+          "pages": [9],
+          "parts": [
+            {
+              "id": "p1",
+              "label": "①",
+              "type": "calculation",
+              "stem": "设球形空腔的体积为$V$，球心深度为$d$（远小于地球半径），$PQ=L$，已知引力常量为$G$，求空腔引起的$Q$点的重力加速度反常$\\Delta g$。",
+              "answer": {"source": "question_document", "content": "$\\Delta g=\\frac{4\\pi R^3G\\rho d}{3(d^2+L^2)^{\\frac{3}{2}}}$，方向竖直向上"},
+              "analysis": [
+                "如果将空腔区域填满相同密度的岩石，则$Q$点重力加速度将回归正常值。因此该处重力加速度反常可通过填充后的球形区域附加引力计算。",
+                "若在$Q$点放置一质量为$m$的质点，则该附加引力为$F_Q=\\frac{GM_Om}{r^2}$。",
+                "根据牛顿第二定律，空腔的重力加速度变化$g'$满足$\\frac{GM_Om}{r^2}=mg'$。",
+                "其中$M_O=\\rho\\cdot\\frac{4}{3}\\pi R^3$，则$g'=\\frac{G\\rho\\cdot\\frac{4}{3}\\pi R^3}{r^2}$，方向沿$OQ$连线向外。",
+                "因此，$Q$处重力加速度反常大小$\\Delta g=g'\\frac{d}{r}$。",
+                "其中$r^2=d^2+L^2$，解得$\\Delta g=\\frac{4\\pi R^3G\\rho d}{3(d^2+L^2)^{\\frac{3}{2}}}$，方向竖直向上。"
+              ],
+              "score": 3,
+              "pages": [9, 12]
+            },
+            {
+              "id": "p2",
+              "label": "②",
+              "type": "short_answer",
+              "stem": "根据某地区的重力加速度反常，可以有哪些实际应用？展开想象的翅膀，就其中一个应用进行简要说明。",
+              "answer": {"source": "question_document", "content": "利用某地区的重力加速度反常，可推算地下矿物的位置、密度、储量等，辅助石油、天然气、金属等矿物勘探。也可用于考古洞穴定位、地质构造分析等。合理即可。"},
+              "score": 1,
+              "pages": [9, 12]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1591 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|一模|西城|英语|",
+    "title": "2026北京西城区高三一模英语试题及答案",
+    "year": 2026,
+    "kind": "一模",
+    "subject": "英语",
+    "district": "西城",
+    "exam_date": "2026-04"
+  },
+  "source": {
+    "file": "../../../../../raw/英语/2026/一模/english-2026-mock1-xicheng.pdf",
+    "sha256": "c8e0ba395b8b6159ae7cda84fa4169e794bfeed353d27ad8b1e3d19007a009d4",
+    "page_count": 15
+  },
+  "extraction": {
+    "status": "needs_review",
+    "tool": "pymupdf 页面图像提取 + 逐页视觉转录（原始 PDF 无文本层）",
+    "notes": [
+      "原卷为15页扫描PDF，第1–14页无可提取文本层；全部文字依据约2398×3384像素的页面图像逐页视觉转录，未联网、未调用外部模型或OCR。",
+      "第1–13页为试题（页脚标“共13页”），第14页为“英语答案及评分参考”第1页（页脚标“共2页”），第15页实际为二维码广告页，答案第2页缺失。",
+      "第8页扫描图像右侧被裁切，阅读理解D前两段多处行末及下一行行首单词缺失；m011以“…”标示缺失处，未凭上下文补写，q031–q034同步标记需复核。",
+      "第13页第42题引文中有白色遮挡且右缘裁切；题干据第14页答案对原句的复述补全，并在该题notes中说明。",
+      "完形填空第6、7空在原卷短文中未印题号；语法填空第15–17、19空在原卷短文中的题号不明显；均按选项/答案顺序对应，并在题干中保留局部语境。",
+      "七选五答题说明印“共6小题”，实际只有35–39共5个空，答案亦为5题，共10分；按原卷文字保留“共6小题”。",
+      "书面表达第二节未印题号，q044的label使用原卷标题“第二节（20分）”。",
+      "全卷无图表、无配图，未生成assets。",
+      "原卷个别印刷或扫描异体按可见字形保留，未作更正：m008 “headquarter”（非 headquarters）、m002 第3段 “Marous”（同段前两处为 Marcus）、m002 第2段 “1 ___3___”（数字1）、m010 末段两处 “BQ”、m010 “consistence”。",
+      "下划线按 LaTeX \\underline{} 保留：m011 “squashed”、q042 答案中 “remove the block”；未改为粗体。",
+      "第13页阅读表达短文中 “After dinner, we would sit together. laptops open, phones away, no excuses.” 原卷即为句号且 laptops 小写，按原样保留。"
+    ]
+  },
+  "materials": {
+    "m001": {
+      "kind": "instructions",
+      "title": "第一部分 知识运用 第一节 答题说明",
+      "content": [
+        "第一部分：知识运用（共两节，30分）",
+        "第一节（共10小题；每小题1.5分，共15分）",
+        "阅读下面短文，掌握其大意，从每题所给的A、B、C、D四个选项中，选出最佳选项，并在答题卡上将该项涂黑。"
+      ],
+      "pages": [
+        1
+      ]
+    },
+    "m002": {
+      "kind": "passage",
+      "title": "完形填空短文",
+      "content": [
+        "We are told never to judge a book by its cover, but few of us actually follow that advice. I used to think I had a good ___1___ on people. Quiet meant cold, and confident meant arrogant (自大的). I was especially sure of this when it came to Marcus Greene, who sat behind me in chemistry class. He was the type of person who never raised his hand and rarely made eye contact. ___2___, I assumed he thought he was too good for the rest of us. Distant. Maybe even rude.",
+        "One day in class, we were paired up for a group project. When the teacher announced our names together, 1 ___3___ heavily. He looked over and gave me a small nod. No smile, no greeting, just that. I rolled my eyes.",
+        "Our first meeting was in the library after school. I expected it to be ___4___, maybe even annoying, but to my surprise, Marous came prepared. He had notes and questions. Not only that, but he even had suggestions for how we could divide the work fairly. I asked “Are you always this ___5___?” He said, “Only when I care about something.”",
+        "Over the next two weeks, we worked side by side. He wasn't the person I thought he was. He didn't look down on others; he was just shy. He didn't avoid people; he just didn't know how to ______. Slowly, I learned more about him. None of that arrogance I'd ______ to him was real. It had been nothing more than my assumption, wrapped up in his silence.",
+        "The day we presented our project, our teacher praised us for our ___8___. I turned to Marcus and said, “I'm glad we got paired up.” He looked down, smiled faintly, and replied, “Me too.”",
+        "That was the day I realized I was wrong about him. And more importantly, it was the day I realized how easy it is to ___9___ someone when you don't bother to look deeper. Since then, I've tried to listen more closely, judge more slowly, and give people the ___10___ to show me who they are."
+      ],
+      "pages": [
+        1
+      ]
+    },
+    "m003": {
+      "kind": "instructions",
+      "title": "第一部分 知识运用 第二节 答题说明",
+      "content": [
+        "第二节（共10小题；每小题1.5分，共15分）",
+        "阅读下列短文，根据短文内容填空。在未给提示词的空白处仅填写1个恰当的单词，在给出提示词的空白处用括号内所给词的正确形式填空。请在答题卡指定区域作答。"
+      ],
+      "pages": [
+        2
+      ]
+    },
+    "m004": {
+      "kind": "passage",
+      "title": "语法填空 A",
+      "content": "I sat in my professor's office and spoke out everything that had been troubling me for months: the stress and the self-doubt. He ___11___ (calm) listened and said, “You are here to learn to ride a bicycle, not to invent a bicycle.” That sentence opened something up. This experience marked a turning point, ___12___ I realized the need to refocus on my initial purpose. I ___13___ (seek) to worry less, and every project became a meaningful step forward and a story worth sharing, whether it failed or succeeded.",
+      "pages": [
+        2
+      ]
+    },
+    "m005": {
+      "kind": "passage",
+      "title": "语法填空 B",
+      "content": "Do you ever struggle to stay focused and get tasks ___14___ (do)? If so, you can try the Pomodoro Technique, a time management tool. It involves dividing work tasks into 25-minute periods, known as pomodoros, with breaks scheduled ______ periods. Introduced in the 1980s, the Pomodoro Technique ______ (gain) greater popularity over the past years thanks to its ability to help prevent burnout and boredom. Combining focused work with brief breaks ______ (allow) people to achieve more without losing concentration or getting stressed.",
+      "pages": [
+        2
+      ]
+    },
+    "m006": {
+      "kind": "passage",
+      "title": "语法填空 C",
+      "content": "Professor Zhao Haiying leads a team combining AI, big data and archaeology (考古学) ___18___ (build) a “digital gene bank of Chinese civilization”. Her inspiration came through carpets while she was studying ______ one art form connects countries and regions. Her team has defined six core categories of cultural genes, which is essential for revealing patterns of evolution through time and space. ___20___ (partner) with various museums, they have interconnected millions of digital artifacts. “Our mission is connection, not just collection,” Zhao says.",
+      "pages": [
+        3
+      ]
+    },
+    "m007": {
+      "kind": "instructions",
+      "title": "第二部分 阅读理解 第一节 答题说明",
+      "content": [
+        "第二部分：阅读理解（共两节，38分）",
+        "第一节（共14小题；每小题2分，共28分）",
+        "阅读下列短文，从每题所给的A、B、C、D四个选项中，选出最佳选项，并在答题卡上将该项涂黑。"
+      ],
+      "pages": [
+        3
+      ]
+    },
+    "m008": {
+      "kind": "passage",
+      "title": "阅读理解 A：Loved Before",
+      "content": [
+        "Loved Before",
+        "The first eco-friendly, fully sustainable soft toy adoption agency",
+        "“Several years back, during my time as a volunteer at a charity shop, I observed the arrival of second-hand toys at the store. These pre-loved toys, often handed over with cherished memories and emotional significance, were carelessly cast aside, sometimes became dog toys or, even more dishearteningly, destined for the landfill.",
+        "It became evident to me how the love, lively life, and stories of these eco-toys were at risk of being lost and forgotten in an instant. That was when Loved Before was born with the mission to revolutionize our perspective on sustainable toys.”",
+        "—Charlotte, Founder",
+        "What we do",
+        "● Your pre-loved toys arrive at our headquarter where they officially become Loved Befores and have a tailored and thorough “Spa” treatment to make them clean.",
+        "● Each toy will have its own photoshoot, be added to the store along with the story of their previous lives and adventures, and be re-homed to their new family!",
+        "● At least half of the profit from every one of our sustainable toys once adopted goes to Make-A-Wish, a non-profit organization who creates and fulfils life-changing wishes for children living with critical illnesses.",
+        "What we believe",
+        "**Imperfect I'm perfect:** Our collections showcase toys that have weathered the journey of life—worn and beautifully imperfect. Loved Before believes that in the world of love and acceptance, “imperfections” hold no weight. True beauty lies in the individuality of each toy, and there's no such thing as “perfect”.",
+        "**Saving the world, one teddy at a time:** While our passion for teddies is undeniable, at Loved Before, we view our mission as a driving force for a broader shift in mindset—one where sustainable toys, particularly our eco-friendly teddies, mark just the beginning! We passionately believe that the world is already filled with enough soft toys to last a lifetime, eliminating (消除) the necessity to produce more. By shifting perceptions of pre-loved items, we're on a mission to revolutionize the toy industry forever. Our collection is a movement towards a greener, more conscious playtime."
+      ],
+      "pages": [
+        3,
+        4
+      ]
+    },
+    "m009": {
+      "kind": "passage",
+      "title": "阅读理解 B",
+      "content": [
+        "I have always felt most comfortable in the classroom, and I enjoy the recognition from family and teachers for accomplishing a job well. Although I was a high achiever, I was not a student who joined every club. Throughout my life, I wanted to learn more than I wanted to be in a bunch of extracurriculars (课外活动).",
+        "My academic journey continued at a community college, where I joined the student newspaper. In the newsroom, I discovered an engaging, fast-paced world that allowed me to never stop learning. It was just what I had expected. Now my transfer (转学) to Drake University for a journalism degree was a no-brainer. It was exciting to see my future become clear, but I never pictured the shock waves headed my way.",
+        "The campus phenomenon known as “Drake Busy” was completely unexpected. The term describes the idea that constant busyness is the main indicator of college success. Within the first week, I felt heavy pressure to be active in all the ways my peers (同学) were. I saw students trying to balance multiple jobs and organizations alongside schoolwork. As a student used to having confidence in the classroom, I felt this new standard threatened my identity and worsened my anxiety. I spent my first term struggling with doubts about my worthiness. My anxious thoughts tricked my mind into believing lies like “You're not good enough.” A part of my mind realized those thoughts were not true, but that sensible voice was a whisper compared to the shouts of doubt. As a witness to this battle every day, I have learned that sometimes it just takes time to chip away at my mind's inventions.",
+        "In time, I recognized that my experience as a transfer student was different but valuable. The outsider perspective helped me tackle “Drake Busy”. I watched people trying to do too much at the expense of their well-being. I wanted to shake them and say, “Why do this to yourself?”",
+        "Instead of fighting the current, I eventually learned to swim in my own lane. The pressure didn't disappear, but my need to give in to it did. I realized that my worth wasn't calculated by the number of meetings on my calendar, but by the real satisfaction I felt in my work. On the days I managed to balance my ambition with my peace of mind, I felt most motivated. I discovered that true success is defined internally, not by the noise around you."
+      ],
+      "pages": [
+        5
+      ]
+    },
+    "m010": {
+      "kind": "passage",
+      "title": "阅读理解 C",
+      "content": [
+        "Intelligence is changing. For most of modern history, IQ was treated as the gold standard for potential, and later, EQ became the best way to succeed in relationship-driven spaces. Now, both are being challenged because AI models can complete cognitive (认知的) tasks with superior speed and accuracy while simulating (模拟) emotional connections with users in ways that feel increasingly realistic.",
+        "Many of the abilities we once relied on to stand out are no longer exclusively human. Once, being the smartest in the room ensured success. Today, this advantage weakens—AI drafts complex strategies and processes information at a range and speed no human can match. The differentiator shifts from accessing information to interpreting it wisely, leaving many questioning their place as human skills are easily automated.",
+        "One capacity gaining attention is spiritual intelligence (SQ). Although the term is often misunderstood as religious, most researchers use it in a worldly way to describe how people find meaning and direction in their lives. The common thread is that SQ can influence how we orient (确定方向) ourselves when familiar strategies fail, encouraging us to question whether productivity alone can sustain a meaningful life.",
+        "SQ can serve as a framework to exercise our agency and stay connected to what matters during periods of rapid change and uncertainty. Unlike IQ and EQ, SQ resists automation because it develops through lived experience and the ongoing process of making meaning in our lives. It helps us perceive not only what we can do, but why it matters.",
+        "Current research has associated higher levels of SQ with greater resilience (韧性), more moral leadership behaviors, higher well-being, and stronger interpersonal trust. One credible explanation is that SQ strengthens our sense of agency: when we root our decisions in meaning, we approach complexity with intentionality instead of urgency. Such value is reflected in its key qualities.",
+        "Three key qualities of people who have developed SQ are often identified in research. First is systems awareness. Scholars believe SQ enables a broader perspective to spot event patterns and connections, with qualitative studies showing high SQ scorers often think interdependently. Besides, individuals with strong SQ tend to exhibit a purpose-driven orientation. Cambridge research suggests that having a sense of purpose is linked to motivation, creativity and well-being. SQ centers on purpose, though the direct causal pathway between SQ and purpose remains more correlational than definitive. Equally important is the quality of presence. Practices like mindfulness tied to SQ reduce reactivity and boost attention regulation, helping individuals stay grounded under stress for intentional actions.",
+        "Perhaps SQ's most notable trait is its gradual growth, with no dramatic reinvention needed. It emerges through honest reflection and a willingness to revisit long-held beliefs, accessible to anyone willing to engage with themselves intentionally and curiously. As AI advances, human uniqueness may shift from what we can produce to how we interpret, make choices, and live out our values. BQ will remain valuable, but no longer define our uniqueness; BQ—the ability to find consistence amid rapid change—may become our most essential human skill."
+      ],
+      "pages": [
+        6,
+        7,
+        8
+      ]
+    },
+    "m011": {
+      "kind": "passage",
+      "title": "阅读理解 D",
+      "content": [
+        "Pictures and videos of all sorts of animals regularly go viral these days becaus… people connect with the apparent joy, friendship and playfulness of these animal… Unfortunately, the initial enthusiasm of these posts is often \\underline{squashed} by someo… rightly noting that the animal's reaction is not joy or pleasure, but fear, anger or pai…",
+        "The reason we often get cases like this wrong is that we interpret the emotion… content of many behaviors automatically and unconsciously. This is a version …anthropomorphism: interpreting animals as we would interpret another human. …standard view has been that anthropomorphism is primarily an error of overestima… the intelligence of animals. In recent decades, many authors have pushed b… against this attitude towards anthropomorphism, arguing animals are a lot like us… that many “anthropomorphic” claims about animals are actually true.",
+        "Instead of getting caught in a black-and-white debate, however, I want a more complicated, informed discussion of competing ideas. Once we agree that animals do, in fact, have emotions, we can acknowledge that the anthropomorphic mistake is not seeing emotion where there is none—it is seeing the wrong emotion.",
+        "Each of us has a set of perceptual, emotional and cognitive capacities that allow us to engage and understand one another socially. These capacities help guide and structure all sorts of interactions, and we are generally not even aware we are using them. They are generally, but not perfectly, tuned for human interaction. Things can get messy, though, when we use them to interpret animals. Perhaps the best-studied version of this is the primate “grin” (灵长类动物的咧嘴笑). The animal is not happy, it turns out. The exact signaling function varies by species, but it usually signals something more like fear or anxiety, often by a submissive individual in a tense social situation. This is, in fact, anthropomorphism, because you are interpreting an animal's behavior in the same way we would interpret human behavior. This kind of anthropomorphism is a form of cognitive bias (偏见) resulting from shortcuts taken by our reasoning processes, usually without our awareness.",
+        "We should approach the topic of anthropomorphism from the angle of bias. Traditionally, assumptions about how and when people anthropomorphise have been so fixed that the psychology did not seem worth investigating. Slightly different attitudes can be found. For example, even though they advocate for anthropomorphic views of animals, the zoologists Jesús Rivas and Gordon Burghardt memorably note that it can be tricky: “Anthropomorphism comes in many forms and can catch you off guard!” While the recognition of “many forms” is progress, it makes the need for evidence-based research only more pressing. By focusing on implicit (隐性的) anthropomorphism, we shift attention from debating specific “humanlike” features to examining the deeper psychological mechanisms that make anthropomorphism so slippery. This, I believe, is the most challenging and most significant dimension of the problem."
+      ],
+      "pages": [
+        8,
+        9
+      ],
+      "needs_review": true,
+      "notes": [
+        "第8页扫描图像右侧被裁切，阅读理解D前两段多处行末及下一行行首单词缺失；材料以“…”标示缺失处，未凭上下文补写。"
+      ]
+    },
+    "m012": {
+      "kind": "instructions",
+      "title": "第二部分 阅读理解 第二节 答题说明",
+      "content": [
+        "第二节（共6小题；每小题2分，共10分）",
+        "根据短文内容，从短文后的七个选项中选出能填入空白处的最佳选项，并在答题卡上将该项涂黑。选项中有两项为多余选项。"
+      ],
+      "pages": [
+        10
+      ]
+    },
+    "m013": {
+      "kind": "passage",
+      "title": "七选五短文",
+      "content": [
+        "Cut your sugar, get some exercise, eat your vegetables, sleep well. Every day, we are surrounded by information about how to live longer, healthier, happier lives. ___35___ It is to engage in the arts.",
+        "Over the past few decades, evidence has been increasing to suggest that being more creative works wonders for our health. ___36___ And the results are astonishing, from music in surgery reducing the amount of painkillers and anti-anxiety medicines needed, to dance programs helping people with Parkinson's disease to walk.",
+        "But the arts aren't just there for us when we are sick. As a public health scientist, I spend my days looking at data from studies—massive datasets that contain thousands of individuals who have completed questionnaires, had nurse interviews, donated blood samples and undergone brain imaging every few years of their lives. ___37___ Using complex statistical methods, we can look at the long-term relationship between everyday arts engagement and dozens of health outcomes.",
+        "The results are remarkable. Children who engage more with the arts have a reduced risk of developing problems like depression later in life. Adults who participate more frequently in the arts and visit cultural venues are happier and feel more satisfied with their lives over the years and decades that follow.",
+        "___38___ Kindergarteners who engage in music activities have increased prosocial skills as they head into primary school. Teenagers who are involved in bands, dance and editing school newspapers are less likely to get involved in antisocial behaviors or crime.",
+        "I want to be clear: I am not suggesting the arts can solve all problems. ______ But the evidence remains that engaging regularly in creative activities that you enjoy is an investment in your health that is worth making."
+      ],
+      "pages": [
+        10,
+        11
+      ]
+    },
+    "m014": {
+      "kind": "instructions",
+      "title": "第三部分 书面表达 第一节 答题说明",
+      "content": [
+        "第三部分：书面表达（共两节，32分）",
+        "第一节（共4小题；第40、41题各2分，第42题3分，第43题5分，共12分）",
+        "阅读下面短文，根据题目要求用英文回答问题。请在答题卡指定区域作答。"
+      ],
+      "pages": [
+        12
+      ]
+    },
+    "m015": {
+      "kind": "passage",
+      "title": "阅读表达短文",
+      "content": [
+        "It often took me weeks or even months to begin writing something. I tended to put it off, reasoning that at some point I would land in that perfect moment where my thoughts would flow. But that moment didn't always arrive, and I ended up putting together a hurriedly written piece only when the deadline became dangerously close.",
+        "It was 10 p.m. on a winter night and I was sitting at my laptop, staring at a blank Word document. My thesis proposal deadline approached. I hadn't written a word despite weeks of thinking. Earlier that evening, when I met another Ph.D. student, Sachin, for our regular monthly dinner, he was equally stuck—buried under the weight of a fellowship application. We set out to make a change. So, we made a pact (约定): After dinner, we would sit together. laptops open, phones away, no excuses. It was the fuel I needed to finally start writing.",
+        "Our informal pact soon became a habit. We scheduled weekly 90-minute sessions, which gave us a distraction-free space to write something, however imperfect. We began each session by naming a small goal. That 5-minute planning made the rest of the session surprisingly productive. Instead of worrying about writing an entire proposal, we only had to finish a tiny piece of it. Those small wins built confidence. A few sentences grew into paragraphs, then into complete proposals with enough time before the deadline to get feedback from professors. Writing never got easy, as I'd hoped, but it became less isolating and more productive. Sachin and I had both seen our mates face similar challenges and wanted to bring this experience to a broader group. So we launched co-working sessions for the students in our department. We started with 5 minutes of goal setting, followed by 75 minutes of silent, focused writing, and ended with a short reflection period.",
+        "Now dozens of students have attended. What began as two anxious students staring at blank screens has grown into a small community that makes writing less lonely. Our experience showed us that accountability and a shared sense of purpose can lower the barriers that make writing so scary. No one should have to write alone."
+      ],
+      "pages": [
+        12
+      ]
+    }
+  },
+  "option_sets": {
+    "o001": [
+      {
+        "key": "A",
+        "content": "The benefits aren't just psychological either."
+      },
+      {
+        "key": "B",
+        "content": "Regular arts engagement goes beyond boosting physical health."
+      },
+      {
+        "key": "C",
+        "content": "But there is one piece of advice I bet you have never been given."
+      },
+      {
+        "key": "D",
+        "content": "Many of these studies contain buried questions on arts engagement."
+      },
+      {
+        "key": "E",
+        "content": "Arts can be inaccessible to people because of cost and other reasons."
+      },
+      {
+        "key": "F",
+        "content": "Crafts, singing, theatre and writing are good for us as part of our daily lives."
+      },
+      {
+        "key": "G",
+        "content": "Programs being developed around the world are starting to integrate the arts into healthcare."
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "1",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "I used to think I had a good ___1___ on people.",
+      "options": [
+        {
+          "key": "A",
+          "content": "read"
+        },
+        {
+          "key": "B",
+          "content": "focus"
+        },
+        {
+          "key": "C",
+          "content": "comment"
+        },
+        {
+          "key": "D",
+          "content": "impression"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q002",
+      "label": "2",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "___2___, I assumed he thought he was too good for the rest of us.",
+      "options": [
+        {
+          "key": "A",
+          "content": "Luckily"
+        },
+        {
+          "key": "B",
+          "content": "Naturally"
+        },
+        {
+          "key": "C",
+          "content": "Hopefully"
+        },
+        {
+          "key": "D",
+          "content": "Suddenly"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q003",
+      "label": "3",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "When the teacher announced our names together, 1 ___3___ heavily.",
+      "options": [
+        {
+          "key": "A",
+          "content": "cried"
+        },
+        {
+          "key": "B",
+          "content": "sighed"
+        },
+        {
+          "key": "C",
+          "content": "protested"
+        },
+        {
+          "key": "D",
+          "content": "sweated"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q004",
+      "label": "4",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "I expected it to be ___4___, maybe even annoying, but to my surprise, Marous came prepared.",
+      "options": [
+        {
+          "key": "A",
+          "content": "formal"
+        },
+        {
+          "key": "B",
+          "content": "smooth"
+        },
+        {
+          "key": "C",
+          "content": "urgent"
+        },
+        {
+          "key": "D",
+          "content": "awkward"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q005",
+      "label": "5",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "I asked “Are you always this ___5___?” He said, “Only when I care about something.”",
+      "options": [
+        {
+          "key": "A",
+          "content": "relaxed"
+        },
+        {
+          "key": "B",
+          "content": "critical"
+        },
+        {
+          "key": "C",
+          "content": "organized"
+        },
+        {
+          "key": "D",
+          "content": "confident"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q006",
+      "label": "6",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "He didn't avoid people; he just didn't know how to ______.",
+      "options": [
+        {
+          "key": "A",
+          "content": "hang on"
+        },
+        {
+          "key": "B",
+          "content": "show off"
+        },
+        {
+          "key": "C",
+          "content": "reach out"
+        },
+        {
+          "key": "D",
+          "content": "make up"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q007",
+      "label": "7",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "None of that arrogance I'd ______ to him was real.",
+      "options": [
+        {
+          "key": "A",
+          "content": "assigned"
+        },
+        {
+          "key": "B",
+          "content": "owed"
+        },
+        {
+          "key": "C",
+          "content": "explained"
+        },
+        {
+          "key": "D",
+          "content": "presented"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q008",
+      "label": "8",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "The day we presented our project, our teacher praised us for our ___8___.",
+      "options": [
+        {
+          "key": "A",
+          "content": "ambition"
+        },
+        {
+          "key": "B",
+          "content": "curiosity"
+        },
+        {
+          "key": "C",
+          "content": "tolerance"
+        },
+        {
+          "key": "D",
+          "content": "cooperation"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q009",
+      "label": "9",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "And more importantly, it was the day I realized how easy it is to ___9___ someone when you don't bother to look deeper.",
+      "options": [
+        {
+          "key": "A",
+          "content": "ignore"
+        },
+        {
+          "key": "B",
+          "content": "describe"
+        },
+        {
+          "key": "C",
+          "content": "recognize"
+        },
+        {
+          "key": "D",
+          "content": "misunderstand"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q010",
+      "label": "10",
+      "type": "single_choice",
+      "materials": [
+        "m001",
+        "m002"
+      ],
+      "stem": "Since then, I've tried to listen more closely, judge more slowly, and give people the ___10___ to show me who they are.",
+      "options": [
+        {
+          "key": "A",
+          "content": "space"
+        },
+        {
+          "key": "B",
+          "content": "reason"
+        },
+        {
+          "key": "C",
+          "content": "guidance"
+        },
+        {
+          "key": "D",
+          "content": "pressure"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 1.5,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q011",
+      "label": "11",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "stem": "He ___11___ (calm) listened and said, “You are here to learn to ride a bicycle, not to invent a bicycle.”",
+      "answer": {
+        "source": "question_document",
+        "content": "calmly"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q012",
+      "label": "12",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "stem": "This experience marked a turning point, ___12___ I realized the need to refocus on my initial purpose.",
+      "answer": {
+        "source": "question_document",
+        "content": "where/when"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q013",
+      "label": "13",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m004"
+      ],
+      "stem": "I ___13___ (seek) to worry less, and every project became a meaningful step forward and a story worth sharing, whether it failed or succeeded.",
+      "answer": {
+        "source": "question_document",
+        "content": "sought"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q014",
+      "label": "14",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m005"
+      ],
+      "stem": "Do you ever struggle to stay focused and get tasks ___14___ (do)?",
+      "answer": {
+        "source": "question_document",
+        "content": "done"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q015",
+      "label": "15",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m005"
+      ],
+      "stem": "It involves dividing work tasks into 25-minute periods, known as pomodoros, with breaks scheduled ______ periods.",
+      "answer": {
+        "source": "question_document",
+        "content": "between"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q016",
+      "label": "16",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m005"
+      ],
+      "stem": "Introduced in the 1980s, the Pomodoro Technique ______ (gain) greater popularity over the past years thanks to its ability to help prevent burnout and boredom.",
+      "answer": {
+        "source": "question_document",
+        "content": "has gained"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "17",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m005"
+      ],
+      "stem": "Combining focused work with brief breaks ______ (allow) people to achieve more without losing concentration or getting stressed.",
+      "answer": {
+        "source": "question_document",
+        "content": "allows"
+      },
+      "score": 1.5,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "18",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m006"
+      ],
+      "stem": "Professor Zhao Haiying leads a team combining AI, big data and archaeology (考古学) ___18___ (build) a “digital gene bank of Chinese civilization”.",
+      "answer": {
+        "source": "question_document",
+        "content": "to build"
+      },
+      "score": 1.5,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "19",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m006"
+      ],
+      "stem": "Her inspiration came through carpets while she was studying ______ one art form connects countries and regions.",
+      "answer": {
+        "source": "question_document",
+        "content": "how"
+      },
+      "score": 1.5,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q020",
+      "label": "20",
+      "type": "fill_blank",
+      "materials": [
+        "m003",
+        "m006"
+      ],
+      "stem": "___20___ (partner) with various museums, they have interconnected millions of digital artifacts.",
+      "answer": {
+        "source": "question_document",
+        "content": "Partnering"
+      },
+      "score": 1.5,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q021",
+      "label": "21",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m008"
+      ],
+      "stem": "What inspired Charlotte to start Loved Before?",
+      "options": [
+        {
+          "key": "A",
+          "content": "The improper treatment of old toys."
+        },
+        {
+          "key": "B",
+          "content": "The new attitude toward dog toys."
+        },
+        {
+          "key": "C",
+          "content": "The profits from charities."
+        },
+        {
+          "key": "D",
+          "content": "The donations from kids."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q022",
+      "label": "22",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m008"
+      ],
+      "stem": "According to the passage, Loved Before ______.",
+      "options": [
+        {
+          "key": "A",
+          "content": "fulfils toy owners' wishes"
+        },
+        {
+          "key": "B",
+          "content": "helps to cure sick children"
+        },
+        {
+          "key": "C",
+          "content": "shares the toys' life stories"
+        },
+        {
+          "key": "D",
+          "content": "buys thoroughly cleaned toys"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q023",
+      "label": "23",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m008"
+      ],
+      "stem": "What is the significance of Loved Before?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Achieving perfection in life."
+        },
+        {
+          "key": "B",
+          "content": "Stressing the impact of teddies."
+        },
+        {
+          "key": "C",
+          "content": "Promoting the production of toys."
+        },
+        {
+          "key": "D",
+          "content": "Raising environmental awareness."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q024",
+      "label": "24",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m009"
+      ],
+      "stem": "Before entering Drake University, the author ______.",
+      "options": [
+        {
+          "key": "A",
+          "content": "adopted a relaxing lifestyle"
+        },
+        {
+          "key": "B",
+          "content": "longed to become a teacher"
+        },
+        {
+          "key": "C",
+          "content": "struggled to choose a major"
+        },
+        {
+          "key": "D",
+          "content": "performed well academically"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "q025",
+      "label": "25",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m009"
+      ],
+      "stem": "How did the author feel within the first week at Drake University?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Unaccustomed."
+        },
+        {
+          "key": "B",
+          "content": "Relieved."
+        },
+        {
+          "key": "C",
+          "content": "Regretful."
+        },
+        {
+          "key": "D",
+          "content": "Expectant."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "q026",
+      "label": "26",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m009"
+      ],
+      "stem": "What does the author think of the “Drake Busy” lifestyle?",
+      "options": [
+        {
+          "key": "A",
+          "content": "It lowers students' learning efficiency."
+        },
+        {
+          "key": "B",
+          "content": "It indicates students' future success."
+        },
+        {
+          "key": "C",
+          "content": "It threatens students' well-being."
+        },
+        {
+          "key": "D",
+          "content": "It erases students' self-doubt."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "q027",
+      "label": "27",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m009"
+      ],
+      "stem": "What message does the passage deliver?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Outsiders rarely win."
+        },
+        {
+          "key": "B",
+          "content": "Your own pace matters."
+        },
+        {
+          "key": "C",
+          "content": "Busyness equals worthiness."
+        },
+        {
+          "key": "D",
+          "content": "Your anxiety drives you forward."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "q028",
+      "label": "28",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m010"
+      ],
+      "stem": "What are the first two paragraphs mainly about?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Why new competitive skills are challenged."
+        },
+        {
+          "key": "B",
+          "content": "When traditional human advantages will fail."
+        },
+        {
+          "key": "C",
+          "content": "How human uniqueness is shifting in the AI era."
+        },
+        {
+          "key": "D",
+          "content": "What makes AI superior in information processing."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q029",
+      "label": "29",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m010"
+      ],
+      "stem": "What can be inferred about spiritual intelligence?",
+      "options": [
+        {
+          "key": "A",
+          "content": "It proves to be the cause of purpose."
+        },
+        {
+          "key": "B",
+          "content": "It grows by abandoning long-held beliefs."
+        },
+        {
+          "key": "C",
+          "content": "It helps people stay rooted amid uncertainty."
+        },
+        {
+          "key": "D",
+          "content": "It facilitates urgent decisions in complex situations."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q030",
+      "label": "30",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m010"
+      ],
+      "stem": "Which would be the best title for the passage?",
+      "options": [
+        {
+          "key": "A",
+          "content": "SQ's Advantages Over IQ & EQ"
+        },
+        {
+          "key": "B",
+          "content": "The Rise of Spiritual Intelligence"
+        },
+        {
+          "key": "C",
+          "content": "The Development of Human Intelligence"
+        },
+        {
+          "key": "D",
+          "content": "How Human Intelligence Outperforms AI"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q031",
+      "label": "31",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m011"
+      ],
+      "stem": "What does the word “squashed” underlined in Paragraph 1 probably mean?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Awakened."
+        },
+        {
+          "key": "B",
+          "content": "Dampened."
+        },
+        {
+          "key": "C",
+          "content": "Misguided."
+        },
+        {
+          "key": "D",
+          "content": "Underestimated."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        10
+      ],
+      "needs_review": true,
+      "notes": [
+        "阅读D材料第8页右缘裁切，部分行末文字缺失，见 m011。"
+      ]
+    },
+    {
+      "id": "q032",
+      "label": "32",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m011"
+      ],
+      "stem": "What can we learn about anthropomorphism?",
+      "options": [
+        {
+          "key": "A",
+          "content": "It turns animals' negative emotions into positive ones."
+        },
+        {
+          "key": "B",
+          "content": "It underrates the emotional capacities of animal species."
+        },
+        {
+          "key": "C",
+          "content": "It contributes to the shortcuts of our reasoning processes."
+        },
+        {
+          "key": "D",
+          "content": "It reflects the projection of human qualities onto animals."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        10
+      ],
+      "needs_review": true,
+      "notes": [
+        "阅读D材料第8页右缘裁切，部分行末文字缺失，见 m011。"
+      ]
+    },
+    {
+      "id": "q033",
+      "label": "33",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m011"
+      ],
+      "stem": "The author quotes Jesús and Gordon to ______.",
+      "options": [
+        {
+          "key": "A",
+          "content": "confirm the value of anthropomorphism"
+        },
+        {
+          "key": "B",
+          "content": "highlight the complexity of anthropomorphism"
+        },
+        {
+          "key": "C",
+          "content": "warn us of the limitations of anthropomorphism"
+        },
+        {
+          "key": "D",
+          "content": "remind us to view anthropomorphism positively"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        10
+      ],
+      "needs_review": true,
+      "notes": [
+        "阅读D材料第8页右缘裁切，部分行末文字缺失，见 m011。"
+      ]
+    },
+    {
+      "id": "q034",
+      "label": "34",
+      "type": "single_choice",
+      "materials": [
+        "m007",
+        "m011"
+      ],
+      "stem": "What does the author intend to do by writing this passage?",
+      "options": [
+        {
+          "key": "A",
+          "content": "Propose a fresh perspective."
+        },
+        {
+          "key": "B",
+          "content": "Analyze a worrying tendency."
+        },
+        {
+          "key": "C",
+          "content": "Evaluate the credibility of a theory."
+        },
+        {
+          "key": "D",
+          "content": "Explore the origin of a phenomenon."
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        10
+      ],
+      "needs_review": true,
+      "notes": [
+        "阅读D材料第8页右缘裁切，部分行末文字缺失，见 m011。"
+      ]
+    },
+    {
+      "id": "q035",
+      "label": "35",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "stem": "Every day, we are surrounded by information about how to live longer, healthier, happier lives. ___35___ It is to engage in the arts.",
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        10
+      ]
+    },
+    {
+      "id": "q036",
+      "label": "36",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "stem": "Over the past few decades, evidence has been increasing to suggest that being more creative works wonders for our health. ___36___ And the results are astonishing, from music in surgery reducing the amount of painkillers and anti-anxiety medicines needed, to dance programs helping people with Parkinson's disease to walk.",
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "G"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        10
+      ]
+    },
+    {
+      "id": "q037",
+      "label": "37",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "stem": "As a public health scientist, I spend my days looking at data from studies—massive datasets that contain thousands of individuals who have completed questionnaires, had nurse interviews, donated blood samples and undergone brain imaging every few years of their lives. ___37___ Using complex statistical methods, we can look at the long-term relationship between everyday arts engagement and dozens of health outcomes.",
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "q038",
+      "label": "38",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "stem": "___38___ Kindergarteners who engage in music activities have increased prosocial skills as they head into primary school.",
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "q039",
+      "label": "39",
+      "type": "single_choice",
+      "materials": [
+        "m012",
+        "m013"
+      ],
+      "stem": "I want to be clear: I am not suggesting the arts can solve all problems. ______ But the evidence remains that engaging regularly in creative activities that you enjoy is an investment in your health that is worth making.",
+      "option_set": "o001",
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "E"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "q040",
+      "label": "40",
+      "type": "short_answer",
+      "materials": [
+        "m014",
+        "m015"
+      ],
+      "stem": "What was the pact between the author and Sachin for writing?",
+      "answer": {
+        "source": "question_document",
+        "content": "After dinner, they would sit together, laptops open, phones away, no excuses."
+      },
+      "score": 2,
+      "pages": [
+        13
+      ]
+    },
+    {
+      "id": "q041",
+      "label": "41",
+      "type": "short_answer",
+      "materials": [
+        "m014",
+        "m015"
+      ],
+      "stem": "Why did the author and Sachin start co-working sessions for their mates?",
+      "answer": {
+        "source": "question_document",
+        "content": "Because they had both seen their mates face similar challenges and wanted to bring this experience to a broader group."
+      },
+      "score": 2,
+      "pages": [
+        13
+      ]
+    },
+    {
+      "id": "q042",
+      "label": "42",
+      "type": "short_answer",
+      "materials": [
+        "m014",
+        "m015"
+      ],
+      "stem": [
+        "Please decide which part is false in the following statement, then underline it and explain why.",
+        "➤ The co-working sessions helped to remove the block that made writing frightening."
+      ],
+      "answer": {
+        "source": "question_document",
+        "content": "The co-writing sessions helped to \\underline{remove the block} that made writing frightening."
+      },
+      "analysis": "The co-writing sessions helped to lower the barriers that made writing frightening.",
+      "score": 3,
+      "pages": [
+        13
+      ],
+      "needs_review": true,
+      "notes": [
+        "第13页第42题题干中段被白色遮挡且右缘裁切；题干据第14页答案对原句的复述补全。原题可见处为 co-working，答案复述作 co-writing，均按原样保留。"
+      ]
+    },
+    {
+      "id": "q043",
+      "label": "43",
+      "type": "short_answer",
+      "materials": [
+        "m014",
+        "m015"
+      ],
+      "stem": "Apart from making a pact, what other way(s) would you use to improve productivity? (In about 40 words)",
+      "answer": {
+        "source": "question_document",
+        "content": "略"
+      },
+      "score": 5,
+      "pages": [
+        13
+      ]
+    },
+    {
+      "id": "q044",
+      "label": "第二节（20分）",
+      "type": "essay",
+      "stem": [
+        "假设你是红星中学高三学生李华。你的英国好友 Jim 听说你参加了全球青少年机器人设计大赛，想了解相关情况。请你用英文给他发邮件，内容包括：",
+        "1. 介绍你的参赛作品；",
+        "2. 分享参赛感想。",
+        "注意：1. 词数 100 左右；",
+        "2. 开头和结尾已给出，不计入总词数。",
+        "Dear Jim,",
+        "Yours,",
+        "Li Hua"
+      ],
+      "score": 20,
+      "pages": [
+        13
+      ]
+    }
+  ]
+}
