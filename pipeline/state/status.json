@@ -1408,7 +1408,7 @@
     "run_id": "20261115_161411",
     "total": 284,
     "started_at": "2026-11-15T08:14:15.880624+00:00",
-    "updated_at": "2026-11-15T11:00:39.427611+00:00",
+    "updated_at": "2026-11-24T09:15:30.143843+00:00",
     "paused": true,
     "skipped_no_original": [
       "2026|零模|北京二中|数学|",
@@ -2789,10 +2789,41 @@
         "sequence": 54,
         "subject": "生物",
         "output_dir": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf",
-        "status": "pending",
-        "retry_count": 0,
-        "resume_stage": "assigned",
-        "error_kind": "execution"
+        "status": "verified",
+        "retry_count": 2,
+        "started_at": "2026-11-24T07:23:49.214+00:00",
+        "updated_at": "2026-11-24T09:15:29.998+00:00",
+        "active_stage": "review_2",
+        "extraction_engine": "pdf_local",
+        "local_stats": {
+          "pages": 14,
+          "text_layer_pages": 1,
+          "ocr_pages": 13,
+          "figure_candidates": 25,
+          "table_candidates": 8,
+          "processing_s": 177.122
+        },
+        "active_log": "pipeline/runs/20261124_152344_native_34760/054/review_2.jsonl",
+        "model": "opencode-go/deepseek-v4.1-flash#high",
+        "active_pid": null,
+        "extraction_session": "ses_df34ce9f8ffehnnlhVM20qS82d",
+        "stats": {
+          "paper": "E:\\gaokao-exam\\parsed\\生物\\2026\\一模\\biology-2026-mock1-fengtai.pdf\\paper.json",
+          "valid": true,
+          "errors": [],
+          "top_level_questions": 21,
+          "leaf_questions": 42,
+          "materials": 1,
+          "assets": 25,
+          "extraction_status": "verified"
+        },
+        "resume_stage": "in_review",
+        "review_session": "ses_df33516eeffeukb04VKwHaafkw",
+        "review_result": "accept",
+        "review_report": "pipeline/runs/20261124_152344_native_34760/054/review_2_result.json",
+        "extraction_status": "verified",
+        "accepted_paper_sha256": "cd86ac689c9abd11ebcafd997cd83d158a6aa3a23384d8e1555f59ee84b45fe8",
+        "completed_at": "2026-11-24T09:15:29.998+00:00"
       },
       {
         "entry_key": "2026|一模|丰台|政治|",
@@ -5167,10 +5198,10 @@
       }
     ],
     "status_counts": {
-      "verified": 55,
+      "verified": 56,
       "blocked": 3,
       "paused": 14,
-      "pending": 212
+      "pending": 211
     },
     "finished_at": "2026-11-15T11:00:39.416612+00:00"
   }

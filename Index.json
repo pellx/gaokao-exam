@@ -1,6 +1,6 @@
 {
   "format": "exam-library-index/v1",
-  "generated_at": "2026-11-24T07:32:28.041290+00:00",
+  "generated_at": "2026-11-24T09:19:49.290763+00:00",
   "directories": {
     "raw": "raw/",
     "processed": "parsed/",
@@ -19,22 +19,22 @@
   },
   "summary": {
     "raw_files": 1018,
-    "processed_papers": 75,
-    "valid_processed_papers": 74,
-    "processed_assets": 646,
-    "indexed_files": 1739,
-    "unprocessed_raw_files": 944,
+    "processed_papers": 76,
+    "valid_processed_papers": 75,
+    "processed_assets": 671,
+    "indexed_files": 1765,
+    "unprocessed_raw_files": 943,
     "extraction_status": {
-      "verified": 55,
+      "verified": 56,
       "needs_review": 17,
       "draft": 2,
       "invalid_json": 1
     },
     "queue_status": {
-      "verified": 55,
+      "verified": 56,
       "blocked": 3,
       "paused": 14,
-      "pending": 212
+      "pending": 211
     },
     "catalog_papers": 827,
     "catalog_by_year": {
@@ -21598,6 +21598,26 @@
       "assets": 20
     },
     {
+      "id": "2026|一模|丰台|生物|",
+      "title": "2026北京丰台高三一模生物试题及答案",
+      "subject": "生物",
+      "year": 2026,
+      "kind": "一模",
+      "district": "丰台",
+      "school": null,
+      "variant": null,
+      "paper_json": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/paper.json",
+      "paper_sha256": "cd86ac689c9abd11ebcafd997cd83d158a6aa3a23384d8e1555f59ee84b45fe8",
+      "source_files": [
+        "raw/生物/2026/一模/biology-2026-mock1-fengtai.pdf"
+      ],
+      "extraction_status": "verified",
+      "queue_status": "verified",
+      "top_level_questions": 21,
+      "leaf_questions": 42,
+      "assets": 25
+    },
+    {
       "id": "2026|一模|海淀|生物|",
       "title": "2026北京海淀高三一模生物试题及答案",
       "subject": "生物",
@@ -23166,7 +23186,6 @@
     "raw/生物/2026/一模/biology-2026-mock1-changping.pdf",
     "raw/生物/2026/一模/biology-2026-mock1-dongcheng.pdf",
     "raw/生物/2026/一模/biology-2026-mock1-fangshan.pdf",
-    "raw/生物/2026/一模/biology-2026-mock1-fengtai.pdf",
     "raw/生物/2026/一模/biology-2026-mock1-mentougou.pdf",
     "raw/生物/2026/一模/biology-2026-mock1-shijingshan.pdf",
     "raw/生物/2026/一模/biology-2026-mock1-shunyi.pdf",
@@ -33294,6 +33313,162 @@
       "category": "paper_json",
       "bytes": 54362,
       "sha256": "90394afb25855da384dc8c77aee87710cd943c059354c752c2302e326234c2e8"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p001_f01.png",
+      "category": "processed_asset",
+      "bytes": 136140,
+      "sha256": "07287d78c60b945e1e8664892f53c2bd3907c50f1cb9e49a3ce107e4bc560f63"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p001_f02.png",
+      "category": "processed_asset",
+      "bytes": 122096,
+      "sha256": "e202f117ee9cf7b7839aa7e65d7c7371be525046052b26885a1a029520a10b12"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p002_f01.png",
+      "category": "processed_asset",
+      "bytes": 132415,
+      "sha256": "5fd912a9b21582602441923ef9319374ac38781a29520606d06398f99f459705"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p003_f01.png",
+      "category": "processed_asset",
+      "bytes": 113136,
+      "sha256": "1a9d3350f0aa2fae89c6fe0e096f52200e21b65d1f022d9b1f7cbe3b5802bd94"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p004_f01.png",
+      "category": "processed_asset",
+      "bytes": 195378,
+      "sha256": "887d571d0ec380cf20bdd47a2eff298af53e925a6cdb0913af7d0d5e068d9468"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p005_f01.png",
+      "category": "processed_asset",
+      "bytes": 180719,
+      "sha256": "5065b54d2d1acc2631f240d6cd71ee54a9e988422134752e72b721d0a94b7aa6"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p005_f04.png",
+      "category": "processed_asset",
+      "bytes": 307255,
+      "sha256": "7cb659db05a46e57ab07a17fa7c4c43a1a5d646770652cc12764f59c09ea6f85"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p006_f01.png",
+      "category": "processed_asset",
+      "bytes": 70598,
+      "sha256": "62bc0bea0ff16521352da0cb331997c6541021e51acb571b3e8755ce91a9a616"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p006_f02.png",
+      "category": "processed_asset",
+      "bytes": 385551,
+      "sha256": "44abc0b2ba6da13165ace31c6f4f2462f99913b92fea79248aab9e37c2c002db"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p007_f01.png",
+      "category": "processed_asset",
+      "bytes": 118374,
+      "sha256": "615177b9423414605666a67ccf7abb9d7899b934f37d5b709e7cddd97c73a772"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p007_f02.png",
+      "category": "processed_asset",
+      "bytes": 93178,
+      "sha256": "648d9b2c416ef3cc5edc3147cb46cc5f34e4902b9d3e231a290706ce84b4da5d"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p008_f01.png",
+      "category": "processed_asset",
+      "bytes": 480183,
+      "sha256": "b0beeb7df1f9c9179bf1fcf3feb3c9a877a4701e3b2c979f981b9ee0529c26fd"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p008_f02.png",
+      "category": "processed_asset",
+      "bytes": 175428,
+      "sha256": "ad50bc1d5f3edee3bf50b68da47b07d6ef704fc01d091b55daa6f56b968ad156"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p009_f01.png",
+      "category": "processed_asset",
+      "bytes": 55443,
+      "sha256": "2759bc079c4789727f2e44858f685feeefb3ddbe99e450b0c410bdbb6a9603cb"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p009_f02.png",
+      "category": "processed_asset",
+      "bytes": 83776,
+      "sha256": "2288adf2755aa25a42deacf072e2b93b5ab732a298e30c9218d006f5bc3873a4"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p009_f03.png",
+      "category": "processed_asset",
+      "bytes": 25282,
+      "sha256": "21e56f45596bb3ffe0ae1a97c74146bce0fbb04bcfc82b6ae3f69036b494eae9"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p010_f01.png",
+      "category": "processed_asset",
+      "bytes": 287626,
+      "sha256": "2e7395aab19debe8518a9cea84189ff0813d5f62131c728095240acaac454f9c"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p010_f02.png",
+      "category": "processed_asset",
+      "bytes": 44563,
+      "sha256": "fa0c52022ba6c6a4205b8017bc32ba54987ffb5571c5e8187045e471820c632e"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p010_f03.png",
+      "category": "processed_asset",
+      "bytes": 42633,
+      "sha256": "62b59cc77b4909e61024ee77923ea86a2d55a774b5e7ab4209d6b5fbedf447e9"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p010_f04.png",
+      "category": "processed_asset",
+      "bytes": 59517,
+      "sha256": "48551b5324faa68b0bf43bdce00e20c837634ad16626379926bb8f5f80a677a3"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p011_f01.png",
+      "category": "processed_asset",
+      "bytes": 149619,
+      "sha256": "5e44a1bd974bebe66145192159332ab550464f41abf4e83f5c1867d0eb05dfec"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p012_f01.png",
+      "category": "processed_asset",
+      "bytes": 138510,
+      "sha256": "a369c245ada2e6770c7538cce13654770aef86df03c3d6b4810144d2993b814f"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p012_f02.png",
+      "category": "processed_asset",
+      "bytes": 19858,
+      "sha256": "2896f0e158177a5ed2848b09d17fa0988f83f4ca1148f389960fb94bd4e4eb74"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p013_f01.png",
+      "category": "processed_asset",
+      "bytes": 195307,
+      "sha256": "d878cb98be4b86bb2be2f3c3eee79e950956f8c9b5fd698bdba4a244aa97b920"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/assets/a_s01_p013_f02.png",
+      "category": "processed_asset",
+      "bytes": 142435,
+      "sha256": "03fd915f84eb46428baf8010d002818315b1c527456f3cd41db87b95a9324313"
+    },
+    {
+      "path": "parsed/生物/2026/一模/biology-2026-mock1-fengtai.pdf/paper.json",
+      "category": "paper_json",
+      "bytes": 35806,
+      "sha256": "cd86ac689c9abd11ebcafd997cd83d158a6aa3a23384d8e1555f59ee84b45fe8"
     },
     {
       "path": "parsed/生物/2026/一模/biology-2026-mock1-haidian.pdf/assets/a001.png",
