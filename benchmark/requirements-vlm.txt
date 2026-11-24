@@ -1,7 +1,0 @@
-# Isolated Windows CPU environment used for both VLM arms.
-torch==2.14.0
-torchvision==0.29.0
-transformers==5.17.0
-pillow==13.0.0
-# Region detection uses the original benchmark environment:
-# numpy==2.4.4; onnxruntime==1.25.1
