@@ -12,6 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DESTINATION = ROOT / 'Index.json'
 CATALOG = ROOT / 'pipeline/manifests/papers_catalog.json'
+SOURCE_PAGES = ROOT / 'pipeline/manifests/source_pages.json'
 
 
 def relative(path):
@@ -42,8 +43,15 @@ def load_catalog():
     return json.loads(CATALOG.read_text(encoding='utf-8-sig'))
 
 
+def load_source_pages():
+    if not SOURCE_PAGES.is_file():
+        return []
+    return json.loads(SOURCE_PAGES.read_text(encoding='utf-8-sig'))
+
+
 def build():
     catalog = load_catalog()
+    source_pages = load_source_pages()
     raw_files = sorted((path for path in (ROOT / 'raw').rglob('*') if path.is_file()),
                        key=lambda path: relative(path))
     parsed_files = sorted((path for path in (ROOT / 'parsed').rglob('*') if path.is_file()),
@@ -120,6 +128,7 @@ def build():
             'python_entrypoint': 'pipeline/run_2026_all.py',
             'schema': 'pipeline/docs/question-json-v1.schema.json',
             'catalog': 'pipeline/manifests/papers_catalog.json',
+            'source_pages': 'pipeline/manifests/source_pages.json',
             'rebuild_index': 'python -I pipeline/build_index.py',
         },
         'summary': {
@@ -133,9 +142,11 @@ def build():
             'catalog_by_year': dict(sorted(collections.Counter(str(item.get('year')) for item in catalog).items())),
             'catalog_by_kind': dict(collections.Counter(item.get('kind') for item in catalog)),
             'catalog_count_status': dict(collections.Counter(item.get('count_status') for item in catalog)),
+            'source_pages': len(source_pages),
             'index_errors': len(errors),
         },
         'catalog': catalog,
+        'source_pages': source_pages,
         'papers': papers,
         'unprocessed_raw_files': unprocessed,
         'files': files,
