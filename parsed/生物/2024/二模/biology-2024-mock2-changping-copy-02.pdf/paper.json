@@ -1,0 +1,1686 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2024|二模|昌平|生物|copy-02",
+    "title": "2024北京高三昌平二模生物试题及答案",
+    "year": 2024,
+    "kind": "二模",
+    "subject": "化学",
+    "district": "昌平",
+    "academic_year": "2023-2024",
+    "variant": "copy-02"
+  },
+  "source": {
+    "file": "../../../../../raw/生物/2024/二模/biology-2024-mock2-changping-copy-02.pdf",
+    "sha256": "5b3210a26554791710648a386f0d08d6219d54df3577b4f6a960ce573f80de98",
+    "page_count": 12
+  },
+  "extraction": {
+    "status": "draft",
+    "tool": "PyMuPDF 文本层提取 + 210dpi 页图逐页视觉核对；表格按页图重排，实验图/曲线/结构式用 crop.py 按 PDF 点重裁",
+    "notes": [
+      "原卷正文为化学试题（相对原子质量、离子方程式、有机合成等），卷头未印学科；paper.subject 按原卷内容记为“化学”，目录与 paper.id 仍按清单保留。",
+      "原卷卷头只印“昌平区2024年高三第二次统一练习”和“2024.5”，未印学科名；内页题目为化学试题（相对原子质量、离子方程式、有机合成、萃取与配位平衡），语料清单把该文件登记为“2024北京高三昌平二模生物试题及答案”（subject=生物）。按清单要求 paper.id/subject 保留“生物”，题干、选项、答案一字未改地按原卷转录，学科归属差异在此说明。",
+      "第1~14题答案取自原卷答案表（第11页）：1—7 A B A C D A B；8—14 C B D B D C B，已拆到各题；原卷选择题题干中正确选项同时印为红色，两处一致。",
+      "第14题“操作/现象”面板按原卷表格结构化：操作行四格为试管a、b₁、b₂、b₃的实验图（各自含原卷标注）；现象行中b₂、b₃两格原卷留空供作答，未补写。试管a图示与其“试管a”标签在原卷中被表格行线分开，故该格内容为“图＋文字标签”。",
+      "第7题的A—D是原卷同一张“选项/事实/解释”三列表格的四个数据行，已按行拆入各选项，每个选项内两段文字依次为“事实”“解释”；题干保留原卷的S、Cl、Se、Br位置小表。",
+      "第12题的合成图与“已知ⅰ、ⅱ”同绘在一幅图内，按一幅配图保留；“ⅲ．Pd(PPh₃)₄和POCl₃均为催化剂……”是文字，另作文本块转录，避免重复。",
+      "第17题（4）表中“压强/温度/n(H₂)/n(CO₂)”三列在原卷为两行合并单元格，结构化时按行重复填写；第19题实验表第一列（实验ⅰ、ⅱ、ⅲ）在原卷同为合并单元格，已逐行重复所属实验组。",
+      "第16题（4）（6）的答案为原卷印出的方程式图与结构简式图，直接引用配图，未改写成文本；第16题（4）配图左侧带原卷“（4）”编号。",
+      "看图核对页：第1、2、3、4、5、6、7、8、9、10、11、12页，其中第11、12页为答案页；第10、12页无配图，仅第10页为第19题（6）（7）续文。",
+      "OCR 文本层存在若干缺字与串行（如“不正确”着重号、“Ⅰ/ⅰ”混排），已在核对页图后按原卷字形统一为Roman 数字Ⅰ/Ⅱ、ⅰ/ⅱ/ⅲ 与下标形式。",
+      "paper.id 追加 “copy-02”：同一 entry_key 下有另一份不同扫描件，按文件名标记区分。"
+    ]
+  },
+  "assets": {
+    "a004": {
+      "path": "assets/a004.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        191.5,
+        549.0,
+        283.0,
+        655.0
+      ],
+      "sha256": "ca7b01d4b9bd56aa9d69a907c08e520554a18bcebb7ba32f57cb6b932404eff4"
+    },
+    "a020": {
+      "path": "assets/a020.png",
+      "kind": "image",
+      "page": 11,
+      "bbox": [
+        116.2,
+        552.2,
+        261.5,
+        645.1
+      ],
+      "sha256": "94296e24586c424873706367f26ab777623baf0853250282bbed6a49c4d18afc"
+    },
+    "a016": {
+      "path": "assets/a016.png",
+      "kind": "image",
+      "page": 5,
+      "bbox": [
+        114.0,
+        255.0,
+        183.0,
+        276.0
+      ],
+      "sha256": "c311c2e211058da79e3aee01c3e022cb46daaa441c28d574428fd05f1e16d4cd"
+    },
+    "a017": {
+      "path": "assets/a017.png",
+      "kind": "image",
+      "page": 5,
+      "bbox": [
+        390.8,
+        477.5,
+        489.1,
+        564.0
+      ],
+      "sha256": "72a2965ef8d9fd8f27a7e9b2653c400b168693034a03270c3ff78f6aa8fdc0cb"
+    },
+    "a022": {
+      "path": "assets/a022.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [
+        412.4,
+        226.5,
+        546.0,
+        329.4
+      ],
+      "sha256": "da1e87d9465683ddbfbcd91c851589201af71b8951a26be897b01277e6d23d60"
+    },
+    "a005": {
+      "path": "assets/a005.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        284.5,
+        549.0,
+        406.5,
+        655.0
+      ],
+      "sha256": "8ba80c4b2224e0964d26b425a6fa2b1262209e1c8190930e4a08dfe7c3f4bc50"
+    },
+    "a012": {
+      "path": "assets/a012.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        140.0,
+        180.0,
+        232.0,
+        281.0
+      ],
+      "sha256": "9f7119bd328f3cbda2581ceb55df8320eb6aa985d415ebe46075b512eebd7e2f"
+    },
+    "a026": {
+      "path": "assets/a026.png",
+      "kind": "image",
+      "page": 8,
+      "bbox": [
+        360.0,
+        586.0,
+        532.0,
+        716.0
+      ],
+      "sha256": "791660ddf439a2edac28c4da01c0c00cd76be246e2e77ac3638251ae3515649b"
+    },
+    "a027": {
+      "path": "assets/a027.png",
+      "kind": "image",
+      "page": 9,
+      "bbox": [
+        176.0,
+        599.0,
+        410.0,
+        694.0
+      ],
+      "sha256": "df37750f21621838bcd21c750b705310d5d2c89dbfb203d747ccb21fbe51bdbf"
+    },
+    "a018": {
+      "path": "assets/a018.png",
+      "kind": "image",
+      "page": 6,
+      "bbox": [
+        88.0,
+        94.0,
+        450.0,
+        224.0
+      ],
+      "sha256": "b180ffb51286b40ec943e4ec894b8f9036cdfb181ea7e36a3dcb4b4ff30d07c4"
+    },
+    "a007": {
+      "path": "assets/a007.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        350.0,
+        245.0,
+        535.0,
+        327.0
+      ],
+      "sha256": "e20c9a3ea3d4373f6b156f013547fd257054c4de7550fac8bec50d1c3820bfe3"
+    },
+    "a021": {
+      "path": "assets/a021.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [
+        451.9,
+        124.5,
+        559.7,
+        208.4
+      ],
+      "sha256": "a0758c5aecba39ea56730221c1ca40dc83e7ec89f59d0182817d0e7e44ea9e52"
+    },
+    "a001": {
+      "path": "assets/a001.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        366.6,
+        110.7,
+        470.2,
+        196.9
+      ],
+      "sha256": "05612e1b4f0736158317d4f97772b4f01cdf216605f941e6538efd51c8095d94"
+    },
+    "a023": {
+      "path": "assets/a023.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [
+        212.4,
+        393.0,
+        382.9,
+        484.2
+      ],
+      "sha256": "7beb544d8e578259f4fd3c290755ea73f54a744bc556735faa68674e3c46c545"
+    },
+    "a009": {
+      "path": "assets/a009.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        387.0,
+        636.6,
+        495.0,
+        742.6
+      ],
+      "sha256": "edb9d1838c1fb42993ddd21e74762073fa76bfbbcac36e8859ea8ff809c90f49"
+    },
+    "a015": {
+      "path": "assets/a015.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        431.0,
+        190.0,
+        487.0,
+        281.0
+      ],
+      "sha256": "bcaec5cd3486a682a8519fe62efb6afd39fb5fc8fa5ff32ab953b58f57dcb964"
+    },
+    "a003": {
+      "path": "assets/a003.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        101.0,
+        549.0,
+        190.0,
+        655.0
+      ],
+      "sha256": "f24482b3fe0a80daedd3e007fa7ad286401a8a93dcc737a7975ff78c7a1dea3a"
+    },
+    "a019": {
+      "path": "assets/a019.png",
+      "kind": "image",
+      "page": 11,
+      "bbox": [
+        100.0,
+        466.0,
+        508.0,
+        532.0
+      ],
+      "sha256": "38db0bf1ea28d0cc4b554dd26f4c80a4cf22c4d46f5fa601352aca3baf0a52d4"
+    },
+    "a010": {
+      "path": "assets/a010.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        80.0,
+        206.0,
+        505.0,
+        398.0
+      ],
+      "sha256": "a45ccd9cb23fd2cf7f82a8c36bb06f902c24b81719f4557884236fb00c8518b1"
+    },
+    "a002": {
+      "path": "assets/a002.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        228.6,
+        224.0,
+        281.4,
+        258.5
+      ],
+      "sha256": "9f4ad2c6a3c798ee180db4a6d7a1851ad1575ac69236410765790743b90df611"
+    },
+    "a014": {
+      "path": "assets/a014.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        360.0,
+        191.0,
+        432.0,
+        281.0
+      ],
+      "sha256": "18e401aea069fc2664aed0ad55668489f18fd36d2cb46fc27cb400140aac0b2c"
+    },
+    "a025": {
+      "path": "assets/a025.png",
+      "kind": "image",
+      "page": 8,
+      "bbox": [
+        94.0,
+        422.0,
+        358.0,
+        522.0
+      ],
+      "sha256": "0f57748166f4e733ea799560854dce6deb5c5e7fc1c701c5d4dfb76c9fa56318"
+    },
+    "a013": {
+      "path": "assets/a013.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        259.0,
+        192.0,
+        345.0,
+        281.0
+      ],
+      "sha256": "ed3db1590990a72cfd3d4a78c7cb18cc5ef9f5c164ae55969ffb3686429fb353"
+    },
+    "a024": {
+      "path": "assets/a024.png",
+      "kind": "image",
+      "page": 8,
+      "bbox": [
+        94.0,
+        100.0,
+        480.0,
+        180.0
+      ],
+      "sha256": "a07423f9e5d6ef947d047d0c5e1f607b59885b3babd7386e58e52b865eb20664"
+    },
+    "a006": {
+      "path": "assets/a006.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        407.7,
+        549.0,
+        526.0,
+        655.0
+      ],
+      "sha256": "44ff9f5f1dff2aca84e4ae11e241b0720a4d2873519e108bf4ced5b93e60fb87"
+    },
+    "a008": {
+      "path": "assets/a008.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        120.0,
+        445.0,
+        476.0,
+        521.0
+      ],
+      "sha256": "09936f4f8ccd651c67335356c34584875bda2192cfd37ab4c9f607c53fe28b05"
+    },
+    "a011": {
+      "path": "assets/a011.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        180.0,
+        584.0,
+        382.0,
+        693.0
+      ],
+      "sha256": "85fae7bcc061d1725fd2f708703f2ff9a1375fe9fed7e39ec774932dd8e5db2a"
+    }
+  },
+  "materials": {
+    "m001": {
+      "kind": "instructions",
+      "content": [
+        "Ⅱ．高纯度氧化锂可用于锂电池。",
+        "一种制备方法是：",
+        "ⅰ．向磨细的LiOH·H₂O粉末中加入定量的过氧化氢，加热，一定条件下回收得到Li₂O₂·H₂O₂·H₂O",
+        "ⅱ．真空下焙烧Li₂O₂·H₂O₂·H₂O，得到Li₂O"
+      ],
+      "pages": [
+        5
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "1",
+      "type": "single_choice",
+      "stem": [
+        "某光致变色材料主要成分的结构简式如图所示，关于该物质的说法不正确的是",
+        {
+          "asset": "a001"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "含羰基官能团"
+        },
+        {
+          "key": "B",
+          "content": "含手性碳原子"
+        },
+        {
+          "key": "C",
+          "content": "可与盐酸反应"
+        },
+        {
+          "key": "D",
+          "content": "可发生加成反应"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q002",
+      "label": "2",
+      "type": "single_choice",
+      "stem": [
+        "下列表述正确的是"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "基态Ti原子的核外电子排布式：$1s^22s^22p^63s^23p^64s^24p^2$"
+        },
+        {
+          "key": "B",
+          "content": [
+            "正丁烷的球棍模型：",
+            {
+              "asset": "a002"
+            }
+          ]
+        },
+        {
+          "key": "C",
+          "content": "乙烯中σ键与π键的数量比为4:1"
+        },
+        {
+          "key": "D",
+          "content": "FeCl₃溶液中含有的微粒：Fe³⁺、Cl⁻、Fe(OH)₃、HCl"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q003",
+      "label": "3",
+      "type": "single_choice",
+      "stem": [
+        "下列事实中涉及的反应与氧化还原无关的是"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "用NaOH溶液吸收CO₂"
+        },
+        {
+          "key": "B",
+          "content": "利用铜与浓硫酸加热反应制取SO₂"
+        },
+        {
+          "key": "C",
+          "content": "乙醇使紫色酸性KMnO₄溶液褪色"
+        },
+        {
+          "key": "D",
+          "content": "在船体上镶嵌锌块，可以减缓船体被海水腐蚀"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q004",
+      "label": "4",
+      "type": "single_choice",
+      "stem": [
+        "下列解释事实的离子方程式不正确的是"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "氧化钙溶于稀硝酸：$\\mathrm{CaO + 2H^+ = Ca^{2+} + H_2O}$"
+        },
+        {
+          "key": "B",
+          "content": "向氢氧化镁悬浊液中滴加氯化铵溶液，沉淀溶解：$\\mathrm{Mg(OH)_2 + 2NH_4^+ = Mg^{2+} + 2NH_3\\cdot H_2O}$"
+        },
+        {
+          "key": "C",
+          "content": "硫酸铜溶液中加少量的铁粉，溶液蓝色变浅：$\\mathrm{3Cu^{2+} + 2Fe = 2Fe^{3+} + 3Cu}$"
+        },
+        {
+          "key": "D",
+          "content": "向酸性的淀粉−碘化钾溶液中滴加适量双氧水，溶液变蓝：$\\mathrm{2I^- + 2H^+ + H_2O_2 = I_2 + 2H_2O}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q005",
+      "label": "5",
+      "type": "single_choice",
+      "stem": [
+        "下列实验中，不能达到实验目的的是"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": [
+            "验证氨气极易溶于水",
+            {
+              "asset": "a003"
+            }
+          ]
+        },
+        {
+          "key": "B",
+          "content": [
+            "用四氯化碳萃取碘水中的碘",
+            {
+              "asset": "a004"
+            }
+          ]
+        },
+        {
+          "key": "C",
+          "content": [
+            "验证氯气与水反应后的产物具有漂白性",
+            {
+              "asset": "a005"
+            }
+          ]
+        },
+        {
+          "key": "D",
+          "content": [
+            "在铁片上获得理想的铜镀层",
+            {
+              "asset": "a006"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q006",
+      "label": "6",
+      "type": "single_choice",
+      "stem": [
+        "H₂O₂的一种制备方法如图所示，下列说法不正确的是",
+        {
+          "asset": "a007"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "反应Ⅰ中乙基蒽醌被氧化为乙基蒽醇"
+        },
+        {
+          "key": "B",
+          "content": "催化剂镍改变了反应速率，未改变反应焓变"
+        },
+        {
+          "key": "C",
+          "content": "制备原理是$\\mathrm{H_2 + O_2 \\xrightarrow{\\text{一定条件}} H_2O_2}$"
+        },
+        {
+          "key": "D",
+          "content": "乙基蒽醌是总反应的催化剂"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q007",
+      "label": "7",
+      "type": "single_choice",
+      "stem": [
+        "已知S、Cl、Se、Br在元素周期表中的位置如右下图所示。下列对事实解释正确的是",
+        {
+          "table": {
+            "rows": [
+              [
+                "S",
+                "Cl"
+              ],
+              [
+                "Se",
+                "Br"
+              ]
+            ]
+          }
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": [
+            "常温下，Cl₂为气体，Br₂为液体",
+            "键能：Cl₂＞Br₂"
+          ]
+        },
+        {
+          "key": "B",
+          "content": [
+            "BrCl中Br显正价",
+            "电负性：Cl＞Br"
+          ]
+        },
+        {
+          "key": "C",
+          "content": [
+            "原子半径：S＞Cl",
+            "最外层电子数：S＜Cl"
+          ]
+        },
+        {
+          "key": "D",
+          "content": [
+            "稳定性：H₂S＞H₂Se",
+            "H₂S中有氢键"
+          ]
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q008",
+      "label": "8",
+      "type": "single_choice",
+      "stem": [
+        "已知$N_A$是阿伏加德罗常数的值，下列说法中正确的是"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "标准状况下，22.4 L N₂中含有$7N_A$个中子"
+        },
+        {
+          "key": "B",
+          "content": "60 g富勒烯（C₆₀）中含有$N_A$个碳原子"
+        },
+        {
+          "key": "C",
+          "content": "1 mol K₂Cr₂O₇被还原为Cr³⁺转移的电子数为$6N_A$"
+        },
+        {
+          "key": "D",
+          "content": "密闭容器中，2 mol SO₂和1 mol O₂催化反应后分子总数为$2N_A$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q009",
+      "label": "9",
+      "type": "single_choice",
+      "stem": [
+        "下述实验中均有红棕色气体产生，对比分析所得结论不正确的是",
+        {
+          "asset": "a008"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "①中发生了反应$\\mathrm{4HNO_3 \\xrightarrow{\\Delta} 4NO_2\\uparrow + O_2\\uparrow + 2H_2O}$"
+        },
+        {
+          "key": "B",
+          "content": "由②中产生红棕色气体可推测木炭与浓硝酸发生了反应"
+        },
+        {
+          "key": "C",
+          "content": "由③中有红棕色可推测出浓硝酸可能具有挥发性"
+        },
+        {
+          "key": "D",
+          "content": "③的气体产物中检测出CO₂，不能得出木炭与浓硝酸发生反应的结论"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q010",
+      "label": "10",
+      "type": "single_choice",
+      "stem": [
+        "一种Zn/CuSe混合离子软包二次电池装置示意图如右图所示（其中一极产物为Cu₂Se固体），下列说法正确的是",
+        {
+          "asset": "a009"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "放电时：CuSe为正极反应物，其中Se得电子"
+        },
+        {
+          "key": "B",
+          "content": "无论放电或充电，均应选用阳离子交换膜"
+        },
+        {
+          "key": "C",
+          "content": "无论放电或充电，电路中每转移2 mol电子就有2 mol离子通过离子交换膜"
+        },
+        {
+          "key": "D",
+          "content": "由该装置不能推测出还原性：Zn＞Cu⁺"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q011",
+      "label": "11",
+      "type": "single_choice",
+      "stem": [
+        "下列关于常温下的NaClO溶液说法不正确的是",
+        "资料：25 ℃时，$K_a(\\mathrm{HClO})=4.0\\times10^{-8}$，$K_{a1}(\\mathrm{H_2CO_3})=4.5\\times10^{-7}$，$K_{a2}(\\mathrm{H_2CO_3})=4.7\\times10^{-11}$"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "NaClO溶液显碱性"
+        },
+        {
+          "key": "B",
+          "content": "pH=9.0的NaClO和HClO的混合溶液中，$c(\\mathrm{ClO^-})＜c(\\mathrm{Na^+})＜c(\\mathrm{HClO})$"
+        },
+        {
+          "key": "C",
+          "content": "在酸性条件下可能与NaCl溶液反应产生氯气"
+        },
+        {
+          "key": "D",
+          "content": "与少量CO₂反应的离子方程式为$\\mathrm{CO_2 + ClO^- + H_2O = HClO + HCO_3^-}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q012",
+      "label": "12",
+      "type": "single_choice",
+      "stem": [
+        "光电活性共轭高分子在有机发光二极管、聚合物太阳电池领域具备独特优点，是高分子科学的前沿研究方向。一种梯形共轭光电高分子合成如下图：",
+        {
+          "asset": "a010"
+        },
+        "ⅲ．Pd(PPh₃)₄和POCl₃均为催化剂，P_S和P_L的聚合度均为n。",
+        "下列说法不正确的是"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "J中碳原子有两种杂化方式"
+        },
+        {
+          "key": "B",
+          "content": "生成P_S的反应为缩聚反应"
+        },
+        {
+          "key": "C",
+          "content": "P_S可以和NaOH或HCl溶液反应"
+        },
+        {
+          "key": "D",
+          "content": "P_S→P_L过程中P_L和产物小分子的系数比为1∶n"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q013",
+      "label": "13",
+      "type": "single_choice",
+      "stem": [
+        "常温下，用0.01 mol·L⁻¹ NaOH溶液滴定20.00 mL 0.01 mol·L⁻¹ 的某一元酸HA溶液，滴定过程中溶液的pH随NaOH溶液体积变化的曲线如图所示，其中a点对应的纵坐标pH=3.38。下列说法正确的是（忽略稀溶液混合时引起的体积变化）",
+        {
+          "asset": "a011"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "HA的电离常数$K_a(\\mathrm{HA})=1\\times10^{-6.76}$"
+        },
+        {
+          "key": "B",
+          "content": "b点对应溶液中存在：$c(\\mathrm{A^-})＜c(\\mathrm{HA})$"
+        },
+        {
+          "key": "C",
+          "content": "d点对应溶液中存在：$c(\\mathrm{A^-}) + c(\\mathrm{HA})=0.005\\ \\mathrm{mol\\cdot L^{-1}}$"
+        },
+        {
+          "key": "D",
+          "content": "滴定过程中由水电离产生的$c(\\mathrm{OH^-})$：a＜b＜c＜d＜e"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q014",
+      "label": "14",
+      "type": "single_choice",
+      "stem": [
+        "某小组对CoCl₂的性质进行探究，实验操作及现象如下，下列说法不正确的是",
+        "资料：",
+        {
+          "table": {
+            "header": [
+              "物质",
+              "[Co(H₂O)₆]²⁺",
+              "[CoCl₄]²⁻",
+              "[ZnCl₄]²⁻"
+            ],
+            "rows": [
+              [
+                "溶液中颜色",
+                "粉红色",
+                "蓝色",
+                "无色"
+              ]
+            ]
+          }
+        },
+        "将a中得到的蓝色溶液均分为3份，分别倒入试管b₁、b₂、b₃中。",
+        {
+          "table": {
+            "rows": [
+              [
+                "操作",
+                [
+                  {
+                    "asset": "a012"
+                  },
+                  "试管a"
+                ],
+                [
+                  {
+                    "asset": "a013"
+                  }
+                ],
+                [
+                  {
+                    "asset": "a014"
+                  }
+                ],
+                [
+                  {
+                    "asset": "a015"
+                  }
+                ]
+              ],
+              [
+                "现象",
+                "加入浓盐酸后，溶液由粉红色变为蓝色",
+                "溶液变为粉红色"
+              ]
+            ]
+          }
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "试管a中存在平衡：$\\mathrm{[Co(H_2O)_6]^{2+} + 4Cl^- \\rightleftharpoons [CoCl_4]^{2-} + 6H_2O}$"
+        },
+        {
+          "key": "B",
+          "content": "由b₁中现象可推测稳定性：[ZnCl₄]²⁻＜[CoCl₄]²⁻"
+        },
+        {
+          "key": "C",
+          "content": "b₂中现象可能为产生白色沉淀"
+        },
+        {
+          "key": "D",
+          "content": "推测b₃中现象为溶液变为粉红色，因为加入水使各组分离子浓度变化，平衡移动"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q015",
+      "label": "15",
+      "type": "composite",
+      "score": 10,
+      "stem": [
+        "含锂化合物如LiAlH₄、Li₂O等有重要的应用。",
+        "Ⅰ．LiAlH₄是有机合成中常用的还原剂。"
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": "LiAlH₄中Li⁺与[AlH₄]⁻之间的作用力类型是______。[AlH₄]⁻的空间构型是______，中心原子的杂化类型为______。",
+          "answer": {
+            "source": "question_document",
+            "content": "离子键，正四面体，sp³"
+          }
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "short_answer",
+          "stem": "Li⁺与H⁻具有相同的电子构型，比较r（Li⁺）与r（H⁻）的大小（其中r代表半径），并从原子结构角度说明原因______。",
+          "answer": {
+            "source": "question_document",
+            "content": "r（Li⁺）＜r（H⁻），Li⁺核电荷数较大，原子核对核外电子的吸引力较大，因此半径较小"
+          }
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "short_answer",
+          "stem": "从化合价角度说明LiAlH₄具有还原性的原因______。",
+          "answer": {
+            "source": "question_document",
+            "content": "H为−1价，易升高，因此LiAlH₄具有还原性"
+          }
+        },
+        {
+          "id": "p4",
+          "label": "（4）",
+          "type": "fill_blank",
+          "stem": [
+            {
+              "asset": "a016",
+              "inline": true
+            },
+            "被LiAlH₄还原后得到产物的名称是______。"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "3-甲基-1-丁醇"
+          }
+        },
+        {
+          "id": "p5",
+          "label": "（5）",
+          "type": "fill_blank",
+          "materials": [
+            "m001"
+          ],
+          "stem": [
+            "ⅰ中反应分为2步，写出第一步反应的化学方程式。",
+            "第一步：______。",
+            "第二步：$\\mathrm{2LiOOH\\cdot H_2O = Li_2O_2\\cdot H_2O_2\\cdot 2H_2O}$"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "$\\mathrm{LiOH\\cdot H_2O + H_2O_2 = LiOOH\\cdot H_2O + H_2O}$"
+          }
+        },
+        {
+          "id": "p6",
+          "label": "（6）",
+          "type": "calculation",
+          "materials": [
+            "m001"
+          ],
+          "stem": [
+            "Li₂O晶胞如图所示。已知晶胞参数为0.4665 nm，阿伏加德罗常数的值为$N_A$，则Li₂O的密度为______ g·cm⁻³。（1 nm = 10⁻⁷ cm）",
+            {
+              "asset": "a017"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "$\\dfrac{8\\times 7+4\\times 16}{N_A(0.4665\\times10^{-7})^3}$"
+          }
+        }
+      ],
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q016",
+      "label": "16",
+      "type": "composite",
+      "score": 11,
+      "stem": [
+        "M在印染、制药等领域有广泛应用，一种合成路线如下。",
+        {
+          "asset": "a018"
+        },
+        "已知：",
+        "① $\\mathrm{RCl \\xrightarrow{NaCN} RCN \\xrightarrow{H^+} RCOOH}$",
+        "② $\\mathrm{R_1COOR_2 + R_3{}^{18}OH \\xrightarrow{\\text{一定条件}} R_1CO{}^{18}OR_3 + R_2OH}$",
+        "③ $\\mathrm{R_1COOR_2 \\xrightarrow[②H_2O]{①KBH_4} R_1CH_2OH + R_2OH}$"
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": "A→B的反应类型是______。",
+          "answer": {
+            "source": "question_document",
+            "content": "取代"
+          }
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "fill_blank",
+          "stem": "B中含羧基，D的结构简式是______。",
+          "answer": {
+            "source": "question_document",
+            "content": "NC−CH₂−COONa"
+          }
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "fill_blank",
+          "stem": "F中所含官能团的名称是______。",
+          "answer": {
+            "source": "question_document",
+            "content": "酯基"
+          }
+        },
+        {
+          "id": "p4",
+          "label": "（4）",
+          "type": "fill_blank",
+          "stem": "写出J→K的化学方程式______。",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              {
+                "asset": "a019"
+              }
+            ]
+          }
+        },
+        {
+          "id": "p5",
+          "label": "（5）",
+          "type": "multiple_choice",
+          "stem": "下列说法中正确的是______。",
+          "options": [
+            {
+              "key": "a",
+              "content": "A、E均能与碳酸氢钠溶液反应"
+            },
+            {
+              "key": "b",
+              "content": "F中有3种化学环境不同的H原子"
+            },
+            {
+              "key": "c",
+              "content": "G为非极性分子"
+            },
+            {
+              "key": "d",
+              "content": "L与甲醇是同系物"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "choices": [
+              "a",
+              "b"
+            ]
+          }
+        },
+        {
+          "id": "p6",
+          "label": "（6）",
+          "type": "fill_blank",
+          "stem": "G的同分异构体乙醛与F反应得到J的一种同分异构体J′，J′的结构简式是______。",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              {
+                "asset": "a020"
+              }
+            ]
+          }
+        }
+      ],
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "17",
+      "type": "composite",
+      "score": 9,
+      "stem": [
+        "以CO₂和H₂为原料制备甲醇是实现CO₂资源化利用的方式之一。反应原理为：",
+        "反应Ⅰ：$\\mathrm{CO_2(g) + 3H_2(g) \\rightleftharpoons CH_3OH(g) + H_2O(g)}$    $\\Delta H_1 = -49.0\\ \\mathrm{kJ\\cdot mol^{-1}}$",
+        "除生成甲醇外，还会生成副产物CO：",
+        "反应Ⅱ：$\\mathrm{CO_2(g) + H_2(g) \\rightleftharpoons CO(g) + H_2O(g)}$    $\\Delta H_2 = +41.2\\ \\mathrm{kJ\\cdot mol^{-1}}$。"
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": [
+            "右图中，曲线______（选填ⅰ、ⅱ或ⅲ）能表示反应Ⅰ的平衡常数K与温度T的关系。",
+            {
+              "asset": "a021"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "ⅲ"
+          }
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "calculation",
+          "stem": "某温度下，向容积为2.0 L的恒容密闭容器中充入1.0 mol CO₂(g)和2.0 mol H₂(g)模拟反应Ⅰ（即控制条件使只发生反应Ⅰ）。反应达到平衡状态时，测得$c(\\mathrm{CH_3OH}) = 0.25\\ \\mathrm{mol/L}$。计算该温度下的平衡常数K=______。",
+          "answer": {
+            "source": "question_document",
+            "content": "16"
+          }
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "composite",
+          "stem": [
+            "在不同温度下，向等容积的反应器中，分别通入等量、相同比例的CO₂和H₂的混合气体，反应相同时间后，测得甲醇产率与催化剂活性、温度关系如右图所示。",
+            {
+              "asset": "a022"
+            }
+          ],
+          "parts": [
+            {
+              "id": "p1",
+              "label": "①",
+              "type": "fill_blank",
+              "stem": "图中一定不处于化学平衡状态的点是______。",
+              "answer": {
+                "source": "question_document",
+                "content": "AB"
+              }
+            },
+            {
+              "id": "p2",
+              "label": "②",
+              "type": "short_answer",
+              "stem": "解释产率A＜B的可能原因______。",
+              "answer": {
+                "source": "question_document",
+                "content": "温度升高，反应速率快，因此甲醇产率B比A高。"
+              }
+            },
+            {
+              "id": "p3",
+              "label": "③",
+              "type": "short_answer",
+              "stem": "已知催化剂对副反应没有影响。解释当温度高于500 K，甲醇产率逐渐下降的原因可能是______、______。",
+              "answer": {
+                "source": "question_document",
+                "content": [
+                  "若此时反应已平衡，因为主反应是放热反应，温度升高，主反应平衡逆移，甲醇产率降低；副反应是吸热反应，温度升高，副反应平衡正移，使CO₂和H₂浓度减小，使主反应逆向移动，甲醇产率降低；",
+                  "若此时反应未平衡，因为升高温度，催化剂活性降低，主反应速率降低，相同时间内，甲醇产率降低；若此时反应未平衡，因为升高温度，副反应速率增大，使CO₂和H₂浓度减小，主反应速率降低，相同时间内，甲醇产率降低。（答出任意两点即可）"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "p4",
+          "label": "（4）",
+          "type": "short_answer",
+          "stem": [
+            "中国科学家研制出了一种具有反应和分离“双功能分子筛催化膜”反应器，使用该反应器制甲醇时，能大幅度提高二氧化碳转化率，其原理如下图所示：",
+            {
+              "asset": "a023"
+            },
+            "在不同反应器中，CO₂转化率和甲醇选择性[$\\dfrac{n(转化为甲醇的二氧化碳)}{n(消耗的二氧化碳)}\\times100\\%$]的相关实验数据如下表所示：",
+            {
+              "table": {
+                "caption": "不同反应器中CO₂转化率与甲醇选择性",
+                "header": [
+                  "实验组",
+                  "反应器",
+                  "压强/MPa",
+                  "温度/K",
+                  "$n(\\mathrm{H_2})/n(\\mathrm{CO_2})$",
+                  "CO₂的平衡转化率/%",
+                  "甲醇选择性/%"
+                ],
+                "rows": [
+                  [
+                    "①",
+                    "普通催化反应器",
+                    "3",
+                    "533",
+                    "3",
+                    "21.9",
+                    "67.3"
+                  ],
+                  [
+                    "②",
+                    "双功能分子筛催化膜反应器",
+                    "3",
+                    "533",
+                    "3",
+                    "36.1",
+                    "100"
+                  ]
+                ]
+              }
+            },
+            "分析该双功能分子筛催化膜反应器的优点有：CO₂的平衡转化率明显升高；①______；②______。"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "甲醇的选择性达到100%；可以将产物甲醇和H₂O分离"
+          }
+        }
+      ],
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "18",
+      "type": "composite",
+      "score": 13,
+      "stem": [
+        "电镀污泥（主要成分是CuO，含有Fe₂O₃等）是电镀废水处理过程中产生的废弃物，其无害化处理和资源化回收技术一直是研究热点。一种综合回收的工艺路线如下：",
+        {
+          "asset": "a024"
+        },
+        "资料：",
+        "ⅰ．萃取剂由N902（可用HR表示）溶解在煤油中制得，萃取金属离子的反应如下：$\\mathrm{M^{n+}(aq) + nHR(org) \\rightleftharpoons MR_n(org) + nH^+(aq)}$（Mⁿ⁺：Cu²⁺、Fe³⁺；org：有机相；aq：水相）",
+        "ⅱ．常用分配系数表示萃取达到平衡时溶质X在两溶剂中的浓度之比，常用萃取率表示有机相中溶质X的物质的量与初始总物质的量之比。即：",
+        "分配系数＝$\\dfrac{c_{\\mathrm{org}}(X)}{c_{\\mathrm{aq}}(X)}$　萃取率＝$\\dfrac{n_{\\mathrm{org}}(X)}{n_总(X)}\\times100\\%$"
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": "浸出时，反应的离子方程式主要是：______、$\\mathrm{CuO + 2H^+ = Cu^{2+} + H_2O}$。",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\mathrm{Fe_2O_3 + 6H^+ = 2Fe^{3+} + 3H_2O}$"
+          }
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "fill_blank",
+          "stem": "操作ⅰ是______。",
+          "answer": {
+            "source": "question_document",
+            "content": "萃取分液"
+          }
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "fill_blank",
+          "stem": "操作ⅱ中发生反应的离子方程式为______。",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\mathrm{Fe^{3+} + 3NH_3\\cdot H_2O = Fe(OH)_3\\downarrow + 3NH_4^+}$"
+          }
+        },
+        {
+          "id": "p4",
+          "label": "（4）",
+          "type": "composite",
+          "stem": "本实验中Cu²⁺的分配系数为50。",
+          "parts": [
+            {
+              "id": "p1",
+              "label": "①",
+              "type": "calculation",
+              "stem": "一次性取用20 mL萃取剂与100 mL浸出液充分振荡。Cu²⁺的萃取率为______。",
+              "answer": {
+                "source": "question_document",
+                "content": "90.9%"
+              }
+            },
+            {
+              "id": "p2",
+              "label": "②",
+              "type": "fill_blank",
+              "stem": [
+                "相关研究认为可采用多级萃取获得更高的萃取率。一种三级萃取的设计示意图及模拟实验得到的数据表如下：",
+                {
+                  "asset": "a025"
+                },
+                {
+                  "table": {
+                    "header": [
+                      "萃取处理",
+                      "总萃取率%"
+                    ],
+                    "rows": [
+                      [
+                        "1级",
+                        "83.3%"
+                      ],
+                      [
+                        "2级",
+                        "97.2%"
+                      ],
+                      [
+                        "3级",
+                        "99.9%"
+                      ]
+                    ]
+                  }
+                },
+                "通过比较①和②中______（填“1级”、“2级”或“3级”）中Cu²⁺的萃取率，可分析得到结论：多级萃取的效果好于一次性萃取。"
+              ],
+              "answer": {
+                "source": "question_document",
+                "content": "2级"
+              }
+            }
+          ]
+        },
+        {
+          "id": "p5",
+          "label": "（5）",
+          "type": "composite",
+          "stem": [
+            "实验表明，有机相中的铜离子可被硫酸反萃，所用硫酸浓度不同，会影响铜反萃率，经过足够长的时间后，实验结果如图所示。",
+            {
+              "asset": "a026"
+            }
+          ],
+          "parts": [
+            {
+              "id": "p1",
+              "label": "①",
+              "type": "short_answer",
+              "stem": "结合化学用语解释随硫酸浓度增大，铜反萃率提升的原因：______。",
+              "answer": {
+                "source": "question_document",
+                "content": "Cu²⁺(aq) + 2HR(org) ⇌ CuR₂(org) + 2H⁺(aq)，c(H⁺)增大，平衡逆移，c(Cu²⁺)增大，铜反萃率提升"
+              }
+            },
+            {
+              "id": "p2",
+              "label": "②",
+              "type": "short_answer",
+              "stem": "在硫酸浓度为2 mol·L⁻¹时，其他条件不变，只升高温度，______（“能”、“不能”、“无法判断”）提升反萃率，理由是______。",
+              "answer": {
+                "source": "question_document",
+                "content": "无法判断，没有萃取反应的热效应（ΔH）数据，因此无法判断当温度升高时，反萃平衡的移动方向"
+              }
+            },
+            {
+              "id": "p3",
+              "label": "③",
+              "type": "multiple_choice",
+              "stem": "下列说法正确的是______。",
+              "options": [
+                {
+                  "key": "a",
+                  "content": "一般选用4 mol·L⁻¹硫酸进行本步操作"
+                },
+                {
+                  "key": "b",
+                  "content": "反萃后得到CuSO₄晶体的操作是：蒸发浓缩、趁热过滤、洗涤干燥"
+                },
+                {
+                  "key": "c",
+                  "content": "操作后HR可循环利用"
+                }
+              ],
+              "answer": {
+                "source": "question_document",
+                "choices": [
+                  "a",
+                  "c"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "19",
+      "type": "composite",
+      "score": 15,
+      "stem": [
+        "探究配制不同金属离子−氨配体溶液的差异性，实验操作及现象如下：",
+        {
+          "table": {
+            "header": [
+              "实验组",
+              "实验序号",
+              "操作",
+              "现象"
+            ],
+            "rows": [
+              [
+                "实验ⅰ：[Cu(NH₃)₄]²⁺的配制",
+                "实验ⅰ-a",
+                "在试管内混合CuSO₄溶液和NaOH溶液，再加入过量的2 mol·L⁻¹ NH₃·H₂O",
+                "产生蓝色沉淀，加入NH₃·H₂O后沉淀少部分溶解，溶液变浑浊，静置后上层为深蓝色溶液。"
+              ],
+              [
+                "实验ⅰ：[Cu(NH₃)₄]²⁺的配制",
+                "实验ⅰ-b",
+                "在试管内混合CuSO₄溶液和NaOH溶液，再加入过量的6 mol·L⁻¹ NH₃·H₂O",
+                "产生蓝色沉淀，加入NH₃·H₂O后沉淀大部分溶解，溶液变浑浊，静置后上层为深蓝色溶液。"
+              ],
+              [
+                "实验ⅰ：[Cu(NH₃)₄]²⁺的配制",
+                "实验ⅰ-c",
+                "在试管内混合CuSO₄溶液和NH₃·H₂O溶液，再加入过量的2 mol·L⁻¹ NH₃·H₂O",
+                "产生蓝色沉淀，加入NH₃·H₂O后沉淀完全溶解，得到澄清的深蓝色溶液。"
+              ],
+              [
+                "实验ⅱ：[Co(NH₃)₆]²⁺的配制",
+                "实验ⅱ-a",
+                "在试管内混合CoCl₂溶液和过量6 mol·L⁻¹ NH₃·H₂O",
+                "得到浅青色沉淀，沉淀未见明显溶解。"
+              ],
+              [
+                "实验ⅱ：[Co(NH₃)₆]²⁺的配制",
+                "实验ⅱ-b",
+                "在试管内混合CoCl₂溶液和过量14 mol·L⁻¹ NH₃·H₂O",
+                "得到浅青色沉淀，沉淀未见明显溶解。"
+              ],
+              [
+                "实验ⅲ：[Ag(NH₃)₂]⁺的配制",
+                "实验ⅲ",
+                "在试管内混合AgNO₃溶液和NaOH溶液，再加入过量的2 mol·L⁻¹ NH₃·H₂O",
+                "产生白色沉淀，加入NH₃·H₂O后沉淀完全溶解，得到无色溶液。"
+              ]
+            ]
+          }
+        },
+        "资料：①饱和氨水的浓度约为14 mol·L⁻¹",
+        "②Co(OH)₂为浅青色沉淀",
+        "③[Co(NH₃)₆]²⁺溶液为红色，在活性炭催化下转化为橙黄色的[Co(NH₃)₆]³⁺溶液"
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": "实验ⅰ-a中生成蓝色沉淀的离子方程式为______。",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\mathrm{Cu^{2+} + 2OH^- = Cu(OH)_2\\downarrow}$"
+          }
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "fill_blank",
+          "stem": "有研究认为蓝色沉淀中还有Cu₂(OH)₂SO₄成分，其可以溶于稀酸。检验蓝色沉淀中不止含Cu(OH)₂的实验操作为：将蓝色沉淀过滤，充分洗涤后，______。（填后续操作和现象）",
+          "answer": {
+            "source": "question_document",
+            "content": "加入足量稀HCl，固体全部溶解后再加入BaCl₂溶液，产生白色沉淀"
+          }
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "short_answer",
+          "stem": "对比实验ⅰ-a和实验ⅰ-b，从平衡移动角度，结合化学用语解释NH₃·H₂O对[Cu(NH₃)₄]²⁺生成有一定促进作用的原因______。",
+          "answer": {
+            "source": "question_document",
+            "content": "Cu(OH)₂(s) ⇌ Cu²⁺(aq) + 2OH⁻(aq)，c(NH₃·H₂O)增大，Cu²⁺ + 4NH₃·H₂O ⇌ [Cu(NH₃)₄]²⁺ + 4H₂O，使沉淀溶解平衡正移，Cu(OH)₂更多地转化为[Cu(NH₃)₄]²⁺"
+          }
+        },
+        {
+          "id": "p4",
+          "label": "（4）",
+          "type": "composite",
+          "stem": [
+            "对比实验ⅰ-a和实验ⅰ-c中再加入过量氨水前的反应，推测NH₄⁺对[Cu(NH₃)₄]²⁺生成有一定促进作用。设计下图所示实验：在1、2试管内分别完成对实验ⅰ-a的重复，再分别加入不同试剂。实验现象证实了预测。",
+            {
+              "asset": "a027"
+            }
+          ],
+          "parts": [
+            {
+              "id": "p1",
+              "label": "①",
+              "type": "fill_blank",
+              "stem": "x的化学式是______；c＝______。",
+              "answer": {
+                "source": "question_document",
+                "content": [
+                  "Na₂SO₄",
+                  "1"
+                ]
+              }
+            },
+            {
+              "id": "p2",
+              "label": "②",
+              "type": "fill_blank",
+              "stem": "实验现象是______。",
+              "answer": {
+                "source": "question_document",
+                "content": "试管1中沉淀溶解，2中不溶解"
+              }
+            }
+          ]
+        },
+        {
+          "id": "p5",
+          "label": "（5）",
+          "type": "short_answer",
+          "stem": "从平衡移动角度，结合化学用语，解释NH₄⁺对[Cu(NH₃)₄]²⁺生成有一定促进作用的原因______。",
+          "answer": {
+            "source": "question_document",
+            "content": "Cu(OH)₂(s) ⇌ Cu²⁺(aq) + 2OH⁻(aq)，c(NH₄⁺)增大时，NH₄⁺与OH⁻反应产生NH₃·H₂O，增大了c(NH₃·H₂O)，同时减少了c(OH⁻)，使沉淀溶解平衡正移，c(Cu²⁺)增加，促进Cu²⁺ + 4NH₃·H₂O ⇌ [Cu(NH₃)₄]²⁺ + 4H₂O平衡正移。"
+          }
+        },
+        {
+          "id": "p6",
+          "label": "（6）",
+          "type": "composite",
+          "stem": "针对实验ⅱ未能成功配制[Co(NH₃)₆]²⁺溶液，结合以上分析，提出改进方案：",
+          "parts": [
+            {
+              "id": "p1",
+              "label": "①",
+              "type": "fill_blank",
+              "stem": "在实验ⅱ-a的基础上继续加入______，即可成功配制。",
+              "answer": {
+                "source": "question_document",
+                "content": "10滴1 mol/L (NH₄)₂SO₄溶液"
+              }
+            },
+            {
+              "id": "p2",
+              "label": "②",
+              "type": "fill_blank",
+              "stem": "验证配制成功的操作及实验现象是：取①的上层红色清液，加入少许活性炭振荡试管，溶液转为橙黄色，反应的离子方程式为：______。",
+              "answer": {
+                "source": "question_document",
+                "content": "$\\mathrm{4[Co(NH_3)_6]^{2+} + O_2 + 4NH_4^+ + 2H_2O \\xrightarrow{\\text{活性炭}} 4[Co(NH_3)_6]^{3+} + 4NH_3\\cdot H_2O}$"
+              }
+            }
+          ]
+        },
+        {
+          "id": "p7",
+          "label": "（7）",
+          "type": "short_answer",
+          "stem": "综合以上分析，配制不同金属离子−氨配体溶液的难易程度存在差异性，推测可能与以下因素有关：配位数、______。",
+          "answer": {
+            "source": "question_document",
+            "content": "氢氧化物提供金属阳离子的难易程度、金属阳离子和NH₃配位的难易程度"
+          }
+        }
+      ],
+      "pages": [
+        9,
+        10
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1531 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2024|一模|通州|生物|",
+    "title": "2024北京通州高三一模生物试题及答案",
+    "year": 2024,
+    "kind": "一模",
+    "subject": "生物",
+    "district": "通州",
+    "academic_year": "2023-2024",
+    "exam_date": "2024-04"
+  },
+  "source": {
+    "file": "../../../../../raw/生物/2024/一模/biology-2024-mock1-tongzhou.pdf",
+    "sha256": "11e7e03bdf1dbc7770a7fe96738195bf3a680b81be76c90e50bb4ce70f5a8fc1",
+    "page_count": 10
+  },
+  "extraction": {
+    "status": "draft",
+    "tool": "PyMuPDF 文本层 + 210dpi 页图；第1~9页逐页看图，表格单元格与易混行文按 450~1200dpi 局部重采样核对",
+    "created_at": "2026-11-25T19:45:00+08:00",
+    "notes": [
+      "PDF共10页，卷内页码印到“第9页/共9页”，第10页为“京考一点通”下载推广页，无试题内容，未收录。",
+      "逐页看图核对：第1、2、3、4、5、6、7、8页（题干、选项、表格、配图归属），第9页（参考答案），第10页（确认仅为推广页）。表格另按 900~1200dpi 局部放大核对单元格。",
+      "第1~15题答案取自第9页集中排布的答案串（1-5 BACDD，6-10 BDCBD，11-15 DBDAC），已按题拆分；16~21题答案同样来自第9页，原卷只给答案文字、无分步给分细则，故未写rubric。",
+      "原卷为扫描后重排文本，多处字词按原卷照录、未按常理改写：第3题表头“总叶绿索含量”；第8题“向已怀卵雄蛙腹腔内注射”；第10题C“给中者补充水分和无机盐”；第12题“豆科枕物”“种杭田菁”“常规种咖啡园”、表头“咖啡网”“个体数/棵”“生物刷/kg”、选项D“咖啡产和品质”；第17题（3）②“已知小体内棕色脂肪细胞”；第18题“Omal”“Opal”“1-Opal”“s-Opal”。",
+      "第20题材料（细菌CRISPR-Cas系统）连同图1、图2登记为共用材料m001；图2图注原卷印作“细菌CRISPR-Cas.系统的干扰阶段”（Cas后多一个点），照录。",
+      "第21题（2）②的“图2 PCR检测中引物位置”与“图3 PCR检测产物电泳结果”在原PDF中是同一张位图，登记为一个资源，图注合并。",
+      "第17题（2）图注原卷印作“图 AUC 量化图和不同条件下AUC 相对值”（无编号），照录；第4、9、11、15题配图原卷未印图注，故不加caption。",
+      "第21题（2）①选填括号原卷重复印作“雄蚕”“雄蚕”“雌蚕和雄蚕”，按原卷保留，未补改。",
+      "所有配图均为原PDF内嵌位图整幅导出（bbox与页内图像矩形一致），未重裁；第12题选项A行尾、第13题题干等处原卷的孤立“·”等排版噪声已去除。",
+      "分值只在选择题题干“每小题2分”与各题括号标注（16、17、19、20、21各12分，18题10分）处出现，小问无独立分值，故子题不写score。"
+    ]
+  },
+  "assets": {
+    "a005": {
+      "path": "assets/a005.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        127.33,
+        625.386,
+        467.92,
+        743.986
+      ],
+      "sha256": "5ad77173cc77ca0c0e2a8a39688e48047aef2ace339ef8f141e9bcc063ad2b1e"
+    },
+    "a007": {
+      "path": "assets/a007.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        229.4,
+        61.69,
+        365.55,
+        150.09
+      ],
+      "sha256": "2963f80bcf7aa7d78297e325647fcb904c6d0cca5dd0dd008b682e3f7e286b82"
+    },
+    "a006": {
+      "path": "assets/a006.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        163.28,
+        519.58,
+        432.03,
+        580.13
+      ],
+      "sha256": "8563462261c1b355630156d980700926ede1b1a746a4fc984c2eb03de060f288"
+    },
+    "a001": {
+      "path": "assets/a001.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [
+        194.9,
+        45.35,
+        399.65,
+        202.3
+      ],
+      "sha256": "5ebfb722c1fbaea8c8f99706b3f3ab6cf994897731a9ef7715515aa5bcd75040"
+    },
+    "a011": {
+      "path": "assets/a011.png",
+      "kind": "image",
+      "page": 5,
+      "bbox": [
+        227.15,
+        496.75,
+        368.08,
+        600.95
+      ],
+      "sha256": "254edabb343243b1cd7901560b9f673fd2dbde12f7f09bf552bb1aa49880fc4f"
+    },
+    "a010": {
+      "path": "assets/a010.png",
+      "kind": "image",
+      "page": 5,
+      "bbox": [
+        200.68,
+        292.96,
+        394.62,
+        409.01
+      ],
+      "sha256": "2f1c9a8d04c36c61fe8bb67e9289e06eed20c817b669d97d0c9c0bd645991dc1"
+    },
+    "a014": {
+      "path": "assets/a014.png",
+      "kind": "image",
+      "page": 8,
+      "bbox": [
+        83.0,
+        45.35,
+        512.29,
+        141.8
+      ],
+      "sha256": "ca23a434d931ad7a9d4efeccd868c51f543094abcad835c9ca52cf3fccc3aa0c"
+    },
+    "a012": {
+      "path": "assets/a012.png",
+      "kind": "image",
+      "page": 6,
+      "bbox": [
+        206.15,
+        45.35,
+        389.11,
+        193.15
+      ],
+      "sha256": "a1d731a439208655ed29eb5fb959803ece7a5b47afe0d420f3f136b7ecb9b2e4"
+    },
+    "a009": {
+      "path": "assets/a009.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        137.0,
+        503.76,
+        458.27,
+        623.26
+      ],
+      "sha256": "b382ed701dc09bc8f28c9dcbcfba34fd78063eb6d59d051022172d05969f733e"
+    },
+    "a015": {
+      "path": "assets/a015.png",
+      "kind": "image",
+      "page": 8,
+      "bbox": [
+        131.63,
+        274.94,
+        463.58,
+        355.34
+      ],
+      "sha256": "68534df74857d7329fa4ebe0c6207fdea95b6e1500c074af32b9ce21ee88fd2d"
+    },
+    "a002": {
+      "path": "assets/a002.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [
+        219.4,
+        286.97,
+        375.9,
+        408.27
+      ],
+      "sha256": "b428957ff69618e1fa82ac12d68cac6694383645de6d73324a552b9154cef45e"
+    },
+    "a003": {
+      "path": "assets/a003.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        173.55,
+        504.91,
+        421.7,
+        617.76
+      ],
+      "sha256": "21671096b6062d4789409537f6c5186367bc59c899fc8539f0ae861e12539a4e"
+    },
+    "a013": {
+      "path": "assets/a013.png",
+      "kind": "image",
+      "page": 6,
+      "bbox": [
+        233.9,
+        228.95,
+        361.2,
+        386.9
+      ],
+      "sha256": "c39cabeba6e62823283f2b05a8a17d9316bf98f39776e755a9d4ebc8b29e9f99"
+    },
+    "a008": {
+      "path": "assets/a008.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        188.15,
+        217.97,
+        407.15,
+        317.52
+      ],
+      "sha256": "8dbec30d46d98d6e2c585b4c2cfebe0452bb1a8e71dee6794cc23b1af8bcef2a"
+    },
+    "a004": {
+      "path": "assets/a004.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        144.65,
+        360.73,
+        450.65,
+        442.88
+      ],
+      "sha256": "6deffa22eb511b0ce28bb4cda3370a3453658ef37dc58ca8e499a813c873b0e8"
+    }
+  },
+  "materials": {
+    "m001": {
+      "kind": "passage",
+      "title": "细菌CRISPR-Cas系统",
+      "content": [
+        "CRISPR-Cas系统是广泛存在于细菌和古细菌中的一种获得性免疫系统。细菌中转入有益基因时，CRISPR基因功能会缺失，当外源基因对细菌生存造成威胁时，CRISPR的表达会发生上调，启动细菌的适应性免疫。其防御机制分为适应阶段、基因表达阶段和干扰阶段。",
+        "有害的外源核酸中部分短序列会被细菌整合并插入到其CRISPR序列中（图1）、随后相关基因表达出Cas蛋白、tracrRNA，以及CRISPR序列会表达出一条前体crRNA（Pre-crRNA），Pre-crRNA的某些序列被剪切，形成多个crRNA。",
+        {
+          "asset": "a001",
+          "caption": "图1 细菌CRISPR-Cas系统的适应阶段"
+        },
+        "每条crRNA、tracrRNA与Cas蛋白形成稳定的效应复合物（图2）。在干扰阶段中，复合物中Cas蛋白使外源DNA解旋，RNA①与之互补配对形成特殊结构，随后Cas蛋白构象发生变化并切割该段DNA的特定序列。在此过程中，Cas蛋白有两个主要的功能位点。切割与RNA①互补配对的DNA单链的H位点，以及切割非互补配对链的R位点。",
+        {
+          "asset": "a002",
+          "caption": "图2 细菌CRISPR-Cas.系统的干扰阶段"
+        },
+        "经改造的细菌CRISPR-Cas系统已被广泛应用到基因定点编辑、基因组筛选、基因转录调控等领域、但仍存在许多问题有待深入解决与探索。"
+      ],
+      "pages": [
+        6,
+        7
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "1",
+      "type": "single_choice",
+      "stem": "研究人员在检测细胞中某种蛋白质含量时，常使用一种在各种细胞中都存在，且含量稳定的蛋白质作为参照物，下列适合作为参照物的蛋白质是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "content": "血红蛋白"
+        },
+        {
+          "key": "B",
+          "content": "细胞骨架蛋白"
+        },
+        {
+          "key": "C",
+          "content": "淀粉酶"
+        },
+        {
+          "key": "D",
+          "content": "胰岛素"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q002",
+      "label": "2",
+      "type": "single_choice",
+      "stem": "婴儿的肠道上皮细胞可以吸收母乳中的免疫球蛋白，此过程不涉及（ ）",
+      "options": [
+        {
+          "key": "A",
+          "content": "载体蛋白协助"
+        },
+        {
+          "key": "B",
+          "content": "受体蛋白识别"
+        },
+        {
+          "key": "C",
+          "content": "细胞膜流动性"
+        },
+        {
+          "key": "D",
+          "content": "消耗ATP"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q003",
+      "label": "3",
+      "type": "single_choice",
+      "stem": [
+        "荔枝叶片发育过程中，净光合速率及相关指标的变化见下表。下列叙述错误的是（ ）",
+        {
+          "table": {
+            "header": [
+              "叶片",
+              "发育时期",
+              "相对叶面积（%）",
+              "总叶绿索含量（mg/g·fw）",
+              "净光合速率（$\\mu\\mathrm{mol}\\ \\mathrm{CO}_2/\\mathrm{m}^2\\cdot\\mathrm{s}$）"
+            ],
+            "rows": [
+              [
+                "a",
+                "新叶展开前",
+                "19",
+                "—",
+                "-2.8"
+              ],
+              [
+                "b",
+                "新叶展开中",
+                "87",
+                "1.1",
+                "1.6"
+              ],
+              [
+                "c",
+                "新叶展开完成",
+                "100",
+                "2.9",
+                "2.7"
+              ],
+              [
+                "d",
+                "新叶已成熟",
+                "100",
+                "11.1",
+                "5.8"
+              ]
+            ]
+          }
+        },
+        "注“—”表示未测数据"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "a组置于光温恒定密闭容器中会进行无氧呼吸"
+        },
+        {
+          "key": "B",
+          "content": "b组净光合速率低的原因可能是叶绿素含量低"
+        },
+        {
+          "key": "C",
+          "content": "d组的叶肉细胞叶绿体中类囊体数量少于c组"
+        },
+        {
+          "key": "D",
+          "content": "叶面积逐渐增大是细胞分裂和细胞生长的结果"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q004",
+      "label": "4",
+      "type": "single_choice",
+      "stem": [
+        "研究发现，在野生型果蝇幼虫中降低lint基因表达，能影响另一基因inr的表达（如下图），导致果蝇体型变小等异常情况。下列叙述正确的是（ ）",
+        {
+          "asset": "a003"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "lint基因表达对inr基因表达有促进作用"
+        },
+        {
+          "key": "B",
+          "content": "提高幼虫lint基因表达可能使其体型变小"
+        },
+        {
+          "key": "C",
+          "content": "降低幼虫inr基因表达可能使其体型变小"
+        },
+        {
+          "key": "D",
+          "content": "果蝇的体型大小是多个基因共同作用的结果"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q005",
+      "label": "5",
+      "type": "single_choice",
+      "stem": "已知果蝇的长翅和截翅由一对等位基因控制。多只长翅雌雄果蝇进行交配，子代果蝇中长翅：截翅=3:1。下列叙述正确的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "content": "截翅是显性性状"
+        },
+        {
+          "key": "B",
+          "content": "亲代雌蝇是纯合子"
+        },
+        {
+          "key": "C",
+          "content": "截翅一定是雄蝇"
+        },
+        {
+          "key": "D",
+          "content": "子代长翅中有杂合子"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q006",
+      "label": "6",
+      "type": "single_choice",
+      "stem": "除草剂敏感与抗性是一对相对性状，除草剂敏感型的大豆经辐射获得抗性突变体。下列叙述正确的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "content": "突变体若为一条染色体片段缺失所致，则抗性基因是显性基因"
+        },
+        {
+          "key": "B",
+          "content": "突变体若为基因突变所致，如果再经诱变有可能恢复为敏感型"
+        },
+        {
+          "key": "C",
+          "content": "突变体若为一对同源染色体相同位置片段缺失所致，则再经诱变可恢复为敏感型"
+        },
+        {
+          "key": "D",
+          "content": "抗性基因若为敏感型基因中的单个碱基对替换所致，抗性基因一定不能编码肽链"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q007",
+      "label": "7",
+      "type": "single_choice",
+      "stem": "下列生态保护措施符合保护生物多样性原则的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "content": "为保护草场减少沙化，要杀死所有危害草原的黄鼠"
+        },
+        {
+          "key": "B",
+          "content": "沼泽地改造成人造林是增加生物多样性的重要手段"
+        },
+        {
+          "key": "C",
+          "content": "控制水葫芦造成的严重生态灾害，应将其天敌引入"
+        },
+        {
+          "key": "D",
+          "content": "将东北虎迁入野生动物园繁殖，进行部分野外训练"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q008",
+      "label": "8",
+      "type": "single_choice",
+      "stem": [
+        "青蛙生殖季节是4~6月，为促进蛙卵的成熟和排放，向已怀卵雄蛙腹腔内注射蛙垂体悬浮液。下表表示不同月份制备注射到每只青蛙体内后能促进排卵的雌蛙垂体悬浮液所需的垂体个数。下列叙述错误的是（ ）",
+        {
+          "table": {
+            "header": [
+              "月份",
+              "9~12",
+              "1~2",
+              "3",
+              "4"
+            ],
+            "rows": [
+              [
+                "垂体个数",
+                "5",
+                "4",
+                "3",
+                "2"
+              ]
+            ]
+          }
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "表中的数据显示，越接近生殖季节注射所需的垂体个数越少"
+        },
+        {
+          "key": "B",
+          "content": "垂体悬浮液中含有促性腺激素，可以促进蛙卵的成熟和排放"
+        },
+        {
+          "key": "C",
+          "content": "对已怀卵雌蛙注射雄蛙垂体悬浮液不能促进蛙卵的成熟和排放"
+        },
+        {
+          "key": "D",
+          "content": "据上表数据分析，可以推测越接近生殖季蛙卵的成熟度越高"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q009",
+      "label": "9",
+      "type": "single_choice",
+      "stem": [
+        "T细胞的受体蛋白PD-1信号途径有调控T细胞的增殖、活化和细胞免疫等功能。肿瘤细胞膜上的PD-L1蛋白与T细胞的受体蛋白PD-1结合引起的免疫逃逸机制，如下图所示，下列叙述错误的是（ ）",
+        {
+          "asset": "a004"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "PD-L1抗体和PD-1抗体具有肿瘤免疫治疗作用"
+        },
+        {
+          "key": "B",
+          "content": "PD-L1与PD-1结合增强T细胞的肿瘤杀伤功能"
+        },
+        {
+          "key": "C",
+          "content": "PD-L1蛋白可使肿瘤细胞逃脱T细胞的细胞免疫"
+        },
+        {
+          "key": "D",
+          "content": "抑制肿瘤细胞PD-L1基因的表达可降低该细胞免疫逃逸"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q010",
+      "label": "10",
+      "type": "single_choice",
+      "stem": "人在中暑后会出现体温升高、大量出汗、头疼等症状。下列叙述错误的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "content": "人体体温稳定和水盐平衡的调节都属于神经—体液调节"
+        },
+        {
+          "key": "B",
+          "content": "当人体的体温升高时，可以通过排汗散热途径降低体温"
+        },
+        {
+          "key": "C",
+          "content": "为维持人体的血浆渗透压平衡，应及时给中者补充水分和无机盐"
+        },
+        {
+          "key": "D",
+          "content": "人大量出汗时，垂体感受细胞外液渗透压变化，大脑皮层产生渴觉"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q011",
+      "label": "11",
+      "type": "single_choice",
+      "stem": [
+        "科研人员研究脱落酸（ABA）在植物抗旱中的作用，将刚萌发的玉米种子分成4组进行处理，一段时间后观察主根长度和侧根数量，实验处理方法及结果如图所示，下列叙述正确的是（ ）",
+        {
+          "asset": "a005"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "与第1组相比，第2组结果说明干旱处理促进侧根的生长"
+        },
+        {
+          "key": "B",
+          "content": "与第2组相比，第3组结果说明缺少ABA时主根生长加快"
+        },
+        {
+          "key": "C",
+          "content": "本实验中，自变量为不补加蒸馏水和加入ABA合成抑制剂"
+        },
+        {
+          "key": "D",
+          "content": "上述实验可验证干旱条件下ABA对主根生长有促进作用"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "q012",
+      "label": "12",
+      "type": "single_choice",
+      "stem": [
+        "咖啡园中的杂草会影响咖啡植株的生长。豆科枕物、如田菁、硬皮豆等常作为绿肥使用，研究人员对常规种咖啡园（CK）、种杭田菁咖啡园（SC）和种植硬皮豆咖啡园（MU）的杂草群落开展研究、得到如下数据、下列叙述错误的是（ ）",
+        {
+          "table": {
+            "caption": "表：不同类型咖啡园中杂草群落的比较",
+            "header": [
+              "咖啡网",
+              "物种丰富度",
+              "个体数/棵",
+              "生物刷/kg"
+            ],
+            "rows": [
+              [
+                "CK",
+                "9.80",
+                "152.20",
+                "2.05"
+              ],
+              [
+                "SC",
+                "8.05",
+                "140.60",
+                "1.13"
+              ],
+              [
+                "MU",
+                "5.60",
+                "100.40",
+                "0.97"
+              ]
+            ]
+          }
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "绿肥和杂草存在着种间竞争关系"
+        },
+        {
+          "key": "B",
+          "content": "咖啡园更适合种植的绿肥是田菁"
+        },
+        {
+          "key": "C",
+          "content": "绿肥植物可以与根瘤菌互利共生提高土壤含氮量"
+        },
+        {
+          "key": "D",
+          "content": "可以开展种植绿肥对咖啡产和品质的探究实验"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q013",
+      "label": "13",
+      "type": "single_choice",
+      "stem": "高中生物实验中、下列实验操作能达成所述目标的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "content": "选择生物实验材料时，只要含有丰富的葡萄糖就可直接用于还原性糖的鉴定"
+        },
+        {
+          "key": "B",
+          "content": "鉴定DNA时，将丝状物溶于2mol/LNaCl溶液，再加入二苯胺试剂即呈蓝色"
+        },
+        {
+          "key": "C",
+          "content": "使用显微镜观察洋葱根尖细胞有丝分裂时，视野中处于分裂中期的细胞最多"
+        },
+        {
+          "key": "D",
+          "content": "观察植物细胞吸水和失水时，可以使用蔗糖溶液处理紫色洋葱鳞片叶外表皮"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q014",
+      "label": "14",
+      "type": "single_choice",
+      "stem": "为探究校内植物园土壤中的细菌种类，某兴趣小组采集园内土壤样本并开展相关实验。下列叙述错误的是（ ）",
+      "options": [
+        {
+          "key": "A",
+          "content": "土壤溶液稀释倍数越低，越容易得到单菌落"
+        },
+        {
+          "key": "B",
+          "content": "培养细菌时，可以选用牛肉膏蛋白胨培养基"
+        },
+        {
+          "key": "C",
+          "content": "采集土壤样本时，应随机采集植物园中多个不同地点的土壤"
+        },
+        {
+          "key": "D",
+          "content": "鉴定细菌种类时，除形态学鉴定外，还可借助生物化学的方法"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q015",
+      "label": "15",
+      "type": "single_choice",
+      "stem": [
+        "农杆菌Ti质粒上的T-DNA可以转移并随机插入到被侵染植物的染色体DNA中。研究者将下图中被侵染植物的DNA片段连接成环，并以此环为模板进行PCR，扩增出T-DNA插入位置两侧的未知序列，以此可确定T-DNA插入的具体位置。下列叙述错误的是（ ）",
+        {
+          "asset": "a006"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "PCR扩增依据DNA分子双链复制原理"
+        },
+        {
+          "key": "B",
+          "content": "进行PCR扩增需要热稳定DNA聚合酶"
+        },
+        {
+          "key": "C",
+          "content": "利用上图中的引物②、③组合可以扩增出两侧的未知序列"
+        },
+        {
+          "key": "D",
+          "content": "通过与受体细胞基因组序列比对可确定T-DNA的插入位置"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 2,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q016",
+      "label": "16",
+      "type": "composite",
+      "stem": "镰荚金合欢是东非地区的优势树种，大头蚁自2005年起开始入侵，导致本地生态环境发生了一系列变化。",
+      "score": 12,
+      "pages": [
+        3,
+        4
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": "镰荚金合欢为本土蚂蚁提供花蜜和庇护所，本土蚂蚁释放甲酸来保护树木，使其免受食草动物的侵害。二者之间呈现______关系。",
+          "answer": {
+            "source": "question_document",
+            "content": "互利共生"
+          },
+          "pages": [
+            3
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "fill_blank",
+          "stem": [
+            "为研究大头蚁对镰荚金合欢造成的影响，研究人员在大头蚁入侵地区的边界两侧各设置一对样地，在每对样地中各选择一个样地，使用带电网栏阻隔食草动物，以阻止其捕食镰荚金合欢。连续三年监测该样地的能见度，以反映树木覆盖率，结果如图1所示。",
+            {
+              "asset": "a007",
+              "caption": "图1 不同样地中能见度检测结果"
+            },
+            "综上所述，当大头蚁入侵后，镰荚金合欢的数量会______，推测原因是______。"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "下降",
+              "大头蚁的种间竞争占优势，本地蚂蚁对镰荚金合欢的保护作用减弱，食草动物大量捕食镰荚金合欢"
+            ]
+          },
+          "pages": [
+            3,
+            4
+          ],
+          "notes": [
+            "原文“综上所述……”一句承（2）的实验描述与图1结果，无独立小问编号，按原卷归入（2）的两空作答。"
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "fill_blank",
+          "stem": [
+            "研究人员假设，树木覆盖率的降低还会影响狮子与其主要猎物斑马之间的相互作用。在大头蚁入侵非洲地区期间，科研人员检测了斑马被捕食的情况，如图2所示。",
+            {
+              "asset": "a008",
+              "caption": "图2 斑马被捕食情况统计"
+            },
+            "由图可知，斑马被捕食的概率与能见度呈______，且随年份的推移，狮子捕食斑马的比例______，据此可以推测树木覆盖率的降低可能改变了狮子的取食偏好。"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "负相关",
+              "逐渐减小"
+            ]
+          },
+          "pages": [
+            4
+          ]
+        },
+        {
+          "id": "p4",
+          "label": "（4）",
+          "type": "fill_blank",
+          "stem": "综合以上研究，推测在2005~2020年期间，大头蚁在非洲地区的入侵程度______（选填“逐年增大”“逐年减小”“维持不变”）。",
+          "answer": {
+            "source": "question_document",
+            "content": "逐年增大"
+          },
+          "pages": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "17",
+      "type": "composite",
+      "stem": "为研究夜间白光暴露（光暴露）对小鼠血糖调节的机制，科研人员开展了以下研究。",
+      "score": 12,
+      "pages": [
+        4,
+        5
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": "正常情况下，小鼠血糖升高，胰岛素促进组织细胞______，使血糖浓度降低。",
+          "answer": {
+            "source": "question_document",
+            "content": "摄取、利用和储存葡萄糖"
+          },
+          "pages": [
+            4
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "composite",
+          "stem": [
+            "研究者把小鼠置于黑暗和光暴露环境中进行血糖代谢测定，方法如下：将小鼠原始血糖值和实验测定的血糖值做差值，再通过计算每个时间点的相对血糖值绘制曲线，计算曲线与横纵坐标包围的面积数值（AUC），量化小鼠的血糖代谢能力，如下图。",
+            {
+              "asset": "a009",
+              "caption": "图 AUC 量化图和不同条件下AUC相对值"
+            }
+          ],
+          "pages": [
+            4
+          ],
+          "parts": [
+            {
+              "id": "p2a",
+              "label": "①",
+              "type": "fill_blank",
+              "stem": "综上分析，AUC数值越大，小鼠血糖代谢能力______。",
+              "answer": {
+                "source": "question_document",
+                "content": "越差"
+              },
+              "pages": [
+                4
+              ]
+            },
+            {
+              "id": "p2b",
+              "label": "②",
+              "type": "fill_blank",
+              "stem": "依据上图的柱状图分析，说明______。",
+              "answer": {
+                "source": "question_document",
+                "content": "光暴露抑制小鼠的血糖代谢能力"
+              },
+              "pages": [
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "composite",
+          "pages": [
+            4,
+            5
+          ],
+          "parts": [
+            {
+              "id": "p3a",
+              "label": "①",
+              "type": "fill_blank",
+              "stem": [
+                "小鼠视网膜上存在三种感光细胞，分别为Cones，Rods和ipRGCS，为探究是哪种感光细胞介导上述过程，研究者获得了不同细胞功能异常的小鼠进行AUC检测，结果如下表所示，推测小鼠视网膜上感受光暴露刺激的是______。",
+                {
+                  "table": {
+                    "caption": "表 功能异常小鼠AUC检测",
+                    "header": [
+                      "组别处理",
+                      "黑暗AUC",
+                      "光暴露AUC"
+                    ],
+                    "rows": [
+                      [
+                        "ipRGCS功能异常小鼠",
+                        "35",
+                        "32"
+                      ],
+                      [
+                        "Cones，Rods功能异常小鼠",
+                        "33",
+                        "57"
+                      ],
+                      [
+                        "Cones，Rods，ipRGCS功能异常小鼠",
+                        "70",
+                        "69"
+                      ]
+                    ]
+                  }
+                }
+              ],
+              "answer": {
+                "source": "question_document",
+                "content": "ipRGCS细胞"
+              },
+              "pages": [
+                4,
+                5
+              ]
+            },
+            {
+              "id": "p3b",
+              "label": "②",
+              "type": "fill_blank",
+              "stem": "已知小体内棕色脂肪细胞可利用血糖进行产热。根据上述结果，补充该研究中光暴露对血糖的调节通路：光暴露→______→传入神经→激活下丘脑SON区→传出神经→______。",
+              "answer": {
+                "source": "question_document",
+                "content": [
+                  "ipRGCS细胞兴奋",
+                  "棕色脂肪细胞利用葡萄糖减少"
+                ]
+              },
+              "pages": [
+                5
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "18",
+      "type": "composite",
+      "stem": "Cox10基因功能缺失导致线粒体功能异常，进而诱发小鼠患心肌病，随病程发展会导致小鼠死亡。",
+      "score": 10,
+      "pages": [
+        5
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": "线粒体是______的主要场所，产生的ATP用以维持心脏功能。",
+          "answer": {
+            "source": "question_document",
+            "content": "有氧呼吸"
+          },
+          "pages": [
+            5
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "fill_blank",
+          "stem": [
+            "Omal蛋白可以调节线粒体功能。为研究Omal蛋白和Cox10蛋白的关系，科研人员敲除小鼠相关基因，统计其生存率，结果如图1。双敲除组生存率______Cox10基因单敲除组和WT组，说明Omal蛋白可以______由Cox10蛋白功能异常导致的线粒体心肌病的发病进程。",
+            {
+              "asset": "a010",
+              "caption": "图1 小鼠生存曲线"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "低于（或显著低于）",
+              "改善（或减缓）"
+            ]
+          },
+          "pages": [
+            5
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "fill_blank",
+          "stem": [
+            "活化的Omal蛋白可将长链Opal(1-Opal)切割成短链(s-Opal)，诱导线粒体融合，进而发挥作用。根据图2结果分析，______组和______组长链和短链Opal蛋白含量无显著差异，说明正常条件下Omal蛋白的活性很低；Cox10蛋白功能异常时可激活Omal蛋白的依据是______。",
+            {
+              "asset": "a011",
+              "caption": "图2 电泳结果"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "1",
+              "4",
+              "2组1-Opal含量显著低于1组，s-Opal含量显著高于1组"
+            ]
+          },
+          "pages": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "19",
+      "type": "composite",
+      "stem": "为探究水稻分蘖（分枝）的分子机制，科研人员开展了一系列研究。",
+      "score": 12,
+      "pages": [
+        5,
+        6
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": "水稻细胞产生的细胞分裂素与受体结合，______植株的分蘖等生命活动。",
+          "answer": {
+            "source": "question_document",
+            "content": "调控（或促进）"
+          },
+          "pages": [
+            5
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "fill_blank",
+          "stem": [
+            "水稻细胞中的单糖转运蛋白0sSTP15影响着光合产物的运输和分配，进而影响水稻产量。现获得0sSTP15功能缺失突变体水稻，统计生长及产量，结果如图1。推测0sSTP15蛋白的功能是______。",
+            {
+              "asset": "a012",
+              "caption": "图1 水稻分蘖情况及产量"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "抑制水稻分蘖，导致水稻减产"
+          },
+          "pages": [
+            5,
+            6
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "composite",
+          "stem": [
+            "为研究0sSTP15蛋白转运光合产物的种类及转运方向，实验过程如下：",
+            {
+              "asset": "a013",
+              "caption": "图2 0sSTP15转运实验结果"
+            }
+          ],
+          "pages": [
+            6
+          ],
+          "parts": [
+            {
+              "id": "p3a",
+              "label": "①",
+              "type": "fill_blank",
+              "stem": "把相同浓度未标记的葡萄糖、果糖和甘露糖分别与$^{13}$C-葡萄糖混合，进行竞争性转运检测，0sSTP15蛋白的转运结果如图2，由此推测0sSTP15蛋白转运六碳糖亲和力由大到小为______。",
+              "answer": {
+                "source": "question_document",
+                "content": "葡萄糖>甘露糖>果糖"
+              },
+              "pages": [
+                6
+              ]
+            },
+            {
+              "id": "p3b",
+              "label": "②",
+              "type": "fill_blank",
+              "stem": [
+                "为验证0sSTP15为外排葡萄糖的转运蛋白，请从下列选项中选取所需材料与试剂，实验组方案为______。",
+                "a.野生水稻原生质体",
+                "b.非洲爪蟾卵母细胞（无其他膜蛋白）",
+                "c.转0sSTP15基因水稻原生质体",
+                "d.转0sSTP15基因非洲爪蟾卵母细胞",
+                "e.细胞内外添加等量无标记葡萄糖",
+                "f.细胞内外添加等量$^{13}$C-葡萄糖",
+                "与结论相应的检测结果应是______。"
+              ],
+              "answer": {
+                "source": "question_document",
+                "content": [
+                  "df（或cf）",
+                  "细胞内的$^{13}$C-葡萄糖含量实验组低于对照组，细胞外的实验组高于对照组"
+                ]
+              },
+              "pages": [
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p4",
+          "label": "（4）",
+          "type": "short_answer",
+          "stem": "与野生型相比，0sSTP15突变体中细胞分裂素含量显著升高，请推测0sSTP15蛋白对水稻产量影响的分子通路______。",
+          "answer": {
+            "source": "question_document",
+            "content": "0sSTP15蛋白促进葡萄糖外排，胞内葡萄糖含量降低，抑制细胞分裂素合成，水稻分蘖减少，产量降低"
+          },
+          "pages": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q020",
+      "label": "20",
+      "type": "composite",
+      "materials": [
+        "m001"
+      ],
+      "stem": "学习下面材料，回答（1）~（5）题。",
+      "score": 12,
+      "pages": [
+        6,
+        7
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": "细菌将外源DNA整合到CRISPR序列中，是对可遗传变异类型中的______的扩展。",
+          "answer": {
+            "source": "question_document",
+            "content": "基因重组"
+          },
+          "pages": [
+            7
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "fill_blank",
+          "stem": "结合图1分析，有害的外源DNA被细菌整合并插入到CRISPR序列中，成为______序列，CRISPR序列中______序列的转录产物存在核酸酶的识别位点，因此Pre-crRNA被剪切形成crRNA。结合图2分析，tracrRNA和crRNA有______（选填“相同”“互补”）序列，可相互结合，进而与Cas蛋白形成效应复合物。",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "间隔",
+              "重复",
+              "互补"
+            ]
+          },
+          "pages": [
+            7
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "fill_blank",
+          "stem": "结合文章分析图2中RNA①是______（选填“crRNA”“tracrRNA”），起到对外源DNA的识别作用，进而将复合物精准定位。",
+          "answer": {
+            "source": "question_document",
+            "content": "crRNA"
+          },
+          "pages": [
+            7
+          ]
+        },
+        {
+          "id": "p4",
+          "label": "（4）",
+          "type": "multiple_choice",
+          "stem": "下列说法正确的有______（多选）。",
+          "options": [
+            {
+              "key": "A",
+              "content": "细菌体内的Cas是具有类似解旋酶和限制酶作用的双功能蛋白"
+            },
+            {
+              "key": "B",
+              "content": "Cas剪切外源DNA片段的精准性与RNA①的长度呈正相关"
+            },
+            {
+              "key": "C",
+              "content": "可通过CRISPR-Cas技术靶向治疗21-三体综合征患者"
+            },
+            {
+              "key": "D",
+              "content": "细菌CRISPR序列中重复序列的种间差异小于间隔序列"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "choices": [
+              "A",
+              "B",
+              "D"
+            ]
+          },
+          "pages": [
+            7
+          ]
+        },
+        {
+          "id": "p5",
+          "label": "（5）",
+          "type": "short_answer",
+          "stem": "从进化观分析，转入有益基因时，细菌CRISPR基因功能缺失的积极意义是______。",
+          "answer": {
+            "source": "question_document",
+            "content": "获取有益基因，获得新性状，更好的适应环境"
+          },
+          "pages": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q021",
+      "label": "21",
+      "type": "composite",
+      "stem": "桑蚕的性别决定类型为ZW型，雄蚕食桑少、出丝率高，但在幼蚕阶段不易区分，研究人员利用基因工程技术对桑蚕进行改造，以实现蚕农只饲养雄蚕的愿望。",
+      "score": 12,
+      "pages": [
+        7,
+        8
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": [
+            "建构TT’杂合雄蚕品系",
+            "研究发现，位于常染色体上的T基因，缺失后（基因型可表示为tt）会导致桑蚕胚胎停育。科研人员构建图1中的载体，应用______法将其导入雄蚕受精卵中，使载体与T基因两侧的同源区段发生重组，从而实现对T基因区段的替换，得到基因型为TT’的杂合雄蚕品系。",
+            {
+              "asset": "a014",
+              "caption": "图1 构建含T’基因的雄蚕（GFP：绿色荧光蛋白基因）"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "显微注射"
+          },
+          "pages": [
+            7,
+            8
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "composite",
+          "stem": [
+            "构建特异性表达Cre酶的雌蚕品系",
+            "Cre酶可以特异性识别LoxP位点，从而将LoxP位点间的DNA片段进行切除。研究人员将胚胎发育后期启动子与Cre酶基因定点整合到W染色体上，构建了基因型为TT且特异性表达Cre酶的雌蚕品系。"
+          ],
+          "pages": [
+            8
+          ],
+          "parts": [
+            {
+              "id": "p2a",
+              "label": "①",
+              "type": "fill_blank",
+              "stem": "将该品系与TT’杂合雄蚕杂交，当$F_1$桑蚕胚胎发育至后期时，T’基因存在于______（选填“雄蚕”“雄蚕”“雌蚕和雄蚕”）中，会表现出绿色荧光的占$F_1$桑蚕的______。",
+              "answer": {
+                "source": "question_document",
+                "content": [
+                  "雄蚕",
+                  "1/4"
+                ]
+              },
+              "notes": [
+                "选填括号内原卷重复印作“雄蚕”“雄蚕”“雌蚕和雄蚕”，照录未改。"
+              ],
+              "pages": [
+                8
+              ]
+            },
+            {
+              "id": "p2b",
+              "label": "②",
+              "type": "fill_blank",
+              "stem": [
+                "为对特异性表达Cre酶的雌蚕品系进行保持，科研人员在$F_1$中筛选出Tt的雌蚕与TT’的雄蚕进行后续杂交，并利用图2中的引物对$F_2$桑蚕的早期胚胎进行了PCR检测，结果如图3所示。",
+                {
+                  "asset": "a015",
+                  "caption": "图2 PCR检测中引物位置；图3 PCR检测产物电泳结果"
+                },
+                "结合以上结果，在1~6号桑蚕的早期胚胎中，会发育为雄性的是______,______号桑蚕胚胎可能发生停育。"
+              ],
+              "answer": {
+                "source": "question_document",
+                "content": [
+                  "4、5、6",
+                  "3"
+                ]
+              },
+              "pages": [
+                8
+              ]
+            },
+            {
+              "id": "p2c",
+              "label": "③",
+              "type": "short_answer",
+              "stem": "科研人员认为，$F_2$桑蚕发育为幼虫后，仍然只有雄蚕可以呈现绿色荧光，你同意吗?请说明理由。",
+              "answer": {
+                "source": "question_document",
+                "content": "同意，雄蚕中，如T’tZZ或TT’ZZ，因不含Cre基因，不会发生T’基因的切除，故含有T’基因的雄蚕可以表现出绿色荧光"
+              },
+              "pages": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "multiple_choice",
+          "stem": "结合以上桑蚕的分子育种方法，你认为以下说法正确的为______。",
+          "options": [
+            {
+              "key": "A",
+              "content": "$F_1$桑蚕的雌蚕幼虫中存在致死个体"
+            },
+            {
+              "key": "B",
+              "content": "$F_2$桑蚕中胚胎致死的个体占雌蚕的1/4"
+            },
+            {
+              "key": "C",
+              "content": "$F_2$桑蚕中雄蚕有4种基因型"
+            },
+            {
+              "key": "D",
+              "content": "该技术可以实现某基因的定点敲除"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "choices": [
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          "pages": [
+            8
+          ]
+        }
+      ]
+    }
+  ]
+}
