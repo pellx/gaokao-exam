@@ -1,0 +1,1398 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|三模|通州|物理|查漏补缺",
+    "title": "2026北京通州高三查漏补缺物理试题及答案",
+    "year": 2026,
+    "kind": "三模",
+    "subject": "物理",
+    "district": "通州",
+    "variant": "查漏补缺",
+    "academic_year": "2025-2026"
+  },
+  "source": {
+    "file": "../../../../../raw/物理/2026/三模/physics-2026-mock3-tongzhou.pdf",
+    "sha256": "0a794aa48025692d75f30b821b5a3ec1444669e8df0a522e85e04ec353e5164c",
+    "page_count": 13
+  },
+  "extraction": {
+    "status": "draft",
+    "tool": "local-hybrid-v1（PyMuPDF 210 dpi 原页、文本层/PP-OCRv5），逐页目视核对并组装",
+    "notes": [
+      "第1—9页为试题，第10—12页为参考答案及评分标准；第13页为平台简介广告，未作为题目或答案提取。",
+      "第12页为扫描页，已按原页图像逐式核对；第10页选择题答案表按原表转录。",
+      "第16题第（4）问原卷把图（e）印作图（c），此处按原卷保留，未改动。",
+      "第4、8、13、20题自动候选图裁切不完整，已从对应原页补齐；这些资源的 bbox 为补图区域。"
+    ]
+  },
+  "assets": {
+    "a_s01_p001_f01": {
+      "path": "assets/a_s01_p001_f01.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        194.15,
+        394.17,
+        401.15,
+        473.67
+      ],
+      "sha256": "81db16bf074883c3e34ece3301298ce577cbc7190906d4a53423b306bacdefa6"
+    },
+    "a_s01_p001_f02": {
+      "path": "assets/a_s01_p001_f02.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        397.3,
+        564.21,
+        505.05,
+        632.21
+      ],
+      "sha256": "ac8ead7a3763fe0d9359c4deed23d83cd6831b32ba9387ae230b7923f932ba57"
+    },
+    "a_s01_p002_f01_full": {
+      "path": "assets/a_s01_p002_f01_full.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        51.43,
+        61.71,
+        521.14,
+        200.57
+      ],
+      "sha256": "387cd772d1736b61c7a95ac29af141b24efb54c8543bacc338895b32a2ab6c40"
+    },
+    "a_s01_p002_f02": {
+      "path": "assets/a_s01_p002_f02.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        127.08,
+        506.84,
+        195.33,
+        604.34
+      ],
+      "sha256": "4cb57c8751ac945b5e98bf8004edc5821184456a1eb7f4aa9437d2abdfb47166"
+    },
+    "a_s01_p002_f03": {
+      "path": "assets/a_s01_p002_f03.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        315.3,
+        506.47,
+        381.3,
+        604.72
+      ],
+      "sha256": "5ca5ae5fa9b2720c8be62570584360a7c5951afbb82c0d169d1483e55d375c09"
+    },
+    "a_s01_p002_f04": {
+      "path": "assets/a_s01_p002_f04.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        126.5,
+        615.44,
+        224.75,
+        682.94
+      ],
+      "sha256": "972404e0fb9ced002e6bcf9214631b568079f9e3f8bbc4c3e6325d10fe86814e"
+    },
+    "a_s01_p002_f05": {
+      "path": "assets/a_s01_p002_f05.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        315.88,
+        615.07,
+        426.88,
+        683.32
+      ],
+      "sha256": "d2c3e9ea3a7e0bb32bc134367ce2c6ee612ae687a9ce59e488d743624bd698a2"
+    },
+    "a_s01_p002_f06": {
+      "path": "assets/a_s01_p002_f06.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        388.6,
+        334.75,
+        498.9,
+        406.85
+      ],
+      "sha256": "483abf5081822728dce201388d44a74a2280629485aa760ea2b1daff722c6c40"
+    },
+    "a_s01_p003_f01": {
+      "path": "assets/a_s01_p003_f01.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        170.52,
+        73.57,
+        424.77,
+        210.82
+      ],
+      "sha256": "cb5f96c9813d72885ae4ba948f80edb3ee51184eac1a695313f1ed001e73c6c4"
+    },
+    "a_s01_p003_f02_full": {
+      "path": "assets/a_s01_p003_f02_full.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        342.86,
+        401.14,
+        534.86,
+        507.43
+      ],
+      "sha256": "510c410ee4df7a33ef04067084ad94b56b9978d2cc48d19d5c89b26d3db71462"
+    },
+    "a_s01_p003_f03": {
+      "path": "assets/a_s01_p003_f03.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        425.55,
+        674.993,
+        512.6,
+        761.493
+      ],
+      "sha256": "785e23963d7a0b2a1dac79798a581ddbc399a5cb458a6899a30a7690a4e72616"
+    },
+    "a_s01_p003_f04": {
+      "path": "assets/a_s01_p003_f04.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        424.3,
+        585.19,
+        506.7,
+        646.49
+      ],
+      "sha256": "5ea87a2a8fc0504bb45fa3ce9c615aae401163ba877e94b6e119e7d2b986d313"
+    },
+    "a_s01_p004_f01": {
+      "path": "assets/a_s01_p004_f01.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        191.52,
+        286.57,
+        403.77,
+        387.82
+      ],
+      "sha256": "d92126cb20c8c6fe81f77e190aef5fc73df3f18393d80b69b57375e8e674639d"
+    },
+    "a_s01_p004_f02_full": {
+      "path": "assets/a_s01_p004_f02_full.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        428.57,
+        624.0,
+        517.71,
+        733.71
+      ],
+      "sha256": "28c3c830534ebade6f03229daf1daeac0f1e3213a491d10658648fdeeb3c45bd"
+    },
+    "a_s01_p004_f03": {
+      "path": "assets/a_s01_p004_f03.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        359.9,
+        462.8,
+        500.65,
+        528.15
+      ],
+      "sha256": "a583cf3986f5bc7ea9d24c8312613468351b4b70c96bd31d5711fcf77663e7ae"
+    },
+    "a_s01_p005_f01": {
+      "path": "assets/a_s01_p005_f01.png",
+      "kind": "image",
+      "page": 5,
+      "bbox": [
+        185.6,
+        525.63,
+        409.7,
+        625.91
+      ],
+      "sha256": "5d3b3b95b6424f6fa5da74dbedf46bb42ab368e24656af50bdc0315db483c966"
+    },
+    "a_s01_p006_f01": {
+      "path": "assets/a_s01_p006_f01.png",
+      "kind": "image",
+      "page": 6,
+      "bbox": [
+        90.0,
+        194.07,
+        505.33,
+        293.12
+      ],
+      "sha256": "fda1279a6f36c137224086bcf458512bf43a7407cca03310839603ef3c7bffcf"
+    },
+    "a_s01_p007_f01": {
+      "path": "assets/a_s01_p007_f01.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [
+        120.65,
+        79.42,
+        474.65,
+        236.17
+      ],
+      "sha256": "96e47a307c892b197d0fa740c8a3d8f52934d05c65d7818b12582ca1add1faf5"
+    },
+    "a_s01_p007_f02": {
+      "path": "assets/a_s01_p007_f02.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [
+        314.8,
+        369.25,
+        504.84,
+        462.65
+      ],
+      "sha256": "a9d2439d5fec80338206cc12b663965e8ac1267e504f0aca371bbb5d73444de0"
+    },
+    "a_s01_p007_f03": {
+      "path": "assets/a_s01_p007_f03.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [
+        380.1,
+        599.09,
+        501.95,
+        710.19
+      ],
+      "sha256": "9736694fd74d74c9f2ac5bcc07ca84dc5c89de7724cf479cd43eef9122120616"
+    },
+    "a_s01_p008_f01": {
+      "path": "assets/a_s01_p008_f01.png",
+      "kind": "image",
+      "page": 8,
+      "bbox": [
+        337.45,
+        403.5,
+        497.15,
+        475.05
+      ],
+      "sha256": "01fcc67991a35ff93b6738a30d848a722bc4712fb370bf5f4c0da602c2568064"
+    },
+    "a_s01_p009_f01_full": {
+      "path": "assets/a_s01_p009_f01_full.png",
+      "kind": "image",
+      "page": 9,
+      "bbox": [
+        123.43,
+        231.43,
+        497.14,
+        384.0
+      ],
+      "sha256": "35af91e9bbb832e00f37fe0eee47d524efadd97921ebe888d8896ee5adecf90e"
+    },
+    "a_s01_p005_f02": {
+      "path": "assets/a_s01_p005_f02.png",
+      "kind": "image",
+      "page": 5,
+      "bbox": [
+        410.8,
+        142.8,
+        504.7,
+        255.5
+      ],
+      "sha256": "1a7db0fda6ee22ae182052cd9f6695a28e5e37f2809b042b7148fa3d890172ba"
+    }
+  },
+  "materials": {
+    "m001": {
+      "kind": "instructions",
+      "title": "第一部分",
+      "content": "本部分共14题，每题3分，共42分。在每题列出的四个选项中，选出最符合题目要求的一项。",
+      "pages": [
+        1
+      ]
+    },
+    "m002": {
+      "kind": "instructions",
+      "title": "第二部分",
+      "content": "本部分共6题，共58分。",
+      "pages": [
+        5
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "1",
+      "type": "single_choice",
+      "stem": "将密封的充气零食从低海拔地区带到高海拔地区，发现包装袋明显膨胀。若两地无温差，下列说法正确的是",
+      "materials": [
+        "m001"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "袋内气体压强减小"
+        },
+        {
+          "key": "B",
+          "content": "外界对气体做正功"
+        },
+        {
+          "key": "C",
+          "content": "气体分子数密度不变"
+        },
+        {
+          "key": "D",
+          "content": "气体分子平均动能增大"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q002",
+      "label": "2",
+      "type": "single_choice",
+      "stem": [
+        "一列简谐横波沿 $x$ 轴传播，图（a）是 $t=0$ 时刻的波形图；$P$ 是介质中位于 $x=4\\mathrm{m}$ 处的质点，其振动图像如图（b）所示。下列说法正确的是",
+        {
+          "asset": "a_s01_p001_f01"
+        }
+      ],
+      "materials": [
+        "m001"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "这列简谐波的波长为 $2\\mathrm{m}$"
+        },
+        {
+          "key": "B",
+          "content": "这列简谐波的周期为 $1\\mathrm{s}$"
+        },
+        {
+          "key": "C",
+          "content": "这列简谐波向左传播"
+        },
+        {
+          "key": "D",
+          "content": "质点 $P$ 在 $0\\sim5\\mathrm{s}$ 时间内运动的路程为 $50\\mathrm{cm}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q003",
+      "label": "3",
+      "type": "single_choice",
+      "stem": [
+        "如图所示是氢原子的能级示意图。当大量处于 $n=5$ 能级氢原子向低能级跃迁。下列说法正确的是",
+        {
+          "asset": "a_s01_p001_f02"
+        }
+      ],
+      "materials": [
+        "m001"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "总共可以辐射6种不同频率的光子"
+        },
+        {
+          "key": "B",
+          "content": "从 $n=5$ 能级跃迁到 $n=4$ 能级时释放的光子的波长最大"
+        },
+        {
+          "key": "C",
+          "content": "从 $n=2$ 能级跃迁到 $n=1$ 能级时释放的光子的频率最大"
+        },
+        {
+          "key": "D",
+          "content": "能量最大的光子能量比能量最小的光子能量大 $13.04\\mathrm{eV}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q004",
+      "label": "4",
+      "type": "single_choice",
+      "stem": [
+        "关于四幅图片中的信息，下列说法正确的是",
+        {
+          "asset": "a_s01_p002_f01_full"
+        }
+      ],
+      "materials": [
+        "m001"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "甲图中薄板一定是非晶体"
+        },
+        {
+          "key": "B",
+          "content": "乙图说明气体分子的速率分布随温度变化而变化，且 $T_1>T_2$"
+        },
+        {
+          "key": "C",
+          "content": "丙图说明了微粒分子做无规则运动"
+        },
+        {
+          "key": "D",
+          "content": "丁图中分子间距为 $r_1$ 时，分子力为零"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q005",
+      "label": "5",
+      "type": "single_choice",
+      "stem": [
+        "如图所示，物体B的上表面水平，当A、B相对静止沿斜面匀速下滑时，斜面保持静止不动。下列判断正确的是",
+        {
+          "asset": "a_s01_p002_f06"
+        }
+      ],
+      "materials": [
+        "m001"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "物体B的上表面一定是粗糙的"
+        },
+        {
+          "key": "B",
+          "content": "物体B、C都只受4个力作用"
+        },
+        {
+          "key": "C",
+          "content": "物体C受水平面的摩擦力方向一定水平向右"
+        },
+        {
+          "key": "D",
+          "content": "水平面对物体C的支持力小于三物体的重力大小之和"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q006",
+      "label": "6",
+      "type": "single_choice",
+      "stem": "粗细均匀的电阻丝围成的正方形线框置于有界匀强磁场中，磁场方向垂直于线框平面，其边界与正方形线框的边平行。现使线框以同样大小的速度沿四个不同方向平移出磁场，如图所示，则在移出过程中线框的一边 $a$、$b$ 两点间电势差的绝对值最大的是",
+      "materials": [
+        "m001"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": [
+            {
+              "asset": "a_s01_p002_f02"
+            }
+          ]
+        },
+        {
+          "key": "B",
+          "content": [
+            {
+              "asset": "a_s01_p002_f03"
+            }
+          ]
+        },
+        {
+          "key": "C",
+          "content": [
+            {
+              "asset": "a_s01_p002_f04"
+            }
+          ]
+        },
+        {
+          "key": "D",
+          "content": [
+            {
+              "asset": "a_s01_p002_f05"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q007",
+      "label": "7",
+      "type": "single_choice",
+      "stem": [
+        "如图甲，矩形金属线框 $abcd$ 在匀强磁场中绕固定轴 $OO'$ 匀速转动，轴 $OO'$ 垂直于磁感线。通过线框的磁通量随时间的变化规律如图乙所示，线框共100匝。下列说法正确的是",
+        {
+          "asset": "a_s01_p003_f01"
+        }
+      ],
+      "materials": [
+        "m001"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "交变电流的频率为 $100\\mathrm{Hz}$"
+        },
+        {
+          "key": "B",
+          "content": "交变电流电动势的有效值为 $200\\pi\\mathrm{V}$"
+        },
+        {
+          "key": "C",
+          "content": "$t=1.0\\times10^{-2}\\ \\mathrm{s}$ 时刻线框转至图甲所示位置"
+        },
+        {
+          "key": "D",
+          "content": "$t=5.0\\times10^{-2}\\ \\mathrm{s}$ 时刻线框电流方向发生改变"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "q008",
+      "label": "8",
+      "type": "single_choice",
+      "stem": [
+        "中国天和机械臂具有7个自由度，可承担捕获悬停航天器等任务。如图所示，空间站绕地球做匀速圆周运动，运行周期为 $T$，轨道离地高度为 $h$，航天员操纵长为 $l$ 的机械臂捕获了一航天器，在机械臂作用下，航天器、空间站和地球球心始终在同一直线上。已知地球半径为 $R$，引力常量为 $G$，忽略地球自转及捕获过程中空间站轨道的变化，下列说法正确的是",
+        {
+          "asset": "a_s01_p003_f02_full"
+        }
+      ],
+      "materials": [
+        "m001"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "地球的质量为 $M=\\frac{4\\pi^2h^3}{GT^2}$"
+        },
+        {
+          "key": "B",
+          "content": "航天器被捕获后处于平衡状态"
+        },
+        {
+          "key": "C",
+          "content": "地球表面的重力加速度为 $g=\\frac{4\\pi^2(R+h)^3}{T^2R^2}$"
+        },
+        {
+          "key": "D",
+          "content": "航天器和空间站的线速度相同"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q009",
+      "label": "9",
+      "type": "single_choice",
+      "stem": [
+        "如图所示，一小球质量为 $m$，用长为 $L$ 的细线悬于 $O$ 点，在 $O$ 点正下方 $\\frac{1}{2}L$ 处钉有一根长钉，把悬线沿水平方向拉直后无初速度释放，当悬线碰到钉子的瞬时",
+        {
+          "asset": "a_s01_p003_f04"
+        }
+      ],
+      "materials": [
+        "m001"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "小球的线速度突然增大"
+        },
+        {
+          "key": "B",
+          "content": "悬线的拉力突然减小"
+        },
+        {
+          "key": "C",
+          "content": "小球的向心加速度保持不变"
+        },
+        {
+          "key": "D",
+          "content": "小球的角速度突然增大"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q010",
+      "label": "10",
+      "type": "single_choice",
+      "stem": [
+        "如图所示，空间中存在竖直向下、磁感应强度为 $B$ 的匀强磁场。边长为 $L$ 的正方形线框 $abcd$ 的总电阻为 $R$。除 $ab$ 边为硬质金属杆外，其它边均为不可伸长的轻质金属细线，并且 $cd$ 边保持不动，杆 $ab$ 的质量为 $m$。将线框拉至水平后由静止释放，杆 $ab$ 第一次摆到最低位置时的速率为 $v$。重力加速度为 $g$，忽略空气阻力。关于该过程，下列说法正确的是",
+        {
+          "asset": "a_s01_p003_f03"
+        }
+      ],
+      "materials": [
+        "m001"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "$a$ 端电势始终低于 $b$ 端电势"
+        },
+        {
+          "key": "B",
+          "content": "杆 $ab$ 中电流的大小、方向均保持不变"
+        },
+        {
+          "key": "C",
+          "content": "安培力对杆 $ab$ 的冲量大小为 $\\frac{B^2L^3}{R}$"
+        },
+        {
+          "key": "D",
+          "content": "安培力对杆 $ab$ 做的功为 $mgL-\\frac{1}{2}mv^2$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "q011",
+      "label": "11",
+      "type": "single_choice",
+      "stem": [
+        "如图所示，理想降压变压器的原线圈连接一理想交流电流表，在副线圈上连接有理想交流电压表、定值电阻 $R_1$、灯泡L和滑动变阻器 $R$，原线圈两端接输出电压有效值恒定的交流电源，当滑动变阻器的滑片位于中间时，灯泡恰好正常工作，现将滑动变阻器的滑片向 $b$ 端移动，下列说法正确的是",
+        {
+          "asset": "a_s01_p004_f01"
+        }
+      ],
+      "materials": [
+        "m001"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "电流表的读数变大"
+        },
+        {
+          "key": "B",
+          "content": "电压表的读数变小"
+        },
+        {
+          "key": "C",
+          "content": "灯泡L的亮度变暗"
+        },
+        {
+          "key": "D",
+          "content": "定值电阻 $R_1$ 的电功率变小"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q012",
+      "label": "12",
+      "type": "single_choice",
+      "stem": [
+        "如图甲所示，在光滑水平面上的两个小球P、Q发生正碰，两小球的质量分别为 $m_P$ 和 $m_Q$。图乙为它们碰撞前后的位移-时间图像（$x-t$ 图像）。已知 $m_P=1\\mathrm{kg}$，下列说法正确的是",
+        {
+          "asset": "a_s01_p004_f03"
+        }
+      ],
+      "materials": [
+        "m001"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "$m_Q=2\\mathrm{kg}$"
+        },
+        {
+          "key": "B",
+          "content": "两球的碰撞为非弹性碰撞"
+        },
+        {
+          "key": "C",
+          "content": "小球P对小球Q的冲量为 $6\\mathrm{N}\\cdot\\mathrm{s}$"
+        },
+        {
+          "key": "D",
+          "content": "小球P碰后的动量为 $2\\mathrm{kg}\\cdot\\mathrm{m/s}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q013",
+      "label": "13",
+      "type": "single_choice",
+      "stem": [
+        "如图所示，磁轴键盘中，永磁铁随按键在竖直方向移动，长、宽、高分别为 $l$、$b$、$h$ 的霍尔传感器通有恒定电流 $I$，则在其对应侧面上产生霍尔电压。按下按键，当电压超过某一定值时，开始输出信号。松开按键，永磁铁恢复原位，输出信号停止。要增加该磁轴键盘的灵敏度（按键被按下更短的距离即可输出信号），下列调整可行的是",
+        {
+          "asset": "a_s01_p004_f02_full"
+        }
+      ],
+      "materials": [
+        "m001"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "仅减小 $h$"
+        },
+        {
+          "key": "B",
+          "content": "仅减小 $I$"
+        },
+        {
+          "key": "C",
+          "content": "仅增加 $b$"
+        },
+        {
+          "key": "D",
+          "content": "仅增加 $l$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q014",
+      "label": "14",
+      "type": "single_choice",
+      "stem": [
+        "电影《流浪地球》讲述的是面对太阳快速老化膨胀的灾难，人类制定了“流浪地球”计划，这首先需要使自转角速度大小为 $\\omega$ 的地球（半径为 $R$）停止自转，再将地球推移出太阳系到达距离太阳最近的恒星（比邻星）。为了使地球停止自转，设想的方案就是在地球赤道上均匀地安装 $N$ 台“喷气”发动机，如图所示（$N$ 较大，图中只画出了4个）。假设每台发动机均能沿赤道的切线方向提供大小恒为 $F$ 的推力，该推力可阻碍地球的自转。已知描述地球转动的动力学方程与描述质点运动的牛顿第二定律方程 $F=ma$ 具有相似性，为 $M=I\\beta$，其中 $M$ 为外力的总力矩，即外力与对应力臂乘积的总和，其值为 $NFR$；$I$ 为地球相对地轴的转动惯量；$\\beta$ 为单位时间内地球的角速度的改变量。将地球看成质量分布均匀的球体，下列说法中不正确的是",
+        {
+          "asset": "a_s01_p005_f02"
+        }
+      ],
+      "materials": [
+        "m001"
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "在 $M=I\\beta$ 与 $F=ma$ 的类比中，与质量 $m$ 对应的物理量是转动惯量 $I$，其物理意义是反映改变地球绕地轴转动情况的难易程度"
+        },
+        {
+          "key": "B",
+          "content": "转动惯量 $I$ 的单位为 $\\mathrm{kg}\\cdot\\mathrm{m}^2$"
+        },
+        {
+          "key": "C",
+          "content": "地球自转刹车过程中，赤道表面附近的重力加速度逐渐变小"
+        },
+        {
+          "key": "D",
+          "content": "这些行星发动机同时开始工作，使地球停止自转所需要的时间为 $\\frac{\\omega I}{NFR}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "q015",
+      "label": "15",
+      "type": "composite",
+      "stem": [
+        "某同学用如图1所示的电路测量某电源的电动势和内阻。",
+        {
+          "asset": "a_s01_p005_f01"
+        }
+      ],
+      "materials": [
+        "m002"
+      ],
+      "score": 8,
+      "pages": [
+        5
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": "某同学记录多组电压 $U$ 和电流 $I$，作出的 $U-I$ 图线如图2。根据图线可得：该电源的电动势 $E=$ ________$\\mathrm{V}$，内阻 $r=$ ________$\\Omega$。（结果均保留三位有效数字）",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "1.45",
+              "1.30"
+            ]
+          },
+          "pages": [
+            5
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "fill_blank",
+          "stem": "仅考虑电表内阻引起的实验误差，则本实验误差产生的原因是________；该误差导致 $E_{\\text{测}}$________$E_{\\text{真}}$，$r_{\\text{测}}$________$r_{\\text{真}}$（选填“＜”、“＞”或“＝”）。",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "电压表分流作用，使得电流表测量值偏小",
+              "<",
+              "<"
+            ]
+          },
+          "pages": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q016",
+      "label": "16",
+      "type": "composite",
+      "stem": [
+        "图（a）是某兴趣小组基于手机磁力传感器完成单摆测量重力加速度的示意图，手机中的磁力传感器能够实时测量并记录外部磁场的磁感应强度大小。在磁性小球摆动过程中，当磁性小球摆动到最右端时，记录的磁感应强度最大。实验时，通过磁力传感器记录磁感应强度发生的周期性变化，间接测得小球运动的周期。部分实验操作如下：",
+        {
+          "asset": "a_s01_p006_f01"
+        }
+      ],
+      "materials": [
+        "m002"
+      ],
+      "score": 10,
+      "pages": [
+        6,
+        7
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": "用游标卡尺测量小球直径，结果如图（b）所示，测得小球的直径为________$\\mathrm{mm}$。",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "22.50"
+            ]
+          },
+          "pages": [
+            6
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "fill_blank",
+          "stem": "保证细线与竖直方向的夹角小于 $5^\\circ$ 并释放小球，打开应用软件采集数据，图（c）为实验过程中磁感应强度随时间周期性变化的图像。则小球运动的周期为________（用 $t_1$、$t_2$ 表示），图（c）中磁感应强度的最大值逐渐减小的原因是________。",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "$\\frac{t_2-t_1}{10}$",
+              "小球受空气阻力的原因，振幅越来越小，小球摆动到最右端时离手机越远，则磁力传感器记录磁感应强度变小。"
+            ]
+          },
+          "pages": [
+            6
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "fill_blank",
+          "stem": "某次实验当中，由于操作不当，导致小球不在同一竖直面内运动，而是在一个水平面内做圆周运动，测量周期后，仍用单摆的周期公式求出重力加速度，则重力加速度的测量值________实际值（填“小于”、“大于”或“等于”）。",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "大于"
+            ]
+          },
+          "pages": [
+            6
+          ]
+        },
+        {
+          "id": "p4",
+          "label": "（4）",
+          "type": "fill_blank",
+          "stem": [
+            "为避免此类不当操作的再次出现，决定采用杆线摆测量重力加速度。如图（d）所示，杆线摆可以绕着悬挂轴 $OO'$ 来回摆动，直径为 $D$ 的摆球其运动轨迹被约束在一个倾斜平面内，这相当于单摆在斜面上来回摆动。如图（c）所示，在铁架台上装一根铅垂线，在铁架台的立柱跟铅垂线平行的情况下把杆线摆装在立柱上，调节细线的长度，使摆杆与立柱垂直，保持摆杆长度 $L$ 不变。如图（f）所示，把铁架台底座一侧垫高，立柱倾斜，测出静止时摆杆与铅垂线的夹角为 $\\beta$，并测量该倾角下单摆的周期 $T$。改变铁架台的倾斜程度，测出多组夹角和单摆周期 $T$，若作出的 $T-\\frac{1}{\\sqrt{\\cos\\beta}}$ 图像是一条过原点的直线，其斜率为 $k$，则可以求得重力加速度为________（结果用 $k$、$L$、$D$ 表示）。",
+            {
+              "asset": "a_s01_p007_f01"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "$\\frac{2\\pi^2(2L+D)}{k^2}$"
+            ]
+          },
+          "pages": [
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "17",
+      "type": "composite",
+      "stem": [
+        "如图所示，在某物流分拣中心的分拣流水线上，一质量为 $m=0.1\\mathrm{kg}$ 的小货物以初速度 $v_0$ 从粗糙水平分拣台上某处开始运动，经时间 $t=0.4\\mathrm{s}$ 后以速度 $v=4\\mathrm{m/s}$ 飞离分拣台，最终落在水平地面上对应的分拣框中。货物与分拣台的动摩擦因数 $\\mu=0.25$，分拣台离地面高 $h=0.8\\mathrm{m}$，不计空气阻力，重力加速度 $g=10\\mathrm{m/s^2}$。求：",
+        {
+          "asset": "a_s01_p007_f02"
+        }
+      ],
+      "materials": [
+        "m002"
+      ],
+      "score": 9,
+      "pages": [
+        7
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "calculation",
+          "stem": "货物初速度 $v_0$ 的大小；",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "货物在水平桌面上做匀减速直线运动，由牛顿第二定律有 $\\mu mg=ma$",
+              "根据运动学公式，有 $v=v_0-at$",
+              "得 $v_0=5\\mathrm{m/s}$"
+            ]
+          },
+          "pages": [
+            7
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "calculation",
+          "stem": "货物落地点距飞出点的水平距离 $x$；",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "货物做平抛运动，在竖直方向上，有 $h=\\frac{1}{2}gt_1^2$",
+              "在水平方向上，有 $x=vt_1$",
+              "得 $x=1.6\\mathrm{m}$"
+            ]
+          },
+          "pages": [
+            7
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "calculation",
+          "stem": "货物落地时的速度大小 $v_1$。",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "竖直方向上，有 $v_y=gt_1$",
+              "落地速度 $v_1=\\sqrt{v^2+v_y^2}$",
+              "得 $v_1=4\\sqrt{2}\\mathrm{m/s}$"
+            ]
+          },
+          "pages": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "18",
+      "type": "composite",
+      "stem": [
+        "质谱仪是最早用来测定微观粒子比荷的精密仪器，其原理如图所示。A为粒子加速器，加速电压为 $U_1$，B为速度选择器，其中磁场与电场正交，磁场磁感应强度为 $B_1$，两极板间距为 $d$，C为粒子偏转分离器，磁感应强度为 $B_2$。今有一重力不计、比荷未知的带正电的粒子P，从小孔 $S_1$ “飘入”（初速度为零）粒子加速器，加速后从小孔 $S_2$ 以速度 $v$ 进入速度选择器并恰好沿直线 $S_2S_3$ 通过，粒子从小孔 $S_3$ 进入分离器后做匀速圆周运动，打在照相底片D点上。",
+        {
+          "asset": "a_s01_p007_f03"
+        }
+      ],
+      "materials": [
+        "m002"
+      ],
+      "score": 9,
+      "pages": [
+        7,
+        8
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "calculation",
+          "stem": "求粒子P的比荷 $\\frac{q}{m_P}$；",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "粒子P在加速器中，根据动能定理 $qU_1=\\frac{1}{2}m_Pv^2$",
+              "可得 $\\frac{q}{m_P}=\\frac{v^2}{2U_1}$"
+            ]
+          },
+          "pages": [
+            8
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "calculation",
+          "stem": "计算速度选择器的电压 $U_2$；",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "在速度选择器中 $qE=qvB_1$",
+              "又因为 $E=\\frac{U_2}{d}$",
+              "解得 $U_2=B_1dv$"
+            ]
+          },
+          "pages": [
+            8
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "composite",
+          "stem": "另有P的同位素Q同样从小孔 $S_1$ “飘入”，仅调节 $U_1$ 的大小使粒子Q通过速度选择器进入分离器，最后打到照相底片上的F点，测出F与D两点间距离 $x$。若同位素两粒子带电量均为 $q$，求：",
+          "pages": [
+            8
+          ],
+          "parts": [
+            {
+              "id": "p1",
+              "label": "①",
+              "type": "calculation",
+              "stem": "该同位素两粒子的质量差 $\\Delta m$；",
+              "answer": {
+                "source": "question_document",
+                "content": [
+                  "粒子P在分离器中做匀速圆周运动 $qvB_2=m_P\\frac{v^2}{r_P}$",
+                  "粒子Q在分离器中做匀速圆周运动 $qvB_2=m_Q\\frac{v^2}{r_Q}$",
+                  "由几何关系得 $2r_Q=2r_P+x$",
+                  "解得 $\\Delta m=m_Q-m_P=\\frac{xqB_2}{2v}$"
+                ]
+              },
+              "pages": [
+                8
+              ]
+            },
+            {
+              "id": "p2",
+              "label": "②",
+              "type": "calculation",
+              "stem": "该同位素两粒子在分离器中运动的时间差 $\\Delta t$。",
+              "answer": {
+                "source": "question_document",
+                "content": [
+                  "粒子P做圆周运动的周期 $T_P=\\frac{2\\pi r_P}{v}$",
+                  "粒子Q做圆周运动的周期 $T_Q=\\frac{2\\pi r_Q}{v}$",
+                  "又因为 $\\Delta t=\\frac{T_Q}{2}-\\frac{T_P}{2}$",
+                  "解得 $\\Delta t=\\frac{\\pi x}{2v}$"
+                ]
+              },
+              "pages": [
+                8
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "19",
+      "type": "composite",
+      "stem": [
+        "如图，某同学研究卫星先环绕地球运动，之后再做变轨的过程。设卫星质量为 $m$，先在近地圆轨道上绕地球运行。已知地球质量为 $M$，引力常量为 $G$，地球半径为 $R$。",
+        {
+          "asset": "a_s01_p008_f01"
+        }
+      ],
+      "materials": [
+        "m002"
+      ],
+      "score": 10,
+      "pages": [
+        8
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "calculation",
+          "stem": "求卫星变轨前的运行速率 $v_0$；",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "卫星变轨前在近地轨道上环绕地球做匀速圆周运动，根据万有引力提供向心力得",
+              "$G\\frac{Mm}{R^2}=m\\frac{v_0^2}{R}$",
+              "解得 $v_0=\\sqrt{\\frac{GM}{R}}$"
+            ]
+          },
+          "pages": [
+            8
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "composite",
+          "stem": "研究变轨时，在地表附近的A点短暂启动发动机，使卫星进入椭圆轨道，该轨道的远地点B距地心为 $8R$。已知卫星的引力势能可表示为 $E_p=-\\frac{GMm}{r}$（$r$ 为卫星到地心的距离，设无限远处引力势能为零）",
+          "pages": [
+            8
+          ],
+          "parts": [
+            {
+              "id": "p1",
+              "label": "a.",
+              "type": "calculation",
+              "stem": "求变轨前卫星的机械能 $E_A$；",
+              "answer": {
+                "source": "question_document",
+                "content": [
+                  "变轨前卫星的动能为 $E_{kA}=\\frac{1}{2}mv_0^2$",
+                  "变轨前卫星的引力势能为 $E_{pA}=-\\frac{GMm}{R}$",
+                  "变轨前卫星的机械能为 $E_A=E_{kA}+E_{pA}$",
+                  "解得 $E_A=-\\frac{GMm}{2R}$"
+                ]
+              },
+              "pages": [
+                8
+              ]
+            },
+            {
+              "id": "p2",
+              "label": "b.",
+              "type": "calculation",
+              "stem": "结合开普勒第二定律，求短暂启动过程中发动机对卫星做的功 $W$。",
+              "answer": {
+                "source": "question_document",
+                "content": [
+                  "变轨后卫星在椭圆轨道上运动，设其在A、B点的速度大小分别为 $v_A$、$v_B$。",
+                  "变轨后卫星从A到B的过程，根据机械能守恒定律有",
+                  "$\\frac{1}{2}mv_A^2+\\left(-\\frac{GMm}{R}\\right)=\\frac{1}{2}mv_B^2+\\left(-\\frac{GMm}{8R}\\right)$",
+                  "根据开普勒第二定律，取极短时间 $\\Delta t$，有 $\\frac{v_A\\Delta t\\times R}{2}=\\frac{v_B\\Delta t\\times8R}{2}$",
+                  "联立解得 $v_A^2=\\frac{16GM}{9R}$",
+                  "变轨的瞬间卫星的引力势能不变，根据功能关系，点火过程中发动机对卫星做的功为",
+                  "$W=\\frac{1}{2}mv_A^2-\\frac{1}{2}mv_0^2$",
+                  "解得 $W=\\frac{7GMm}{18R}$"
+                ]
+              },
+              "pages": [
+                8
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q020",
+      "label": "20",
+      "type": "composite",
+      "stem": [
+        "增程款电动汽车常配备轴向磁通永磁发电机，利用燃油提供的动力进行发电给电池充电，从而达到长续航目的。如图1轴向磁通永磁发电机结构原理图，可简化为如图2，8个彼此绝缘相互靠近的相同扇形线圈均匀分布组成定子固定不动，两侧的永磁体盘组成转子并随转轴一起转动。转子产生的磁场如图所示，磁感应强度大小均为 $B$，定子上线圈内外半径分别为 $R$、$2R$，每个线圈的电阻为 $r$，线圈匝数为 $n$，转子单个磁场、定子单个线圈所对圆心角均为 $45^\\circ$。不计线圈电感及线圈间的空隙，不计摩擦、空气阻力。",
+        {
+          "asset": "a_s01_p009_f01_full"
+        }
+      ],
+      "materials": [
+        "m002"
+      ],
+      "score": 12,
+      "pages": [
+        9
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "calculation",
+          "stem": "若转子盘受到外力作用以角速度 $\\omega$ 逆时针匀速转动（即线圈相对磁场顺时针运动），求线圈中的感应电流变化的周期 $T$；",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "从转子、定子的结构看，转子每转过 $90^\\circ$ 回到相同的相对位置，故线圈内电流变化的周期为 $T=\\frac{1}{4}T_{\\text{转}}$",
+              "转子的运动周期为 $T_{\\text{转}}=\\frac{2\\pi}{\\omega}$",
+              "则线圈中的感应电流变化的周期为 $T=\\frac{\\pi}{2\\omega}$"
+            ]
+          },
+          "pages": [
+            9
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "calculation",
+          "stem": "在第（1）问的条件下，求单个线圈上产生的感应电动势 $E$ 的大小；",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "单个线圈每边感应电动势为 $E_1=nB(2R-R)v_{\\text{中}}$",
+              "每边中点的速度为 $v_{\\text{中}}=\\omega\\cdot\\frac{R+2R}{2}$",
+              "单个线圈两边产生的电动势方向相同，则单个线圈上产生的感应电动势为 $E=2E_1$",
+              "联立解得 $E=3nB\\omega R^2$"
+            ]
+          },
+          "pages": [
+            9
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "calculation",
+          "stem": "在 $t_0$ 时间内消耗燃油的能量为 $E_0$，转化为电能的效率为 $\\eta$，每个线圈向汽车电池充电的电流维持为 $I$，求这段时间充入电池的能量 $\\Delta E$。",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "单个线圈中产生的热量为 $Q=I^2rt_0$",
+              "转子运动产生的电能为 $E_{\\text{电}}=\\eta E_0$",
+              "由能量关系得，充入电池的能量 $\\Delta E=E_{\\text{电}}-8Q$",
+              "联立解得 $\\Delta E=\\eta E_0-8I^2rt_0$"
+            ]
+          },
+          "pages": [
+            9
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1457 @@
+{
+  "format": "exam-questions/v1",
+  "paper": {
+    "id": "2026|三模|北京精华学校|物理|三模",
+    "title": "2026北京精华学校高三三模物理试题及答案",
+    "year": 2026,
+    "kind": "三模",
+    "subject": "物理",
+    "district": "大兴",
+    "school": "北京精华学校",
+    "variant": "三模",
+    "exam_date": "2026-05"
+  },
+  "source": {
+    "file": "../../../../../raw/物理/2026/三模/physics-2026-mock3-daxing.pdf",
+    "sha256": "b13813abcb01349942d53b949e00ca4ae54e02a37148b795276171615396afbf",
+    "page_count": 14
+  },
+  "extraction": {
+    "status": "needs_review",
+    "tool": "local-hybrid-v1 (PP-OCRv5 + DocLayout-YOLO)；逐页目视校读",
+    "notes": [
+      "扫描件，正文由本地 OCR 提供后逐页对照原页目视校读；公式按原卷印刷转写。",
+      "答案在原试卷第11—13页，answer.source 记为 question_document。",
+      "第19题参考答案中 B0 与 B 混用、第18题解析写“飞船与太阳的连线”，均照原卷保留。",
+      "第14页为平台介绍广告，未作为试题内容提取。",
+      "第8题候选图未完整包含四个选项标签，四个图像选项按原页分别裁出，未改动图形内容。"
+    ]
+  },
+  "assets": {
+    "a_s01_p001_f02": {
+      "path": "assets/a_s01_p001_f02.png",
+      "kind": "image",
+      "page": 1,
+      "bbox": [
+        182.717,
+        1184.357,
+        637.968,
+        1437.683
+      ],
+      "sha256": "153cd55c796f2dc56ade5747c7dfe271711afde37a13c16172a890150fa98cae"
+    },
+    "a_s01_p002_f01": {
+      "path": "assets/a_s01_p002_f01.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        224.197,
+        1179.558,
+        905.017,
+        1385.921
+      ],
+      "sha256": "2c4ca2f34ea546df15de3092088ca309617819e304d17fe2f741ace9ef50f167"
+    },
+    "a_s01_p002_f02": {
+      "path": "assets/a_s01_p002_f02.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        214.941,
+        205.334,
+        529.298,
+        405.87
+      ],
+      "sha256": "a39432651a8f34be3e9317d952a28561fd980a2cb7eb28473c88ec89983084d8"
+    },
+    "a_s01_p002_f03": {
+      "path": "assets/a_s01_p002_f03.png",
+      "kind": "image",
+      "page": 2,
+      "bbox": [
+        567.007,
+        218.361,
+        857.023,
+        407.926
+      ],
+      "sha256": "df4e5ea22fde24f2589e40d6f55b5804bac0d05fe6b98a7356551eb259a59a00"
+    },
+    "a_s01_p003_f01": {
+      "path": "assets/a_s01_p003_f01.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        211.856,
+        249.555,
+        483.361,
+        396.957
+      ],
+      "sha256": "572c53f10578c36898897182d48ff0748e0851f5b217343a7fedc3fc38777e34"
+    },
+    "a_s01_p003_f02": {
+      "path": "assets/a_s01_p003_f02.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        184.089,
+        1365.01,
+        1055.853,
+        1521.668
+      ],
+      "sha256": "b852def8651cb32fe07b383b8bf45d773dc0cbe654eb8ae28e5a3e5fc5962e48"
+    },
+    "a_s01_p003_f03": {
+      "path": "assets/a_s01_p003_f03.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        529.298,
+        791.514,
+        744.582,
+        988.964
+      ],
+      "sha256": "55359bac7858ccf2a5049be1fb1b1f074f81b1dced8abefa1f76d8f9ccea8a3c"
+    },
+    "a_s01_p004_f01": {
+      "path": "assets/a_s01_p004_f01.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        226.94,
+        231.044,
+        454.565,
+        455.232
+      ],
+      "sha256": "8c4a4352bff63b9dfc3a744c4798f5124f091495c37a48a59dc8e16b15440f9a"
+    },
+    "a_s01_p004_f02": {
+      "path": "assets/a_s01_p004_f02.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        191.288,
+        1223.436,
+        472.048,
+        1379.751
+      ],
+      "sha256": "ec9189d4becaecf7fa293a63d0363dbbd250efa442636fc8927672dcc47a7c20"
+    },
+    "a_s01_p004_f03": {
+      "path": "assets/a_s01_p004_f03.png",
+      "kind": "image",
+      "page": 4,
+      "bbox": [
+        182.717,
+        793.914,
+        289.674,
+        922.805
+      ],
+      "sha256": "844ce6bb3d4b43869935e4680b8cdaaeafb1b0f3292882d7cfe3f49ecfc917dc"
+    },
+    "a_s01_p005_f01": {
+      "path": "assets/a_s01_p005_f01.png",
+      "kind": "image",
+      "page": 5,
+      "bbox": [
+        360.978,
+        986.565,
+        870.736,
+        1342.729
+      ],
+      "sha256": "942d02e8b62142339a9e2995ac9cc7f5f90faef94979003c7d9745326f5aea94"
+    },
+    "a_s01_p005_f03": {
+      "path": "assets/a_s01_p005_f03.png",
+      "kind": "image",
+      "page": 5,
+      "bbox": [
+        190.602,
+        324.284,
+        623.913,
+        537.846
+      ],
+      "sha256": "b6165b2516db9a5d063c777d27971c48e9fc8cfeeff5cfc5d56a8d0decc4304b"
+    },
+    "a_s01_p006_f01": {
+      "path": "assets/a_s01_p006_f01.png",
+      "kind": "image",
+      "page": 6,
+      "bbox": [
+        182.032,
+        1063.008,
+        427.483,
+        1337.244
+      ],
+      "sha256": "22388a59716f5bbae71acf752f6a217cd5c17e2a7e4817707824f9ddd064040d"
+    },
+    "a_s01_p006_f02": {
+      "path": "assets/a_s01_p006_f02.png",
+      "kind": "image",
+      "page": 6,
+      "bbox": [
+        713.386,
+        327.027,
+        1060.309,
+        499.11
+      ],
+      "sha256": "e3c8989722c54a37ed8b0cd3997aa4d57152681a3aef30457171c53fb78522ed"
+    },
+    "a_s01_p007_f01": {
+      "path": "assets/a_s01_p007_f01.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [
+        210.828,
+        564.241,
+        431.597,
+        729.468
+      ],
+      "sha256": "03b2634eb1645f6437e41667a1b35d19bb0e65a9c7745bfa34c015e15d18de16"
+    },
+    "a_s01_p007_f02": {
+      "path": "assets/a_s01_p007_f02.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [
+        184.774,
+        160.085,
+        786.405,
+        296.861
+      ],
+      "sha256": "2853689b70ea8677d8de53acf01fb8621954335c3e091a9121074cf215a3f40b"
+    },
+    "a_s01_p007_f03": {
+      "path": "assets/a_s01_p007_f03.png",
+      "kind": "image",
+      "page": 7,
+      "bbox": [
+        209.799,
+        1309.82,
+        1002.032,
+        1498.701
+      ],
+      "sha256": "22419f77f6f98b802ca7b5c5f81b942c4cf444408186027b536b07a6de29d215"
+    },
+    "a_s01_p008_f01": {
+      "path": "assets/a_s01_p008_f01.png",
+      "kind": "image",
+      "page": 8,
+      "bbox": [
+        182.375,
+        729.125,
+        673.62,
+        1120.597
+      ],
+      "sha256": "2dbe1879c390ec1fc4363a6d522688193eaf5428e86a132b143963a193571e01"
+    },
+    "a_s01_p008_f03": {
+      "path": "assets/a_s01_p008_f03.png",
+      "kind": "image",
+      "page": 8,
+      "bbox": [
+        101.472,
+        1395.176,
+        622.885,
+        1568.974
+      ],
+      "sha256": "62ebd2823d0f7b9f365aa36cf17b71ab9d17a05214abf8296c79f8ab6743740b"
+    },
+    "a_s01_p009_f01": {
+      "path": "assets/a_s01_p009_f01.png",
+      "kind": "image",
+      "page": 9,
+      "bbox": [
+        216.656,
+        707.529,
+        815.543,
+        855.617
+      ],
+      "sha256": "c50709e27e399d271273daf584d24afda71e0c63b2a0e5065f87ae8d47d72121"
+    },
+    "a_s01_p010_f01": {
+      "path": "assets/a_s01_p010_f01.png",
+      "kind": "image",
+      "page": 10,
+      "bbox": [
+        191.63,
+        584.809,
+        705.502,
+        778.145
+      ],
+      "sha256": "8daab97127533719a8153f7ea8bdbd13bbd662793b54e760f618f7c36ccb7983"
+    },
+    "a_s01_p013_f01": {
+      "path": "assets/a_s01_p013_f01.png",
+      "kind": "image",
+      "page": 13,
+      "bbox": [
+        153.236,
+        1160.019,
+        618.428,
+        1371.181
+      ],
+      "sha256": "6f36dbf55ea6fa9803d1592abea6268b8d6ba89a9fb66e2ab85627b82c98f7e1"
+    },
+    "a_q8_a": {
+      "path": "assets/a_q8_a.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        225.911,
+        994.106,
+        428.169,
+        1203.897
+      ],
+      "sha256": "596754c1181ea6ac6971acc2267ac7d65590f30ecf0836401c785ca6e2913ed4"
+    },
+    "a_q8_b": {
+      "path": "assets/a_q8_b.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        428.855,
+        994.106,
+        620.142,
+        1203.897
+      ],
+      "sha256": "65c8fc6c0aa27ef5e95c59438d80729b9306b07abf19f4e0d8b98adb49e04adc"
+    },
+    "a_q8_c": {
+      "path": "assets/a_q8_c.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        620.142,
+        994.106,
+        829.941,
+        1203.897
+      ],
+      "sha256": "13e598b37cfba7ee11882b594121de2f5e1d22b19fff6d126b3d863ff8493592"
+    },
+    "a_q8_d": {
+      "path": "assets/a_q8_d.png",
+      "kind": "image",
+      "page": 3,
+      "bbox": [
+        829.941,
+        994.106,
+        1021.915,
+        1203.897
+      ],
+      "sha256": "e7a09f60fbe3833e65aeabc6baf1fd47df091d00201d3e73e2558bbe0ca34e2d"
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "label": "1",
+      "type": "single_choice",
+      "stem": "以下关于布朗运动的说法正确的是",
+      "options": [
+        {
+          "key": "A",
+          "content": "布朗运动就是分子的无规则运动"
+        },
+        {
+          "key": "B",
+          "content": "布朗运动反映了固体小颗粒的分子在做无规则运动"
+        },
+        {
+          "key": "C",
+          "content": "向一锅水中撒一点胡椒粉，加热时发现水中的胡椒粉在翻滚，这说明温度越高布朗运动越剧烈"
+        },
+        {
+          "key": "D",
+          "content": "在显微镜下可以观察到煤油中小粒灰尘的布朗运动，这说明煤油分子在做无规则运动"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q002",
+      "label": "2",
+      "type": "single_choice",
+      "stem": "下列核反应方程中，属于核电站工作原理的反应方程是",
+      "options": [
+        {
+          "key": "A",
+          "content": "$^{2}_{1}\\mathrm{H}+^{3}_{1}\\mathrm{H}\\rightarrow^{4}_{2}\\mathrm{He}+^{1}_{0}\\mathrm{n}$"
+        },
+        {
+          "key": "B",
+          "content": "$^{238}_{92}\\mathrm{U}\\rightarrow^{234}_{90}\\mathrm{Th}+^{4}_{2}\\mathrm{He}$"
+        },
+        {
+          "key": "C",
+          "content": "$^{235}_{92}\\mathrm{U}+^{1}_{0}\\mathrm{n}\\rightarrow^{144}_{56}\\mathrm{Ba}+^{89}_{36}\\mathrm{Kr}+3^{1}_{0}\\mathrm{n}$"
+        },
+        {
+          "key": "D",
+          "content": "$^{4}_{2}\\mathrm{He}+^{27}_{13}\\mathrm{Al}\\rightarrow^{30}_{15}\\mathrm{P}+2^{1}_{0}\\mathrm{n}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q003",
+      "label": "3",
+      "type": "single_choice",
+      "stem": [
+        "用如图所示的装置观察光的干涉和偏振现象。狭缝$S_1$、$S_2$关于$OO'$轴对称，光屏垂直于$OO'$轴放置。将偏振片$P_1$垂直于$OO'$轴置于双缝左侧，单色平行光沿$OO'$轴方向入射，在屏上观察到干涉条纹，再将偏振片$P_2$置于双缝右侧，$P_1$、$P_2$透振方向平行。保持$P_1$不动，将$P_2$绕$OO'$轴转动$90^\\circ$的过程中，关于光屏上的干涉条纹，下列说法正确的是",
+        {
+          "asset": "a_s01_p001_f02"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "条纹间距不变，亮度减小"
+        },
+        {
+          "key": "B",
+          "content": "条纹间距增大，亮度不变"
+        },
+        {
+          "key": "C",
+          "content": "条纹间距减小，亮度减小"
+        },
+        {
+          "key": "D",
+          "content": "条纹间距不变，亮度增大"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "q004",
+      "label": "4",
+      "type": "single_choice",
+      "stem": [
+        "某理想变压器如图甲所示，原、副线圈匝数比$3:1$，输入电压随时间的变化图像如图乙所示，$R_1$的阻值为$R_2$的2倍，则",
+        {
+          "asset": "a_s01_p002_f02",
+          "caption": "甲"
+        },
+        {
+          "asset": "a_s01_p002_f03",
+          "caption": "乙"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "交流电的频率为$0.4\\mathrm{Hz}$"
+        },
+        {
+          "key": "B",
+          "content": "电压表示数约为$23\\mathrm{V}$"
+        },
+        {
+          "key": "C",
+          "content": "原线圈电流与$R_1$电流的比为$1:1$"
+        },
+        {
+          "key": "D",
+          "content": "原线圈的输入功率和副线圈的输出功率之比为$9:1$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "q005",
+      "label": "5",
+      "type": "single_choice",
+      "stem": "2025年10月31日，搭载神舟二十一号载人飞船的长征二号F遥二十一运载火箭在甘肃酒泉卫星发射中心成功点火发射，顺利将张陆、武飞、张洪章三名航天员送入太空，标志着我国载人航天事业取得进一步的发展。假设发射成功后的神舟二十一号飞船在距离地球表面$h$高度的圆形轨道上运行，地球半径为$R$，质量为$M$，地球表面附近的重力加速度为$g$，下列说法不正确的是",
+      "options": [
+        {
+          "key": "A",
+          "content": "神舟二十一号飞船内的三名宇航员处于完全失重状态"
+        },
+        {
+          "key": "B",
+          "content": "神舟二十一号飞船运行速度为$\\sqrt{\\frac{gR^2}{h}}$"
+        },
+        {
+          "key": "C",
+          "content": "神舟二十一号飞船运行周期为$\\frac{2\\pi}{R}\\sqrt{\\frac{(R+h)^3}{g}}$"
+        },
+        {
+          "key": "D",
+          "content": "未来神舟二十一号要返回地球，需要先减速制动"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q006",
+      "label": "6",
+      "type": "single_choice",
+      "stem": [
+        "下列实验现象，不属于电磁感应现象的是",
+        {
+          "asset": "a_s01_p002_f01"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "甲图中，当线圈转动时电流计有示数"
+        },
+        {
+          "key": "B",
+          "content": "乙图中，转动手柄时线框跟随磁铁转动"
+        },
+        {
+          "key": "C",
+          "content": "丙图中，磁铁靠近时电子束径迹发生弯曲"
+        },
+        {
+          "key": "D",
+          "content": "丁图中，强磁铁下落时电压表示数不为零"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "q007",
+      "label": "7",
+      "type": "single_choice",
+      "stem": [
+        "如图所示为排球运动员的某次垫球训练，排球竖直向上运动，之后又落回到原位置，假设运动过程中排球所受空气阻力大小与速率成正比，则",
+        {
+          "asset": "a_s01_p003_f01"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "球上升阶段所用时间大于下降阶段所用时间"
+        },
+        {
+          "key": "B",
+          "content": "球上升阶段动量的变化率大于下降阶段动量的变化率"
+        },
+        {
+          "key": "C",
+          "content": "球上升阶段空气阻力做的功小于下降阶段空气阻力做的功"
+        },
+        {
+          "key": "D",
+          "content": "球上升阶段克服重力做功小于下降阶段重力做功"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q008",
+      "label": "8",
+      "type": "single_choice",
+      "stem": [
+        "某同学利用电压传感器来研究电感线圈工作时的特点。图中三个灯泡完全相同，不考虑温度对灯泡电阻的影响。在闭合开关S的同时开始采集数据，当电路达到稳定状态后断开开关。不计电源内阻及电感线圈L的电阻。则由传感器得到的电压$U$随时间$t$变化的图像正确的是（　　）",
+        {
+          "asset": "a_s01_p003_f03"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": [
+            {
+              "asset": "a_q8_a",
+              "caption": "A"
+            }
+          ]
+        },
+        {
+          "key": "B",
+          "content": [
+            {
+              "asset": "a_q8_b",
+              "caption": "B"
+            }
+          ]
+        },
+        {
+          "key": "C",
+          "content": [
+            {
+              "asset": "a_q8_c",
+              "caption": "C"
+            }
+          ]
+        },
+        {
+          "key": "D",
+          "content": [
+            {
+              "asset": "a_q8_d",
+              "caption": "D"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q009",
+      "label": "9",
+      "type": "single_choice",
+      "stem": [
+        "一组身高相近的学生沿一直线等间隔排成一排，从左边第一位同学开始，依次周期性地“下蹲、起立”，整个队列呈现类似简谐波的波浪效果，如图所示。假定某次游戏中，形成的波形的波长为$4\\mathrm{m}$，左边第一位同学蹲至最低点时，队列中另一同学恰好站直，则这两位同学间的距离可能是",
+        {
+          "asset": "a_s01_p003_f02"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "$1\\mathrm{m}$"
+        },
+        {
+          "key": "B",
+          "content": "$4\\mathrm{m}$"
+        },
+        {
+          "key": "C",
+          "content": "$6\\mathrm{m}$"
+        },
+        {
+          "key": "D",
+          "content": "$8\\mathrm{m}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "q010",
+      "label": "10",
+      "type": "single_choice",
+      "stem": [
+        "如图所示，孩子们在滑梯上匀速下滑，设孩子们与滑梯间动摩擦因数相同，下列说法正确的是",
+        {
+          "asset": "a_s01_p004_f01"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "仅增大滑梯长度，小孩到达地面速度不变"
+        },
+        {
+          "key": "B",
+          "content": "仅增大滑梯长度，小孩到达地面所需时间不变"
+        },
+        {
+          "key": "C",
+          "content": "若两个小孩前后靠在一起下滑，将做减速运动"
+        },
+        {
+          "key": "D",
+          "content": "若小孩怀抱书包，依然能匀速下滑"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q011",
+      "label": "11",
+      "type": "single_choice",
+      "stem": [
+        "如图所示，在一固定的正点电荷产生的电场中，另一正点电荷$q$先后以大小相等、方向不同的初速度从$P$点出发，仅在电场力作用下运动，形成了直线$PM$和曲线$PN$两条轨迹，经过$M$、$N$两点时$q$的速度大小相等。则",
+        {
+          "asset": "a_s01_p004_f03"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "$M$点比$P$点的电势高"
+        },
+        {
+          "key": "B",
+          "content": "$M$、$N$两点电势不同"
+        },
+        {
+          "key": "C",
+          "content": "$q$从$P$点到$M$点始终做减速运动"
+        },
+        {
+          "key": "D",
+          "content": "$q$在$M$、$N$两点的加速度大小相等"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "D"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q012",
+      "label": "12",
+      "type": "single_choice",
+      "stem": [
+        "如图所示装置，1是待测位移的物体，软铁芯2插在空心线圈3中并且可以随着物体1在线圈中左右平移。关于该传感器下列说法正确的是",
+        {
+          "asset": "a_s01_p004_f02"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "该传感器将待测物体位移的变化量转换成电路中电压的变化量"
+        },
+        {
+          "key": "B",
+          "content": "为使传感器正常工作，电路中应使用直流电源"
+        },
+        {
+          "key": "C",
+          "content": "若待测物体向左平移，电流表的示数将减小"
+        },
+        {
+          "key": "D",
+          "content": "减少线圈3的匝数，该传感器灵敏度不变"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "C"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "q013",
+      "label": "13",
+      "type": "single_choice",
+      "stem": [
+        "如图（a）所示，倾角为$\\theta$的足够长斜面放置在粗糙水平面上。质量相等的小物块甲、乙同时以初速度$v_0$沿斜面下滑，甲、乙与斜面的动摩擦因数分别为$\\mu_1$、$\\mu_2$，整个过程中斜面相对地面静止。甲和乙的位置$x$与时间$t$的关系曲线如图（b）所示，两条曲线均为抛物线，乙的$x-t$曲线在$t=t_0$时切线斜率为0，则",
+        {
+          "asset": "a_s01_p005_f03"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "$\\mu_1+\\mu_2=2\\tan\\theta$"
+        },
+        {
+          "key": "B",
+          "content": "$t=t_0$时，甲的速度大小为$3v_0$"
+        },
+        {
+          "key": "C",
+          "content": "$t<t_0$时，地面对斜面的摩擦力方向向左"
+        },
+        {
+          "key": "D",
+          "content": "$t>t_0$时，斜面对地面的摩擦力方向向左"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "A"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q014",
+      "label": "14",
+      "type": "single_choice",
+      "stem": [
+        "1896年塞曼发现原子在足够强的外加匀强磁场中，光谱谱线会发生分裂，该现象称为塞曼效应。此效应广泛应用于天文恒星磁场探测、精密光谱分析、原子能级精准标定等领域。在天文观测中，科学家通过观测太阳黑子区域的塞曼分裂谱线，可以推测其磁感应强度。\n\n如图所示，观测中发现某条谱线在无磁场时频率为$\\nu_0$，在外磁场作用下分裂为三条谱线。若已知该谱线对应的原子能级差$\\Delta E=h\\cdot\\Delta\\nu$（$h$为普朗克常量），且此原子能级差$\\Delta E$与$B$成正比，其比例系数取决于基本物理常数。以下分析正确的是",
+        {
+          "asset": "a_s01_p005_f01"
+        }
+      ],
+      "options": [
+        {
+          "key": "A",
+          "content": "电子绕核运动时，洛伦兹力始终不做功，因此原子能级不会发生任何改变"
+        },
+        {
+          "key": "B",
+          "content": "光子频率的改变量$\\Delta\\nu$与磁场强度$B$成正比，其比例系数与普朗克常数$h$和电子电荷量$e$有关"
+        },
+        {
+          "key": "C",
+          "content": "可以测得月光中某种光的塞曼分裂谱线，从而推测月球的磁感应强度"
+        },
+        {
+          "key": "D",
+          "content": "根据题中图示信息可以推得，分裂后三条谱线的波长关系应该满足$\\lambda_0=\\frac{\\lambda_1+\\lambda_2}{2}$"
+        }
+      ],
+      "answer": {
+        "source": "question_document",
+        "choices": [
+          "B"
+        ]
+      },
+      "score": 3,
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "q015",
+      "label": "15",
+      "type": "composite",
+      "stem": "物理实验一般都涉及实验目的、实验原理、实验仪器、实验方法、实验操作、数据分析等。例如：",
+      "score": 8,
+      "pages": [
+        6,
+        7
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "stem": [
+            "实验仪器。",
+            "下表是用如图所示的多用电表进行测量的记录，a、b分别为测量时的指针位置，请你填写表格中的空格。",
+            {
+              "asset": "a_s01_p006_f02"
+            },
+            {
+              "table": {
+                "header": [
+                  "所测物理量",
+                  "量程（或倍率）",
+                  "指针",
+                  "读数"
+                ],
+                "rows": [
+                  [
+                    "直流电流",
+                    "____",
+                    "b",
+                    "$8.0\\mathrm{mA}$"
+                  ],
+                  [
+                    "电阻",
+                    "____",
+                    "a",
+                    "$5\\times10^3\\Omega$"
+                  ]
+                ]
+              }
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "rubric": [
+              {
+                "content": "$10\\mathrm{mA}$",
+                "score": 1
+              },
+              {
+                "content": "$\\times100\\Omega$",
+                "score": 1
+              }
+            ]
+          },
+          "pages": [
+            6
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "fill_blank",
+          "stem": [
+            "实验操作。",
+            "某兴趣小组要测量半圆形透明玻璃砖的折射率，实验装置如图所示，实验步骤如下：",
+            "①光屏$MN$与玻璃砖的直径$AB$垂直放置，画出玻璃砖的圆心$O$、直径$AB$以及$AB$的法线；",
+            "②调节激光器，使入射光线$PO$从玻璃砖圆弧面沿半径方向射向圆心$O$，适当调节入射角度，可以在光屏$MN$上看到两个亮点$C$、$D$（不考虑$AB$弧面上的反射），描下两个亮点$C$、$D$的位置；",
+            "③用刻度尺测量________、________长度，从而计算出折射率。",
+            {
+              "asset": "a_s01_p006_f01"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "rubric": [
+              {
+                "content": "$OC$",
+                "score": 1
+              },
+              {
+                "content": "$OD$",
+                "score": 1
+              }
+            ]
+          },
+          "pages": [
+            6
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "fill_blank",
+          "stem": [
+            "数据分析。",
+            "某同学实验时将打点计时器接到频率为$50\\mathrm{Hz}$的电源上，得到了一条纸带，纸带上打出的部分计数点如图所示（每相邻两个计数点间还有2个计时点未画出）",
+            {
+              "asset": "a_s01_p007_f02"
+            },
+            "已知$s_1=3.82\\mathrm{cm}$，$s_2=4.02\\mathrm{cm}$，$s_3=4.20\\mathrm{cm}$，$s_4=4.40\\mathrm{cm}$，$s_5=4.62\\mathrm{cm}$，$s_6=4.82\\mathrm{cm}$，则小车的加速度大小$a=$________$\\mathrm{m/s^2}$，打点计时器在打$C$点时小车的速度大小$v_C=$________$\\mathrm{m/s}$。（结果均保留2位有效数字）"
+          ],
+          "answer": {
+            "source": "question_document",
+            "rubric": [
+              {
+                "content": "$0.56$",
+                "score": 2
+              },
+              {
+                "content": "$0.69$",
+                "score": 2
+              }
+            ]
+          },
+          "pages": [
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q016",
+      "label": "16",
+      "type": "composite",
+      "stem": "某同学在实验室测量一段圆柱形导电材料的电阻率。",
+      "score": 10,
+      "pages": [
+        7,
+        8
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "fill_blank",
+          "score": 2,
+          "pages": [
+            7
+          ],
+          "stem": [
+            "用螺旋测微器测量其直径，如图所示，读数是________$\\mathrm{mm}$。",
+            {
+              "asset": "a_s01_p007_f01"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "$4.700$"
+          }
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "fill_blank",
+          "score": 2,
+          "pages": [
+            7
+          ],
+          "stem": [
+            "已知圆柱形导电材料的电阻约为$6\\Omega$，除待测材料外，实验室备有的实验器材如下：",
+            "A.电源（电动势$E=4.0\\mathrm{V}$，内阻很小）",
+            "B.电压表$V_1$（$0\\sim3\\mathrm{V}$，内阻约$15\\mathrm{k}\\Omega$）",
+            "C.电压表$V_2$（$0\\sim15\\mathrm{V}$，内阻约$75\\mathrm{k}\\Omega$）",
+            "D.电流表$A_1$（$0\\sim0.6\\mathrm{A}$，内阻$r_A=2\\Omega$）",
+            "E.电流表$A_2$（$0\\sim3\\mathrm{A}$，内阻约$0.1\\Omega$）",
+            "F.滑动变阻器$R$（$0\\sim30\\Omega$）",
+            "G.开关、导线若干",
+            "为了调节方便，测量准确，实验中电压表应选________，电流表应选________。（均填写各器材前的字母代号）"
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "B；D"
+          }
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "fill_blank",
+          "score": 2,
+          "pages": [
+            7
+          ],
+          "stem": [
+            "为了使圆柱形导电材料的两端电压能明显变化且线性较好，并使测量结果尽可能准确，应选用如图所示的________电路进行实验。",
+            {
+              "asset": "a_s01_p007_f03"
+            }
+          ],
+          "answer": {
+            "source": "question_document",
+            "content": "丁"
+          }
+        },
+        {
+          "id": "p4",
+          "label": "（4）",
+          "type": "fill_blank",
+          "score": 2,
+          "pages": [
+            7,
+            8
+          ],
+          "stem": "根据电路图测得多组电压表和电流表的示数$U$、$I$，作$U-I$图像，得到图像的斜率为$k$，若实验所用导电材料的长为$L$，横截面直径为$D$，则得到圆柱形导电材料的电阻率$\\rho=$________（用$k$、$L$、$D$表示）。",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\frac{\\pi kD^2}{4L}$"
+          }
+        },
+        {
+          "id": "p5",
+          "label": "（5）",
+          "type": "fill_blank",
+          "score": 2,
+          "pages": [
+            8
+          ],
+          "stem": "实验中发现电压表损坏，他又找到另外一个内阻为$R_1$的毫安表mA和定值电阻$R_2$替代电压表完成了实验。实验中毫安表mA和电流表的示数分别为$I_1$和$I$，改变滑片位置测得多组$I_1$、$I$数据，他作出了$I-I_1$图像为一条直线，测得该直线的斜率为$k$。则圆柱形导电材料的电阻率的表达式为________（用$k$、$L$、$D$、$R_1$、$R_2$表示）。",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\frac{\\pi D^2(R_1+R_2)}{4kL}$"
+          }
+        }
+      ]
+    },
+    {
+      "id": "q017",
+      "label": "17",
+      "type": "composite",
+      "score": 9,
+      "pages": [
+        8
+      ],
+      "stem": [
+        "如图所示，高度$h=0.8\\mathrm{m}$的水平桌面上放置两个相同物块$A$、$B$，质量$m_A=m_B=0.1\\mathrm{kg}$。$A$、$B$间夹一压缩量$\\Delta x=0.1\\mathrm{m}$的轻弹簧，弹簧与$A$、$B$不拴接。同时由静止释放$A$、$B$，弹簧恢复原长时$A$恰好从桌面左端沿水平方向飞出，水平射程$x_A=0.4\\mathrm{m}$；$B$脱离弹簧后沿桌面滑行一段距离$x_B=0.25\\mathrm{m}$后停止。$A$、$B$均视为质点，取重力加速度$g=10\\mathrm{m/s^2}$。求：",
+        {
+          "asset": "a_s01_p008_f01"
+        }
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "calculation",
+          "pages": [
+            8
+          ],
+          "stem": "脱离弹簧时$A$的速度大小$v_A$；",
+          "answer": {
+            "source": "question_document",
+            "content": "$v_A=1\\mathrm{m/s}$"
+          },
+          "analysis": [
+            "弹簧恢复原长时$A$恰好从桌面左端沿水平方向飞出，$A$飞出后做平抛运动，由平抛运动的规律可得：",
+            "水平射程：$x_A=v_A t$------1分",
+            "下落高度：$h=\\frac{1}{2}gt^2$------1分",
+            "联立解得：$v_A=1\\mathrm{m/s}$------1分"
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "calculation",
+          "pages": [
+            8
+          ],
+          "stem": "脱离弹簧时$B$的速度大小$v_B$；",
+          "answer": {
+            "source": "question_document",
+            "content": "$v_B=1\\mathrm{m/s}$"
+          },
+          "analysis": [
+            "物块$A$、$B$与弹簧作用过程，由题意可知物块$A$、$B$受到的滑动摩擦力等大反向，则物块$A$、$B$与弹簧组成的系统合外力为零，满足动量守恒定律，以向右为正方向，则有：",
+            "$-m_Av_A+m_Bv_B=0$------2分",
+            "解得：$v_B=1\\mathrm{m/s}$------1分"
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "calculation",
+          "pages": [
+            8
+          ],
+          "stem": "物块与桌面间的动摩擦因数$\\mu$。",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\mu=0.2$"
+          },
+          "analysis": [
+            "对$B$脱离弹簧后沿桌面滑行一段距离$x_B=0.25\\mathrm{m}$后停止的过程，根据动能定理得：",
+            "$-\\mu m_B g x_B=0-\\frac{1}{2}m_Bv_B^2$------2分",
+            "解得物块与桌面间的动摩擦因数为$\\mu=0.2$------1分"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q018",
+      "label": "18",
+      "type": "composite",
+      "score": 9,
+      "pages": [
+        8,
+        9
+      ],
+      "stem": [
+        "2026年3月，我国“蓝焱”220吨级液氧甲烷发动机完成长程试车，将助力载人登月等任务。假设搭载“蓝焱”发动机的火箭将一艘飞船先送入圆轨道Ⅰ运行，飞船经多次变轨进入地月转移轨道，如图所示。已知$a$是圆轨道Ⅰ上的点，$b$是椭圆轨道Ⅱ上的远地点，$c$是转移轨道上的点，$d$是椭圆轨道Ⅱ上的近地点且与圆轨道Ⅰ相切。$a$、$b$两点到地球球心的距离分别为$R$和$3R$。",
+        {
+          "asset": "a_s01_p008_f03"
+        }
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "calculation",
+          "pages": [
+            9
+          ],
+          "stem": "求飞船在圆轨道Ⅰ与椭圆轨道Ⅱ上的运行周期之比$T_1:T_2$；",
+          "answer": {
+            "source": "question_document",
+            "content": "$T_1:T_2=1:3\\sqrt{3}$"
+          },
+          "analysis": [
+            "根据开普勒第三定律；",
+            "$\\frac{R^3}{T_1^2}=\\frac{(3R)^3}{T_2^2}$------2分",
+            "飞船在圆轨道Ⅰ周期$T_1$与椭圆轨道Ⅱ上的周期$T_2$之比为$1:3\\sqrt{3}$------1分"
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "calculation",
+          "pages": [
+            9
+          ],
+          "stem": "求飞船在椭圆轨道Ⅱ上$d$、$b$的速率之比$v_d:v_b$；",
+          "answer": {
+            "source": "question_document",
+            "content": "$v_d:v_b=3:1$"
+          },
+          "analysis": [
+            "在极小时间$t$内，根据开普勒第二定律，飞船与太阳的连线在相等的时间内扫过的面积相等。",
+            "$\\frac{1}{2}Rv_dt=\\frac{1}{2}\\times3Rv_bt$------2分",
+            "所以飞船在椭圆轨道Ⅱ上$d$、$b$的速率之比为$3:1$------1分"
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "short_answer",
+          "pages": [
+            9
+          ],
+          "stem": "比较飞船在$b$、$c$点的机械能大小并说明理由。",
+          "answer": {
+            "source": "question_document",
+            "content": "飞船在$c$点的机械能大于飞船在$b$点的机械能"
+          },
+          "analysis": [
+            "飞船在$c$点的机械能大于飞船在$b$点的机械能------1分",
+            "椭圆轨道上机械能守恒，飞船在$b$点的机械能等于在$d$点的机械能，从$d$点飞船加速才能做离心运动到$c$点，所以飞船的机械能增大。------2分"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q019",
+      "label": "19",
+      "type": "composite",
+      "score": 10,
+      "pages": [
+        9
+      ],
+      "stem": [
+        "2025年11月5日福建舰正式入列，标志着我国海军正式进入“三航母时代”。如图甲所示，福建舰配备了目前世界上最先进的电磁弹射系统。图乙所示是一种简化的电磁弹射模型，电源的电动势为$E$，内阻不计。两条足够长的导轨间距为$L$且水平放置，处于磁感应强度为$B$的匀强磁场中，磁场方向垂直于导轨平面向下，电容器的电容为$C$。现将一质量为$m$、电阻为$R$的金属滑块垂直放置于导轨的滑槽内，分别与两导轨良好接触。将开关K置于$a$使电容器充电，充电结束后，再将开关K置于$b$，金属滑块会在电磁力的驱动下运动。不计导轨和电路其他部分的电阻，不计电容器充放电过程中该装置向外辐射的电磁能量及导轨中电流产生的磁场对滑块的作用，求：",
+        {
+          "asset": "a_s01_p009_f01",
+          "caption": "甲　乙"
+        }
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "composite",
+          "pages": [
+            9
+          ],
+          "stem": "若忽略金属滑块运动过程中的一切阻力，",
+          "parts": [
+            {
+              "id": "pA",
+              "label": "a.",
+              "type": "calculation",
+              "pages": [
+                9
+              ],
+              "stem": "求开关接$b$后金属块的最大加速度$a_m$大小；",
+              "answer": {
+                "source": "question_document",
+                "content": "$a_m=\\frac{BEL}{mR}$"
+              },
+              "analysis": [
+                "经分析，当开关K置于$b$的瞬间金属块加速度最大，由闭合电路欧姆定律可得电路中的电流$I_0=\\frac{E}{R}$；滑块所受安培力$F=BI_0L$------1分",
+                "根据牛顿第二定律$F=ma_m$，------1分",
+                "解得滑块的加速度$a_m=\\frac{BEL}{mR}$------1分"
+              ]
+            },
+            {
+              "id": "pB",
+              "label": "b.",
+              "type": "calculation",
+              "pages": [
+                9
+              ],
+              "stem": "求开关接$b$后金属块的最大速度$v_m$大小；",
+              "answer": {
+                "source": "question_document",
+                "content": "$v_{max}=\\frac{B_0LCE}{m+CB_0^2L^2}$"
+              },
+              "analysis": [
+                "当金属棒运动达到稳定状态时，则有：$F_{安}=B_0IL=0$",
+                "设金属棒的稳定速度为$v_{max}$，此时电容器两端电压为$U_C$，则有",
+                "$U_C=B_0Lv_{max}$------1分",
+                "在此过程中，由动量定理得：$\\sum B_0IL\\Delta t=mv_{max}$------1分",
+                "其中$\\sum I\\Delta t=\\Delta q=C(E-U_C)$",
+                "解得$v_{max}=\\frac{B_0LCE}{m+CB_0^2L^2}$------1分"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "calculation",
+          "pages": [
+            9
+          ],
+          "stem": "如果$B$可调，金属滑块在运动时受到的恒定阻力为$f$，求金属块能达到的最大速度$v'_m$和对应的$B$值大小。",
+          "answer": {
+            "source": "question_document",
+            "content": [
+              "$v'_m=\\frac{E^2}{4fR}$",
+              "$B=\\frac{2fR}{EL}$"
+            ]
+          },
+          "analysis": [
+            "当组合体最终达到稳定时，有",
+            "$F_{安}=B\\frac{(E-BLv)}{R}L=f$------1分",
+            "整理得$B^2L^2v-BLE+fR=0$",
+            "由求根公式得",
+            "$B=\\frac{1}{2Lv}(E\\pm\\sqrt{E^2-4fvR})$------1分",
+            "使$B$有解，则$E^2-4fvR\\geq0$",
+            "即$v\\leq\\frac{E^2}{4fR}$，得$v'_m=\\frac{E^2}{4fR}$------1分",
+            "此时$B=\\frac{E}{2Lv'_m}=\\frac{2fR}{EL}$------1分"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q020",
+      "label": "20",
+      "type": "composite",
+      "score": 12,
+      "pages": [
+        10
+      ],
+      "stem": [
+        "离子推进技术在太空探索中已有广泛的应用，其装置可简化为如图（a）所示的内、外半径分别为$R_1$和$R_2$的圆筒，图（b）为其侧视图。以圆筒左侧圆心$O$为坐标原点，沿圆筒轴线向右为$x$轴正方向建立坐标。在$x=0$和$x=L$处，垂直于$x$轴放置栅极，在两圆筒间形成方向沿$x$轴正方向、大小为$E$的匀强电场，同时通过电磁铁在两圆筒间加上沿$x$轴正方向、大小为$B$的匀强磁场。内圆筒表面分布着沿径向以一定初速度运动的电子源，待电离的氙原子从左侧栅极飘进两圆筒间（其初速度可视为零），氙原子被电子碰撞，可电离为一价正离子，刚被电离的氙离子的速度可视为零，经电场加速后从栅极射出，推进器获得反冲力。已知单位时间内刚被电离成氙离子的线密度（沿$x$轴方向单位长度的离子数）$\\lambda=\\sqrt{k(L-x)}$，其中$k$为常量，氙离子质量为$M$，电子质量为$m$，电子元电荷量为$e$，不计离子间、电子间相互作用。",
+        {
+          "asset": "a_s01_p010_f01",
+          "caption": "（a）　（b）"
+        }
+      ],
+      "parts": [
+        {
+          "id": "p1",
+          "label": "（1）",
+          "type": "calculation",
+          "pages": [
+            10
+          ],
+          "stem": "在$x$处的一个氙原子被电离，经电场加速后从右侧栅极射出，求其射出时的动能；",
+          "answer": {
+            "source": "question_document",
+            "content": "$E_k=Ee(L-x)$"
+          },
+          "analysis": "氙离子从右侧栅极射出，由动能定理可得$E_k=Ee(L-x)$------2分"
+        },
+        {
+          "id": "p2",
+          "label": "（2）",
+          "type": "calculation",
+          "pages": [
+            10
+          ],
+          "stem": "若电子既没与氙原子碰撞，也没有碰到外筒壁，求电子沿径向圆周运动一个周期内$x$轴方向上的速度变化量$\\Delta v_x$大小；",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\Delta v_x=\\frac{2\\pi E}{B}$"
+          },
+          "analysis": [
+            "电子在筒内垂直于$x$轴方向做匀速圆周运动，由牛顿第二定律可知$eBv=m\\frac{v^2}{R}$，又$T=\\frac{2\\pi R}{v}$，代入数据可得$T=\\frac{2\\pi m}{eB}$------1分",
+            "电子沿$x$轴方向上做匀加速直线运动，由牛顿第二定律可知$a=\\frac{eE}{m}$------1分",
+            "电子一个周期内的速度变化量$\\Delta v_x=aT$，代入数据可得$\\Delta v_x=\\frac{2\\pi E}{B}$------1分"
+          ]
+        },
+        {
+          "id": "p3",
+          "label": "（3）",
+          "type": "calculation",
+          "pages": [
+            10
+          ],
+          "stem": "若在$x\\sim x+\\Delta x$的微小区间内被电离的氙离子从右侧栅极射出时所产生的推力大小为$\\Delta F$，求$\\frac{\\Delta F}{\\Delta x}\\sim x$的关系式，并定量画出$\\frac{\\Delta F}{\\Delta x}\\sim x$的图线；",
+          "answer": {
+            "source": "question_document",
+            "content": "$\\frac{\\Delta F}{\\Delta x}=\\sqrt{2kMEe(L-x)}$"
+          },
+          "analysis": [
+            "单位时间内刚被电离成的氙离子个数$\\Delta n=\\lambda\\Delta x=\\sqrt{k(L-x)}\\Delta x$------1分",
+            "由动量定理可知，$\\Delta F\\Delta t=\\Delta n\\Delta tMv$------1分",
+            "这些氙离子从右侧栅极射出时所产生的推力$\\Delta F=\\Delta nMv$，",
+            "又$E_k=\\frac{1}{2}Mv^2$，代入数据可得$\\frac{\\Delta F}{\\Delta x}=\\sqrt{2kMEe(L-x)}$------1分",
+            "图线如图所示：",
+            {
+              "asset": "a_s01_p013_f01"
+            }
+          ]
+        },
+        {
+          "id": "p4",
+          "label": "（4）",
+          "type": "calculation",
+          "pages": [
+            10
+          ],
+          "stem": "求推进器所受的推力大小$F$。",
+          "answer": {
+            "source": "question_document",
+            "content": "$F=\\frac{1}{2}\\sqrt{2kMEeL^2}$"
+          },
+          "analysis": "上图图线与横轴所夹图形面积代表推力，所以推进器所受的推力$F=\\frac{1}{2}\\times\\sqrt{2kMEeL}\\times L=\\frac{1}{2}\\sqrt{2kMEeL^2}$------2分"
+        }
+      ]
+    }
+  ]
+}
