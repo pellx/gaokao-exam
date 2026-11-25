@@ -143,10 +143,10 @@ math-2026-mock3-xicheng-school-beishidaerfuzhong.pdf
 
 - `catalog`：827 条去重卷目名录，含年份、批次、区县/学校、科目、标题、题数、核查状态与来源 URL；原始数据在 `pipeline/manifests/papers_catalog.json`。
 - `source_pages`：81 条来源网页记录，含页面文件名、来源 URL、大小与 SHA-256；原始数据在 `pipeline/manifests/source_pages.json`。网页快照本体在本地归档 `backup/data/original_downloads/source_pages/`，不入库。
-- `papers`：已处理的 162 份结果（verified 56、draft 88、needs_review 17），含 `paper.json` 路径、SHA-256、抽取状态和队列状态。
+- `papers`：已处理的 190 份结果（verified 99、draft 76、needs_review 15）（verified 56、draft 88、needs_review 17），含 `paper.json` 路径、SHA-256、抽取状态和队列状态。
 - `unprocessed_raw_files`：尚未处理的 0 份原卷。
-- `files`：`raw/` 与 `parsed/` 下全部 2778 个文件的路径、大小和哈希。
-- `errors`：索引时发现的问题，目前 72 条：71 条是 `raw/` 中暂无原卷的其它学科结果（当前工作副本只保留 90 份生物卷原卷），1 条是物理卷 `paper.json` 的 JSON 转义错误。这些结果本身通过 Schema 与资源哈希校验，只是本地缺少对应原卷。
+- `files`：`raw/` 与 `parsed/` 下全部 3682 个文件的路径、大小和哈希。
+- `errors`：索引时发现的问题，目前 100 条，全部是 `Missing source`：这些结果（语文、数学、英语、物理、化学、生物以外的历政地等）的原卷 PDF 不在当前工作副本的 `raw/` 中——本地只保留了生物卷 90 份原卷与 2026 物理卷；结果文件本身通过 Schema 与资源哈希校验。
 
 ## 清单与维护
 
