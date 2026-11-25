@@ -1,6 +1,6 @@
 {
   "format": "exam-library-index/v1",
-  "generated_at": "2026-11-25T12:52:41.328530+00:00",
+  "generated_at": "2026-11-25T12:56:36.980185+00:00",
   "directories": {
     "raw": "raw/",
     "processed": "parsed/",
@@ -25,9 +25,9 @@
     "indexed_files": 3682,
     "unprocessed_raw_files": 0,
     "extraction_status": {
-      "verified": 99,
+      "verified": 107,
       "needs_review": 15,
-      "draft": 76
+      "draft": 68
     },
     "queue_status": {
       "verified": 85,
@@ -22828,11 +22828,11 @@
       "school": null,
       "variant": "copy-01",
       "paper_json": "parsed/生物/2025/一模/biology-2025-mock1-chaoyang-copy-01.pdf/paper.json",
-      "paper_sha256": "d0805e5f0e8149314fe6d5576ce11696b89420376a0df056bafba44d8005889c",
+      "paper_sha256": "166b0e42ee0faa1ab3ba2cfa9602eeab479706e6d087516114c5239187a0f11e",
       "source_files": [
         "raw/生物/2025/一模/biology-2025-mock1-chaoyang-copy-01.pdf"
       ],
-      "extraction_status": "draft",
+      "extraction_status": "verified",
       "queue_status": "not_in_2026_queue",
       "top_level_questions": 21,
       "leaf_questions": 46,
@@ -22868,11 +22868,11 @@
       "school": null,
       "variant": "copy-01",
       "paper_json": "parsed/生物/2025/一模/biology-2025-mock1-dongcheng-copy-01.pdf/paper.json",
-      "paper_sha256": "b350f83343afdc9470000eeea941f488247854dcc5d360451ae524c9cbcfca9d",
+      "paper_sha256": "63a38c7c7ecc8b12b4fc8ef148b330209170ffcb0891a9c90afa5df793432ead",
       "source_files": [
         "raw/生物/2025/一模/biology-2025-mock1-dongcheng-copy-01.pdf"
       ],
-      "extraction_status": "draft",
+      "extraction_status": "verified",
       "queue_status": "not_in_2026_queue",
       "top_level_questions": 21,
       "leaf_questions": 39,
@@ -22908,11 +22908,11 @@
       "school": null,
       "variant": null,
       "paper_json": "parsed/生物/2025/一模/biology-2025-mock1-fangshan.pdf/paper.json",
-      "paper_sha256": "aeac63ce7bab87fb94355ae848dcf6c15798ab3656847bfe9e85733d14238f25",
+      "paper_sha256": "490b98c2db7914c608adf0ccea0984140b23e28a02bec139bcaf0a522e0e8576",
       "source_files": [
         "raw/生物/2025/一模/biology-2025-mock1-fangshan.pdf"
       ],
-      "extraction_status": "draft",
+      "extraction_status": "verified",
       "queue_status": "not_in_2026_queue",
       "top_level_questions": 21,
       "leaf_questions": 45,
@@ -22928,11 +22928,11 @@
       "school": null,
       "variant": "copy-01",
       "paper_json": "parsed/生物/2025/一模/biology-2025-mock1-fengtai-copy-01.pdf/paper.json",
-      "paper_sha256": "bbea95a9bfe002bfe357c482176563c63c6e91aa2d0984cde22771e79bc3d094",
+      "paper_sha256": "60e9d570aabf8cfde07852c9fe50adc443d6c6ac178cbfde2f2499418d6476d6",
       "source_files": [
         "raw/生物/2025/一模/biology-2025-mock1-fengtai-copy-01.pdf"
       ],
-      "extraction_status": "draft",
+      "extraction_status": "verified",
       "queue_status": "not_in_2026_queue",
       "top_level_questions": 21,
       "leaf_questions": 43,
@@ -22968,11 +22968,11 @@
       "school": null,
       "variant": "copy-01",
       "paper_json": "parsed/生物/2025/一模/biology-2025-mock1-haidian-copy-01.pdf/paper.json",
-      "paper_sha256": "e63e479c48fcf9eed4ad7592f2624019ba83ee5aced02be5bd338e3f3d6ec61d",
+      "paper_sha256": "58cf9efabc4c5d1949c50b6c35e333d2b6a6ca07e1ed09e2b0f9eaa1df725966",
       "source_files": [
         "raw/生物/2025/一模/biology-2025-mock1-haidian-copy-01.pdf"
       ],
-      "extraction_status": "draft",
+      "extraction_status": "verified",
       "queue_status": "not_in_2026_queue",
       "top_level_questions": 21,
       "leaf_questions": 42,
@@ -23048,11 +23048,11 @@
       "school": null,
       "variant": "copy-01",
       "paper_json": "parsed/生物/2025/一模/biology-2025-mock1-shijingshan-copy-01.pdf/paper.json",
-      "paper_sha256": "6caa592db02c6ad7e242d17f5a4ffa48509042d7c54a4d008f99008866fb0755",
+      "paper_sha256": "4f48cd9a4e892157d26779ee7093ac071e85896a43ccbef2d4f17fcf085d967f",
       "source_files": [
         "raw/生物/2025/一模/biology-2025-mock1-shijingshan-copy-01.pdf"
       ],
-      "extraction_status": "draft",
+      "extraction_status": "verified",
       "queue_status": "not_in_2026_queue",
       "top_level_questions": 21,
       "leaf_questions": 42,
@@ -23128,11 +23128,11 @@
       "school": null,
       "variant": null,
       "paper_json": "parsed/生物/2025/一模/biology-2025-mock1-tongzhou.pdf/paper.json",
-      "paper_sha256": "f13492cd295dd1bcd4c97e9372e3719d12466fdbf43bf2306b23ed6ff0c4fa8a",
+      "paper_sha256": "89ca5fa36b288704da5e51b952dcc1753517be5319f1b198fcba4b13ea847a6c",
       "source_files": [
         "raw/生物/2025/一模/biology-2025-mock1-tongzhou.pdf"
       ],
-      "extraction_status": "draft",
+      "extraction_status": "verified",
       "queue_status": "not_in_2026_queue",
       "top_level_questions": 21,
       "leaf_questions": 47,
@@ -23148,11 +23148,11 @@
       "school": null,
       "variant": "copy-01",
       "paper_json": "parsed/生物/2025/一模/biology-2025-mock1-xicheng-copy-01.pdf/paper.json",
-      "paper_sha256": "8204047106224d14b635dada0a70e4c95caa9c221f8492ca920c5b13dbe34bf3",
+      "paper_sha256": "602982c85ce79b299357828acacb137c3cfb166cacba949968f88f7297ebe14e",
       "source_files": [
         "raw/生物/2025/一模/biology-2025-mock1-xicheng-copy-01.pdf"
       ],
-      "extraction_status": "draft",
+      "extraction_status": "verified",
       "queue_status": "not_in_2026_queue",
       "top_level_questions": 21,
       "leaf_questions": 40,
@@ -39514,8 +39514,8 @@
     {
       "path": "parsed/生物/2025/一模/biology-2025-mock1-chaoyang-copy-01.pdf/paper.json",
       "category": "paper_json",
-      "bytes": 50860,
-      "sha256": "d0805e5f0e8149314fe6d5576ce11696b89420376a0df056bafba44d8005889c"
+      "bytes": 50964,
+      "sha256": "166b0e42ee0faa1ab3ba2cfa9602eeab479706e6d087516114c5239187a0f11e"
     },
     {
       "path": "parsed/生物/2025/一模/biology-2025-mock1-chaoyang-copy-02.pdf/assets/a001.png",
@@ -39796,8 +39796,8 @@
     {
       "path": "parsed/生物/2025/一模/biology-2025-mock1-dongcheng-copy-01.pdf/paper.json",
       "category": "paper_json",
-      "bytes": 54725,
-      "sha256": "b350f83343afdc9470000eeea941f488247854dcc5d360451ae524c9cbcfca9d"
+      "bytes": 54829,
+      "sha256": "63a38c7c7ecc8b12b4fc8ef148b330209170ffcb0891a9c90afa5df793432ead"
     },
     {
       "path": "parsed/生物/2025/一模/biology-2025-mock1-dongcheng-copy-02.pdf/assets/a001.png",
@@ -40096,8 +40096,8 @@
     {
       "path": "parsed/生物/2025/一模/biology-2025-mock1-fangshan.pdf/paper.json",
       "category": "paper_json",
-      "bytes": 56665,
-      "sha256": "aeac63ce7bab87fb94355ae848dcf6c15798ab3656847bfe9e85733d14238f25"
+      "bytes": 56769,
+      "sha256": "490b98c2db7914c608adf0ccea0984140b23e28a02bec139bcaf0a522e0e8576"
     },
     {
       "path": "parsed/生物/2025/一模/biology-2025-mock1-fengtai-copy-01.pdf/assets/a001.png",
@@ -40204,8 +40204,8 @@
     {
       "path": "parsed/生物/2025/一模/biology-2025-mock1-fengtai-copy-01.pdf/paper.json",
       "category": "paper_json",
-      "bytes": 49995,
-      "sha256": "bbea95a9bfe002bfe357c482176563c63c6e91aa2d0984cde22771e79bc3d094"
+      "bytes": 50099,
+      "sha256": "60e9d570aabf8cfde07852c9fe50adc443d6c6ac178cbfde2f2499418d6476d6"
     },
     {
       "path": "parsed/生物/2025/一模/biology-2025-mock1-fengtai-copy-02.pdf/assets/a001.png",
@@ -40426,8 +40426,8 @@
     {
       "path": "parsed/生物/2025/一模/biology-2025-mock1-haidian-copy-01.pdf/paper.json",
       "category": "paper_json",
-      "bytes": 52861,
-      "sha256": "e63e479c48fcf9eed4ad7592f2624019ba83ee5aced02be5bd338e3f3d6ec61d"
+      "bytes": 52965,
+      "sha256": "58cf9efabc4c5d1949c50b6c35e333d2b6a6ca07e1ed09e2b0f9eaa1df725966"
     },
     {
       "path": "parsed/生物/2025/一模/biology-2025-mock1-haidian-copy-02.pdf/assets/a001.png",
@@ -40846,8 +40846,8 @@
     {
       "path": "parsed/生物/2025/一模/biology-2025-mock1-shijingshan-copy-01.pdf/paper.json",
       "category": "paper_json",
-      "bytes": 51221,
-      "sha256": "6caa592db02c6ad7e242d17f5a4ffa48509042d7c54a4d008f99008866fb0755"
+      "bytes": 51325,
+      "sha256": "4f48cd9a4e892157d26779ee7093ac071e85896a43ccbef2d4f17fcf085d967f"
     },
     {
       "path": "parsed/生物/2025/一模/biology-2025-mock1-shijingshan-copy-02.pdf/assets/a001.png",
@@ -41266,8 +41266,8 @@
     {
       "path": "parsed/生物/2025/一模/biology-2025-mock1-tongzhou.pdf/paper.json",
       "category": "paper_json",
-      "bytes": 54107,
-      "sha256": "f13492cd295dd1bcd4c97e9372e3719d12466fdbf43bf2306b23ed6ff0c4fa8a"
+      "bytes": 54211,
+      "sha256": "89ca5fa36b288704da5e51b952dcc1753517be5319f1b198fcba4b13ea847a6c"
     },
     {
       "path": "parsed/生物/2025/一模/biology-2025-mock1-xicheng-copy-01.pdf/assets/a001.png",
@@ -41410,8 +41410,8 @@
     {
       "path": "parsed/生物/2025/一模/biology-2025-mock1-xicheng-copy-01.pdf/paper.json",
       "category": "paper_json",
-      "bytes": 50961,
-      "sha256": "8204047106224d14b635dada0a70e4c95caa9c221f8492ca920c5b13dbe34bf3"
+      "bytes": 51065,
+      "sha256": "602982c85ce79b299357828acacb137c3cfb166cacba949968f88f7297ebe14e"
     },
     {
       "path": "parsed/生物/2025/一模/biology-2025-mock1-xicheng-copy-02.pdf/assets/a001.png",

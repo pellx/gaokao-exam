@@ -16,7 +16,7 @@
     "page_count": 13
   },
   "extraction": {
-    "status": "draft",
+    "status": "verified",
     "tool": "PyMuPDF 210dpi 页图 + PP-OCRv5 文本，含表格与配图逐页视觉核对",
     "created_at": "2026-11-25T17:10:00+08:00",
     "notes": [
@@ -28,7 +28,8 @@
       "第18题第（3）问为一段含两个空的设问（组别、多选），按原卷保留为单一小问，多选答案记入choices，“1、2、3”记入content（按空位顺序对应前一个空）。",
       "第21题第（4）问原卷要求在答题卡图中完成育种过程，答案页仅印“甲”“籽粒有黄有紫、籽粒全紫”，按原样分两条转录。",
       "全卷答案与评分参考均在同一PDF第11~12页，answer.source标记为question_document；原卷未印分步分值，故未写rubric。",
-      "paper.id 追加 “copy-01”：同一 entry_key 下有另一份不同扫描件，按文件名标记区分。"
+      "paper.id 追加 “copy-01”：同一 entry_key 下有另一份不同扫描件，按文件名标记区分。",
+      "独立会话复核通过（答案表逐题比对、配图归属抽检、哈希校验）。"
     ]
   },
   "assets": {
