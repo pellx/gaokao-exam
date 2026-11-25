@@ -18,7 +18,7 @@
     "page_count": 9
   },
   "extraction": {
-    "status": "needs_review",
+    "status": "verified",
     "tool": "local-hybrid-v1 (PP-OCRv5 + DocLayout-YOLO) + agent visual review",
     "notes": [
       "扫描件经本地 OCR；已逐页对照原页渲染图校对题干、选项和公式。",
@@ -515,7 +515,8 @@
         }
       ],
       "pages": [
-        1
+        1,
+        2
       ],
       "score": 3,
       "materials": [

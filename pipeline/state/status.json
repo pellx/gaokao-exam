@@ -1408,7 +1408,7 @@
     "run_id": "20261115_161411",
     "total": 284,
     "started_at": "2026-11-15T08:14:15.880624+00:00",
-    "updated_at": "2026-11-25T07:33:45.243873+00:00",
+    "updated_at": "2026-11-25T12:23:44.717980+00:00",
     "paused": true,
     "skipped_no_original": [
       "2026|零模|北京二中|数学|",
@@ -5464,24 +5464,15 @@
         "sequence": 269,
         "subject": "物理",
         "output_dir": "parsed/物理/2026/三模/physics-2026-mock3-haidian-school-yilingyizhongxue.pdf",
-        "status": "blocked",
-        "retry_count": 2,
-        "started_at": "2026-11-24T23:16:45.294+00:00",
-        "updated_at": "2026-11-25T02:22:22.386+00:00",
-        "active_stage": "review_2",
-        "extraction_engine": "pdf_local",
-        "local_stats": {
-          "pages": 9,
-          "text_layer_pages": 1,
-          "ocr_pages": 8,
-          "figure_candidates": 32,
-          "table_candidates": 0,
-          "processing_s": 47.392
-        },
-        "active_log": "pipeline/runs/20261124_224320_native_34128/269/review_2.jsonl",
-        "model": "opencode-go/deepseek-v4.1-flash#high",
-        "active_pid": null,
+        "status": "verified",
+        "retry_count": 0,
+        "review_report": "pipeline/runs/20261125_124642_native_19832/269/review_0_result.json",
+        "review_result": "accept",
+        "resume_stage": "in_review",
         "extraction_session": "ses_defa9a36affekkiwLXI9XdNByA",
+        "review_session": "ses_dee891ab4ffe5Ey5uYaHTRhHR6",
+        "started_at": "2026-11-25T10:50:25.633940+00:00",
+        "updated_at": "2026-11-25T11:10:40.552406+00:00",
         "stats": {
           "paper": "E:\\gaokao-exam\\parsed\\物理\\2026\\三模\\physics-2026-mock3-haidian-school-yilingyizhongxue.pdf\\paper.json",
           "valid": true,
@@ -5490,13 +5481,15 @@
           "leaf_questions": 34,
           "materials": 3,
           "assets": 27,
-          "extraction_status": "needs_review"
+          "extraction_status": "verified"
         },
-        "resume_stage": "in_review",
-        "review_session": "ses_def8f74d2ffeFTx0ZChJ31x6fA",
-        "review_result": "reject",
-        "review_report": "pipeline/runs/20261124_224320_native_34128/269/review_2_result.json",
-        "blocked_reason": "Review rejected after maximum repairs"
+        "active_stage": "review_0",
+        "active_log": "pipeline/runs/20261125_185023/269/review_0.jsonl",
+        "model": "opencode/deepseek-v4.1-flash-free",
+        "active_pid": null,
+        "extraction_status": "verified",
+        "accepted_paper_sha256": "2f7d5d85d3fcea8a1d1415e6801af09fbb6fa2c4bd4482a6875f64e3cc5dacc9",
+        "completed_at": "2026-11-25T12:22:08.505431+00:00"
       },
       {
         "entry_key": "2026|三模|一零一中学|化学|三模",
@@ -5905,11 +5898,15 @@
         "sequence": 317,
         "subject": "物理",
         "output_dir": "parsed/物理/2026/三模/physics-2026-mock3-tongzhou.pdf",
-        "status": "blocked",
-        "retry_count": 0,
-        "resume_stage": "in_review",
-        "started_at": "2026-11-25T04:30:31.816+00:00",
-        "updated_at": "2026-11-25T04:38:11.454+00:00",
+        "status": "verified",
+        "retry_count": 1,
+        "review_report": "pipeline/runs/20261125_185023/317/review_0_result.json",
+        "review_result": "accept",
+        "resume_stage": "assigned",
+        "extraction_session": "ses_dee77bef2ffe30kO2yM23xeLKm",
+        "review_session": "ses_dedabd5f1ffedLANEboFpsaA9P",
+        "started_at": "2026-11-25T10:50:25.633940+00:00",
+        "updated_at": "2026-11-25T11:09:53.758314+00:00",
         "stats": {
           "paper": "E:\\gaokao-exam\\parsed\\物理\\2026\\三模\\physics-2026-mock3-tongzhou.pdf\\paper.json",
           "valid": true,
@@ -5918,16 +5915,24 @@
           "leaf_questions": 33,
           "materials": 2,
           "assets": 23,
-          "extraction_status": "draft"
+          "extraction_status": "verified"
         },
-        "active_stage": "review_0",
-        "active_log": "pipeline/runs/20261125_120525_native_16856/317/review_0.jsonl",
-        "model": "opencode-go/deepseek-v4.1-flash#high",
+        "active_stage": "extract_1",
+        "active_log": "pipeline/runs/20261125_185023/317/extract_1.jsonl",
+        "model": "opencode/deepseek-v4.1-flash-free",
         "active_pid": null,
-        "review_session": "ses_def07c12cffeufs1RY7YFY6Xb4",
-        "review_result": "unknown",
-        "review_report": "pipeline/runs/20261125_120525_native_16856/317/review_0_result.json",
-        "blocked_reason": "Independent review returned no explicit verdict: pipeline/runs/20261125_120525_native_16856/317/review_0_result.json"
+        "extraction_engine": "pdf_local",
+        "local_stats": {
+          "pages": 13,
+          "text_layer_pages": 12,
+          "ocr_pages": 1,
+          "figure_candidates": 24,
+          "table_candidates": 1,
+          "processing_s": 17.283
+        },
+        "extraction_status": "verified",
+        "accepted_paper_sha256": "03973710c50b559101465ea337937d2b6df3cde00aca65915b73783d52bd226f",
+        "completed_at": "2026-11-25T12:23:37.323481+00:00"
       },
       {
         "entry_key": "2026|三模|通州|地理|查漏补缺",
@@ -6044,24 +6049,15 @@
         "sequence": 329,
         "subject": "物理",
         "output_dir": "parsed/物理/2026/三模/physics-2026-mock3-daxing.pdf",
-        "status": "blocked",
-        "retry_count": 2,
-        "started_at": "2026-11-25T02:18:03.308+00:00",
-        "updated_at": "2026-11-25T03:59:17.066+00:00",
-        "active_stage": "review_2",
-        "extraction_engine": "pdf_local",
-        "local_stats": {
-          "pages": 14,
-          "text_layer_pages": 1,
-          "ocr_pages": 13,
-          "figure_candidates": 32,
-          "table_candidates": 2,
-          "processing_s": 91.71
-        },
-        "active_log": "pipeline/runs/20261124_224320_native_34128/329/review_2.jsonl",
-        "model": "opencode-go/deepseek-v4.1-flash#high",
-        "active_pid": null,
+        "status": "verified",
+        "retry_count": 1,
+        "review_report": "pipeline/runs/20261125_185023/329/review_0_result.json",
+        "review_result": "accept",
+        "resume_stage": "assigned",
         "extraction_session": "ses_def3ceabeffecJg3PAHGZ57tW0",
+        "review_session": "ses_dedabc075fferhD6SzTrjqPcoA",
+        "started_at": "2026-11-25T10:50:25.633940+00:00",
+        "updated_at": "2026-11-25T11:12:24.658753+00:00",
         "stats": {
           "paper": "E:\\gaokao-exam\\parsed\\物理\\2026\\三模\\physics-2026-mock3-daxing.pdf\\paper.json",
           "valid": true,
@@ -6070,13 +6066,24 @@
           "leaf_questions": 35,
           "materials": 0,
           "assets": 26,
-          "extraction_status": "needs_review"
+          "extraction_status": "verified"
         },
-        "resume_stage": "in_review",
-        "review_session": "ses_def349a76ffeQFFtCNejT9wkfT",
-        "review_result": "reject",
-        "review_report": "pipeline/runs/20261124_224320_native_34128/329/review_2_result.json",
-        "blocked_reason": "Review rejected after maximum repairs"
+        "active_stage": "extract_1",
+        "active_log": "pipeline/runs/20261125_185023/329/extract_1.jsonl",
+        "model": "opencode/deepseek-v4.1-flash-free",
+        "active_pid": null,
+        "extraction_engine": "pdf_local",
+        "local_stats": {
+          "pages": 14,
+          "text_layer_pages": 1,
+          "ocr_pages": 13,
+          "figure_candidates": 32,
+          "table_candidates": 2,
+          "processing_s": 65.878
+        },
+        "extraction_status": "verified",
+        "accepted_paper_sha256": "deeb4e1100847087298509980f088a36fe4c4c073ac9b7395cc86921e70f55f5",
+        "completed_at": "2026-11-25T12:03:44.774321+00:00"
       },
       {
         "entry_key": "2026|三模|北京精华学校|化学|三模",
@@ -6128,8 +6135,8 @@
       }
     ],
     "status_counts": {
-      "verified": 85,
-      "blocked": 6,
+      "verified": 88,
+      "blocked": 3,
       "paused": 10,
       "pending": 183
     },

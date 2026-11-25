@@ -17,7 +17,7 @@
     "page_count": 14
   },
   "extraction": {
-    "status": "needs_review",
+    "status": "verified",
     "tool": "local-hybrid-v1 (PP-OCRv5 + DocLayout-YOLO)；逐页目视校读",
     "notes": [
       "扫描件，正文由本地 OCR 提供后逐页对照原页目视校读；公式按原卷印刷转写。",
@@ -1029,7 +1029,17 @@
       "id": "q016",
       "label": "16",
       "type": "composite",
-      "stem": "某同学在实验室测量一段圆柱形导电材料的电阻率。",
+      "stem": [
+        "某同学在实验室测量一段圆柱形导电材料的电阻率。",
+        "已知圆柱形导电材料的电阻约为$6\\Omega$，除待测材料外，实验室备有的实验器材如下：",
+        "A.电源（电动势$E=4.0\\mathrm{V}$，内阻很小）",
+        "B.电压表$V_1$（$0\\sim3\\mathrm{V}$，内阻约$15\\mathrm{k}\\Omega$）",
+        "C.电压表$V_2$（$0\\sim15\\mathrm{V}$，内阻约$75\\mathrm{k}\\Omega$）",
+        "D.电流表$A_1$（$0\\sim0.6\\mathrm{A}$，内阻$r_A=2\\Omega$）",
+        "E.电流表$A_2$（$0\\sim3\\mathrm{A}$，内阻约$0.1\\Omega$）",
+        "F.滑动变阻器$R$（$0\\sim30\\Omega$）",
+        "G.开关、导线若干"
+      ],
       "score": 10,
       "pages": [
         7,
@@ -1064,14 +1074,6 @@
             7
           ],
           "stem": [
-            "已知圆柱形导电材料的电阻约为$6\\Omega$，除待测材料外，实验室备有的实验器材如下：",
-            "A.电源（电动势$E=4.0\\mathrm{V}$，内阻很小）",
-            "B.电压表$V_1$（$0\\sim3\\mathrm{V}$，内阻约$15\\mathrm{k}\\Omega$）",
-            "C.电压表$V_2$（$0\\sim15\\mathrm{V}$，内阻约$75\\mathrm{k}\\Omega$）",
-            "D.电流表$A_1$（$0\\sim0.6\\mathrm{A}$，内阻$r_A=2\\Omega$）",
-            "E.电流表$A_2$（$0\\sim3\\mathrm{A}$，内阻约$0.1\\Omega$）",
-            "F.滑动变阻器$R$（$0\\sim30\\Omega$）",
-            "G.开关、导线若干",
             "为了调节方便，测量准确，实验中电压表应选________，电流表应选________。（均填写各器材前的字母代号）"
           ],
           "answer": {
@@ -1107,7 +1109,12 @@
             7,
             8
           ],
-          "stem": "根据电路图测得多组电压表和电流表的示数$U$、$I$，作$U-I$图像，得到图像的斜率为$k$，若实验所用导电材料的长为$L$，横截面直径为$D$，则得到圆柱形导电材料的电阻率$\\rho=$________（用$k$、$L$、$D$表示）。",
+          "stem": [
+            "根据电路图测得多组电压表和电流表的示数$U$、$I$，作$U-I$图像，得到图像的斜率为$k$，若实验所用导电材料的长为$L$，横截面直径为$D$，则得到圆柱形导电材料的电阻率$\\rho=$________（用$k$、$L$、$D$表示）。",
+            {
+              "asset": "a_s01_p007_f03"
+            }
+          ],
           "answer": {
             "source": "question_document",
             "content": "$\\frac{\\pi kD^2}{4L}$"
@@ -1449,7 +1456,12 @@
             "source": "question_document",
             "content": "$F=\\frac{1}{2}\\sqrt{2kMEeL^2}$"
           },
-          "analysis": "上图图线与横轴所夹图形面积代表推力，所以推进器所受的推力$F=\\frac{1}{2}\\times\\sqrt{2kMEeL}\\times L=\\frac{1}{2}\\sqrt{2kMEeL^2}$------2分"
+          "analysis": [
+            {
+              "asset": "a_s01_p013_f01"
+            },
+            "上图图线与横轴所夹图形面积代表推力，所以推进器所受的推力$F=\\frac{1}{2}\\times\\sqrt{2kMEeL}\\times L=\\frac{1}{2}\\sqrt{2kMEeL^2}$------2分"
+          ]
         }
       ]
     }
